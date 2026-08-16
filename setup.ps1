@@ -91,10 +91,10 @@ if (-not $Update) {
   Write-Host ''
   Write-Host 'OpenCode is a coding agent you run from a terminal (or its desktop app).'
   Write-Host 'It reads this workspace, can see files, and writes code for you.'
-  $engineChoice = AskChoice 'Which agent do you want to use?', @(
+  $engineChoice = AskChoice -prompt 'Which agent do you want to use?' -options @(
     'OpenCode (recommended - works with cheap models and is guided by this repo)',
     'Codex inside the ChatGPT desktop app (needs a ChatGPT account; simpler chat, less automation)'
-  ), 1
+  ) -defaultIndex 1
   $useOpenCode = ($engineChoice -eq 1)
 
   $useVisionModel = $true
@@ -102,10 +102,10 @@ if (-not $Update) {
     if (Test-Command 'opencode') {
       Write-Host 'OpenCode CLI found.'
     } else {
-      $install = AskChoice 'OpenCode is not installed. Install it now with npm?', @(
+      $install = AskChoice -prompt 'OpenCode is not installed. Install it now with npm?' -options @(
         'Yes, install OpenCode globally (recommended)',
         'No, I will install it myself later'
-      ), 1
+      ) -defaultIndex 1
       if ($install -eq 1) {
         Write-Host 'Installing OpenCode...'
         npm install -g opencode-ai
@@ -113,10 +113,10 @@ if (-not $Update) {
       }
     }
 
-    $modelChoice = AskChoice 'Which model should OpenCode use?', @(
+    $modelChoice = AskChoice -prompt 'Which model should OpenCode use?' -options @(
       'Luna (a vision model) - the agent looks at screenshots itself',
       'DeepSeek (very cheap and fast, text only) - the repo adds ModLens so it can still "see" screenshots'
-    ), 1
+    ) -defaultIndex 1
     $useVisionModel = ($modelChoice -eq 1)
   } else {
     Write-Host 'Codex in the ChatGPT app can see images by default. No extra vision setup needed.'
@@ -127,11 +127,11 @@ if (-not $Update) {
     Write-Host ''
     Write-Host 'ModLens is a helper that describes images to text-only models, so the agent'
     Write-Host 'can still work with screenshots. It needs one vision provider:'
-    $modlensChoice = AskChoice 'Which ModLens provider?', @(
+    $modlensChoice = AskChoice -prompt 'Which ModLens provider?' -options @(
       'Gemini free API key (fast, free, takes 3 minutes to create)',
       'Antigravity CLI (free, no key, one-time Google sign-in)',
       'Skip for now (vision features will fail until configured)'
-    ), 1
+    ) -defaultIndex 1
     $modlensProvider = @('gemini-api', 'antigravity-cli', '')[$modlensChoice - 1]
     if (-not (Test-Command 'modlens')) {
       Write-Host 'ModLens CLI not found. It runs through npx when needed:'
@@ -152,17 +152,17 @@ if (-not $Update) {
   Write-Section 'Step 4 of 5 - Your project'
 
   $appName = Ask 'App name' (Split-Path $repo -Leaf)
-  $modeChoice = AskChoice 'Is the app already built, or starting from zero?', @(
+  $modeChoice = AskChoice -prompt 'Is the app already built, or starting from zero?' -options @(
     'Existing app - I already have code',
     'New app - starting from scratch'
-  ), 1
+  ) -defaultIndex 1
   $greenfield = ($modeChoice -eq 2)
-  $platformChoice = AskChoice 'What platform is the app?', @(
+  $platformChoice = AskChoice -prompt 'What platform is the app?' -options @(
     'Web app / PWA (works offline, installable)',
     'iOS (native or hybrid)',
     'Android (native or hybrid)',
     'Cross-platform (responsive web + mobile)'
-  ), 1
+  ) -defaultIndex 1
   $platform = @('web-pwa', 'ios', 'android', 'cross-platform')[$platformChoice - 1]
   $mobbinPlatform = switch ($platform) {
     'web-pwa' { 'web' }
@@ -172,11 +172,11 @@ if (-not $Update) {
   }
 
   if ($greenfield) {
-    $stackChoice = AskChoice 'What stack will the new app use?', @(
+    $stackChoice = AskChoice -prompt 'What stack will the new app use?' -options @(
       'Vue (recommended for web/PWA)',
       'React',
       'Not decided yet'
-    ), 1
+    ) -defaultIndex 1
     $stack = @('Vue', 'React', 'Undecided')[$stackChoice - 1]
     $appRepoPath = ''
   } else {
@@ -212,11 +212,11 @@ if (-not $Update) {
   Write-Host ''
   Write-Host 'Every app needs design rules and visual styles. You can bring your own, or let'
   Write-Host 'this repository apply a complete, up-to-date design system for you.'
-  $designChoice = AskChoice 'How should the design system work?', @(
+  $designChoice = AskChoice -prompt 'How should the design system work?' -options @(
     'My app already has a design system - import its tokens and rules',
     'Let this repo own it - adopt the built-in Design Foundation (recommended for new apps)',
     'Import my tokens, but apply the Design Foundation rules on top'
-  ), 2
+  ) -defaultIndex 2
   $designOwnership = @('project', 'foundation', 'hybrid')[$designChoice - 1]
 
   # ---------------------------------------------------------------- tokens
