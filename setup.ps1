@@ -363,7 +363,14 @@ $registryDir = Join-Path $env:USERPROFILE '.config\research-mockup'
 $registryFile = Join-Path $registryDir 'instances.json'
 $instances = @()
 if (Test-Path -LiteralPath $registryFile) {
-  try { $instances = @(Get-Content -Raw -LiteralPath $registryFile -Encoding UTF8 | ConvertFrom-Json) } catch { $instances = @() }
+  try {
+    $parsed = Get-Content -Raw -LiteralPath $registryFile -Encoding UTF8 | ConvertFrom-Json
+    if ($null -ne $parsed) {
+      if ($parsed -is [array]) { $instances = @($parsed) }
+      elseif ($parsed.PSObject.Properties['value']) { $instances = @($parsed.value) }
+      else { $instances = @($parsed) }
+    }
+  } catch { $instances = @() }
 }
 $entry = [PSCustomObject]@{
   name = $choices.appName
@@ -376,7 +383,10 @@ $instances = @($instances | Where-Object {
   $_.instancePath -ne $entry.instancePath -and $_.appRepoPath -ne $entry.appRepoPath
 }) + $entry
 New-Item -ItemType Directory -Force -Path $registryDir | Out-Null
-Write-Utf8NoBom $registryFile (($instances | Sort-Object name | ConvertTo-Json -Depth 4))
+$items = @($instances | Sort-Object name)
+$json = ($items | ConvertTo-Json -Depth 4)
+if ($items.Count -eq 1) { $json = '[' + $json + ']' }
+Write-Utf8NoBom $registryFile $json
 Write-Host "Registered project: $($choices.appName)"
 
 # ---------------------------------------------------------------- self test
