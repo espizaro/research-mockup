@@ -228,9 +228,11 @@ if (-not $Update) {
     'src/theme/tokens.css',
     'src/core/theming/theme.css'
   )
-  foreach ($rel in $tokenCandidates) {
-    $candidate = Join-Path $appRepoPath $rel
-    if (Test-Path -LiteralPath $candidate) { $tokensSource = $candidate; break }
+  if (-not $greenfield -and $appRepoPath) {
+    foreach ($rel in $tokenCandidates) {
+      $candidate = Join-Path $appRepoPath $rel
+      if (Test-Path -LiteralPath $candidate) { $tokensSource = $candidate; break }
+    }
   }
 
   # ---------------------------------------------------------------- persist
