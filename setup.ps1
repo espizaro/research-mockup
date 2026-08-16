@@ -422,18 +422,12 @@ Write-Host 'To switch apps, open a session in that app folder instead.'
 Write-Host ''
 
 if ($choices.useOpenCode) {
-  Write-Host "Start OpenCode from this folder and paste:`n"
+  Write-Host 'Open the OpenCode desktop app (Windows), open this folder as your project, and paste:'
+  Write-Host ''
   Write-Host "  Use the `$research-mockup skill to research a feature in $($choices.appName):"
   Write-Host '  domain and concept first, Mobbin research, proposal, then a mockup in the studio.'
   Write-Host ''
-  Write-Host 'Command line alternative:'
-  Write-Host "  cd `"$repo`""
-  Write-Host '  opencode run "Use the research-mockup skill to research <feature>: domain and'
-  Write-Host '  concept, Mobbin research, proposal, then a mockup in the studio."'
-  $launcher = Join-Path $repo 'Start Research Mockup.cmd'
-  Set-Content -LiteralPath $launcher -Value "@echo off`r`ncd /d `"$repo`"`r`nopencode`r`n" -Encoding ASCII
-  Write-Host ''
-  Write-Host 'A launcher was created: Start Research Mockup.cmd (double-click to open OpenCode here).'
+  Write-Host 'No @ or $ prefix is needed - OpenCode discovers the skill automatically in this folder.'
 } else {
   Write-Host 'Open the ChatGPT desktop app, open this folder, and paste:'
   Write-Host ''
