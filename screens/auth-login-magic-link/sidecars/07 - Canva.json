@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Canva",
+    "platform": "ios",
+    "file_path": "screens/auth-login-magic-link/07 - Canva.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:28.613Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login verification screen",
+    "primary_flow": "auth-login-magic-link",
+    "ux_intent": "User authentication via verification code",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No decorative illustrations present.",
+      "Uses a primary purple button for focus.",
+      "Layout is centered and vertically stacked.",
+      "Includes Google brand logo for social authentication."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Uses a primary purple button for focus."
+    ],
+    "content_blocks": [
+      "Email",
+      "Primary Action",
+      "Secondary Action",
+      "Resend Timer"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface, clean typography, high contrast, standard iOS system status bar design",
+      "white",
+      "purple",
+      "gray",
+      "No decorative illustrations present.",
+      "Uses a primary purple button for focus.",
+      "Layout is centered and vertically stacked.",
+      "Includes Google brand logo for social authentication."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface, clean typography, high contrast, standard iOS system status bar design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_magic_link_07"
+}

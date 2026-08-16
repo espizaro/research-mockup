@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Bluesky Social",
+    "platform": "ios",
+    "file_path": "screens/password-recovery/04 - Bluesky Social.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:23.627Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Password reset flow on a mobile application.",
+    "primary_flow": "password-recovery",
+    "ux_intent": "User is initiating a password recovery process by confirming their email address associated with the hosting provider.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Standard iOS status bar header.",
+      "Clear visual hierarchy with a bold title, helper labels, and a primary CTA button.",
+      "No hero illustrations; the focus is entirely functional.",
+      "The layout follows standard mobile form design patterns.",
+      "The 'Next' button uses a high-contrast blue background, while 'Back' uses a neutral background."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Primary CTA Button",
+      "Clear visual hierarchy with a bold title, helper labels, and a primary CTA button.",
+      "The 'Next' button uses a high-contrast blue background, while 'Back' uses a neutral background."
+    ],
+    "content_blocks": [
+      "Bluesky Social",
+      "Mobbin",
+      "alexsmith.mobbin@gmail.com"
+    ],
+    "visual_keywords": [
+      "Minimalist, modern mobile UI",
+      "white",
+      "blue",
+      "grey",
+      "Standard iOS status bar header.",
+      "Clear visual hierarchy with a bold title, helper labels, and a primary CTA button.",
+      "No hero illustrations; the focus is entirely functional.",
+      "The layout follows standard mobile form design patterns.",
+      "The 'Next' button uses a high-contrast blue background, while 'Back' uses a neutral background."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, modern mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_password_recovery_04"
+}

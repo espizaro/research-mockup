@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Check",
+    "platform": "ios",
+    "file_path": "screens/auth-login-illustrated/06 - Check.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:10.894Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication screen",
+    "primary_flow": "auth-login-illustrated",
+    "ux_intent": "User registration or login flow",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "Hero illustration serves to explain the service (micromobility)",
+      "Minimalist design with bold typography",
+      "The illustration is placed centrally, acting as the visual anchor",
+      "The style is clean and geometric with soft curves"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "CHECK",
+      "Sign in with Apple",
+      "New account",
+      "Log in"
+    ],
+    "visual_keywords": [
+      "Modern flat 2D character illustration",
+      "purple",
+      "white",
+      "black",
+      "grey",
+      "green",
+      "Hero illustration serves to explain the service (micromobility)",
+      "Minimalist design with bold typography",
+      "The illustration is placed centrally, acting as the visual anchor",
+      "The style is clean and geometric with soft curves"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern flat 2D character illustration"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_illustrated_06"
+}

@@ -1,0 +1,60 @@
+{
+  "identification": {
+    "app_name": "WRITER",
+    "platform": "web",
+    "file_path": "screens/auth-login-desktop/08 - WRITER.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:51.909Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login and onboarding landing page",
+    "primary_flow": "auth-login-desktop",
+    "ux_intent": "User authentication and product marketing",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Hero illustration is an abstract geometric node-flow diagram using service icons like Google Drive, Slack, and Snowflake.",
+      "The right-hand panel uses a dark gradient background contrasting with the light left side.",
+      "Typography is sans-serif, clean, and highly legible.",
+      "The UI uses soft shadows and rounded corners on input fields and buttons.",
+      "Accessibility: High contrast on login button, clear labels on input fields."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The UI uses soft shadows and rounded corners on input fields and buttons.",
+      "Accessibility: High contrast on login button, clear labels on input fields."
+    ],
+    "content_blocks": [
+      "Writer",
+      "Writer Agent",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern, clean, corporate, high-contrast, professional",
+      "white",
+      "dark purple",
+      "black",
+      "blue",
+      "Hero illustration is an abstract geometric node-flow diagram using service icons like Google Drive, Slack, and Snowflake.",
+      "The right-hand panel uses a dark gradient background contrasting with the light left side.",
+      "Typography is sans-serif, clean, and highly legible.",
+      "The UI uses soft shadows and rounded corners on input fields and buttons.",
+      "Accessibility: High contrast on login button, clear labels on input fields."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern, clean, corporate, high-contrast, professional"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_desktop_08"
+}

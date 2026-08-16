@@ -1,0 +1,9 @@
+node_modules/
+instance/.env
+instance/choices.json
+instance/*.local.*
+data/registry-dedupe.json
+core/tools/.tmp-*.json
+.agents/
+Thumbs.db
+.DS_Store

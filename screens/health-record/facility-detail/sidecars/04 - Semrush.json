@@ -1,0 +1,233 @@
+{
+  "image": "04 - Semrush.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This image is a profile page for a digital marketing agency named 'iLocalHero' on a business directory website, showing company details, methodology, services, and a contact module.",
+    "ocr": {
+      "full_text": "Browse Agencies For Agencies FAQ Get Matched EN Home Digital Agencies Agencies In United States Agencies In Illinois Agencies In Chicago iLocalHero iLocalHero Data-Led Growth. Real Strategy. Real Revenue. 47 reviews 5 Chicago, Illinois, United States 10-49 2020 iLocalHero is a holistic digital growth agency that moves beyond \"vanity metrics\" to drive real revenue. We do not just \"do SEO.\" We build scalable marketing systems that create consistency and reliability for your business. We analyze your entire digital footprint to identify exactly which levers will drive the most growth. By integrating enterprise-level data visualization with custom event tracking, we provide a level of clarity and strategy usually reserved for Fortune 500 companies. Our \"Growth-Mesh\" Methodology: Holistic Strategy: We analyze your complete online presence to identify high-value opportunities. By aligning your strategy across all channels, we focus on driving qualified traffic and building a reputation that positions you as the market leader. Full-Funnel Engagement: We support every stage of the buyer's journey. From creating educational content that targets people early in their research to generating high-value assets that qualify and convert leads, we ensure you capture demand at every level. Advanced Data Analytics: We go beyond basic reporting. We build custom Looker Studio dashboards backed by granular event tracking. This gives you a transparent, real-time view of your ROI and proves exactly where your leads originate. Technical Sophistication: From site architecture to schema markup, we build the technical foundation that allows your content to rank in modern search engines and convert visitors into clients. Our Core Capabilities: Search Engine Optimization (SEO): Comprehensive strategies designed to adapt to the changing search landscape. Paid Media (PPC): As a Google Partner, we manage high-efficiency campaigns that lower your cost-per-acquisition. Contact Agency Schedule call Add to Favorites Fill out contact form It takes about 3 minutes. Semrush curated by Mobbin",
+      "lines": [
+        {
+          "text": "Browse Agencies For Agencies FAQ Get Matched EN"
+        },
+        {
+          "text": "Home > Digital Agencies > Agencies In United States > Agencies In Illinois > Agencies In Chicago > iLocalHero"
+        },
+        {
+          "text": "iLocalHero"
+        },
+        {
+          "text": "Data-Led Growth. Real Strategy. Real Revenue."
+        },
+        {
+          "text": "47 reviews 5"
+        },
+        {
+          "text": "Chicago, Illinois, United States 10-49 2020"
+        },
+        {
+          "text": "iLocalHero is a holistic digital growth agency that moves beyond \"vanity metrics\" to drive real revenue."
+        },
+        {
+          "text": "We do not just \"do SEO.\" We build scalable marketing systems that create consistency and"
+        },
+        {
+          "text": "reliability for your business. We analyze your entire digital footprint to identify exactly which levers"
+        },
+        {
+          "text": "will drive the most growth. By integrating enterprise-level data visualization with custom event"
+        },
+        {
+          "text": "tracking, we provide a level of clarity and strategy usually reserved for Fortune 500 companies."
+        },
+        {
+          "text": "Our \"Growth-Mesh\" Methodology:"
+        },
+        {
+          "text": "Holistic Strategy: We analyze your complete online presence to identify high-value"
+        },
+        {
+          "text": "opportunities. By aligning your strategy across all channels, we focus on driving qualified traffic"
+        },
+        {
+          "text": "and building a reputation that positions you as the market leader."
+        },
+        {
+          "text": "Full-Funnel Engagement: We support every stage of the buyer's journey. From creating"
+        },
+        {
+          "text": "educational content that targets people early in their research to generating high-value assets"
+        },
+        {
+          "text": "that qualify and convert leads, we ensure you capture demand at every level."
+        },
+        {
+          "text": "Advanced Data Analytics: We go beyond basic reporting. We build custom Looker Studio"
+        },
+        {
+          "text": "dashboards backed by granular event tracking. This gives you a transparent, real-time view of"
+        },
+        {
+          "text": "your ROI and proves exactly where your leads originate."
+        },
+        {
+          "text": "Technical Sophistication: From site architecture to schema markup, we build the technical"
+        },
+        {
+          "text": "foundation that allows your content to rank in modern search engines and convert visitors into"
+        },
+        {
+          "text": "clients."
+        },
+        {
+          "text": "Our Core Capabilities:"
+        },
+        {
+          "text": "Search Engine Optimization (SEO): Comprehensive strategies designed to adapt to the"
+        },
+        {
+          "text": "changing search landscape."
+        },
+        {
+          "text": "Paid Media (PPC): As a Google Partner, we manage high-efficiency campaigns that lower your"
+        },
+        {
+          "text": "cost-per-acquisition."
+        },
+        {
+          "text": "Contact Agency"
+        },
+        {
+          "text": "Schedule call"
+        },
+        {
+          "text": "Add to Favorites"
+        },
+        {
+          "text": "Fill out contact form"
+        },
+        {
+          "text": "It takes about 3 minutes."
+        },
+        {
+          "text": "Semrush curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "iLocalHero"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Data-Led Growth. Real Strategy. Real Revenue."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "iLocalHero is a holistic digital growth agency that moves beyond \"vanity metrics\" to drive real revenue. We do not just \"do SEO.\" We build scalable marketing systems that create consistency and reliability for your business. We analyze your entire digital footprint to identify exactly which levers will drive the most growth. By integrating enterprise-level data visualization with custom event tracking, we provide a level of clarity and strategy usually reserved for Fortune 500 companies."
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Our \"Growth-Mesh\" Methodology: Holistic Strategy... Full-Funnel Engagement... Advanced Data Analytics... Technical Sophistication..."
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Our Core Capabilities: Search Engine Optimization (SEO)... Paid Media (PPC)..."
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Contact Agency. Schedule call. Add to Favorites. Fill out contact form. It takes about 3 minutes."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Company profile page on a digital marketing directory platform.",
+      "intent": "To provide details about the digital agency iLocalHero to potential clients and encourage them to contact the agency.",
+      "entities": [
+        {
+          "name": "iLocalHero",
+          "type": "Company",
+          "evidence": "Header text identifying the agency"
+        },
+        {
+          "name": "Chicago, Illinois",
+          "type": "Location",
+          "evidence": "Listed location under agency name"
+        },
+        {
+          "name": "Looker Studio",
+          "type": "Software",
+          "evidence": "Mentioned in the methodology section"
+        },
+        {
+          "name": "Google",
+          "type": "Company",
+          "evidence": "Mentioned in context of Google Partner status"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "iLocalHero",
+          "predicate": "is located in",
+          "object": "Chicago, Illinois"
+        },
+        {
+          "subject": "iLocalHero",
+          "predicate": "offers",
+          "object": "SEO"
+        },
+        {
+          "subject": "iLocalHero",
+          "predicate": "offers",
+          "object": "Paid Media (PPC)"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "orange",
+        "grey",
+        "black"
+      ],
+      "style": "Corporate website layout",
+      "notes": [
+        "Clean, minimalist UI",
+        "Clear visual hierarchy",
+        "Card-based layout for contact section"
+      ]
+    },
+    "uncertainty": [
+      "The image text truncates after 'cost-per-acquisition' in the 'Paid Media (PPC)' section."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:08.867Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 10.294,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1770,
+      "totalTokenCount": 2977,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

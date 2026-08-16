@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Realtor.com",
+    "platform": "ios",
+    "file_path": "screens/password-recovery/05 - Realtor.com.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:26.725Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication flow: Forgot Password page.",
+    "primary_flow": "password-recovery",
+    "ux_intent": "User is attempting to reset their account password by providing their registered email address.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "No hero illustrations present.",
+      "High contrast for the CTA button.",
+      "Uses clear typography hierarchy.",
+      "Layout is vertically oriented."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "High contrast for the CTA button."
+    ],
+    "content_blocks": [
+      "Angi",
+      "Email Input",
+      "Send reset link"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, standard mobile UI design system.",
+      "white",
+      "red",
+      "teal",
+      "No hero illustrations present.",
+      "High contrast for the CTA button.",
+      "Uses clear typography hierarchy.",
+      "Layout is vertically oriented."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, standard mobile UI design system."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_password_recovery_05"
+}

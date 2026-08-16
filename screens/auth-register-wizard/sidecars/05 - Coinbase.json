@@ -1,0 +1,61 @@
+{
+  "identification": {
+    "app_name": "Coinbase",
+    "platform": "ios",
+    "file_path": "screens/auth-register-wizard/05 - Coinbase.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:06.146Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account onboarding and verification screen.",
+    "primary_flow": "auth-register-wizard",
+    "ux_intent": "To guide the user through personal account verification requirements and capture user consent for legal agreements before final submission.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "Stepper",
+      "Checkbox",
+      "Abstract geometric illustration at the top (circle and triangle).",
+      "Progressive disclosure via a vertical stepper.",
+      "Clear visual hierarchy using font weight and color for the title.",
+      "Primary call-to-action is a prominent blue pill-shaped button."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Stepper",
+      "Checkbox",
+      "Primary call-to-action is a prominent blue pill-shaped button."
+    ],
+    "content_blocks": [
+      "Coinbase",
+      "Regulatory Disclosures",
+      "User Agreement",
+      "Privacy Policy"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, mobile-native UI with high-contrast accent colors for call-to-action buttons.",
+      "white",
+      "blue",
+      "grey",
+      "Abstract geometric illustration at the top (circle and triangle).",
+      "Progressive disclosure via a vertical stepper.",
+      "Clear visual hierarchy using font weight and color for the title.",
+      "Primary call-to-action is a prominent blue pill-shaped button."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, mobile-native UI with high-contrast accent colors for call-to-action buttons."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_wizard_05"
+}

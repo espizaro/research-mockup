@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Posh",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-tour/07 - Posh.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:44.802Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen tutorial in a mobile application.",
+    "primary_flow": "auth-onboarding-tour",
+    "ux_intent": "To educate the user on how to access and start using the In-Person Payments feature.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Dark Mode",
+      "Minimalist",
+      "Carousel",
+      "Hero image is a realistic mobile device mockup centered in the upper portion.",
+      "Uses white text on black background for high contrast.",
+      "Carousel dots indicate a 4-step process.",
+      "Design system appears consistent, focusing on clarity and instructional guidance."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Posh",
+      "In-Person Payments",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, high-contrast dark mode UI.",
+      "black",
+      "white",
+      "grey",
+      "Hero image is a realistic mobile device mockup centered in the upper portion.",
+      "Uses white text on black background for high contrast.",
+      "Carousel dots indicate a 4-step process.",
+      "Design system appears consistent, focusing on clarity and instructional guidance."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, high-contrast dark mode UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_tour_07"
+}

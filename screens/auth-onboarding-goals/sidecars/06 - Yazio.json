@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Yazio",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-goals/06 - Yazio.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:59.391Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile onboarding survey screen for a health and fitness app.",
+    "primary_flow": "auth-onboarding-goals",
+    "ux_intent": "To collect user health goals to personalize their experience.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "Radio",
+      "The UI consists of a large headline, a multi-option select list (likely radio buttons), and a bottom-aligned primary call-to-action button.",
+      "The progress indicator is at the top.",
+      "No hero illustrations present.",
+      "High contrast usage between white background and black text.",
+      "Button 'Next' is currently in a disabled state (low contrast)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The UI consists of a large headline, a multi-option select list (likely radio buttons), and a bottom-aligned primary call-to-action button.",
+      "Button 'Next' is currently in a disabled state (low contrast)."
+    ],
+    "content_blocks": [
+      "Yazio",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern UI.",
+      "white",
+      "black",
+      "light-grey",
+      "green",
+      "The UI consists of a large headline, a multi-option select list (likely radio buttons), and a bottom-aligned primary call-to-action button.",
+      "The progress indicator is at the top.",
+      "No hero illustrations present.",
+      "High contrast usage between white background and black text.",
+      "Button 'Next' is currently in a disabled state (low contrast)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_goals_06"
+}

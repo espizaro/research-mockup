@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Peerspace",
+    "platform": "ios",
+    "file_path": "screens/login-email/07 - Peerspace.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:00.551Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen for a mobile application",
+    "primary_flow": "login-email",
+    "ux_intent": "User authentication and account access",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustration or decorative art present; content is purely functional.",
+      "Primary CTA button uses a distinct brand-specific purple color.",
+      "Hierarchy follows standard mobile sign-in patterns: social auth first, credential fields second, secondary navigation below."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Primary CTA Button",
+      "Primary CTA button uses a distinct brand-specific purple color.",
+      "Hierarchy follows standard mobile sign-in patterns: social auth first, credential fields second, secondary navigation below."
+    ],
+    "content_blocks": [
+      "Apple",
+      "Google",
+      "Facebook",
+      "Peerspace",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, mobile-native UI",
+      "hex FFFFFF",
+      "hex 000000",
+      "hex 7B55E8",
+      "No hero illustration or decorative art present; content is purely functional.",
+      "Primary CTA button uses a distinct brand-specific purple color.",
+      "Hierarchy follows standard mobile sign-in patterns: social auth first, credential fields second, secondary navigation below."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, mobile-native UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_email_07"
+}

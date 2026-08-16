@@ -1,0 +1,190 @@
+{
+  "image": "06 - Cal AI.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app interface for a health and nutrition tracker, displaying a daily health score, recent food logs, and exercise activities.",
+    "ocr": {
+      "full_text": "9:41 Health Score 7/10 Your calories, carbs, and fats are below goals; focus on increasing protein for effective weight gain. Great job maintaining low sugar... Recently uploaded Greek Yogurt 10:36 PM 220 calories 23g 14g 9g Weight lifting 10:35 PM 132 calories Intensity: Medium 30 Mins Fried Chicken... 10:10 PM 988 calories 54g 39g 60g Home Progress Settings Cal AI curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Health Score"
+        },
+        {
+          "text": "7/10"
+        },
+        {
+          "text": "Your calories, carbs, and fats are below goals;"
+        },
+        {
+          "text": "focus on increasing protein for effective"
+        },
+        {
+          "text": "weight gain. Great job maintaining low sugar..."
+        },
+        {
+          "text": "Recently uploaded"
+        },
+        {
+          "text": "Greek Yogurt"
+        },
+        {
+          "text": "10:36 PM"
+        },
+        {
+          "text": "220 calories"
+        },
+        {
+          "text": "23g 14g 9g"
+        },
+        {
+          "text": "Weight lifting"
+        },
+        {
+          "text": "10:35 PM"
+        },
+        {
+          "text": "132 calories"
+        },
+        {
+          "text": "Intensity: Medium 30 Mins"
+        },
+        {
+          "text": "Fried Chicken..."
+        },
+        {
+          "text": "10:10 PM"
+        },
+        {
+          "text": "988 calories"
+        },
+        {
+          "text": "54g 39g 60g"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Progress"
+        },
+        {
+          "text": "Settings"
+        },
+        {
+          "text": "Cal AI"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Health Score 7/10 Your calories, carbs, and fats are below goals; focus on increasing protein for effective weight gain. Great job maintaining low sugar..."
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Recently uploaded"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Greek Yogurt 10:36 PM 220 calories 23g 14g 9g"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Weight lifting 10:35 PM 132 calories Intensity: Medium 30 Mins"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Fried Chicken... 10:10 PM 988 calories 54g 39g 60g"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app dashboard for nutrition and fitness tracking.",
+      "intent": "To provide a summary of health progress and show recent activity and dietary intake logs.",
+      "entities": [
+        {
+          "name": "Greek Yogurt",
+          "type": "Food Item"
+        },
+        {
+          "name": "Weight lifting",
+          "type": "Exercise"
+        },
+        {
+          "name": "Fried Chicken",
+          "type": "Food Item"
+        },
+        {
+          "name": "Cal AI",
+          "type": "Application Name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "logs",
+          "object": "Greek Yogurt"
+        },
+        {
+          "subject": "User",
+          "predicate": "logs",
+          "object": "Weight lifting"
+        },
+        {
+          "subject": "User",
+          "predicate": "logs",
+          "object": "Fried Chicken"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "black"
+      ],
+      "style": "Modern minimalist UI",
+      "notes": [
+        "Progress bar present for Health Score",
+        "Icons used for nutrition metrics"
+      ]
+    },
+    "uncertainty": [
+      "The full text after 'low sugar...' is truncated",
+      "The full text after 'Fried Chicken...' is truncated"
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:03.235Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.497,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1043,
+      "totalTokenCount": 2270,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

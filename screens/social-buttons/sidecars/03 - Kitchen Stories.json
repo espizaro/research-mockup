@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Kitchen Stories",
+    "platform": "ios",
+    "file_path": "screens/social-buttons/03 - Kitchen Stories.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:18.624Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen of a mobile application",
+    "primary_flow": "social-buttons",
+    "ux_intent": "Authenticating a user to their existing account",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Toggle",
+      "No hero illustrations present; the screen is functional and text-focused.",
+      "High contrast text against a clean white background.",
+      "Interactive elements are clearly defined by buttons and input outlines.",
+      "Accessibility: Password toggle icon is provided."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Interactive elements are clearly defined by buttons and input outlines."
+    ],
+    "content_blocks": [
+      "Google",
+      "Facebook",
+      "Apple",
+      "Kitchen Stories",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern UI",
+      "white",
+      "dark green",
+      "black",
+      "light orange",
+      "No hero illustrations present; the screen is functional and text-focused.",
+      "High contrast text against a clean white background.",
+      "Interactive elements are clearly defined by buttons and input outlines.",
+      "Accessibility: Password toggle icon is provided."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_social_buttons_03"
+}

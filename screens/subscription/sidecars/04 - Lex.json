@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Lex",
+    "platform": "ios",
+    "file_path": "screens/subscription/04 - Lex.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:44.622Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app subscription paywall",
+    "primary_flow": "subscription",
+    "ux_intent": "Persuade the user to subscribe to Lex Plus",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Card",
+      "Uses icons of a flame, a water drop, and a clover for subscription plans",
+      "Green checkmarks for feature lists"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Lex Plus",
+      "1 Week",
+      "1 Month",
+      "3 Months"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, vibrant color accents",
+      "white",
+      "black",
+      "yellow",
+      "pink",
+      "green",
+      "blue",
+      "Uses icons of a flame, a water drop, and a clover for subscription plans",
+      "Green checkmarks for feature lists"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, vibrant color accents"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_subscription_04"
+}

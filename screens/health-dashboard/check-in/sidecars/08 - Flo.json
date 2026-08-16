@@ -1,0 +1,219 @@
+{
+  "image": "08 - Flo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile app interface screen from the Flo period tracker, showing a user log entry page for 'Today' (cycle day 18) with sections for feeling tracking and sexual activity categories.",
+    "ocr": {
+      "full_text": "9:41 Today Cycle day 18 Search What are you feeling today? Creamy Calm Cravings Fatigue Categories Edit Sex and sex drive Didn't have sex Protected sex Unprotected sex Oral sex Anal sex Masturbation Sensual touch Sex toys Orgasm High sex drive Neutral sex drive Low sex drive Apply Mood Calm Happy Energetic Flo curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Cycle day 18"
+        },
+        {
+          "text": "Search"
+        },
+        {
+          "text": "What are you feeling today?"
+        },
+        {
+          "text": "Creamy"
+        },
+        {
+          "text": "Calm"
+        },
+        {
+          "text": "Cravings"
+        },
+        {
+          "text": "Fatigue"
+        },
+        {
+          "text": "Categories"
+        },
+        {
+          "text": "Edit"
+        },
+        {
+          "text": "Sex and sex drive"
+        },
+        {
+          "text": "Didn't have sex"
+        },
+        {
+          "text": "Protected sex"
+        },
+        {
+          "text": "Unprotected sex"
+        },
+        {
+          "text": "Oral sex"
+        },
+        {
+          "text": "Anal sex"
+        },
+        {
+          "text": "Masturbation"
+        },
+        {
+          "text": "Sensual touch"
+        },
+        {
+          "text": "Sex toys"
+        },
+        {
+          "text": "Orgasm"
+        },
+        {
+          "text": "High sex drive"
+        },
+        {
+          "text": "Neutral sex drive"
+        },
+        {
+          "text": "Low sex drive"
+        },
+        {
+          "text": "Apply"
+        },
+        {
+          "text": "Mood"
+        },
+        {
+          "text": "Calm"
+        },
+        {
+          "text": "Happy"
+        },
+        {
+          "text": "Energetic"
+        },
+        {
+          "text": "Flo"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Today"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Cycle day 18"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Search"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 4,
+          "text": "What are you feeling today?"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Creamy, Calm, Cravings, Fatigue"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 6,
+          "text": "Categories"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 7,
+          "text": "Sex and sex drive"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Didn't have sex, Protected sex, Unprotected sex, Oral sex, Anal sex, Masturbation, Sensual touch, Sex toys, Orgasm, High sex drive, Neutral sex drive, Low sex drive"
+        },
+        {
+          "type": "other",
+          "reading_order": 9,
+          "text": "Apply"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile health and period tracking application.",
+      "intent": "User is selecting current daily logs for physiological and behavioral tracking.",
+      "entities": [
+        {
+          "name": "Flo",
+          "type": "Application"
+        },
+        {
+          "name": "Cycle day 18",
+          "type": "Cycle metadata"
+        },
+        {
+          "name": "Sex and sex drive",
+          "type": "Category"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "logs into",
+          "object": "Flo"
+        },
+        {
+          "subject": "Today",
+          "predicate": "has status",
+          "object": "Cycle day 18"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-grey",
+        "light-pink"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Icons represent various emotional and physical states.",
+        "High-contrast pink button for 'Apply'."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:55.970Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.9,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1031,
+      "totalTokenCount": 2258,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

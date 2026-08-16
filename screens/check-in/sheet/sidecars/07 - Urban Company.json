@@ -1,0 +1,171 @@
+{
+  "image": "08 - Urban Company.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for Urban Company showing a post-service feedback form after a 'Part time Maids' job was marked as complete.",
+    "ocr": {
+      "full_text": "9:41 Part time Maids Mar 27, 4:00PM Help Job complete Thanks for choosing Urban Company 5 Poor Excellent Glad you liked the experience ! Write your feedback in detail Add a photo or video + Add Submit Urban Company curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Part time Maids"
+        },
+        {
+          "text": "Mar 27, 4:00PM"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "Job complete"
+        },
+        {
+          "text": "Thanks for choosing Urban Company"
+        },
+        {
+          "text": "Poor"
+        },
+        {
+          "text": "5"
+        },
+        {
+          "text": "Excellent"
+        },
+        {
+          "text": "Glad you liked the experience !"
+        },
+        {
+          "text": "Write your feedback in detail"
+        },
+        {
+          "text": "Add a photo or video"
+        },
+        {
+          "text": "+ Add"
+        },
+        {
+          "text": "Submit"
+        },
+        {
+          "text": "Urban Company"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Part time Maids"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Mar 27, 4:00PM"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Job complete Thanks for choosing Urban Company"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Rating scale from Poor to Excellent with a selection of 5"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Glad you liked the experience !"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Write your feedback in detail"
+        },
+        {
+          "type": "form",
+          "reading_order": 7,
+          "text": "Add a photo or video + Add"
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Submit"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface for service feedback",
+      "intent": "Collect customer feedback after service completion",
+      "entities": [
+        {
+          "name": "Urban Company",
+          "type": "Service Provider"
+        },
+        {
+          "name": "Part time Maids",
+          "type": "Service Category"
+        },
+        {
+          "name": "Feedback Form",
+          "type": "User Interface Component"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Urban Company",
+          "predicate": "provided",
+          "object": "Part time Maids service"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "green",
+        "purple"
+      ],
+      "style": "Clean, modern, mobile app UI",
+      "notes": [
+        "The rating component uses a series of green blocks to indicate a score."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:19:35.339Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.46,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 778,
+      "totalTokenCount": 2005,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.464
+      }
+    ],
+    "warnings": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Abode",
+    "platform": "ios",
+    "file_path": "screens/auth-welcome-illustrated/05 - Abode.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:29.745Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding or workspace home screen",
+    "primary_flow": "auth-welcome-illustrated",
+    "ux_intent": "To welcome the user and encourage them to start a new drawing session or engage in a chat interface.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Card",
+      "The hero illustration is a stylized, soft-edged 2D character (a cloud mascot) holding art supplies, reinforcing the creative theme.",
+      "Placed centrally above the headline and CTA.",
+      "The layout uses high contrast between the orange button and the background.",
+      "Design system uses rounded corners for buttons and cards."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The layout uses high contrast between the orange button and the background.",
+      "Design system uses rounded corners for buttons and cards."
+    ],
+    "content_blocks": [
+      "Doodle",
+      "New Doodle",
+      "Canvas",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern minimalist UI with a whimsical, friendly character illustration.",
+      "white",
+      "off-white/cream",
+      "blue",
+      "orange/yellow",
+      "The hero illustration is a stylized, soft-edged 2D character (a cloud mascot) holding art supplies, reinforcing the creative theme.",
+      "Placed centrally above the headline and CTA.",
+      "The layout uses high contrast between the orange button and the background.",
+      "Design system uses rounded corners for buttons and cards."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist UI with a whimsical, friendly character illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_welcome_illustrated_05"
+}

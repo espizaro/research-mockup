@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Notion",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-tour/06 - Notion.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:44.845Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding UI screen for a productivity app.",
+    "primary_flow": "auth-onboarding-tour",
+    "ux_intent": "Explain the functionality of the home tab for page organization.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Search",
+      "Minimalist",
+      "Card",
+      "Uses a mock phone screen frame as a hero illustration/diagram to demonstrate app functionality.",
+      "The visual style is informative and functional rather than decorative.",
+      "High contrast text for readability.",
+      "Clear call-to-action button."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Clear call-to-action button."
+    ],
+    "content_blocks": [
+      "Notion",
+      "Mobbin",
+      "Next"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean UI design with card-based layout.",
+      "white",
+      "grey",
+      "blue",
+      "Uses a mock phone screen frame as a hero illustration/diagram to demonstrate app functionality.",
+      "The visual style is informative and functional rather than decorative.",
+      "High contrast text for readability.",
+      "Clear call-to-action button."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean UI design with card-based layout."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_tour_06"
+}

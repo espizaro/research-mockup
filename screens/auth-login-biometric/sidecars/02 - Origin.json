@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Origin",
+    "platform": "ios",
+    "file_path": "screens/auth-login-biometric/02 - Origin.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:38.017Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding or settings screen for biometric authentication.",
+    "primary_flow": "auth-login-biometric",
+    "ux_intent": "To prompt the user to enable Face ID for secure login.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Onboarding",
+      "Login",
+      "Settings",
+      "Minimalist",
+      "The illustration is a simple line-art icon representing Face ID, placed above the title to anchor the theme.",
+      "The layout follows standard Apple iOS human interface guidelines for a modal or onboarding screen.",
+      "Visual hierarchy is clear, prioritizing the 'Yes' action with a filled button."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Visual hierarchy is clear, prioritizing the 'Yes' action with a filled button."
+    ],
+    "content_blocks": [
+      "Face ID icon",
+      "YES button",
+      "NO button"
+    ],
+    "visual_keywords": [
+      "Minimalist, high-contrast, modern flat UI",
+      "white",
+      "black",
+      "The illustration is a simple line-art icon representing Face ID, placed above the title to anchor the theme.",
+      "The layout follows standard Apple iOS human interface guidelines for a modal or onboarding screen.",
+      "Visual hierarchy is clear, prioritizing the 'Yes' action with a filled button."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, high-contrast, modern flat UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_biometric_02"
+}

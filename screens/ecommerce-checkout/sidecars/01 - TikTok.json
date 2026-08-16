@@ -1,0 +1,60 @@
+{
+  "identification": {
+    "app_name": "TikTok",
+    "platform": "ios",
+    "file_path": "screens/ecommerce-checkout/01 - TikTok.webp",
+    "analyzed_timestamp": "2026-08-06T23:56:40.352Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app payment setup interface.",
+    "primary_flow": "ecommerce-checkout",
+    "ux_intent": "User is prompted to add a new credit or debit card for future payments.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Card",
+      "Keypad",
+      "Standard iOS-style status bar at top",
+      "Clear hierarchy for input fields",
+      "Keypad indicates a focused state on numeric fields"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Text Input Field",
+      "Keypad",
+      "Dropdown",
+      "Clear hierarchy for input fields"
+    ],
+    "content_blocks": [
+      "Card Number",
+      "Exp. Date",
+      "CVV",
+      "Country",
+      "Zip Code",
+      "Save",
+      "Numeric Keypad"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, clean sans-serif typography, high contrast input fields.",
+      "white",
+      "black",
+      "light gray",
+      "Standard iOS-style status bar at top",
+      "Clear hierarchy for input fields",
+      "Keypad indicates a focused state on numeric fields"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, clean sans-serif typography, high contrast input fields."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_ecommerce_checkout_01"
+}

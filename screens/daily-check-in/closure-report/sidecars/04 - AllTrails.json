@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "AllTrails",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/closure-report/04 - AllTrails.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:21.995Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application interface displaying a trail activity summary.",
+    "primary_flow": "daily-check-in/closure-report",
+    "ux_intent": "Show user activity statistics and feedback for a hike.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Standard iOS-like header with status bar",
+      "Includes star ratings",
+      "Clean, data-focused layout"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Central Park East and West Drive Loop",
+      "AllTrails",
+      "Mobbin",
+      "New York City, NY"
+    ],
+    "visual_keywords": [
+      "Mobile application user interface, minimalist design.",
+      "white",
+      "black",
+      "light green",
+      "Standard iOS-like header with status bar",
+      "Includes star ratings",
+      "Clean, data-focused layout"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile application user interface, minimalist design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_closure_report_04"
+}

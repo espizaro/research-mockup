@@ -1,0 +1,154 @@
+{
+  "image": "06 - BeReal..webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Activity page in the BeReal social media application, showing two recent notifications from a user named Sam.",
+    "ocr": {
+      "full_text": "9:41\nActivity\nFriend requests\nYou don't have any\npending requests\nNEW\nSam commented on your BeReal.\n2m ago\nSam reacted to your BeReal.\n2m ago\nBeReal. curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Activity",
+          "language": "en"
+        },
+        {
+          "text": "Friend requests",
+          "language": "en"
+        },
+        {
+          "text": "You don't have any",
+          "language": "en"
+        },
+        {
+          "text": "pending requests",
+          "language": "en"
+        },
+        {
+          "text": "NEW",
+          "language": "en"
+        },
+        {
+          "text": "Sam commented on your BeReal.",
+          "language": "en"
+        },
+        {
+          "text": "2m ago",
+          "language": "en"
+        },
+        {
+          "text": "Sam reacted to your BeReal.",
+          "language": "en"
+        },
+        {
+          "text": "2m ago",
+          "language": "en"
+        },
+        {
+          "text": "BeReal. curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Activity"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Friend requests: You don't have any pending requests"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "NEW"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Sam commented on your BeReal. 2m ago"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Sam reacted to your BeReal. 2m ago"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI screenshot",
+      "intent": "Display social media activity notifications",
+      "entities": [
+        {
+          "name": "Sam",
+          "type": "User"
+        },
+        {
+          "name": "BeReal",
+          "type": "Application"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam",
+          "predicate": "commented on",
+          "object": "BeReal"
+        },
+        {
+          "subject": "Sam",
+          "predicate": "reacted to",
+          "object": "BeReal"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#000000",
+        "#ffffff",
+        "#1c1c1c"
+      ],
+      "style": "Dark mode mobile UI",
+      "notes": [
+        "Standard iOS status bar",
+        "Two notification entries visible under 'NEW' header"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:20:08.333Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.636,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 855,
+      "totalTokenCount": 2082,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.639
+      }
+    ],
+    "warnings": []
+  }
+}

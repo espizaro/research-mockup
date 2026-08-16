@@ -1,0 +1,164 @@
+{
+  "image": "05 - Time2book.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screen capture of a booking platform page for 'ASMobbin Studio', a yoga and wellness studio, showing available appointment options.",
+    "ocr": {
+      "full_text": "ASMobbin Studio ASMobbin Studio is a modern yoga studio focused on mindful movement, calm energy, and sustainable wellness. Classes Appointments Pricing 1:1 Personal Stretch Therapy 45 min ASMobbin Studio - Treatment Room $65.00 Book Private Meditation Coaching 45 min ASMobbin Studio - Zen Room $55.00 Book Powered by time2book.me Time2book curated by Mobbin",
+      "lines": [
+        {
+          "text": "ASMobbin Studio"
+        },
+        {
+          "text": "ASMobbin Studio is a modern yoga studio focused on mindful movement, calm energy, and sustainable wellness."
+        },
+        {
+          "text": "Classes"
+        },
+        {
+          "text": "Appointments"
+        },
+        {
+          "text": "Pricing"
+        },
+        {
+          "text": "1:1 Personal Stretch Therapy"
+        },
+        {
+          "text": "45 min"
+        },
+        {
+          "text": "ASMobbin Studio - Treatment Room"
+        },
+        {
+          "text": "$65.00"
+        },
+        {
+          "text": "Book"
+        },
+        {
+          "text": "Private Meditation Coaching"
+        },
+        {
+          "text": "45 min"
+        },
+        {
+          "text": "ASMobbin Studio - Zen Room"
+        },
+        {
+          "text": "$55.00"
+        },
+        {
+          "text": "Book"
+        },
+        {
+          "text": "Powered by time2book.me"
+        },
+        {
+          "text": "Time2book"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "ASMobbin Studio"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "ASMobbin Studio is a modern yoga studio focused on mindful movement, calm energy, and sustainable wellness."
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Classes, Appointments, Pricing"
+        },
+        {
+          "type": "table",
+          "reading_order": 4,
+          "text": "1:1 Personal Stretch Therapy, 45 min, ASMobbin Studio - Treatment Room, $65.00, Book; Private Meditation Coaching, 45 min, ASMobbin Studio - Zen Room, $55.00, Book"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A website UI representing a yoga studio booking page.",
+      "intent": "User interface for booking fitness and wellness services.",
+      "entities": [
+        {
+          "name": "ASMobbin Studio",
+          "type": "Organization"
+        },
+        {
+          "name": "1:1 Personal Stretch Therapy",
+          "type": "Service"
+        },
+        {
+          "name": "Private Meditation Coaching",
+          "type": "Service"
+        },
+        {
+          "name": "time2book",
+          "type": "Platform"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "ASMobbin Studio",
+          "predicate": "offers",
+          "object": "1:1 Personal Stretch Therapy"
+        },
+        {
+          "subject": "ASMobbin Studio",
+          "predicate": "offers",
+          "object": "Private Meditation Coaching"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "teal/ocean blue"
+      ],
+      "style": "Minimalist modern UI",
+      "notes": [
+        "Top header shows an ocean waves image.",
+        "Clean white background for main content area.",
+        "Sidebar contains navigation icons."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:17.455Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.45,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1044,
+      "totalTokenCount": 2251,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

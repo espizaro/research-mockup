@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Betterment",
+    "platform": "ios",
+    "file_path": "screens/login/03 - Betterment.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:47.771Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app login screen.",
+    "primary_flow": "login",
+    "ux_intent": "User authentication.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Toggle",
+      "There is no hero illustration present.",
+      "The UI uses a clean, system-standard aesthetic.",
+      "High contrast between the primary login button and background.",
+      "Footer shows platform context ('curated by Mobbin')."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "High contrast between the primary login button and background."
+    ],
+    "content_blocks": [
+      "Email input",
+      "Password input",
+      "Login button",
+      "Forgot password",
+      "Login without password"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat UI design.",
+      "green",
+      "white",
+      "black",
+      "light grey",
+      "There is no hero illustration present.",
+      "The UI uses a clean, system-standard aesthetic.",
+      "High contrast between the primary login button and background.",
+      "Footer shows platform context ('curated by Mobbin')."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_03"
+}

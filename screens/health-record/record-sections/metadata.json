@@ -1,0 +1,116 @@
+{
+  "screens": [
+    {
+      "id": "142b3fcd-70c5-45da-95f1-ff32c3865c1e",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.eglIVHZaT7Kz7r5D.8ORONQ0JxuAbsT2aEwtNG8s5dbPen7PMNJM-WviRa5rhWRl6sl4iAhFPq_GrDxYaNGPUGEhot5Ajpxgm0Joam6aMv_RGX0DVn53SICfasLQ9z0WxVqM3W5ph1VMvrIsZyJsepmEnWcFrQs6na79TIhVECDjsraL_e8UxW68MOUQ596sJ3Vr7-cyi5eyM6ZXXji-eWG4VyYcZ4Gm304FWys7mYP42TX3yOWGI_soQoxnJILTbohJ-lgMsg-ED6pjj7-2ada5QF6rVTJrCxSZUsaWEqDO1yxWjaSseKP5NO62cL04QGzoWJlF4sdRcCKr-7DJrfAPMstM-vMxd6-o6wQZB-5Tkv_6y9j8bizGmrB6MW25LcZtKMHRjG1TbXEKxXKwb-Wl-AaCNILNpq6EmSLxCyXVaJ14JN8PfkrcpLbYwCQBQFMllgEpoM3IA",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.eglIVHZaT7Kz7r5D.8ORONQ0JxuAbsT2aEwtNG8s5dbPen7PMNJM-WviRa5rhWRl6sl4iAhFPq_GrDxYaNGPUGEhot5Ajpxgm0Joam6aMv_RGX0DVn53SICfasLQ9z0WxVqM3W5ph1VMvrIsZyJsepmEnWcFrQs6na79TIhVECDjsraL_e8UxW68MOUQ596sJ3Vr7-cyi5eyM6ZXXji-eWG4VyYcZ4Gm304FWys7mYP42TX3yOWGI_soQoxnJILTbohJ-lgMsg-ED6pjj7-2ada5QF6rVTJrCxSZUsaWEqDO1yxWjaSseKP5NO62cL04QGzoWJlF4sdRcCKr-7DJrfAPMstM-vMxd6-o6wQZB-5Tkv_6y9j8bizGmrB6MW25LcZtKMHRjG1TbXEKxXKwb-Wl-AaCNILNpq6EmSLxCyXVaJ14JN8PfkrcpLbYwCQBQFMllgEpoM3IA",
+        "url_expires_at": "2026-09-05T18:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/142b3fcd-70c5-45da-95f1-ff32c3865c1e",
+      "app_name": "Zocdoc",
+      "platform": "ios",
+      "local_path": "142b3fcd-70c5-45da-95f1-ff32c3865c1e.webp"
+    },
+    {
+      "id": "6fe2d438-221b-449d-bf2b-264c1a8c1456",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.Ro7t3aZFgEkq8hjL.pIVzfufelvenIW4UiHpVa7bai6NNAcLrxXn9aFfSKyriiabCAQBNhZqOAGCq505nD1B8fRHKRizNFB-yO0b0OSGe6Wf0Nlu8O9XdMDxTjUhLSbGl19gk0isdsXCsYx61gN_F6REPoVo70WABOr-t5LlhNRflDrIW8Si8hrspBkc8SaTdmIudRhcXqkyCJoUKCdWBRF_nUSavbp9dNYynj4hux96LF9vnrCiWtUJTFz6ncyLVjMV6NF9sC4z5scSM0VtQYKEUeO4tC0mylXPWHEtn_RCMOP7iMhltf7p8l5pnSi-2hub-9L-22sh2Y44CnJ9xPRj4SLNvDyhuRq2BytY0ef6iMIJ7eZfOom2hCZdhm8Eq5Aujn_2LWDG12z1zJz_8H_FgIHrHE_xHBI_IVyA2BT_nbIIKiTFcfiSwSyRCLRbjy6h7wrQb2SE7",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.Ro7t3aZFgEkq8hjL.pIVzfufelvenIW4UiHpVa7bai6NNAcLrxXn9aFfSKyriiabCAQBNhZqOAGCq505nD1B8fRHKRizNFB-yO0b0OSGe6Wf0Nlu8O9XdMDxTjUhLSbGl19gk0isdsXCsYx61gN_F6REPoVo70WABOr-t5LlhNRflDrIW8Si8hrspBkc8SaTdmIudRhcXqkyCJoUKCdWBRF_nUSavbp9dNYynj4hux96LF9vnrCiWtUJTFz6ncyLVjMV6NF9sC4z5scSM0VtQYKEUeO4tC0mylXPWHEtn_RCMOP7iMhltf7p8l5pnSi-2hub-9L-22sh2Y44CnJ9xPRj4SLNvDyhuRq2BytY0ef6iMIJ7eZfOom2hCZdhm8Eq5Aujn_2LWDG12z1zJz_8H_FgIHrHE_xHBI_IVyA2BT_nbIIKiTFcfiSwSyRCLRbjy6h7wrQb2SE7",
+        "url_expires_at": "2026-09-05T18:00:00.000Z",
+        "width": 299,
+        "height": 679
+      },
+      "mobbin_url": "https://mobbin.com/screens/6fe2d438-221b-449d-bf2b-264c1a8c1456",
+      "app_name": "Plazo",
+      "platform": "ios",
+      "local_path": "6fe2d438-221b-449d-bf2b-264c1a8c1456.webp"
+    },
+    {
+      "id": "1479525a-75f2-4ccb-96be-16401790f39b",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.u0qepGABx2gWTX05.EcJ5GHsjjJbtTK0HmQ6miwrtfCZrM2rZwbBi50eA91j_vgODObp9S2qFcyiCKUdOCpDLv3QXO-DQ3FKXUAyW09j8iF94HyCxWxOX014FxXp7EK1p84oVb6-B7Z_7AqeSKXvXxm3X8okVn1P7k6azB_Td1maWZhN1lVzGvPyqMd9Mo4usTlEV8Pl1QNy1Lk-bgxy8ioGKyFwb-WsurfJezTm33ztYC1qpjyds-XXincM4UcG2maL16weAOQwbMWAKbyeOT6K_rpt-_t0q1_oYaHhB5saPG2Zqj1m85LxlXcXxRFJuFNGazmyICdgts6HVstET-AZu1ArG4aDyUe0Ulo1TWF6VlNF3OPewPyc_1YvMB2_CVW9UfeF7_ACtUoQTISYt4fD_EiNBEQUX_9oZfr1xeWHli5OeBmr_YW2MA4TFnUnJ0qRORZ-86p5Q",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.u0qepGABx2gWTX05.EcJ5GHsjjJbtTK0HmQ6miwrtfCZrM2rZwbBi50eA91j_vgODObp9S2qFcyiCKUdOCpDLv3QXO-DQ3FKXUAyW09j8iF94HyCxWxOX014FxXp7EK1p84oVb6-B7Z_7AqeSKXvXxm3X8okVn1P7k6azB_Td1maWZhN1lVzGvPyqMd9Mo4usTlEV8Pl1QNy1Lk-bgxy8ioGKyFwb-WsurfJezTm33ztYC1qpjyds-XXincM4UcG2maL16weAOQwbMWAKbyeOT6K_rpt-_t0q1_oYaHhB5saPG2Zqj1m85LxlXcXxRFJuFNGazmyICdgts6HVstET-AZu1ArG4aDyUe0Ulo1TWF6VlNF3OPewPyc_1YvMB2_CVW9UfeF7_ACtUoQTISYt4fD_EiNBEQUX_9oZfr1xeWHli5OeBmr_YW2MA4TFnUnJ0qRORZ-86p5Q",
+        "url_expires_at": "2026-09-05T18:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/1479525a-75f2-4ccb-96be-16401790f39b",
+      "app_name": "Apple Health",
+      "platform": "ios",
+      "local_path": "1479525a-75f2-4ccb-96be-16401790f39b.webp"
+    },
+    {
+      "id": "496720c6-101a-4986-903a-95b70789ac65",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.KyLPGA9oJLj16dqh.vgU0_6mqlO_xXO6jGVNVQ1-nqgi3HbtAayZEH8_webiGIXnbb9T1P_qY_Y4t0TrPIyh3bXRRj_SW5IrTNuq-NXYYwQNlr58YS8a9aH2EMAqJZJugg2x5w0DI32_yoZDnKcwWkHzTOHn__irIl-8ZnYgqbrj7OkYKM9cay4f8-AB9jBGzl5PwdNJPLsqR0YxV39SiI5_-ertGtu-jKGgYFJyL_BplnWH0FDqurQAF3SC-SxjMWs-SgT35vr3zXIEpQrTmK1NTDPjRiqRfVT7oXkcWUGevqWKsrzLg0AhM0hnGf_d6YlWbhaUPmv52kgrMGhlpmXAhwZ5PY4hDD_eGsjUMa6th1TR78fadqIJqk6kks4qPv9qx4qnPLUzRz6T5QAyVaqwx3TBBDMcveMhjADBDW1fvOAeMlMDRch3o4GHgh7msfgLKqkm_qebO",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.KyLPGA9oJLj16dqh.vgU0_6mqlO_xXO6jGVNVQ1-nqgi3HbtAayZEH8_webiGIXnbb9T1P_qY_Y4t0TrPIyh3bXRRj_SW5IrTNuq-NXYYwQNlr58YS8a9aH2EMAqJZJugg2x5w0DI32_yoZDnKcwWkHzTOHn__irIl-8ZnYgqbrj7OkYKM9cay4f8-AB9jBGzl5PwdNJPLsqR0YxV39SiI5_-ertGtu-jKGgYFJyL_BplnWH0FDqurQAF3SC-SxjMWs-SgT35vr3zXIEpQrTmK1NTDPjRiqRfVT7oXkcWUGevqWKsrzLg0AhM0hnGf_d6YlWbhaUPmv52kgrMGhlpmXAhwZ5PY4hDD_eGsjUMa6th1TR78fadqIJqk6kks4qPv9qx4qnPLUzRz6T5QAyVaqwx3TBBDMcveMhjADBDW1fvOAeMlMDRch3o4GHgh7msfgLKqkm_qebO",
+        "url_expires_at": "2026-09-05T18:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/496720c6-101a-4986-903a-95b70789ac65",
+      "app_name": "Pillow",
+      "platform": "ios",
+      "local_path": "496720c6-101a-4986-903a-95b70789ac65.webp"
+    },
+    {
+      "id": "10977dc0-cd6d-441b-a22c-4ec28a9d593a",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.WnyOLgV9IlbM2QPW.Y6pJVmI_EIt4dhAfiPBkfxdP1MKgSqVuqmOOW0Zew_vufIXchnuZV5ijWSL5bBWlOFI_30455pIlT-OCVFXXJ8Ag6WT_EBqF54PJ5I786x7EOFccsCYEACQ6Gslw14dz5m575gppLMFWbOV_6te2FpmjbAm4Pam3zrwEgVQfyujTKQ5U0KjakOMf5Xoehs0ml4Hp6HV0pcVA01KKZ7ViDCQLCK9Ixto43uAqovHHg_UOFJAbWQm1szjr4JL-aJD0FUjHR838igjTalRpsFx-mBFmfn7tSw0fdimyX_oCzUYoHFg5qKWNtx2ZEMUUCZ30Z_A85ADWQp_ddPuH_-LrfYteH59WdRW08Tq-vONnyUXkzCdNcvFAbi8NvApzukx9veWba55ADQc0VA8ZGfEirj9_o51ONxUDkRGVg9ZFZp4Hmk_nC1z6XoRJLCR2",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.WnyOLgV9IlbM2QPW.Y6pJVmI_EIt4dhAfiPBkfxdP1MKgSqVuqmOOW0Zew_vufIXchnuZV5ijWSL5bBWlOFI_30455pIlT-OCVFXXJ8Ag6WT_EBqF54PJ5I786x7EOFccsCYEACQ6Gslw14dz5m575gppLMFWbOV_6te2FpmjbAm4Pam3zrwEgVQfyujTKQ5U0KjakOMf5Xoehs0ml4Hp6HV0pcVA01KKZ7ViDCQLCK9Ixto43uAqovHHg_UOFJAbWQm1szjr4JL-aJD0FUjHR838igjTalRpsFx-mBFmfn7tSw0fdimyX_oCzUYoHFg5qKWNtx2ZEMUUCZ30Z_A85ADWQp_ddPuH_-LrfYteH59WdRW08Tq-vONnyUXkzCdNcvFAbi8NvApzukx9veWba55ADQc0VA8ZGfEirj9_o51ONxUDkRGVg9ZFZp4Hmk_nC1z6XoRJLCR2",
+        "url_expires_at": "2026-09-05T18:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/10977dc0-cd6d-441b-a22c-4ec28a9d593a",
+      "app_name": "GoodRx",
+      "platform": "ios",
+      "local_path": "10977dc0-cd6d-441b-a22c-4ec28a9d593a.webp"
+    },
+    {
+      "id": "b1b9424e-b0c0-422a-a509-69e0cfc1e34e",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.xWjegRbr7-36qN2G.7yd83wPgPM21wL2OO__AUpEJaKdHTxeLc2KcmzznOYwBruBErPK2Lfhe1FJXNa6xHF6ploYqNyt-KEDTiHRP6n7lJxjt4GCurD-wdZOrDkfn3w-kIxBeVFCd0FxjbuZben6MPDqeDK5dQiVCaDu-07z-EqWBx9MoEe9wJqjWO_oJHl0nA-gpTzHnMBlC5cs_pLmVemJmuv9J2f7MHu6qW0xtUsrhBVCcOAbqHgjWJCqiuihfl_0P12L2wbreYWFMnNqo9Hn3nxOIl6-wC9MF68KEjo5uy0IFhG8svchWtSU0O10qrc-N5O8oHXBpMjFziS-jZPu6jv1dCbnt7SLrh17nEEMEF3gF8bKpnlV6hnsEb8Oj49uK-7FlJLJmuusCVboQ2m9p561c5I4zuQ3h7HiIIXFOhJ1B4O3N11C_pjuvD2BOipM3Y1Mx_UeT",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.xWjegRbr7-36qN2G.7yd83wPgPM21wL2OO__AUpEJaKdHTxeLc2KcmzznOYwBruBErPK2Lfhe1FJXNa6xHF6ploYqNyt-KEDTiHRP6n7lJxjt4GCurD-wdZOrDkfn3w-kIxBeVFCd0FxjbuZben6MPDqeDK5dQiVCaDu-07z-EqWBx9MoEe9wJqjWO_oJHl0nA-gpTzHnMBlC5cs_pLmVemJmuv9J2f7MHu6qW0xtUsrhBVCcOAbqHgjWJCqiuihfl_0P12L2wbreYWFMnNqo9Hn3nxOIl6-wC9MF68KEjo5uy0IFhG8svchWtSU0O10qrc-N5O8oHXBpMjFziS-jZPu6jv1dCbnt7SLrh17nEEMEF3gF8bKpnlV6hnsEb8Oj49uK-7FlJLJmuusCVboQ2m9p561c5I4zuQ3h7HiIIXFOhJ1B4O3N11C_pjuvD2BOipM3Y1Mx_UeT",
+        "url_expires_at": "2026-09-05T18:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/b1b9424e-b0c0-422a-a509-69e0cfc1e34e",
+      "app_name": "CVS Health",
+      "platform": "ios",
+      "local_path": "b1b9424e-b0c0-422a-a509-69e0cfc1e34e.webp"
+    },
+    {
+      "id": "7c28fb48-7c0c-477a-ac51-e5136d7c45b6",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.CoAKcRD1bp83j0g2.9WeiIX0q106wKerfrcYIsKhEI6USc82jYe6NO5NlM3Nx-XDpZ7w8LWs45KrMBkaOHU4iWaTveJctxP8Dr9Otrdjxo0_yCOgNgAQf6jhT04bItA108YeTRo-Eu8ur5UHwCq0mGscZS7QS1Z9pTRUn8AyO7RjhVjvez4vEv0EZO37SWyWXkAAUT2gkksRYA0SuUUAxce49eqcmO2QCwwjW31ci1e63cAqPjtsm7ApQ9niYSOhOUCIJKgyWf9YPI-axAA288PFlbaCis79OBaPsOa5kL_PFNleq2mOdz7S8Sj4Lxdbksskypcbevc3jqO0_fSfhSWvFii359IOi5urxKSPOUyp8cTY9ARYi9X0-8wWa5BVieTQWz1beEWnXOM7L1Pc-xP_Yan8iuW62oc6y-PT2SiamQB4mA4fVK1xOWir-rAymftPnIRmLrUKa",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.CoAKcRD1bp83j0g2.9WeiIX0q106wKerfrcYIsKhEI6USc82jYe6NO5NlM3Nx-XDpZ7w8LWs45KrMBkaOHU4iWaTveJctxP8Dr9Otrdjxo0_yCOgNgAQf6jhT04bItA108YeTRo-Eu8ur5UHwCq0mGscZS7QS1Z9pTRUn8AyO7RjhVjvez4vEv0EZO37SWyWXkAAUT2gkksRYA0SuUUAxce49eqcmO2QCwwjW31ci1e63cAqPjtsm7ApQ9niYSOhOUCIJKgyWf9YPI-axAA288PFlbaCis79OBaPsOa5kL_PFNleq2mOdz7S8Sj4Lxdbksskypcbevc3jqO0_fSfhSWvFii359IOi5urxKSPOUyp8cTY9ARYi9X0-8wWa5BVieTQWz1beEWnXOM7L1Pc-xP_Yan8iuW62oc6y-PT2SiamQB4mA4fVK1xOWir-rAymftPnIRmLrUKa",
+        "url_expires_at": "2026-09-05T18:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/7c28fb48-7c0c-477a-ac51-e5136d7c45b6",
+      "app_name": "Kakao Pay",
+      "platform": "ios",
+      "local_path": "7c28fb48-7c0c-477a-ac51-e5136d7c45b6.webp"
+    },
+    {
+      "id": "7268ad32-6efa-4eee-a48d-18b0e3206a18",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.gO2b7dfVFGBNFx4l.8rBGpp4La0mGcQtU1b8r4zwi-SdxOZd3TohlF7UJ00Plx5U8_Evvzi4XDfsKJRTqdfJf6zjNzXrZTWFt4r6Wzj_nCBC-qX62oKuc74emc6aG3CGCpoiNpxmLLWWE5r1PLanDUl5nYIlEVZCZkgVa5fXSK2SqYIUB932gAtE7m1xZT2-d3ZXpO1gvJqCu0e8xOcV9DqPClKxGuRqV6Y3wryAzstpHM-8jhOF3dflkolP4L2alJZyU6hHe8n3BMEKl5hG-1ZS9zk8DAp0w0WqmRfwLggDk75DsS7-4wJw0K4zNdkss8axm68qkrdOMYRQPDXDIc2XTjNoIT6uY_g0Avk2uUoWUbtm6pGHdpv3rJyKzToHAnu1-n81h5HB6IObdc5ePI0jW8bwmrKZ5E-qGAzED4J9_Mjlvb4zvGCTw59wxuZ5O4M0lelsSroHe",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.gO2b7dfVFGBNFx4l.8rBGpp4La0mGcQtU1b8r4zwi-SdxOZd3TohlF7UJ00Plx5U8_Evvzi4XDfsKJRTqdfJf6zjNzXrZTWFt4r6Wzj_nCBC-qX62oKuc74emc6aG3CGCpoiNpxmLLWWE5r1PLanDUl5nYIlEVZCZkgVa5fXSK2SqYIUB932gAtE7m1xZT2-d3ZXpO1gvJqCu0e8xOcV9DqPClKxGuRqV6Y3wryAzstpHM-8jhOF3dflkolP4L2alJZyU6hHe8n3BMEKl5hG-1ZS9zk8DAp0w0WqmRfwLggDk75DsS7-4wJw0K4zNdkss8axm68qkrdOMYRQPDXDIc2XTjNoIT6uY_g0Avk2uUoWUbtm6pGHdpv3rJyKzToHAnu1-n81h5HB6IObdc5ePI0jW8bwmrKZ5E-qGAzED4J9_Mjlvb4zvGCTw59wxuZ5O4M0lelsSroHe",
+        "url_expires_at": "2026-09-05T18:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/7268ad32-6efa-4eee-a48d-18b0e3206a18",
+      "app_name": "Yazio",
+      "platform": "ios",
+      "local_path": "7268ad32-6efa-4eee-a48d-18b0e3206a18.webp"
+    }
+  ]
+}

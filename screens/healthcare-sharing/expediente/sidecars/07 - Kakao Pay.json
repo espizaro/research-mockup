@@ -1,0 +1,183 @@
+{
+  "image": "07 - Kakao Pay.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen showing a detailed list of insurance coverage items related to cancer (암) under a 'Transaction Details' (내역상세) section. It displays various cancer-related benefit categories and their associated monetary amounts in Korean currency units (Man).",
+    "ocr": {
+      "full_text": "9:41 내역상세 암 11개 암진단 1,000만 암진단 20만 암진단 1,000만 암진단 20만 특정암진단 1,000만 암입원일당 5만 암수술 200만 특정암수술 200만 항암방사선약물치료비 200만 암한방치료 100만 항암방사선약물치료비 200만 뇌 6개 심장 4개 Kakao Pay curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "내역상세",
+          "language": "ko"
+        },
+        {
+          "text": "암 11개",
+          "language": "ko"
+        },
+        {
+          "text": "암진단 1,000만",
+          "language": "ko"
+        },
+        {
+          "text": "암진단 20만",
+          "language": "ko"
+        },
+        {
+          "text": "암진단 1,000만",
+          "language": "ko"
+        },
+        {
+          "text": "암진단 20만",
+          "language": "ko"
+        },
+        {
+          "text": "특정암진단 1,000만",
+          "language": "ko"
+        },
+        {
+          "text": "암입원일당 5만",
+          "language": "ko"
+        },
+        {
+          "text": "암수술 200만",
+          "language": "ko"
+        },
+        {
+          "text": "특정암수술 200만",
+          "language": "ko"
+        },
+        {
+          "text": "항암방사선약물치료비 200만",
+          "language": "ko"
+        },
+        {
+          "text": "암한방치료 100만",
+          "language": "ko"
+        },
+        {
+          "text": "항암방사선약물치료비 200만",
+          "language": "ko"
+        },
+        {
+          "text": "뇌 6개",
+          "language": "ko"
+        },
+        {
+          "text": "심장 4개",
+          "language": "ko"
+        },
+        {
+          "text": "Kakao Pay curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "내역상세"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "암 11개"
+        },
+        {
+          "type": "table",
+          "reading_order": 3,
+          "text": "암진단 1,000만, 암진단 20만, 암진단 1,000만, 암진단 20만, 특정암진단 1,000만, 암입원일당 5만, 암수술 200만, 특정암수술 200만, 항암방사선약물치료비 200만, 암한방치료 100만, 항암방사선약물치료비 200만"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "뇌 6개"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "심장 4개"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application interface displaying insurance policy details.",
+      "intent": "To inform the user of specific insurance benefits and coverage amounts for cancer-related conditions.",
+      "entities": [
+        {
+          "name": "Kakao Pay",
+          "type": "Brand"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Brand"
+        },
+        {
+          "name": "암",
+          "type": "Category"
+        },
+        {
+          "name": "뇌",
+          "type": "Category"
+        },
+        {
+          "name": "심장",
+          "type": "Category"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "암",
+          "predicate": "has count",
+          "object": "11개"
+        },
+        {
+          "subject": "뇌",
+          "predicate": "has count",
+          "object": "6개"
+        },
+        {
+          "subject": "심장",
+          "predicate": "has count",
+          "object": "4개"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "black"
+      ],
+      "style": "Mobile UI, minimalist, clean, data-heavy list view."
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:10.879Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.602,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1172,
+      "totalTokenCount": 2399,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

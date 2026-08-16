@@ -1,0 +1,183 @@
+{
+  "image": "06 - Tiimo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A screenshot of the Tiimo mobile application showing a daily planner interface for Sunday, January 18th, 2026. It includes a task list with an 'Anytime' section, a 'Planned' section with a 5-minute 'Focus' task, and a navigation bar at the bottom.",
+    "ocr": {
+      "full_text": "Posting to social? Tag us, we're @tiimoapp Sunday January 18th, 2026 Enable reminders ANYTIME (0) Add a task for anytime PLANNED (1) 3:09 PM Focus 5m 3:14 PM 1h 25m -> Time left of day 11:59 PM DONE (7) To-do Today Focus Me Tiimo curated by Mobbin",
+      "lines": [
+        {
+          "text": "Posting to social? Tag us, we're @tiimoapp"
+        },
+        {
+          "text": "Sunday"
+        },
+        {
+          "text": "January 18th, 2026"
+        },
+        {
+          "text": "Enable reminders"
+        },
+        {
+          "text": "ANYTIME (0)"
+        },
+        {
+          "text": "Add a task for anytime"
+        },
+        {
+          "text": "PLANNED (1)"
+        },
+        {
+          "text": "3:09 PM"
+        },
+        {
+          "text": "Focus"
+        },
+        {
+          "text": "5m"
+        },
+        {
+          "text": "3:14 PM"
+        },
+        {
+          "text": "1h 25m -> Time left of day"
+        },
+        {
+          "text": "11:59 PM"
+        },
+        {
+          "text": "DONE (7)"
+        },
+        {
+          "text": "To-do"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Focus"
+        },
+        {
+          "text": "Me"
+        },
+        {
+          "text": "Tiimo"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Posting to social? Tag us, we're @tiimoapp"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Sunday January 18th, 2026"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Enable reminders"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "ANYTIME (0) Add a task for anytime"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "PLANNED (1) 3:09 PM Focus 5m"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "3:14 PM 1h 25m -> Time left of day"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "11:59 PM DONE (7)"
+        },
+        {
+          "type": "other",
+          "reading_order": 8,
+          "text": "To-do Today Focus Me"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile productivity app interface for personal scheduling.",
+      "intent": "To track daily tasks and manage focus time.",
+      "entities": [
+        {
+          "name": "Tiimo",
+          "type": "Application",
+          "evidence": "Label at bottom left"
+        },
+        {
+          "name": "Focus",
+          "type": "Task",
+          "evidence": "Task item in PLANNED section"
+        },
+        {
+          "name": "Sunday, January 18th, 2026",
+          "type": "Date",
+          "evidence": "Header text"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Focus",
+          "predicate": "is scheduled for",
+          "object": "January 18th, 2026"
+        },
+        {
+          "subject": "User",
+          "predicate": "manages",
+          "object": "Task"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "pink",
+        "white",
+        "lavender"
+      ],
+      "style": "Minimalist UI with pastel color accents.",
+      "notes": [
+        "Includes custom iconography and character illustration."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:52.946Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.064,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1015,
+      "totalTokenCount": 2242,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

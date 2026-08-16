@@ -1,0 +1,179 @@
+{
+  "image": "08 - Atoms.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen showing a 'Streaks' feature. It displays a user's current streaks for various habits, with the best streak highlighted, and a bottom navigation menu.",
+    "ocr": {
+      "full_text": "NO YES 9:41 Streaks Share 3 My best streak is 3 days on walk for 15mins 3 days in a row! Walk for 15mins 2 days in a row! Write one sentence 2 days in a row! Take a deep breath 1 day in a row! Read 20 pages Home Progress Mindset Atoms curated by Mobbin",
+      "lines": [
+        {
+          "text": "NO YES"
+        },
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Streaks"
+        },
+        {
+          "text": "Share"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "My best streak is 3 days"
+        },
+        {
+          "text": "on walk for 15mins"
+        },
+        {
+          "text": "3 days in a row!"
+        },
+        {
+          "text": "Walk for 15mins"
+        },
+        {
+          "text": "2 days in a row!"
+        },
+        {
+          "text": "Write one sentence"
+        },
+        {
+          "text": "2 days in a row!"
+        },
+        {
+          "text": "Take a deep breath"
+        },
+        {
+          "text": "1 day in a row!"
+        },
+        {
+          "text": "Read 20 pages"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Progress"
+        },
+        {
+          "text": "Mindset"
+        },
+        {
+          "text": "Atoms"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Streaks"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "3 My best streak is 3 days on walk for 15mins"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "3 days in a row! Walk for 15mins 2 days in a row! Write one sentence 2 days in a row! Take a deep breath 1 day in a row! Read 20 pages"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface",
+      "intent": "Track and display habit streaks",
+      "entities": [
+        {
+          "name": "Streaks",
+          "type": "Header"
+        },
+        {
+          "name": "Walk for 15mins",
+          "type": "Habit"
+        },
+        {
+          "name": "Write one sentence",
+          "type": "Habit"
+        },
+        {
+          "name": "Take a deep breath",
+          "type": "Habit"
+        },
+        {
+          "name": "Read 20 pages",
+          "type": "Habit"
+        },
+        {
+          "name": "Progress",
+          "type": "Navigation"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Walk for 15mins",
+          "predicate": "has current streak of",
+          "object": "3 days"
+        },
+        {
+          "subject": "Write one sentence",
+          "predicate": "has current streak of",
+          "object": "2 days"
+        },
+        {
+          "subject": "Take a deep breath",
+          "predicate": "has current streak of",
+          "object": "2 days"
+        },
+        {
+          "subject": "Read 20 pages",
+          "predicate": "has current streak of",
+          "object": "1 day"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "orange",
+        "blue",
+        "green"
+      ],
+      "style": "Minimalist mobile UI design",
+      "notes": [
+        "Color-coded flame-like icons represent habit categories",
+        "Progress is the selected tab in the bottom menu"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:33.635Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.146,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 935,
+      "totalTokenCount": 2162,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

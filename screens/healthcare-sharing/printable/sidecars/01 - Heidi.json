@@ -1,0 +1,232 @@
+{
+  "image": "01 - Heidi.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the 'Heidi' software interface, a medical documentation platform. The screen shows a patient record for Jane Doe, detailing her personal information, symptoms, medical history, and session preferences, along with navigation menus and session management controls.",
+    "ocr": {
+      "full_text": "Alex Smith alexsmith@conte... New session Hide sessions Tasks Template library Community Team Settings Earn $50 Request a feature Shortcuts Help Upcoming Past 12/11/2025 Jane Doe 10:55AM 12/10/2025 Untitled session 10:59AM Tidy up JD Jane Doe Depression, Panic Attacks Yesterday 10:55AM English, Japanese -> English 13 days Context Transcript Client Initial Assessment Create a patient explainer letter Full Name: Jane Doe Age: 29 Gender: Female Living Situation: Lives alone in a small apartment Occupation: Business Analyst (full-time, hybrid) Main Symptoms (Self-Reported) Overthinking and restlessness at night Trouble falling asleep 2-3 nights per week Occasional panic-like sensations (shortness of breath, chest tightness) Current Medications Vitamin D supplement (self-initiated) Medical History Mild asthma (exercise-induced) No major surgeries or chronic illnesses Session Preferences Preferred format: Telehealth Availability: Monday evenings, Thursday mornings Past sessions 1 attachment View all 1 1 Patient_consent.pdf Ask Heidi to do anything... Review your note before use to ensure it accurately represents the visit Tutorials 100% Heidi curated by Mobbin",
+      "lines": [
+        {
+          "text": "Alex Smith alexsmith@conte..."
+        },
+        {
+          "text": "New session"
+        },
+        {
+          "text": "Hide sessions"
+        },
+        {
+          "text": "Tasks"
+        },
+        {
+          "text": "Template library"
+        },
+        {
+          "text": "Community"
+        },
+        {
+          "text": "Team"
+        },
+        {
+          "text": "Settings"
+        },
+        {
+          "text": "Earn $50"
+        },
+        {
+          "text": "Request a feature"
+        },
+        {
+          "text": "Shortcuts"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "Upcoming"
+        },
+        {
+          "text": "Past"
+        },
+        {
+          "text": "12/11/2025"
+        },
+        {
+          "text": "Jane Doe 10:55AM"
+        },
+        {
+          "text": "12/10/2025"
+        },
+        {
+          "text": "Untitled session 10:59AM"
+        },
+        {
+          "text": "Tidy up"
+        },
+        {
+          "text": "JD Jane Doe Depression, Panic Attacks"
+        },
+        {
+          "text": "Yesterday 10:55AM English, Japanese -> English 13 days"
+        },
+        {
+          "text": "Context Transcript Client Initial Assessment Create a patient explainer letter"
+        },
+        {
+          "text": "Full Name: Jane Doe"
+        },
+        {
+          "text": "Age: 29"
+        },
+        {
+          "text": "Gender: Female"
+        },
+        {
+          "text": "Living Situation: Lives alone in a small apartment"
+        },
+        {
+          "text": "Occupation: Business Analyst (full-time, hybrid)"
+        },
+        {
+          "text": "Main Symptoms (Self-Reported)"
+        },
+        {
+          "text": "Overthinking and restlessness at night"
+        },
+        {
+          "text": "Trouble falling asleep 2-3 nights per week"
+        },
+        {
+          "text": "Occasional panic-like sensations (shortness of breath, chest tightness)"
+        },
+        {
+          "text": "Current Medications"
+        },
+        {
+          "text": "Vitamin D supplement (self-initiated)"
+        },
+        {
+          "text": "Medical History"
+        },
+        {
+          "text": "Mild asthma (exercise-induced)"
+        },
+        {
+          "text": "No major surgeries or chronic illnesses"
+        },
+        {
+          "text": "Session Preferences"
+        },
+        {
+          "text": "Preferred format: Telehealth"
+        },
+        {
+          "text": "Availability: Monday evenings, Thursday mornings"
+        },
+        {
+          "text": "Past sessions 1 attachment View all"
+        },
+        {
+          "text": "1 1 Patient_consent.pdf"
+        },
+        {
+          "text": "Ask Heidi to do anything..."
+        },
+        {
+          "text": "Review your note before use to ensure it accurately represents the visit"
+        },
+        {
+          "text": "Tutorials 100%"
+        },
+        {
+          "text": "Heidi curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Alex Smith profile and application menu"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Session list including Jane Doe and Untitled session"
+        },
+        {
+          "type": "title",
+          "reading_order": 3,
+          "text": "Jane Doe - Patient Context details"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Full Name: Jane Doe, Age: 29, Gender: Female, Living Situation: Lives alone in a small apartment, Occupation: Business Analyst (full-time, hybrid)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Main Symptoms: Overthinking, restlessness, sleep issues, panic sensations. Medications: Vitamin D. Medical History: Mild asthma. Session Preferences: Telehealth, Monday/Thursday availability."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Medical software application interface focused on patient intake/session documentation.",
+      "intent": "Manage patient data and session notes for medical practitioners.",
+      "entities": [
+        {
+          "name": "Alex Smith",
+          "type": "User"
+        },
+        {
+          "name": "Jane Doe",
+          "type": "Patient"
+        },
+        {
+          "name": "Heidi",
+          "type": "Software Platform"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Alex Smith",
+          "predicate": "manages",
+          "object": "Jane Doe"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-gray",
+        "dark-charcoal"
+      ],
+      "style": "Modern web application interface, clean design, minimalist."
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:29.033Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.727,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1424,
+      "totalTokenCount": 2631,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

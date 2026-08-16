@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Runway",
+    "platform": "web",
+    "file_path": "screens/auth-login-desktop/06 - Runway.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:52.419Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login and feature landing page for Runway AI platform.",
+    "primary_flow": "auth-login-desktop",
+    "ux_intent": "To authenticate existing users while showcasing the Restyle feature via a hero illustration.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "The hero illustration features a 2D cartoon style similar to 'Rick and Morty' aesthetic.",
+      "The visual hierarchy clearly separates the promotional content (left) from the functional login form (right).",
+      "High contrast text on the right side for readability.",
+      "The left side is heavily atmospheric with cosmic purple clouds and neon urban elements."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Runway",
+      "Restyle",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern minimalist UI with a rich, detailed, cartoon-style hero illustration on the left.",
+      "black",
+      "white",
+      "purple",
+      "orange",
+      "The hero illustration features a 2D cartoon style similar to 'Rick and Morty' aesthetic.",
+      "The visual hierarchy clearly separates the promotional content (left) from the functional login form (right).",
+      "High contrast text on the right side for readability.",
+      "The left side is heavily atmospheric with cosmic purple clouds and neon urban elements."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist UI with a rich, detailed, cartoon-style hero illustration on the left."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_desktop_06"
+}

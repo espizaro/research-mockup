@@ -1,0 +1,234 @@
+{
+  "image": "05 - Me+.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application interface for a personal routine or task manager app called 'Me+'. The dashboard displays a daily calendar, a depression test promotion, a health tracker for water intake, and a list of daily tasks including a successful task addition notification.",
+    "ocr": {
+      "full_text": "9:41\nToday\n0\nSun 15\nMon 16\nTue 17\nWed 18\nThu 19\nFri 20\nSat 21\nKnow yourself\n3 Min Depression Test\nStart Now\nAll\nAI routine\nShopping\nHealth Tracker\n0/3260ml\nDrink water\nMy Task\nAnytime\nListen to your favorite music\nTask added successfully!\nDaily UI Design Study\nRoutine\nInspire\nChallenge\nTools\nProfile\nMe+\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "0"
+        },
+        {
+          "text": "Sun 15"
+        },
+        {
+          "text": "Mon 16"
+        },
+        {
+          "text": "Tue 17"
+        },
+        {
+          "text": "Wed 18"
+        },
+        {
+          "text": "Thu 19"
+        },
+        {
+          "text": "Fri 20"
+        },
+        {
+          "text": "Sat 21"
+        },
+        {
+          "text": "Know yourself"
+        },
+        {
+          "text": "3 Min Depression Test"
+        },
+        {
+          "text": "Start Now"
+        },
+        {
+          "text": "All"
+        },
+        {
+          "text": "AI routine"
+        },
+        {
+          "text": "Shopping"
+        },
+        {
+          "text": "Health Tracker"
+        },
+        {
+          "text": "0/3260ml"
+        },
+        {
+          "text": "Drink water"
+        },
+        {
+          "text": "My Task"
+        },
+        {
+          "text": "Anytime"
+        },
+        {
+          "text": "Listen to your favorite music"
+        },
+        {
+          "text": "Task added successfully!"
+        },
+        {
+          "text": "Daily UI Design Study"
+        },
+        {
+          "text": "Routine"
+        },
+        {
+          "text": "Inspire"
+        },
+        {
+          "text": "Challenge"
+        },
+        {
+          "text": "Tools"
+        },
+        {
+          "text": "Profile"
+        },
+        {
+          "text": "Me+"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Today"
+        },
+        {
+          "type": "other",
+          "reading_order": 2,
+          "text": "Calendar strip from Sunday 15th to Saturday 21st, Monday 16th selected."
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Promotion card: Know yourself, 3 Min Depression Test, Start Now button."
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Filter chips: All, AI routine, Shopping."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Health Tracker header."
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Water intake tracker: 0/3260ml, Drink water."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "My Task header."
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Task item: Listen to your favorite music, Anytime."
+        },
+        {
+          "type": "list",
+          "reading_order": 9,
+          "text": "Task item: Daily UI Design Study."
+        },
+        {
+          "type": "other",
+          "reading_order": 10,
+          "text": "Notification: Task added successfully!"
+        },
+        {
+          "type": "other",
+          "reading_order": 11,
+          "text": "Navigation bar: Routine, Inspire, Challenge, Tools, Profile."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application dashboard for personal productivity and wellness.",
+      "intent": "User is viewing their daily tasks and health metrics.",
+      "entities": [
+        {
+          "name": "Me+",
+          "type": "App Name"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        },
+        {
+          "name": "Health Tracker",
+          "type": "Feature"
+        },
+        {
+          "name": "My Task",
+          "type": "Feature"
+        },
+        {
+          "name": "Depression Test",
+          "type": "Promotion"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Me+",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "purple",
+        "white",
+        "blue",
+        "light orange"
+      ],
+      "style": "Modern minimalist UI design",
+      "notes": [
+        "Rounded corners on cards",
+        "Use of icons for navigation and tasks",
+        "Pastel color palette"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:45.711Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.543,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1212,
+      "totalTokenCount": 2439,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

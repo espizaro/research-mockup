@@ -1,0 +1,60 @@
+{
+  "identification": {
+    "app_name": "ClickUp",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-illustrated/05 - ClickUp.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:26.398Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding/splash screen",
+    "primary_flow": "auth-onboarding-illustrated",
+    "ux_intent": "Welcome the user and prompt them to initiate the registration or sign-in process.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "The illustration is a flat, 2D character-based artwork that reinforces the 'work' theme.",
+      "The layout follows a standard mobile onboarding pattern: Logo at top, centered illustration, title, body, and bottom CTA.",
+      "Visual hierarchy is strong, with the CTA being the most prominent action button.",
+      "The use of white space is intentional to keep the focus on the core value proposition.",
+      "The pagination dots indicate this is one of several onboarding screens."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Primary CTA Button",
+      "Visual hierarchy is strong, with the CTA being the most prominent action button."
+    ],
+    "content_blocks": [
+      "ClickUp",
+      "Get started",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern, minimalist flat design with vector character illustration.",
+      "White",
+      "Purple",
+      "Black",
+      "Yellow",
+      "The illustration is a flat, 2D character-based artwork that reinforces the 'work' theme.",
+      "The layout follows a standard mobile onboarding pattern: Logo at top, centered illustration, title, body, and bottom CTA.",
+      "Visual hierarchy is strong, with the CTA being the most prominent action button.",
+      "The use of white space is intentional to keep the focus on the core value proposition.",
+      "The pagination dots indicate this is one of several onboarding screens."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern, minimalist flat design with vector character illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_illustrated_05"
+}

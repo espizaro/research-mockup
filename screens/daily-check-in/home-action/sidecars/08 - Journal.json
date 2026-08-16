@@ -1,0 +1,42 @@
+{
+  "identification": {
+    "app_name": "Journal",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/home-action/08 - Journal.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:51.503Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile device home screen displaying a widget.",
+    "primary_flow": "daily-check-in/home-action",
+    "ux_intent": "Show a daily streak tracking widget for a journaling app.",
+    "ux_patterns": [
+      "Minimalist",
+      "The widget has a rounded rectangle shape with a gradient purple/dark background.",
+      "A small butterfly-like logo is present in the top right of the widget."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Streak Widget",
+      "Journal",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat design with a widget.",
+      "light grey",
+      "dark purple/gradient",
+      "The widget has a rounded rectangle shape with a gradient purple/dark background.",
+      "A small butterfly-like logo is present in the top right of the widget."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat design with a widget."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_home_action_08"
+}

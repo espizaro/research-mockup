@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Blinkit",
+    "platform": "ios",
+    "file_path": "screens/auth-login-otp/07 - Blinkit.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:36.210Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication screen",
+    "primary_flow": "auth-login-otp",
+    "ux_intent": "Verify user identity via SMS-based one-time password.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Keypad",
+      "No decorative illustrations present.",
+      "Clear focus on utility and data entry.",
+      "Uses standard iOS-style status bar and keyboard layout."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Keypad"
+    ],
+    "content_blocks": [
+      "Phone Number",
+      "Input Fields",
+      "Keypad"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat mobile UI design",
+      "white",
+      "light grey",
+      "black",
+      "No decorative illustrations present.",
+      "Clear focus on utility and data entry.",
+      "Uses standard iOS-style status bar and keyboard layout."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat mobile UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_otp_07"
+}

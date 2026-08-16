@@ -1,0 +1,249 @@
+{
+  "image": "08 - Mixpanel.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A screenshot of a Mixpanel product analytics dashboard displaying an 'Impact' report for 'SLMobbin Impact' with a 'Share this Report' modal active.",
+    "ocr": {
+      "full_text": "SLMobbin SLMobbin Impact Updated 2 minutes ago Share New Save Save As New Open SLMobbin Impact Impact report measures the effects of product or marketing launches on our key metrics LAUNCH EVENT [Auto] Page View Since Jan 1, 2026 IMPACTED EVENTS 1 meaningful interaction [Auto] Page View + Add USER DEFINITION Count users who did FILTERS Share this Report Invite Teammates Enter People or Team Names... Viewer Share PEOPLE Sam Lee (You) samlee.mobbin+1@gmail.com Creator PROJECT Give access to everyone in the project Updated 1 person Viewer Copy URL Project members with this URL can view Done Launch in Impact 7 unique users did [Auto] Page View since Jan 1, 2026 (100.00% of all users). For these users, meaningful interaction - Total changed by an average of +0.09 per user per day after they did [Auto] Page View. Adopters 7 unique users did [Auto] Page View since Jan 1, 2026 (100.00% of all users). For these users, meaningful interaction - Total changed by an average of +0.09 per user per day after they did [Auto] Page View. Non-Adopters 0 unique users did not do [Auto] Page View. Get even more accurate results with Propensity Modeling Mixpanel curated by Mobbin",
+      "lines": [
+        {
+          "text": "SLMobbin"
+        },
+        {
+          "text": "SLMobbin Impact"
+        },
+        {
+          "text": "Updated 2 minutes ago"
+        },
+        {
+          "text": "Share"
+        },
+        {
+          "text": "New"
+        },
+        {
+          "text": "Save"
+        },
+        {
+          "text": "Save As New"
+        },
+        {
+          "text": "Open"
+        },
+        {
+          "text": "SLMobbin Impact"
+        },
+        {
+          "text": "Impact report measures the effects of product or marketing launches on our key metrics"
+        },
+        {
+          "text": "LAUNCH EVENT"
+        },
+        {
+          "text": "[Auto] Page View"
+        },
+        {
+          "text": "Since Jan 1, 2026"
+        },
+        {
+          "text": "IMPACTED EVENTS"
+        },
+        {
+          "text": "1 meaningful interaction"
+        },
+        {
+          "text": "[Auto] Page View"
+        },
+        {
+          "text": "+ Add"
+        },
+        {
+          "text": "USER DEFINITION"
+        },
+        {
+          "text": "Count users who did"
+        },
+        {
+          "text": "FILTERS"
+        },
+        {
+          "text": "Share this Report"
+        },
+        {
+          "text": "Invite Teammates"
+        },
+        {
+          "text": "Enter People or Team Names..."
+        },
+        {
+          "text": "Viewer"
+        },
+        {
+          "text": "Share"
+        },
+        {
+          "text": "PEOPLE"
+        },
+        {
+          "text": "Sam Lee (You)"
+        },
+        {
+          "text": "samlee.mobbin+1@gmail.com"
+        },
+        {
+          "text": "Creator"
+        },
+        {
+          "text": "PROJECT"
+        },
+        {
+          "text": "Give access to everyone in the project"
+        },
+        {
+          "text": "Updated"
+        },
+        {
+          "text": "1 person"
+        },
+        {
+          "text": "Viewer"
+        },
+        {
+          "text": "Copy URL"
+        },
+        {
+          "text": "Project members with this URL can view"
+        },
+        {
+          "text": "Done"
+        },
+        {
+          "text": "Launch in"
+        },
+        {
+          "text": "Impact"
+        },
+        {
+          "text": "7 unique users did [Auto] Page View since Jan 1, 2026 (100.00% of all users). For these users, meaningful interaction - Total changed by an average of +0.09 per user per day after they did [Auto] Page View."
+        },
+        {
+          "text": "Adopters"
+        },
+        {
+          "text": "7 unique users did [Auto] Page View since Jan 1, 2026 (100.00% of all users). For these users, meaningful interaction - Total changed by an average of +0.09 per user per day after they did [Auto] Page View."
+        },
+        {
+          "text": "Non-Adopters"
+        },
+        {
+          "text": "0 unique users did not do [Auto] Page View."
+        },
+        {
+          "text": "Get even more accurate results with Propensity Modeling"
+        },
+        {
+          "text": "Mixpanel"
+        },
+        {
+          "text": "curated by"
+        },
+        {
+          "text": "Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "SLMobbin Impact"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Impact report measures the effects of product or marketing launches on our key metrics"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Share this Report modal"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Launch in Impact details and metrics"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "SaaS analytics dashboard with an active permission-sharing modal open.",
+      "intent": "To share an analytics report with team members.",
+      "entities": [
+        {
+          "name": "Mixpanel",
+          "type": "Software Platform"
+        },
+        {
+          "name": "Sam Lee",
+          "type": "User"
+        },
+        {
+          "name": "SLMobbin Impact",
+          "type": "Report Name"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Brand"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam Lee",
+          "predicate": "is creator of",
+          "object": "SLMobbin Impact"
+        },
+        {
+          "subject": "Mixpanel",
+          "predicate": "hosts",
+          "object": "SLMobbin Impact"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "purple",
+        "grey",
+        "black"
+      ],
+      "style": "Clean, minimalist web UI design typical of B2B SaaS platforms.",
+      "notes": [
+        "The modal is centered and provides a darkened overlay on the background content."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:28.683Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.88,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1483,
+      "totalTokenCount": 2690,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

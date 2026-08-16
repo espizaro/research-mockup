@@ -1,0 +1,60 @@
+{
+  "identification": {
+    "app_name": "Runna",
+    "platform": "ios",
+    "file_path": "screens/onboarding-welcome/05 - Runna.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:43.303Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding welcome screen for a fitness/running application.",
+    "primary_flow": "onboarding-welcome",
+    "ux_intent": "Welcome the new user, encourage newsletter sign-up, and prompt user to start onboarding or enter a referral code.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Dark Mode",
+      "Toggle",
+      "Checkbox",
+      "The hero image is a realistic photograph of people running/exercising.",
+      "The layout uses a dark overlay on the background photo to improve text readability.",
+      "Primary button uses a vibrant teal color, contrasting with the dark background.",
+      "The UI follows a standard vertical stack pattern for mobile onboarding."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Secondary Button",
+      "Checkbox",
+      "Primary button uses a vibrant teal color, contrasting with the dark background."
+    ],
+    "content_blocks": [
+      "Runna",
+      "Get started",
+      "Enter referral code",
+      "Email signup"
+    ],
+    "visual_keywords": [
+      "Modern mobile application UI, dark mode, high-contrast, photo-heavy.",
+      "black",
+      "dark teal",
+      "white",
+      "The hero image is a realistic photograph of people running/exercising.",
+      "The layout uses a dark overlay on the background photo to improve text readability.",
+      "Primary button uses a vibrant teal color, contrasting with the dark background.",
+      "The UI follows a standard vertical stack pattern for mobile onboarding."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile application UI, dark mode, high-contrast, photo-heavy."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_welcome_05"
+}

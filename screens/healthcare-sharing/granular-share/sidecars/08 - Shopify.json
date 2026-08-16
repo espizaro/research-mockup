@@ -1,0 +1,174 @@
+{
+  "image": "08 - Shopify.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for a Shopify setup process, asking the user to select the types of products they plan to sell. Options include Digital products, Dropshipping products, Services, Print-on-demand products, or to decide later, with navigation buttons to proceed or skip.",
+    "ocr": {
+      "full_text": "9:41 Digital products Music, digital art, NFTs Dropshipping products Sourced and shipped by a third party Services Coaching, housekeeping, consulting Print-on-demand products My designs, printed and shipped by a third party I'll decide later Next Skip All Skip Shopify curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Digital products"
+        },
+        {
+          "text": "Music, digital art, NFTs"
+        },
+        {
+          "text": "Dropshipping products"
+        },
+        {
+          "text": "Sourced and shipped by a third party"
+        },
+        {
+          "text": "Services"
+        },
+        {
+          "text": "Coaching, housekeeping, consulting"
+        },
+        {
+          "text": "Print-on-demand products"
+        },
+        {
+          "text": "My designs, printed and shipped by a third party"
+        },
+        {
+          "text": "I'll decide later"
+        },
+        {
+          "text": "Next"
+        },
+        {
+          "text": "Skip All"
+        },
+        {
+          "text": "Skip"
+        },
+        {
+          "text": "Shopify"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Digital products\nMusic, digital art, NFTs"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Dropshipping products\nSourced and shipped by a third party"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Services\nCoaching, housekeeping, consulting"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Print-on-demand products\nMy designs, printed and shipped by a third party"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "I'll decide later"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Next"
+        },
+        {
+          "type": "form",
+          "reading_order": 7,
+          "text": "Skip All"
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Skip"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App onboarding flow",
+      "intent": "Product type selection for an e-commerce setup",
+      "entities": [
+        {
+          "name": "Shopify",
+          "type": "Platform"
+        },
+        {
+          "name": "Digital products",
+          "type": "Product Category"
+        },
+        {
+          "name": "Dropshipping products",
+          "type": "Product Category"
+        },
+        {
+          "name": "Services",
+          "type": "Product Category"
+        },
+        {
+          "name": "Print-on-demand products",
+          "type": "Product Category"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "is prompted to select",
+          "object": "Product type"
+        },
+        {
+          "subject": "Shopify",
+          "predicate": "provides options for",
+          "object": "Product type"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "gray"
+      ],
+      "style": "Mobile application interface, minimalist, clean design",
+      "notes": [
+        "Clear checkbox indicators for multiple selection",
+        "Prominent call-to-action button"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:16.415Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.17,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 816,
+      "totalTokenCount": 2043,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

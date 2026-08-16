@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Grubhub",
+    "platform": "ios",
+    "file_path": "screens/social-buttons/02 - Grubhub.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:14.711Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication screen",
+    "primary_flow": "social-buttons",
+    "ux_intent": "User account login or registration",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Uses a gradient fade at the bottom as a purely decorative element.",
+      "High-contrast buttons for third-party auth.",
+      "Standard iOS top bar design.",
+      "Visual hierarchy clear: Title -> Social Auth -> Email -> CTA."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "High-contrast buttons for third-party auth."
+    ],
+    "content_blocks": [
+      "Grubhub",
+      "Seamless",
+      "Google",
+      "Amazon",
+      "Apple",
+      "Facebook"
+    ],
+    "visual_keywords": [
+      "Clean, mobile-first, minimalist UI design.",
+      "white",
+      "blue",
+      "yellow",
+      "black",
+      "Uses a gradient fade at the bottom as a purely decorative element.",
+      "High-contrast buttons for third-party auth.",
+      "Standard iOS top bar design.",
+      "Visual hierarchy clear: Title -> Social Auth -> Email -> CTA."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, mobile-first, minimalist UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_social_buttons_02"
+}

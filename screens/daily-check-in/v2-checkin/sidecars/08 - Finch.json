@@ -1,0 +1,46 @@
+{
+  "identification": {
+    "app_name": "Finch",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/v2-checkin/08 - Finch.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:48.229Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Goal tracking interface in a mobile app.",
+    "primary_flow": "daily-check-in/v2-checkin",
+    "ux_intent": "View completed daily tasks and streak progress.",
+    "ux_patterns": [
+      "Progress",
+      "Minimalist",
+      "Card",
+      "The aesthetic is playful and minimalist.",
+      "Icons are used for each goal."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Finch",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "clean, flat app UI with rounded card elements.",
+      "green",
+      "white",
+      "The aesthetic is playful and minimalist.",
+      "Icons are used for each goal."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean, flat app UI with rounded card elements."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_checkin_08"
+}

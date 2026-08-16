@@ -1,0 +1,214 @@
+{
+  "image": "02 - Transit.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screenshot showing a 'Themes and icons' settings modal overlaid on top of a profile or settings screen for a transit-related app.",
+    "ocr": {
+      "full_text": "9:41 Preferences Settings and accessibility Themes and icons Accounts Transit account Themes and icons App icon Accent colour Avatar and nickname Appearance System appearance Transit curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Preferences",
+          "language": "en"
+        },
+        {
+          "text": "Settings and accessibility",
+          "language": "en"
+        },
+        {
+          "text": "Themes and icons",
+          "language": "en"
+        },
+        {
+          "text": "Accounts",
+          "language": "en"
+        },
+        {
+          "text": "Transit account",
+          "language": "en"
+        },
+        {
+          "text": "Themes and icons",
+          "language": "en"
+        },
+        {
+          "text": "App icon",
+          "language": "en"
+        },
+        {
+          "text": "Accent colour",
+          "language": "en"
+        },
+        {
+          "text": "Avatar and nickname",
+          "language": "en"
+        },
+        {
+          "text": "Appearance",
+          "language": "en"
+        },
+        {
+          "text": "System appearance",
+          "language": "en"
+        },
+        {
+          "text": "Transit",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Preferences"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Settings and accessibility"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Themes and icons"
+        },
+        {
+          "type": "title",
+          "reading_order": 4,
+          "text": "Accounts"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Transit account"
+        },
+        {
+          "type": "title",
+          "reading_order": 6,
+          "text": "Themes and icons"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "App icon"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Accent colour"
+        },
+        {
+          "type": "list",
+          "reading_order": 9,
+          "text": "Avatar and nickname"
+        },
+        {
+          "type": "list",
+          "reading_order": 10,
+          "text": "Appearance System appearance"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI settings overlay",
+      "intent": "User is viewing configuration options for themes, icons, and accounts in a mobile app.",
+      "entities": [
+        {
+          "name": "App icon",
+          "type": "setting"
+        },
+        {
+          "name": "Accent colour",
+          "type": "setting"
+        },
+        {
+          "name": "Avatar and nickname",
+          "type": "setting"
+        },
+        {
+          "name": "Appearance",
+          "type": "setting"
+        },
+        {
+          "name": "Transit",
+          "type": "brand"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Themes and icons",
+          "predicate": "contains",
+          "object": "App icon"
+        },
+        {
+          "subject": "Themes and icons",
+          "predicate": "contains",
+          "object": "Accent colour"
+        },
+        {
+          "subject": "Themes and icons",
+          "predicate": "contains",
+          "object": "Avatar and nickname"
+        },
+        {
+          "subject": "Themes and icons",
+          "predicate": "contains",
+          "object": "Appearance"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "green",
+        "white",
+        "gray"
+      ],
+      "style": "Modern mobile application interface, flat design with soft shadows and rounded corners.",
+      "notes": [
+        "The screenshot includes a status bar.",
+        "The 'Themes and icons' panel is a modal window appearing over a dark green background.",
+        "Icons are used next to each setting item."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:21:24.700Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.88,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 973,
+      "totalTokenCount": 2200,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.882
+      }
+    ],
+    "warnings": []
+  }
+}

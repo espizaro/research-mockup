@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Dropbox",
+    "platform": "ios",
+    "file_path": "screens/secure-sharing/03 - Dropbox.webp",
+    "analyzed_timestamp": "2026-08-05T19:24:37.837Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application UI for file management and sharing, identified as Dropbox.",
+    "primary_flow": "secure-sharing",
+    "ux_intent": "To facilitate the sharing of files via links or direct exports within a mobile cloud storage app.",
+    "ux_patterns": [
+      "Form",
+      "Search",
+      "Settings",
+      "Minimalist",
+      "Radio",
+      "Standard iOS-style status bar at the top",
+      "Navigation buttons present",
+      "Bottom footer credits Mobbin"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Navigation buttons present"
+    ],
+    "content_blocks": [
+      "Dropbox",
+      "Mobbin",
+      "Share link"
+    ],
+    "visual_keywords": [
+      "Modern mobile application interface, clean, minimalist design.",
+      "white",
+      "light grey",
+      "blue",
+      "Standard iOS-style status bar at the top",
+      "Navigation buttons present",
+      "Bottom footer credits Mobbin"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile application interface, clean, minimalist design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_secure_sharing_03"
+}

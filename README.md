@@ -1,0 +1,83 @@
+# Research Mockup
+
+An offline, project-agnostic workspace that turns a feature idea into a researched,
+decision-backed, navigable HTML mockup — and then hands it to OpenCode with exact files,
+commands, and acceptance checks. No Figma, no server, no guessing.
+
+It ships with a seed catalog of real Mobbin screenshots so the workspace has content to
+browse from the first minute. Your project data is never mixed with anyone else's.
+
+## Start here (one command)
+
+1. Install Node.js, Git, and OpenCode (the setup wizard verifies this for you).
+2. Clone this repository.
+3. Open PowerShell in the repository root and run:
+
+```powershell
+.\setup.ps1
+```
+
+The wizard explains each choice in plain language (which AI engine, which model, your
+Mobbin key, your app's location) and configures everything automatically. At the end it
+prints the exact command to start working — copy and paste it.
+
+## What you get
+
+- **Inspiration catalog** — searchable, offline index of real app screenshots with analysis.
+- **`research-mockup` skill** — domain research → Mobbin research → UX proposal → mockup,
+  always loaded with your project's context.
+- **Mockup studio** — navigable HTML/CSS mockups using your app's real design tokens.
+- **Design Foundation** — if your app has no design system yet, the setup adopts a
+  complete, current one for you (M3 Expressive motion, bottom sheets, typography,
+  copywriting, accessibility) instead of starting from zero.
+- **Implementation handoffs** — approved plans with exact files, commands, and checks,
+  plus a visual plan viewer for vision-capable models.
+- **ModLens vision bridge** — lets a text-only model (like DeepSeek) "see" screenshots.
+- **Two tools, one context** — research in ChatGPT/Codex and implement in OpenCode (or
+  the reverse): both read the same instance, and the handoff carries everything across.
+- **From zero or existing code** — works with an existing repository, or as the blueprint
+  for an app that does not exist yet (research → mockup → build spec).
+
+## Layout
+
+| Path | Contents |
+|---|---|
+| `core/` | The engine: skills, workflows, tools. Updated from the template. |
+| `instance/` | Your project: context, rules, API keys. Never shared. |
+| `screens/` | Screenshots organized by flow, with metadata and analysis. |
+| `research/` | Findings and decisions per investigation. |
+| `mockups/` | The mockup studio and approved plans. |
+| `catalog/` | The searchable inspiration center (engine + generated data). |
+
+## Update the engine
+
+```powershell
+.\setup.ps1 -Update
+```
+
+This pulls newer versions of `core/` without touching your `instance/`, `screens/`,
+`research/`, or `mockups/` data.
+
+## Multiple projects, zero mixing
+
+The skill is always project-agnostic — it never bakes in an app. Every app gets its own
+instance folder, and the agent loads the context of the folder where you opened the
+session:
+
+- OpenCode and Codex (CLI or ChatGPT desktop app) scope sessions to the folder they were
+  started in; `AGENTS.md` and `.agents/skills` are discovered from that folder upward.
+- The skill resolves the active project by finding `instance/project-context.md` from the
+  current folder, or by matching the folder against the registry at
+  `~/.config/research-mockup/instances.json`.
+- In the ChatGPT desktop app, create one local project per app (primary folder = that
+  app's instance or code repo) and keep the chats inside that project.
+
+Work on app A in app A's folder, app B in app B's folder. Instances share nothing except
+the agnostic engine in `core/` — each one keeps its own context, rules, keys, catalog,
+research, and mockups.
+
+## License and data notes
+
+- Mobbin screenshots are used under Mobbin's terms for your own research; do not
+  redistribute them publicly.
+- Your Mobbin key lives in `instance/.env`, which is git-ignored and never committed.

@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "CHOPT",
+    "platform": "ios",
+    "file_path": "screens/reset-password/07 - CHOPT.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:34.836Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI, Password Reset Confirmation Screen",
+    "primary_flow": "reset-password",
+    "ux_intent": "Confirm to the user that a password reset request has been processed and guide them on next steps.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "The checkmark icon is inside a circular container in a deep teal color, signifying completion or success.",
+      "The UI uses high-contrast typography for readability.",
+      "The back arrow at the top left provides navigation to return to the previous screen.",
+      "Accessibility: The teal text for 'Resend Link' provides a clear call to action.",
+      "The screen is curated by Mobbin for a design reference database."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The back arrow at the top left provides navigation to return to the previous screen.",
+      "Accessibility: The teal text for 'Resend Link' provides a clear call to action."
+    ],
+    "content_blocks": [
+      "alexsmith.mobbin@gmail.com",
+      "Resend Link",
+      "Checkmark"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, utility-focused mobile design.",
+      "white",
+      "dark teal/petrol",
+      "The checkmark icon is inside a circular container in a deep teal color, signifying completion or success.",
+      "The UI uses high-contrast typography for readability.",
+      "The back arrow at the top left provides navigation to return to the previous screen.",
+      "Accessibility: The teal text for 'Resend Link' provides a clear call to action.",
+      "The screen is curated by Mobbin for a design reference database."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, utility-focused mobile design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_reset_password_07"
+}

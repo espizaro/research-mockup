@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Attio",
+    "platform": "ios",
+    "file_path": "screens/history-list/06 - Attio.webp",
+    "analyzed_timestamp": "2026-08-11T22:30:04.682Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Contact management software interface",
+    "primary_flow": "history-list",
+    "ux_intent": "View and manage business contacts and their deal stages.",
+    "ux_patterns": [
+      "Progress",
+      "Uses color-coded dots for status indication: grey (Negotiation), pink (In Progress), yellow (New Lead), green (Closed-Won)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Attio",
+      "Mobbin",
+      "Negotiation",
+      "In Progress",
+      "New Lead",
+      "Closed-Won"
+    ],
+    "visual_keywords": [
+      "clean mobile UI",
+      "white",
+      "grey",
+      "blue",
+      "Uses color-coded dots for status indication: grey (Negotiation), pink (In Progress), yellow (New Lead), green (Closed-Won)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_history_list_06"
+}

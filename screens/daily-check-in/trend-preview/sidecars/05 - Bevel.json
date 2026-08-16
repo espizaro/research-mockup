@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Bevel",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/trend-preview/05 - Bevel.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:29.014Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile app dashboard or widget screen showcasing macronutrient intake and energy balance.",
+    "primary_flow": "daily-check-in/trend-preview",
+    "ux_intent": "To inform the user of their daily caloric and macronutrient status.",
+    "ux_patterns": [
+      "Form",
+      "Slider",
+      "Chart",
+      "Minimalist",
+      "Card",
+      "The Macro Balance widget uses a bubble chart visualization for fat, carbs, and protein.",
+      "The Net Energy widget includes a horizontal scale slider ranging from -500 to 500.",
+      "The interface is very clean, using whitespace effectively."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [],
+    "interaction_elements": [
+      "Slider"
+    ],
+    "content_blocks": [
+      "Macro Balance",
+      "Net Energy",
+      "Fat",
+      "Carbs",
+      "Protein"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface with card-based design.",
+      "white",
+      "light gray",
+      "orange",
+      "blue",
+      "The Macro Balance widget uses a bubble chart visualization for fat, carbs, and protein.",
+      "The Net Energy widget includes a horizontal scale slider ranging from -500 to 500.",
+      "The interface is very clean, using whitespace effectively."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface with card-based design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_trend_preview_05"
+}

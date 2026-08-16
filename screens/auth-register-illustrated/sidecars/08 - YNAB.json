@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "YNAB",
+    "platform": "ios",
+    "file_path": "screens/auth-register-illustrated/08 - YNAB.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:00.741Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account sign-up flow on a mobile application.",
+    "primary_flow": "auth-register-illustrated",
+    "ux_intent": "To convert new users by guiding them through account registration.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Checkbox",
+      "The hero illustration features a blue flag with a tree icon on a green background, reinforcing the brand identity.",
+      "The UI uses high-contrast buttons for social login.",
+      "Accessibility: The disabled 'Create Account' button at the bottom indicates a standard validation pattern where the button enables only after form completion and terms acceptance.",
+      "The hierarchy clearly separates third-party auth from traditional email/password login."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Checkbox",
+      "The UI uses high-contrast buttons for social login.",
+      "Accessibility: The disabled 'Create Account' button at the bottom indicates a standard validation pattern where the button enables only after form completion and terms acceptance."
+    ],
+    "content_blocks": [
+      "YNAB",
+      "Apple",
+      "Google"
+    ],
+    "visual_keywords": [
+      "Modern, minimalist, mobile-first design.",
+      "green (background header)",
+      "blue (icon)",
+      "off-white (form background)",
+      "white",
+      "The hero illustration features a blue flag with a tree icon on a green background, reinforcing the brand identity.",
+      "The UI uses high-contrast buttons for social login.",
+      "Accessibility: The disabled 'Create Account' button at the bottom indicates a standard validation pattern where the button enables only after form completion and terms acceptance.",
+      "The hierarchy clearly separates third-party auth from traditional email/password login."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern, minimalist, mobile-first design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_illustrated_08"
+}

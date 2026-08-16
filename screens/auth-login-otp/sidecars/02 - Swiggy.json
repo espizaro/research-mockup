@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Swiggy",
+    "platform": "ios",
+    "file_path": "screens/auth-login-otp/02 - Swiggy.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:32.052Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "OTP verification screen for a mobile application.",
+    "primary_flow": "auth-login-otp",
+    "ux_intent": "To verify the user's phone number by entering an OTP sent via SMS.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Hero illustration is a simplified, geometric outline of a smartphone located in the top right, serving as a visual indicator of the authentication process.",
+      "The design uses orange as the primary action color for the button.",
+      "Accessibility: High contrast text against background, but potential issues with small countdown timer text."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The design uses orange as the primary action color for the button."
+    ],
+    "content_blocks": [
+      "Swiggy",
+      "Phone Number",
+      "OTP Input",
+      "CTA"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, functional, clean, high contrast.",
+      "white",
+      "orange",
+      "light grey",
+      "Hero illustration is a simplified, geometric outline of a smartphone located in the top right, serving as a visual indicator of the authentication process.",
+      "The design uses orange as the primary action color for the button.",
+      "Accessibility: High contrast text against background, but potential issues with small countdown timer text."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, functional, clean, high contrast."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_otp_02"
+}

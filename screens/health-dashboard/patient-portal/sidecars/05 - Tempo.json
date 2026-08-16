@@ -1,0 +1,144 @@
+{
+  "image": "05 - Tempo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The screen shows a 'Readiness' dashboard from a fitness app, displaying a muscle recovery diagram, a Heart Rate Variability (HRV) reading, and a disclaimer regarding health data usage.",
+    "ocr": {
+      "full_text": "9:41 Readiness About muscle recovery Heart rate variability 14 minutes ago 39.21 ms About HRV You know your body best. Readiness relies on connected health data, and can be affected by external factors. Please use it as a reference, not as medical advice. Tempo curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Readiness"
+        },
+        {
+          "text": "About muscle recovery"
+        },
+        {
+          "text": "Heart rate variability"
+        },
+        {
+          "text": "14 minutes ago"
+        },
+        {
+          "text": "39.21 ms"
+        },
+        {
+          "text": "About HRV"
+        },
+        {
+          "text": "You know your body best. Readiness relies on connected health data, and can be affected by external factors. Please use it as a reference, not as medical advice."
+        },
+        {
+          "text": "Tempo"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Readiness"
+        },
+        {
+          "type": "image",
+          "reading_order": 2,
+          "text": "Muscle diagram illustration showing highlighted muscle groups"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "About muscle recovery"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Heart rate variability 14 minutes ago"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "39.21 ms"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "About HRV"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "You know your body best. Readiness relies on connected health data, and can be affected by external factors. Please use it as a reference, not as medical advice."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Health and fitness mobile application interface.",
+      "intent": "To provide the user with data regarding their current physical readiness state based on HRV and muscle recovery.",
+      "entities": [
+        {
+          "name": "Readiness",
+          "type": "metric_category"
+        },
+        {
+          "name": "Heart rate variability",
+          "type": "health_metric"
+        },
+        {
+          "name": "39.21 ms",
+          "type": "measurement"
+        },
+        {
+          "name": "Tempo",
+          "type": "app_name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Heart rate variability",
+          "predicate": "has_value",
+          "object": "39.21 ms"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue",
+        "light-grey"
+      ],
+      "style": "Modern minimalist mobile UI",
+      "notes": [
+        "The blue color on the muscle map likely indicates recovery status"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:34.689Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.412,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 909,
+      "totalTokenCount": 2136,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

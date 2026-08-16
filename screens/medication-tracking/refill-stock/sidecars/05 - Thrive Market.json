@@ -1,0 +1,224 @@
+{
+  "image": "05 - Thrive Market.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a product detail page from an e-commerce mobile app, specifically for Sweet Nothings Kids Strawberry & Beet Squeezable Smoothie. The product is currently out of stock. The page also features a 'Similar items' section containing 'Brainiac, Little Brainiac Brain Squeezies' and 'SmartyPants, Kids Formula: Cherry Berry' vitamins.",
+    "ocr": {
+      "full_text": "9:41\nOut of Stock\n115\nSweet Nothings, Kids Strawberry & Beet Squeezable Smoothie\n6 tube box (2 fl oz each)\n$6.99\nRemind me when in stock\nSimilar items (30)\n114\nBrainiac, Little Brainiac Brain Squeezies, Apple, Spinach and Pear\n6 pouches (3.5 oz each)\n-21% $12.59 $15.99\nSNAP eligible product\nReplace\n128\nRunning Low\nSmartyPants, Kids Formula: Cherry Berry\n120 gummies\n-38% $16.46 $26.49\nReplace\n10 pouches\nsimple + TASTY\n10 pouches\nsimple + TASTY\nThrive Market\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Out of Stock",
+          "language": "en"
+        },
+        {
+          "text": "115",
+          "language": "en"
+        },
+        {
+          "text": "Sweet Nothings, Kids Strawberry & Beet Squeezable Smoothie",
+          "language": "en"
+        },
+        {
+          "text": "6 tube box (2 fl oz each)",
+          "language": "en"
+        },
+        {
+          "text": "$6.99",
+          "language": "en"
+        },
+        {
+          "text": "Remind me when in stock",
+          "language": "en"
+        },
+        {
+          "text": "Similar items (30)",
+          "language": "en"
+        },
+        {
+          "text": "114",
+          "language": "en"
+        },
+        {
+          "text": "Brainiac, Little Brainiac Brain Squeezies, Apple, Spinach and Pear",
+          "language": "en"
+        },
+        {
+          "text": "6 pouches (3.5 oz each)",
+          "language": "en"
+        },
+        {
+          "text": "-21% $12.59 $15.99",
+          "language": "en"
+        },
+        {
+          "text": "SNAP eligible product",
+          "language": "en"
+        },
+        {
+          "text": "Replace",
+          "language": "en"
+        },
+        {
+          "text": "128",
+          "language": "en"
+        },
+        {
+          "text": "Running Low",
+          "language": "en"
+        },
+        {
+          "text": "SmartyPants, Kids Formula: Cherry Berry",
+          "language": "en"
+        },
+        {
+          "text": "120 gummies",
+          "language": "en"
+        },
+        {
+          "text": "-38% $16.46 $26.49",
+          "language": "en"
+        },
+        {
+          "text": "Replace",
+          "language": "en"
+        },
+        {
+          "text": "10 pouches",
+          "language": "en"
+        },
+        {
+          "text": "simple + TASTY",
+          "language": "en"
+        },
+        {
+          "text": "10 pouches",
+          "language": "en"
+        },
+        {
+          "text": "simple + TASTY",
+          "language": "en"
+        },
+        {
+          "text": "Thrive Market",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Sweet Nothings, Kids Strawberry & Beet Squeezable Smoothie"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "6 tube box (2 fl oz each)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "$6.99"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Remind me when in stock"
+        },
+        {
+          "type": "title",
+          "reading_order": 5,
+          "text": "Similar items (30)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Brainiac, Little Brainiac Brain Squeezies, Apple, Spinach and Pear"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "SmartyPants, Kids Formula: Cherry Berry"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app product detail page showing out-of-stock item and similar product recommendations.",
+      "intent": "View product details and find alternative products.",
+      "entities": [
+        {
+          "name": "Sweet Nothings",
+          "type": "brand",
+          "evidence": "Product title"
+        },
+        {
+          "name": "Brainiac",
+          "type": "brand",
+          "evidence": "Similar items"
+        },
+        {
+          "name": "SmartyPants",
+          "type": "brand",
+          "evidence": "Similar items"
+        },
+        {
+          "name": "Thrive Market",
+          "type": "organization",
+          "evidence": "Footer"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sweet Nothings, Kids Strawberry & Beet Squeezable Smoothie",
+          "predicate": "is currently",
+          "object": "Out of Stock"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "green",
+        "red",
+        "beige"
+      ],
+      "style": "Clean e-commerce interface, mobile UI design.",
+      "notes": [
+        "The UI uses a card-based layout for product listings.",
+        "There is a call-to-action button for 'Replace' under similar items."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:33.326Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.601,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1394,
+      "totalTokenCount": 2621,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

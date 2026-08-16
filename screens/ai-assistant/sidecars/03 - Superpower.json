@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Superpower",
+    "platform": "ios",
+    "file_path": "screens/ai-assistant/03 - Superpower.webp",
+    "analyzed_timestamp": "2026-08-05T19:24:01.091Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile interface for a health and wellness application.",
+    "primary_flow": "ai-assistant",
+    "ux_intent": "To provide health recommendations and offer an AI assistant for health-related questions.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Card",
+      "Uses standard card-based layout.",
+      "Includes a navigation back button at the top.",
+      "Features status bar icons (battery, signal, time)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Includes a navigation back button at the top."
+    ],
+    "content_blocks": [
+      "ApoB",
+      "Mediterranean-style diet",
+      "EPA/DHA",
+      "Superpower AI"
+    ],
+    "visual_keywords": [
+      "Clean, modern, minimalist mobile UI design.",
+      "white",
+      "black",
+      "light gray",
+      "Uses standard card-based layout.",
+      "Includes a navigation back button at the top.",
+      "Features status bar icons (battery, signal, time)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern, minimalist mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_ai_assistant_03"
+}

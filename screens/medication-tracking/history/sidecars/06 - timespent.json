@@ -1,0 +1,165 @@
+{
+  "image": "06 - timespent.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application interface for a fitness or activity tracker app, showing a daily view for September 28, 2025. It includes a calendar view, an educational tip about activity reminders, a scheduled 'Running' plan, and an empty history log for the current day, with a bottom navigation bar.",
+    "ocr": {
+      "full_text": "9:41\n28 September 2025\nS 28 M 29 T 30 W 1 T 2 F 3 S 4\nget notified, stay inspired\nnow you can set Activity reminders in Edit\nPlan > Activity! \nPlan\nRunning 0 mi Sep 28\nHistory\nNo Activities logged on\n28 September 2025.\nMy Day\ntimespent curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "28 September 2025"
+        },
+        {
+          "text": "S M T W T F S"
+        },
+        {
+          "text": "28 29 30 1 2 3 4"
+        },
+        {
+          "text": "get notified, stay inspired"
+        },
+        {
+          "text": "now you can set Activity reminders in Edit Plan > Activity!"
+        },
+        {
+          "text": "Plan"
+        },
+        {
+          "text": "Running"
+        },
+        {
+          "text": "0 mi Sep 28"
+        },
+        {
+          "text": "History"
+        },
+        {
+          "text": "No Activities logged on 28 September 2025."
+        },
+        {
+          "text": "My Day"
+        },
+        {
+          "text": "timespent curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "28 September 2025"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Calendar strip: S 28, M 29, T 30, W 1, T 2, F 3, S 4"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "get notified, stay inspired. now you can set Activity reminders in Edit Plan > Activity!"
+        },
+        {
+          "type": "title",
+          "reading_order": 4,
+          "text": "Plan"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Running, 0 mi, Sep 28"
+        },
+        {
+          "type": "title",
+          "reading_order": 6,
+          "text": "History"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "No Activities logged on 28 September 2025."
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Bottom navigation: My Day icon, and other navigation icons."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A fitness tracking application dashboard for daily activity management.",
+      "intent": "To track fitness goals, view scheduled workout plans, and log daily activities.",
+      "entities": [
+        {
+          "name": "timespent",
+          "type": "application",
+          "evidence": "text at the bottom"
+        },
+        {
+          "name": "Mobbin",
+          "type": "organization",
+          "evidence": "curator text at the bottom"
+        },
+        {
+          "name": "Running",
+          "type": "exercise",
+          "evidence": "Plan section"
+        },
+        {
+          "name": "28 September 2025",
+          "type": "date",
+          "evidence": "calendar header"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Running",
+          "predicate": "is scheduled for",
+          "object": "28 September 2025"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "light gray",
+        "light green"
+      ],
+      "style": "Modern mobile application interface, clean minimalist design with high-contrast typography.",
+      "notes": [
+        "Uses standard iOS status bar style.",
+        "Features a card-based layout for the plan section.",
+        "The interface includes subtle iconography for navigation."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:47.261Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 9.489,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 997,
+      "totalTokenCount": 2224,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

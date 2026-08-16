@@ -1,0 +1,217 @@
+{
+  "image": "04 - Binance.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile calendar interface showing events for the week of October 20-26, 2025. It lists specific crypto and economic events for Wednesday, October 22, and Friday, October 24, 2025.",
+    "ocr": {
+      "full_text": "9:41 Calendar Oct 2025 Today Mon 20 Tue 21 Wed 22 Thu 23 Fri 24 Sat 25 Sun 26 22 Wednesday 08:00 SCR Token Unlock 22:00 TURTLE Trading Competition 23:00 TURTLE Spot Listing 23 Thursday No more events today 24 Friday 20:30 U.S. Inflation Rate 25 Saturday No more events today 26 Sunday Opportunity Calendar Portfolio Binance curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Calendar"
+        },
+        {
+          "text": "Oct 2025"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Mon 20"
+        },
+        {
+          "text": "Tue 21"
+        },
+        {
+          "text": "Wed 22"
+        },
+        {
+          "text": "Thu 23"
+        },
+        {
+          "text": "Fri 24"
+        },
+        {
+          "text": "Sat 25"
+        },
+        {
+          "text": "Sun 26"
+        },
+        {
+          "text": "22 Wednesday"
+        },
+        {
+          "text": "08:00 SCR Token Unlock"
+        },
+        {
+          "text": "22:00 TURTLE Trading Competition"
+        },
+        {
+          "text": "23:00 TURTLE Spot Listing"
+        },
+        {
+          "text": "23 Thursday"
+        },
+        {
+          "text": "No more events today"
+        },
+        {
+          "text": "24 Friday"
+        },
+        {
+          "text": "20:30 U.S. Inflation Rate"
+        },
+        {
+          "text": "25 Saturday"
+        },
+        {
+          "text": "No more events today"
+        },
+        {
+          "text": "26 Sunday"
+        },
+        {
+          "text": "Opportunity"
+        },
+        {
+          "text": "Calendar"
+        },
+        {
+          "text": "Portfolio"
+        },
+        {
+          "text": "Binance"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Calendar"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Oct 2025"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Mon 20, Tue 21, Wed 22, Thu 23, Fri 24, Sat 25, Sun 26"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "22 Wednesday: 08:00 SCR Token Unlock, 22:00 TURTLE Trading Competition, 23:00 TURTLE Spot Listing"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "23 Thursday: No more events today"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "24 Friday: 20:30 U.S. Inflation Rate"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "25 Saturday: No more events today"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "26 Sunday"
+        },
+        {
+          "type": "other",
+          "reading_order": 9,
+          "text": "Navigation menu: Opportunity, Calendar, Portfolio"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface representing a digital calendar.",
+      "intent": "To inform the user about upcoming crypto and financial events for late October 2025.",
+      "entities": [
+        {
+          "name": "SCR",
+          "type": "Cryptocurrency"
+        },
+        {
+          "name": "TURTLE",
+          "type": "Cryptocurrency"
+        },
+        {
+          "name": "U.S. Inflation Rate",
+          "type": "Economic Indicator"
+        },
+        {
+          "name": "Binance",
+          "type": "Organization"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "SCR",
+          "predicate": "has",
+          "object": "Token Unlock event"
+        },
+        {
+          "subject": "TURTLE",
+          "predicate": "has",
+          "object": "Trading Competition"
+        },
+        {
+          "subject": "TURTLE",
+          "predicate": "has",
+          "object": "Spot Listing"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "gray"
+      ],
+      "style": "Minimalist mobile UI application design",
+      "notes": [
+        "Uses iconography for events (locks, stars, circles, banks)",
+        "Highlighted current date (Thursday, Oct 23)",
+        "Bottom navigation bar present"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:58.380Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.908,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1199,
+      "totalTokenCount": 2426,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

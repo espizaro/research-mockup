@@ -1,0 +1,144 @@
+{
+  "image": "03 - Ahead.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen for managing a user subscription, showing the current plan, next billing date, options to change the plan, request refunds, and restore purchases.",
+    "ocr": {
+      "full_text": "9:41 Manage subscription Current Plan Yearly Next billing on October 13, 2025 Change plan Refunds Restore purchases Ahead curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Manage subscription"
+        },
+        {
+          "text": "Current Plan"
+        },
+        {
+          "text": "Yearly"
+        },
+        {
+          "text": "Next billing on October 13, 2025"
+        },
+        {
+          "text": "Change plan"
+        },
+        {
+          "text": "Refunds"
+        },
+        {
+          "text": "Restore purchases"
+        },
+        {
+          "text": "Ahead"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Manage subscription"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Current Plan"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Yearly Next billing on October 13, 2025 Change plan"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Refunds"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Restore purchases"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application interface displaying account subscription details.",
+      "intent": "To allow the user to view and manage their subscription settings.",
+      "entities": [
+        {
+          "name": "Yearly",
+          "type": "subscription_plan"
+        },
+        {
+          "name": "October 13, 2025",
+          "type": "date"
+        },
+        {
+          "name": "Refunds",
+          "type": "action_item"
+        },
+        {
+          "name": "Restore purchases",
+          "type": "action_item"
+        },
+        {
+          "name": "Ahead",
+          "type": "app_name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "subscription",
+          "predicate": "has_plan",
+          "object": "Yearly"
+        },
+        {
+          "subject": "subscription",
+          "predicate": "next_billing_date",
+          "object": "October 13, 2025"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "grey"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Clean layout with clear typography",
+        "Uses icons for navigation items"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:37.649Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.302,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 667,
+      "totalTokenCount": 1894,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

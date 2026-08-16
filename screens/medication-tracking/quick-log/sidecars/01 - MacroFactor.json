@@ -1,0 +1,138 @@
+{
+  "image": "01 - MacroFactor.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows a mobile app interface for creating or editing a daily note, specifically titled 'New Note' for the date '22/08/2024'. The content of the note reflects on daily calorie intake and suggests a dietary adjustment.",
+    "ocr": {
+      "full_text": "9:41 New Note 22/08/2024 Too much calories today Gotta eating more veggies to satisfy the hunger! MacroFactor curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "New Note",
+          "language": "en"
+        },
+        {
+          "text": "22/08/2024",
+          "language": "en"
+        },
+        {
+          "text": "Too much calories today",
+          "language": "en"
+        },
+        {
+          "text": "Gotta eating more veggies to satisfy the hunger!",
+          "language": "en"
+        },
+        {
+          "text": "MacroFactor",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "New Note"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "22/08/2024"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Too much calories today"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Gotta eating more veggies to satisfy the hunger!"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile app screen for note-taking in a diet or fitness tracking application.",
+      "intent": "To input or view a personal reflection about daily caloric intake.",
+      "entities": [
+        {
+          "name": "New Note",
+          "type": "interface element"
+        },
+        {
+          "name": "22/08/2024",
+          "type": "date"
+        },
+        {
+          "name": "Too much calories today",
+          "type": "note title"
+        },
+        {
+          "name": "Gotta eating more veggies to satisfy the hunger!",
+          "type": "note body"
+        },
+        {
+          "name": "MacroFactor",
+          "type": "brand"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Note",
+          "predicate": "associated with date",
+          "object": "22/08/2024"
+        },
+        {
+          "subject": "User",
+          "predicate": "authored",
+          "object": "Gotta eating more veggies to satisfy the hunger!"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "peach/light orange"
+      ],
+      "style": "Minimalist mobile application UI",
+      "notes": [
+        "The UI includes navigation icons (X, paint palette, checkmark) at the top.",
+        "The footer contains branding for MacroFactor and Mobbin.",
+        "The overall theme is clean and functional."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:54.156Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.006,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 867,
+      "totalTokenCount": 2094,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

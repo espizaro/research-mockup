@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Clue",
+    "platform": "ios",
+    "file_path": "screens/medication-tracking/05 - Clue.webp",
+    "analyzed_timestamp": "2026-08-05T19:24:01.536Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App UI for medical or health medication reminder setting.",
+    "primary_flow": "medication-tracking",
+    "ux_intent": "To allow the user to configure and enable a recurring shot reminder notification.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Toggle",
+      "Uses a clean, minimalist design typical of modern iOS apps."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Toggle Switch"
+    ],
+    "content_blocks": [
+      "Clue",
+      "01/08/2025",
+      "1 week before",
+      "8:00 AM"
+    ],
+    "visual_keywords": [
+      "Mobile Application UI",
+      "white",
+      "teal",
+      "light gray",
+      "Uses a clean, minimalist design typical of modern iOS apps."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile Application UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_medications_05"
+}

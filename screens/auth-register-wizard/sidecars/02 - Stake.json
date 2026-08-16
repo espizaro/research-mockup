@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Stake",
+    "platform": "ios",
+    "file_path": "screens/auth-register-wizard/02 - Stake.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:01.351Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account registration or profile setup onboarding flow",
+    "primary_flow": "auth-register-wizard",
+    "ux_intent": "Collect personal user information including contact, age verification, and residency/citizenship status.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "No hero illustration present",
+      "Focus is purely functional",
+      "High contrast elements for readability",
+      "Clear hierarchy through font weight"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Dropdown"
+    ],
+    "content_blocks": [
+      "Mobile number",
+      "Date of birth",
+      "Country of Citizenship",
+      "Continue",
+      "Stake"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern mobile UI",
+      "white",
+      "black",
+      "gray",
+      "No hero illustration present",
+      "Focus is purely functional",
+      "High contrast elements for readability",
+      "Clear hierarchy through font weight"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_wizard_02"
+}

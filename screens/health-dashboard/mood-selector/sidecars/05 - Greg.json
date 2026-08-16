@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Greg",
+    "platform": "ios",
+    "file_path": "screens/health-dashboard/mood-selector/05 - Greg.webp",
+    "analyzed_timestamp": "2026-08-10T06:03:00.475Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A plant health tracking app menu.",
+    "primary_flow": "health-dashboard/mood-selector",
+    "ux_intent": "The user is selecting a current status for a plant.",
+    "ux_patterns": [
+      "Dark Mode",
+      "The selected icon (Thriving) is highlighted with a yellow border."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Thriving",
+      "Surviving",
+      "Declining",
+      "New growth",
+      "New bloom",
+      "Pests",
+      "Browning",
+      "Yellowing"
+    ],
+    "visual_keywords": [
+      "Dark mode mobile UI",
+      "black",
+      "dark gray",
+      "yellow",
+      "white",
+      "The selected icon (Thriving) is highlighted with a yellow border."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_home_dashboard_05"
+}

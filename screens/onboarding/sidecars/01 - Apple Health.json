@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "Apple Health",
+    "platform": "ios",
+    "file_path": "screens/onboarding/01 - Apple Health.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:19.042Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding screen for Apple Health.",
+    "primary_flow": "onboarding",
+    "ux_intent": "Explain the features and purpose of the Apple Health app to a new user.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Card",
+      "The background has a gradient effect, moving from a soft peachy tone at the top to white.",
+      "The central area features a white rounded square card containing a red heart icon."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Apple Health",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, iOS-style UI design with modern iconography.",
+      "white",
+      "blue",
+      "light grey",
+      "The background has a gradient effect, moving from a soft peachy tone at the top to white.",
+      "The central area features a white rounded square card containing a red heart icon."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, iOS-style UI design with modern iconography."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_01"
+}

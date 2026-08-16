@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Apple Health",
+    "platform": "ios",
+    "file_path": "screens/personal-insights/03 - Apple Health.webp",
+    "analyzed_timestamp": "2026-08-05T19:47:42.373Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile health application dashboard",
+    "primary_flow": "personal-insights",
+    "ux_intent": "View personal health statistics",
+    "ux_patterns": [
+      "Chart",
+      "Minimalist",
+      "Card",
+      "Uses standard Apple icons",
+      "Cards contain charts and data",
+      "Bottom navigation bar visible"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Bottom navigation bar visible"
+    ],
+    "content_blocks": [
+      "Apple Health",
+      "Resting Energy",
+      "Sleep Score",
+      "Flights Climbed",
+      "Walking + Running Distance"
+    ],
+    "visual_keywords": [
+      "Mobile UI, minimalist, iOS design language",
+      "white",
+      "light gray",
+      "orange",
+      "Uses standard Apple icons",
+      "Cards contain charts and data",
+      "Bottom navigation bar visible"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile UI, minimalist, iOS design language"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_insights_03"
+}

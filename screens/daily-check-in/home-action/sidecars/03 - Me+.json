@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Me+",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/home-action/03 - Me+.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:20.179Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app daily dashboard screen",
+    "primary_flow": "daily-check-in/home-action",
+    "ux_intent": "Task management and daily schedule planning",
+    "ux_patterns": [
+      "Profile",
+      "Calendar",
+      "Minimalist",
+      "Card",
+      "Chips",
+      "The UI uses a soft color palette with a prominent blue banner. The design appears to be focused on mental well-being and productivity."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Floating Action Button",
+      "Chips"
+    ],
+    "content_blocks": [
+      "Me+",
+      "Depression Test",
+      "Buy groceries",
+      "Deep breath"
+    ],
+    "visual_keywords": [
+      "Modern mobile application interface, clean, minimalist with rounded card elements and illustrative icons.",
+      "purple",
+      "blue",
+      "white",
+      "peach",
+      "The UI uses a soft color palette with a prominent blue banner. The design appears to be focused on mental well-being and productivity."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile application interface, clean, minimalist with rounded card elements and illustrative icons."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_home_action_03"
+}

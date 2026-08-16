@@ -1,0 +1,154 @@
+{
+  "image": "07 - timespent.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is an empty-state screen from a mobile app named 'timespent', titled 'Activities', prompting the user to create their first activity.",
+    "ocr": {
+      "full_text": "9:41 ... + Activities No Activities yet! Get started by adding your first Activity. Add Activity See Demo Activities Activities timespent curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "...",
+          "language": "en"
+        },
+        {
+          "text": "+",
+          "language": "en"
+        },
+        {
+          "text": "Activities",
+          "language": "en"
+        },
+        {
+          "text": "No Activities yet!",
+          "language": "en"
+        },
+        {
+          "text": "Get started by adding your first Activity.",
+          "language": "en"
+        },
+        {
+          "text": "Add Activity",
+          "language": "en"
+        },
+        {
+          "text": "See Demo Activities",
+          "language": "en"
+        },
+        {
+          "text": "Activities",
+          "language": "en"
+        },
+        {
+          "text": "timespent",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Activities"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "No Activities yet! Get started by adding your first Activity."
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Add Activity"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "See Demo Activities"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Activities tab navigation"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI empty state",
+      "intent": "User is prompted to initiate the creation of an activity.",
+      "entities": [
+        {
+          "name": "Activities",
+          "type": "screen_title"
+        },
+        {
+          "name": "Add Activity",
+          "type": "button"
+        },
+        {
+          "name": "timespent",
+          "type": "app_name"
+        },
+        {
+          "name": "Mobbin",
+          "type": "platform_name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Add Activity button",
+          "predicate": "leads to",
+          "object": "creating an activity"
+        },
+        {
+          "subject": "timespent",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "green"
+      ],
+      "style": "Clean, minimalist mobile UI",
+      "notes": [
+        "Leaf icon used as a decorative element for empty state",
+        "Button has a subtle drop shadow"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:49.057Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.317,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 693,
+      "totalTokenCount": 1920,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

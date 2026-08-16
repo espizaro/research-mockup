@@ -1,0 +1,174 @@
+{
+  "image": "03 - Runna.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for the Runna app, specifically the 'Activities' tab, which is currently empty. It encourages the user to record their first run by offering a 'Record Run' button.",
+    "ocr": {
+      "full_text": "9:41\nA\nActivities\nTake your running to the next level\nOnce you complete a run with Runna, you can see your\nmileage, stats, and achievements here.\nLet's log some miles!\nRecord Run\nToday\nPlan\nActivities\nCommunity\nSupport\nRunna\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "A",
+          "language": "en"
+        },
+        {
+          "text": "Activities",
+          "language": "en"
+        },
+        {
+          "text": "Take your running to the next level",
+          "language": "en"
+        },
+        {
+          "text": "Once you complete a run with Runna, you can see your",
+          "language": "en"
+        },
+        {
+          "text": "mileage, stats, and achievements here.",
+          "language": "en"
+        },
+        {
+          "text": "Let's log some miles!",
+          "language": "en"
+        },
+        {
+          "text": "Record Run",
+          "language": "en"
+        },
+        {
+          "text": "Today",
+          "language": "en"
+        },
+        {
+          "text": "Plan",
+          "language": "en"
+        },
+        {
+          "text": "Activities",
+          "language": "en"
+        },
+        {
+          "text": "Community",
+          "language": "en"
+        },
+        {
+          "text": "Support",
+          "language": "en"
+        },
+        {
+          "text": "Runna",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Activities"
+        },
+        {
+          "type": "image",
+          "reading_order": 2,
+          "text": "Illustration of a running shoe on a geometric base"
+        },
+        {
+          "type": "title",
+          "reading_order": 3,
+          "text": "Take your running to the next level"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Once you complete a run with Runna, you can see your mileage, stats, and achievements here. Let's log some miles!"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Record Run"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Today, Plan, Activities, Community, Support"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "Prompting user to record a run",
+      "entities": [
+        {
+          "name": "Runna",
+          "type": "Application",
+          "evidence": "Runna brand logo and text"
+        },
+        {
+          "name": "Record Run",
+          "type": "Button",
+          "evidence": "Primary call to action button"
+        },
+        {
+          "name": "Activities",
+          "type": "Tab",
+          "evidence": "Bottom navigation and header"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Runna",
+          "predicate": "has",
+          "object": "Activities tab"
+        },
+        {
+          "subject": "User",
+          "predicate": "can perform",
+          "object": "Record Run"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#F8F8F8",
+        "#000000",
+        "#2E7D32"
+      ],
+      "style": "Clean, modern mobile UI",
+      "notes": [
+        "The status bar icons are visible at the top",
+        "Minimalist design with light gray background"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:20.199Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.207,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 930,
+      "totalTokenCount": 2157,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

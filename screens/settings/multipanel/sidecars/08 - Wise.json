@@ -1,0 +1,147 @@
+{
+  "image": "08 - Wise.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application settings interface for 'Language and appearance' with a modal pop-up active for the 'Appearance' settings.",
+    "ocr": {
+      "full_text": "9:41\nLanguage and appearance\nLanguage\nAppearance\nSame as device\nAppearance\nSame as device\nUses light or dark mode depending on your\ndevice settings.\nLight\nDark\nWise\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Language and appearance"
+        },
+        {
+          "text": "Language"
+        },
+        {
+          "text": "Appearance"
+        },
+        {
+          "text": "Same as device"
+        },
+        {
+          "text": "Appearance"
+        },
+        {
+          "text": "Same as device"
+        },
+        {
+          "text": "Uses light or dark mode depending on your"
+        },
+        {
+          "text": "device settings."
+        },
+        {
+          "text": "Light"
+        },
+        {
+          "text": "Dark"
+        },
+        {
+          "text": "Wise"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Language and appearance"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Language"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Appearance\nSame as device"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Appearance\nSame as device\nUses light or dark mode depending on your device settings.\nLight\nDark"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI settings screen.",
+      "intent": "The user is selecting an appearance theme (Light, Dark, or System Default).",
+      "entities": [
+        {
+          "name": "Wise",
+          "type": "Brand"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        },
+        {
+          "name": "Language",
+          "type": "Setting"
+        },
+        {
+          "name": "Appearance",
+          "type": "Setting"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Appearance",
+          "predicate": "has options",
+          "object": "Same as device, Light, Dark"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "gray",
+        "black"
+      ],
+      "style": "Modern mobile application interface, clean, minimalist, high contrast, modal overlay.",
+      "notes": [
+        "The modal overlay has a dim background effect on the underlying screen.",
+        "The 'Same as device' option is currently selected with a radio-style indicator."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:22:00.798Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.193,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 666,
+      "totalTokenCount": 1893,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.195
+      }
+    ],
+    "warnings": []
+  }
+}

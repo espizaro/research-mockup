@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Ladder",
+    "platform": "ios",
+    "file_path": "screens/health-logging/activity/01 - Ladder.webp",
+    "analyzed_timestamp": "2026-08-05T19:41:18.034Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "mobile fitness app workout tracking screen",
+    "primary_flow": "health-logging/activity",
+    "ux_intent": "log workout sets for a specific exercise routine",
+    "ux_patterns": [
+      "Dark Mode",
+      "UI uses distinct colored checkmarks for logged items",
+      "Typography is sans-serif, clean, and high-contrast"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Ladder",
+      "Front Squat",
+      "March",
+      "Dumbbells"
+    ],
+    "visual_keywords": [
+      "Modern dark mode mobile interface",
+      "black",
+      "dark gray",
+      "bright yellow",
+      "UI uses distinct colored checkmarks for logged items",
+      "Typography is sans-serif, clean, and high-contrast"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern dark mode mobile interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_activity_01"
+}

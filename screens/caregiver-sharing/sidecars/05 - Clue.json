@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Clue",
+    "platform": "ios",
+    "file_path": "screens/caregiver-sharing/05 - Clue.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:48.085Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app interface",
+    "primary_flow": "caregiver-sharing",
+    "ux_intent": "User is setting up a Clue Connect connection by entering an invite code.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Clear call-to-action button for 'Connect'",
+      "Standard iOS keyboard overlay"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Clear call-to-action button for 'Connect'"
+    ],
+    "content_blocks": [
+      "Clue Connect",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern minimalist mobile app design",
+      "white",
+      "teal",
+      "light blue",
+      "grey",
+      "Clear call-to-action button for 'Connect'",
+      "Standard iOS keyboard overlay"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist mobile app design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_caregiver_sharing_05"
+}

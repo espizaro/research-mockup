@@ -1,0 +1,210 @@
+{
+  "image": "01 - Discord.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile screen interface showing the Audit Log for a Discord server with a filter overlay active.",
+    "ocr": {
+      "full_text": "9:41 Audit Log Filter Search Filters All Users All Actions sam021778 made changes to Sam's server Today at 8:05 AM sam021778 scheduled the event Movie night Today at 7:51 AM sam021778 created a category Fun Today at 7:48 AM sam021778 made changes to #movie-discussions Today at 7:36 AM sam021778 created a text channel #movie-discussions Today at 7:21 AM Filter by User Filter by Action Discord curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Audit Log",
+          "language": "en"
+        },
+        {
+          "text": "Filter",
+          "language": "en"
+        },
+        {
+          "text": "Search Filters",
+          "language": "en"
+        },
+        {
+          "text": "All Users",
+          "language": "en"
+        },
+        {
+          "text": "All Actions",
+          "language": "en"
+        },
+        {
+          "text": "sam021778 made changes to",
+          "language": "en"
+        },
+        {
+          "text": "Sam's server",
+          "language": "en"
+        },
+        {
+          "text": "Today at 8:05 AM",
+          "language": "en"
+        },
+        {
+          "text": "sam021778 scheduled the event",
+          "language": "en"
+        },
+        {
+          "text": "Movie night",
+          "language": "en"
+        },
+        {
+          "text": "Today at 7:51 AM",
+          "language": "en"
+        },
+        {
+          "text": "sam021778 created a category",
+          "language": "en"
+        },
+        {
+          "text": "Fun",
+          "language": "en"
+        },
+        {
+          "text": "Today at 7:48 AM",
+          "language": "en"
+        },
+        {
+          "text": "sam021778 made changes to",
+          "language": "en"
+        },
+        {
+          "text": "#movie-discussions",
+          "language": "en"
+        },
+        {
+          "text": "Today at 7:36 AM",
+          "language": "en"
+        },
+        {
+          "text": "sam021778 created a text",
+          "language": "en"
+        },
+        {
+          "text": "channel #movie-discussions",
+          "language": "en"
+        },
+        {
+          "text": "Today at 7:21 AM",
+          "language": "en"
+        },
+        {
+          "text": "Filter by User",
+          "language": "en"
+        },
+        {
+          "text": "Filter by Action",
+          "language": "en"
+        },
+        {
+          "text": "Discord",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Audit Log"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Search Filters, All Users, All Actions"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "sam021778 made changes to Sam's server, Today at 8:05 AM; sam021778 scheduled the event Movie night, Today at 7:51 AM; sam021778 created a category Fun, Today at 7:48 AM; sam021778 made changes to #movie-discussions, Today at 7:36 AM; sam021778 created a text channel #movie-discussions, Today at 7:21 AM"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Filter by User, Filter by Action"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI showing server admin activity log",
+      "intent": "Filtering logs by user or action type",
+      "entities": [
+        {
+          "name": "sam021778",
+          "type": "User"
+        },
+        {
+          "name": "Sam's server",
+          "type": "Discord Server"
+        },
+        {
+          "name": "Movie night",
+          "type": "Event"
+        },
+        {
+          "name": "Fun",
+          "type": "Channel Category"
+        },
+        {
+          "name": "#movie-discussions",
+          "type": "Text Channel"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "sam021778",
+          "predicate": "scheduled",
+          "object": "Movie night"
+        },
+        {
+          "subject": "sam021778",
+          "predicate": "created",
+          "object": "Fun"
+        },
+        {
+          "subject": "sam021778",
+          "predicate": "created",
+          "object": "#movie-discussions"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "gray",
+        "dark gray"
+      ],
+      "style": "Minimalist mobile UI, modal overlay"
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:53.331Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.05,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1223,
+      "totalTokenCount": 2450,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "image": "03 - PandaDoc.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A screenshot of the PandaDoc document management interface showing a dashboard with a document creation call-to-action, a list of recent documents, and a toast notification indicating a folder was successfully created.",
+    "ocr": {
+      "full_text": "PandaDoc Documents My documents Templates Content library Catalog Forms Search + Document Cut document creation time by 50% Spend far less time building documents with the help of a template — a master copy you can use again and again. Explore templates Maybe later All Date Status Owner Recipient Company Title Status Value Modified Proposals Just now Agreement 1 JDMobbin Contract Completed $0.00 An hour ago Jessica Smith, Jon Smith, Jane Doe Website Development Proposal & Agreement Completed $0.00 An hour ago Jon Smith, Jane Doe, Jessica Smith JDMobbin Proposal Draft $0.00 Apr 19, 2024 No recipients Folder Proposals successfully created. Dismiss PandaDoc curated by Mobbin",
+      "lines": [
+        {
+          "text": "PandaDoc"
+        },
+        {
+          "text": "Documents My documents Templates Content library Catalog Forms"
+        },
+        {
+          "text": "Search"
+        },
+        {
+          "text": "+ Document"
+        },
+        {
+          "text": "Cut document creation time by 50%"
+        },
+        {
+          "text": "Spend far less time building documents with the help of a template — a master copy you can use again and again."
+        },
+        {
+          "text": "Explore templates Maybe later"
+        },
+        {
+          "text": "All"
+        },
+        {
+          "text": "Date Status Owner Recipient Company"
+        },
+        {
+          "text": "Title Status Value Modified"
+        },
+        {
+          "text": "Proposals Just now"
+        },
+        {
+          "text": "Agreement 1 JDMobbin Contract Completed $0.00 An hour ago"
+        },
+        {
+          "text": "Jessica Smith, Jon Smith, Jane Doe"
+        },
+        {
+          "text": "Website Development Proposal & Agreement Completed $0.00 An hour ago"
+        },
+        {
+          "text": "Jon Smith, Jane Doe, Jessica Smith"
+        },
+        {
+          "text": "JDMobbin Proposal Draft $0.00 Apr 19, 2024"
+        },
+        {
+          "text": "No recipients"
+        },
+        {
+          "text": "Folder Proposals successfully created. Dismiss"
+        },
+        {
+          "text": "PandaDoc curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Cut document creation time by 50%"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Spend far less time building documents with the help of a template — a master copy you can use again and again."
+        },
+        {
+          "type": "table",
+          "reading_order": 3,
+          "text": "Title Status Value Modified Proposals Agreement 1 JDMobbin Contract Completed $0.00 An hour ago Website Development Proposal & Agreement Completed $0.00 An hour ago JDMobbin Proposal Draft $0.00 Apr 19, 2024"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Folder Proposals successfully created. Dismiss"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "SaaS dashboard for document management.",
+      "intent": "To help users create documents faster using templates and manage existing document files.",
+      "entities": [
+        {
+          "name": "PandaDoc",
+          "type": "Company/Platform"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        },
+        {
+          "name": "Jessica Smith",
+          "type": "User"
+        },
+        {
+          "name": "Jon Smith",
+          "type": "User"
+        },
+        {
+          "name": "Jane Doe",
+          "type": "User"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "PandaDoc",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "dark green",
+        "light grey"
+      ],
+      "style": "Clean, modern, professional web UI interface.",
+      "notes": [
+        "The interface uses a sidebar for navigation and a main content area for the dashboard."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:49.991Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.042,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 929,
+      "totalTokenCount": 2136,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

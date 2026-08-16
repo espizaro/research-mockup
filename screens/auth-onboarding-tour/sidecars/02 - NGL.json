@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "NGL",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-tour/02 - NGL.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:40.549Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding or help modal.",
+    "primary_flow": "auth-onboarding-tour",
+    "ux_intent": "To educate the user on how to use the 'link' feature in their social media story creation process.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "The hero image is an embedded instructional graphic showing a finger gesture pointing at a UI element.",
+      "The style is clean and high contrast.",
+      "The circular steps (1-4) provide a clear progression indicator.",
+      "The finger pointer graphic is stylized as an illustration to guide user interaction."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The finger pointer graphic is stylized as an illustration to guide user interaction."
+    ],
+    "content_blocks": [
+      "NGL",
+      "Mobbin",
+      "Sticker icon"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, instructional UI",
+      "white",
+      "black",
+      "gray",
+      "The hero image is an embedded instructional graphic showing a finger gesture pointing at a UI element.",
+      "The style is clean and high contrast.",
+      "The circular steps (1-4) provide a clear progression indicator.",
+      "The finger pointer graphic is stylized as an illustration to guide user interaction."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, instructional UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_tour_02"
+}

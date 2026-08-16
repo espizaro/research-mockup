@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Minna Bank",
+    "platform": "ios",
+    "file_path": "screens/auth-login-biometric/04 - Minna Bank.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:41.048Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app login process with an overlay dialog requesting biometric setup.",
+    "primary_flow": "auth-login-biometric",
+    "ux_intent": "Persuade the user to enable biometric authentication for faster login.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Login",
+      "Minimalist",
+      "The modal contains a fingerprint icon representing biometrics, placed above the title, acting as a visual cue to reinforce security.",
+      "The modal uses a clear hierarchy: header, body copy, and binary choices (cancel/confirm).",
+      "The background is dimmed to place focus on the modal dialog.",
+      "High contrast text and clear touch targets are present.",
+      "The fingerprint illustration is stylized, abstract, and monochromatic, serving as an icon/informative graphic rather than a decorative image."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Biometric Authentication Modal",
+      "Login Form",
+      "Minna Bank"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat, mobile-first design",
+      "white",
+      "black",
+      "gray",
+      "The modal contains a fingerprint icon representing biometrics, placed above the title, acting as a visual cue to reinforce security.",
+      "The modal uses a clear hierarchy: header, body copy, and binary choices (cancel/confirm).",
+      "The background is dimmed to place focus on the modal dialog.",
+      "High contrast text and clear touch targets are present.",
+      "The fingerprint illustration is stylized, abstract, and monochromatic, serving as an icon/informative graphic rather than a decorative image."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat, mobile-first design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_biometric_04"
+}

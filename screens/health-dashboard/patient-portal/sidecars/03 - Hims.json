@@ -1,0 +1,197 @@
+{
+  "image": "03 - Hims.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen for 'Hims', showing a user named Alex their account dashboard, which includes a status update for a custom acne cream treatment request, an option to add more treatments, and promotional content for weight loss products.",
+    "ocr": {
+      "full_text": "9:41\nWelcome back, Alex\nA provider is reviewing your\ntreatment request\nCustom Acne Cream\nRequested\nReviewed\nShipped\nDelivered\nMy Subscriptions\nHealth Goals?\nLet's see if we can help.\n+ Add Treatment\nWeight Loss\nHome\nCare\nPrograms\nShop\nHims\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Welcome back, Alex"
+        },
+        {
+          "text": "A provider is reviewing your"
+        },
+        {
+          "text": "treatment request"
+        },
+        {
+          "text": "Custom Acne Cream"
+        },
+        {
+          "text": "Requested"
+        },
+        {
+          "text": "Reviewed"
+        },
+        {
+          "text": "Shipped"
+        },
+        {
+          "text": "Delivered"
+        },
+        {
+          "text": "My Subscriptions"
+        },
+        {
+          "text": "Health Goals?"
+        },
+        {
+          "text": "Let's see if we can help."
+        },
+        {
+          "text": "+ Add Treatment"
+        },
+        {
+          "text": "Weight Loss"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Care"
+        },
+        {
+          "text": "Programs"
+        },
+        {
+          "text": "Shop"
+        },
+        {
+          "text": "Hims"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Welcome back, Alex"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "A provider is reviewing your treatment request Custom Acne Cream"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Requested Reviewed Shipped Delivered"
+        },
+        {
+          "type": "title",
+          "reading_order": 4,
+          "text": "My Subscriptions"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Health Goals? Let's see if we can help."
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "+ Add Treatment"
+        },
+        {
+          "type": "image",
+          "reading_order": 7,
+          "text": "Weight Loss"
+        },
+        {
+          "type": "other",
+          "reading_order": 8,
+          "text": "Home Care Programs Shop"
+        },
+        {
+          "type": "other",
+          "reading_order": 9,
+          "text": "Hims curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app dashboard for health and wellness services.",
+      "intent": "Display user dashboard with order tracking, subscription options, and promotional content.",
+      "entities": [
+        {
+          "name": "Alex",
+          "type": "User"
+        },
+        {
+          "name": "Hims",
+          "type": "Brand"
+        },
+        {
+          "name": "Custom Acne Cream",
+          "type": "Product"
+        },
+        {
+          "name": "Weight Loss",
+          "type": "Product Category"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Alex",
+          "predicate": "has a pending",
+          "object": "Custom Acne Cream"
+        },
+        {
+          "subject": "Hims",
+          "predicate": "offers",
+          "object": "Weight Loss"
+        },
+        {
+          "subject": "Hims",
+          "predicate": "provides",
+          "object": "Health Goals"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "tan",
+        "purple"
+      ],
+      "style": "Minimalist mobile user interface",
+      "notes": [
+        "Progress bar indicates status is in the 'Reviewed' stage",
+        "Bottom navigation bar for app navigation",
+        "Image of weight loss medication syringes present"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:17.746Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.844,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 894,
+      "totalTokenCount": 2121,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

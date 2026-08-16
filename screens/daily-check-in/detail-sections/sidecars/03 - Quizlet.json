@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Quizlet",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/detail-sections/03 - Quizlet.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:13.657Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI screen for a 'Multimedia Design' course or study group page.",
+    "primary_flow": "daily-check-in/detail-sections",
+    "ux_intent": "To browse study sets within a specific group or course page.",
+    "ux_patterns": [
+      "Minimalist",
+      "Card",
+      "The text 'Multimedia Design' is repeated in the title and the set card.",
+      "The set card includes an icon/avatar for the user 'Warded_Lee'."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Muiltimedia Design",
+      "Warded_Lee",
+      "Quizlet",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile application UI design.",
+      "white",
+      "dark blue/grey",
+      "The text 'Multimedia Design' is repeated in the title and the set card.",
+      "The set card includes an icon/avatar for the user 'Warded_Lee'."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile application UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_detail_sections_03"
+}

@@ -1,0 +1,214 @@
+{
+  "image": "06 - Headspace.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows a web or mobile interface for a healthcare service, specifically for scheduling an appointment with a therapist. It displays search results for available therapists and detailed information about a selected therapist, Jalecia Wasko-Jones.",
+    "ocr": {
+      "full_text": "Check In Verify Insurance Schedule appointment Available therapists (1) Blue Shield of California Friday, August 15 Update Between 7:00 AM and 9:00 AM Jalecia Wasko-jones LCSW In-network Master's Degree in Social Work Anxiety, Depression English Select appointment time: Friday, August 15 8:00 AM - 8:59 AM Jalecia Wasko-jones LCSW Specialties Anxiety, Depression Approach to care I enjoy getting to know clients and connecting to what they value to support them in reaching their goals. I take a collaborative non-judgmental approach with clients to make them feel comfortable exploring their thoughts and feelings. I believe the best way to make lasting change is to support clients in identifying what they want for their lives and support them in taking steps to achieve their vision. More about me I am a good listener and connect with clients through authenticity. I have a good sense of humor and love to laugh. I value connecting with friends and family. I am curious and value curiosity in discussions with others. I love a wide range of music and enjoy watching basketball, football, and baseball in the little free time I have. Headspace curated by Mobbin",
+      "lines": [
+        {
+          "text": "Check In",
+          "language": "en"
+        },
+        {
+          "text": "Verify Insurance",
+          "language": "en"
+        },
+        {
+          "text": "Schedule appointment",
+          "language": "en"
+        },
+        {
+          "text": "Available therapists (1)",
+          "language": "en"
+        },
+        {
+          "text": "Blue Shield of California",
+          "language": "en"
+        },
+        {
+          "text": "Friday, August 15 Update",
+          "language": "en"
+        },
+        {
+          "text": "Between 7:00 AM and 9:00 AM",
+          "language": "en"
+        },
+        {
+          "text": "Jalecia Wasko-jones",
+          "language": "en"
+        },
+        {
+          "text": "LCSW",
+          "language": "en"
+        },
+        {
+          "text": "In-network",
+          "language": "en"
+        },
+        {
+          "text": "Master's Degree in Social Work",
+          "language": "en"
+        },
+        {
+          "text": "Anxiety, Depression",
+          "language": "en"
+        },
+        {
+          "text": "English",
+          "language": "en"
+        },
+        {
+          "text": "Select appointment time:",
+          "language": "en"
+        },
+        {
+          "text": "Friday, August 15",
+          "language": "en"
+        },
+        {
+          "text": "8:00 AM - 8:59 AM",
+          "language": "en"
+        },
+        {
+          "text": "Jalecia Wasko-jones",
+          "language": "en"
+        },
+        {
+          "text": "LCSW",
+          "language": "en"
+        },
+        {
+          "text": "Specialties",
+          "language": "en"
+        },
+        {
+          "text": "Anxiety, Depression",
+          "language": "en"
+        },
+        {
+          "text": "Approach to care",
+          "language": "en"
+        },
+        {
+          "text": "I enjoy getting to know clients and connecting to what they value to support them in reaching their goals. I take a collaborative non-judgmental approach with clients to make them feel comfortable exploring their thoughts and feelings. I believe the best way to make lasting change is to support clients in identifying what they want for their lives and support them in taking steps to achieve their vision.",
+          "language": "en"
+        },
+        {
+          "text": "More about me",
+          "language": "en"
+        },
+        {
+          "text": "I am a good listener and connect with clients through authenticity. I have a good sense of humor and love to laugh. I value connecting with friends and family. I am curious and value curiosity in discussions with others. I love a wide range of music and enjoy watching basketball, football, and baseball in the little free time I have.",
+          "language": "en"
+        },
+        {
+          "text": "Headspace",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Check In Verify Insurance Schedule appointment"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Available therapists (1)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Blue Shield of California Friday, August 15 Update Between 7:00 AM and 9:00 AM"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Jalecia Wasko-jones LCSW In-network Master's Degree in Social Work Anxiety, Depression English Select appointment time: Friday, August 15 8:00 AM - 8:59 AM"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Jalecia Wasko-jones LCSW Specialties Anxiety, Depression Approach to care I enjoy getting to know clients and connecting to what they value to support them in reaching their goals. I take a collaborative non-judgmental approach with clients to make them feel comfortable exploring their thoughts and feelings. I believe the best way to make lasting change is to support clients in identifying what they want for their lives and support them in taking steps to achieve their vision. More about me I am a good listener and connect with clients through authenticity. I have a good sense of humor and love to laugh. I value connecting with friends and family. I am curious and value curiosity in discussions with others. I love a wide range of music and enjoy watching basketball, football, and baseball in the little free time I have."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Therapist booking interface on Headspace",
+      "intent": "Select a time slot for a therapy appointment",
+      "entities": [
+        {
+          "name": "Jalecia Wasko-jones",
+          "type": "Person/Therapist"
+        },
+        {
+          "name": "Blue Shield of California",
+          "type": "Insurance"
+        },
+        {
+          "name": "Headspace",
+          "type": "Organization"
+        },
+        {
+          "name": "LCSW",
+          "type": "Professional Title"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Jalecia Wasko-jones",
+          "predicate": "has title",
+          "object": "LCSW"
+        },
+        {
+          "subject": "Jalecia Wasko-jones",
+          "predicate": "specializes in",
+          "object": "Anxiety, Depression"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "blue"
+      ],
+      "style": "clean UI web application",
+      "notes": [
+        "Clear navigation steps at the top",
+        "Two-column list and detail layout"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:27.371Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.637,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1634,
+      "totalTokenCount": 2841,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

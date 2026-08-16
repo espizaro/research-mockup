@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "Calm",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/v2-checkin/05 - Calm.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:27.331Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app progress screen",
+    "primary_flow": "daily-check-in/v2-checkin",
+    "ux_intent": "To inform the user of their weekly mindfulness practice streak and history.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Chart",
+      "Minimalist",
+      "Progress circle with check marks for Wednesday, Thursday, and Friday",
+      "User has successfully hit their 3-day goal"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Calm",
+      "Matthew McConaughey",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat design mobile UI",
+      "blue",
+      "white",
+      "Progress circle with check marks for Wednesday, Thursday, and Friday",
+      "User has successfully hit their 3-day goal"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat design mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_checkin_05"
+}

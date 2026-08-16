@@ -1,0 +1,48 @@
+{
+  "identification": {
+    "app_name": "WEAR",
+    "platform": "ios",
+    "file_path": "screens/password-recovery/07 - WEAR.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:27.279Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Password reset confirmation screen on a mobile device.",
+    "primary_flow": "password-recovery",
+    "ux_intent": "To inform the user that a password reset email has been sent and provide the next steps for account recovery.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Uses a simple icon of an envelope to reinforce the message.",
+      "The layout is centered.",
+      "High contrast text for readability."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "alexsmith.mobbin@gmail.com",
+      "Eventbrite",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile interface, typical of a modern design system.",
+      "off-white",
+      "deep-purple",
+      "black",
+      "Uses a simple icon of an envelope to reinforce the message.",
+      "The layout is centered.",
+      "High contrast text for readability."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile interface, typical of a modern design system."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_password_recovery_07"
+}

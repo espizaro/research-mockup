@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Vocabulary",
+    "platform": "ios",
+    "file_path": "screens/social-buttons/01 - Vocabulary.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:14.128Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding or Account Sign-in screen",
+    "primary_flow": "social-buttons",
+    "ux_intent": "To encourage users to sign up or log in to preserve their app data.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Settings",
+      "Minimalist",
+      "There is a 3D isometric V-shaped icon above the headline to reinforce the brand identity.",
+      "The layout is centered, focused on two primary call-to-action buttons.",
+      "Low contrast text in the footer for legal disclaimers."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The layout is centered, focused on two primary call-to-action buttons."
+    ],
+    "content_blocks": [
+      "Apple",
+      "Google",
+      "Terms & Conditions",
+      "Privacy Policy",
+      "Vocabulary",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist UI, Clean typography, 3D illustrative icon",
+      "cream",
+      "black",
+      "white",
+      "There is a 3D isometric V-shaped icon above the headline to reinforce the brand identity.",
+      "The layout is centered, focused on two primary call-to-action buttons.",
+      "Low contrast text in the footer for legal disclaimers."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist UI, Clean typography, 3D illustrative icon"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_social_buttons_01"
+}

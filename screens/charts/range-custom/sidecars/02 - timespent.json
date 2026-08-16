@@ -1,0 +1,194 @@
+{
+  "image": "02 - timespent.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for creating or editing a 'Measured Tally' entry, specifically configured for 'Running'. It allows the user to set a name, symbol, color, and measurement preferences such as weight in kilograms.",
+    "ocr": {
+      "full_text": "9:41 Measured Tally Name Running Symbol Color Measurements Use Measurements Measuring Weight Preferred Unit Kilogram (kg) All Measurements are automatically converted to display in your Preferred Unit. More Options timespent curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Measured Tally"
+        },
+        {
+          "text": "Name"
+        },
+        {
+          "text": "Running"
+        },
+        {
+          "text": "Symbol"
+        },
+        {
+          "text": "Color"
+        },
+        {
+          "text": "Measurements"
+        },
+        {
+          "text": "Use Measurements"
+        },
+        {
+          "text": "Measuring"
+        },
+        {
+          "text": "Weight"
+        },
+        {
+          "text": "Preferred Unit"
+        },
+        {
+          "text": "Kilogram (kg)"
+        },
+        {
+          "text": "All Measurements are automatically converted to"
+        },
+        {
+          "text": "display in your Preferred Unit."
+        },
+        {
+          "text": "More Options"
+        },
+        {
+          "text": "timespent"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Measured Tally"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "Name: Running"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Symbol: [running shoe icon]"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Color: [color picker icon]"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Measurements: Use Measurements [toggle on]"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Measuring: Weight"
+        },
+        {
+          "type": "form",
+          "reading_order": 7,
+          "text": "Preferred Unit: Kilogram (kg)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "All Measurements are automatically converted to display in your Preferred Unit."
+        },
+        {
+          "type": "form",
+          "reading_order": 9,
+          "text": "More Options"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app settings page for a tracking feature.",
+      "intent": "User is configuring tally tracking settings.",
+      "entities": [
+        {
+          "name": "Measured Tally",
+          "type": "feature name"
+        },
+        {
+          "name": "Running",
+          "type": "tally name"
+        },
+        {
+          "name": "Weight",
+          "type": "measurement type"
+        },
+        {
+          "name": "Kilogram",
+          "type": "unit of measurement"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Measured Tally",
+          "predicate": "has entry",
+          "object": "Running"
+        },
+        {
+          "subject": "Measuring",
+          "predicate": "is set to",
+          "object": "Weight"
+        },
+        {
+          "subject": "Preferred Unit",
+          "predicate": "is set to",
+          "object": "Kilogram (kg)"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "green",
+        "black"
+      ],
+      "style": "Minimalist mobile UI, iOS-style interface.",
+      "notes": [
+        "Uses standard iOS form elements like toggles and selection menus."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:23:07.684Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.589,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 868,
+      "totalTokenCount": 2095,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.591
+      }
+    ],
+    "warnings": []
+  }
+}

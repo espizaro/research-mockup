@@ -1,0 +1,171 @@
+{
+  "image": "11 - Flo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for a health tracking app, likely 'Flo', showing a daily dashboard of health metrics including water intake, weight, basal body temperature, and notes.",
+    "ocr": {
+      "full_text": "9:41 Today Cycle day 18 Search Water 16 / 72 fl. oz. Reminders and Settings Weight 131.3 lbs. View chart Basal temperature 97.52 °F View chart Notes Flo curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Cycle day 18"
+        },
+        {
+          "text": "Search"
+        },
+        {
+          "text": "Water"
+        },
+        {
+          "text": "16 / 72 fl. oz."
+        },
+        {
+          "text": "Reminders and Settings"
+        },
+        {
+          "text": "Weight"
+        },
+        {
+          "text": "131.3 lbs."
+        },
+        {
+          "text": "View chart"
+        },
+        {
+          "text": "Basal temperature"
+        },
+        {
+          "text": "97.52 °F"
+        },
+        {
+          "text": "View chart"
+        },
+        {
+          "text": "Notes"
+        },
+        {
+          "text": "Flo"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Today"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Cycle day 18"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Search"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Water 16 / 72 fl. oz. Reminders and Settings"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Weight 131.3 lbs. View chart"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Basal temperature 97.52 °F View chart"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Notes"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile health tracking dashboard application.",
+      "intent": "User is viewing and potentially logging health data for the current day.",
+      "entities": [
+        {
+          "name": "Flo",
+          "type": "Application"
+        },
+        {
+          "name": "Water",
+          "type": "Health Metric"
+        },
+        {
+          "name": "Weight",
+          "type": "Health Metric"
+        },
+        {
+          "name": "Basal temperature",
+          "type": "Health Metric"
+        },
+        {
+          "name": "Notes",
+          "type": "Feature"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Flo",
+          "predicate": "displays",
+          "object": "daily health metrics"
+        },
+        {
+          "subject": "Water",
+          "predicate": "target",
+          "object": "72 fl. oz."
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light gray"
+      ],
+      "style": "clean, modern, minimalist mobile UI design",
+      "notes": [
+        "icons used for each category",
+        "buttons for adding/editing data included"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:47:14.978Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.746,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 812,
+      "totalTokenCount": 2039,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

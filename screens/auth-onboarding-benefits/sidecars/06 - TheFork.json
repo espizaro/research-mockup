@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "TheFork",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-benefits/06 - TheFork.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:35.994Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding or feature spotlight screen.",
+    "primary_flow": "auth-onboarding-benefits",
+    "ux_intent": "To introduce users to the new Public Profiles feature and encourage them to continue through the walkthrough.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "Card",
+      "Hero illustration: A profile card mockup showing a user's dining history.",
+      "Visual hierarchy: Title is bold, body text is legible and centered, CTA button is prominent at the bottom.",
+      "The green background elements provide a friendly, organic feel.",
+      "Clean, modern mobile interface."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Visual hierarchy: Title is bold, body text is legible and centered, CTA button is prominent at the bottom."
+    ],
+    "content_blocks": [
+      "TheFork",
+      "Mobbin",
+      "Saffron Biscotti",
+      "Next"
+    ],
+    "visual_keywords": [
+      "Minimalist UI, card-based layout with soft rounded corners and abstract organic green background shapes.",
+      "white",
+      "black",
+      "lime green",
+      "Hero illustration: A profile card mockup showing a user's dining history.",
+      "Visual hierarchy: Title is bold, body text is legible and centered, CTA button is prominent at the bottom.",
+      "The green background elements provide a friendly, organic feel.",
+      "Clean, modern mobile interface."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist UI, card-based layout with soft rounded corners and abstract organic green background shapes."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_benefits_06"
+}

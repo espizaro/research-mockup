@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Forest",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/closure-report/08 - Forest.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:48.942Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application interface showing a completed trip summary for a bike-sharing service.",
+    "primary_flow": "daily-check-in/closure-report",
+    "ux_intent": "To provide the user with a summary of their completed ride, including environmental impact, duration, distance, route, and billing details.",
+    "ux_patterns": [
+      "Form",
+      "Chart",
+      "Minimalist",
+      "Includes a standard iOS status bar at the top.",
+      "The bike icon is a green e-bike.",
+      "The 'Report Damage' button is outlined in a dark red."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The 'Report Damage' button is outlined in a dark red."
+    ],
+    "content_blocks": [
+      "Forest",
+      "1 Midland Road, London NW1 1AT",
+      "Brill Place, London NW1 1AT",
+      "15671"
+    ],
+    "visual_keywords": [
+      "clean mobile application UI, minimalist, high contrast",
+      "white",
+      "dark green",
+      "dark red",
+      "Includes a standard iOS status bar at the top.",
+      "The bike icon is a green e-bike.",
+      "The 'Report Damage' button is outlined in a dark red."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean mobile application UI, minimalist, high contrast"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_closure_report_08"
+}

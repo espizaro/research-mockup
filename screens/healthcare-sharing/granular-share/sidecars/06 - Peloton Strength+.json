@@ -1,0 +1,215 @@
+{
+  "image": "06 - Peloton Strength+.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen interface for selecting specific muscles for a fitness workout. It categorizes muscle groups into 'Core' and 'Lower Body', with individual selection checkboxes for Abs, Obliques, Calves, Glutes, Hamstrings, and Quads. A 'Select 3' button is at the bottom.",
+    "ocr": {
+      "full_text": "Cancel Select muscles Core Abs Obliques Lower Body Calves Glutes Hamstrings Quads Select 3 Peloton Strength+ curated by Mobbin",
+      "lines": [
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Select muscles"
+        },
+        {
+          "text": "Core"
+        },
+        {
+          "text": "Abs"
+        },
+        {
+          "text": "Obliques"
+        },
+        {
+          "text": "Lower Body"
+        },
+        {
+          "text": "Calves"
+        },
+        {
+          "text": "Glutes"
+        },
+        {
+          "text": "Hamstrings"
+        },
+        {
+          "text": "Quads"
+        },
+        {
+          "text": "Select 3"
+        },
+        {
+          "text": "Peloton Strength+"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Select muscles"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Cancel"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 3,
+          "text": "Core"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Abs"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Obliques"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 6,
+          "text": "Lower Body"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Calves"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Glutes"
+        },
+        {
+          "type": "list",
+          "reading_order": 9,
+          "text": "Hamstrings"
+        },
+        {
+          "type": "list",
+          "reading_order": 10,
+          "text": "Quads"
+        },
+        {
+          "type": "form",
+          "reading_order": 11,
+          "text": "Select 3"
+        },
+        {
+          "type": "other",
+          "reading_order": 12,
+          "text": "Peloton Strength+ curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application interface for a fitness or workout customization tool.",
+      "intent": "Allow the user to select specific muscle groups for a workout session.",
+      "entities": [
+        {
+          "name": "Peloton Strength+",
+          "type": "Application Name"
+        },
+        {
+          "name": "Abs",
+          "type": "Muscle Group"
+        },
+        {
+          "name": "Obliques",
+          "type": "Muscle Group"
+        },
+        {
+          "name": "Calves",
+          "type": "Muscle Group"
+        },
+        {
+          "name": "Glutes",
+          "type": "Muscle Group"
+        },
+        {
+          "name": "Hamstrings",
+          "type": "Muscle Group"
+        },
+        {
+          "name": "Quads",
+          "type": "Muscle Group"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Abs",
+          "predicate": "belongs_to",
+          "object": "Core"
+        },
+        {
+          "subject": "Obliques",
+          "predicate": "belongs_to",
+          "object": "Core"
+        },
+        {
+          "subject": "Calves",
+          "predicate": "belongs_to",
+          "object": "Lower Body"
+        },
+        {
+          "subject": "Glutes",
+          "predicate": "belongs_to",
+          "object": "Lower Body"
+        },
+        {
+          "subject": "Hamstrings",
+          "predicate": "belongs_to",
+          "object": "Lower Body"
+        },
+        {
+          "subject": "Quads",
+          "predicate": "belongs_to",
+          "object": "Lower Body"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "dark gray",
+        "white"
+      ],
+      "style": "Dark mode mobile UI",
+      "notes": [
+        "Graphical representations of human muscle anatomy are included next to each label."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:01.259Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.129,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1005,
+      "totalTokenCount": 2232,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

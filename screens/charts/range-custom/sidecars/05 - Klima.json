@@ -1,0 +1,169 @@
+{
+  "image": "05 - Klima.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen titled 'Flights' which allows users to estimate their annual air travel for a carbon footprint calculator. It categorizes flights by duration (short-range, mid-range, long-range) and provides plus/minus controls to input the number of flights taken in an average year.",
+    "ocr": {
+      "full_text": "9:41 Cancel Save ✈️ Flights Estimate the amount of individual flights you take in a typical, average year: Single short-range flights (1–3 hours) - 2 + Single mid-range flights (4–7 hours) - 1 + Single long-range flights (8–16 hours) - 0 + Klima curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Save"
+        },
+        {
+          "text": "✈️"
+        },
+        {
+          "text": "Flights"
+        },
+        {
+          "text": "Estimate the amount of individual flights"
+        },
+        {
+          "text": "you take in a typical, average year:"
+        },
+        {
+          "text": "Single short-range flights (1–3 hours)"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "Single mid-range flights (4–7 hours)"
+        },
+        {
+          "text": "1"
+        },
+        {
+          "text": "Single long-range flights (8–16 hours)"
+        },
+        {
+          "text": "0"
+        },
+        {
+          "text": "Klima"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Flights"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Estimate the amount of individual flights you take in a typical, average year:"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Single short-range flights (1–3 hours) - 2 +"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Single mid-range flights (4–7 hours) - 1 +"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Single long-range flights (8–16 hours) - 0 +"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface for a flight tracking or carbon footprint calculation tool.",
+      "intent": "Inputting flight frequency data.",
+      "entities": [
+        {
+          "name": "Klima",
+          "type": "Brand",
+          "evidence": "text footer"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Service",
+          "evidence": "text footer"
+        },
+        {
+          "name": "Short-range flights",
+          "type": "Category",
+          "evidence": "UI section label"
+        },
+        {
+          "name": "Mid-range flights",
+          "type": "Category",
+          "evidence": "UI section label"
+        },
+        {
+          "name": "Long-range flights",
+          "type": "Category",
+          "evidence": "UI section label"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "estimates",
+          "object": "flight frequency"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light gray",
+        "blue",
+        "green"
+      ],
+      "style": "Modern mobile application interface, clean design, card-based layout.",
+      "notes": [
+        "The app has a minimalist aesthetic.",
+        "The buttons are rounded rectangles.",
+        "Numbers for flight counts are emphasized in blue."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:23:26.416Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.828,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 882,
+      "totalTokenCount": 2109,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.829
+      }
+    ],
+    "warnings": []
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Fetch",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-quiz/08 - Fetch.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:53.438Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding / user profile setup",
+    "primary_flow": "auth-onboarding-quiz",
+    "ux_intent": "Collect demographic data (Birthday, Gender) to personalize user experience.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Profile",
+      "Hero illustration features a mascot (dog-like silhouette) in the header, reinforcing the brand identity.",
+      "The style is friendly and approachable.",
+      "High contrast for the CTA button makes it the clear primary action.",
+      "The header uses a warm gradient (pink-to-orange) creating a sense of energy."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Dropdown",
+      "High contrast for the CTA button makes it the clear primary action."
+    ],
+    "content_blocks": [
+      "Fetch",
+      "Birthday",
+      "Gender",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Clean, modern mobile UI with a gradient background in the header area.",
+      "pink",
+      "orange",
+      "purple",
+      "white",
+      "Hero illustration features a mascot (dog-like silhouette) in the header, reinforcing the brand identity.",
+      "The style is friendly and approachable.",
+      "High contrast for the CTA button makes it the clear primary action.",
+      "The header uses a warm gradient (pink-to-orange) creating a sense of energy."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern mobile UI with a gradient background in the header area."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_quiz_08"
+}

@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Baemin",
+    "platform": "ios",
+    "file_path": "screens/auth-register-success/07 - Baemin.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:24.133Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App membership success confirmation screen",
+    "primary_flow": "auth-register-success",
+    "ux_intent": "Confirm user subscription and provide positive feedback",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Hero 3D icon is placed centrally between content and CTA, serving as a focal point to reinforce the 'success/upgrade' feeling.",
+      "Visual style uses soft gradients (teal/cyan) and glassy 3D textures.",
+      "Strong contrast for the primary call-to-action button.",
+      "Clear hierarchy with title at the top, supporting description below, followed by primary action."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Strong contrast for the primary call-to-action button.",
+      "Clear hierarchy with title at the top, supporting description below, followed by primary action."
+    ],
+    "content_blocks": [
+      "Baemin Club",
+      "Sign up complete"
+    ],
+    "visual_keywords": [
+      "Modern, minimalist, clean, 3D illustrative, celebratory",
+      "white",
+      "cyan",
+      "light blue",
+      "teal",
+      "Hero 3D icon is placed centrally between content and CTA, serving as a focal point to reinforce the 'success/upgrade' feeling.",
+      "Visual style uses soft gradients (teal/cyan) and glassy 3D textures.",
+      "Strong contrast for the primary call-to-action button.",
+      "Clear hierarchy with title at the top, supporting description below, followed by primary action."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern, minimalist, clean, 3D illustrative, celebratory"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_success_07"
+}

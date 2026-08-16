@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Wispr Flow",
+    "platform": "ios",
+    "file_path": "screens/voice-input/01 - Wispr Flow.webp",
+    "analyzed_timestamp": "2026-08-11T22:30:17.296Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application onboarding or voice input screen.",
+    "primary_flow": "voice-input",
+    "ux_intent": "To guide the user through a voice-to-text input process.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "Progress indicator with three segments at the top.",
+      "Globe icon at the bottom left.",
+      "Visual pulse/sound wave representation for microphone status."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Wispr Flow",
+      "Mobbin",
+      "iPhone Microphone",
+      "Checkmark"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile interface design.",
+      "white",
+      "light gray",
+      "black",
+      "Progress indicator with three segments at the top.",
+      "Globe icon at the bottom left.",
+      "Visual pulse/sound wave representation for microphone status."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile interface design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_voice_entry_01"
+}

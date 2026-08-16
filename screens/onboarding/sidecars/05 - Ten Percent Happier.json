@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Ten Percent Happier",
+    "platform": "ios",
+    "file_path": "screens/onboarding/05 - Ten Percent Happier.webp",
+    "analyzed_timestamp": "2026-08-06T23:57:25.520Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding screen",
+    "primary_flow": "onboarding",
+    "ux_intent": "To reassure the user about data privacy before proceeding to a personalization flow.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Uses a high-contrast black button for the primary call-to-action",
+      "Soft circular gradient behind the illustration adds visual interest",
+      "Centered alignment for most elements"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Uses a high-contrast black button for the primary call-to-action"
+    ],
+    "content_blocks": [
+      "Cal AI",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern mobile UI design",
+      "white",
+      "black",
+      "light grey",
+      "pastel gradient",
+      "Uses a high-contrast black button for the primary call-to-action",
+      "Soft circular gradient behind the illustration adds visual interest",
+      "Centered alignment for most elements"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern mobile UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_05"
+}

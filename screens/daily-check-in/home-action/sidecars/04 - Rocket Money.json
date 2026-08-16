@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Rocket Money",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/home-action/04 - Rocket Money.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:26.751Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Financial mobile application UI focused on managing recurring subscriptions and bills.",
+    "primary_flow": "daily-check-in/home-action",
+    "ux_intent": "User is viewing their upcoming recurring financial obligations.",
+    "ux_patterns": [
+      "Calendar",
+      "Minimalist",
+      "Card",
+      "The date 23 is highlighted in blue on the calendar.",
+      "Recent charge notification box has a green checkmark."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Rocket Money",
+      "Rocket Money Premium",
+      "Chase Credit Card",
+      "Spotify",
+      "Apple",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern minimalist UI design with rounded corners and gradient header.",
+      "red",
+      "white",
+      "gray",
+      "The date 23 is highlighted in blue on the calendar.",
+      "Recent charge notification box has a green checkmark."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist UI design with rounded corners and gradient header."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_home_action_04"
+}

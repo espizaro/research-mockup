@@ -1,0 +1,158 @@
+{
+  "image": "05 - Tonal.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screen capture of the 'Coaches' tab within the Explore section of the Tonal fitness app, displaying a list of coaches with their respective coaching styles.",
+    "ocr": {
+      "full_text": "09:41\nExplore\nOn the Go Coaches Articles Tonal 101\nCOACHES WITH RECENT RELEASES\nAckeem Emmons\nHigh-Energy and Engaging\nAsh Wilking\nRelatable and Motivating\nJoe Rodonis\nDisciplined and Demanding\nHome Activity Explore Custom Settings\nTonal\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "09:41"
+        },
+        {
+          "text": "Explore"
+        },
+        {
+          "text": "On the Go Coaches Articles Tonal 101"
+        },
+        {
+          "text": "COACHES WITH RECENT RELEASES"
+        },
+        {
+          "text": "Ackeem Emmons"
+        },
+        {
+          "text": "High-Energy and Engaging"
+        },
+        {
+          "text": "Ash Wilking"
+        },
+        {
+          "text": "Relatable and Motivating"
+        },
+        {
+          "text": "Joe Rodonis"
+        },
+        {
+          "text": "Disciplined and Demanding"
+        },
+        {
+          "text": "Home Activity Explore Custom Settings"
+        },
+        {
+          "text": "Tonal"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Explore"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "On the Go, Coaches, Articles, Tonal 101"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 3,
+          "text": "COACHES WITH RECENT RELEASES"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Ackeem Emmons - High-Energy and Engaging; Ash Wilking - Relatable and Motivating; Joe Rodonis - Disciplined and Demanding"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Bottom navigation bar (Home, Activity, Explore, Custom, Settings)"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application interface for a fitness platform showing a list of available coaches.",
+      "intent": "To allow users to browse and select fitness coaches based on their personality or coaching style.",
+      "entities": [
+        {
+          "name": "Ackeem Emmons",
+          "type": "Coach",
+          "evidence": "Ackeem Emmons"
+        },
+        {
+          "name": "Ash Wilking",
+          "type": "Coach",
+          "evidence": "Ash Wilking"
+        },
+        {
+          "name": "Joe Rodonis",
+          "type": "Coach",
+          "evidence": "Joe Rodonis"
+        },
+        {
+          "name": "Tonal",
+          "type": "Application",
+          "evidence": "Tonal"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Ackeem Emmons",
+          "predicate": "has style",
+          "object": "High-Energy and Engaging"
+        },
+        {
+          "subject": "Ash Wilking",
+          "predicate": "has style",
+          "object": "Relatable and Motivating"
+        },
+        {
+          "subject": "Joe Rodonis",
+          "predicate": "has style",
+          "object": "Disciplined and Demanding"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "grey"
+      ],
+      "style": "Mobile app UI, clean, minimalistic, high-contrast",
+      "notes": [
+        "Includes a bottom navigation bar with icons",
+        "Photos of coaches are displayed in a card-like layout"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:10.267Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.294,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 881,
+      "totalTokenCount": 2108,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "CREME",
+    "platform": "ios",
+    "file_path": "screens/health-dashboard/mood-selector/06 - CREME.webp",
+    "analyzed_timestamp": "2026-08-10T06:03:31.641Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI screen for food preference selection.",
+    "primary_flow": "health-dashboard/mood-selector",
+    "ux_intent": "User is being asked to select their current food mood from a collection of icons.",
+    "ux_patterns": [
+      "Form",
+      "Dark Mode",
+      "Minimalist",
+      "Card",
+      "The sushi emoji is highlighted with a white border, indicating it is selected.",
+      "The screen contains a grid layout for icons.",
+      "Top bar indicates time and status icons are present but partially obscured by content cards."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Food Mood Selector",
+      "Save button",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, dark-mode mobile UI.",
+      "black",
+      "white",
+      "gray",
+      "The sushi emoji is highlighted with a white border, indicating it is selected.",
+      "The screen contains a grid layout for icons.",
+      "Top bar indicates time and status icons are present but partially obscured by content cards."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, dark-mode mobile UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_home_dashboard_06"
+}

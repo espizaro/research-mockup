@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Oura",
+    "platform": "ios",
+    "file_path": "screens/metric-detail/01 - Oura.webp",
+    "analyzed_timestamp": "2026-08-11T22:27:43.012Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app health tracking dashboard.",
+    "primary_flow": "metric-detail",
+    "ux_intent": "To monitor resting heart rate trends and see potential environmental or physiological impacts.",
+    "ux_patterns": [
+      "Chart",
+      "Dark Mode",
+      "Minimalist",
+      "Clean, minimalist design typical of health monitoring apps."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Oura",
+      "Resting heart rate",
+      "49 bpm",
+      "Strength training",
+      "High altitude",
+      "Sore throat",
+      "Diarrhea",
+      "Travel"
+    ],
+    "visual_keywords": [
+      "Dark mode mobile user interface",
+      "black",
+      "white",
+      "gray",
+      "Clean, minimalist design typical of health monitoring apps."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode mobile user interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_metric_detail_01"
+}

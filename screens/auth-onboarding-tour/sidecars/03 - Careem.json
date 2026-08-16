@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Careem",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-tour/03 - Careem.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:41.050Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app informational/educational screen for financial features.",
+    "primary_flow": "auth-onboarding-tour",
+    "ux_intent": "Explain the process of collecting money via QR codes and payment links, provide usage inspiration, and encourage adoption.",
+    "ux_patterns": [
+      "Form",
+      "Profile",
+      "Minimalist",
+      "Card",
+      "The layout uses card-based design for the steps and testimonial.",
+      "The typography is sans-serif, clean and highly readable.",
+      "The color palette uses Careem's signature brand green for primary actions and highlights.",
+      "The illustrations are simple, flat, 2D vector style icons, placed to support the instructional content."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The color palette uses Careem's signature brand green for primary actions and highlights."
+    ],
+    "content_blocks": [
+      "Careem",
+      "Careem Pay",
+      "QR code",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern, minimalist, mobile UI design",
+      "white",
+      "green",
+      "light gray",
+      "The layout uses card-based design for the steps and testimonial.",
+      "The typography is sans-serif, clean and highly readable.",
+      "The color palette uses Careem's signature brand green for primary actions and highlights.",
+      "The illustrations are simple, flat, 2D vector style icons, placed to support the instructional content."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern, minimalist, mobile UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_tour_03"
+}

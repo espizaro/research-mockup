@@ -1,0 +1,197 @@
+{
+  "image": "07 - Kakao Pay.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for a Kakao Pay service, showing a health certificate confirmation screen with options to add documents and proceed to payment.",
+    "ocr": {
+      "full_text": "9:41\n선택한 내용이 맞는지 확인해주세요\n건강진단서\n삭제하기\n밀레니엄서울내과의원\n• 환자명\n• 진료과\n내과\n• 의료진\n김민성\n• 진료일\n2025.04.01 ~ 2025.04.01\n• 용도\n보험회사\n• 병원 수수료\n무료\n+ 증명서추가\n결제하기\nKakao Pay\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "ko"
+        },
+        {
+          "text": "선택한 내용이 맞는지 확인해주세요",
+          "language": "ko"
+        },
+        {
+          "text": "건강진단서",
+          "language": "ko"
+        },
+        {
+          "text": "삭제하기",
+          "language": "ko"
+        },
+        {
+          "text": "밀레니엄서울내과의원",
+          "language": "ko"
+        },
+        {
+          "text": "• 환자명",
+          "language": "ko"
+        },
+        {
+          "text": "• 진료과",
+          "language": "ko"
+        },
+        {
+          "text": "내과",
+          "language": "ko"
+        },
+        {
+          "text": "• 의료진",
+          "language": "ko"
+        },
+        {
+          "text": "김민성",
+          "language": "ko"
+        },
+        {
+          "text": "• 진료일",
+          "language": "ko"
+        },
+        {
+          "text": "2025.04.01 ~ 2025.04.01",
+          "language": "ko"
+        },
+        {
+          "text": "• 용도",
+          "language": "ko"
+        },
+        {
+          "text": "보험회사",
+          "language": "ko"
+        },
+        {
+          "text": "• 병원 수수료",
+          "language": "ko"
+        },
+        {
+          "text": "무료",
+          "language": "ko"
+        },
+        {
+          "text": "+ 증명서추가",
+          "language": "ko"
+        },
+        {
+          "text": "결제하기",
+          "language": "ko"
+        },
+        {
+          "text": "Kakao Pay",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "선택한 내용이 맞는지 확인해주세요"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "건강진단서"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "삭제하기"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "밀레니엄서울내과의원 • 환자명 • 진료과 내과 • 의료진 김민성 • 진료일 2025.04.01 ~ 2025.04.01 • 용도 보험회사 • 병원 수수료 무료"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "+ 증명서추가"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "결제하기"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app payment confirmation page for a health certificate.",
+      "intent": "Confirm medical document details and proceed to payment.",
+      "entities": [
+        {
+          "name": "밀레니엄서울내과의원",
+          "type": "Medical Facility"
+        },
+        {
+          "name": "김민성",
+          "type": "Doctor"
+        },
+        {
+          "name": "보험회사",
+          "type": "Purpose"
+        },
+        {
+          "name": "Kakao Pay",
+          "type": "Service"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "밀레니엄서울내과의원",
+          "predicate": "issued",
+          "object": "건강진단서"
+        },
+        {
+          "subject": "김민성",
+          "predicate": "is doctor for",
+          "object": "밀레니엄서울내과의원"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "yellow",
+        "black"
+      ],
+      "style": "clean mobile application user interface",
+      "notes": [
+        "The yellow button is a call-to-action for payment.",
+        "The form background is light grey."
+      ]
+    },
+    "uncertainty": [
+      "The patient name field is blank/obscured."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:21.056Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.264,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1124,
+      "totalTokenCount": 2351,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

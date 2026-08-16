@@ -1,0 +1,240 @@
+{
+  "image": "03 - Apple Health.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Medical ID interface from the Apple Health app, showing personal medical information fields including pregnancy status, medications, allergies, emergency contacts, conditions, and notes.",
+    "ocr": {
+      "full_text": "9:41 Medical ID Pregnancy Add Medications Edit Asthma Inhaler Allergies Add Emergency Contacts Add Conditions Add Additional Information Add Notes Add Updated Sep 23, 2025 Delete Medical ID Apple Health curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Medical ID",
+          "language": "en"
+        },
+        {
+          "text": "Pregnancy",
+          "language": "en"
+        },
+        {
+          "text": "Add",
+          "language": "en"
+        },
+        {
+          "text": "--",
+          "language": "en"
+        },
+        {
+          "text": "Medications",
+          "language": "en"
+        },
+        {
+          "text": "Edit",
+          "language": "en"
+        },
+        {
+          "text": "Asthma Inhaler",
+          "language": "en"
+        },
+        {
+          "text": "Allergies",
+          "language": "en"
+        },
+        {
+          "text": "Add",
+          "language": "en"
+        },
+        {
+          "text": "--",
+          "language": "en"
+        },
+        {
+          "text": "Emergency Contacts",
+          "language": "en"
+        },
+        {
+          "text": "Add",
+          "language": "en"
+        },
+        {
+          "text": "--",
+          "language": "en"
+        },
+        {
+          "text": "Conditions",
+          "language": "en"
+        },
+        {
+          "text": "Add",
+          "language": "en"
+        },
+        {
+          "text": "--",
+          "language": "en"
+        },
+        {
+          "text": "Additional Information",
+          "language": "en"
+        },
+        {
+          "text": "Add",
+          "language": "en"
+        },
+        {
+          "text": "--",
+          "language": "en"
+        },
+        {
+          "text": "Notes",
+          "language": "en"
+        },
+        {
+          "text": "Add",
+          "language": "en"
+        },
+        {
+          "text": "--",
+          "language": "en"
+        },
+        {
+          "text": "Updated Sep 23, 2025",
+          "language": "en"
+        },
+        {
+          "text": "Delete Medical ID",
+          "language": "en"
+        },
+        {
+          "text": "Apple Health",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Medical ID"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Pregnancy Add --"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Medications Edit Asthma Inhaler"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Allergies Add --"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Emergency Contacts Add --"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Conditions Add --"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Additional Information Add --"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Notes Add --"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 9,
+          "text": "Updated Sep 23, 2025"
+        },
+        {
+          "type": "other",
+          "reading_order": 10,
+          "text": "Delete Medical ID"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application interface for medical records management.",
+      "intent": "User interface for viewing and managing Medical ID emergency information.",
+      "entities": [
+        {
+          "name": "Apple Health",
+          "type": "Application",
+          "evidence": "Text at bottom"
+        },
+        {
+          "name": "Medical ID",
+          "type": "Feature",
+          "evidence": "Header"
+        },
+        {
+          "name": "Asthma Inhaler",
+          "type": "Medication",
+          "evidence": "Under Medications section"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Asthma Inhaler",
+          "predicate": "is a",
+          "object": "Medication"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "red",
+        "blue",
+        "grey"
+      ],
+      "style": "Mobile app UI, clean, minimalist design.",
+      "notes": [
+        "Top part of screen obscured by blurred UI overlay.",
+        "Includes a checkmark icon in top right."
+      ]
+    },
+    "uncertainty": [
+      "Blurred text at the very top of the screen (name and age details)."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:44.876Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.714,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1126,
+      "totalTokenCount": 2353,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

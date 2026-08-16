@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "Tonal",
+    "platform": "ios",
+    "file_path": "screens/period-comparison/02 - Tonal.webp",
+    "analyzed_timestamp": "2026-08-11T22:29:06.119Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile fitness application interface showing a monthly performance report.",
+    "primary_flow": "period-comparison",
+    "ux_intent": "To present a summary of fitness activities for the month of February 2026 to the user.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "The green labels indicating '+100%' suggest positive performance growth.",
+      "The user interface follows a standard iOS-like top bar design."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Tonal",
+      "Ackeem Emmons",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern mobile application UI, clean, minimalist design.",
+      "white",
+      "black",
+      "gray",
+      "green",
+      "The green labels indicating '+100%' suggest positive performance growth.",
+      "The user interface follows a standard iOS-like top bar design."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile application UI, clean, minimalist design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_period_comparison_02"
+}

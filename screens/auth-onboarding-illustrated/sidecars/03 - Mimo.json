@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Mimo",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-illustrated/03 - Mimo.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:26.710Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen for a coding learning app.",
+    "primary_flow": "auth-onboarding-illustrated",
+    "ux_intent": "To guide new users to sign up or log in to the Mimo application.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Carousel",
+      "The illustration is a central hero element placed above the headline.",
+      "The illustration is character-based (robot) and reinforces the 'Learn to code' message with symbolic items like a book with code brackets.",
+      "The layout follows standard mobile onboarding patterns.",
+      "High contrast text for readability."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Mimo",
+      "Get started",
+      "I already have an account",
+      "Robot mascot"
+    ],
+    "visual_keywords": [
+      "Flat, minimalist, modern UI design with a character-driven illustration style.",
+      "purple",
+      "white",
+      "yellow",
+      "blue",
+      "The illustration is a central hero element placed above the headline.",
+      "The illustration is character-based (robot) and reinforces the 'Learn to code' message with symbolic items like a book with code brackets.",
+      "The layout follows standard mobile onboarding patterns.",
+      "High contrast text for readability."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Flat, minimalist, modern UI design with a character-driven illustration style."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_illustrated_03"
+}

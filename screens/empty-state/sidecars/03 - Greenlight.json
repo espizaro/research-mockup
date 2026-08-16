@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Greenlight",
+    "platform": "ios",
+    "file_path": "screens/empty-state/03 - Greenlight.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:08.729Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App UI - Chore management screen",
+    "primary_flow": "empty-state",
+    "ux_intent": "Prompting user to initiate adding a chore",
+    "ux_patterns": [
+      "Form",
+      "Empty State",
+      "The background of the illustration is a gradient from teal to purple.",
+      "The layout includes a back navigation button in the top left.",
+      "Bottom of the screen shows brand watermarks."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The layout includes a back navigation button in the top left."
+    ],
+    "content_blocks": [
+      "Greenlight",
+      "Mobbin",
+      "Add chore",
+      "History"
+    ],
+    "visual_keywords": [
+      "Modern mobile application interface, clean design with vector illustrations",
+      "teal",
+      "white",
+      "purple",
+      "light green",
+      "The background of the illustration is a gradient from teal to purple.",
+      "The layout includes a back navigation button in the top left.",
+      "Bottom of the screen shows brand watermarks."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile application interface, clean design with vector illustrations"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_empty_state_03"
+}

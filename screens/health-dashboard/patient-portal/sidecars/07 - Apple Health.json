@@ -1,0 +1,205 @@
+{
+  "image": "07 - Apple Health.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Apple Health app summary tab, showing user activity statistics like steps and walking steadiness, along with a prompt to connect to health records.",
+    "ocr": {
+      "full_text": "9:41 Summary AS Pinned Edit Steps Aug 11 > 2,114 steps Walking Steadiness > No Data Show All Health Data Get More From Health Access Your Records Connect to your provider to see your health records and get updates when there's a new entry. About Health Records & Privacy Summary Sharing Browse Apple Health curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Summary"
+        },
+        {
+          "text": "AS"
+        },
+        {
+          "text": "Pinned"
+        },
+        {
+          "text": "Edit"
+        },
+        {
+          "text": "Steps"
+        },
+        {
+          "text": "Aug 11 >"
+        },
+        {
+          "text": "2,114 steps"
+        },
+        {
+          "text": "Walking Steadiness"
+        },
+        {
+          "text": "No Data"
+        },
+        {
+          "text": "Show All Health Data"
+        },
+        {
+          "text": "Get More From Health"
+        },
+        {
+          "text": "Access Your Records"
+        },
+        {
+          "text": "Connect to your provider to"
+        },
+        {
+          "text": "see your health records and"
+        },
+        {
+          "text": "get updates when there's a"
+        },
+        {
+          "text": "new entry."
+        },
+        {
+          "text": "About Health Records & Privacy"
+        },
+        {
+          "text": "Summary"
+        },
+        {
+          "text": "Sharing"
+        },
+        {
+          "text": "Browse"
+        },
+        {
+          "text": "Apple Health"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Summary"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Pinned"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Steps: 2,114 steps, Aug 11"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Walking Steadiness: No Data"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Show All Health Data"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 6,
+          "text": "Get More From Health"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Access Your Records: Connect to your provider to see your health records and get updates when there's a new entry. About Health Records & Privacy"
+        },
+        {
+          "type": "other",
+          "reading_order": 8,
+          "text": "Navigation bar: Summary, Sharing, Browse"
+        },
+        {
+          "type": "other",
+          "reading_order": 9,
+          "text": "Footer: Apple Health, curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface, specifically the Apple Health application.",
+      "intent": "To present user health summary data and offer options to connect to health record providers.",
+      "entities": [
+        {
+          "name": "Apple Health",
+          "type": "application"
+        },
+        {
+          "name": "Steps",
+          "type": "health metric"
+        },
+        {
+          "name": "Walking Steadiness",
+          "type": "health metric"
+        },
+        {
+          "name": "Access Your Records",
+          "type": "call to action"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Apple Health",
+          "predicate": "displays",
+          "object": "Summary"
+        },
+        {
+          "subject": "Steps",
+          "predicate": "has value",
+          "object": "2,114 steps"
+        },
+        {
+          "subject": "Walking Steadiness",
+          "predicate": "has state",
+          "object": "No Data"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#f2f2f7",
+        "#ffffff",
+        "#f5a57d",
+        "#a4c8f5"
+      ],
+      "style": "Clean, minimalist mobile UI with soft gradients and rounded cards.",
+      "notes": [
+        "The background has a soft orange-to-white gradient.",
+        "The UI uses Apple's standard system fonts and navigation patterns."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:51.295Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.793,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1055,
+      "totalTokenCount": 2282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

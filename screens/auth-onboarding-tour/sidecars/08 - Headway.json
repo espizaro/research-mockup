@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Headway",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-tour/08 - Headway.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:45.213Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding flow",
+    "primary_flow": "auth-onboarding-tour",
+    "ux_intent": "Highlighting a key app feature: audio summaries.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "The illustration is a central hero element that reinforces the text.",
+      "Uses a soft pastel color palette.",
+      "Iconography uses geometric shapes."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Headway",
+      "Mobbin",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Clean, flat UI illustration; soft blue background, vibrant orange icon accent, high-contrast blue primary button.",
+      "hex d1e7f5",
+      "hex fbb03b",
+      "hex 0066ff",
+      "The illustration is a central hero element that reinforces the text.",
+      "Uses a soft pastel color palette.",
+      "Iconography uses geometric shapes."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, flat UI illustration; soft blue background, vibrant orange icon accent, high-contrast blue primary button."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_tour_08"
+}

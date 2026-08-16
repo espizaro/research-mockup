@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Bevel",
+    "platform": "ios",
+    "file_path": "screens/health-trends/01 - Bevel.webp",
+    "analyzed_timestamp": "2026-08-05T19:46:43.484Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app health and fitness dashboard",
+    "primary_flow": "health-trends",
+    "ux_intent": "User is reviewing their health metrics, including activity logs, exercise duration trends, and strain performance.",
+    "ux_patterns": [
+      "Form",
+      "Calendar",
+      "Chart",
+      "Dark Mode",
+      "Minimalist",
+      "Card",
+      "High contrast for data visualization",
+      "Minimalist iconography"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Table",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation"
+    ],
+    "content_blocks": [
+      "Bevel",
+      "Activity Summary",
+      "Strain Performance",
+      "Fitness"
+    ],
+    "visual_keywords": [
+      "Dark mode modern mobile UI",
+      "dark grey",
+      "light green",
+      "blue",
+      "orange",
+      "High contrast for data visualization",
+      "Minimalist iconography"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode modern mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_evolution_01"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "UX Knowledge Base"
+  short_description: "Base UX indexada: consultar antes de diseñar"
+  default_prompt: "Use $ux-knowledge-base to consult the indexed UX knowledge before making design decisions, and update it with new findings."
+policy:
+  allow_implicit_invocation: true

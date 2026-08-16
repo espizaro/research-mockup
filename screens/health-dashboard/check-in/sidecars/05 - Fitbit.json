@@ -1,0 +1,196 @@
+{
+  "image": "05 - Fitbit.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for a 'Log mood' feature, likely within the Fitbit app, allowing users to record their current emotional state with date, time, and specific mood options ranging from 'Very calm' to 'Very stressed'.",
+    "ocr": {
+      "full_text": "9:41 Cancel Log mood Save Date 10/4/25 Time 12:01 AM How were you feeling? Choose one option below that best describes your mood. Very calm Calm Neutral Stressed Very stressed About mood logging Tracking your mood can build emotional awareness, helping you better understand why you feel the way you do. Fitbit curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Cancel",
+          "language": "en"
+        },
+        {
+          "text": "Log mood",
+          "language": "en"
+        },
+        {
+          "text": "Save",
+          "language": "en"
+        },
+        {
+          "text": "Date",
+          "language": "en"
+        },
+        {
+          "text": "10/4/25",
+          "language": "en"
+        },
+        {
+          "text": "Time",
+          "language": "en"
+        },
+        {
+          "text": "12:01 AM",
+          "language": "en"
+        },
+        {
+          "text": "How were you feeling?",
+          "language": "en"
+        },
+        {
+          "text": "Choose one option below that best describes your mood.",
+          "language": "en"
+        },
+        {
+          "text": "Very calm",
+          "language": "en"
+        },
+        {
+          "text": "Calm",
+          "language": "en"
+        },
+        {
+          "text": "Neutral",
+          "language": "en"
+        },
+        {
+          "text": "Stressed",
+          "language": "en"
+        },
+        {
+          "text": "Very stressed",
+          "language": "en"
+        },
+        {
+          "text": "About mood logging",
+          "language": "en"
+        },
+        {
+          "text": "Tracking your mood can build emotional awareness, helping you better understand why you feel the way you do.",
+          "language": "en"
+        },
+        {
+          "text": "Fitbit",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Log mood"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "Date 10/4/25 Time 12:01 AM"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "How were you feeling? Choose one option below that best describes your mood."
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Very calm, Calm, Neutral, Stressed, Very stressed"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "About mood logging Tracking your mood can build emotional awareness, helping you better understand why you feel the way you do."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app screen for mood logging",
+      "intent": "User input for logging emotional state",
+      "entities": [
+        {
+          "name": "Fitbit",
+          "type": "brand",
+          "evidence": "Logo/text at bottom"
+        },
+        {
+          "name": "Mobbin",
+          "type": "brand",
+          "evidence": "Text at bottom"
+        },
+        {
+          "name": "Date input",
+          "type": "form field",
+          "evidence": "Field showing 10/4/25"
+        },
+        {
+          "name": "Time input",
+          "type": "form field",
+          "evidence": "Field showing 12:01 AM"
+        },
+        {
+          "name": "Mood options",
+          "type": "interactive buttons",
+          "evidence": "Five options provided"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "logs",
+          "object": "mood"
+        },
+        {
+          "subject": "Fitbit",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "light-grey",
+        "green"
+      ],
+      "style": "clean minimalist mobile application UI",
+      "notes": [
+        "Standard iOS-like interface status bar at top",
+        "Buttons are pill-shaped with icons"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:33.498Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.241,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1035,
+      "totalTokenCount": 2262,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

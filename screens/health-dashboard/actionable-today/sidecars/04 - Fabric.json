@@ -1,0 +1,162 @@
+{
+  "image": "04 - Fabric.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application interface for a task management app called 'Fabric', showcasing a list view of pending tasks with details like date, priority, and linked items. A 'Reminder added' notification toast is visible at the top.",
+    "ocr": {
+      "full_text": "9:41 Reminder added Tasks Filter tasks Tasks & reminders Learn about gestalt 1 related item Apr 2 Medium Learn design principles 1 related item Apr 8 High Fabric curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Reminder added",
+          "language": "en"
+        },
+        {
+          "text": "Tasks",
+          "language": "en"
+        },
+        {
+          "text": "Filter tasks",
+          "language": "en"
+        },
+        {
+          "text": "Tasks & reminders",
+          "language": "en"
+        },
+        {
+          "text": "Learn about gestalt",
+          "language": "en"
+        },
+        {
+          "text": "1 related item",
+          "language": "en"
+        },
+        {
+          "text": "Apr 2",
+          "language": "en"
+        },
+        {
+          "text": "Medium",
+          "language": "en"
+        },
+        {
+          "text": "Learn design principles",
+          "language": "en"
+        },
+        {
+          "text": "1 related item",
+          "language": "en"
+        },
+        {
+          "text": "Apr 8",
+          "language": "en"
+        },
+        {
+          "text": "High",
+          "language": "en"
+        },
+        {
+          "text": "Fabric",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Tasks & reminders"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Learn about gestalt, 1 related item, Apr 2, Medium"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Learn design principles, 1 related item, Apr 8, High"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile productivity application dashboard",
+      "intent": "Managing and viewing a list of user tasks",
+      "entities": [
+        {
+          "name": "Learn about gestalt",
+          "type": "Task"
+        },
+        {
+          "name": "Learn design principles",
+          "type": "Task"
+        },
+        {
+          "name": "Fabric",
+          "type": "App Name"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Task 1",
+          "predicate": "has status",
+          "object": "Medium priority"
+        },
+        {
+          "subject": "Task 2",
+          "predicate": "has status",
+          "object": "High priority"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "gray",
+        "purple"
+      ],
+      "style": "Minimalist modern mobile UI",
+      "notes": [
+        "Task items are displayed in cards",
+        "Floating navigation bar at the bottom",
+        "Top status bar present"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:38.058Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.021,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 752,
+      "totalTokenCount": 1979,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

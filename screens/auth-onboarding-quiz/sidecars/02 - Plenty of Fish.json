@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Plenty of Fish",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-quiz/02 - Plenty of Fish.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:48.228Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding questionnaire",
+    "primary_flow": "auth-onboarding-quiz",
+    "ux_intent": "User data collection for dating profile matching",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "Radio",
+      "Uses soft pastel background",
+      "High contrast button selection styling",
+      "Layout relies on button-based radio selectors"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "High contrast button selection styling",
+      "Layout relies on button-based radio selectors"
+    ],
+    "content_blocks": [
+      "Plenty of Fish",
+      "Mobbin",
+      "No",
+      "Undecided",
+      "Dog"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat UI, soft aesthetic",
+      "peach",
+      "white",
+      "black",
+      "Uses soft pastel background",
+      "High contrast button selection styling",
+      "Layout relies on button-based radio selectors"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat UI, soft aesthetic"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_quiz_02"
+}

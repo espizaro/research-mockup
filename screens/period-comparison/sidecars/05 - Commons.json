@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Commons",
+    "platform": "ios",
+    "file_path": "screens/period-comparison/05 - Commons.webp",
+    "analyzed_timestamp": "2026-08-11T22:29:22.388Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app dashboard for personal carbon emission tracking.",
+    "primary_flow": "period-comparison",
+    "ux_intent": "To show the user their carbon emission performance relative to historical data and global/national averages.",
+    "ux_patterns": [
+      "Form",
+      "Profile",
+      "Chart",
+      "Minimalist",
+      "The UI uses bar charts with color-coded bars to differentiate user data from averages."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Commons",
+      "Mobbin",
+      "User",
+      "US Average",
+      "UK Average",
+      "World Average"
+    ],
+    "visual_keywords": [
+      "clean, minimalist mobile application UI design with high-contrast data visualization.",
+      "white",
+      "dark blue",
+      "gray",
+      "The UI uses bar charts with color-coded bars to differentiate user data from averages."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean, minimalist mobile application UI design with high-contrast data visualization."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_period_comparison_05"
+}

@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "ClickUp",
+    "platform": "ios",
+    "file_path": "screens/auth-welcome-illustrated/02 - ClickUp.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:26.940Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding screen",
+    "primary_flow": "auth-welcome-illustrated",
+    "ux_intent": "Welcome the user and initiate the sign-up or login flow.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "Carousel",
+      "Character illustration is a 2D flat vector style.",
+      "Hero illustration is positioned centrally between branding and headline to visually anchor the value proposition.",
+      "Uses a carousel indicator (pagination dots) below the copy.",
+      "Clear visual hierarchy with dominant CTA button."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Clear visual hierarchy with dominant CTA button."
+    ],
+    "content_blocks": [
+      "ClickUp",
+      "Mobbin",
+      "Get started"
+    ],
+    "visual_keywords": [
+      "Modern minimalist flat design illustration, high-contrast, clean typography.",
+      "white",
+      "purple",
+      "black",
+      "yellow",
+      "Character illustration is a 2D flat vector style.",
+      "Hero illustration is positioned centrally between branding and headline to visually anchor the value proposition.",
+      "Uses a carousel indicator (pagination dots) below the copy.",
+      "Clear visual hierarchy with dominant CTA button."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist flat design illustration, high-contrast, clean typography."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_welcome_illustrated_02"
+}

@@ -1,0 +1,238 @@
+{
+  "image": "08 - OKX.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface screen showing a 'Notifications' tab with a popup modal titled 'Mark as read'. The background displays a list of various crypto market movement alerts.",
+    "ocr": {
+      "full_text": "9.41\nNotifications Messages\nAll\nToday\nMarket\nXRP\nXRP is up by 7.03% to 0.5891 USDT in the last\n24 hours\nEarlier\nMarket movement alerts\nSOL is up\nSOL is up by 7.02% to 155.5 USDT in the last\n24 hours\nNew features\nZERO/USDT is live!\nTrade ZERO/USDT now\nMarket movement alerts\nBTC market update\nBTC is above 64,000 USDT\nMarket movement alerts\nSOL is up\nSOL is up by 7.01% to 145.96 USDT in the last\n24 hours\nMarket movement alerts\nETH is up\nETH is up by 5.02% to 3,117 USDT in the last\n24 hours\nOKX\ncurated by Mobbin\nMark as read\nClean up your notifications by\nmarking them as read.\nOK",
+      "lines": [
+        {
+          "text": "9.41"
+        },
+        {
+          "text": "Notifications Messages"
+        },
+        {
+          "text": "All"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Market"
+        },
+        {
+          "text": "XRP"
+        },
+        {
+          "text": "XRP is up by 7.03% to 0.5891 USDT in the last"
+        },
+        {
+          "text": "24 hours"
+        },
+        {
+          "text": "Earlier"
+        },
+        {
+          "text": "Market movement alerts"
+        },
+        {
+          "text": "SOL is up"
+        },
+        {
+          "text": "SOL is up by 7.02% to 155.5 USDT in the last"
+        },
+        {
+          "text": "24 hours"
+        },
+        {
+          "text": "New features"
+        },
+        {
+          "text": "ZERO/USDT is live!"
+        },
+        {
+          "text": "Trade ZERO/USDT now"
+        },
+        {
+          "text": "Market movement alerts"
+        },
+        {
+          "text": "BTC market update"
+        },
+        {
+          "text": "BTC is above 64,000 USDT"
+        },
+        {
+          "text": "Market movement alerts"
+        },
+        {
+          "text": "SOL is up"
+        },
+        {
+          "text": "SOL is up by 7.01% to 145.96 USDT in the last"
+        },
+        {
+          "text": "24 hours"
+        },
+        {
+          "text": "Market movement alerts"
+        },
+        {
+          "text": "ETH is up"
+        },
+        {
+          "text": "ETH is up by 5.02% to 3,117 USDT in the last"
+        },
+        {
+          "text": "24 hours"
+        },
+        {
+          "text": "Mark as read"
+        },
+        {
+          "text": "Clean up your notifications by"
+        },
+        {
+          "text": "marking them as read."
+        },
+        {
+          "text": "OK"
+        },
+        {
+          "text": "OKX"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Notifications"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Today"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "XRP market alert"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Earlier"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "SOL, ZERO/USDT, BTC, SOL, ETH market alerts"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Mark as read modal: Clean up your notifications by marking them as read. Button: OK"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Cryptocurrency exchange mobile application notification center.",
+      "intent": "User is interacting with a UI popup to manage unread notifications.",
+      "entities": [
+        {
+          "name": "XRP",
+          "type": "cryptocurrency"
+        },
+        {
+          "name": "SOL",
+          "type": "cryptocurrency"
+        },
+        {
+          "name": "ZERO/USDT",
+          "type": "trading pair"
+        },
+        {
+          "name": "BTC",
+          "type": "cryptocurrency"
+        },
+        {
+          "name": "ETH",
+          "type": "cryptocurrency"
+        },
+        {
+          "name": "OKX",
+          "type": "organization"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "XRP",
+          "predicate": "is updated",
+          "object": "up by 7.03%"
+        },
+        {
+          "subject": "SOL",
+          "predicate": "is updated",
+          "object": "up by 7.02% and 7.01%"
+        },
+        {
+          "subject": "ETH",
+          "predicate": "is updated",
+          "object": "up by 5.02%"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "dark grey"
+      ],
+      "style": "Modern mobile application flat UI design",
+      "notes": [
+        "Modal popup is translucent white overlay",
+        "Market alerts have icons representing the asset",
+        "Red dots indicate unread notifications"
+      ]
+    },
+    "uncertainty": [
+      "The timestamp in the XRP alert is partially obscured by the modal popup."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:21:12.292Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.761,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1334,
+      "totalTokenCount": 2561,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.763
+      }
+    ],
+    "warnings": []
+  }
+}

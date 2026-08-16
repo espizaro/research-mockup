@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "adidas Running",
+    "platform": "ios",
+    "file_path": "screens/period-comparison/01 - adidas Running.webp",
+    "analyzed_timestamp": "2026-08-11T22:29:01.132Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App UI screen displaying sports performance statistics",
+    "primary_flow": "period-comparison",
+    "ux_intent": "View fitness progress and provide user feedback",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Profile",
+      "Minimalist",
+      "Standard app navigation bars at the top and bottom",
+      "Clear typography",
+      "Icon-based data representation"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Standard app navigation bars at the top and bottom"
+    ],
+    "content_blocks": [
+      "Adidas Running",
+      "406",
+      "11.2"
+    ],
+    "visual_keywords": [
+      "Mobile Application UI, minimalist, clean, data-heavy",
+      "white",
+      "black",
+      "gray",
+      "Standard app navigation bars at the top and bottom",
+      "Clear typography",
+      "Icon-based data representation"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile Application UI, minimalist, clean, data-heavy"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_period_comparison_01"
+}

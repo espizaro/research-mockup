@@ -1,0 +1,162 @@
+{
+  "image": "08 - Vocabulary.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen for customizing a home screen vocabulary widget. It displays a preview of the widget showing the word 'encumber', followed by configuration options for the theme, categories, and refresh settings.",
+    "ocr": {
+      "full_text": "9:41 Widgets Set up your Home Screen widget encumber (v.) To weigh down, burden At the airport, my friend was encumbered by her luggage, so I offered to carry two of her bags Your widget reflects the settings you select below. Sand theme Customize Categories Mix Theme Widget border Refresh Hourly Vocabulary curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Widgets",
+          "language": "en"
+        },
+        {
+          "text": "Set up your Home Screen widget",
+          "language": "en"
+        },
+        {
+          "text": "encumber",
+          "language": "en"
+        },
+        {
+          "text": "(v.) To weigh down, burden",
+          "language": "en"
+        },
+        {
+          "text": "At the airport, my friend was encumbered by her luggage, so I offered to carry two of her bags",
+          "language": "en"
+        },
+        {
+          "text": "Your widget reflects the settings you select below.",
+          "language": "en"
+        },
+        {
+          "text": "Sand theme",
+          "language": "en"
+        },
+        {
+          "text": "Customize",
+          "language": "en"
+        },
+        {
+          "text": "Categories Mix",
+          "language": "en"
+        },
+        {
+          "text": "Theme",
+          "language": "en"
+        },
+        {
+          "text": "Widget border",
+          "language": "en"
+        },
+        {
+          "text": "Refresh Hourly",
+          "language": "en"
+        },
+        {
+          "text": "Vocabulary curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Widgets"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Set up your Home Screen widget"
+        },
+        {
+          "type": "image",
+          "reading_order": 3,
+          "text": "encumber (v.) To weigh down, burden At the airport, my friend was encumbered by her luggage, so I offered to carry two of her bags"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Your widget reflects the settings you select below."
+        },
+        {
+          "type": "title",
+          "reading_order": 5,
+          "text": "Sand theme"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Customize (switch on) Categories (Mix) Theme (right arrow) Widget border (switch off) Refresh (Hourly)"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application interface for widget configuration.",
+      "intent": "To allow the user to adjust the appearance and behavior of a vocabulary-focused home screen widget.",
+      "entities": [
+        {
+          "name": "Vocabulary",
+          "type": "application category"
+        },
+        {
+          "name": "Mobbin",
+          "type": "organization"
+        },
+        {
+          "name": "encumber",
+          "type": "word"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Mobbin",
+          "predicate": "curates",
+          "object": "Vocabulary"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "beige",
+        "off-white",
+        "dark gray"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "The design uses a soft neutral color palette.",
+        "The widget preview has a semi-transparent card look."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:55.947Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.357,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1037,
+      "totalTokenCount": 2264,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

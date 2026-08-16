@@ -1,0 +1,199 @@
+{
+  "image": "04 - Cleo AI.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface screen showing a feedback survey popup titled 'Judge me (please)' overlaid on a background displaying a prize draw and a token reward incentive.",
+    "ocr": {
+      "full_text": "9:41 Tokens +10 Share for more chances to win Tap here to share your score and get more tokens Prize draw Check back Sunday at 8pm CDT See if you've won big this week Judge me (please) How was Money IQ? 1 2 3 4 5 Very unsatisfied Very satisfied Provide some details about your score 11/100 What do you like or dislike? I like it! Submit Cleo AI curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Tokens +10"
+        },
+        {
+          "text": "Share for more chances to win"
+        },
+        {
+          "text": "Tap here to share your score and get more tokens"
+        },
+        {
+          "text": "Prize draw"
+        },
+        {
+          "text": "Check back Sunday at 8pm CDT"
+        },
+        {
+          "text": "See if you've won big this week"
+        },
+        {
+          "text": "Judge me (please)"
+        },
+        {
+          "text": "How was Money IQ?"
+        },
+        {
+          "text": "1 2 3 4 5"
+        },
+        {
+          "text": "Very unsatisfied Very satisfied"
+        },
+        {
+          "text": "Provide some details about your score 11/100"
+        },
+        {
+          "text": "What do you like or dislike?"
+        },
+        {
+          "text": "I like it!"
+        },
+        {
+          "text": "Submit"
+        },
+        {
+          "text": "Cleo AI"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "other",
+          "reading_order": 1,
+          "text": "9:41"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Tokens +10"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Share for more chances to win\nTap here to share your score and get more tokens"
+        },
+        {
+          "type": "title",
+          "reading_order": 4,
+          "text": "Prize draw"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Check back Sunday at 8pm CDT\nSee if you've won big this week"
+        },
+        {
+          "type": "title",
+          "reading_order": 6,
+          "text": "Judge me (please)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "How was Money IQ?"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "1 2 3 4 5"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 9,
+          "text": "Very unsatisfied Very satisfied"
+        },
+        {
+          "type": "form",
+          "reading_order": 10,
+          "text": "Provide some details about your score 11/100\nWhat do you like or dislike?\nI like it!"
+        },
+        {
+          "type": "other",
+          "reading_order": 11,
+          "text": "Submit"
+        },
+        {
+          "type": "other",
+          "reading_order": 12,
+          "text": "Cleo AI curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app feedback survey popup.",
+      "intent": "To collect user feedback on the 'Money IQ' feature.",
+      "entities": [
+        {
+          "name": "Cleo AI",
+          "type": "application"
+        },
+        {
+          "name": "Money IQ",
+          "type": "feature"
+        },
+        {
+          "name": "Mobbin",
+          "type": "organization"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "rates",
+          "object": "Money IQ"
+        },
+        {
+          "subject": "Popup",
+          "predicate": "belongs to",
+          "object": "Cleo AI"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "dark maroon",
+        "off-white",
+        "light grey"
+      ],
+      "style": "Mobile UI design, clean minimalist aesthetic.",
+      "notes": [
+        "The survey popup is centered with a blurred background overlay."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:19:11.345Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.201,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1038,
+      "totalTokenCount": 2265,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.202
+      }
+    ],
+    "warnings": []
+  }
+}

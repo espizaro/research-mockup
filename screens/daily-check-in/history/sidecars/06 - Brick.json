@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Brick",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/history/06 - Brick.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:35.554Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile app activity log page.",
+    "primary_flow": "daily-check-in/history",
+    "ux_intent": "View usage statistics for the week.",
+    "ux_patterns": [
+      "Progress",
+      "Settings",
+      "Minimalist",
+      "Card",
+      "Progress bars are represented as horizontal line segments in each entry card."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Progress Bar"
+    ],
+    "content_blocks": [
+      "Weekly Activity",
+      "Activity",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "hex e0e0e0",
+      "hex ffffff",
+      "hex 3a4a5a",
+      "Progress bars are represented as horizontal line segments in each entry card."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_history_06"
+}

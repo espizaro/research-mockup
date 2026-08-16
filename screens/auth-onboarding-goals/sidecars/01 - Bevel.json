@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Bevel",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-goals/01 - Bevel.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:53.197Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding fitness goal selection screen",
+    "primary_flow": "auth-onboarding-goals",
+    "ux_intent": "To gather user fitness preferences to personalize the experience.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Settings",
+      "Minimalist",
+      "Card",
+      "No illustrations or decorative art present.",
+      "High contrast typography.",
+      "Uses a progress indicator at the top.",
+      "Standard iOS status bar elements."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Fitness Goal Selection",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern mobile UI design.",
+      "white",
+      "black",
+      "No illustrations or decorative art present.",
+      "High contrast typography.",
+      "Uses a progress indicator at the top.",
+      "Standard iOS status bar elements."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_goals_01"
+}

@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Airwallex",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/detail-sections/02 - Airwallex.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:07.661Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Finance/Banking application card management screen.",
+    "primary_flow": "daily-check-in/detail-sections",
+    "ux_intent": "The user is viewing their assigned company cards.",
+    "ux_patterns": [
+      "List View",
+      "Form",
+      "Search",
+      "Minimalist",
+      "Card",
+      "Standard iOS status bar.",
+      "Navigation bar is fixed at the bottom."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Navigation bar is fixed at the bottom."
+    ],
+    "content_blocks": [
+      "Team Expenses",
+      "Airwallex"
+    ],
+    "visual_keywords": [
+      "Mobile app interface, clean, minimalist design.",
+      "white",
+      "purple",
+      "Standard iOS status bar.",
+      "Navigation bar is fixed at the bottom."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile app interface, clean, minimalist design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_detail_sections_02"
+}

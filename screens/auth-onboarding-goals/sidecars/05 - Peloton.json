@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Peloton",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-goals/05 - Peloton.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:58.339Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding/User Profiling",
+    "primary_flow": "auth-onboarding-goals",
+    "ux_intent": "To collect user fitness preferences for personalization of the application experience.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Dark Mode",
+      "Minimalist",
+      "No hero illustrations present; the screen relies on typography and clear UI interaction components.",
+      "High contrast text on dark background ensures readability.",
+      "Standard mobile navigation header at the top.",
+      "Primary call-to-action is visually distinct with a red button."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "No hero illustrations present; the screen relies on typography and clear UI interaction components.",
+      "Standard mobile navigation header at the top.",
+      "Primary call-to-action is visually distinct with a red button."
+    ],
+    "content_blocks": [
+      "Peloton",
+      "Fitness Goal Selection"
+    ],
+    "visual_keywords": [
+      "Minimalist, Dark mode, Flat design",
+      "hex 1a1c21",
+      "hex 4a4e5a",
+      "hex ff5a5f",
+      "No hero illustrations present; the screen relies on typography and clear UI interaction components.",
+      "High contrast text on dark background ensures readability.",
+      "Standard mobile navigation header at the top.",
+      "Primary call-to-action is visually distinct with a red button."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, Dark mode, Flat design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_goals_05"
+}

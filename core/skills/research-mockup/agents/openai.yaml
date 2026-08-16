@@ -1,0 +1,6 @@
+interface:
+  display_name: "Research Mockup"
+  short_description: "Research a feature, design its UX, and build navigable HTML mockups that match the project's real design system"
+  default_prompt: "Use $research-mockup to research <feature>: resolve the active project, define domain, concept, and outcomes, research on Mobbin, propose the UX, and build the mockup following the protocol."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,129 @@
+{
+  "image": "06 - Ubank Money App.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is an empty state screen in a mobile banking app called Ubank Money App, indicating that the user has no tracked bills and providing a call-to-action button to track a new one.",
+    "ocr": {
+      "full_text": "09:41\nTracked bills\nTotal of 0 bills tracked\nYou don't have any bills\n+ Track new bill\nUbank Money App\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "09:41",
+          "language": "en"
+        },
+        {
+          "text": "Tracked bills",
+          "language": "en"
+        },
+        {
+          "text": "Total of 0 bills tracked",
+          "language": "en"
+        },
+        {
+          "text": "You don't have any bills",
+          "language": "en"
+        },
+        {
+          "text": "+ Track new bill",
+          "language": "en"
+        },
+        {
+          "text": "Ubank Money App",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Tracked bills"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Total of 0 bills tracked"
+        },
+        {
+          "type": "image",
+          "reading_order": 3,
+          "text": "Illustration of a bill and some coins"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "You don't have any bills"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "+ Track new bill"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app UI showing an empty state screen for bill tracking.",
+      "intent": "Notify the user that no bills are currently tracked and prompt them to add one.",
+      "entities": [
+        {
+          "name": "Tracked bills",
+          "type": "header"
+        },
+        {
+          "name": "Track new bill",
+          "type": "button"
+        },
+        {
+          "name": "Ubank Money App",
+          "type": "application"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has",
+          "object": "0 bills"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "cyan/teal"
+      ],
+      "style": "Minimalist mobile UI design",
+      "notes": [
+        "The button uses a vibrant teal color to draw attention.",
+        "The illustration is abstract and uses shades of purple."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:42.102Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.548,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 764,
+      "totalTokenCount": 1991,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

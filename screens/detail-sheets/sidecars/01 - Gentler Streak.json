@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Gentler Streak",
+    "platform": "ios",
+    "file_path": "screens/detail-sheets/01 - Gentler Streak.webp",
+    "analyzed_timestamp": "2026-08-05T19:42:19.484Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App UI for health and fitness activity logging",
+    "primary_flow": "detail-sheets",
+    "ux_intent": "To allow the user to log their subjective feeling of exercise intensity based on their heart rate data.",
+    "ux_patterns": [
+      "Form",
+      "Slider",
+      "Chart",
+      "Minimalist",
+      "Uses a cartoon-like bean character to denote effort level."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Chart",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Slider"
+    ],
+    "content_blocks": [
+      "Gentler Streak",
+      "Perceived Exertion",
+      "Light",
+      "HR Data"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface",
+      "white",
+      "orange",
+      "yellow",
+      "Uses a cartoon-like bean character to denote effort level."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_sheets_01"
+}

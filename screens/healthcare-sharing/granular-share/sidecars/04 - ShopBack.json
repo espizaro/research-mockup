@@ -1,0 +1,163 @@
+{
+  "image": "04 - ShopBack.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile application interface displaying a category selection screen, likely for filtering food or restaurant options, with a search bar and a list of cuisine categories including a 'Local' selection.",
+    "ocr": {
+      "full_text": "9:41 Categories Clear Search Categories Greek Indian Indonesian International Italian Japanese Korean Local Malay Done ShopBack curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Categories",
+          "language": "en"
+        },
+        {
+          "text": "Clear",
+          "language": "en"
+        },
+        {
+          "text": "Search Categories",
+          "language": "en"
+        },
+        {
+          "text": "Greek",
+          "language": "en"
+        },
+        {
+          "text": "Indian",
+          "language": "en"
+        },
+        {
+          "text": "Indonesian",
+          "language": "en"
+        },
+        {
+          "text": "International",
+          "language": "en"
+        },
+        {
+          "text": "Italian",
+          "language": "en"
+        },
+        {
+          "text": "Japanese",
+          "language": "en"
+        },
+        {
+          "text": "Korean",
+          "language": "en"
+        },
+        {
+          "text": "Local",
+          "language": "en"
+        },
+        {
+          "text": "Malay",
+          "language": "en"
+        },
+        {
+          "text": "Done",
+          "language": "en"
+        },
+        {
+          "text": "ShopBack",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Categories"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "Search Categories"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Greek, Indian, Indonesian, International, Italian, Japanese, Korean, Local, Malay"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Done"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile app UI for selecting filters or categories.",
+      "intent": "The user is expected to select or search for restaurant or food categories to filter search results.",
+      "entities": [
+        {
+          "name": "Categories",
+          "type": "ui_element"
+        },
+        {
+          "name": "Search Categories",
+          "type": "search_input"
+        },
+        {
+          "name": "Local",
+          "type": "filter_option",
+          "evidence": "Checkbox is filled/green"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Local",
+          "predicate": "selected",
+          "object": "true"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "dark_blue",
+        "green"
+      ],
+      "style": "Modern minimalist mobile application UI",
+      "notes": [
+        "Top bar with time and status icons",
+        "Checkbox list layout",
+        "Bottom action button",
+        "ShopBack and Mobbin branding present at the footer"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:46.874Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.372,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 906,
+      "totalTokenCount": 2133,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

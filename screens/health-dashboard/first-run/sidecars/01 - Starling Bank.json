@@ -1,0 +1,121 @@
+{
+  "image": "01 - Starling Bank.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile device screen showing a Starling Bank widget that needs configuration, with status bar, widget, and bottom navigation branding.",
+    "ocr": {
+      "full_text": "9:41 Tap to set up Starling Bank curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Tap to set up",
+          "language": "en"
+        },
+        {
+          "text": "Starling Bank",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "9:41"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Tap to set up"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Starling Bank"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A smartphone home screen or widget selection page displaying an unconfigured Starling Bank app widget.",
+      "intent": "To prompt the user to interact with the widget to complete the setup process.",
+      "entities": [
+        {
+          "name": "Starling Bank",
+          "type": "Company",
+          "evidence": "Text at the bottom"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Company",
+          "evidence": "Text at the bottom"
+        },
+        {
+          "name": "Widget",
+          "type": "UI Element",
+          "evidence": "The green box with 'Tap to set up' text"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Starling Bank",
+          "predicate": "has",
+          "object": "Widget"
+        },
+        {
+          "subject": "Mobbin",
+          "predicate": "curated",
+          "object": "Content"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "green",
+        "light grey",
+        "white"
+      ],
+      "style": "Clean, minimalist mobile interface",
+      "notes": [
+        "The widget features a gradient green background.",
+        "The status bar shows typical iOS icons.",
+        "Bottom bar is a branded footer identifying the source as Mobbin."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:06.376Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.093,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 682,
+      "totalTokenCount": 1909,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

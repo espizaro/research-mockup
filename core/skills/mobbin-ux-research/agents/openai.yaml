@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mobbin UX Research"
+  short_description: "Research real UX/UI patterns and flows on Mobbin"
+  default_prompt: "Research on Mobbin how other apps solve a UX problem"

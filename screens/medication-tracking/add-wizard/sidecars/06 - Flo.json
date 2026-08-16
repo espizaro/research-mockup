@@ -1,0 +1,211 @@
+{
+  "image": "06 - Flo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image displays the 'Reminders' settings screen of a mobile application, likely a health tracking app, featuring categories for health, medication, lifestyle tracking, and notification preferences.",
+    "ocr": {
+      "full_text": "9:41\nReminders\nOvulation Off >\nMEDICATION AND CONTRACEPTION\nContraception Off >\nAdd a pill reminder\nLIFESTYLE\nLog weight Off >\nLog sleep Off >\nLog temperature Off >\nDrink water Off >\nStep goal achieved On >\nNOTIFICATIONS\nSpecial offers\nFlo curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Reminders",
+          "language": "en"
+        },
+        {
+          "text": "Ovulation Off >",
+          "language": "en"
+        },
+        {
+          "text": "MEDICATION AND CONTRACEPTION",
+          "language": "en"
+        },
+        {
+          "text": "Contraception Off >",
+          "language": "en"
+        },
+        {
+          "text": "Add a pill reminder",
+          "language": "en"
+        },
+        {
+          "text": "LIFESTYLE",
+          "language": "en"
+        },
+        {
+          "text": "Log weight Off >",
+          "language": "en"
+        },
+        {
+          "text": "Log sleep Off >",
+          "language": "en"
+        },
+        {
+          "text": "Log temperature Off >",
+          "language": "en"
+        },
+        {
+          "text": "Drink water Off >",
+          "language": "en"
+        },
+        {
+          "text": "Step goal achieved On >",
+          "language": "en"
+        },
+        {
+          "text": "NOTIFICATIONS",
+          "language": "en"
+        },
+        {
+          "text": "Special offers",
+          "language": "en"
+        },
+        {
+          "text": "Flo curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Reminders"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Ovulation Off >"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "MEDICATION AND CONTRACEPTION"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Contraception Off >"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Add a pill reminder"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "LIFESTYLE"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Log weight Off >\nLog sleep Off >\nLog temperature Off >\nDrink water Off >\nStep goal achieved On >"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "NOTIFICATIONS"
+        },
+        {
+          "type": "form",
+          "reading_order": 9,
+          "text": "Special offers"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application settings menu for notifications/reminders.",
+      "intent": "To allow users to toggle notification settings for health and lifestyle tracking.",
+      "entities": [
+        {
+          "name": "Ovulation",
+          "type": "Setting"
+        },
+        {
+          "name": "Contraception",
+          "type": "Setting"
+        },
+        {
+          "name": "Log weight",
+          "type": "Setting"
+        },
+        {
+          "name": "Log sleep",
+          "type": "Setting"
+        },
+        {
+          "name": "Log temperature",
+          "type": "Setting"
+        },
+        {
+          "name": "Drink water",
+          "type": "Setting"
+        },
+        {
+          "name": "Step goal achieved",
+          "type": "Setting"
+        },
+        {
+          "name": "Special offers",
+          "type": "Setting"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "App",
+          "predicate": "has_settings_category",
+          "object": "MEDICATION AND CONTRACEPTION"
+        },
+        {
+          "subject": "App",
+          "predicate": "has_settings_category",
+          "object": "LIFESTYLE"
+        },
+        {
+          "subject": "App",
+          "predicate": "has_settings_category",
+          "object": "NOTIFICATIONS"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "black",
+        "teal"
+      ],
+      "style": "Mobile UI/UX flat design",
+      "notes": [
+        "Clean, minimalist interface with standard iOS-style list navigation icons and toggle switches."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:08.726Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.61,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1009,
+      "totalTokenCount": 2236,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

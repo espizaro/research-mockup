@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "inDrive",
+    "platform": "ios",
+    "file_path": "screens/auth-register-progressive/04 - inDrive.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:14.813Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding or profile completion form.",
+    "primary_flow": "auth-register-progressive",
+    "ux_intent": "User data collection for account creation or verification.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "The profile picture upload is a square icon, not a hero illustration.",
+      "Progress bar indicates multi-step flow.",
+      "Clear, standard input fields."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Progress Bar",
+      "Clear, standard input fields."
+    ],
+    "content_blocks": [
+      "inDrive",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean mobile UI design with high-contrast elements.",
+      "white",
+      "light grey",
+      "lime green",
+      "The profile picture upload is a square icon, not a hero illustration.",
+      "Progress bar indicates multi-step flow.",
+      "Clear, standard input fields."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean mobile UI design with high-contrast elements."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_progressive_04"
+}

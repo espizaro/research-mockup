@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "Oura",
+    "platform": "ios",
+    "file_path": "screens/hub-overview/02 - Oura.webp",
+    "analyzed_timestamp": "2026-08-11T22:27:08.275Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app health dashboard",
+    "primary_flow": "hub-overview",
+    "ux_intent": "Display health trends and metrics over time",
+    "ux_patterns": [
+      "Chart",
+      "Dark Mode",
+      "Minimalist",
+      "High contrast design",
+      "minimalist icons"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Oura",
+      "Inactive time",
+      "Resting heart rate",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern dark mode mobile UI with charts",
+      "black",
+      "grey",
+      "white",
+      "High contrast design",
+      "minimalist icons"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern dark mode mobile UI with charts"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_hub_overview_02"
+}

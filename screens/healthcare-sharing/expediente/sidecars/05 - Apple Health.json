@@ -1,0 +1,147 @@
+{
+  "image": "05 - Apple Health.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This screen is an onboarding or educational tutorial for the Apple Health 'Cycle Tracking' feature, explaining how to interpret the timeline interface, including what the orange cycle circles and purple symptom-logging dots represent.",
+    "ocr": {
+      "full_text": "9:41 Cycle Timeline Monday, January 1 F S S M T W T Logged Details A small purple circle represents when you've logged information like headache, cramping, or test result. Next Apple Health curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Cycle Timeline",
+          "language": "en"
+        },
+        {
+          "text": "Monday, January 1",
+          "language": "en"
+        },
+        {
+          "text": "F S S M T W T",
+          "language": "en"
+        },
+        {
+          "text": "Logged Details",
+          "language": "en"
+        },
+        {
+          "text": "A small purple circle represents",
+          "language": "en"
+        },
+        {
+          "text": "when you've logged information",
+          "language": "en"
+        },
+        {
+          "text": "like headache, cramping, or test",
+          "language": "en"
+        },
+        {
+          "text": "result.",
+          "language": "en"
+        },
+        {
+          "text": "Next",
+          "language": "en"
+        },
+        {
+          "text": "Apple Health",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Cycle Timeline"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Monday, January 1"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Logged Details A small purple circle represents when you've logged information like headache, cramping, or test result."
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Next"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface explaining a health tracking feature.",
+      "intent": "To educate the user on how to read the Cycle Tracking timeline interface within the Apple Health app.",
+      "entities": [
+        {
+          "name": "Apple Health",
+          "type": "Application"
+        },
+        {
+          "name": "Cycle Timeline",
+          "type": "Feature"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Apple Health",
+          "predicate": "features",
+          "object": "Cycle Timeline"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "orange",
+        "purple",
+        "blue"
+      ],
+      "style": "Modern mobile application UI, minimalist, clean, iOS aesthetic.",
+      "notes": [
+        "The layout shows a calendar strip at the top with a marker on Monday, January 1.",
+        "Orange circles indicate days within a cycle.",
+        "Purple dots indicate logged symptoms or health information.",
+        "Bottom features a primary action button labeled 'Next'."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:55.441Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.229,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 894,
+      "totalTokenCount": 2121,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

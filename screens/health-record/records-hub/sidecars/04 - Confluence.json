@@ -1,0 +1,330 @@
+{
+  "image": "04 - Confluence.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Atlassian Confluence software interface showing a project management database view of a research plan. The table lists various research activities along with their methods, objectives, statuses, and assigned researchers.",
+    "ocr": {
+      "full_text": "Confluence Search Create 24 days left Rovo Chat [Restored] Untitled database Jun 3, 2025 1:24 p.m. Saved Share View 1 Table layout Filter Sort Hide field Research plan Research method Objective Status Researcher Customer survey Survey Understand customer interest To do @Leslie Yup SEQ testing 1:1 interview Test the product's ease of use Planning @Ron Johnson Contextual inquiry Observation Identify issues with the customer experience that are lowering numbers In progress @Wyatt Benson Use case interview Focus group Gain deeper understanding of our customers' needs Complete @Anne Larkin Growth experiment Experiment Test two different versions Paused @Jerry Gergith Add entry Calculate For you Recent Starred Spaces Apps More Alex Smith Shortcuts Content Search by title Getting started in Confluence 2025-05-26 Meeting DRAFT Design Meeting DRAFT Design Guideline Document Copy of Design Guideline Do... Brainstorming Session Designer Database [Restored] Untitled database... Create Blogs 2025 Copy of Design Guideline Do... Calendars PREMIUM Invite people Confluence curated by Mobbin",
+      "lines": [
+        {
+          "text": "Confluence"
+        },
+        {
+          "text": "Search"
+        },
+        {
+          "text": "Create"
+        },
+        {
+          "text": "24 days left"
+        },
+        {
+          "text": "Rovo Chat"
+        },
+        {
+          "text": "[Restored] Untitled database Jun 3, 2025 1:24 p.m."
+        },
+        {
+          "text": "Saved"
+        },
+        {
+          "text": "Share"
+        },
+        {
+          "text": "View 1"
+        },
+        {
+          "text": "Table layout"
+        },
+        {
+          "text": "Filter"
+        },
+        {
+          "text": "Sort"
+        },
+        {
+          "text": "Hide field"
+        },
+        {
+          "text": "Research plan"
+        },
+        {
+          "text": "Research method"
+        },
+        {
+          "text": "Objective"
+        },
+        {
+          "text": "Status"
+        },
+        {
+          "text": "Researcher"
+        },
+        {
+          "text": "Customer survey"
+        },
+        {
+          "text": "Survey"
+        },
+        {
+          "text": "Understand customer interest"
+        },
+        {
+          "text": "To do"
+        },
+        {
+          "text": "@Leslie Yup"
+        },
+        {
+          "text": "SEQ testing"
+        },
+        {
+          "text": "1:1 interview"
+        },
+        {
+          "text": "Test the product's ease of use"
+        },
+        {
+          "text": "Planning"
+        },
+        {
+          "text": "@Ron Johnson"
+        },
+        {
+          "text": "Contextual inquiry"
+        },
+        {
+          "text": "Observation"
+        },
+        {
+          "text": "Identify issues with the customer experience that are lowering numbers"
+        },
+        {
+          "text": "In progress"
+        },
+        {
+          "text": "@Wyatt Benson"
+        },
+        {
+          "text": "Use case interview"
+        },
+        {
+          "text": "Focus group"
+        },
+        {
+          "text": "Gain deeper understanding of our customers' needs"
+        },
+        {
+          "text": "Complete"
+        },
+        {
+          "text": "@Anne Larkin"
+        },
+        {
+          "text": "Growth experiment"
+        },
+        {
+          "text": "Experiment"
+        },
+        {
+          "text": "Test two different versions"
+        },
+        {
+          "text": "Paused"
+        },
+        {
+          "text": "@Jerry Gergith"
+        },
+        {
+          "text": "Add entry"
+        },
+        {
+          "text": "Calculate"
+        },
+        {
+          "text": "For you"
+        },
+        {
+          "text": "Recent"
+        },
+        {
+          "text": "Starred"
+        },
+        {
+          "text": "Spaces"
+        },
+        {
+          "text": "Apps"
+        },
+        {
+          "text": "More"
+        },
+        {
+          "text": "Alex Smith"
+        },
+        {
+          "text": "Shortcuts"
+        },
+        {
+          "text": "Content"
+        },
+        {
+          "text": "Search by title"
+        },
+        {
+          "text": "Getting started in Confluence"
+        },
+        {
+          "text": "2025-05-26 Meeting DRAFT"
+        },
+        {
+          "text": "Design Meeting DRAFT"
+        },
+        {
+          "text": "Design Guideline Document"
+        },
+        {
+          "text": "Copy of Design Guideline Do..."
+        },
+        {
+          "text": "Brainstorming Session"
+        },
+        {
+          "text": "Designer Database"
+        },
+        {
+          "text": "[Restored] Untitled database..."
+        },
+        {
+          "text": "Create"
+        },
+        {
+          "text": "Blogs"
+        },
+        {
+          "text": "2025"
+        },
+        {
+          "text": "Copy of Design Guideline Do..."
+        },
+        {
+          "text": "Calendars PREMIUM"
+        },
+        {
+          "text": "Invite people"
+        },
+        {
+          "text": "Confluence"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "[Restored] Untitled database"
+        },
+        {
+          "type": "table",
+          "reading_order": 2,
+          "text": "Research plan, Research method, Objective, Status, Researcher. Customer survey, Survey, Understand customer interest, To do, @Leslie Yup. SEQ testing, 1:1 interview, Test the product's ease of use, Planning, @Ron Johnson. Contextual inquiry, Observation, Identify issues with the customer experience that are lowering numbers, In progress, @Wyatt Benson. Use case interview, Focus group, Gain deeper understanding of our customers' needs, Complete, @Anne Larkin. Growth experiment, Experiment, Test two different versions, Paused, @Jerry Gergith."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Software application interface for project management (Atlassian Confluence).",
+      "intent": "Displaying a database table of research tasks within a project management workspace.",
+      "entities": [
+        {
+          "name": "Confluence",
+          "type": "Software Platform"
+        },
+        {
+          "name": "Leslie Yup",
+          "type": "Person"
+        },
+        {
+          "name": "Ron Johnson",
+          "type": "Person"
+        },
+        {
+          "name": "Wyatt Benson",
+          "type": "Person"
+        },
+        {
+          "name": "Anne Larkin",
+          "type": "Person"
+        },
+        {
+          "name": "Jerry Gergith",
+          "type": "Person"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Leslie Yup",
+          "predicate": "assigned to",
+          "object": "Customer survey"
+        },
+        {
+          "subject": "Ron Johnson",
+          "predicate": "assigned to",
+          "object": "SEQ testing"
+        },
+        {
+          "subject": "Wyatt Benson",
+          "predicate": "assigned to",
+          "object": "Contextual inquiry"
+        },
+        {
+          "subject": "Anne Larkin",
+          "predicate": "assigned to",
+          "object": "Use case interview"
+        },
+        {
+          "subject": "Jerry Gergith",
+          "predicate": "assigned to",
+          "object": "Growth experiment"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-gray",
+        "blue"
+      ],
+      "style": "Clean, UI/UX software dashboard design, flat design language."
+    },
+    "uncertainty": [
+      "Some truncated text in sidebar entries (e.g., 'Copy of Design Guideline Do...').",
+      "Small icons in the sidebar are difficult to define individually."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:03.046Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.115,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1732,
+      "totalTokenCount": 2939,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

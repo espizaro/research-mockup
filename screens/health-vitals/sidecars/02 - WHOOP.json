@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "WHOOP",
+    "platform": "ios",
+    "file_path": "screens/health-vitals/02 - WHOOP.webp",
+    "analyzed_timestamp": "2026-08-06T23:57:21.571Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app dashboard for health tracking.",
+    "primary_flow": "health-vitals",
+    "ux_intent": "User is checking their daily physical readiness and health metrics.",
+    "ux_patterns": [
+      "Form",
+      "Chart",
+      "Dark Mode",
+      "Minimalist",
+      "Card",
+      "Uses visual bars for status indication (blue for optimal, red for attention)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation"
+    ],
+    "content_blocks": [
+      "Oura",
+      "Readiness Score",
+      "Resting heart rate",
+      "Heart rate variability",
+      "Body temperature",
+      "Respiratory rate"
+    ],
+    "visual_keywords": [
+      "Dark mode dashboard, minimalist UI, card-based layout.",
+      "black",
+      "blue",
+      "white",
+      "red",
+      "Uses visual bars for status indication (blue for optimal, red for attention)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode dashboard, minimalist UI, card-based layout."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_health_vitals_02"
+}

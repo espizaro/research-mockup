@@ -1,0 +1,192 @@
+{
+  "image": "01 - Ultrahuman.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Ultrahuman mobile application interface on an iOS device. It shows a 'Today' screen featuring a user's activity timeline, promotional cards for 'Powerplugs' and 'UltrahumanX Store', and a referral section to 'Talk science with a friend'. Navigation tabs are visible at the bottom.",
+    "ocr": {
+      "full_text": "9:41\nTODAY\nActivate more Powerplugs\nSupercharge your Ring Air's Experience\nExplore Powerplugs\nTimeline\n+\n11:47 AM\nPlain Yogurt, Strawberries\n10:47 AM 60 min\nRunning\nUltrahumanX Store 5 NEW\nOne stop shop for unlimited curated\nbenefits at unmatched prices\nTalk science with a friend\nGet a friend to join you on your health journey and win\nthe Ultrahuman Ring AIR.\nRefer now\n+\nRING\nMETABOLISM\nZONES\nDISCOVER\nPROFILE\nUltrahuman\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "TODAY"
+        },
+        {
+          "text": "Activate more Powerplugs"
+        },
+        {
+          "text": "Supercharge your Ring Air's Experience"
+        },
+        {
+          "text": "Explore Powerplugs"
+        },
+        {
+          "text": "Timeline"
+        },
+        {
+          "text": "11:47 AM"
+        },
+        {
+          "text": "Plain Yogurt, Strawberries"
+        },
+        {
+          "text": "10:47 AM 60 min"
+        },
+        {
+          "text": "Running"
+        },
+        {
+          "text": "UltrahumanX Store 5 NEW"
+        },
+        {
+          "text": "One stop shop for unlimited curated"
+        },
+        {
+          "text": "benefits at unmatched prices"
+        },
+        {
+          "text": "Talk science with a friend"
+        },
+        {
+          "text": "Get a friend to join you on your health journey and win"
+        },
+        {
+          "text": "the Ultrahuman Ring AIR."
+        },
+        {
+          "text": "Refer now"
+        },
+        {
+          "text": "RING"
+        },
+        {
+          "text": "METABOLISM"
+        },
+        {
+          "text": "ZONES"
+        },
+        {
+          "text": "DISCOVER"
+        },
+        {
+          "text": "PROFILE"
+        },
+        {
+          "text": "Ultrahuman"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "TODAY"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Activate more Powerplugs. Supercharge your Ring Air's Experience. Explore Powerplugs"
+        },
+        {
+          "type": "title",
+          "reading_order": 3,
+          "text": "Timeline"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "11:47 AM: Plain Yogurt, Strawberries. 10:47 AM 60 min: Running"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "UltrahumanX Store 5 NEW. One stop shop for unlimited curated benefits at unmatched prices"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Talk science with a friend. Get a friend to join you on your health journey and win the Ultrahuman Ring AIR. Refer now"
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "Bottom navigation tabs: RING, METABOLISM, ZONES, DISCOVER, PROFILE"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "Health and wellness tracking dashboard",
+      "entities": [
+        {
+          "name": "Ultrahuman",
+          "type": "brand"
+        },
+        {
+          "name": "Ring AIR",
+          "type": "product"
+        },
+        {
+          "name": "Mobbin",
+          "type": "brand"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has_logged",
+          "object": "Plain Yogurt, Strawberries"
+        },
+        {
+          "subject": "User",
+          "predicate": "has_performed",
+          "object": "Running"
+        },
+        {
+          "subject": "Ultrahuman",
+          "predicate": "promotes",
+          "object": "UltrahumanX Store"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "white",
+        "grey"
+      ],
+      "style": "Dark mode mobile UI",
+      "notes": [
+        "Clean, card-based interface design typical of health tracking applications."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:32.209Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.146,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1045,
+      "totalTokenCount": 2272,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

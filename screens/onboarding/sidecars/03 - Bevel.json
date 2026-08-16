@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Bevel",
+    "platform": "ios",
+    "file_path": "screens/onboarding/03 - Bevel.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:34.105Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding screen",
+    "primary_flow": "onboarding",
+    "ux_intent": "Welcome the user and describe the app's purpose.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "Waving hand emoji at the top center",
+      "Progress bar near the top",
+      "Large black button for 'Continue'",
+      "Bottom branding footer for Bevel and Mobbin"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Progress Bar",
+      "Large black button for 'Continue'"
+    ],
+    "content_blocks": [
+      "Sam",
+      "Bevel",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist UI design",
+      "white",
+      "black",
+      "Waving hand emoji at the top center",
+      "Progress bar near the top",
+      "Large black button for 'Continue'",
+      "Bottom branding footer for Bevel and Mobbin"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_03"
+}

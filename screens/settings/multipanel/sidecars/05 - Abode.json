@@ -1,0 +1,165 @@
+{
+  "image": "05 - Abode.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application 'Settings' menu modal displayed over a main view. It shows a list of users, followed by configuration options such as Rename, Abode Icon, Add people, Notifications, Theme, and a dangerous action to Leave Abode.",
+    "ocr": {
+      "full_text": "9:41 Settings Users Sam 579 Alex alexsmith Rename Abode Icon Add people Notifications Theme Leave Abode Todo List grocery run tomorrow Abode curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Settings"
+        },
+        {
+          "text": "Users"
+        },
+        {
+          "text": "Sam"
+        },
+        {
+          "text": "579"
+        },
+        {
+          "text": "Alex"
+        },
+        {
+          "text": "alexsmith"
+        },
+        {
+          "text": "Rename"
+        },
+        {
+          "text": "Abode Icon"
+        },
+        {
+          "text": "Add people"
+        },
+        {
+          "text": "Notifications"
+        },
+        {
+          "text": "Theme"
+        },
+        {
+          "text": "Leave Abode"
+        },
+        {
+          "text": "Todo List"
+        },
+        {
+          "text": "grocery run"
+        },
+        {
+          "text": "tomorrow"
+        },
+        {
+          "text": "Abode"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Settings"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Users: Sam (579), Alex (alexsmith)"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Rename, Abode Icon, Add people, Notifications, Theme"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Leave Abode"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app settings modal",
+      "intent": "User configuration and account management",
+      "entities": [
+        {
+          "name": "Sam",
+          "type": "User"
+        },
+        {
+          "name": "Alex",
+          "type": "User"
+        },
+        {
+          "name": "Abode",
+          "type": "Application Name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam",
+          "predicate": "member of",
+          "object": "Abode"
+        },
+        {
+          "subject": "Alex",
+          "predicate": "member of",
+          "object": "Abode"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "dark-blue",
+        "light-gray",
+        "red"
+      ],
+      "style": "Modern mobile UI/UX, flat design with icons",
+      "notes": [
+        "Modal overlay transparency effect",
+        "User avatars are small circular portraits",
+        "Red text used for destructive action"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:21:41.679Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.411,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 690,
+      "totalTokenCount": 1917,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.413
+      }
+    ],
+    "warnings": []
+  }
+}

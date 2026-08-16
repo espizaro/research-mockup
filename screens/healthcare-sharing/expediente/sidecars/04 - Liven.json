@@ -1,0 +1,177 @@
+{
+  "image": "04 - Liven.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen showing a 'Mood timeline'. It features a date-based calendar view at the top, showing mood entries for March 16th, 17th, and 18th. Below, a detailed list for March 17, 2026, displays individual mood logs with associated emotions, contexts, and timestamps.",
+    "ocr": {
+      "full_text": "9:41 Mood timeline 16/03 1 rec 17/03 7 rec 18/03 1 rec Mar 17, 2026 Felt Connected, Calm, Pleasant Because of Education, By myself, Outside Good mood 11:02 Felt Confident, Grateful, Calm Because of Home, Self-talk, By myself Bad mood 10:27 Felt Upset Because of Tasks, Home, Family Good mood 10:27 Felt Motivated, Happy, Pleasant Because of Education, Work, Co-workers Liven curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Mood timeline"
+        },
+        {
+          "text": "16/03 1 rec 17/03 7 rec 18/03 1 rec"
+        },
+        {
+          "text": "Mar 17, 2026"
+        },
+        {
+          "text": "Felt Connected, Calm, Pleasant"
+        },
+        {
+          "text": "Because of Education, By myself, Outside"
+        },
+        {
+          "text": "Good mood 11:02"
+        },
+        {
+          "text": "Felt Confident, Grateful, Calm"
+        },
+        {
+          "text": "Because of Home, Self-talk, By myself"
+        },
+        {
+          "text": "Bad mood 10:27"
+        },
+        {
+          "text": "Felt Upset"
+        },
+        {
+          "text": "Because of Tasks, Home, Family"
+        },
+        {
+          "text": "Good mood 10:27"
+        },
+        {
+          "text": "Felt Motivated, Happy, Pleasant"
+        },
+        {
+          "text": "Because of Education, Work, Co-workers"
+        },
+        {
+          "text": "Liven curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Mood timeline"
+        },
+        {
+          "type": "chart",
+          "reading_order": 2,
+          "text": "Mood timeline graph for March 16, 17, 18."
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 3,
+          "text": "Mar 17, 2026"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Felt Connected, Calm, Pleasant. Because of Education, By myself, Outside."
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Good mood 11:02. Felt Confident, Grateful, Calm. Because of Home, Self-talk, By myself."
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Bad mood 10:27. Felt Upset. Because of Tasks, Home, Family."
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Good mood 10:27. Felt Motivated, Happy, Pleasant. Because of Education, Work, Co-workers."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mood tracking mobile application screen.",
+      "intent": "To allow users to log and review their moods over time.",
+      "entities": [
+        {
+          "name": "Mood timeline",
+          "type": "feature"
+        },
+        {
+          "name": "Mar 17, 2026",
+          "type": "date"
+        },
+        {
+          "name": "Good mood",
+          "type": "mood_label"
+        },
+        {
+          "name": "Bad mood",
+          "type": "mood_label"
+        },
+        {
+          "name": "Liven",
+          "type": "application"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Good mood",
+          "predicate": "occurred at",
+          "object": "11:02"
+        },
+        {
+          "subject": "Bad mood",
+          "predicate": "occurred at",
+          "object": "10:27"
+        },
+        {
+          "subject": "Good mood",
+          "predicate": "occurred at",
+          "object": "10:27"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-purple",
+        "green",
+        "blue"
+      ],
+      "style": "clean, minimalist mobile interface",
+      "notes": [
+        "Uses color-coded icons (green pentagons for good, blue stars for bad) for mood categories."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:47.744Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.447,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1135,
+      "totalTokenCount": 2362,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

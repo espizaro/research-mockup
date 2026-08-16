@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Postmates",
+    "platform": "ios",
+    "file_path": "screens/auth-login-otp/06 - Postmates.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:34.578Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication/login screen.",
+    "primary_flow": "auth-login-otp",
+    "ux_intent": "To verify the user's identity via a 4-digit code sent to their mobile phone.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustrations present; the focus is strictly on functional utility.",
+      "Uses standard iOS status bar iconography.",
+      "Input field layout is square, uniform boxes.",
+      "Navigation consists of a back arrow and a solid pill-shaped Next button."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Input field layout is square, uniform boxes.",
+      "Navigation consists of a back arrow and a solid pill-shaped Next button."
+    ],
+    "content_blocks": [
+      "Sam",
+      "Postmates",
+      "(424) 220-8867"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile UI with high contrast, centered layout, and button-based interaction.",
+      "white",
+      "black",
+      "light-grey",
+      "No hero illustrations present; the focus is strictly on functional utility.",
+      "Uses standard iOS status bar iconography.",
+      "Input field layout is square, uniform boxes.",
+      "Navigation consists of a back arrow and a solid pill-shaped Next button."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile UI with high contrast, centered layout, and button-based interaction."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_otp_06"
+}

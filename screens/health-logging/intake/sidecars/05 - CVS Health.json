@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "CVS Health",
+    "platform": "ios",
+    "file_path": "screens/health-logging/intake/05 - CVS Health.webp",
+    "analyzed_timestamp": "2026-08-05T19:43:55.619Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI, specifically a medical symptom check questionnaire.",
+    "primary_flow": "health-logging/intake",
+    "ux_intent": "Data collection for health consultation.",
+    "ux_patterns": [
+      "Form",
+      "Clean, flat design",
+      "Blue button with white text for primary action",
+      "Rounded buttons for selection choices"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Blue button with white text for primary action",
+      "Rounded buttons for selection choices"
+    ],
+    "content_blocks": [
+      "CVS Health",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Mobile Application UI",
+      "white",
+      "blue",
+      "gray",
+      "Clean, flat design",
+      "Blue button with white text for primary action",
+      "Rounded buttons for selection choices"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile Application UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_intake_05"
+}

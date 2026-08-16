@@ -1,0 +1,180 @@
+{
+  "image": "07 - Strava.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image is a screenshot of the 'You' tab in the Strava mobile app, displaying a weekly activity calendar view for May and June.",
+    "ocr": {
+      "full_text": "9:41\n< You\nAll\nDistance\nActivity Tag\nM\nT\nW\nT\nF\nS\nS\nJun 1-7\n0.1 km\nMay 25-31\n0.0 km\nHome\nMaps\nRecord\nGroups\nYou\nStrava\ncurated by\nMobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "< You"
+        },
+        {
+          "text": "All"
+        },
+        {
+          "text": "Distance"
+        },
+        {
+          "text": "Activity Tag"
+        },
+        {
+          "text": "M"
+        },
+        {
+          "text": "T"
+        },
+        {
+          "text": "W"
+        },
+        {
+          "text": "T"
+        },
+        {
+          "text": "F"
+        },
+        {
+          "text": "S"
+        },
+        {
+          "text": "S"
+        },
+        {
+          "text": "Jun 1-7"
+        },
+        {
+          "text": "0.1 km"
+        },
+        {
+          "text": "May 25-31"
+        },
+        {
+          "text": "0.0 km"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Maps"
+        },
+        {
+          "text": "Record"
+        },
+        {
+          "text": "Groups"
+        },
+        {
+          "text": "You"
+        },
+        {
+          "text": "Strava"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "You"
+        },
+        {
+          "type": "other",
+          "reading_order": 2,
+          "text": "All Distance Activity Tag"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "M T W T F S S"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Jun 1-7 0.1 km"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "May 25-31 0.0 km"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Home Maps Record Groups You"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App interface showing a user's activity log calendar on Strava.",
+      "intent": "To view exercise activity history organized by week.",
+      "entities": [
+        {
+          "name": "Strava",
+          "type": "Application"
+        },
+        {
+          "name": "You tab",
+          "type": "UI Element"
+        },
+        {
+          "name": "Jun 1-7",
+          "type": "Time Period"
+        },
+        {
+          "name": "May 25-31",
+          "type": "Time Period"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "views",
+          "object": "Activity calendar"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "grey",
+        "orange"
+      ],
+      "style": "Mobile app UI, minimalist, clean layout.",
+      "notes": [
+        "The interface includes navigation icons at the bottom and a calendar heatmap visual with dots.",
+        "One dot is highlighted in green for a specific activity."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:59.554Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.752,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 857,
+      "totalTokenCount": 2084,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

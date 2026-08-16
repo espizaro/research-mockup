@@ -1,0 +1,164 @@
+{
+  "image": "01 - Shopify.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for a store management application, specifically the 'Products' section of a Shopify dashboard. It shows active products, out-of-stock products, recently updated collections, and a bottom navigation menu.",
+    "ocr": {
+      "full_text": "9:41 Products + Search products Stainless Coffee... Active 505 availa... Out-of-stock products More Stainless Coffee... Active 505 availa... Recently updated collections Coffee Mug Manual 1 product Home page Manual 1 product Shopify curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Products +"
+        },
+        {
+          "text": "Search products"
+        },
+        {
+          "text": "Stainless Coffee..."
+        },
+        {
+          "text": "Active 505 availa..."
+        },
+        {
+          "text": "Out-of-stock products More"
+        },
+        {
+          "text": "Stainless Coffee..."
+        },
+        {
+          "text": "Active 505 availa..."
+        },
+        {
+          "text": "Recently updated collections"
+        },
+        {
+          "text": "Coffee Mug Manual 1 product"
+        },
+        {
+          "text": "Home page Manual 1 product"
+        },
+        {
+          "text": "Shopify curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Products"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "Search products"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Stainless Coffee... Active 505 availa..."
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 4,
+          "text": "Out-of-stock products"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Stainless Coffee... Active 505 availa..."
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 6,
+          "text": "Recently updated collections"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Coffee Mug Manual 1 product"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Home page Manual 1 product"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "E-commerce administrative mobile app interface.",
+      "intent": "To manage and view inventory/collections status within a store app.",
+      "entities": [
+        {
+          "name": "Shopify",
+          "type": "Platform/Brand",
+          "evidence": "Shopify logo at bottom"
+        },
+        {
+          "name": "Stainless Coffee Mug",
+          "type": "Product",
+          "evidence": "Product card labels"
+        },
+        {
+          "name": "Coffee Mug",
+          "type": "Collection",
+          "evidence": "Collection list item"
+        },
+        {
+          "name": "Home page",
+          "type": "Collection",
+          "evidence": "Collection list item"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Shopify",
+          "predicate": "manages",
+          "object": "Products"
+        },
+        {
+          "subject": "Products",
+          "predicate": "categorized_as",
+          "object": "Out-of-stock"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "black"
+      ],
+      "style": "Minimalist mobile UI, white background with grey cards and dark text."
+    },
+    "uncertainty": [
+      "The full product name 'Stainless Coffee...' is truncated, likely 'Stainless Coffee Mug'.",
+      "The full text '505 availa...' is truncated, likely '505 available'."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:52.510Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.517,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 859,
+      "totalTokenCount": 2086,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

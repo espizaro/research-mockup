@@ -1,0 +1,48 @@
+{
+  "identification": {
+    "app_name": "Any Distance",
+    "platform": "ios",
+    "file_path": "screens/health-dashboard/03 - Any Distance.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:07.688Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app dashboard for health and fitness tracking.",
+    "primary_flow": "health-dashboard",
+    "ux_intent": "Display user fitness achievements, goals, equipment tracking, and lifetime metrics.",
+    "ux_patterns": [
+      "Progress",
+      "Dark Mode",
+      "Card",
+      "Modern, clean aesthetic",
+      "High contrast text on dark background"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Any Distance",
+      "Nikes",
+      "June 15 2025"
+    ],
+    "visual_keywords": [
+      "Dark mode interface with rounded card elements",
+      "black",
+      "grey",
+      "white",
+      "Modern, clean aesthetic",
+      "High contrast text on dark background"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode interface with rounded card elements"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_home_dashboard_03"
+}

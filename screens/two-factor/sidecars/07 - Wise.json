@@ -1,0 +1,62 @@
+{
+  "identification": {
+    "app_name": "Wise",
+    "platform": "ios",
+    "file_path": "screens/two-factor/07 - Wise.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:42.098Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication screen for verification code entry.",
+    "primary_flow": "two-factor",
+    "ux_intent": "User is performing two-factor authentication to log in or confirm account access.",
+    "ux_patterns": [
+      "Form",
+      "Profile",
+      "Minimalist",
+      "Keypad",
+      "Centered layout.",
+      "Profile icon is a generic grey avatar placeholder.",
+      "High contrast text for readability.",
+      "CTA 'Next' is styled as a pill button with dark background.",
+      "Numeric keypad indicates standard OS-level input integration."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Text Input Field",
+      "Keypad",
+      "CTA 'Next' is styled as a pill button with dark background.",
+      "Numeric keypad indicates standard OS-level input integration."
+    ],
+    "content_blocks": [
+      "Alex Smith",
+      "X",
+      "Verification Code"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, iOS-inspired mobile UI.",
+      "white",
+      "black",
+      "light grey",
+      "cyan/blue",
+      "Centered layout.",
+      "Profile icon is a generic grey avatar placeholder.",
+      "High contrast text for readability.",
+      "CTA 'Next' is styled as a pill button with dark background.",
+      "Numeric keypad indicates standard OS-level input integration."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, iOS-inspired mobile UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_two_factor_07"
+}

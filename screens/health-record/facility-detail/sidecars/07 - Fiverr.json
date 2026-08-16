@@ -1,0 +1,162 @@
+{
+  "image": "07 - Fiverr.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a Fiverr profile page for an agency named 'Digis', which specializes in expert web and mobile development. The page includes details about their services, team size, location, established date, and various trust indicators like project count and client reviews.",
+    "ocr": {
+      "full_text": "fiverr. What service are you looking for today? Graphics & Design Programming & Tech Digital Marketing Video & Animation Writing & Translation Music & Audio Business Finance AI Services Personal Gr Hello, we are Digis Pro Level 1 Expert Web and Mobile Development Team 5.0 (7) Contact us Book a meeting 4.8 ON CLUTCH 65+ reviews 300+ successful projects 200+ qualified specialist worldwide 8 years in business Top 3.5% of Developers edp BlaBlaCar HubSpot SKF HUMA dario korgo About our agency United Kingdom English 200 employees Established 2015 Digis is a leading software development company with a team of over 200 professionals. We offer a wide range of services including Staff Augmentation, IT Consulting, Custom Software Development, Intelligent Automation and Managed IT Services. In to... Read more Our team See all (9) fiverr. curated by Mobbin",
+      "lines": [
+        {
+          "text": "fiverr."
+        },
+        {
+          "text": "What service are you looking for today?"
+        },
+        {
+          "text": "Graphics & Design Programming & Tech Digital Marketing Video & Animation Writing & Translation Music & Audio Business Finance AI Services Personal Gr"
+        },
+        {
+          "text": "Hello, we are Digis Pro Level 1"
+        },
+        {
+          "text": "Expert Web and Mobile Development Team"
+        },
+        {
+          "text": "5.0 (7)"
+        },
+        {
+          "text": "Contact us Book a meeting"
+        },
+        {
+          "text": "4.8 ON CLUTCH 65+ reviews"
+        },
+        {
+          "text": "300+ successful projects"
+        },
+        {
+          "text": "200+ qualified specialist worldwide"
+        },
+        {
+          "text": "8 years in business"
+        },
+        {
+          "text": "Top 3.5% of Developers"
+        },
+        {
+          "text": "edp BlaBlaCar HubSpot SKF HUMA dario korgo"
+        },
+        {
+          "text": "About our agency"
+        },
+        {
+          "text": "United Kingdom English 200 employees Established 2015"
+        },
+        {
+          "text": "Digis is a leading software development company with a team of over 200 professionals."
+        },
+        {
+          "text": "We offer a wide range of services including Staff Augmentation, IT Consulting, Custom"
+        },
+        {
+          "text": "Software Development, Intelligent Automation and Managed IT Services. In to... Read more"
+        },
+        {
+          "text": "Our team See all (9)"
+        },
+        {
+          "text": "fiverr. curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Expert Web and Mobile Development Team"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Hello, we are Digis"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Digis is a leading software development company with a team of over 200 professionals. We offer a wide range of services including Staff Augmentation, IT Consulting, Custom Software Development, Intelligent Automation and Managed IT Services. In to... Read more"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "300+ successful projects, 200+ qualified specialist worldwide, 8 years in business, Top 3.5% of Developers"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A Fiverr profile page for an IT services company.",
+      "intent": "Professional profile overview for client recruitment.",
+      "entities": [
+        {
+          "name": "Digis",
+          "type": "Company",
+          "evidence": "Hello, we are Digis"
+        },
+        {
+          "name": "Fiverr",
+          "type": "Platform",
+          "evidence": "fiverr logo and navigation"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform",
+          "evidence": "curated by Mobbin"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Digis",
+          "predicate": "is a",
+          "object": "software development company"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue",
+        "grey"
+      ],
+      "style": "Clean, professional, modern UI design",
+      "notes": [
+        "Includes a hero illustration of professionals interacting with a document",
+        "Features a logo mark representing a stylized horse head"
+      ]
+    },
+    "uncertainty": [
+      "The full company name might be slightly different than just 'Digis' if it's an abbreviation",
+      "Truncated text at the end of the paragraph ('In to...') description is illegible"
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:37.351Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.513,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1082,
+      "totalTokenCount": 2289,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Liven",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/intake/02 - Liven.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:13.038Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile app questionnaire interface.",
+    "primary_flow": "daily-check-in/intake",
+    "ux_intent": "To collect user health data regarding fatigue levels.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "The background is a soft, light-colored gradient.",
+      "The options include icons: a depleted battery, a power plug, a charged battery, and a lightning bolt."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Liven",
+      "Mobbin",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI design",
+      "white",
+      "light-grey",
+      "pale-gradient",
+      "The background is a soft, light-colored gradient.",
+      "The options include icons: a depleted battery, a power plug, a charged battery, and a lightning bolt."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_intake_02"
+}

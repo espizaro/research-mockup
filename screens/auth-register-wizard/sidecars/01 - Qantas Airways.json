@@ -1,0 +1,60 @@
+{
+  "identification": {
+    "app_name": "Qantas Airways",
+    "platform": "ios",
+    "file_path": "screens/auth-register-wizard/01 - Qantas Airways.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:01.629Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app registration flow for Qantas Frequent Flyer program.",
+    "primary_flow": "auth-register-wizard",
+    "ux_intent": "User is signing up for a membership and is currently at the first step regarding residential location.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Minimalist",
+      "Stepper",
+      "Uses a stepper navigation pattern for the registration form.",
+      "Red is used as a primary brand color for the CTA button.",
+      "Teal highlights the 'Join fee Free' information.",
+      "The interface follows standard mobile platform design guidelines (iOS status bar)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Stepper",
+      "Uses a stepper navigation pattern for the registration form.",
+      "Red is used as a primary brand color for the CTA button."
+    ],
+    "content_blocks": [
+      "Qantas Frequent Flyer",
+      "Residential location",
+      "CONTINUE",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist corporate mobile UI, high contrast, clean sans-serif typography.",
+      "red",
+      "white",
+      "black",
+      "teal",
+      "Uses a stepper navigation pattern for the registration form.",
+      "Red is used as a primary brand color for the CTA button.",
+      "Teal highlights the 'Join fee Free' information.",
+      "The interface follows standard mobile platform design guidelines (iOS status bar)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist corporate mobile UI, high contrast, clean sans-serif typography."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_wizard_01"
+}

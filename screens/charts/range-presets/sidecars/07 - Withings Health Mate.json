@@ -1,0 +1,167 @@
+{
+  "image": "07 - Withings Health Mate.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for the Withings Health Mate app, showing educational content about body composition and various user options for measurement settings and reporting.",
+    "ocr": {
+      "full_text": "9:41\nWeek Month Quarter Year\nThis Week\nLearn More about Body Composition\nLearn more ->\n27.4%\n28%\nLearn more about Segmental Body Composition\nLearn more ->\nOptions\nHow to take a measurement\nBody composition in %\nShow Recommended Zones\nAdd manual measurement\nShare a complete Health Report\nWithings Health Mate curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Week Month Quarter Year"
+        },
+        {
+          "text": "This Week"
+        },
+        {
+          "text": "Learn More about Body Composition"
+        },
+        {
+          "text": "Learn more ->"
+        },
+        {
+          "text": "27.4%"
+        },
+        {
+          "text": "28%"
+        },
+        {
+          "text": "Learn more about Segmental Body Composition"
+        },
+        {
+          "text": "Learn more ->"
+        },
+        {
+          "text": "Options"
+        },
+        {
+          "text": "How to take a measurement"
+        },
+        {
+          "text": "Body composition in %"
+        },
+        {
+          "text": "Show Recommended Zones"
+        },
+        {
+          "text": "Add manual measurement"
+        },
+        {
+          "text": "Share a complete Health Report"
+        },
+        {
+          "text": "Withings Health Mate curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "This Week"
+        },
+        {
+          "type": "image",
+          "reading_order": 2,
+          "text": "Educational image 1: Person reading"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Learn More about Body Composition"
+        },
+        {
+          "type": "image",
+          "reading_order": 4,
+          "text": "Educational image 2: Feet on scale with percentage labels"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Learn more about Segmental Body Composition"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 6,
+          "text": "Options"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "How to take a measurement, Body composition in %, Show Recommended Zones, Add manual measurement, Share a complete Health Report"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app settings and education dashboard",
+      "intent": "To provide health education and app configuration options",
+      "entities": [
+        {
+          "name": "Withings Health Mate",
+          "type": "Application",
+          "evidence": "Footer text"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization",
+          "evidence": "Footer text"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Withings Health Mate",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light purple",
+        "light gray",
+        "green"
+      ],
+      "style": "Minimalist mobile app UI",
+      "notes": [
+        "Standard iOS-style status bar",
+        "Toggle switch for body composition setting is enabled",
+        "Toggle switch for recommended zones is disabled"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:22:46.546Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.604,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 759,
+      "totalTokenCount": 1986,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.606
+      }
+    ],
+    "warnings": []
+  }
+}

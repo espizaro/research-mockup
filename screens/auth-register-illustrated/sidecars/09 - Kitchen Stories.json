@@ -1,0 +1,60 @@
+{
+  "identification": {
+    "app_name": "Kitchen Stories",
+    "platform": "ios",
+    "file_path": "screens/auth-register-illustrated/09 - Kitchen Stories.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:00.673Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding / authentication screen.",
+    "primary_flow": "auth-register-illustrated",
+    "ux_intent": "To encourage new user registration and provide access for existing users.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "The illustration is a decorative, flat-style vector graphic featuring a document, pen, heart, and star.",
+      "The CTA for 'Sign up with email' is prominently highlighted in dark green compared to the outlined social buttons.",
+      "Standard iOS top status bar and bottom gesture bar.",
+      "Good hierarchy between primary registration options and secondary login."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The CTA for 'Sign up with email' is prominently highlighted in dark green compared to the outlined social buttons."
+    ],
+    "content_blocks": [
+      "Kitchen Stories",
+      "Mobbin",
+      "Google",
+      "Facebook",
+      "Apple"
+    ],
+    "visual_keywords": [
+      "Flat, minimalist, modern app design with a central vector illustration.",
+      "white",
+      "dark green",
+      "peach",
+      "pink",
+      "yellow",
+      "The illustration is a decorative, flat-style vector graphic featuring a document, pen, heart, and star.",
+      "The CTA for 'Sign up with email' is prominently highlighted in dark green compared to the outlined social buttons.",
+      "Standard iOS top status bar and bottom gesture bar.",
+      "Good hierarchy between primary registration options and secondary login."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Flat, minimalist, modern app design with a central vector illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_illustrated_09"
+}

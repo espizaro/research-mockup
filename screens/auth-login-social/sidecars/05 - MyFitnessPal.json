@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "MyFitnessPal",
+    "platform": "ios",
+    "file_path": "screens/auth-login-social/05 - MyFitnessPal.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:19.804Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen of a mobile application",
+    "primary_flow": "auth-login-social",
+    "ux_intent": "User authentication and social account linking",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustration or mascot present",
+      "Focus is on high-contrast form fields and clear CTA button",
+      "Iconography used for social buttons to aid recognition",
+      "Design follows standard iOS/Android login conventions"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Focus is on high-contrast form fields and clear CTA button",
+      "Iconography used for social buttons to aid recognition"
+    ],
+    "content_blocks": [
+      "MyFitnessPal",
+      "Google",
+      "Apple",
+      "Facebook"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, mobile UI",
+      "white",
+      "blue",
+      "grey",
+      "No hero illustration or mascot present",
+      "Focus is on high-contrast form fields and clear CTA button",
+      "Iconography used for social buttons to aid recognition",
+      "Design follows standard iOS/Android login conventions"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_social_05"
+}

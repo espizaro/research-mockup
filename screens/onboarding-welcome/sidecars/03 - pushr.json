@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "pushr",
+    "platform": "ios",
+    "file_path": "screens/onboarding-welcome/03 - pushr.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:42.341Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen for a fitness mobile application.",
+    "primary_flow": "onboarding-welcome",
+    "ux_intent": "To welcome the user and encourage them to begin using the application.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "The logo 'pushr' features a stylized, slightly distressed or glitchy font style.",
+      "The background has a subtle gradient or blur effect near the top.",
+      "The design relies heavily on whitespace to convey a 'focused' feel.",
+      "There is no illustrative or photographic asset, making it purely textual and functional."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "pushr",
+      "Mobbin",
+      "let's go"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, high-contrast, typographic-focused UI.",
+      "white",
+      "black",
+      "grey",
+      "The logo 'pushr' features a stylized, slightly distressed or glitchy font style.",
+      "The background has a subtle gradient or blur effect near the top.",
+      "The design relies heavily on whitespace to convey a 'focused' feel.",
+      "There is no illustrative or photographic asset, making it purely textual and functional."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, high-contrast, typographic-focused UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_welcome_03"
+}

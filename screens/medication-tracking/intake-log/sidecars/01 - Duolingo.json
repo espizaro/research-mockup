@@ -1,0 +1,155 @@
+{
+  "image": "01 - Duolingo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows two Duolingo widget variations on an iPhone, displaying a streak count of 846 days with a green owl character.",
+    "ocr": {
+      "full_text": "9:41 846 days Don't forget me! F S S M T 846 Come back soon! Duolingo curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "846 days",
+          "language": "en"
+        },
+        {
+          "text": "Don't forget me!",
+          "language": "en"
+        },
+        {
+          "text": "F S S M T",
+          "language": "en"
+        },
+        {
+          "text": "846",
+          "language": "en"
+        },
+        {
+          "text": "Come back soon!",
+          "language": "en"
+        },
+        {
+          "text": "Duolingo",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "9:41"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "846 days"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Don't forget me!"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "F S S M T"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "846"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Come back soon!"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Duolingo"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile interface showing home screen widgets for the Duolingo application.",
+      "intent": "Display current user streak to encourage daily engagement.",
+      "entities": [
+        {
+          "name": "Duolingo",
+          "type": "Application",
+          "evidence": "Logo and text present at the bottom."
+        },
+        {
+          "name": "846 days",
+          "type": "Data",
+          "evidence": "Text displayed inside both widgets."
+        },
+        {
+          "name": "Green Owl",
+          "type": "Mascot",
+          "evidence": "Character present in both widgets."
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Duolingo",
+          "predicate": "owns",
+          "object": "Mascot"
+        },
+        {
+          "subject": "Widgets",
+          "predicate": "display",
+          "object": "846 days streak"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "Deep Purple/Burgundy",
+        "Orange",
+        "Green"
+      ],
+      "style": "Clean, flat mobile interface design.",
+      "notes": [
+        "The widgets contain a mascot interacting with a flame icon representing the streak."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:15.628Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.127,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 924,
+      "totalTokenCount": 2151,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

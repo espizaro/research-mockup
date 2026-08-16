@@ -1,0 +1,175 @@
+{
+  "image": "08 - Bevel.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen tracking daily cholesterol intake. It shows a progress bar indicating 50/300mg consumed, 17% of the goal, and 250mg remaining. There is a log entry showing 50mg consumed at 12:31 PM and buttons to add more entries.",
+    "ocr": {
+      "full_text": "9.41\nCholesterol\n50/300mg\n17%\n0\n250mg left\n300\nToday's Entries\nEntries that contributed to your Cholesterol goal.\nDetected by nutrition and manual log.\nCholesterol\n12.31 PM\n+50mg\n+ Add 50mg\n+ Add custom\nBevel\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9.41",
+          "language": "en"
+        },
+        {
+          "text": "Cholesterol",
+          "language": "en"
+        },
+        {
+          "text": "50/300mg",
+          "language": "en"
+        },
+        {
+          "text": "17%",
+          "language": "en"
+        },
+        {
+          "text": "0",
+          "language": "en"
+        },
+        {
+          "text": "250mg left",
+          "language": "en"
+        },
+        {
+          "text": "300",
+          "language": "en"
+        },
+        {
+          "text": "Today's Entries",
+          "language": "en"
+        },
+        {
+          "text": "Entries that contributed to your Cholesterol goal.",
+          "language": "en"
+        },
+        {
+          "text": "Detected by nutrition and manual log.",
+          "language": "en"
+        },
+        {
+          "text": "Cholesterol",
+          "language": "en"
+        },
+        {
+          "text": "12.31 PM",
+          "language": "en"
+        },
+        {
+          "text": "+50mg",
+          "language": "en"
+        },
+        {
+          "text": "+ Add 50mg",
+          "language": "en"
+        },
+        {
+          "text": "+ Add custom",
+          "language": "en"
+        },
+        {
+          "text": "Bevel",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Cholesterol"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "50/300mg 17% 250mg left"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Today's Entries Entries that contributed to your Cholesterol goal. Detected by nutrition and manual log."
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Cholesterol 12.31 PM +50mg"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "+ Add 50mg + Add custom"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface for health tracking",
+      "intent": "View cholesterol intake progress and add new dietary entries",
+      "entities": [
+        {
+          "name": "Cholesterol tracker",
+          "type": "Health metric"
+        },
+        {
+          "name": "Progress bar",
+          "type": "UI component"
+        },
+        {
+          "name": "Log entry",
+          "type": "Data entry"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cholesterol goal",
+          "predicate": "limit",
+          "object": "300mg"
+        },
+        {
+          "subject": "Daily intake",
+          "predicate": "equals",
+          "object": "50mg"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light gray",
+        "black",
+        "green"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "The UI uses a card-based layout.",
+        "Green is used to indicate positive progress on the progress bar."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:30:01.576Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.831,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1152,
+      "totalTokenCount": 2379,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

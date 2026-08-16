@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "N26",
+    "platform": "ios",
+    "file_path": "screens/auth-login-biometric/05 - N26.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:40.969Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding/Settings screen for biometric authentication",
+    "primary_flow": "auth-login-biometric",
+    "ux_intent": "Persuade the user to enable Face ID for login and payment security",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Settings",
+      "Minimalist",
+      "The checkmark icon is a simple, geometric flat design centered in the upper mid-section.",
+      "The layout uses a clear hierarchy with the title being the most prominent text.",
+      "The button 'Set up Face ID' is a solid teal call-to-action button, while 'Skip for now' is a secondary text button.",
+      "The design adheres to standard iOS human interface guidelines."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The button 'Set up Face ID' is a solid teal call-to-action button, while 'Skip for now' is a secondary text button."
+    ],
+    "content_blocks": [
+      "N26",
+      "Face ID",
+      "Checkmark icon"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, mobile UI design",
+      "teal",
+      "white",
+      "gray",
+      "The checkmark icon is a simple, geometric flat design centered in the upper mid-section.",
+      "The layout uses a clear hierarchy with the title being the most prominent text.",
+      "The button 'Set up Face ID' is a solid teal call-to-action button, while 'Skip for now' is a secondary text button.",
+      "The design adheres to standard iOS human interface guidelines."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, mobile UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_biometric_05"
+}

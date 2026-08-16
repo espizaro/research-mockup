@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Lovi",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-quiz/01 - Lovi.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:47.812Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding or profile setup screen for a skincare application.",
+    "primary_flow": "auth-onboarding-quiz",
+    "ux_intent": "Capture user age range data to provide personalized skincare recommendations.",
+    "ux_patterns": [
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "Card",
+      "The mascot is a simple, minimalist line-art character that adds a friendly, approachable touch.",
+      "The layout uses high contrast with large, distinct white selection cards on a soft gradient background.",
+      "The design uses a standard iOS status bar header.",
+      "The layout is vertically centered for better readability and thumb reachability."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Lovi",
+      "Age selection",
+      "Mascot"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, rounded UI components, conversational design.",
+      "white",
+      "light grey/purple gradient",
+      "black",
+      "The mascot is a simple, minimalist line-art character that adds a friendly, approachable touch.",
+      "The layout uses high contrast with large, distinct white selection cards on a soft gradient background.",
+      "The design uses a standard iOS status bar header.",
+      "The layout is vertically centered for better readability and thumb reachability."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, rounded UI components, conversational design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_quiz_01"
+}

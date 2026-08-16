@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Amazon Alexa",
+    "platform": "ios",
+    "file_path": "screens/auth-login-otp/01 - Amazon Alexa.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:29.611Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Verification screen for a mobile application.",
+    "primary_flow": "auth-login-otp",
+    "ux_intent": "User verification via OTP (One-Time Password) to proceed with account setup or login.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustrations present; focuses on functional text and clear action paths.",
+      "High contrast text and buttons for accessibility.",
+      "Standard iOS status bar and footer navigation elements present.",
+      "Primary button utilizes Amazon's brand blue."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "No hero illustrations present; focuses on functional text and clear action paths.",
+      "High contrast text and buttons for accessibility.",
+      "Standard iOS status bar and footer navigation elements present.",
+      "Primary button utilizes Amazon's brand blue."
+    ],
+    "content_blocks": [
+      "Amazon Alexa",
+      "OTP Field",
+      "Continue",
+      "Resend code"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, functional mobile UI, likely native iOS design patterns.",
+      "white",
+      "blue",
+      "No hero illustrations present; focuses on functional text and clear action paths.",
+      "High contrast text and buttons for accessibility.",
+      "Standard iOS status bar and footer navigation elements present.",
+      "Primary button utilizes Amazon's brand blue."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, functional mobile UI, likely native iOS design patterns."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_otp_01"
+}

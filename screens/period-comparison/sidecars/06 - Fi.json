@@ -1,0 +1,46 @@
+{
+  "identification": {
+    "app_name": "Fi",
+    "platform": "ios",
+    "file_path": "screens/period-comparison/06 - Fi.webp",
+    "analyzed_timestamp": "2026-08-11T22:29:27.094Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A health or activity tracking mobile application interface.",
+    "primary_flow": "period-comparison",
+    "ux_intent": "To present sleep and rest duration data for a user named Tilda over a monthly period.",
+    "ux_patterns": [
+      "Form",
+      "Chart",
+      "Minimalist",
+      "The chart shows very low activity until roughly 2/11, where there is a sharp spike."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Tilda",
+      "Rest",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface, flat design.",
+      "white",
+      "blue",
+      "grey",
+      "The chart shows very low activity until roughly 2/11, where there is a sharp spike."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface, flat design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_period_comparison_06"
+}

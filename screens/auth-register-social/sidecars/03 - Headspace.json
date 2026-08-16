@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Headspace",
+    "platform": "ios",
+    "file_path": "screens/auth-register-social/03 - Headspace.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:08.296Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding registration screen.",
+    "primary_flow": "auth-register-social",
+    "ux_intent": "To guide the user to sign up for a new account using third-party providers or email.",
+    "ux_patterns": [
+      "Onboarding",
+      "Login",
+      "The illustration is a central hero graphic placed above the headline.",
+      "The illustration contains abstract character-like shapes representing emotional states (smiling).",
+      "Typography is sans-serif, modern, and highly legible.",
+      "The UI uses standard mobile sign-up patterns for conversion optimization."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Headspace",
+      "Apple",
+      "Google",
+      "Facebook",
+      "Email",
+      "SSO"
+    ],
+    "visual_keywords": [
+      "Clean, minimal, friendly, playful illustration style using flat geometric shapes with rounded features.",
+      "White",
+      "Orange",
+      "Blue",
+      "Yellow",
+      "Pink",
+      "The illustration is a central hero graphic placed above the headline.",
+      "The illustration contains abstract character-like shapes representing emotional states (smiling).",
+      "Typography is sans-serif, modern, and highly legible.",
+      "The UI uses standard mobile sign-up patterns for conversion optimization."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimal, friendly, playful illustration style using flat geometric shapes with rounded features."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_social_03"
+}

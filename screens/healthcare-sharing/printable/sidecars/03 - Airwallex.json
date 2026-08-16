@@ -1,0 +1,207 @@
+{
+  "image": "03 - Airwallex.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a digital interface showing a 'Pay reimbursement report' screen from the Airwallex platform. It details a 5.00 SGD reimbursement report submitted by Alex Smith, currently in a 'Payment in progress' status. The view provides information about payment details, recipient information, and a log of report and payment activities.",
+    "ocr": {
+      "full_text": "Pay reimbursement report x 18 November 2025 ... Reimbursement report 2025-11-27 Payment in progress 5.00 SGD submitted by Alex Smith Recipient Account name Account number Bank country / region Singapore Recipient type Individual Address Singapore Payment details 2025-11-27 5.00 SGD Paid with 5.00 SGD Processing > 1 reimbursement in this report 2025-11-17 5.00 USD K 5.00 SGD > Report activity Nov 27, 2025, 3:05 PM (UTC+08:00) Alex Smith Submitted report Nov 27, 2025, 3:15 PM (UTC+08:00) Sam Lee Approved report Nov 27, 2025, 3:15 PM (UTC+08:00) Airwallex Transfer created Payment activity 2025-11-27 15:15:52 Sam Lee Created 2025-11-27 15:15:52 Funded Current step Processing Close Airwallex curated by Mobbin",
+      "lines": [
+        {
+          "text": "Pay reimbursement report"
+        },
+        {
+          "text": "18 November 2025"
+        },
+        {
+          "text": "Reimbursement report 2025-11-27 Payment in progress"
+        },
+        {
+          "text": "5.00 SGD submitted by Alex Smith"
+        },
+        {
+          "text": "Recipient"
+        },
+        {
+          "text": "Account name"
+        },
+        {
+          "text": "Account number"
+        },
+        {
+          "text": "Bank country / region Singapore"
+        },
+        {
+          "text": "Recipient type Individual"
+        },
+        {
+          "text": "Address Singapore"
+        },
+        {
+          "text": "Payment details"
+        },
+        {
+          "text": "2025-11-27 5.00 SGD Paid with 5.00 SGD Processing"
+        },
+        {
+          "text": "1 reimbursement in this report"
+        },
+        {
+          "text": "2025-11-17 K 5.00 USD 5.00 SGD"
+        },
+        {
+          "text": "Report activity"
+        },
+        {
+          "text": "Nov 27, 2025, 3:05 PM (UTC+08:00) Alex Smith Submitted report"
+        },
+        {
+          "text": "Nov 27, 2025, 3:15 PM (UTC+08:00) Sam Lee Approved report"
+        },
+        {
+          "text": "Nov 27, 2025, 3:15 PM (UTC+08:00) Airwallex Transfer created"
+        },
+        {
+          "text": "Payment activity"
+        },
+        {
+          "text": "2025-11-27 15:15:52 Sam Lee Created"
+        },
+        {
+          "text": "2025-11-27 15:15:52 Funded"
+        },
+        {
+          "text": "Current step Processing"
+        },
+        {
+          "text": "Close"
+        },
+        {
+          "text": "Airwallex"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Pay reimbursement report"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Reimbursement report 2025-11-27"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "5.00 SGD submitted by Alex Smith"
+        },
+        {
+          "type": "table",
+          "reading_order": 4,
+          "text": "Recipient: Account name (redacted), Account number (redacted), Bank country/region: Singapore, Recipient type: Individual, Address (redacted), Singapore"
+        },
+        {
+          "type": "table",
+          "reading_order": 5,
+          "text": "Payment details: 2025-11-27, 5.00 SGD, Paid with 5.00 SGD, Processing"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "1 reimbursement in this report: 2025-11-17, K, 5.00 USD, 5.00 SGD"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Report activity: Nov 27, 2025 (Alex Smith, Sam Lee, Airwallex)"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Payment activity: 2025-11-27 (Sam Lee, Funded, Processing)"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Digital finance interface for Airwallex.",
+      "intent": "View status and history of a reimbursement report.",
+      "entities": [
+        {
+          "name": "Airwallex",
+          "type": "Company"
+        },
+        {
+          "name": "Alex Smith",
+          "type": "Person"
+        },
+        {
+          "name": "Sam Lee",
+          "type": "Person"
+        },
+        {
+          "name": "5.00 SGD",
+          "type": "CurrencyAmount"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Alex Smith",
+          "predicate": "submitted",
+          "object": "reimbursement report"
+        },
+        {
+          "subject": "Sam Lee",
+          "predicate": "approved",
+          "object": "reimbursement report"
+        },
+        {
+          "subject": "Airwallex",
+          "predicate": "created",
+          "object": "transfer"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "purple"
+      ],
+      "style": "Minimalist corporate dashboard/UI",
+      "notes": [
+        "The sensitive account information is redacted with blurred lines."
+      ]
+    },
+    "uncertainty": [
+      "Actual Account Name, Account Number, and full Address are blurred and illegible.",
+      "The character 'K' in the reimbursement list is ambiguous in meaning."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:45.200Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.594,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1529,
+      "totalTokenCount": 2736,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

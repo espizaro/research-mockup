@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Deputy",
+    "platform": "web",
+    "file_path": "screens/auth-login-desktop/04 - Deputy.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:49.124Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Authentication/Login Screen",
+    "primary_flow": "auth-login-desktop",
+    "ux_intent": "User login with primary email or third-party SSO, secondary goal of promoting a webinar.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Card",
+      "The hero element is an abstract gradient promotional card rather than a literal illustration. The design uses a two-column split, with strong contrast between the deep purple branding on the left and the white minimalist login area on the right."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Deputy",
+      "Mobbin",
+      "Operational Efficiency Masterclass"
+    ],
+    "visual_keywords": [
+      "Modern corporate SaaS, clean typography, card-based layout.",
+      "deep purple",
+      "white",
+      "orange",
+      "The hero element is an abstract gradient promotional card rather than a literal illustration. The design uses a two-column split, with strong contrast between the deep purple branding on the left and the white minimalist login area on the right."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern corporate SaaS, clean typography, card-based layout."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_desktop_04"
+}

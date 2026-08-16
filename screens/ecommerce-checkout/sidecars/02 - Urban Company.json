@@ -1,0 +1,62 @@
+{
+  "identification": {
+    "app_name": "Urban Company",
+    "platform": "ios",
+    "file_path": "screens/ecommerce-checkout/02 - Urban Company.webp",
+    "analyzed_timestamp": "2026-08-06T23:56:44.477Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Payment checkout modal form in a mobile application.",
+    "primary_flow": "ecommerce-checkout",
+    "ux_intent": "User is providing credit card payment information to complete a transaction.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Checkout",
+      "Minimalist",
+      "Card",
+      "Toggle",
+      "Standard iOS status bar",
+      "Modal overlay appearance",
+      "Toggle switch for shipping address",
+      "Camera icon for credit card scanning"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Toggle Switch"
+    ],
+    "content_blocks": [
+      "Checkout",
+      "Card Number",
+      "Name on card",
+      "Expiration date",
+      "Security code",
+      "Continue",
+      "TikTok"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile UI.",
+      "white",
+      "black",
+      "green",
+      "Standard iOS status bar",
+      "Modal overlay appearance",
+      "Toggle switch for shipping address",
+      "Camera icon for credit card scanning"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_ecommerce_checkout_02"
+}

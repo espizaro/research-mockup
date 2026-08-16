@@ -1,0 +1,240 @@
+{
+  "image": "05 - Alipay.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the 'Shortcuts Center' (快捷方式中心) menu within the Alipay app, displaying various widget options categorized by size and type, such as 'Alipay Widgets', 'Member Widgets', and 'Financial Widgets'.",
+    "ocr": {
+      "full_text": "9.41 快捷方式中心 全部组件 大号组件 中号组件 桌面快捷 支付宝组件 公益互动 福利互动 视频内容 小组件黑屏 消失/无法搜索 支付宝大号组件 桌面一键直达20+场景和服务 添加 尊敬的大众会员 36 7 待领积分 今日签到 188 支付宝会员 加上组件，不怕漏签！ 添加 财运小组件 查资产，看收益 添加 商家服务 10 待领取 已领300积分 信用卡还款 某某银行8888 待还款，距还款日1天 去还款> Alipay curated by Mobbin",
+      "lines": [
+        {
+          "text": "9.41"
+        },
+        {
+          "text": "快捷方式中心"
+        },
+        {
+          "text": "全部组件"
+        },
+        {
+          "text": "大号组件"
+        },
+        {
+          "text": "中号组件"
+        },
+        {
+          "text": "桌面快捷"
+        },
+        {
+          "text": "支付宝组件"
+        },
+        {
+          "text": "公益互动"
+        },
+        {
+          "text": "福利互动"
+        },
+        {
+          "text": "视频内容"
+        },
+        {
+          "text": "小组件黑屏"
+        },
+        {
+          "text": "消失/无法搜索"
+        },
+        {
+          "text": "支付宝大号组件"
+        },
+        {
+          "text": "桌面一键直达20+场景和服务"
+        },
+        {
+          "text": "添加"
+        },
+        {
+          "text": "尊敬的大众会员"
+        },
+        {
+          "text": "36"
+        },
+        {
+          "text": "7"
+        },
+        {
+          "text": "待领积分"
+        },
+        {
+          "text": "今日签到"
+        },
+        {
+          "text": "188"
+        },
+        {
+          "text": "支付宝会员"
+        },
+        {
+          "text": "加上组件，不怕漏签！"
+        },
+        {
+          "text": "添加"
+        },
+        {
+          "text": "财运小组件"
+        },
+        {
+          "text": "查资产，看收益"
+        },
+        {
+          "text": "添加"
+        },
+        {
+          "text": "商家服务"
+        },
+        {
+          "text": "10"
+        },
+        {
+          "text": "待领取"
+        },
+        {
+          "text": "已领300积分"
+        },
+        {
+          "text": "信用卡还款"
+        },
+        {
+          "text": "某某银行8888"
+        },
+        {
+          "text": "待还款，距还款日1天"
+        },
+        {
+          "text": "去还款>"
+        },
+        {
+          "text": "Alipay"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "快捷方式中心"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "全部组件 大号组件 中号组件 桌面快捷"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "支付宝组件 公益互动 福利互动 视频内容"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "小组件黑屏 消失/无法搜索"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "支付宝大号组件: 桌面一键直达20+场景和服务, 添加"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "支付宝会员: 尊敬的大众会员, 36 待领积分, 7 今日签到, 188, 加上组件，不怕漏签！, 添加"
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "财运小组件: 查资产，看收益, 添加"
+        },
+        {
+          "type": "other",
+          "reading_order": 8,
+          "text": "商家服务: 10 待领取, 已领300积分"
+        },
+        {
+          "type": "other",
+          "reading_order": 9,
+          "text": "信用卡还款: 某某银行8888, 待还款，距还款日1天, 去还款"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app settings menu for widget configuration.",
+      "intent": "User is browsing available mobile widgets for the Alipay application to add to their device home screen.",
+      "entities": [
+        {
+          "name": "Alipay",
+          "type": "Application",
+          "evidence": "Alipay logo and text present."
+        },
+        {
+          "name": "Shortcuts Center",
+          "type": "Interface",
+          "evidence": "Header text 快捷方式中心"
+        },
+        {
+          "name": "Widgets",
+          "type": "UI Component",
+          "evidence": "Various items labeled as widgets (组件)"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Alipay",
+          "predicate": "offers",
+          "object": "Widgets"
+        },
+        {
+          "subject": "User",
+          "predicate": "navigates",
+          "object": "Shortcuts Center"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light blue",
+        "dark blue"
+      ],
+      "style": "Modern mobile application interface, clean, flat design with card-based layout.",
+      "notes": [
+        "Standard iOS-style navigation bar at the top.",
+        "The layout emphasizes categorization of widgets."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:33.556Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.364,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1362,
+      "totalTokenCount": 2589,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

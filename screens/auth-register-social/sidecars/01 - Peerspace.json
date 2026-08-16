@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Peerspace",
+    "platform": "ios",
+    "file_path": "screens/auth-register-social/01 - Peerspace.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:06.530Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app registration/sign-up screen",
+    "primary_flow": "auth-register-social",
+    "ux_intent": "To facilitate user account creation via third-party providers or email credentials.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Settings",
+      "Minimalist",
+      "Uses standard OS status bar indicators.",
+      "The 'Sign up' CTA button is a prominent purple block.",
+      "Layout utilizes centered alignment for all input components."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The 'Sign up' CTA button is a prominent purple block.",
+      "Layout utilizes centered alignment for all input components."
+    ],
+    "content_blocks": [
+      "Peerspace",
+      "Apple",
+      "Google",
+      "Facebook"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, mobile UI",
+      "white",
+      "black",
+      "purple",
+      "Uses standard OS status bar indicators.",
+      "The 'Sign up' CTA button is a prominent purple block.",
+      "Layout utilizes centered alignment for all input components."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_social_01"
+}

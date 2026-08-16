@@ -1,0 +1,196 @@
+{
+  "image": "03 - Ultrahuman.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Ultrahuman mobile application showing a user's daily health and activity dashboard labeled 'Details' for a user named Sam.",
+    "ocr": {
+      "full_text": "9:41 Details Sam Movement Index 58 0 Steps 2 hours Active Hours 5 kCal Total Calories Timeline 12:02 PM Stress 11:47 AM Plain Yogurt, Strawberries 10:47 AM 60 min Running Ultrahuman curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Details"
+        },
+        {
+          "text": "Sam"
+        },
+        {
+          "text": "Movement Index"
+        },
+        {
+          "text": "58"
+        },
+        {
+          "text": "0"
+        },
+        {
+          "text": "Steps"
+        },
+        {
+          "text": "2 hours"
+        },
+        {
+          "text": "Active Hours"
+        },
+        {
+          "text": "5 kCal"
+        },
+        {
+          "text": "Total Calories"
+        },
+        {
+          "text": "Timeline"
+        },
+        {
+          "text": "12:02 PM"
+        },
+        {
+          "text": "Stress"
+        },
+        {
+          "text": "11:47 AM"
+        },
+        {
+          "text": "Plain Yogurt, Strawberries"
+        },
+        {
+          "text": "10:47 AM 60 min"
+        },
+        {
+          "text": "Running"
+        },
+        {
+          "text": "Ultrahuman"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Details"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Sam"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Movement Index 58"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "0 Steps 2 hours Active Hours 5 kCal Total Calories"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Timeline"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "12:02 PM Stress"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "11:47 AM Plain Yogurt, Strawberries"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "10:47 AM 60 min Running"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app health tracking interface.",
+      "intent": "Display daily activity, nutritional, and physical health data for a user.",
+      "entities": [
+        {
+          "name": "Sam",
+          "type": "User"
+        },
+        {
+          "name": "Ultrahuman",
+          "type": "App Name"
+        },
+        {
+          "name": "Movement Index",
+          "type": "Metric"
+        },
+        {
+          "name": "Plain Yogurt, Strawberries",
+          "type": "Food"
+        },
+        {
+          "name": "Running",
+          "type": "Activity"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam",
+          "predicate": "has",
+          "object": "Movement Index 58"
+        },
+        {
+          "subject": "Sam",
+          "predicate": "consumed",
+          "object": "Plain Yogurt, Strawberries"
+        },
+        {
+          "subject": "Sam",
+          "predicate": "performed",
+          "object": "Running"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "dark gray",
+        "white",
+        "faint green gradient"
+      ],
+      "style": "Dark mode mobile UI, minimalist clean design.",
+      "notes": [
+        "Standard iOS status bar at the top",
+        "Tabular layout for health stats",
+        "Linear timeline for daily events"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:40.248Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.939,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 928,
+      "totalTokenCount": 2155,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

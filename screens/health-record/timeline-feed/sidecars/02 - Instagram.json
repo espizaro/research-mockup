@@ -1,0 +1,215 @@
+{
+  "image": "02 - Instagram.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is an Instagram Activity (notifications) feed screen. It displays various interactions such as new followers, reel likes, account suggestions, post updates, and channel invitations, categorized by time (Today, Yesterday, Last 7 days).",
+    "ocr": {
+      "full_text": "9:41\n< samleefin18\nHighlights\nbear.2123374 started following you. 6h\nFollow back\nollowing you. 23h\nFollow back\nShare your profile with friends you'd like to connect with. 1d\nliked your reel. 1d\nwho you might know, is on Instagram. 21h\nFollow\nToday\nmidcenturyhome, underwater and other accounts you follow recently posted. 8h\nYesterday\narchdigest, discoverearth and 1 other invited you to join their channels. 1d\nLast 7 days\nstarted following you. 1d\nFollow back\nstarted following you. 1d\nFollow back\nInstagram\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "< samleefin18",
+          "language": "en"
+        },
+        {
+          "text": "Highlights",
+          "language": "en"
+        },
+        {
+          "text": "bear.2123374 started following you. 6h",
+          "language": "en"
+        },
+        {
+          "text": "Follow back",
+          "language": "en"
+        },
+        {
+          "text": "ollowing you. 23h",
+          "language": "en"
+        },
+        {
+          "text": "Follow back",
+          "language": "en"
+        },
+        {
+          "text": "Share your profile with friends you'd like to connect with. 1d",
+          "language": "en"
+        },
+        {
+          "text": "liked your reel. 1d",
+          "language": "en"
+        },
+        {
+          "text": "who you might know, is on Instagram. 21h",
+          "language": "en"
+        },
+        {
+          "text": "Follow",
+          "language": "en"
+        },
+        {
+          "text": "Today",
+          "language": "en"
+        },
+        {
+          "text": "midcenturyhome, underwater and other accounts you follow recently posted. 8h",
+          "language": "en"
+        },
+        {
+          "text": "Yesterday",
+          "language": "en"
+        },
+        {
+          "text": "archdigest, discoverearth and 1 other invited you to join their channels. 1d",
+          "language": "en"
+        },
+        {
+          "text": "Last 7 days",
+          "language": "en"
+        },
+        {
+          "text": "started following you. 1d",
+          "language": "en"
+        },
+        {
+          "text": "Follow back",
+          "language": "en"
+        },
+        {
+          "text": "started following you. 1d",
+          "language": "en"
+        },
+        {
+          "text": "Follow back",
+          "language": "en"
+        },
+        {
+          "text": "Instagram",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "samleefin18"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Highlights"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "bear.2123374 started following you. Follow back"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Share your profile with friends you'd like to connect with."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Today"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Yesterday"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Last 7 days"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app UI, specifically an Instagram notifications screen.",
+      "intent": "Displaying social media activity and engagement metrics to the user.",
+      "entities": [
+        {
+          "name": "Instagram",
+          "type": "Application"
+        },
+        {
+          "name": "samleefin18",
+          "type": "User Account"
+        },
+        {
+          "name": "bear.2123374",
+          "type": "User Account"
+        },
+        {
+          "name": "archdigest",
+          "type": "User Account"
+        },
+        {
+          "name": "discoverearth",
+          "type": "User Account"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bear.2123374",
+          "predicate": "follows",
+          "object": "samleefin18"
+        },
+        {
+          "subject": "archdigest",
+          "predicate": "invited",
+          "object": "samleefin18"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue",
+        "grey",
+        "black"
+      ],
+      "style": "Mobile flat design UI",
+      "notes": [
+        "Standard iOS status bar",
+        "Includes a 'curated by' watermark at the bottom"
+      ]
+    },
+    "uncertainty": [
+      "The user names for some notifications are blurred/obscured in the source image."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:41.098Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.792,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1191,
+      "totalTokenCount": 2418,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "N26",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-benefits/03 - N26.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:31.074Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding screen",
+    "primary_flow": "auth-onboarding-benefits",
+    "ux_intent": "To introduce the user to core app features and encourage them to begin using the application.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Carousel",
+      "The illustration is a hybrid of abstract geometric shapes (triangles) and functional UI mockups.",
+      "The central illustration sits between the headline/copy and the CTA.",
+      "The aesthetic is professional and trust-focused, using the brand's signature teal color."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "N26",
+      "Explore the app"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern UI.",
+      "white",
+      "teal",
+      "grey",
+      "red",
+      "The illustration is a hybrid of abstract geometric shapes (triangles) and functional UI mockups.",
+      "The central illustration sits between the headline/copy and the CTA.",
+      "The aesthetic is professional and trust-focused, using the brand's signature teal color."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_benefits_03"
+}

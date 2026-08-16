@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Warby Parker",
+    "platform": "ios",
+    "file_path": "screens/auth-login-biometric/08 - Warby Parker.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:42.703Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Authentication/Security settings flow on a web view inside a mobile application.",
+    "primary_flow": "auth-login-biometric",
+    "ux_intent": "Persuade the user to enable biometric authentication for future logins to improve user retention and convenience.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Settings",
+      "Minimalist",
+      "No decorative illustrations or imagery present; relies entirely on typography and UI layout.",
+      "The layout is center-aligned for focus.",
+      "Clear hierarchy with strong CTA button differentiation."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Secondary Button",
+      "Clear hierarchy with strong CTA button differentiation."
+    ],
+    "content_blocks": [
+      "Warby Parker",
+      "Continue",
+      "Remind me later",
+      "Not on this device"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, corporate, high-contrast, standard mobile UI design.",
+      "White",
+      "Blue",
+      "Black/Dark Grey",
+      "No decorative illustrations or imagery present; relies entirely on typography and UI layout.",
+      "The layout is center-aligned for focus.",
+      "Clear hierarchy with strong CTA button differentiation."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, corporate, high-contrast, standard mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_biometric_08"
+}

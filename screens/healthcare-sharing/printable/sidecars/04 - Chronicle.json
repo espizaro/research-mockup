@@ -1,0 +1,191 @@
+{
+  "image": "04 - Chronicle.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "An interface screen from the software 'Chronicle' showing a 'Voice of the Customer' storyline document with research findings, pain points, and customer quotes.",
+    "ocr": {
+      "full_text": "Back Free Trial 3/3 chronicle Storyline Voice of the Customer Insights from our comprehensive customer satisfaction research 1 Research Overview Heading + media right Our customer satisfaction research aimed to understand key pain points and areas of delight in the customer journey. We collected feedback from over 1,200 customers across multiple touchpoints, using surveys, interviews, and analysis of support interactions. This comprehensive approach provides a 360-degree view of the customer experience landscape. 2 Key Findings Media + 3 points in bento grid Customer satisfaction currently stands at 72%, a 5% increase from last year but still below industry benchmark of 80%. Response time and product quality received highest ratings (85% and 82% respectively), while onboarding experience and technical support scored lowest (65% and 68%). Market data shows companies with satisfaction scores above 80% typically see 20% higher customer retention rates. 3 Pain Points Heading with 3 media in row below Three critical areas emerged as significant customer pain points that require immediate attention: 1) Complex onboarding process with too many steps, 2) Inconsistent technical support experience with long wait times, and 3) Limited self-service options for common troubleshooting issues. According to market research, 67% of customers cite poor onboarding as a reason for abandoning a product within the first 30 days. 4 Customer Voices Heading + 3 media with description above Direct customer feedback provides valuable context to our quantitative findings. \"The product itself is excellent, but getting started was unnecessarily complicated.\" \"Support agents are knowledgeable when you finally reach them, but the wait times are frustrating.\" \"I love the core Theme Create skeleton Generate presentation + Storyline created Retry Accept chronicle curated by Mobbin",
+      "lines": [
+        {
+          "text": "Back Free Trial 3/3"
+        },
+        {
+          "text": "chronicle"
+        },
+        {
+          "text": "Storyline"
+        },
+        {
+          "text": "Voice of the Customer"
+        },
+        {
+          "text": "Insights from our comprehensive customer satisfaction research"
+        },
+        {
+          "text": "1 Research Overview Heading + media right"
+        },
+        {
+          "text": "Our customer satisfaction research aimed to understand key pain points and areas of delight in"
+        },
+        {
+          "text": "the customer journey. We collected feedback from over 1,200 customers across multiple"
+        },
+        {
+          "text": "touchpoints, using surveys, interviews, and analysis of support interactions. This"
+        },
+        {
+          "text": "comprehensive approach provides a 360-degree view of the customer experience landscape."
+        },
+        {
+          "text": "2 Key Findings Media + 3 points in bento grid"
+        },
+        {
+          "text": "Customer satisfaction currently stands at 72%, a 5% increase from last year but still below"
+        },
+        {
+          "text": "industry benchmark of 80%. Response time and product quality received highest ratings (85%"
+        },
+        {
+          "text": "and 82% respectively), while onboarding experience and technical support scored lowest (65%"
+        },
+        {
+          "text": "and 68%). Market data shows companies with satisfaction scores above 80% typically see 20%"
+        },
+        {
+          "text": "higher customer retention rates."
+        },
+        {
+          "text": "3 Pain Points Heading with 3 media in row below"
+        },
+        {
+          "text": "Three critical areas emerged as significant customer pain points that require immediate"
+        },
+        {
+          "text": "attention: 1) Complex onboarding process with too many steps, 2) Inconsistent technical"
+        },
+        {
+          "text": "support experience with long wait times, and 3) Limited self-service options for common"
+        },
+        {
+          "text": "troubleshooting issues. According to market research, 67% of customers cite poor onboarding"
+        },
+        {
+          "text": "as a reason for abandoning a product within the first 30 days."
+        },
+        {
+          "text": "4 Customer Voices Heading + 3 media with description above"
+        },
+        {
+          "text": "Direct customer feedback provides valuable context to our quantitative findings. \"The product"
+        },
+        {
+          "text": "itself is excellent, but getting started was unnecessarily complicated.\" \"Support agents are"
+        },
+        {
+          "text": "knowledgeable when you finally reach them, but the wait times are frustrating.\" \"I love the core"
+        },
+        {
+          "text": "Theme Create skeleton Generate presentation + Storyline created Retry Accept"
+        },
+        {
+          "text": "chronicle curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Voice of the Customer"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Insights from our comprehensive customer satisfaction research"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "1 Research Overview: Our customer satisfaction research aimed to understand key pain points and areas of delight in the customer journey."
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "2 Key Findings: Customer satisfaction currently stands at 72%, a 5% increase from last year."
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "3 Pain Points: Three critical areas emerged as significant customer pain points."
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "4 Customer Voices: Direct customer feedback provides valuable context to our quantitative findings."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Digital presentation editor interface",
+      "intent": "Creating or editing a business presentation report",
+      "entities": [
+        {
+          "name": "Chronicle",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        },
+        {
+          "name": "Customer Satisfaction Research",
+          "type": "Topic"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chronicle",
+          "predicate": "hosts",
+          "object": "Storyline"
+        },
+        {
+          "subject": "Mobbin",
+          "predicate": "curated",
+          "object": "Interface"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "white",
+        "grey"
+      ],
+      "style": "Minimalist dark-mode UI"
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:53.893Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.603,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1474,
+      "totalTokenCount": 2681,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

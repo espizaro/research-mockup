@@ -1,0 +1,205 @@
+{
+  "image": "01 - Amie.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a mobile calendar application (Amie) showing a schedule for Tuesday, February 13, 2024. The schedule displays multiple events throughout the day, including 'Discussing about tools subscription', 'Lunch at resto with Bill', 'Townhall Q1 2024', 'Give presentation', and 'Research schools for kids'.",
+    "ocr": {
+      "full_text": "9:41 2024 Feb S 11 M 12 T 13 W 14 T 15 F 16 S 17 2 events 11 AM Discussing about tools subscription 1h 15m 12 PM Lunch at resto with Bill 1h 1 PM Townhall Q1 2024 4h 2 PM 3 PM Give presentation 1h 4 PM 5 PM 6 PM Research schools for kids 1h 7 PM Today Todos 9 PM Amie curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "2024 Feb"
+        },
+        {
+          "text": "S 11 M 12 T 13 W 14 T 15 F 16 S 17"
+        },
+        {
+          "text": "2 events"
+        },
+        {
+          "text": "11 AM"
+        },
+        {
+          "text": "Discussing about tools subscription 1h 15m"
+        },
+        {
+          "text": "12 PM"
+        },
+        {
+          "text": "Lunch at resto with Bill 1h"
+        },
+        {
+          "text": "1 PM"
+        },
+        {
+          "text": "Townhall Q1 2024 4h"
+        },
+        {
+          "text": "2 PM"
+        },
+        {
+          "text": "3 PM"
+        },
+        {
+          "text": "Give presentation 1h"
+        },
+        {
+          "text": "4 PM"
+        },
+        {
+          "text": "5 PM"
+        },
+        {
+          "text": "6 PM"
+        },
+        {
+          "text": "Research schools for kids 1h"
+        },
+        {
+          "text": "7 PM"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Todos"
+        },
+        {
+          "text": "9 PM"
+        },
+        {
+          "text": "Amie curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "2024 Feb"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "2 events"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Discussing about tools subscription"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Lunch at resto with Bill"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Townhall Q1 2024"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Give presentation"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Research schools for kids"
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Today Todos"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile app interface displaying a calendar schedule for February 13, 2024.",
+      "intent": "View and manage daily schedule events.",
+      "entities": [
+        {
+          "name": "Amie",
+          "type": "Application"
+        },
+        {
+          "name": "Feb 13, 2024",
+          "type": "Date"
+        },
+        {
+          "name": "Discussing about tools subscription",
+          "type": "Event"
+        },
+        {
+          "name": "Lunch at resto with Bill",
+          "type": "Event"
+        },
+        {
+          "name": "Townhall Q1 2024",
+          "type": "Event"
+        },
+        {
+          "name": "Give presentation",
+          "type": "Event"
+        },
+        {
+          "name": "Research schools for kids",
+          "type": "Event"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Event 1",
+          "predicate": "is scheduled for",
+          "object": "Feb 13, 2024"
+        },
+        {
+          "subject": "Amie",
+          "predicate": "displays",
+          "object": "Schedule"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light green",
+        "light pink",
+        "light blue",
+        "light purple"
+      ],
+      "style": "Minimalist mobile UI design.",
+      "notes": [
+        "Color-coded event blocks.",
+        "Clean sans-serif typography."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:31.083Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.394,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1124,
+      "totalTokenCount": 2351,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

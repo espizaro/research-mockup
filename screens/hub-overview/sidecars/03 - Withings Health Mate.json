@@ -1,0 +1,48 @@
+{
+  "identification": {
+    "app_name": "Withings Health Mate",
+    "platform": "ios",
+    "file_path": "screens/hub-overview/03 - Withings Health Mate.webp",
+    "analyzed_timestamp": "2026-08-11T22:27:12.821Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app dashboard for health tracking.",
+    "primary_flow": "hub-overview",
+    "ux_intent": "To display daily health metrics to the user.",
+    "ux_patterns": [
+      "Minimalist",
+      "Card",
+      "Clean layout with card-based design for metric cards."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "John",
+      "Withings Health Mate",
+      "Weight",
+      "Body Composition",
+      "Heart Rate",
+      "Walking"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface",
+      "white",
+      "black",
+      "grey",
+      "Clean layout with card-based design for metric cards."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_hub_overview_03"
+}

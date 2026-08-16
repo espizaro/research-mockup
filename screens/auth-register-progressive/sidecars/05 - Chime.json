@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Chime",
+    "platform": "ios",
+    "file_path": "screens/auth-register-progressive/05 - Chime.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:16.246Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding/Registration flow for a financial application.",
+    "primary_flow": "auth-register-progressive",
+    "ux_intent": "User is prompted to provide basic identification details (Name and Email) to begin the account creation process.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "Stepper",
+      "Uses a progress stepper with icons (User, Shield, Heart). The UI is high-contrast with clear typography. No hero image, but uses iconography to guide the user through the process steps."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Text Input Field",
+      "Stepper"
+    ],
+    "content_blocks": [
+      "Chime",
+      "First name",
+      "Last name",
+      "Email",
+      "Next"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, functional mobile UI, bank-application interface.",
+      "white",
+      "dark green",
+      "light gray",
+      "Uses a progress stepper with icons (User, Shield, Heart). The UI is high-contrast with clear typography. No hero image, but uses iconography to guide the user through the process steps."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, functional mobile UI, bank-application interface."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_progressive_05"
+}

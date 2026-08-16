@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "ZIGZAG",
+    "platform": "ios",
+    "file_path": "screens/login/02 - ZIGZAG.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:46.990Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen of a mobile application",
+    "primary_flow": "login",
+    "ux_intent": "User authentication",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustration or imagery present.",
+      "Clean, high-contrast typography.",
+      "Clear visual hierarchy centered on the primary CTA.",
+      "Icon for password visibility is present."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Speechify",
+      "Mobbin",
+      "Log in",
+      "Recover password",
+      "Create account"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, standard iOS look-and-feel",
+      "white",
+      "blue",
+      "No hero illustration or imagery present.",
+      "Clean, high-contrast typography.",
+      "Clear visual hierarchy centered on the primary CTA.",
+      "Icon for password visibility is present."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, standard iOS look-and-feel"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_02"
+}

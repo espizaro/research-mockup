@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "BitePal",
+    "platform": "ios",
+    "file_path": "screens/onboarding-welcome/08 - BitePal.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:47.672Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding screen",
+    "primary_flow": "onboarding-welcome",
+    "ux_intent": "User registration and value proposition introduction for a weight loss or diet tracking app.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Hero illustration uses a character mascot (raccoon) to build emotional connection.",
+      "Soft gradient background enhances readability and friendliness.",
+      "Key features like intermittent fasting (16:8) and calorie tracking (310 kcal) are highlighted.",
+      "Accessibility: The small grey text for Terms of Use might pose contrast issues.",
+      "Design cues: Mobbin overlay suggests this is a reference capture."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "BitePal",
+      "Raccoon",
+      "Get started",
+      "16:8"
+    ],
+    "visual_keywords": [
+      "Friendly, modern minimalist, character-driven illustration",
+      "light blue",
+      "white",
+      "black",
+      "Hero illustration uses a character mascot (raccoon) to build emotional connection.",
+      "Soft gradient background enhances readability and friendliness.",
+      "Key features like intermittent fasting (16:8) and calorie tracking (310 kcal) are highlighted.",
+      "Accessibility: The small grey text for Terms of Use might pose contrast issues.",
+      "Design cues: Mobbin overlay suggests this is a reference capture."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Friendly, modern minimalist, character-driven illustration"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_welcome_08"
+}

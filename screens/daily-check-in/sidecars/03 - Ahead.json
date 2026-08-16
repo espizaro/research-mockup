@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Ahead",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/03 - Ahead.webp",
+    "analyzed_timestamp": "2026-08-05T19:44:15.729Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile interface for user input regarding self-monitoring or psychological tracking.",
+    "primary_flow": "daily-check-in",
+    "ux_intent": "To allow the user to select or add body reactions and thoughts/behaviors, then save their progress.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Minimalist",
+      "Card",
+      "The UI uses purple buttons and white cards.",
+      "The app branding is visible at the bottom."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The UI uses purple buttons and white cards."
+    ],
+    "content_blocks": [
+      "Body reactions",
+      "Thoughts/behaviors",
+      "Save and write notes",
+      "Just save"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile UI",
+      "white",
+      "purple",
+      "The UI uses purple buttons and white cards.",
+      "The app branding is visible at the bottom."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_checkin_03"
+}

@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Bolt",
+    "platform": "ios",
+    "file_path": "screens/sos/05 - Bolt.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:38.320Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI screen for personal safety features during a ride-hailing trip.",
+    "primary_flow": "sos",
+    "ux_intent": "User is accessing safety tools within the Bolt application.",
+    "ux_patterns": [
+      "Bottom Sheet",
+      "Form",
+      "Minimalist",
+      "Card"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Bolt",
+      "Google",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist UI, light mode, map-overlay bottom sheet",
+      "white",
+      "grey",
+      "blue",
+      "red"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist UI, light mode, map-overlay bottom sheet"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_sos_05"
+}

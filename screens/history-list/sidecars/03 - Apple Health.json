@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "Apple Health",
+    "platform": "ios",
+    "file_path": "screens/history-list/03 - Apple Health.webp",
+    "analyzed_timestamp": "2026-08-11T22:29:49.784Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Health data history log screen.",
+    "primary_flow": "history-list",
+    "ux_intent": "Display historical daily step counts.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Clean table list format",
+      "Floating navigation bar at bottom"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Floating navigation bar at bottom"
+    ],
+    "content_blocks": [
+      "Apple Health",
+      "Steps",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist iOS interface",
+      "white",
+      "light gray",
+      "black",
+      "Clean table list format",
+      "Floating navigation bar at bottom"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist iOS interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_history_list_03"
+}

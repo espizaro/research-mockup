@@ -1,0 +1,44 @@
+{
+  "identification": {
+    "app_name": "Fable",
+    "platform": "ios",
+    "file_path": "screens/history-list/07 - Fable.webp",
+    "analyzed_timestamp": "2026-08-11T22:30:09.286Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application interface displaying a user's streak history.",
+    "primary_flow": "history-list",
+    "ux_intent": "To view or track daily streaks.",
+    "ux_patterns": [
+      "FAB",
+      "Minimalist",
+      "Uses green fill for certain lightning bolt icons to distinguish them."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Streak Log",
+      "Lightning bolt icons"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "white",
+      "black",
+      "green",
+      "Uses green fill for certain lightning bolt icons to distinguish them."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_history_list_07"
+}

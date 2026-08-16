@@ -1,0 +1,121 @@
+{
+  "image": "04 - pushr.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface showing a streak tracker, featuring a 'this week' calendar view with checked days (Tuesday, Wednesday, Thursday) and a total streak counter of 3 days.",
+    "ocr": {
+      "full_text": "9:41 this week 3 S M T W T F S 3 days pushr curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "this week"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "S M T W T F S"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "days"
+        },
+        {
+          "text": "pushr"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "this week 3"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "S M T W T F S"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "3 days"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app UI showing a streak status screen.",
+      "intent": "Display progress and consistency metrics to the user.",
+      "entities": [
+        {
+          "name": "this week",
+          "type": "header"
+        },
+        {
+          "name": "streak counter",
+          "type": "metric",
+          "evidence": "3"
+        },
+        {
+          "name": "T W T",
+          "type": "active days",
+          "evidence": "checked icons"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "streak counter",
+          "predicate": "indicates",
+          "object": "3 days"
+        },
+        {
+          "subject": "this week",
+          "predicate": "contains",
+          "object": "checked days"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "light gray"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Uses iconography like flame for streaks and checkmarks for completed days."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:41.885Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.175,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 550,
+      "totalTokenCount": 1777,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

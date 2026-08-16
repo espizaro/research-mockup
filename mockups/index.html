@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research Mockup · Studio</title>
+<link rel="stylesheet" href="assets/tokens.css">
+<link rel="stylesheet" href="assets/base.css">
+</head>
+<body>
+<div class="studio">
+  <div class="studio-head">
+    <i class="ph" data-icon="compass"></i>
+    <h1>Research Mockup · Studio</h1>
+    <button class="theme-toggle" data-theme>
+      <i class="ph" data-icon="moon"></i>
+      <span>Theme</span>
+    </button>
+  </div>
+  <p class="studio-sub">Navigable prototypes built with the project's real tokens. No Figma,
+  no server: open with a double click.</p>
+  <div class="mock-grid" id="grid"></div>
+</div>
+<script src="assets/mockups.js"></script>
+<script src="assets/icons.js"></script>
+<script src="assets/app.js"></script>
+<script>
+(function () {
+  const grid = document.getElementById('grid');
+  const theme = document.documentElement.classList.contains('app-dark') ? 'dark' : 'light';
+  const catalog = document.createElement('a');
+  catalog.className = 'mock-card catalog-card';
+  catalog.href = '../catalog/index.html';
+  catalog.innerHTML =
+    '<span class="ico"><i class="ph" data-icon="funnel"></i></span>' +
+    '<h3>Inspiration catalog</h3>' +
+    '<p>The single center: every indexed screen by app, flow, and tag, with preview and metadata. Refreshed after each research cycle.</p>' +
+    '<span class="tag">CATALOG · UPDATES ITSELF</span>';
+  grid.appendChild(catalog);
+  (window.MOCKUPS || []).forEach(function (m) {
+    const a = document.createElement('a');
+    a.className = 'mock-card';
+    a.href = m.path + '?theme=' + theme;
+    a.innerHTML =
+      '<span class="ico"><i class="ph" data-icon="' + (m.icon || 'house') + '"></i></span>' +
+      '<h3>' + m.name + '</h3>' +
+      '<p>' + m.description + '</p>' +
+      (m.tags ? '<span class="tag">' + m.tags.join(' · ') + '</span>' : '');
+    grid.appendChild(a);
+  });
+  if (window.Mockup) Mockup.injectIcons(grid);
+})();
+</script>
+</body>
+</html>

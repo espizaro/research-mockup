@@ -1,0 +1,203 @@
+{
+  "image": "04 - Future Pro.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for adding a new event with travel and event tabs, text inputs, and a date selector, complete with an on-screen keyboard.",
+    "ocr": {
+      "full_text": "09:41\nCancel\nADD EVENT\nAdd\nTravel\nEvent\nWhat event do you have?\nProvide details that you want your coach to\nknow to plan for this event.\nStarts\nMonday, October 7\nEnds\nMonday, October 7\nq w e r t y u i o p\na s d f g h j k l\nz x c v b n m\n123\nspace\ndone\nFuture\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "09:41",
+          "language": "en"
+        },
+        {
+          "text": "Cancel",
+          "language": "en"
+        },
+        {
+          "text": "ADD EVENT",
+          "language": "en"
+        },
+        {
+          "text": "Add",
+          "language": "en"
+        },
+        {
+          "text": "Travel",
+          "language": "en"
+        },
+        {
+          "text": "Event",
+          "language": "en"
+        },
+        {
+          "text": "What event do you have?",
+          "language": "en"
+        },
+        {
+          "text": "Provide details that you want your coach to",
+          "language": "en"
+        },
+        {
+          "text": "know to plan for this event.",
+          "language": "en"
+        },
+        {
+          "text": "Starts",
+          "language": "en"
+        },
+        {
+          "text": "Monday, October 7",
+          "language": "en"
+        },
+        {
+          "text": "Ends",
+          "language": "en"
+        },
+        {
+          "text": "Monday, October 7",
+          "language": "en"
+        },
+        {
+          "text": "q w e r t y u i o p",
+          "language": "en"
+        },
+        {
+          "text": "a s d f g h j k l",
+          "language": "en"
+        },
+        {
+          "text": "z x c v b n m",
+          "language": "en"
+        },
+        {
+          "text": "123",
+          "language": "en"
+        },
+        {
+          "text": "space",
+          "language": "en"
+        },
+        {
+          "text": "done",
+          "language": "en"
+        },
+        {
+          "text": "Future",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "ADD EVENT"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "Travel Event"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "What event do you have?"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Provide details that you want your coach to know to plan for this event."
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Starts Monday, October 7 Ends Monday, October 7"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "keyboard"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app form screen for adding an event.",
+      "intent": "To input details for scheduling an event within a coaching application.",
+      "entities": [
+        {
+          "name": "Travel/Event selector",
+          "type": "Navigation"
+        },
+        {
+          "name": "Event Input Field",
+          "type": "Input"
+        },
+        {
+          "name": "Description Field",
+          "type": "Input"
+        },
+        {
+          "name": "Date Selectors",
+          "type": "Date Selection"
+        },
+        {
+          "name": "Keyboard",
+          "type": "UI Element"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "fills out",
+          "object": "Add Event form"
+        },
+        {
+          "subject": "Form",
+          "predicate": "includes",
+          "object": "Travel/Event selection"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "blue",
+        "black"
+      ],
+      "style": "Minimalist modern mobile UI",
+      "notes": [
+        "Standard iOS-style navigation bar and keyboard layout."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:19.868Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.806,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1032,
+      "totalTokenCount": 2259,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

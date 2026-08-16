@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Craft",
+    "platform": "ios",
+    "file_path": "screens/history-list/02 - Craft.webp",
+    "analyzed_timestamp": "2026-08-11T22:29:45.561Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Project management application screen",
+    "primary_flow": "history-list",
+    "ux_intent": "View project tasks and their statuses",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Card",
+      "Status labels are color-coded: yellow for 'In review', green for 'Ready', light blue for 'In progress'."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Web3 Platform Landing",
+      "Multi-Chain Selector",
+      "Wallet card UI",
+      "Hero section v1",
+      "Craft",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "clean mobile application UI",
+      "white",
+      "black",
+      "light gray",
+      "blue",
+      "Status labels are color-coded: yellow for 'In review', green for 'Ready', light blue for 'In progress'."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean mobile application UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_history_list_02"
+}

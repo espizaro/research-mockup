@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Equinox+",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-goals/02 - Equinox+.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:54.561Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding/preference collection screen",
+    "primary_flow": "auth-onboarding-goals",
+    "ux_intent": "To gather user fitness goals for personalized recommendations.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Dark Mode",
+      "Minimalist",
+      "Card",
+      "The layout features a multi-column grid of selectable cards.",
+      "High contrast text on dark background.",
+      "No hero illustrations; the screen is text-driven and functional.",
+      "Selected items (Bulk Up, Get stronger, Increase flexibility and mobility) are highlighted with a white border."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Bulk Up",
+      "Get stronger",
+      "Increase flexibility and mobility",
+      "Equinox+"
+    ],
+    "visual_keywords": [
+      "Minimalist, Dark Mode, UI/UX",
+      "black",
+      "white",
+      "grey",
+      "The layout features a multi-column grid of selectable cards.",
+      "High contrast text on dark background.",
+      "No hero illustrations; the screen is text-driven and functional.",
+      "Selected items (Bulk Up, Get stronger, Increase flexibility and mobility) are highlighted with a white border."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, Dark Mode, UI/UX"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_goals_02"
+}

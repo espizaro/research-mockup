@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Origin",
+    "platform": "ios",
+    "file_path": "screens/period-comparison/07 - Origin.webp",
+    "analyzed_timestamp": "2026-08-11T22:29:31.339Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app spending overview screen",
+    "primary_flow": "period-comparison",
+    "ux_intent": "View monthly spending, compare with previous months, and check transaction history.",
+    "ux_patterns": [
+      "Chart",
+      "Minimalist",
+      "Clean layout",
+      "Uses icons for navigation",
+      "Data visualization used for spending trends"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Uses icons for navigation"
+    ],
+    "content_blocks": [
+      "Devocion Dumbo",
+      "$760",
+      "$3,000"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "white",
+      "dark gray",
+      "blue",
+      "Clean layout",
+      "Uses icons for navigation",
+      "Data visualization used for spending trends"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_period_comparison_07"
+}

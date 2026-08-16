@@ -1,0 +1,191 @@
+{
+  "image": "07 - GoodRx.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for managing a 'GoodRx Gold' subscription plan. It displays account details including plan type, billing date, member information, mailing address, and payment method.",
+    "ocr": {
+      "full_text": "9:41\nManage your Gold plan\nYour current plan\nNext billing date: August 30, 2025\nFamily\n$19.99/mo\nChange\nCancel my GoodRx Gold membership\nMember information\nSam Lee\nPrimary\nAdd a member\nMailing address\n1226 University Drive\nMenlo Park, CA 94025\nPayment method\nVISA 1185\n3/2029\nGoodRx\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Manage your Gold plan",
+          "language": "en"
+        },
+        {
+          "text": "Your current plan",
+          "language": "en"
+        },
+        {
+          "text": "Next billing date: August 30, 2025",
+          "language": "en"
+        },
+        {
+          "text": "Family",
+          "language": "en"
+        },
+        {
+          "text": "$19.99/mo",
+          "language": "en"
+        },
+        {
+          "text": "Change",
+          "language": "en"
+        },
+        {
+          "text": "Cancel my GoodRx Gold membership",
+          "language": "en"
+        },
+        {
+          "text": "Member information",
+          "language": "en"
+        },
+        {
+          "text": "Sam Lee",
+          "language": "en"
+        },
+        {
+          "text": "Primary",
+          "language": "en"
+        },
+        {
+          "text": "Add a member",
+          "language": "en"
+        },
+        {
+          "text": "Mailing address",
+          "language": "en"
+        },
+        {
+          "text": "1226 University Drive",
+          "language": "en"
+        },
+        {
+          "text": "Menlo Park, CA 94025",
+          "language": "en"
+        },
+        {
+          "text": "Payment method",
+          "language": "en"
+        },
+        {
+          "text": "VISA 1185",
+          "language": "en"
+        },
+        {
+          "text": "3/2029",
+          "language": "en"
+        },
+        {
+          "text": "GoodRx",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Manage your Gold plan"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Your current plan\nNext billing date: August 30, 2025\nFamily\n$19.99/mo\nChange\nCancel my GoodRx Gold membership"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Member information\nSam Lee\nPrimary\nAdd a member"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Mailing address\n1226 University Drive\nMenlo Park, CA 94025"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Payment method\nVISA 1185\n3/2029"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app settings page for a subscription service.",
+      "intent": "View and edit account subscription settings.",
+      "entities": [
+        {
+          "name": "GoodRx",
+          "type": "Service Provider"
+        },
+        {
+          "name": "Sam Lee",
+          "type": "Person/Member"
+        },
+        {
+          "name": "1226 University Drive, Menlo Park, CA 94025",
+          "type": "Address"
+        },
+        {
+          "name": "VISA 1185",
+          "type": "Payment Method"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam Lee",
+          "predicate": "is primary member of",
+          "object": "GoodRx Gold plan"
+        },
+        {
+          "subject": "VISA 1185",
+          "predicate": "is payment method for",
+          "object": "GoodRx Gold plan"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "blue"
+      ],
+      "style": "clean mobile UI, minimalist",
+      "notes": [
+        "Standard iOS status bar",
+        "Chevron icons indicating clickable rows",
+        "GoodRx logo present at the bottom"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:21.332Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.798,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1105,
+      "totalTokenCount": 2332,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "image": "02 - Plazo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen titled 'Mi Historial médico' (My Medical History), which serves as a hub for users to view and manage their health-related records, including allergies, background information, treatments, body mass index, and documents.",
+    "ocr": {
+      "full_text": "9:41 Mi Historial médico Este es tu historial médico, donde tanto tú como tu médico podéis añadir y modificar contenido. Es importante tenerlo actualizado para que podamos ayudarte mejor. Mis Alergias > Mis Antecedentes > Mis Tratamientos > Índice de Masa Corporal (IMC) > Mis Documentos > Plazo curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Mi Historial médico",
+          "language": "es"
+        },
+        {
+          "text": "Este es tu historial médico, donde tanto tú como tu",
+          "language": "es"
+        },
+        {
+          "text": "médico podéis añadir y modificar contenido. Es",
+          "language": "es"
+        },
+        {
+          "text": "importante tenerlo actualizado para que podamos",
+          "language": "es"
+        },
+        {
+          "text": "ayudarte mejor.",
+          "language": "es"
+        },
+        {
+          "text": "Mis Alergias",
+          "language": "es"
+        },
+        {
+          "text": "Mis Antecedentes",
+          "language": "es"
+        },
+        {
+          "text": "Mis Tratamientos",
+          "language": "es"
+        },
+        {
+          "text": "Índice de Masa Corporal (IMC)",
+          "language": "es"
+        },
+        {
+          "text": "Mis Documentos",
+          "language": "es"
+        },
+        {
+          "text": "Plazo",
+          "language": "es"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Mi Historial médico"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Este es tu historial médico, donde tanto tú como tu médico podéis añadir y modificar contenido. Es importante tenerlo actualizado para que podamos ayudarte mejor."
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Mis Alergias\nMis Antecedentes\nMis Tratamientos\nÍndice de Masa Corporal (IMC)\nMis Documentos"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "Display medical history options for a user",
+      "entities": [
+        {
+          "name": "Mi Historial médico",
+          "type": "screen_title"
+        },
+        {
+          "name": "Mis Alergias",
+          "type": "menu_item"
+        },
+        {
+          "name": "Mis Antecedentes",
+          "type": "menu_item"
+        },
+        {
+          "name": "Mis Tratamientos",
+          "type": "menu_item"
+        },
+        {
+          "name": "Índice de Masa Corporal (IMC)",
+          "type": "menu_item"
+        },
+        {
+          "name": "Mis Documentos",
+          "type": "menu_item"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has access to",
+          "object": "Medical History"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "gray"
+      ],
+      "style": "clean mobile UI",
+      "notes": [
+        "Icons represent each list item",
+        "Chevron arrows indicate interactive elements"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:37.763Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.806,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 837,
+      "totalTokenCount": 2064,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

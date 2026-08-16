@@ -1,0 +1,60 @@
+{
+  "identification": {
+    "app_name": "GOAT",
+    "platform": "ios",
+    "file_path": "screens/two-factor/04 - GOAT.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:40.088Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application login/authentication verification screen.",
+    "primary_flow": "two-factor",
+    "ux_intent": "The user is in the middle of a two-factor authentication flow where they must input a 4-digit numeric code received via email.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Login",
+      "Minimalist",
+      "Keypad",
+      "High-contrast text for readability.",
+      "Orange color used to denote state or secondary action (timer).",
+      "Modal-style sheet design with a grab handle at the top.",
+      "No hero imagery or illustrations present; focuses on utilitarian functional design."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Keypad",
+      "Orange color used to denote state or secondary action (timer)."
+    ],
+    "content_blocks": [
+      "Check your email",
+      "0 0 2 2",
+      "48 seconds",
+      "Numeric Keypad"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat mobile UI design.",
+      "white",
+      "black",
+      "grey",
+      "orange",
+      "High-contrast text for readability.",
+      "Orange color used to denote state or secondary action (timer).",
+      "Modal-style sheet design with a grab handle at the top.",
+      "No hero imagery or illustrations present; focuses on utilitarian functional design."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_two_factor_04"
+}

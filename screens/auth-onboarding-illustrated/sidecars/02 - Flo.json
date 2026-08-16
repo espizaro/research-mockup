@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Flo",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-illustrated/02 - Flo.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:26.291Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen for a pregnancy/health app.",
+    "primary_flow": "auth-onboarding-illustrated",
+    "ux_intent": "Guide the user through the onboarding process and motivate them to continue by highlighting the benefits of the feature.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "The illustration is a character-based hero art placed at the top to set an empathetic, nurturing tone.",
+      "The CTA (Next) is a prominent, rounded button, contrasting with the soft background.",
+      "The layout is very clean with ample white space, characteristic of modern mobile design systems.",
+      "No major accessibility issues obvious; text contrast appears sufficient."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The CTA (Next) is a prominent, rounded button, contrasting with the soft background."
+    ],
+    "content_blocks": [
+      "Flo",
+      "Mobbin",
+      "Pregnant Woman"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat character illustration, soft color palette, centered layout.",
+      "pink",
+      "beige",
+      "off-white",
+      "dark blue",
+      "The illustration is a character-based hero art placed at the top to set an empathetic, nurturing tone.",
+      "The CTA (Next) is a prominent, rounded button, contrasting with the soft background.",
+      "The layout is very clean with ample white space, characteristic of modern mobile design systems.",
+      "No major accessibility issues obvious; text contrast appears sufficient."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat character illustration, soft color palette, centered layout."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_illustrated_02"
+}

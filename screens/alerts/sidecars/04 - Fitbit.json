@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Fitbit",
+    "platform": "ios",
+    "file_path": "screens/alerts/04 - Fitbit.webp",
+    "analyzed_timestamp": "2026-08-05T19:24:35.258Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application dashboard",
+    "primary_flow": "alerts",
+    "ux_intent": "User interface overview for health and fitness tracking",
+    "ux_patterns": [
+      "Form",
+      "Includes status bar elements like time and battery",
+      "Uses iconography for sleep, activity, and health indicators",
+      "Contains a navigational bar at the bottom"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Table",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Contains a navigational bar at the bottom"
+    ],
+    "content_blocks": [
+      "Fitbit",
+      "Health assessments",
+      "Goals",
+      "Badges",
+      "High heart rate notifications"
+    ],
+    "visual_keywords": [
+      "Modern mobile application interface, clean design",
+      "white",
+      "light grey",
+      "teal",
+      "red",
+      "Includes status bar elements like time and battery",
+      "Uses iconography for sleep, activity, and health indicators",
+      "Contains a navigational bar at the bottom"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile application interface, clean design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_alerts_04"
+}

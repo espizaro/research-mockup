@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Tolan",
+    "platform": "ios",
+    "file_path": "screens/auth-login-biometric/01 - Tolan.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:37.375Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app security permission/onboarding screen.",
+    "primary_flow": "auth-login-biometric",
+    "ux_intent": "To persuade the user to enable biometric authentication (Face ID) for data privacy.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Card",
+      "Hero element is an icon of an open lock placed above the text.",
+      "The UI uses a card-like flow.",
+      "Color palette is very restrained, focusing on legibility and ease of reading."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Tolan",
+      "Sam",
+      "Face ID"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern, high-contrast, app-store style documentation.",
+      "off-white (background)",
+      "dark navy/black (text and primary button)",
+      "Hero element is an icon of an open lock placed above the text.",
+      "The UI uses a card-like flow.",
+      "Color palette is very restrained, focusing on legibility and ease of reading."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern, high-contrast, app-store style documentation."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_biometric_01"
+}

@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Duolingo",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-characters/02 - Duolingo.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:02.491Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile app onboarding or lesson-start screen for Duolingo.",
+    "primary_flow": "auth-onboarding-characters",
+    "ux_intent": "To inform the user that their first lesson is about to begin and prompt them to proceed.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Hero illustration is the mascot character.",
+      "The mascot is placed centrally between the text and the CTA button.",
+      "The illustration serves as a mascot/character mascot, reinforcing the friendly brand tone.",
+      "High contrast text for accessibility."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The mascot is placed centrally between the text and the CTA button."
+    ],
+    "content_blocks": [
+      "Duo",
+      "CONTINUE"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat character illustration, mobile-first UI.",
+      "green",
+      "white",
+      "gray",
+      "Hero illustration is the mascot character.",
+      "The mascot is placed centrally between the text and the CTA button.",
+      "The illustration serves as a mascot/character mascot, reinforcing the friendly brand tone.",
+      "High contrast text for accessibility."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat character illustration, mobile-first UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_characters_02"
+}

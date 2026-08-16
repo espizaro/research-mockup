@@ -1,0 +1,173 @@
+{
+  "image": "06 - ABY Journal.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image is a screenshot from a mobile app called 'ABY Journal' used for emotional journaling, featuring an input form for users to reflect on their feelings and current thoughts.",
+    "ocr": {
+      "full_text": "9:41 Let's begin with this moment, Alex! No perfect words needed. Just what's true right now... Right now, I'm feeling emotion because I reason for emotion. I've also been thinking about something on your mind Current emotional state Add something personal to you peaceful overwhelmed anxious thankful Add yours! ABY Journal curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Let's begin with this",
+          "language": "en"
+        },
+        {
+          "text": "moment, Alex!",
+          "language": "en"
+        },
+        {
+          "text": "No perfect words needed. Just what's",
+          "language": "en"
+        },
+        {
+          "text": "true right now...",
+          "language": "en"
+        },
+        {
+          "text": "Right now, I'm feeling emotion",
+          "language": "en"
+        },
+        {
+          "text": "because I reason for emotion.",
+          "language": "en"
+        },
+        {
+          "text": "I've also been thinking about",
+          "language": "en"
+        },
+        {
+          "text": "something on your mind",
+          "language": "en"
+        },
+        {
+          "text": "Current emotional state",
+          "language": "en"
+        },
+        {
+          "text": "Add something personal",
+          "language": "en"
+        },
+        {
+          "text": "to you",
+          "language": "en"
+        },
+        {
+          "text": "peaceful",
+          "language": "en"
+        },
+        {
+          "text": "overwhelmed",
+          "language": "en"
+        },
+        {
+          "text": "anxious",
+          "language": "en"
+        },
+        {
+          "text": "thankful",
+          "language": "en"
+        },
+        {
+          "text": "Add yours!",
+          "language": "en"
+        },
+        {
+          "text": "ABY Journal",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Let's begin with this moment, Alex!"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "No perfect words needed. Just what's true right now..."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Right now, I'm feeling emotion because I reason for emotion. I've also been thinking about something on your mind"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Current emotional state Add something personal to you peaceful overwhelmed anxious thankful Add yours!"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "To capture user's emotional state and thoughts for a journal entry.",
+      "entities": [
+        {
+          "name": "Alex",
+          "type": "user"
+        },
+        {
+          "name": "ABY Journal",
+          "type": "app"
+        },
+        {
+          "name": "Mobbin",
+          "type": "curator"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Alex",
+          "predicate": "user of",
+          "object": "ABY Journal"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-gray",
+        "magenta",
+        "orange",
+        "teal"
+      ],
+      "style": "Modern minimalist UI",
+      "notes": [
+        "Uses a bottom-sheet style popup overlay for selecting emotions."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:41.898Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.94,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 878,
+      "totalTokenCount": 2105,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

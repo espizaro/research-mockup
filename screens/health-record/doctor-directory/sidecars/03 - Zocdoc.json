@@ -1,0 +1,197 @@
+{
+  "image": "03 - Zocdoc.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image is a screenshot of a mobile application profile page for a medical professional, Dr. Anjelica Peacock, MD. It displays office location details, a patient review summary with a rating, and a navigation bar at the bottom.",
+    "ocr": {
+      "full_text": "9:41 Dr. Anjelica Peacock, MD Office locations Bushwick Dermatology 1163 Myrtle Ave, Brooklyn, NY 11206 Get directions What patients are saying Patient Choice Providers with this badge are highly rated, reliable, and recommended by other patients. Overall 4.8 Home Appointments Insurance My health Zocdoc curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Dr. Anjelica Peacock, MD",
+          "language": "en"
+        },
+        {
+          "text": "Office locations",
+          "language": "en"
+        },
+        {
+          "text": "Bushwick Dermatology",
+          "language": "en"
+        },
+        {
+          "text": "1163 Myrtle Ave, Brooklyn, NY 11206",
+          "language": "en"
+        },
+        {
+          "text": "Get directions",
+          "language": "en"
+        },
+        {
+          "text": "What patients are saying",
+          "language": "en"
+        },
+        {
+          "text": "Patient Choice",
+          "language": "en"
+        },
+        {
+          "text": "Providers with this badge are highly rated, reliable, and recommended by other patients.",
+          "language": "en"
+        },
+        {
+          "text": "Overall",
+          "language": "en"
+        },
+        {
+          "text": "4.8",
+          "language": "en"
+        },
+        {
+          "text": "Home",
+          "language": "en"
+        },
+        {
+          "text": "Appointments",
+          "language": "en"
+        },
+        {
+          "text": "Insurance",
+          "language": "en"
+        },
+        {
+          "text": "My health",
+          "language": "en"
+        },
+        {
+          "text": "Zocdoc",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Dr. Anjelica Peacock, MD"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Office locations"
+        },
+        {
+          "type": "image",
+          "reading_order": 3,
+          "text": "Map view of Bushwick area"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Bushwick Dermatology 1163 Myrtle Ave, Brooklyn, NY 11206"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Get directions"
+        },
+        {
+          "type": "title",
+          "reading_order": 6,
+          "text": "What patients are saying"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Patient Choice: Providers with this badge are highly rated, reliable, and recommended by other patients."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "Overall 4.8"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Medical provider profile page on a mobile device.",
+      "intent": "View provider details, ratings, and office location.",
+      "entities": [
+        {
+          "name": "Dr. Anjelica Peacock",
+          "type": "Person",
+          "evidence": "Header text"
+        },
+        {
+          "name": "Bushwick Dermatology",
+          "type": "Organization",
+          "evidence": "Location text"
+        },
+        {
+          "name": "1163 Myrtle Ave, Brooklyn, NY 11206",
+          "type": "Location",
+          "evidence": "Address text"
+        },
+        {
+          "name": "Zocdoc",
+          "type": "Product",
+          "evidence": "Footer text"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Dr. Anjelica Peacock",
+          "predicate": "practices at",
+          "object": "Bushwick Dermatology"
+        },
+        {
+          "subject": "Bushwick Dermatology",
+          "predicate": "is located at",
+          "object": "1163 Myrtle Ave, Brooklyn, NY 11206"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "gray"
+      ],
+      "style": "Mobile app UI, clean, minimalist design.",
+      "notes": [
+        "Includes navigation bar at bottom",
+        "Map snippet shows Apple Maps logo"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:48.981Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.419,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1065,
+      "totalTokenCount": 2292,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

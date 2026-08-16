@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Hers",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/intake/01 - Hers.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:07.653Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding or preference selection interface.",
+    "primary_flow": "daily-check-in/intake",
+    "ux_intent": "To collect user food preferences through a multi-select interactive interface.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "The UI uses rounded pill-shaped buttons for options.",
+      "A progress indicator exists at the top."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The UI uses rounded pill-shaped buttons for options."
+    ],
+    "content_blocks": [
+      "Alma",
+      "Mobbin",
+      "Spicy, Sweet, Savory, Salty, Umami, Comfort, Seafood, Mexican, Italian, Mediterranean, Thai, Indian, Japanese, Vietnamese, Middle Eastern"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile application UI",
+      "off-white",
+      "brown",
+      "dark-green",
+      "orange",
+      "light-blue",
+      "purple",
+      "The UI uses rounded pill-shaped buttons for options.",
+      "A progress indicator exists at the top."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile application UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_intake_01"
+}

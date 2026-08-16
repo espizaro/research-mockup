@@ -1,0 +1,62 @@
+{
+  "identification": {
+    "app_name": "Tonal",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-goals/08 - Tonal.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:02.042Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding/User preference settings",
+    "primary_flow": "auth-onboarding-goals",
+    "ux_intent": "User selects fitness goals",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Settings",
+      "Profile",
+      "Minimalist",
+      "Checkbox",
+      "No hero illustrations; content-heavy",
+      "High-contrast CTA button",
+      "Checkbox-style selectors (empty boxes visible)"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Checkbox",
+      "High-contrast CTA button"
+    ],
+    "content_blocks": [
+      "Fitness Profile",
+      "Movement Quality",
+      "Muscle Growth",
+      "Strength",
+      "Weight Loss",
+      "None of the above",
+      "CONTINUE"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat UI design",
+      "white",
+      "light-grey",
+      "black",
+      "No hero illustrations; content-heavy",
+      "High-contrast CTA button",
+      "Checkbox-style selectors (empty boxes visible)"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_goals_08"
+}

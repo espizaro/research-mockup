@@ -1,0 +1,190 @@
+{
+  "image": "05 - Deel.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app notification screen for the platform 'Deel', displaying a list of alerts including contract signing requests and a request for further business details. The interface includes options to view 'All' notifications or 'Unread' (7), and provides individual action buttons like 'Review', 'Add Details', and 'Mark as read' for each notification.",
+    "ocr": {
+      "full_text": "9:41\nNotifications\nAll\nUnread (7)\nReview\nMark as read\nSign new contract\nReview and sign the contract sam lee -\nproduct designer\nYesterday • about 23 hours ago\nReview\nMark as read\nSign new contract\nReview and sign the contract sam lee -\nproduct designer\nYesterday • 1 day ago\nReview\nMark as read\n30th Sep, 2024\nFurther details required\nOur team have requested some additional\ndetails about your business. please provide\nthese to unlock all payment methods.\n30th Sep, 2024 • 11:20 PM\nAdd Details\nMark as read\nDeel\ncurated by\nMobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Notifications"
+        },
+        {
+          "text": "All"
+        },
+        {
+          "text": "Unread (7)"
+        },
+        {
+          "text": "Review"
+        },
+        {
+          "text": "Mark as read"
+        },
+        {
+          "text": "Sign new contract"
+        },
+        {
+          "text": "Review and sign the contract sam lee - product designer"
+        },
+        {
+          "text": "Yesterday • about 23 hours ago"
+        },
+        {
+          "text": "Review"
+        },
+        {
+          "text": "Mark as read"
+        },
+        {
+          "text": "Sign new contract"
+        },
+        {
+          "text": "Review and sign the contract sam lee - product designer"
+        },
+        {
+          "text": "Yesterday • 1 day ago"
+        },
+        {
+          "text": "Review"
+        },
+        {
+          "text": "Mark as read"
+        },
+        {
+          "text": "30th Sep, 2024"
+        },
+        {
+          "text": "Further details required"
+        },
+        {
+          "text": "Our team have requested some additional details about your business. please provide these to unlock all payment methods."
+        },
+        {
+          "text": "30th Sep, 2024 • 11:20 PM"
+        },
+        {
+          "text": "Add Details"
+        },
+        {
+          "text": "Mark as read"
+        },
+        {
+          "text": "Deel"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Notifications"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "All Unread (7)"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Sign new contract. Review and sign the contract sam lee - product designer. Yesterday • about 23 hours ago. Review Mark as read."
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Sign new contract. Review and sign the contract sam lee - product designer. Yesterday • 1 day ago. Review Mark as read."
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "30th Sep, 2024. Further details required. Our team have requested some additional details about your business. please provide these to unlock all payment methods. 30th Sep, 2024 • 11:20 PM. Add Details Mark as read."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Notification settings page within a mobile application (Deel).",
+      "intent": "To inform the user of pending actions, specifically signing contracts and submitting business documentation.",
+      "entities": [
+        {
+          "name": "Deel",
+          "type": "Company",
+          "evidence": "Logo at bottom left"
+        },
+        {
+          "name": "Sam Lee",
+          "type": "Person",
+          "evidence": "Mentioned in the contract notification"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Company",
+          "evidence": "Curator branding at bottom right"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam Lee",
+          "predicate": "is a",
+          "object": "Product Designer"
+        },
+        {
+          "subject": "Deel",
+          "predicate": "platform for",
+          "object": "Notifications"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "grey",
+        "purple"
+      ],
+      "style": "Minimalist mobile UI, standard iOS status bar style.",
+      "notes": [
+        "Uses a purple dot to indicate unread or actionable items.",
+        "Clean typography and clear separation between items."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:20:51.932Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.64,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1156,
+      "totalTokenCount": 2383,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.641
+      }
+    ],
+    "warnings": []
+  }
+}

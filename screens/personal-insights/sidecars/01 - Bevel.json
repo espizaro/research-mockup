@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Bevel",
+    "platform": "ios",
+    "file_path": "screens/personal-insights/01 - Bevel.webp",
+    "analyzed_timestamp": "2026-08-05T19:47:22.153Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A nutrition tracking mobile application interface.",
+    "primary_flow": "personal-insights",
+    "ux_intent": "To inform the user about their nutritional performance trends and the methodology of the scoring system.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Card",
+      "Clean layout with card-based segments",
+      "Use of color coding for data ranges"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Nutrition Score",
+      "3-day trend",
+      "7-day trend",
+      "Bevel"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "white",
+      "light-gray",
+      "blue",
+      "purple",
+      "Clean layout with card-based segments",
+      "Use of color coding for data ranges"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_insights_01"
+}

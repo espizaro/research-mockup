@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Nike",
+    "platform": "ios",
+    "file_path": "screens/auth-register-success/02 - Nike.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:20.048Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile UI welcome screen confirming user registration for a Nike membership.",
+    "primary_flow": "auth-register-success",
+    "ux_intent": "To welcome a new user and acknowledge their membership status.",
+    "ux_patterns": [
+      "Onboarding",
+      "Dark Mode",
+      "Minimalist",
+      "The Nike logo is used as a hero graphic.",
+      "Text is white on black background.",
+      "Typography is clean and sans-serif.",
+      "The screen lacks a CTA button, suggesting this is a splash or onboarding confirmation page."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The screen lacks a CTA button, suggesting this is a splash or onboarding confirmation page."
+    ],
+    "content_blocks": [
+      "Alex",
+      "Nike",
+      "Nike Member"
+    ],
+    "visual_keywords": [
+      "Minimalist, high-contrast, dark mode interface.",
+      "hex 000000",
+      "hex FFFFFF",
+      "The Nike logo is used as a hero graphic.",
+      "Text is white on black background.",
+      "Typography is clean and sans-serif.",
+      "The screen lacks a CTA button, suggesting this is a splash or onboarding confirmation page."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, high-contrast, dark mode interface."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_success_02"
+}

@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Speak",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-characters/05 - Speak.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:06.170Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding or loading screen",
+    "primary_flow": "auth-onboarding-characters",
+    "ux_intent": "To inform the user that their personalized curriculum is being generated, reducing cognitive load during wait time.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "The mascot is a soft 3D character.",
+      "The central container uses a subtle gradient from blue to light blue.",
+      "Clean typography and ample white space define the visual hierarchy.",
+      "The layout is highly symmetric, centering the attention on the loading process."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Mascot",
+      "Speak"
+    ],
+    "visual_keywords": [
+      "Minimalist, modern, soft 3D, friendly mascot illustration",
+      "white",
+      "blue",
+      "light-blue",
+      "The mascot is a soft 3D character.",
+      "The central container uses a subtle gradient from blue to light blue.",
+      "Clean typography and ample white space define the visual hierarchy.",
+      "The layout is highly symmetric, centering the attention on the loading process."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, modern, soft 3D, friendly mascot illustration"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_characters_05"
+}

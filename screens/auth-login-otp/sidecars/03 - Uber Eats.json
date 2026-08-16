@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Uber Eats",
+    "platform": "ios",
+    "file_path": "screens/auth-login-otp/03 - Uber Eats.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:32.180Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application authentication screen for identity verification.",
+    "primary_flow": "auth-login-otp",
+    "ux_intent": "Verify user identity via 4-digit SMS code to complete an account login or registration step.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustrations or decorative art present.",
+      "Clear hierarchy: Heading, secondary link, input area, alternative action, timer, and primary CTA.",
+      "Standard iOS status bar elements present.",
+      "Button contrast is disabled ('Next') until input is complete.",
+      "Bottom branding indicates this is a sample from the Mobbin design library."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Clear hierarchy: Heading, secondary link, input area, alternative action, timer, and primary CTA.",
+      "Button contrast is disabled ('Next') until input is complete."
+    ],
+    "content_blocks": [
+      "Uber Eats",
+      "(650) 213-7379",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, mobile native UI",
+      "white",
+      "black",
+      "light gray",
+      "No hero illustrations or decorative art present.",
+      "Clear hierarchy: Heading, secondary link, input area, alternative action, timer, and primary CTA.",
+      "Standard iOS status bar elements present.",
+      "Button contrast is disabled ('Next') until input is complete.",
+      "Bottom branding indicates this is a sample from the Mobbin design library."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, mobile native UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_otp_03"
+}

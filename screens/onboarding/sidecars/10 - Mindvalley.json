@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Mindvalley",
+    "platform": "ios",
+    "file_path": "screens/onboarding/10 - Mindvalley.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:35.428Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding screen",
+    "primary_flow": "onboarding",
+    "ux_intent": "To inform the user about personalization and data privacy while soliciting a 'Continue' action to proceed.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Chart",
+      "Minimalist",
+      "Hero illustration uses a friendly, abstract character element (a hand).",
+      "Central alignment of text and illustration creates a clear focal point.",
+      "The illustration serves both decorative and metaphorical purposes (representing data handling).",
+      "Large, high-contrast CTA button follows standard mobile interaction patterns."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Large, high-contrast CTA button follows standard mobile interaction patterns."
+    ],
+    "content_blocks": [
+      "Ahead",
+      "Continue",
+      "Data Privacy Disclosure"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat illustration, clean mobile UI design.",
+      "white",
+      "purple",
+      "light blue",
+      "red",
+      "Hero illustration uses a friendly, abstract character element (a hand).",
+      "Central alignment of text and illustration creates a clear focal point.",
+      "The illustration serves both decorative and metaphorical purposes (representing data handling).",
+      "Large, high-contrast CTA button follows standard mobile interaction patterns."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat illustration, clean mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_10"
+}

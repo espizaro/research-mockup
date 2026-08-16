@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Superpower",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-tour/01 - Superpower.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:40.308Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen for a health/wellness app ('Superpower') where users select setup tasks.",
+    "primary_flow": "auth-onboarding-tour",
+    "ux_intent": "Guide the user to provide personal information or schedule tests to personalize their health twin.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Card",
+      "Small abstract icon illustrations are placed inside each selection card on the right.",
+      "The 'Tell us about yourself' card is currently active/highlighted with an orange border.",
+      "The design uses a clean sans-serif typeface and generous white space.",
+      "Footer contains attribution to 'Mobbin', suggesting this is a design reference screenshot."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Superpower",
+      "Mobbin",
+      "Next"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile UI; high-contrast typography; card-based selection pattern.",
+      "white",
+      "orange",
+      "dark-grey",
+      "black",
+      "Small abstract icon illustrations are placed inside each selection card on the right.",
+      "The 'Tell us about yourself' card is currently active/highlighted with an orange border.",
+      "The design uses a clean sans-serif typeface and generous white space.",
+      "Footer contains attribution to 'Mobbin', suggesting this is a design reference screenshot."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile UI; high-contrast typography; card-based selection pattern."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_tour_01"
+}

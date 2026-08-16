@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Kitchen Stories",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-illustrated/01 - Kitchen Stories.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:26.351Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding or feature activation confirmation screen.",
+    "primary_flow": "auth-onboarding-illustrated",
+    "ux_intent": "To confirm that the user has successfully subscribed or activated the 'Kitchen Stories Plus' feature and to transition them back into the app experience.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "The illustration acts as a hero image, positioned centrally to reinforce the positive message of a successful subscription.",
+      "The illustration is representational and thematic, associating the service with cooking/food.",
+      "High contrast for the CTA button makes it the clear primary action.",
+      "The layout follows standard mobile UI patterns: top-aligned header, central visual, bottom-aligned CTA."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "High contrast for the CTA button makes it the clear primary action."
+    ],
+    "content_blocks": [
+      "Kitchen Stories Plus",
+      "Get started",
+      "High-five illustration"
+    ],
+    "visual_keywords": [
+      "Flat 2D vector illustration with a playful, clean, and friendly aesthetic.",
+      "cream/beige (background)",
+      "dark purple (button)",
+      "skin tones (hands)",
+      "various food colors (pizza, donut, etc)",
+      "The illustration acts as a hero image, positioned centrally to reinforce the positive message of a successful subscription.",
+      "The illustration is representational and thematic, associating the service with cooking/food.",
+      "High contrast for the CTA button makes it the clear primary action.",
+      "The layout follows standard mobile UI patterns: top-aligned header, central visual, bottom-aligned CTA."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Flat 2D vector illustration with a playful, clean, and friendly aesthetic."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_illustrated_01"
+}

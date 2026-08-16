@@ -1,0 +1,245 @@
+{
+  "image": "05 - Microsoft Outlook.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Microsoft Outlook mobile application's inbox, showing a list of emails organized by time periods (Yesterday, This Week, Last Month, 2025).",
+    "ocr": {
+      "full_text": "9:41 Inbox Focused Other Filter Yesterday Alex Follow-Up on Work Orange category Hi Sam, I wanted to follow up regarding our recent work discussion. Pleas... This Week Ibotta Please confirm your email address. Let's make it official. Hi Sam, Are you ready to make it official? Confirm your email by cli... Last Month Faire Faire Market starts now! You can now shop the best deals of the season at the world's largest online wholes... 2025 TheFork Booking canceled: La Vittoria Ciro e Carmin... Learn about what happens next Booking.com Email Calendar Apps Microsoft Outlook curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Inbox"
+        },
+        {
+          "text": "Focused Other"
+        },
+        {
+          "text": "Filter"
+        },
+        {
+          "text": "Yesterday"
+        },
+        {
+          "text": "Alex"
+        },
+        {
+          "text": "Follow-Up on Work"
+        },
+        {
+          "text": "Orange category Hi Sam, I wanted to follow up regarding our recent work discussion. Pleas..."
+        },
+        {
+          "text": "This Week"
+        },
+        {
+          "text": "Ibotta"
+        },
+        {
+          "text": "Please confirm your email address."
+        },
+        {
+          "text": "Let's make it official. Hi Sam, Are you ready to make it official? Confirm your email by cli..."
+        },
+        {
+          "text": "Last Month"
+        },
+        {
+          "text": "Faire"
+        },
+        {
+          "text": "Faire Market starts now!"
+        },
+        {
+          "text": "You can now shop the best deals of the season at the world's largest online wholes..."
+        },
+        {
+          "text": "2025"
+        },
+        {
+          "text": "TheFork"
+        },
+        {
+          "text": "Booking canceled: La Vittoria Ciro e Carmin..."
+        },
+        {
+          "text": "Learn about what happens next"
+        },
+        {
+          "text": "Booking.com"
+        },
+        {
+          "text": "Email"
+        },
+        {
+          "text": "Calendar"
+        },
+        {
+          "text": "Apps"
+        },
+        {
+          "text": "Microsoft Outlook"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Inbox"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Focused Other Filter"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Yesterday"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Alex, Follow-Up on Work, Hi Sam, I wanted to follow up regarding our recent work discussion. Pleas..."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "This Week"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Ibotta, Please confirm your email address., Let's make it official. Hi Sam, Are you ready to make it official? Confirm your email by cli..."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Last Month"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Faire, Faire Market starts now!, You can now shop the best deals of the season at the world's largest online wholes..."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 9,
+          "text": "2025"
+        },
+        {
+          "type": "list",
+          "reading_order": 10,
+          "text": "TheFork, Booking canceled: La Vittoria Ciro e Carmin..., Learn about what happens next, Booking.com"
+        },
+        {
+          "type": "form",
+          "reading_order": 11,
+          "text": "Email Calendar Apps"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Email application user interface",
+      "intent": "Email management and navigation",
+      "entities": [
+        {
+          "name": "Microsoft Outlook",
+          "type": "application"
+        },
+        {
+          "name": "Inbox",
+          "type": "folder"
+        },
+        {
+          "name": "Sam",
+          "type": "person"
+        },
+        {
+          "name": "Alex",
+          "type": "sender"
+        },
+        {
+          "name": "Ibotta",
+          "type": "sender"
+        },
+        {
+          "name": "Faire",
+          "type": "sender"
+        },
+        {
+          "name": "TheFork",
+          "type": "sender"
+        },
+        {
+          "name": "Booking.com",
+          "type": "sender"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam",
+          "predicate": "is recipient of",
+          "object": "email from Alex"
+        },
+        {
+          "subject": "Sam",
+          "predicate": "is recipient of",
+          "object": "email from Ibotta"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "blue",
+        "white",
+        "grey"
+      ],
+      "style": "Modern minimalist mobile interface, clean icons, sans-serif typography",
+      "notes": [
+        "The UI uses a bottom navigation bar with icons for Email, Calendar, and Apps.",
+        "There is a floating action button on the bottom right."
+      ]
+    },
+    "uncertainty": [
+      "The full text of some truncated email previews is not visible.",
+      "The exact date of the 'Ibotta' email is only labeled as 'Monday'."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:20:02.558Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.498,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1318,
+      "totalTokenCount": 2545,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.5
+      }
+    ],
+    "warnings": []
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "image": "01 - Liven.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image is a screenshot of a mobile mental health or productivity application named Liven. The main screen prompts the user to 'Log mood' using a circular gradient color picker and displays daily tasks with a 'Today's routine' section showing completed items.",
+    "ocr": {
+      "full_text": "9:41\nHello, alexsmith\nHow do you feel right now?\nLog mood\nJournal\nTo-do\nTests\nSounds\nToday's routine\n3 of 3 completed\nContinue learning\nEmotions from the CBT Point\nof View\nToday\nJourney\nExplore\nCompan...\nProfile\nLiven\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Hello, alexsmith"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "How do you feel right now?"
+        },
+        {
+          "text": "Log mood"
+        },
+        {
+          "text": "Journal"
+        },
+        {
+          "text": "To-do"
+        },
+        {
+          "text": "Tests"
+        },
+        {
+          "text": "Sounds"
+        },
+        {
+          "text": "Today's routine"
+        },
+        {
+          "text": "3 of 3 completed"
+        },
+        {
+          "text": "Continue learning"
+        },
+        {
+          "text": "Emotions from the CBT Point of View"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Journey"
+        },
+        {
+          "text": "Explore"
+        },
+        {
+          "text": "Compan..."
+        },
+        {
+          "text": "Profile"
+        },
+        {
+          "text": "Liven"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Hello, alexsmith"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "How do you feel right now?"
+        },
+        {
+          "type": "image",
+          "reading_order": 3,
+          "text": "Circular mood logging graphic"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Journal, To-do, Tests, Sounds icons/labels"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Today's routine"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "3 of 3 completed"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Continue learning: Emotions from the CBT Point of View"
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Bottom navigation bar: Today, Journey, Explore, Compan..., Profile"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "User interface for daily mood tracking and routine management.",
+      "entities": [
+        {
+          "name": "Liven",
+          "type": "Application Name"
+        },
+        {
+          "name": "alexsmith",
+          "type": "User Name"
+        },
+        {
+          "name": "Today's routine",
+          "type": "Task Section"
+        },
+        {
+          "name": "Emotions from the CBT Point of View",
+          "type": "Educational Content"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "alexsmith",
+          "predicate": "uses",
+          "object": "Liven"
+        },
+        {
+          "subject": "Today's routine",
+          "predicate": "contains",
+          "object": "Emotions from the CBT Point of View"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "gradient green-to-blue",
+        "light grey"
+      ],
+      "style": "Modern minimalist mobile application UI",
+      "notes": [
+        "Uses a gradient circular progress-style element for mood tracking",
+        "Clear grid-based navigation at bottom"
+      ]
+    },
+    "uncertainty": [
+      "The bottom nav item 'Compan...' is likely truncated 'Companion' or similar but cannot be confirmed."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:00.859Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.211,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 895,
+      "totalTokenCount": 2122,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Baemin",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/detail-sections/07 - Baemin.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:40.986Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application interface for an e-commerce platform displaying a flower bouquet product page.",
+    "primary_flow": "daily-check-in/detail-sections",
+    "ux_intent": "To facilitate the purchase of a flower bouquet and promote the Baemin shopping service.",
+    "ux_patterns": [
+      "Form",
+      "Tabs",
+      "Minimalist",
+      "The aesthetic is minimalist and modern.",
+      "Primary call-to-action button is teal.",
+      "The product image is central and brightly lit."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Primary call-to-action button is teal."
+    ],
+    "content_blocks": [
+      "Floris Flower",
+      "Baemin",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "clean mobile interface design",
+      "peach",
+      "white",
+      "teal",
+      "dark gray",
+      "The aesthetic is minimalist and modern.",
+      "Primary call-to-action button is teal.",
+      "The product image is central and brightly lit."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean mobile interface design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_detail_sections_07"
+}

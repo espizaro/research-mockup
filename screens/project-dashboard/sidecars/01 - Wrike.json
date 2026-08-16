@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Wrike",
+    "platform": "ios",
+    "file_path": "screens/project-dashboard/01 - Wrike.webp",
+    "analyzed_timestamp": "2026-08-06T23:57:44.669Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Project Management / Task Board interface",
+    "primary_flow": "project-dashboard",
+    "ux_intent": "Task management and organization",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Card",
+      "High usage of whitespace",
+      "Sans-serif typography",
+      "Kanban board layout pattern"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Marketing",
+      "Onboard John",
+      "Jane D.",
+      "Company Space"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern SaaS UI",
+      "white",
+      "light grey",
+      "dark grey",
+      "High usage of whitespace",
+      "Sans-serif typography",
+      "Kanban board layout pattern"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern SaaS UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_project_dashboard_01"
+}

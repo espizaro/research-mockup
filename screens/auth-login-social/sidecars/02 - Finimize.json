@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Finimize",
+    "platform": "ios",
+    "file_path": "screens/auth-login-social/02 - Finimize.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:17.103Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application authentication/login screen.",
+    "primary_flow": "auth-login-social",
+    "ux_intent": "To allow the user to access their account via SSO (Apple, Google) or by logging in with email and password, while providing an onboarding pathway for legacy email-code users.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "No hero illustrations present; the screen is strictly functional.",
+      "High contrast design for readability.",
+      "Standard iOS status bar header.",
+      "Footer branding indicates this is likely a screenshot from the Mobbin design inspiration library."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Finimize",
+      "Apple",
+      "Google"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, utility-focused mobile UI.",
+      "white",
+      "black",
+      "blue",
+      "grey",
+      "No hero illustrations present; the screen is strictly functional.",
+      "High contrast design for readability.",
+      "Standard iOS status bar header.",
+      "Footer branding indicates this is likely a screenshot from the Mobbin design inspiration library."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, utility-focused mobile UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_social_02"
+}

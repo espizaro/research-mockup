@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Skip",
+    "platform": "ios",
+    "file_path": "screens/signup-social/03 - Skip.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:10.138Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding / Authentication screen",
+    "primary_flow": "signup-social",
+    "ux_intent": "User registration or login",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "Hero illustration is a warm, character-driven depiction of people socializing over food/drink, placed at the top to set an inviting tone.",
+      "The layout follows a clear vertical hierarchy: Illustration -> Headline -> Social CTA -> Email CTA -> Footer links.",
+      "Typography is clean sans-serif."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Apple",
+      "Facebook",
+      "Google",
+      "Terms Of Service",
+      "Privacy Policy"
+    ],
+    "visual_keywords": [
+      "Modern minimalist mobile UI with a flat character illustration.",
+      "white",
+      "orange",
+      "dark grey",
+      "blue",
+      "Hero illustration is a warm, character-driven depiction of people socializing over food/drink, placed at the top to set an inviting tone.",
+      "The layout follows a clear vertical hierarchy: Illustration -> Headline -> Social CTA -> Email CTA -> Footer links.",
+      "Typography is clean sans-serif."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist mobile UI with a flat character illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_signup_social_03"
+}

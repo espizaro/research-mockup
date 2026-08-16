@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Genie",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-tour/05 - Genie.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:43.557Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding screen demonstrating a chat-based AI assistant interface.",
+    "primary_flow": "auth-onboarding-tour",
+    "ux_intent": "Explain the value proposition of social reminders to the user.",
+    "ux_patterns": [
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "Carousel",
+      "The design features a clear hierarchy with chat bubbles for context and centered instructional text below.",
+      "Uses a standard carousel indicator (dots) to show progress.",
+      "The style is clean and modern, focusing on readability."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Genie",
+      "Matt",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, chat-message aesthetic.",
+      "white",
+      "black",
+      "grey",
+      "The design features a clear hierarchy with chat bubbles for context and centered instructional text below.",
+      "Uses a standard carousel indicator (dots) to show progress.",
+      "The style is clean and modern, focusing on readability."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, chat-message aesthetic."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_tour_05"
+}

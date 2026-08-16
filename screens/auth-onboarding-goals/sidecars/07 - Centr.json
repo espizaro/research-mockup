@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Centr",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-goals/07 - Centr.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:59.272Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding/Fitness app configuration screen",
+    "primary_flow": "auth-onboarding-goals",
+    "ux_intent": "To collect user preferences for fitness goals",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Card",
+      "Radio",
+      "No hero illustrations or imagery used.",
+      "Primary focus is on clarity and user input.",
+      "Clear visual distinction for the selected state of the radio button."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Primary focus is on clarity and user input.",
+      "Clear visual distinction for the selected state of the radio button."
+    ],
+    "content_blocks": [
+      "Centr",
+      "Alex",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, clean sans-serif typography, high contrast, radio button selection pattern",
+      "hex FFFFFF",
+      "hex F2F2F2",
+      "hex 000000",
+      "No hero illustrations or imagery used.",
+      "Primary focus is on clarity and user input.",
+      "Clear visual distinction for the selected state of the radio button."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, clean sans-serif typography, high contrast, radio button selection pattern"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_goals_07"
+}

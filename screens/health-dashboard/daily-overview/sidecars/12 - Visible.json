@@ -1,0 +1,179 @@
+{
+  "image": "12 - Visible.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the 'Visible' health tracking mobile application. The main interface displays a dashboard for daily health logging categorized by 'Monthly check-in', 'Morning check-in', and 'Evening check-in', with bottom navigation for 'Today', 'Trends', 'Community', and 'Profile'.",
+    "ocr": {
+      "full_text": "9.41\n< Sun, 08 Dec >\nMonthly check-in\n4.4 Functional capacity\nMorning check-in\n- Morning Stability\nSleep\nEvening check-in\nSymptoms\nExertion\nOther factors\nToday\nTrends\nCommunity\nProfile\nVisible\ncurated by\nMobbin",
+      "lines": [
+        {
+          "text": "9.41"
+        },
+        {
+          "text": "< Sun, 08 Dec >"
+        },
+        {
+          "text": "Monthly check-in"
+        },
+        {
+          "text": "4.4 Functional capacity"
+        },
+        {
+          "text": "Morning check-in"
+        },
+        {
+          "text": "- Morning Stability"
+        },
+        {
+          "text": "Sleep"
+        },
+        {
+          "text": "Evening check-in"
+        },
+        {
+          "text": "Symptoms"
+        },
+        {
+          "text": "Exertion"
+        },
+        {
+          "text": "Other factors"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Trends"
+        },
+        {
+          "text": "Community"
+        },
+        {
+          "text": "Profile"
+        },
+        {
+          "text": "Visible"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Sun, 08 Dec"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Monthly check-in"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Functional capacity 4.4"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 4,
+          "text": "Morning check-in"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Morning Stability"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Sleep"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 7,
+          "text": "Evening check-in"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Symptoms"
+        },
+        {
+          "type": "list",
+          "reading_order": 9,
+          "text": "Exertion"
+        },
+        {
+          "type": "list",
+          "reading_order": 10,
+          "text": "Other factors"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile app dashboard for health tracking.",
+      "intent": "User is viewing their health check-in schedule for Sunday, December 8th.",
+      "entities": [
+        {
+          "name": "Visible",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Curator"
+        },
+        {
+          "name": "Functional capacity",
+          "type": "Metric"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Visible",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "Dark Blue",
+        "White",
+        "Light Blue"
+      ],
+      "style": "Modern mobile application interface, dark mode.",
+      "notes": [
+        "The UI uses rounded rectangular containers for different data sections.",
+        "Bottom navigation bar indicates the current page is 'Today'."
+      ]
+    },
+    "uncertainty": [
+      "The time '9.41' is standard for iPhone screenshots, but it is ambiguous if it represents the actual current time or the device default."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:47:21.415Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.782,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 914,
+      "totalTokenCount": 2141,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

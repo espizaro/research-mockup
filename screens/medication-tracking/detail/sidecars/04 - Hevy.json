@@ -1,0 +1,200 @@
+{
+  "image": "04 - Hevy.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen for managing a 'Hevy' subscription, displaying PRO features, pricing plans (Yearly and Lifetime), and account management options.",
+    "ocr": {
+      "full_text": "9:41 Manage Subscription Your PRO subscription includes Unlimited Routines Unlimited Graph History Unlimited Custom Exercises Advanced Measurements Supporting Hevy Development Cancel Subscription Subscription Offers PRO Yearly S$ 32.98 Billed Annually PRO Lifetime S$ 104.98 Pay Once Cancel your subscription at any time. Privacy Policy Terms & Conditions Having issues with your subscription? Contact us at hello@hevyapp.com Restore Purchases Home Workout Profile Hevy curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Manage Subscription"
+        },
+        {
+          "text": "Your PRO subscription includes"
+        },
+        {
+          "text": "Unlimited Routines"
+        },
+        {
+          "text": "Unlimited Graph History"
+        },
+        {
+          "text": "Unlimited Custom Exercises"
+        },
+        {
+          "text": "Advanced Measurements"
+        },
+        {
+          "text": "Supporting Hevy Development"
+        },
+        {
+          "text": "Cancel Subscription"
+        },
+        {
+          "text": "Subscription Offers"
+        },
+        {
+          "text": "PRO Yearly"
+        },
+        {
+          "text": "S$ 32.98"
+        },
+        {
+          "text": "Billed Annually"
+        },
+        {
+          "text": "PRO Lifetime"
+        },
+        {
+          "text": "S$ 104.98"
+        },
+        {
+          "text": "Pay Once"
+        },
+        {
+          "text": "Cancel your subscription at any time."
+        },
+        {
+          "text": "Privacy Policy Terms & Conditions"
+        },
+        {
+          "text": "Having issues with your subscription?"
+        },
+        {
+          "text": "Contact us at hello@hevyapp.com"
+        },
+        {
+          "text": "Restore Purchases"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Workout"
+        },
+        {
+          "text": "Profile"
+        },
+        {
+          "text": "Hevy curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Manage Subscription"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Your PRO subscription includes: Unlimited Routines, Unlimited Graph History, Unlimited Custom Exercises, Advanced Measurements, Supporting Hevy Development"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Cancel Subscription"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 4,
+          "text": "Subscription Offers"
+        },
+        {
+          "type": "table",
+          "reading_order": 5,
+          "text": "PRO Yearly S$ 32.98 Billed Annually"
+        },
+        {
+          "type": "table",
+          "reading_order": 6,
+          "text": "PRO Lifetime S$ 104.98 Pay Once"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Cancel your subscription at any time. Privacy Policy Terms & Conditions"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "Having issues with your subscription? Contact us at hello@hevyapp.com"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 9,
+          "text": "Restore Purchases"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App subscription management screen",
+      "intent": "To inform the user of PRO benefits and provide options for subscription upgrades or management.",
+      "entities": [
+        {
+          "name": "Hevy",
+          "type": "App/Brand",
+          "evidence": "Text in footer and feature list"
+        },
+        {
+          "name": "PRO Yearly",
+          "type": "Subscription Plan",
+          "evidence": "Subscription offers section"
+        },
+        {
+          "name": "PRO Lifetime",
+          "type": "Subscription Plan",
+          "evidence": "Subscription offers section"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "PRO Yearly",
+          "predicate": "costs",
+          "object": "S$ 32.98"
+        },
+        {
+          "subject": "PRO Lifetime",
+          "predicate": "costs",
+          "object": "S$ 104.98"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue",
+        "grey"
+      ],
+      "style": "clean mobile application UI"
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:49.980Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 7.958,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1041,
+      "totalTokenCount": 2268,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

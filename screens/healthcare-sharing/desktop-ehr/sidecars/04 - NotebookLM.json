@@ -1,0 +1,276 @@
+{
+  "image": "04 - NotebookLM.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screen capture of the Google NotebookLM interface, displaying a project titled 'UX Researcher Job Description and Requirements'. The interface is organized into three main columns: 'Sources' on the left, a central 'Chat' area, and a 'Studio' sidebar on the right for audio and note-taking features.",
+    "ocr": {
+      "full_text": "UX Researcher Job Description and Requirements Share Settings S Sources + Add Discover Select all sources Common user research job interview qu... UX Researcher.pdf Chat Refresh UX Researcher Job Description and Requirements 2 sources These texts provide insight into the world of user research roles. One source outlines common questions an interviewer might ask a candidate for a user research position, covering their background and approach to decision-driven research, as exemplified by Roberta Dombrowski. The other text describes the job responsibilities and requirements for a UX Researcher, detailing the types of research conducted and the necessary skills and experience. Together, they paint a picture of the expectations and nature of a successful career in user research. Save to note Add note Audio Overview Mind Map tell me keywords to use on my CV to apply to this job Jump to bottom Based on the sources provided, and phrases you Start typing... 2 sources Describe necessary UX research experience years. List communicatio Studio Audio Overview Create an Audio Overview in more languages! Learn more UX Researcher Job Description a... 00:00 / 05:36 - English Interactive mode BETA Notes + Add note Study guide Briefing doc FAQ Timeline UX Researcher CV Keywords Based on the sources provided, here are some keywords and phrases you could consider using on your CV when applyin... NotebookLM curated by Mobbin",
+      "lines": [
+        {
+          "text": "UX Researcher Job Description and Requirements",
+          "language": "en"
+        },
+        {
+          "text": "Share",
+          "language": "en"
+        },
+        {
+          "text": "Settings",
+          "language": "en"
+        },
+        {
+          "text": "Sources",
+          "language": "en"
+        },
+        {
+          "text": "+ Add",
+          "language": "en"
+        },
+        {
+          "text": "Discover",
+          "language": "en"
+        },
+        {
+          "text": "Select all sources",
+          "language": "en"
+        },
+        {
+          "text": "Common user research job interview qu...",
+          "language": "en"
+        },
+        {
+          "text": "UX Researcher.pdf",
+          "language": "en"
+        },
+        {
+          "text": "Chat",
+          "language": "en"
+        },
+        {
+          "text": "Refresh",
+          "language": "en"
+        },
+        {
+          "text": "UX Researcher Job Description and Requirements",
+          "language": "en"
+        },
+        {
+          "text": "2 sources",
+          "language": "en"
+        },
+        {
+          "text": "These texts provide insight into the world of user research roles. One source outlines common questions an interviewer might ask a candidate for a user research position, covering their background and approach to decision-driven research, as exemplified by Roberta Dombrowski. The other text describes the job responsibilities and requirements for a UX Researcher, detailing the types of research conducted and the necessary skills and experience. Together, they paint a picture of the expectations and nature of a successful career in user research.",
+          "language": "en"
+        },
+        {
+          "text": "Save to note",
+          "language": "en"
+        },
+        {
+          "text": "Add note",
+          "language": "en"
+        },
+        {
+          "text": "Audio Overview",
+          "language": "en"
+        },
+        {
+          "text": "Mind Map",
+          "language": "en"
+        },
+        {
+          "text": "tell me keywords to use on my CV to apply to this job",
+          "language": "en"
+        },
+        {
+          "text": "Jump to bottom",
+          "language": "en"
+        },
+        {
+          "text": "Based on the sources provided, and phrases you",
+          "language": "en"
+        },
+        {
+          "text": "Start typing...",
+          "language": "en"
+        },
+        {
+          "text": "2 sources",
+          "language": "en"
+        },
+        {
+          "text": "Describe necessary UX research experience years.",
+          "language": "en"
+        },
+        {
+          "text": "List communicatio",
+          "language": "en"
+        },
+        {
+          "text": "Studio",
+          "language": "en"
+        },
+        {
+          "text": "Audio Overview",
+          "language": "en"
+        },
+        {
+          "text": "Create an Audio Overview in more languages! Learn more",
+          "language": "en"
+        },
+        {
+          "text": "UX Researcher Job Description a...",
+          "language": "en"
+        },
+        {
+          "text": "00:00 / 05:36 - English",
+          "language": "en"
+        },
+        {
+          "text": "Interactive mode BETA",
+          "language": "en"
+        },
+        {
+          "text": "Notes",
+          "language": "en"
+        },
+        {
+          "text": "+ Add note",
+          "language": "en"
+        },
+        {
+          "text": "Study guide",
+          "language": "en"
+        },
+        {
+          "text": "Briefing doc",
+          "language": "en"
+        },
+        {
+          "text": "FAQ",
+          "language": "en"
+        },
+        {
+          "text": "Timeline",
+          "language": "en"
+        },
+        {
+          "text": "UX Researcher CV Keywords",
+          "language": "en"
+        },
+        {
+          "text": "Based on the sources provided, here are some keywords and phrases you could consider using on your CV when applyin...",
+          "language": "en"
+        },
+        {
+          "text": "NotebookLM",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "UX Researcher Job Description and Requirements"
+        },
+        {
+          "type": "other",
+          "reading_order": 2,
+          "text": "Sources sidebar"
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Central chat interface"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "These texts provide insight into the world of user research roles. One source outlines common questions an interviewer might ask a candidate for a user research position, covering their background and approach to decision-driven research, as exemplified by Roberta Dombrowski. The other text describes the job responsibilities and requirements for a UX Researcher, detailing the types of research conducted and the necessary skills and experience. Together, they paint a picture of the expectations and nature of a successful career in user research."
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Studio sidebar"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Study guide, Briefing doc, FAQ, Timeline"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Software interface (Google NotebookLM) for organizing and summarizing research documents.",
+      "intent": "Productivity and study aid for job research.",
+      "entities": [
+        {
+          "name": "NotebookLM",
+          "type": "Software",
+          "evidence": "Logo and text in the bottom left"
+        },
+        {
+          "name": "Roberta Dombrowski",
+          "type": "Person",
+          "evidence": "Mentioned in the summary text"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization",
+          "evidence": "Credit in the bottom right"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "NotebookLM",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "blue",
+        "black"
+      ],
+      "style": "Clean, minimalist UI",
+      "notes": [
+        "Standard web-based layout with sidebar navigation and main content area.",
+        "Iconography is modern and flat."
+      ]
+    },
+    "uncertainty": [
+      "The full extent of the text in the 'List communicatio' and 'applyin...' fields is truncated by UI design."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:58.367Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.828,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1774,
+      "totalTokenCount": 2981,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

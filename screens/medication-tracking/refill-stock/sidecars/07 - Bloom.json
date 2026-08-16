@@ -1,0 +1,203 @@
+{
+  "image": "07 - Bloom.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen showing a portfolio page for a financial app named 'Bloom'. The main section displays 'Expired free stocks' which lists four stock holdings: Vanguard S&P 500 ETF, Roblox, Spotify, and DoorDash, each with a corresponding monetary value and share amount. There is also a promotional banner for 'Conquer Quests & earn Oinks' and a call-to-action button to 'Revive free stocks'. The bottom navigation bar includes 'Home', 'Discover', 'Learn', and 'Oink Hub'.",
+    "ocr": {
+      "full_text": "9:41\nMarket open •\nCloses in 3h >\nEarn\n1,668\nConquer Quests\n& earn Oinks\nEARN OINKS\nExpired free stocks (4) ❗\nVanguard S&P 500 ETF $1.00\n0.0024 shares\nRoblox $2.00\n0.0653 shares\nSpotify $1.02\n0.0073 shares\nDoorDash $1.94\n0.0243 shares\nRevive free stocks\nHome\nDiscover\nLearn\nOink Hub\nBloom\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Market open •"
+        },
+        {
+          "text": "Closes in 3h >"
+        },
+        {
+          "text": "Earn"
+        },
+        {
+          "text": "1,668"
+        },
+        {
+          "text": "Conquer Quests"
+        },
+        {
+          "text": "& earn Oinks"
+        },
+        {
+          "text": "EARN OINKS"
+        },
+        {
+          "text": "Expired free stocks (4) ❗"
+        },
+        {
+          "text": "Vanguard S&P 500 ETF $1.00"
+        },
+        {
+          "text": "0.0024 shares"
+        },
+        {
+          "text": "Roblox $2.00"
+        },
+        {
+          "text": "0.0653 shares"
+        },
+        {
+          "text": "Spotify $1.02"
+        },
+        {
+          "text": "0.0073 shares"
+        },
+        {
+          "text": "DoorDash $1.94"
+        },
+        {
+          "text": "0.0243 shares"
+        },
+        {
+          "text": "Revive free stocks"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Discover"
+        },
+        {
+          "text": "Learn"
+        },
+        {
+          "text": "Oink Hub"
+        },
+        {
+          "text": "Bloom"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Market open • Closes in 3h >"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Earn 1,668"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Conquer Quests & earn Oinks EARN OINKS"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Expired free stocks (4) ❗ Vanguard S&P 500 ETF $1.00 (0.0024 shares), Roblox $2.00 (0.0653 shares), Spotify $1.02 (0.0073 shares), DoorDash $1.94 (0.0243 shares)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Revive free stocks"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Home Discover Learn Oink Hub"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Bloom curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "Managing expired investment stocks",
+      "entities": [
+        {
+          "name": "Bloom",
+          "type": "Application Name"
+        },
+        {
+          "name": "Vanguard S&P 500 ETF",
+          "type": "Stock"
+        },
+        {
+          "name": "Roblox",
+          "type": "Stock"
+        },
+        {
+          "name": "Spotify",
+          "type": "Stock"
+        },
+        {
+          "name": "DoorDash",
+          "type": "Stock"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Vanguard S&P 500 ETF",
+          "predicate": "has_value",
+          "object": "$1.00"
+        },
+        {
+          "subject": "Roblox",
+          "predicate": "has_value",
+          "object": "$2.00"
+        },
+        {
+          "subject": "Spotify",
+          "predicate": "has_value",
+          "object": "$1.02"
+        },
+        {
+          "subject": "DoorDash",
+          "predicate": "has_value",
+          "object": "$1.94"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "pink",
+        "black",
+        "gray"
+      ],
+      "style": "Clean, modern mobile app UI"
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:50.549Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.456,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1178,
+      "totalTokenCount": 2405,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Oportun",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-illustrated/07 - Oportun.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:31.191Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app welcome screen",
+    "primary_flow": "auth-onboarding-illustrated",
+    "ux_intent": "User authentication or onboarding initiation",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "The illustration is a central hero element that provides context for life goals (travel, car, groceries).",
+      "It is positioned above the primary copy to draw initial visual attention.",
+      "The design uses a clean, sans-serif font.",
+      "Accessibility is high due to clear text, high contrast buttons, and defined whitespace."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Accessibility is high due to clear text, high contrast buttons, and defined whitespace."
+    ],
+    "content_blocks": [
+      "Oportun",
+      "Mobbin",
+      "Log in",
+      "Sign up"
+    ],
+    "visual_keywords": [
+      "Flat, modern, character-based vector illustration. The UI is minimalist with high contrast.",
+      "white",
+      "black",
+      "purple",
+      "peach/coral",
+      "teal/light green",
+      "The illustration is a central hero element that provides context for life goals (travel, car, groceries).",
+      "It is positioned above the primary copy to draw initial visual attention.",
+      "The design uses a clean, sans-serif font.",
+      "Accessibility is high due to clear text, high contrast buttons, and defined whitespace."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Flat, modern, character-based vector illustration. The UI is minimalist with high contrast."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_illustrated_07"
+}

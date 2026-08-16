@@ -1,0 +1,165 @@
+{
+  "image": "02 - Hims.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen for setting medication reminders. It includes a title 'Set your reminder', a description of the feature, a toggle for daily reminders, a specific time slot for 'Reminder 1', an 'Add another reminder' button, and a disclaimer at the bottom regarding the use of the tool.",
+    "ocr": {
+      "full_text": "9:41 Subscription Set your reminder Toggle medication reminders on to stay on top of your medication schedule. Remind me daily Reminder 1 8:00 AM + Add another reminder The med reminder is a tool to help you stay on track with your medication. Any information generated will not be shared with your Care Team. Contact your provider if you have any questions about your medication, including when and how often you should take it. Hims curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Subscription"
+        },
+        {
+          "text": "Set your reminder"
+        },
+        {
+          "text": "Toggle medication reminders on to stay on top"
+        },
+        {
+          "text": "of your medication schedule."
+        },
+        {
+          "text": "Remind me daily"
+        },
+        {
+          "text": "Reminder 1"
+        },
+        {
+          "text": "8:00 AM"
+        },
+        {
+          "text": "+ Add another reminder"
+        },
+        {
+          "text": "The med reminder is a tool to help you stay on track with your"
+        },
+        {
+          "text": "medication. Any information generated will not be shared with"
+        },
+        {
+          "text": "your Care Team. Contact your provider if you have any questions"
+        },
+        {
+          "text": "about your medication, including when and how often you"
+        },
+        {
+          "text": "should take it."
+        },
+        {
+          "text": "Hims"
+        },
+        {
+          "text": "curated by"
+        },
+        {
+          "text": "Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Subscription"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Set your reminder"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Toggle medication reminders on to stay on top of your medication schedule."
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Remind me daily"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Reminder 1 8:00 AM"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "+ Add another reminder"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "The med reminder is a tool to help you stay on track with your medication. Any information generated will not be shared with your Care Team. Contact your provider if you have any questions about your medication, including when and how often you should take it."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface for setting a medication reminder.",
+      "intent": "User is prompted to enable and configure a daily medication reminder.",
+      "entities": [
+        {
+          "name": "Remind me daily",
+          "type": "toggle switch",
+          "evidence": "On-screen switch enabled for daily reminders."
+        },
+        {
+          "name": "Reminder 1",
+          "type": "time configuration",
+          "evidence": "Currently set to 8:00 AM."
+        },
+        {
+          "name": "Hims",
+          "type": "brand",
+          "evidence": "Footer label."
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "configures",
+          "object": "medication reminder"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "green"
+      ],
+      "style": "Modern minimalist mobile app UI",
+      "notes": [
+        "The UI uses a modal-style overlay sheet.",
+        "Green toggle switch indicates feature is enabled."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:13.230Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.543,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1117,
+      "totalTokenCount": 2344,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

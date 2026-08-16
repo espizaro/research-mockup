@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Clue",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/02 - Clue.webp",
+    "analyzed_timestamp": "2026-08-05T19:44:09.039Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile interface for tracking daily health symptoms and metrics, specifically for a cycle tracking application.",
+    "primary_flow": "daily-check-in",
+    "ux_intent": "To allow the user to log health data for a specific date.",
+    "ux_patterns": [
+      "Form",
+      "Orange icons indicate selection or categories.",
+      "Teal used for primary action button and headers."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Teal used for primary action button and headers."
+    ],
+    "content_blocks": [
+      "Clue",
+      "Aug 12, 2025",
+      "Sleep quality",
+      "PMS"
+    ],
+    "visual_keywords": [
+      "Mobile App UI, modern, minimal, flat design",
+      "white",
+      "orange",
+      "teal",
+      "Orange icons indicate selection or categories.",
+      "Teal used for primary action button and headers."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile App UI, modern, minimal, flat design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_checkin_02"
+}

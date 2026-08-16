@@ -1,0 +1,265 @@
+{
+  "image": "07 - Beli.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows a mobile app interface for an Activity feed within Dropbox, displaying a list of recent file operations such as moves, renames, shares, views, and additions, categorized by 'TODAY' and 'LAST WEEK'.",
+    "ocr": {
+      "full_text": "9.41\nActivity\nDone\nTODAY\nMoved to folder 12.23 AM\nCamera Uploads\nDropbox\nSL\nSam Lee\nRenamed 12.23 AM\nmy picture-1.jpg\npantry.jpg\nSL\nSam Lee\nRenamed 12.22 AM\npantry.jpg\nmy picture-1.jpg\nSL\nSam Lee\nShared with 1 person 12.21 AM\nAS\nAlex Smith\nCan view\nSL\nSam Lee\nViewed 12.19 AM\nLAST WEEK\nSL\nSam Lee\nAdded to folder 28 Aug 2024 at 12.31 PM\nDropbox\nDropbox\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9.41",
+          "language": "en"
+        },
+        {
+          "text": "Activity",
+          "language": "en"
+        },
+        {
+          "text": "Done",
+          "language": "en"
+        },
+        {
+          "text": "TODAY",
+          "language": "en"
+        },
+        {
+          "text": "Moved to folder 12.23 AM",
+          "language": "en"
+        },
+        {
+          "text": "Camera Uploads",
+          "language": "en"
+        },
+        {
+          "text": "Dropbox",
+          "language": "en"
+        },
+        {
+          "text": "SL",
+          "language": "en"
+        },
+        {
+          "text": "Sam Lee",
+          "language": "en"
+        },
+        {
+          "text": "Renamed 12.23 AM",
+          "language": "en"
+        },
+        {
+          "text": "my picture-1.jpg",
+          "language": "en"
+        },
+        {
+          "text": "pantry.jpg",
+          "language": "en"
+        },
+        {
+          "text": "SL",
+          "language": "en"
+        },
+        {
+          "text": "Sam Lee",
+          "language": "en"
+        },
+        {
+          "text": "Renamed 12.22 AM",
+          "language": "en"
+        },
+        {
+          "text": "pantry.jpg",
+          "language": "en"
+        },
+        {
+          "text": "my picture-1.jpg",
+          "language": "en"
+        },
+        {
+          "text": "SL",
+          "language": "en"
+        },
+        {
+          "text": "Sam Lee",
+          "language": "en"
+        },
+        {
+          "text": "Shared with 1 person 12.21 AM",
+          "language": "en"
+        },
+        {
+          "text": "AS",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith",
+          "language": "en"
+        },
+        {
+          "text": "Can view",
+          "language": "en"
+        },
+        {
+          "text": "SL",
+          "language": "en"
+        },
+        {
+          "text": "Sam Lee",
+          "language": "en"
+        },
+        {
+          "text": "Viewed 12.19 AM",
+          "language": "en"
+        },
+        {
+          "text": "LAST WEEK",
+          "language": "en"
+        },
+        {
+          "text": "SL",
+          "language": "en"
+        },
+        {
+          "text": "Sam Lee",
+          "language": "en"
+        },
+        {
+          "text": "Added to folder 28 Aug 2024 at 12.31 PM",
+          "language": "en"
+        },
+        {
+          "text": "Dropbox",
+          "language": "en"
+        },
+        {
+          "text": "Dropbox",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Activity"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "TODAY"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Moved to folder 12.23 AM Camera Uploads Dropbox. Sam Lee Renamed 12.23 AM my picture-1.jpg pantry.jpg. Sam Lee Renamed 12.22 AM pantry.jpg my picture-1.jpg. Sam Lee Shared with 1 person 12.21 AM Alex Smith Can view. Sam Lee Viewed 12.19 AM"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "LAST WEEK"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Sam Lee Added to folder 28 Aug 2024 at 12.31 PM Dropbox"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface (Dropbox Activity feed).",
+      "intent": "Displaying chronological file activity logs for a user.",
+      "entities": [
+        {
+          "name": "Sam Lee",
+          "type": "User",
+          "evidence": "Avatar 'SL' and associated text"
+        },
+        {
+          "name": "Alex Smith",
+          "type": "User",
+          "evidence": "Avatar 'AS' and associated text"
+        },
+        {
+          "name": "Dropbox",
+          "type": "Platform/Service",
+          "evidence": "Branding text"
+        },
+        {
+          "name": "my picture-1.jpg",
+          "type": "File",
+          "evidence": "File name text"
+        },
+        {
+          "name": "pantry.jpg",
+          "type": "File",
+          "evidence": "File name text"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam Lee",
+          "predicate": "Renamed",
+          "object": "my picture-1.jpg"
+        },
+        {
+          "subject": "Sam Lee",
+          "predicate": "Shared with",
+          "object": "Alex Smith"
+        },
+        {
+          "subject": "Sam Lee",
+          "predicate": "Viewed",
+          "object": "File"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "purple",
+        "blue"
+      ],
+      "style": "Mobile UI, minimalist, clean",
+      "notes": [
+        "Standard iOS status bar header",
+        "Avatars are circular color-coded icons"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:20:15.144Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.736,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1495,
+      "totalTokenCount": 2722,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.737
+      }
+    ],
+    "warnings": []
+  }
+}

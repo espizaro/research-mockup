@@ -1,0 +1,48 @@
+{
+  "identification": {
+    "app_name": "BitePal",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/intake/06 - BitePal.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:35.101Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app interface",
+    "primary_flow": "daily-check-in/intake",
+    "ux_intent": "User is performing an intake or health assessment process.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Clean layout",
+      "Sans-serif typography",
+      "High contrast"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "superpower",
+      "Medical History"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "white",
+      "black",
+      "gray",
+      "Clean layout",
+      "Sans-serif typography",
+      "High contrast"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_intake_06"
+}

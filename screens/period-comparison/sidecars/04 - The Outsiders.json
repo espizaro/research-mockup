@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "The Outsiders",
+    "platform": "ios",
+    "file_path": "screens/period-comparison/04 - The Outsiders.webp",
+    "analyzed_timestamp": "2026-08-11T22:29:16.962Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app workout summary screen.",
+    "primary_flow": "period-comparison",
+    "ux_intent": "To visualize fitness tracking statistics for the month of December 2025.",
+    "ux_patterns": [
+      "Progress",
+      "Chart",
+      "Dark Mode",
+      "Minimalist",
+      "Clear contrast between data points and background.",
+      "Clean, minimalist iconography."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Workouts",
+      "December 2025",
+      "Training Load",
+      "Duration",
+      "Distance",
+      "Elevation Gain",
+      "Energy"
+    ],
+    "visual_keywords": [
+      "Modern mobile app dark mode design with data visualizations.",
+      "black",
+      "dark blue",
+      "white",
+      "light blue",
+      "Clear contrast between data points and background.",
+      "Clean, minimalist iconography."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile app dark mode design with data visualizations."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_period_comparison_04"
+}

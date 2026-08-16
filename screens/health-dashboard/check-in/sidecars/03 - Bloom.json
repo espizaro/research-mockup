@@ -1,0 +1,185 @@
+{
+  "image": "03 - Bloom.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for tracking daily mood and emotions. The current selections for the date Wednesday, March 6, are 'good' for mood, and 'content' and 'relaxed' for emotions.",
+    "ocr": {
+      "full_text": "Wed, Mar 6 Mood terrible bad okay good awesome Emotions tired content grateful not sure motivated anxious relaxed stressed Apply Bloom curated by Mobbin",
+      "lines": [
+        {
+          "text": "Wed, Mar 6"
+        },
+        {
+          "text": "Mood"
+        },
+        {
+          "text": "terrible"
+        },
+        {
+          "text": "bad"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "good"
+        },
+        {
+          "text": "awesome"
+        },
+        {
+          "text": "Emotions"
+        },
+        {
+          "text": "tired"
+        },
+        {
+          "text": "content"
+        },
+        {
+          "text": "grateful"
+        },
+        {
+          "text": "not sure"
+        },
+        {
+          "text": "motivated"
+        },
+        {
+          "text": "anxious"
+        },
+        {
+          "text": "relaxed"
+        },
+        {
+          "text": "stressed"
+        },
+        {
+          "text": "Apply"
+        },
+        {
+          "text": "Bloom"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Wed, Mar 6"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Mood"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "terrible, bad, okay, good, awesome"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Emotions"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "tired, content, grateful, not sure, motivated, anxious, relaxed, stressed"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Apply"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application interface for logging mood and emotional state for a specific date.",
+      "intent": "To allow the user to select their current mood and emotional state and apply the changes.",
+      "entities": [
+        {
+          "name": "Mood",
+          "type": "Category"
+        },
+        {
+          "name": "Emotions",
+          "type": "Category"
+        },
+        {
+          "name": "Wed, Mar 6",
+          "type": "Date"
+        },
+        {
+          "name": "Apply",
+          "type": "Button"
+        },
+        {
+          "name": "Bloom",
+          "type": "App Name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has selected",
+          "object": "good"
+        },
+        {
+          "subject": "User",
+          "predicate": "has selected",
+          "object": "content"
+        },
+        {
+          "subject": "User",
+          "predicate": "has selected",
+          "object": "relaxed"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "teal",
+        "light-red",
+        "pale-yellow"
+      ],
+      "style": "Clean, minimalist, flat design with soft pastel accents.",
+      "notes": [
+        "Checkmark icons indicate currently selected options.",
+        "The layout is split into two primary white cards.",
+        "Bottom navigation footer present."
+      ]
+    },
+    "uncertainty": [
+      "The rows of emotions below the second visible row are partially obscured and labels are not fully visible for some icons."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:17.950Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.831,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 859,
+      "totalTokenCount": 2086,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

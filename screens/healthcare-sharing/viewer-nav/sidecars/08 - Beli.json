@@ -1,0 +1,190 @@
+{
+  "image": "08 - Beli.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application profile page for a user named Judy Thelen on the Beli app. It displays her restaurant rankings, activity, streak, and personal stats.",
+    "ocr": {
+      "full_text": "9:41\nJudy Thelen\nBeen 1243\nWant to Try 980\nPlaces you both want to try\nRank on Beli #832\nCurrent Streak 125 weeks\nRecent Activity Taste Profile\nJudy ranked Massara with Eliot Frost\nFlatiron District, Manhattan\n21 visits\nNotes: Another day, another Massara rating. ...\nFeed Your Lists Search Leaderboard Profile\nBeli\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Judy Thelen",
+          "language": "en"
+        },
+        {
+          "text": "Been 1243",
+          "language": "en"
+        },
+        {
+          "text": "Want to Try 980",
+          "language": "en"
+        },
+        {
+          "text": "Places you both want to try",
+          "language": "en"
+        },
+        {
+          "text": "Rank on Beli #832",
+          "language": "en"
+        },
+        {
+          "text": "Current Streak 125 weeks",
+          "language": "en"
+        },
+        {
+          "text": "Recent Activity Taste Profile",
+          "language": "en"
+        },
+        {
+          "text": "Judy ranked Massara with Eliot Frost",
+          "language": "en"
+        },
+        {
+          "text": "Flatiron District, Manhattan",
+          "language": "en"
+        },
+        {
+          "text": "21 visits",
+          "language": "en"
+        },
+        {
+          "text": "Notes: Another day, another Massara rating. ...",
+          "language": "en"
+        },
+        {
+          "text": "Feed Your Lists Search Leaderboard Profile",
+          "language": "en"
+        },
+        {
+          "text": "Beli",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Judy Thelen"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Been 1243, Want to Try 980, Places you both want to try"
+        },
+        {
+          "type": "table",
+          "reading_order": 3,
+          "text": "Rank on Beli #832, Current Streak 125 weeks"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 4,
+          "text": "Recent Activity Taste Profile"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Judy ranked Massara with Eliot Frost, Flatiron District, Manhattan, 21 visits"
+        },
+        {
+          "type": "image",
+          "reading_order": 6,
+          "text": "Images of pasta and steak"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Notes: Another day, another Massara rating. ..."
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Feed, Your Lists, Search, Leaderboard, Profile"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app profile view",
+      "intent": "User profile engagement",
+      "entities": [
+        {
+          "name": "Judy Thelen",
+          "type": "User"
+        },
+        {
+          "name": "Beli",
+          "type": "Platform"
+        },
+        {
+          "name": "Massara",
+          "type": "Restaurant"
+        },
+        {
+          "name": "Eliot Frost",
+          "type": "Person"
+        },
+        {
+          "name": "Flatiron District, Manhattan",
+          "type": "Location"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Judy Thelen",
+          "predicate": "ranked",
+          "object": "Massara"
+        },
+        {
+          "subject": "Judy Thelen",
+          "predicate": "used",
+          "object": "Beli"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "teal"
+      ],
+      "style": "Mobile app UI",
+      "notes": [
+        "Clean, list-based interface with icons and thumbnails"
+      ]
+    },
+    "uncertainty": [
+      "The full text of the notes section is truncated."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:07.622Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.972,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1039,
+      "totalTokenCount": 2266,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

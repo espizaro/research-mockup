@@ -1,0 +1,167 @@
+{
+  "image": "06 - Bump.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for 'Bump', showing a 'Personalization' settings menu with options for connected accounts, map styles (standard/satellite), and toggles for 'Ski mode' and 'Unscratched areas'.",
+    "ocr": {
+      "full_text": "9:41 BUMP 24 views today Personalization Connected Accounts Map styles Standard Satellite Ski mode Add ski slopes and lifts to your Unscratched areas See the areas you've already un... directly on the main map. Bump curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "BUMP"
+        },
+        {
+          "text": "24 views today"
+        },
+        {
+          "text": "Personalization"
+        },
+        {
+          "text": "Connected Accounts"
+        },
+        {
+          "text": "Map styles"
+        },
+        {
+          "text": "Standard"
+        },
+        {
+          "text": "Satellite"
+        },
+        {
+          "text": "Ski mode"
+        },
+        {
+          "text": "Add ski slopes and lifts to your"
+        },
+        {
+          "text": "Unscratched areas"
+        },
+        {
+          "text": "See the areas you've already un... directly on the main map."
+        },
+        {
+          "text": "Bump"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Personalization"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "Connected Accounts"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 3,
+          "text": "Map styles"
+        },
+        {
+          "type": "image",
+          "reading_order": 4,
+          "text": "Map preview"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Standard Satellite"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Ski mode - Add ski slopes and lifts to your"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Unscratched areas - See the areas you've already un... directly on the main map."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App settings page for a mapping or social discovery app",
+      "intent": "User is configuring preferences for their map view, specifically regarding account connections and map-specific overlays like skiing information.",
+      "entities": [
+        {
+          "name": "Bump",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization"
+        },
+        {
+          "name": "Ski mode",
+          "type": "Setting"
+        },
+        {
+          "name": "Unscratched areas",
+          "type": "Setting"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Mobbin",
+          "predicate": "curates",
+          "object": "Bump"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#f5f3ef",
+        "#ffffff",
+        "#000000"
+      ],
+      "style": "Clean, modern, iOS-style mobile interface with rounded corners, light background, and sans-serif typography.",
+      "notes": [
+        "The 'Unscratched areas' text is truncated.",
+        "The layout is a modal sheet presentation."
+      ]
+    },
+    "uncertainty": [
+      "The full text of the description for 'Unscratched areas' is slightly truncated in the image and inferred as 'un...' followed by 'directly on the main map'."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:21:49.496Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.502,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 856,
+      "totalTokenCount": 2083,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 5.505
+      }
+    ],
+    "warnings": []
+  }
+}

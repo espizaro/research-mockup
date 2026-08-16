@@ -1,0 +1,167 @@
+{
+  "image": "07 - Plata Card.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for a 'Plata' app, showing a screen where a user must select 4 cash-back categories for July. Currently, '1% All purchases', '5% Airline tickets', '5% Home and DIY', and '5% Mobile, TV and Internet' are selected.",
+    "ocr": {
+      "full_text": "9:41 PLATA Cancel Select 4 categories for July 1% All purchases 5% Airline tickets 5% Children's stores 5% Clothing 5% Home and DIY 5% Mobile, TV and Internet 5% Restaurants 5% Sporting goods 5% Taxi Done Plata Card curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "PLATA"
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Select 4 categories"
+        },
+        {
+          "text": "for July"
+        },
+        {
+          "text": "1% All purchases"
+        },
+        {
+          "text": "5% Airline tickets"
+        },
+        {
+          "text": "5% Children's stores"
+        },
+        {
+          "text": "5% Clothing"
+        },
+        {
+          "text": "5% Home and DIY"
+        },
+        {
+          "text": "5% Mobile, TV and Internet"
+        },
+        {
+          "text": "5% Restaurants"
+        },
+        {
+          "text": "5% Sporting goods"
+        },
+        {
+          "text": "5% Taxi"
+        },
+        {
+          "text": "Done"
+        },
+        {
+          "text": "Plata Card"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Select 4 categories for July"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "1% All purchases, 5% Airline tickets, 5% Children's stores, 5% Clothing, 5% Home and DIY, 5% Mobile, TV and Internet, 5% Restaurants, 5% Sporting goods, 5% Taxi"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Done"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface for selecting rewards categories.",
+      "intent": "The user is prompted to choose 4 categories to earn rewards or cash-back for the month of July.",
+      "entities": [
+        {
+          "name": "Plata",
+          "type": "Application/Brand"
+        },
+        {
+          "name": "1% All purchases",
+          "type": "Reward Category"
+        },
+        {
+          "name": "5% Airline tickets",
+          "type": "Reward Category"
+        },
+        {
+          "name": "5% Home and DIY",
+          "type": "Reward Category"
+        },
+        {
+          "name": "5% Mobile, TV and Internet",
+          "type": "Reward Category"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has selected",
+          "object": "1% All purchases"
+        },
+        {
+          "subject": "User",
+          "predicate": "has selected",
+          "object": "5% Airline tickets"
+        },
+        {
+          "subject": "User",
+          "predicate": "has selected",
+          "object": "5% Home and DIY"
+        },
+        {
+          "subject": "User",
+          "predicate": "has selected",
+          "object": "5% Mobile, TV and Internet"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#ffffff",
+        "#f4f4f8",
+        "#ff6600",
+        "#3366cc"
+      ],
+      "style": "Minimalist mobile application interface",
+      "notes": [
+        "Items with blue checkmarks are selected.",
+        "Disabled items appear in light grey text.",
+        "The layout includes a persistent header and footer section."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:08.376Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.116,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 926,
+      "totalTokenCount": 2153,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Superpower",
+    "platform": "ios",
+    "file_path": "screens/alerts/01 - Superpower.webp",
+    "analyzed_timestamp": "2026-08-05T19:24:10.767Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile health application displaying blood lipid panel results.",
+    "primary_flow": "alerts",
+    "ux_intent": "To inform the user about cholesterol-related blood test markers that are outside of healthy ranges.",
+    "ux_patterns": [
+      "Form",
+      "Chart",
+      "Card",
+      "Color-coded labels for 'Out Of Range' (pink), 'Optimal' (green), and cautionary markers (yellow/orange)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Cholesterol, Total",
+      "LDL Cholesterol",
+      "Non-HDL Cholesterol",
+      "Apolipoprotein B",
+      "HDL Cholesterol",
+      "Triglycerides",
+      "Cholesterol/HDL Ratio",
+      "LDL/HDL Ratio"
+    ],
+    "visual_keywords": [
+      "Clean, modern mobile user interface with cards for data display.",
+      "white",
+      "light grey",
+      "pink",
+      "green",
+      "Color-coded labels for 'Out Of Range' (pink), 'Optimal' (green), and cautionary markers (yellow/orange)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern mobile user interface with cards for data display."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_alerts_01"
+}

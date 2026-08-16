@@ -1,0 +1,158 @@
+{
+  "image": "03 - Elicit.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows the Elicit web interface displaying a 'Characteristics of Included Studies' table for a research report on 'Real-Time Sign Language Recognition'. The table lists various studies with columns for Study, Technical Approach, Recognition Method, and Dataset Type, alongside a sidebar showing report generation status and a chat feature.",
+    "ocr": {
+      "full_text": "Elicit Recent Library Upgrade Help Alex Smith Real-Time Sign Language Recognition with... Research report View only Share RESULTS Characteristics of Included Studies Study Technical Approach Recognition Method Dataset Type Abdallah et al., 2022 Gated Recurrent Unit (GRU) and one-dimensional Convolutional Neural Network (1D CNN) with MediaPipe Dynamic gesture recognition Custom DSL-46 dataset Ahmed et al., 2024 Autoencoder with attention mechanism, Convolutional Neural Network (CNN) + Long Short-Term Memory (LSTM) Dynamic gesture recognition Custom ALGSL dataset Buttar et al., 2023 LSTM with MediaPipe for continuous signs, YOLOv6 for static signs Static and dynamic gesture recognition No mention of dataset four Cui et al., 2019 CNN with temporal fusion layers, bidirectional Recurrent Neural Network (RNN) Continuous sign language recognition No mention of dataset four Likhar et al., 2020 CNN for static gestures, LSTM with convolutional kernel for dynamic gestures Static and dynamic gesture recognition Custom dataset Natarajan et al., 2022 Hybrid CNN + Bi-LSTM model No mention found Multiple multilingual dataset Rao et al., 2018 CNN Continuous sign language recognition Custom mobile selfie dataset Wahane et al., 2022 Single Shot Detector (SSD) and Static and dynamic gesture recognition Custom dataset Report Status Gather papers 50 papers found Details Screen papers 10 papers included Details Extract data 50 data points extracted Details Generate report Save PDF Chat Ask anything about the report or its underlying data Elicit curated by Mobbin",
+      "lines": [
+        {
+          "text": "Elicit Recent Library Upgrade Help Alex Smith"
+        },
+        {
+          "text": "Real-Time Sign Language Recognition with... Research report View only Share"
+        },
+        {
+          "text": "RESULTS"
+        },
+        {
+          "text": "Characteristics of Included Studies"
+        },
+        {
+          "text": "Study Technical Approach Recognition Method Dataset Type"
+        },
+        {
+          "text": "Abdallah et al., 2022 Gated Recurrent Unit (GRU) and one-dimensional Convolutional Neural Network (1D CNN) with MediaPipe Dynamic gesture recognition Custom DSL-46 dataset"
+        },
+        {
+          "text": "Ahmed et al., 2024 Autoencoder with attention mechanism, Convolutional Neural Network (CNN) + Long Short-Term Memory (LSTM) Dynamic gesture recognition Custom ALGSL dataset"
+        },
+        {
+          "text": "Buttar et al., 2023 LSTM with MediaPipe for continuous signs, YOLOv6 for static signs Static and dynamic gesture recognition No mention of dataset four"
+        },
+        {
+          "text": "Cui et al., 2019 CNN with temporal fusion layers, bidirectional Recurrent Neural Network (RNN) Continuous sign language recognition No mention of dataset four"
+        },
+        {
+          "text": "Likhar et al., 2020 CNN for static gestures, LSTM with convolutional kernel for dynamic gestures Static and dynamic gesture recognition Custom dataset"
+        },
+        {
+          "text": "Natarajan et al., 2022 Hybrid CNN + Bi-LSTM model No mention found Multiple multilingual dataset"
+        },
+        {
+          "text": "Rao et al., 2018 CNN Continuous sign language recognition Custom mobile selfie dataset"
+        },
+        {
+          "text": "Wahane et al., 2022 Single Shot Detector (SSD) and Static and dynamic gesture recognition Custom dataset"
+        },
+        {
+          "text": "Report Status Gather papers 50 papers found Details Screen papers 10 papers included Details Extract data 50 data points extracted Details Generate report Save PDF"
+        },
+        {
+          "text": "Chat Ask anything about the report or its underlying data"
+        },
+        {
+          "text": "Elicit curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Real-Time Sign Language Recognition with..."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Characteristics of Included Studies"
+        },
+        {
+          "type": "table",
+          "reading_order": 3,
+          "text": "Study, Technical Approach, Recognition Method, Dataset Type for various researchers including Abdallah et al., 2022, Ahmed et al., 2024, etc."
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Report Status section with progress tracking and Save PDF button"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Chat Ask anything about the report or its underlying data"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A research productivity tool interface (Elicit) showing a systematic review table.",
+      "intent": "To present a structured comparison of academic papers on sign language recognition.",
+      "entities": [
+        {
+          "name": "Elicit",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization"
+        },
+        {
+          "name": "Real-Time Sign Language Recognition",
+          "type": "Research Topic"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Elicit",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        },
+        {
+          "subject": "Abdallah et al., 2022",
+          "predicate": "used",
+          "object": "Gated Recurrent Unit"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "teal",
+        "light grey"
+      ],
+      "style": "clean modern UI/dashboard",
+      "notes": [
+        "Table structure is prominent",
+        "Sidebar provides status tracking",
+        "Minimalistic branding"
+      ]
+    },
+    "uncertainty": [
+      "The table text for 'No mention of dataset four' appears slightly truncated or interpreted as 'four' by OCR potentially due to poor layout column fit.",
+      "Several entries in the table have asterisk icons that may represent citations or metadata links."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:48.088Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.604,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1394,
+      "totalTokenCount": 2601,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

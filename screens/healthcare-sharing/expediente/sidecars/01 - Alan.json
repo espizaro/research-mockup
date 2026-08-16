@@ -1,0 +1,240 @@
+{
+  "image": "01 - Alan.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for Alan, showing a 'Care events' dashboard. It lists various medical care events, their statuses (e.g., 'Received', 'In review', 'Fully reimbursed'), and a notification banner stating 'The document was deleted!'.",
+    "ocr": {
+      "full_text": "9:41\nSearch\nMy Alan card\nCare events Documents Transfers\nBeing processed\nN°5 - Invoice or statement\nToday at 11:03\nReceived\nN°3 - Invoice or statement\nToday at 11:03\nReceived\nGeneralist teleconsultation • Dec 26\nOn Dec 26, 2025\nIn review\nOsteopathy • Oct 30\nOn Oct 30, 2025\nIn review\nPhysio session • Oct 13\nOn Oct 13, 2025\nIn review\nMarch 2026\nGeneralist consultation • Mar 10\n€30 • Fully reimbursed\nThe document was deleted!\nContact lenses • Nov 10\nAlan curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Search",
+          "language": "en"
+        },
+        {
+          "text": "My Alan card",
+          "language": "en"
+        },
+        {
+          "text": "Care events Documents Transfers",
+          "language": "en"
+        },
+        {
+          "text": "Being processed",
+          "language": "en"
+        },
+        {
+          "text": "N°5 - Invoice or statement",
+          "language": "en"
+        },
+        {
+          "text": "Today at 11:03",
+          "language": "en"
+        },
+        {
+          "text": "Received",
+          "language": "en"
+        },
+        {
+          "text": "N°3 - Invoice or statement",
+          "language": "en"
+        },
+        {
+          "text": "Today at 11:03",
+          "language": "en"
+        },
+        {
+          "text": "Received",
+          "language": "en"
+        },
+        {
+          "text": "Generalist teleconsultation • Dec 26",
+          "language": "en"
+        },
+        {
+          "text": "On Dec 26, 2025",
+          "language": "en"
+        },
+        {
+          "text": "In review",
+          "language": "en"
+        },
+        {
+          "text": "Osteopathy • Oct 30",
+          "language": "en"
+        },
+        {
+          "text": "On Oct 30, 2025",
+          "language": "en"
+        },
+        {
+          "text": "In review",
+          "language": "en"
+        },
+        {
+          "text": "Physio session • Oct 13",
+          "language": "en"
+        },
+        {
+          "text": "On Oct 13, 2025",
+          "language": "en"
+        },
+        {
+          "text": "In review",
+          "language": "en"
+        },
+        {
+          "text": "March 2026",
+          "language": "en"
+        },
+        {
+          "text": "Generalist consultation • Mar 10",
+          "language": "en"
+        },
+        {
+          "text": "€30 • Fully reimbursed",
+          "language": "en"
+        },
+        {
+          "text": "The document was deleted!",
+          "language": "en"
+        },
+        {
+          "text": "Contact lenses • Nov 10",
+          "language": "en"
+        },
+        {
+          "text": "Alan curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "My Alan card"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Care events Documents Transfers"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Being processed"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "N°5 - Invoice or statement, Today at 11:03, Received"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "N°3 - Invoice or statement, Today at 11:03, Received"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Generalist teleconsultation • Dec 26, On Dec 26, 2025, In review"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Osteopathy • Oct 30, On Oct 30, 2025, In review"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Physio session • Oct 13, On Oct 13, 2025, In review"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 9,
+          "text": "March 2026"
+        },
+        {
+          "type": "list",
+          "reading_order": 10,
+          "text": "Generalist consultation • Mar 10, €30 • Fully reimbursed"
+        },
+        {
+          "type": "other",
+          "reading_order": 11,
+          "text": "The document was deleted!"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile healthcare app interface",
+      "intent": "View status of health insurance claims and documents",
+      "entities": [
+        {
+          "name": "Alan",
+          "type": "Company/App"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        },
+        {
+          "name": "Care events",
+          "type": "Tab"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "App",
+          "predicate": "lists",
+          "object": "Care events"
+        },
+        {
+          "subject": "Care events",
+          "predicate": "contain",
+          "object": "Claims"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "purple",
+        "light gray"
+      ],
+      "style": "clean mobile UI",
+      "notes": [
+        "Uses iconography for medical types",
+        "Uses status pill labels"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:26.791Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.811,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1449,
+      "totalTokenCount": 2676,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

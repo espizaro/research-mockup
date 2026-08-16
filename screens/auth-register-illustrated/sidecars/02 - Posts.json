@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Posts",
+    "platform": "ios",
+    "file_path": "screens/auth-register-illustrated/02 - Posts.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:54.280Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app login screen.",
+    "primary_flow": "auth-register-illustrated",
+    "ux_intent": "User authentication and onboarding.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Dark Mode",
+      "Carousel",
+      "Hero illustration is decorative and sets a playful brand tone.",
+      "Dark theme background color #121212 approx.",
+      "Clear visual hierarchy: Art > Headline > Actions > Legal.",
+      "Pagination dots indicate this is one slide in an onboarding carousel."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Clear visual hierarchy: Art > Headline > Actions > Legal."
+    ],
+    "content_blocks": [
+      "Posts",
+      "Google",
+      "Hannah Lee"
+    ],
+    "visual_keywords": [
+      "Flat, modern, whimsical vector illustration with high-contrast dark mode UI.",
+      "black",
+      "orange",
+      "green",
+      "blue",
+      "red",
+      "Hero illustration is decorative and sets a playful brand tone.",
+      "Dark theme background color #121212 approx.",
+      "Clear visual hierarchy: Art > Headline > Actions > Legal.",
+      "Pagination dots indicate this is one slide in an onboarding carousel."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Flat, modern, whimsical vector illustration with high-contrast dark mode UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_illustrated_02"
+}

@@ -1,0 +1,152 @@
+{
+  "image": "02 - Monzo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for selecting categories from a list, featuring a checkbox selection system and a 'Done' button at the bottom.",
+    "ocr": {
+      "full_text": "9:41\nCategories\nClear\nCoffee\nHobbies\nTakeaway\nTea\nTheatre\nTransport\nBills\nCharity\nEating out\nEntertainment\nExpenses\nDone\nFinances\nMonzo\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Categories"
+        },
+        {
+          "text": "Clear"
+        },
+        {
+          "text": "Coffee"
+        },
+        {
+          "text": "Hobbies"
+        },
+        {
+          "text": "Takeaway"
+        },
+        {
+          "text": "Tea"
+        },
+        {
+          "text": "Theatre"
+        },
+        {
+          "text": "Transport"
+        },
+        {
+          "text": "Bills"
+        },
+        {
+          "text": "Charity"
+        },
+        {
+          "text": "Eating out"
+        },
+        {
+          "text": "Entertainment"
+        },
+        {
+          "text": "Expenses"
+        },
+        {
+          "text": "Done"
+        },
+        {
+          "text": "Finances"
+        },
+        {
+          "text": "Monzo"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Categories"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Coffee, Hobbies, Takeaway, Tea, Theatre, Transport, Bills, Charity, Eating out, Entertainment, Expenses, Finances"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Done"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application screen for managing transaction or expense categories.",
+      "intent": "To allow users to filter or select specific categories by toggling checkboxes.",
+      "entities": [
+        {
+          "name": "Coffee",
+          "type": "category"
+        },
+        {
+          "name": "Bills",
+          "type": "category"
+        },
+        {
+          "name": "Monzo",
+          "type": "brand"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Coffee",
+          "predicate": "is",
+          "object": "selected"
+        },
+        {
+          "subject": "Bills",
+          "predicate": "is",
+          "object": "selected"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue",
+        "grey"
+      ],
+      "style": "minimalist mobile UI",
+      "notes": [
+        "The status bar shows 9:41",
+        "Icons are present next to each category label"
+      ]
+    },
+    "uncertainty": [
+      "The bottom row 'Finances' is partially cut off at the edge of the screen."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:33.043Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.269,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 676,
+      "totalTokenCount": 1903,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

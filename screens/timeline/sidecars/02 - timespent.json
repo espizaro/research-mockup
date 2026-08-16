@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "timespent",
+    "platform": "ios",
+    "file_path": "screens/timeline/02 - timespent.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:37.477Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A smartphone app UI showing a list of activity logs.",
+    "primary_flow": "timeline",
+    "ux_intent": "To track and display time spent on reading sessions.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation"
+    ],
+    "content_blocks": [
+      "Reading",
+      "1 Sep 2025",
+      "6 Sep 2025",
+      "7 Sep 2025",
+      "8 Sep 2025",
+      "9 Sep 2025",
+      "Activities",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Mobile minimalist UI",
+      "white",
+      "black",
+      "light gray"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile minimalist UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_timeline_02"
+}

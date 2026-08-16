@@ -1,0 +1,46 @@
+{
+  "identification": {
+    "app_name": "Minna Bank",
+    "platform": "ios",
+    "file_path": "screens/reset-password/03 - Minna Bank.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:30.315Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App authentication feedback screen",
+    "primary_flow": "reset-password",
+    "ux_intent": "Confirm the user's action of resetting their account password.",
+    "ux_patterns": [
+      "Dark Mode",
+      "Minimalist",
+      "The checkmark acts as a hero visual, confirming completion of a task.",
+      "Uses a very clean, text-heavy layout.",
+      "The UI design is consistent with banking app standards for security actions."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [],
+    "interaction_elements": [
+      "The UI design is consistent with banking app standards for security actions."
+    ],
+    "content_blocks": [
+      "Minna Bank",
+      "Password Reset Confirmation"
+    ],
+    "visual_keywords": [
+      "Minimalist, high-contrast, dark mode UI",
+      "black",
+      "white",
+      "The checkmark acts as a hero visual, confirming completion of a task.",
+      "Uses a very clean, text-heavy layout.",
+      "The UI design is consistent with banking app standards for security actions."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, high-contrast, dark mode UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_reset_password_03"
+}

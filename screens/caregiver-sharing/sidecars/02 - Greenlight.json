@@ -1,0 +1,45 @@
+{
+  "identification": {
+    "app_name": "Greenlight",
+    "platform": "ios",
+    "file_path": "screens/caregiver-sharing/02 - Greenlight.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:27.090Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app interface",
+    "primary_flow": "caregiver-sharing",
+    "ux_intent": "User is confirming an invitation to a new parent or adult user.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "contains a modal pop-up covering the background form"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Greenlight",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "clean modern mobile interface",
+      "teal",
+      "white",
+      "gray",
+      "contains a modal pop-up covering the background form"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean modern mobile interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_caregiver_sharing_02"
+}

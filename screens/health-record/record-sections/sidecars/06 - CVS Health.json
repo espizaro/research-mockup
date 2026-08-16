@@ -1,0 +1,154 @@
+{
+  "image": "06 - CVS Health.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen for 'Your Health' from CVS Health, personalized for a user named Sam, displaying health-related options and services.",
+    "ocr": {
+      "full_text": "9:41 Your Health SL What can we help you find, Sam? Vaccine history Previous visits Lab results Prescriptions Health services Home Your Health Get Care Vaccine Records CVS Health curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Your Health"
+        },
+        {
+          "text": "SL"
+        },
+        {
+          "text": "What can we help you find, Sam?"
+        },
+        {
+          "text": "Vaccine history"
+        },
+        {
+          "text": "Previous visits"
+        },
+        {
+          "text": "Lab results"
+        },
+        {
+          "text": "Prescriptions"
+        },
+        {
+          "text": "Health services"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Your Health"
+        },
+        {
+          "text": "Get Care"
+        },
+        {
+          "text": "Vaccine Records"
+        },
+        {
+          "text": "CVS Health"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Your Health"
+        },
+        {
+          "type": "image",
+          "reading_order": 2,
+          "text": "Illustration of a person riding a bicycle"
+        },
+        {
+          "type": "title",
+          "reading_order": 3,
+          "text": "What can we help you find, Sam?"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Vaccine history, Previous visits, Lab results, Prescriptions"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 5,
+          "text": "Health services"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Bottom navigation menu with Home, Your Health, Get Care, and Vaccine Records"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface",
+      "intent": "Health account dashboard",
+      "entities": [
+        {
+          "name": "Sam",
+          "type": "person",
+          "evidence": "Greeting text 'What can we help you find, Sam?'"
+        },
+        {
+          "name": "CVS Health",
+          "type": "organization",
+          "evidence": "Logo and footer text"
+        },
+        {
+          "name": "Mobbin",
+          "type": "organization",
+          "evidence": "Footer credit"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam",
+          "predicate": "uses",
+          "object": "CVS Health application"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "yellow",
+        "blue"
+      ],
+      "style": "clean mobile application interface",
+      "notes": [
+        "Uses a minimalist, modern aesthetic with soft illustrations."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:11.924Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.752,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 703,
+      "totalTokenCount": 1930,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

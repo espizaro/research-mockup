@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Withings Health Mate",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/01 - Withings Health Mate.webp",
+    "analyzed_timestamp": "2026-08-05T19:44:01.932Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A health-tracking mobile application interface used to log medical symptoms.",
+    "primary_flow": "daily-check-in",
+    "ux_intent": "To allow the user to select symptoms they are currently experiencing.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Checkbox",
+      "Checkboxes indicate selected symptoms (Acne and Back pain).",
+      "The interface uses iconography for category filters.",
+      "Fixed 'Save' button at the bottom."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Checkbox",
+      "Fixed 'Save' button at the bottom."
+    ],
+    "content_blocks": [
+      "Symptoms",
+      "18 February 2024",
+      "Withings Health Mate",
+      "Acne",
+      "Back pain"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app UI",
+      "white",
+      "black",
+      "grey",
+      "Checkboxes indicate selected symptoms (Acne and Back pain).",
+      "The interface uses iconography for category filters.",
+      "Fixed 'Save' button at the bottom."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_checkin_01"
+}

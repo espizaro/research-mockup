@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "The Infatuation",
+    "platform": "ios",
+    "file_path": "screens/reset-password/04 - The Infatuation.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:30.827Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Password reset confirmation screen within a mobile application.",
+    "primary_flow": "reset-password",
+    "ux_intent": "Confirm to the user that a password reset email has been dispatched and provide next steps.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "No hero illustration present; focus is purely textual/utility-driven.",
+      "Standard iOS status bar header.",
+      "High contrast primary action button."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "High contrast primary action button."
+    ],
+    "content_blocks": [
+      "samlee.mobbin@gmail.com",
+      "DONE",
+      "GO TO INBOX",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, functional, clean typography.",
+      "white",
+      "blue",
+      "black",
+      "No hero illustration present; focus is purely textual/utility-driven.",
+      "Standard iOS status bar header.",
+      "High contrast primary action button."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, functional, clean typography."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_reset_password_04"
+}

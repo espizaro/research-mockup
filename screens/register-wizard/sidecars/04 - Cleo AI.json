@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Cleo AI",
+    "platform": "ios",
+    "file_path": "screens/register-wizard/04 - Cleo AI.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:04.993Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding or account registration flow.",
+    "primary_flow": "register-wizard",
+    "ux_intent": "Capture financial profile information and legal consent to proceed with opening a bank account.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "Checkbox",
+      "No hero illustration or mascots present; strictly utility-focused design.",
+      "Consistent use of rounded-corner containers for input fields and buttons."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View"
+    ],
+    "interaction_elements": [
+      "Checkbox",
+      "Dropdown",
+      "Consistent use of rounded-corner containers for input fields and buttons."
+    ],
+    "content_blocks": [
+      "Thread Bank",
+      "Cleo AI",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, neutral background, dark brown text and elements, high contrast, clean typography.",
+      "hex f7f5f2",
+      "hex 3e2723",
+      "No hero illustration or mascots present; strictly utility-focused design.",
+      "Consistent use of rounded-corner containers for input fields and buttons."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, neutral background, dark brown text and elements, high contrast, clean typography."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_register_wizard_04"
+}

@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Instacart",
+    "platform": "ios",
+    "file_path": "screens/auth-register-social/06 - Instacart.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:10.956Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication screen",
+    "primary_flow": "auth-register-social",
+    "ux_intent": "The user is intended to sign up for an account using email or a third-party service.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Toggle",
+      "No hero illustrations present.",
+      "Green is the primary brand color used for action states.",
+      "Iconography is used consistently for third-party providers (Apple, Google, Facebook)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Green is the primary brand color used for action states."
+    ],
+    "content_blocks": [
+      "Instacart",
+      "Apple",
+      "Google",
+      "Facebook"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat mobile design, clean white background, high-contrast typography.",
+      "hex FFFFFF",
+      "hex 008000",
+      "hex 000000",
+      "No hero illustrations present.",
+      "Green is the primary brand color used for action states.",
+      "Iconography is used consistently for third-party providers (Apple, Google, Facebook)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat mobile design, clean white background, high-contrast typography."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_social_06"
+}

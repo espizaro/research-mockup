@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Google Analytics",
+    "platform": "ios",
+    "file_path": "screens/data-viz/01 - Google Analytics.webp",
+    "analyzed_timestamp": "2026-08-06T23:57:34.277Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Analytics dashboard of a SaaS application.",
+    "primary_flow": "data-viz",
+    "ux_intent": "To provide users with visibility into their application's performance metrics and traffic sources.",
+    "ux_patterns": [
+      "Form",
+      "Search",
+      "Settings",
+      "Chart",
+      "Minimalist",
+      "Clear information hierarchy",
+      "Use of green for call-to-actions and data visualization",
+      "High whitespace utilization"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Table",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Use of green for call-to-actions and data visualization"
+    ],
+    "content_blocks": [
+      "Mintlify",
+      "Mobbin",
+      "Analytics Dashboard"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, data-heavy, professional UI",
+      "white",
+      "light-gray",
+      "black",
+      "green",
+      "Clear information hierarchy",
+      "Use of green for call-to-actions and data visualization",
+      "High whitespace utilization"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, data-heavy, professional UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_data_viz_01"
+}

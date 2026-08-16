@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "MasterClass",
+    "platform": "ios",
+    "file_path": "screens/social-buttons/05 - MasterClass.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:18.655Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application onboarding/registration screen.",
+    "primary_flow": "social-buttons",
+    "ux_intent": "To facilitate user registration or authentication.",
+    "ux_patterns": [
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "Uses a high-contrast dark theme.",
+      "Primary call-to-action is the red 'Create an account' button.",
+      "Third-party login buttons follow standardized branding colors (blue for Facebook/Google, white for Apple).",
+      "No hero illustrations; iconography is limited to a generic user silhouette icon."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View"
+    ],
+    "interaction_elements": [
+      "Primary call-to-action is the red 'Create an account' button.",
+      "Third-party login buttons follow standardized branding colors (blue for Facebook/Google, white for Apple)."
+    ],
+    "content_blocks": [
+      "MasterClass",
+      "Terms of Service",
+      "Privacy Policy"
+    ],
+    "visual_keywords": [
+      "Minimalist, dark-mode mobile UI.",
+      "black",
+      "white",
+      "blue",
+      "red",
+      "Uses a high-contrast dark theme.",
+      "Primary call-to-action is the red 'Create an account' button.",
+      "Third-party login buttons follow standardized branding colors (blue for Facebook/Google, white for Apple).",
+      "No hero illustrations; iconography is limited to a generic user silhouette icon."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, dark-mode mobile UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_social_buttons_05"
+}

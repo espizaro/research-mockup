@@ -1,0 +1,153 @@
+{
+  "image": "04 - Microsoft Copilot.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application interface showing a list of pages and recent conversation history for Microsoft Copilot.",
+    "ocr": {
+      "full_text": "9:41\nPages\nTips for Choosing th...\nTrip to New York City!\nConversations\nToday\nFeedback on Resume Template\nToday\nGift Planning Tips\nToday\nWeekend Trip Itinerary for New Y...\nYesterday\nVideo Game Quiz Request\nYesterday\nHeadphone Recommendations\nMicrosoft Copilot curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Pages"
+        },
+        {
+          "text": "Tips for Choosing th..."
+        },
+        {
+          "text": "Trip to New York City!"
+        },
+        {
+          "text": "Conversations"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Feedback on Resume Template"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Gift Planning Tips"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Weekend Trip Itinerary for New Y..."
+        },
+        {
+          "text": "Yesterday"
+        },
+        {
+          "text": "Video Game Quiz Request"
+        },
+        {
+          "text": "Yesterday"
+        },
+        {
+          "text": "Headphone Recommendations"
+        },
+        {
+          "text": "Microsoft Copilot curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Pages"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Tips for Choosing th... Trip to New York City!"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Conversations"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Today Feedback on Resume Template Today Gift Planning Tips Today Weekend Trip Itinerary for New Y... Yesterday Video Game Quiz Request Yesterday Headphone Recommendations"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Microsoft Copilot curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI showing list of chat sessions",
+      "intent": "View browsing history and chat history",
+      "entities": [
+        {
+          "name": "Microsoft Copilot",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Curator"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Microsoft Copilot",
+          "predicate": "has",
+          "object": "conversation history"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "dark blue"
+      ],
+      "style": "Minimalist dark mode mobile app interface",
+      "notes": [
+        "Standard iOS header with status bar",
+        "Three dot menu icons visible for each item"
+      ]
+    },
+    "uncertainty": [
+      "The full text of truncated items 'Tips for Choosing th...' and 'Weekend Trip Itinerary for New Y...' is not fully visible."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:24:00.652Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.296,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 716,
+      "totalTokenCount": 1943,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.298
+      }
+    ],
+    "warnings": []
+  }
+}

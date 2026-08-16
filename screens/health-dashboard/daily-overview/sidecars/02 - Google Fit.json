@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Google Fit",
+    "platform": "ios",
+    "file_path": "screens/health-dashboard/daily-overview/02 - Google Fit.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:59.369Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app dashboard for health tracking.",
+    "primary_flow": "health-dashboard/daily-overview",
+    "ux_intent": "Display physical activity progress and health goals.",
+    "ux_patterns": [
+      "Progress",
+      "Profile",
+      "Chart",
+      "Minimalist",
+      "Clean whitespace usage",
+      "Use of icons for health metrics"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation"
+    ],
+    "content_blocks": [
+      "Google Fit",
+      "American Heart Association",
+      "Heart Pts",
+      "Steps",
+      "Calories",
+      "Miles",
+      "Move Minutes"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "white",
+      "light blue",
+      "teal",
+      "navy blue",
+      "Clean whitespace usage",
+      "Use of icons for health metrics"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_home_dashboard_02"
+}

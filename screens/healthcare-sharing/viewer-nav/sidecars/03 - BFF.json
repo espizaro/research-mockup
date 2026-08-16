@@ -1,0 +1,196 @@
+{
+  "image": "03 - BFF.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application profile screen, likely from a social networking or community-based app called BFF, showing user profile sections including groups and basic information.",
+    "ocr": {
+      "full_text": "9:41 Me My Profile My Events My Friends Your camera roll's recent food highlights My groups song recommendations! Social Girls In LA Basic info Gender Woman People Groups Chats Activity Me BFF curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Me"
+        },
+        {
+          "text": "My Profile"
+        },
+        {
+          "text": "My Events"
+        },
+        {
+          "text": "My Friends"
+        },
+        {
+          "text": "Your camera roll's recent food highlights"
+        },
+        {
+          "text": "My groups"
+        },
+        {
+          "text": "song recommendations!"
+        },
+        {
+          "text": "Social Girls In LA"
+        },
+        {
+          "text": "Basic info"
+        },
+        {
+          "text": "Gender"
+        },
+        {
+          "text": "Woman"
+        },
+        {
+          "text": "People"
+        },
+        {
+          "text": "Groups"
+        },
+        {
+          "text": "Chats"
+        },
+        {
+          "text": "Activity"
+        },
+        {
+          "text": "Me"
+        },
+        {
+          "text": "BFF"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Me"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "My Profile, My Events, My Friends"
+        },
+        {
+          "type": "image",
+          "reading_order": 3,
+          "text": "Your camera roll's recent food highlights"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "My groups"
+        },
+        {
+          "type": "image",
+          "reading_order": 5,
+          "text": "song recommendations!"
+        },
+        {
+          "type": "image",
+          "reading_order": 6,
+          "text": "Social Girls In LA"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Basic info, Gender, Woman"
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "People, Groups, Chats, Activity, Me"
+        },
+        {
+          "type": "other",
+          "reading_order": 9,
+          "text": "BFF curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app profile page interface",
+      "intent": "User profile management and navigation",
+      "entities": [
+        {
+          "name": "BFF",
+          "type": "Application Name",
+          "evidence": "Footer text"
+        },
+        {
+          "name": "Woman",
+          "type": "User Demographic",
+          "evidence": "Basic info section"
+        },
+        {
+          "name": "song recommendations!",
+          "type": "Group",
+          "evidence": "My groups section"
+        },
+        {
+          "name": "Social Girls In LA",
+          "type": "Group",
+          "evidence": "My groups section"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "is a",
+          "object": "Woman"
+        },
+        {
+          "subject": "User",
+          "predicate": "is member of",
+          "object": "song recommendations!"
+        },
+        {
+          "subject": "User",
+          "predicate": "is member of",
+          "object": "Social Girls In LA"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "grey"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Rounded corners on images and buttons",
+        "Tab bar navigation at the bottom"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:06:30.062Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.56,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 886,
+      "totalTokenCount": 2113,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

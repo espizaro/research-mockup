@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "TIDE",
+    "platform": "ios",
+    "file_path": "screens/health-trends/05 - TIDE.webp",
+    "analyzed_timestamp": "2026-08-05T19:47:14.677Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app dashboard for focus tracking.",
+    "primary_flow": "health-trends",
+    "ux_intent": "To visualize user focus time statistics and logs.",
+    "ux_patterns": [
+      "Form",
+      "Calendar",
+      "Chart",
+      "Minimalist",
+      "Card",
+      "Interactive calendar grid represented by circles.",
+      "Active focus days marked in beige, inactive in light grey."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Tide",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, soft rounded cards, light beige background.",
+      "hex f5f4f2",
+      "hex e8d6c1",
+      "hex 2b2b2b",
+      "Interactive calendar grid represented by circles.",
+      "Active focus days marked in beige, inactive in light grey."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, soft rounded cards, light beige background."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_evolution_05"
+}

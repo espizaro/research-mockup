@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Numo",
+    "platform": "ios",
+    "file_path": "screens/health-dashboard/mood-selector/01 - Numo.webp",
+    "analyzed_timestamp": "2026-08-10T06:03:38.600Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mood tracking or user feedback screen in a mobile application.",
+    "primary_flow": "health-dashboard/mood-selector",
+    "ux_intent": "To capture the user's current emotional state through emoji selection.",
+    "ux_patterns": [
+      "Minimalist",
+      "Emoji tiles are color-coded by valence",
+      "The words 'hocked' and 'onfused' appear to be cut off, likely representing 'Shocked' and 'Confused'."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Numo",
+      "Mobbin",
+      "Sad",
+      "Bored",
+      "Good",
+      "Meh",
+      "Nervous",
+      "Pleased"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI with soft rounded colored tiles.",
+      "white",
+      "pastel blue",
+      "pastel green",
+      "pastel pink",
+      "pastel orange",
+      "Emoji tiles are color-coded by valence",
+      "The words 'hocked' and 'onfused' appear to be cut off, likely representing 'Shocked' and 'Confused'."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI with soft rounded colored tiles."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_home_dashboard_01"
+}

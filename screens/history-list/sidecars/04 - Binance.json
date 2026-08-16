@@ -1,0 +1,46 @@
+{
+  "identification": {
+    "app_name": "Binance",
+    "platform": "ios",
+    "file_path": "screens/history-list/04 - Binance.webp",
+    "analyzed_timestamp": "2026-08-11T22:29:54.814Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Financial data display",
+    "primary_flow": "history-list",
+    "ux_intent": "To track historical insurance fund balances.",
+    "ux_patterns": [
+      "Minimalist",
+      "Clear high-contrast text",
+      "Structured vertical layout"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Table"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Binance",
+      "USDT",
+      "Insurance Fund Balance"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface",
+      "white",
+      "black",
+      "light gray",
+      "Clear high-contrast text",
+      "Structured vertical layout"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_history_list_04"
+}

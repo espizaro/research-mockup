@@ -1,0 +1,247 @@
+{
+  "image": "04 - Jobber.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen showing an activity feed for a user named Alex Smith, detailing various actions such as adding notes, creating requests, and managing invoices.",
+    "ocr": {
+      "full_text": "9:41 Activity Feed Alex Smith added a note Dont forget the installation tool Request - Requesting Cat6 Wiring Alex Smith 1 hour ago Alex Smith created a request Request - Requesting Cat6 Wiring Alex Smith 1 hour ago Alex Smith sent an invoice - Rp200,200.00 Invoice #2 - For Services Rendered Alex Smith 1 day ago Alex Smith collected a payment - Rp200.00 Invoice #1 - Sample job for Alex Smith Alex Smith 1 day ago Alex Smith sent an invoice - Rp200.00 Invoice #1 - Sample job for Alex Smith Alex Smith 1 day ago Alex Smith deleted an invoice Invoice #1 - Sample Work Jobber curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Activity Feed",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith added a note",
+          "language": "en"
+        },
+        {
+          "text": "Dont forget the installation tool",
+          "language": "en"
+        },
+        {
+          "text": "Request - Requesting Cat6 Wiring",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith",
+          "language": "en"
+        },
+        {
+          "text": "1 hour ago",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith created a request",
+          "language": "en"
+        },
+        {
+          "text": "Request - Requesting Cat6 Wiring",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith",
+          "language": "en"
+        },
+        {
+          "text": "1 hour ago",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith sent an invoice -",
+          "language": "en"
+        },
+        {
+          "text": "Rp200,200.00",
+          "language": "en"
+        },
+        {
+          "text": "Invoice #2 - For Services Rendered",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith",
+          "language": "en"
+        },
+        {
+          "text": "1 day ago",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith collected a payment -",
+          "language": "en"
+        },
+        {
+          "text": "Rp200.00",
+          "language": "en"
+        },
+        {
+          "text": "Invoice #1 - Sample job for Alex Smith",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith",
+          "language": "en"
+        },
+        {
+          "text": "1 day ago",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith sent an invoice - Rp200.00",
+          "language": "en"
+        },
+        {
+          "text": "Invoice #1 - Sample job for Alex Smith",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith",
+          "language": "en"
+        },
+        {
+          "text": "1 day ago",
+          "language": "en"
+        },
+        {
+          "text": "Alex Smith deleted an invoice",
+          "language": "en"
+        },
+        {
+          "text": "Invoice #1 - Sample Work",
+          "language": "en"
+        },
+        {
+          "text": "Jobber",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Activity Feed"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Alex Smith added a note: Dont forget the installation tool. Request - Requesting Cat6 Wiring. 1 hour ago."
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Alex Smith created a request. Request - Requesting Cat6 Wiring. 1 hour ago."
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Alex Smith sent an invoice - Rp200,200.00. Invoice #2 - For Services Rendered. 1 day ago."
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Alex Smith collected a payment - Rp200.00. Invoice #1 - Sample job for Alex Smith. 1 day ago."
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Alex Smith sent an invoice - Rp200.00. Invoice #1 - Sample job for Alex Smith. 1 day ago."
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Alex Smith deleted an invoice. Invoice #1 - Sample Work."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application interface displaying a chronological activity log.",
+      "intent": "To provide a user with a historical view of actions performed by Alex Smith within a service management app.",
+      "entities": [
+        {
+          "name": "Alex Smith",
+          "type": "Person"
+        },
+        {
+          "name": "Cat6 Wiring",
+          "type": "Service/Request"
+        },
+        {
+          "name": "Rp200,200.00",
+          "type": "Currency/Amount"
+        },
+        {
+          "name": "Jobber",
+          "type": "Application Name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Alex Smith",
+          "predicate": "added",
+          "object": "note"
+        },
+        {
+          "subject": "Alex Smith",
+          "predicate": "created",
+          "object": "request"
+        },
+        {
+          "subject": "Alex Smith",
+          "predicate": "sent",
+          "object": "invoice"
+        },
+        {
+          "subject": "Alex Smith",
+          "predicate": "collected",
+          "object": "payment"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "dark blue",
+        "gray"
+      ],
+      "style": "Clean, minimalist mobile UI design",
+      "notes": [
+        "Icons represent the type of activity (add, download, payment, trash, etc.)"
+      ]
+    },
+    "uncertainty": [
+      "The full text for the last list item 'Alex Smith deleted an invoice' is truncated at the bottom of the image."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:01.737Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.821,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1536,
+      "totalTokenCount": 2763,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

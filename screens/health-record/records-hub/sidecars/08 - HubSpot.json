@@ -1,0 +1,200 @@
+{
+  "image": "08 - HubSpot.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the HubSpot software interface, specifically the 'Datasets' section. It shows a list of existing datasets and an empty state message encouraging the user to create custom datasets for reporting. The interface includes navigation menus, search functionality, and a table showing existing HubSpot-defined datasets.",
+    "ocr": {
+      "full_text": "You have 4 days left in your Service Hub Enterprise trial. Have questions or need help? Talk to Sales Switch trial view Search HubSpot SLMobbin Datasets Create dataset Datasets CSV data sources BETA All datasets 5 HubSpot-defined datasets 5 Custom datasets 0 Create tailor-made datasets for your unique needs. Build your own datasets to streamline reporting and fast-track insights for your team. With a custom dataset, you can join data sources and apply calculations to enable more informed reporting. New to the process? Check out this help article to learn more about creating datasets. Create dataset Owner: Anyone Last updated: MM/DD/YYYY to MM/DD/YYYY Search datasets NAME REPORTS OWNER LAST UPDATED Deals + Companies + Line Items 0 HubSpot -- Deals + Companies 0 HubSpot -- HubSpot curated by Mobbin",
+      "lines": [
+        {
+          "text": "You have 4 days left in your Service Hub Enterprise trial. Have questions or need help? Talk to Sales",
+          "language": "en"
+        },
+        {
+          "text": "Switch trial view",
+          "language": "en"
+        },
+        {
+          "text": "Search HubSpot",
+          "language": "en"
+        },
+        {
+          "text": "SLMobbin",
+          "language": "en"
+        },
+        {
+          "text": "Datasets",
+          "language": "en"
+        },
+        {
+          "text": "Create dataset",
+          "language": "en"
+        },
+        {
+          "text": "Datasets",
+          "language": "en"
+        },
+        {
+          "text": "CSV data sources",
+          "language": "en"
+        },
+        {
+          "text": "BETA",
+          "language": "en"
+        },
+        {
+          "text": "All datasets 5",
+          "language": "en"
+        },
+        {
+          "text": "HubSpot-defined datasets 5",
+          "language": "en"
+        },
+        {
+          "text": "Custom datasets 0",
+          "language": "en"
+        },
+        {
+          "text": "Create tailor-made datasets for your unique needs.",
+          "language": "en"
+        },
+        {
+          "text": "Build your own datasets to streamline reporting and fast-track insights for your team. With a custom dataset, you can join data sources and apply calculations to enable more informed reporting.",
+          "language": "en"
+        },
+        {
+          "text": "New to the process? Check out this help article to learn more about creating datasets.",
+          "language": "en"
+        },
+        {
+          "text": "Create dataset",
+          "language": "en"
+        },
+        {
+          "text": "Owner: Anyone Last updated: MM/DD/YYYY to MM/DD/YYYY",
+          "language": "en"
+        },
+        {
+          "text": "Search datasets",
+          "language": "en"
+        },
+        {
+          "text": "NAME REPORTS OWNER LAST UPDATED",
+          "language": "en"
+        },
+        {
+          "text": "Deals + Companies + Line Items 0 HubSpot --",
+          "language": "en"
+        },
+        {
+          "text": "Deals + Companies 0 HubSpot --",
+          "language": "en"
+        },
+        {
+          "text": "HubSpot curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "You have 4 days left in your Service Hub Enterprise trial. Have questions or need help? Talk to Sales"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Datasets"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Create tailor-made datasets for your unique needs. Build your own datasets to streamline reporting and fast-track insights for your team. With a custom dataset, you can join data sources and apply calculations to enable more informed reporting. New to the process? Check out this help article to learn more about creating datasets."
+        },
+        {
+          "type": "table",
+          "reading_order": 4,
+          "text": "NAME REPORTS OWNER LAST UPDATED Deals + Companies + Line Items 0 HubSpot -- Deals + Companies 0 HubSpot --"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "SaaS dashboard interface for HubSpot CRM",
+      "intent": "User is navigating the Datasets management section within HubSpot.",
+      "entities": [
+        {
+          "name": "HubSpot",
+          "type": "Software",
+          "evidence": "Logo and text branding"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Service",
+          "evidence": "Footer text"
+        },
+        {
+          "name": "Service Hub Enterprise",
+          "type": "Product Plan",
+          "evidence": "Trial banner text"
+        },
+        {
+          "name": "Datasets",
+          "type": "Feature",
+          "evidence": "Primary heading and interface content"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "HubSpot",
+          "predicate": "provides",
+          "object": "Datasets feature"
+        },
+        {
+          "subject": "User",
+          "predicate": "is in",
+          "object": "Service Hub Enterprise trial"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#FFFFFF",
+        "#F2F5F8",
+        "#FF7A59",
+        "#33475B"
+      ],
+      "style": "Corporate web application interface, clean design, data-dense table",
+      "notes": [
+        "Includes left-hand navigation icons",
+        "Empty state illustration of a chart and bars present"
+      ]
+    },
+    "uncertainty": [
+      "The exact number of datasets is visible as 5, but the list only shows 2 rows, implying there may be scrolling or hidden rows not fully captured."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:42.903Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.774,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1309,
+      "totalTokenCount": 2516,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

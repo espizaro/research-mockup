@@ -1,0 +1,61 @@
+{
+  "identification": {
+    "app_name": "Deepstash",
+    "platform": "ios",
+    "file_path": "screens/auth-welcome-illustrated/06 - Deepstash.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:30.858Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app interface for a content creation or learning platform.",
+    "primary_flow": "auth-welcome-illustrated",
+    "ux_intent": "To educate the user on the 'create' feature and encourage them to contribute content.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "The illustration is centered and placed above the main content blocks to anchor the screen.",
+      "The layout follows a standard vertical mobile hierarchy (Image -> Heading -> Body -> CTA).",
+      "The high-contrast button for the tutorial suggests it is the preferred user action.",
+      "Bottom navigation is standard for iOS/mobile applications.",
+      "Accessibility: High contrast text against the white background."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Primary CTA Button",
+      "Bottom Navigation",
+      "The high-contrast button for the tutorial suggests it is the preferred user action.",
+      "Bottom navigation is standard for iOS/mobile applications."
+    ],
+    "content_blocks": [
+      "Deepstash",
+      "View Tutorial",
+      "Start Writing Now",
+      "Brain-lightbulb"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean UI design. The illustration is a flat vector-style graphic depicting a brain as a filament in a lightbulb, symbolizing idea generation.",
+      "white",
+      "dark gray",
+      "mustard yellow",
+      "pale teal",
+      "The illustration is centered and placed above the main content blocks to anchor the screen.",
+      "The layout follows a standard vertical mobile hierarchy (Image -> Heading -> Body -> CTA).",
+      "The high-contrast button for the tutorial suggests it is the preferred user action.",
+      "Bottom navigation is standard for iOS/mobile applications.",
+      "Accessibility: High contrast text against the white background."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean UI design. The illustration is a flat vector-style graphic depicting a brain as a filament in a lightbulb, symbolizing idea generation."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_welcome_illustrated_06"
+}

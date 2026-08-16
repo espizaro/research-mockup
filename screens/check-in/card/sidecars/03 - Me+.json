@@ -1,0 +1,191 @@
+{
+  "image": "03 - Me+.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The user is viewing the 'Today' screen of a habit or task tracking mobile app named 'Me+'. The screen displays a daily calendar view, a mood tracker banner, and a list of daily tasks including 'Daily UI Design Study' and 'Buy groceries'. The interface includes a bottom navigation bar with icons for Routine, Inspire, Challenge, Tools, and Profile.",
+    "ocr": {
+      "full_text": "9:41\nToday\n7\nSun\nMon\nTue\nWed\nThu\nFri\nSat\n19\n20\n21\nHi, Dear you~\nHow is your day?\nTrack mood\nAll\nMorning Routine\n0/5 10:00 AM - 12:00 PM\nDaily UI Design Study\n0/3 Goal: 20/20 minutes\nBuy groceries\n+\nRoutine\nInspire\nChallenge\nTools\nProfile\nMe+\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "7"
+        },
+        {
+          "text": "Sun Mon Tue Wed Thu Fri Sat"
+        },
+        {
+          "text": "19 20 21"
+        },
+        {
+          "text": "Hi, Dear you~"
+        },
+        {
+          "text": "How is your day?"
+        },
+        {
+          "text": "Track mood"
+        },
+        {
+          "text": "All Morning Routine"
+        },
+        {
+          "text": "0/5 10:00 AM - 12:00 PM"
+        },
+        {
+          "text": "Daily UI Design Study"
+        },
+        {
+          "text": "0/3 Goal: 20/20 minutes"
+        },
+        {
+          "text": "Buy groceries"
+        },
+        {
+          "text": "Routine Inspire Challenge Tools Profile"
+        },
+        {
+          "text": "Me+ curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Today"
+        },
+        {
+          "type": "other",
+          "reading_order": 2,
+          "text": "Streak counter: 7"
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Calendar strip with days Sun to Sat"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Hi, Dear you~ How is your day?"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Track mood"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "All, Morning Routine filters"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Task 1: Daily UI Design Study, 0/5, 10:00 AM - 12:00 PM"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Task 2: Buy groceries, 0/3, Goal 20/20 minutes"
+        },
+        {
+          "type": "other",
+          "reading_order": 9,
+          "text": "Floating Action Button +"
+        },
+        {
+          "type": "other",
+          "reading_order": 10,
+          "text": "Bottom navigation: Routine, Inspire, Challenge, Tools, Profile"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application interface dashboard for daily productivity and habit tracking.",
+      "intent": "To help the user manage daily tasks, track habits, and monitor mood.",
+      "entities": [
+        {
+          "name": "Me+",
+          "type": "Application"
+        },
+        {
+          "name": "Daily UI Design Study",
+          "type": "Task"
+        },
+        {
+          "name": "Buy groceries",
+          "type": "Task"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Me+",
+          "predicate": "tracks",
+          "object": "tasks"
+        },
+        {
+          "subject": "User",
+          "predicate": "interacts with",
+          "object": "Track mood"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "purple",
+        "light purple",
+        "white",
+        "peach",
+        "light blue"
+      ],
+      "style": "Modern minimalist mobile UI with rounded corners, soft pastel color palette, and vector illustrations.",
+      "notes": [
+        "Uses a bottom navigation bar",
+        "Includes a streak counter in the top right",
+        "Features cute circular character illustrations in the mood banner"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T05:40:59.871Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.68,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1084,
+      "totalTokenCount": 2311,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 5.683
+      }
+    ],
+    "warnings": []
+  }
+}

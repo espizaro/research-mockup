@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "GoPro Quik",
+    "platform": "ios",
+    "file_path": "screens/auth-register-social/04 - GoPro Quik.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:10.256Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account onboarding/registration screen.",
+    "primary_flow": "auth-register-social",
+    "ux_intent": "To convert new users into registered account holders.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Decorative illustration combines a drawn star and the GoPro logo with the Quik text in a 'torn paper' effect. Design uses a standard white background with high-contrast black primary buttons and subtle grey secondary buttons."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Secondary Button",
+      "Decorative illustration combines a drawn star and the GoPro logo with the Quik text in a 'torn paper' effect. Design uses a standard white background with high-contrast black primary buttons and subtle grey secondary buttons."
+    ],
+    "content_blocks": [
+      "GoPro Quik",
+      "Apple",
+      "Google",
+      "Facebook"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, high-contrast mobile UI.",
+      "white",
+      "black",
+      "grey",
+      "Decorative illustration combines a drawn star and the GoPro logo with the Quik text in a 'torn paper' effect. Design uses a standard white background with high-contrast black primary buttons and subtle grey secondary buttons."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, high-contrast mobile UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_social_04"
+}

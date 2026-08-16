@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Origin",
+    "platform": "ios",
+    "file_path": "screens/two-factor/05 - Origin.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:39.956Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Multi-factor authentication (MFA) entry screen for the Wise banking app.",
+    "primary_flow": "two-factor",
+    "ux_intent": "The user is required to input a time-based one-time password (TOTP) from an external authenticator app to proceed with a secure action.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Keypad",
+      "Clean, high-contrast interface.",
+      "Primary action button is highlighted in green to draw attention.",
+      "Standard numerical keypad suggests ease of use.",
+      "No illustrative elements present; design relies entirely on text and functional form fields."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Keypad",
+      "Primary action button is highlighted in green to draw attention."
+    ],
+    "content_blocks": [
+      "Wise",
+      "Verification Code Input",
+      "Confirm code",
+      "Try another way"
+    ],
+    "visual_keywords": [
+      "Minimalist, utilitarian, mobile-native UI design following standard iOS pattern conventions.",
+      "white",
+      "light grey",
+      "green",
+      "Clean, high-contrast interface.",
+      "Primary action button is highlighted in green to draw attention.",
+      "Standard numerical keypad suggests ease of use.",
+      "No illustrative elements present; design relies entirely on text and functional form fields."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, utilitarian, mobile-native UI design following standard iOS pattern conventions."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_two_factor_05"
+}

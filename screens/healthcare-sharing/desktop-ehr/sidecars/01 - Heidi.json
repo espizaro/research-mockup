@@ -1,0 +1,294 @@
+{
+  "image": "01 - Heidi.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Heidi medical documentation software, displaying a patient intake form for 'Jane Doe'. The document contains sections for Opening Rapport, Presenting Concerns, Emotional & Physical Symptom Check, and Brief Life Context, alongside a task management panel on the right.",
+    "ocr": {
+      "full_text": "Alex Smith alexsmith@conte... New session Hide sessions Tasks Template library Community Team Settings Earn $50 Request a feature Shortcuts Help jane Upcoming (1) Past (1) 12/11/2025 JD Jane Doe 10:55AM JD Jane Doe Depression, Panic Attacks Yesterday 10:55AM English, Japanese -> English 13 days 14:52 MacBook Pro Micro... Context Transcript Client Initial Assessment Create a patient explainer letter Client Initial Assessment Client Initial Assessment / Interview Template Opening Rapport Notes: Client presented as nervous but was able to engage in the session. She expressed gratitude for the opportunity to speak and was honest about her current state of distress. Presenting Concerns (in client's own words): Client reports feeling \"really low for months\" and has recently experienced several panic episodes that are frightening. She describes a persistent feeling of heaviness and anhedonia, stating she does not enjoy anything anymore. She has lost interest in previously enjoyed activities such as baking and gardening. She also reports forcing herself to go to work and feeling that she is not functioning well. Emotional & Physical Symptom Check: Client reports a low mood for approximately 5 months, which has progressively worsened. She describes panic episodes characterized by chest tightness, tachycardia, and dyspnea. These episodes last for 10-15 minutes and are followed by several hours of feeling shaky and exhausted. She reports poor sleep, with frequent awakenings at 3 or 4 a.m. and an inability to return to sleep, leading to significant fatigue. Appetite has decreased, and she often skips meals, sometimes eating only one meal per day. She reports low energy levels. Brief Life Context: Client works as a business analyst. Her work performance has been negatively impacted, with missed deadlines and falling behind on tasks, which has resulted in her staying up late to complete work. She has called in sick twice in the last week due to uncontrollable crying. She Personalisation on 0/9 codes 1/3 tasks Ask Heidi to do anything... Review your note before use to ensure it accurately represents the visit Create Resume MacBook Pro Micro... Tasks Complete formal assessment in the next session. Provide book resources for grounding techniques and routine building. Schedule weekly sessions for the client. New task Stale tasks will be archived in 30 days Tutorials 100% Heidi curated by Mobbin",
+      "lines": [
+        {
+          "text": "Alex Smith"
+        },
+        {
+          "text": "alexsmith@conte..."
+        },
+        {
+          "text": "New session"
+        },
+        {
+          "text": "Hide sessions"
+        },
+        {
+          "text": "Tasks"
+        },
+        {
+          "text": "Template library"
+        },
+        {
+          "text": "Community"
+        },
+        {
+          "text": "Team"
+        },
+        {
+          "text": "Settings"
+        },
+        {
+          "text": "Earn $50"
+        },
+        {
+          "text": "Request a feature"
+        },
+        {
+          "text": "Shortcuts"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "jane"
+        },
+        {
+          "text": "Upcoming (1)"
+        },
+        {
+          "text": "Past (1)"
+        },
+        {
+          "text": "12/11/2025"
+        },
+        {
+          "text": "JD Jane Doe 10:55AM"
+        },
+        {
+          "text": "JD Jane Doe"
+        },
+        {
+          "text": "Depression, Panic Attacks"
+        },
+        {
+          "text": "Yesterday 10:55AM"
+        },
+        {
+          "text": "English, Japanese -> English"
+        },
+        {
+          "text": "13 days"
+        },
+        {
+          "text": "14:52"
+        },
+        {
+          "text": "MacBook Pro Micro..."
+        },
+        {
+          "text": "Context"
+        },
+        {
+          "text": "Transcript"
+        },
+        {
+          "text": "Client Initial Assessment"
+        },
+        {
+          "text": "Create a patient explainer letter"
+        },
+        {
+          "text": "Client Initial Assessment"
+        },
+        {
+          "text": "Client Initial Assessment / Interview Template"
+        },
+        {
+          "text": "Opening Rapport Notes:"
+        },
+        {
+          "text": "Client presented as nervous but was able to engage in the session. She expressed gratitude for the opportunity to speak and was honest about her current state of distress."
+        },
+        {
+          "text": "Presenting Concerns (in client's own words):"
+        },
+        {
+          "text": "Client reports feeling \"really low for months\" and has recently experienced several panic episodes that are frightening. She describes a persistent feeling of heaviness and anhedonia, stating she does not enjoy anything anymore. She has lost interest in previously enjoyed activities such as baking and gardening. She also reports forcing herself to go to work and feeling that she is not functioning well."
+        },
+        {
+          "text": "Emotional & Physical Symptom Check:"
+        },
+        {
+          "text": "Client reports a low mood for approximately 5 months, which has progressively worsened. She describes panic episodes characterized by chest tightness, tachycardia, and dyspnea. These episodes last for 10-15 minutes and are followed by several hours of feeling shaky and exhausted. She reports poor sleep, with frequent awakenings at 3 or 4 a.m. and an inability to return to sleep, leading to significant fatigue. Appetite has decreased, and she often skips meals, sometimes eating only one meal per day. She reports low energy levels."
+        },
+        {
+          "text": "Brief Life Context:"
+        },
+        {
+          "text": "Client works as a business analyst. Her work performance has been negatively impacted, with missed deadlines and falling behind on tasks, which has resulted in her staying up late to complete work. She has called in sick twice in the last week due to uncontrollable crying. She"
+        },
+        {
+          "text": "Personalisation on"
+        },
+        {
+          "text": "0/9 codes"
+        },
+        {
+          "text": "1/3 tasks"
+        },
+        {
+          "text": "Ask Heidi to do anything..."
+        },
+        {
+          "text": "Review your note before use to ensure it accurately represents the visit"
+        },
+        {
+          "text": "Create"
+        },
+        {
+          "text": "Resume"
+        },
+        {
+          "text": "MacBook Pro Micro..."
+        },
+        {
+          "text": "Tasks"
+        },
+        {
+          "text": "Complete formal assessment in the next session."
+        },
+        {
+          "text": "Provide book resources for grounding techniques and routine building."
+        },
+        {
+          "text": "Schedule weekly sessions for the client."
+        },
+        {
+          "text": "New task"
+        },
+        {
+          "text": "Stale tasks will be archived in 30 days"
+        },
+        {
+          "text": "Tutorials 100%"
+        },
+        {
+          "text": "Heidi"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Client Initial Assessment / Interview Template"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Opening Rapport Notes: Client presented as nervous but was able to engage in the session. She expressed gratitude for the opportunity to speak and was honest about her current state of distress."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Presenting Concerns (in client's own words): Client reports feeling \"really low for months\" and has recently experienced several panic episodes that are frightening. She describes a persistent feeling of heaviness and anhedonia, stating she does not enjoy anything anymore. She has lost interest in previously enjoyed activities such as baking and gardening. She also reports forcing herself to go to work and feeling that she is not functioning well."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Emotional & Physical Symptom Check: Client reports a low mood for approximately 5 months, which has progressively worsened. She describes panic episodes characterized by chest tightness, tachycardia, and dyspnea. These episodes last for 10-15 minutes and are followed by several hours of feeling shaky and exhausted. She reports poor sleep, with frequent awakenings at 3 or 4 a.m. and an inability to return to sleep, leading to significant fatigue. Appetite has decreased, and she often skips meals, sometimes eating only one meal per day. She reports low energy levels."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Brief Life Context: Client works as a business analyst. Her work performance has been negatively impacted, with missed deadlines and falling behind on tasks, which has resulted in her staying up late to complete work. She has called in sick twice in the last week due to uncontrollable crying."
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Tasks: Complete formal assessment in the next session; Provide book resources for grounding techniques and routine building; Schedule weekly sessions for the client."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Clinical interface software for documenting patient assessments.",
+      "intent": "To document a clinical interview with a patient named Jane Doe.",
+      "entities": [
+        {
+          "name": "Jane Doe",
+          "type": "Patient",
+          "evidence": "Patient name in header"
+        },
+        {
+          "name": "Alex Smith",
+          "type": "Doctor/User",
+          "evidence": "Top left profile"
+        },
+        {
+          "name": "Heidi",
+          "type": "Software",
+          "evidence": "Logo bottom left"
+        },
+        {
+          "name": "Business Analyst",
+          "type": "Occupation",
+          "evidence": "Brief Life Context section"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Alex Smith",
+          "predicate": "is reviewing",
+          "object": "Jane Doe"
+        },
+        {
+          "subject": "Jane Doe",
+          "predicate": "reports",
+          "object": "panic episodes"
+        },
+        {
+          "subject": "Jane Doe",
+          "predicate": "is",
+          "object": "Business Analyst"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "light blue"
+      ],
+      "style": "Clean, modern, web-based software dashboard",
+      "notes": [
+        "Task list on the right is marked as beta.",
+        "Progress indicators for codes and tasks are visible at the bottom."
+      ]
+    },
+    "uncertainty": [
+      "The end of the Brief Life Context section text is slightly cut off in the transcription."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:29.941Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 8.398,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 2367,
+      "totalTokenCount": 3574,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

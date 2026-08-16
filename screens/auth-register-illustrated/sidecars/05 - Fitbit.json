@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Fitbit",
+    "platform": "ios",
+    "file_path": "screens/auth-register-illustrated/05 - Fitbit.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:56.892Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app login screen",
+    "primary_flow": "auth-register-illustrated",
+    "ux_intent": "To prompt the user to sign in to their Fitbit account, likely during initial app installation or after being logged out.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "The illustration is a flat, 2D character-focused art style.",
+      "The artwork is placed at the top of the screen to serve as a hero visual, emphasizing movement.",
+      "Color palette is high-contrast, utilizing a vibrant teal background.",
+      "Design elements include rounded corners on buttons and a consistent sans-serif typeface.",
+      "Layout is vertically centered for mobile accessibility."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Design elements include rounded corners on buttons and a consistent sans-serif typeface."
+    ],
+    "content_blocks": [
+      "Fitbit",
+      "Google"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat vector illustration, clean typography.",
+      "teal",
+      "black",
+      "white",
+      "The illustration is a flat, 2D character-focused art style.",
+      "The artwork is placed at the top of the screen to serve as a hero visual, emphasizing movement.",
+      "Color palette is high-contrast, utilizing a vibrant teal background.",
+      "Design elements include rounded corners on buttons and a consistent sans-serif typeface.",
+      "Layout is vertically centered for mobile accessibility."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat vector illustration, clean typography."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_illustrated_05"
+}

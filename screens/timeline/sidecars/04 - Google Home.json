@@ -1,0 +1,43 @@
+{
+  "identification": {
+    "app_name": "Google Home",
+    "platform": "ios",
+    "file_path": "screens/timeline/04 - Google Home.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:54.279Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A smartphone app activity log screen.",
+    "primary_flow": "timeline",
+    "ux_intent": "View home activity history.",
+    "ux_patterns": [
+      "Form",
+      "Settings"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Google Home",
+      "Activity Feed",
+      "Event"
+    ],
+    "visual_keywords": [
+      "Material design mobile UI",
+      "white",
+      "light blue",
+      "grey"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Material design mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_timeline_04"
+}

@@ -1,0 +1,189 @@
+{
+  "image": "07 - Vrbo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen for adding a note to an itinerary, featuring fields for date, time, and note text, along with a security warning.",
+    "ocr": {
+      "full_text": "9:41 Add a note Date Wed, Oct 01, 2025 Time 8:00 am Add your note Landing @ DMK! 14/1000 Add to itinerary Protect yourself by not sharing sensitive info like credit card details. Vrbo curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Add a note",
+          "language": "en"
+        },
+        {
+          "text": "Date",
+          "language": "en"
+        },
+        {
+          "text": "Wed, Oct 01, 2025",
+          "language": "en"
+        },
+        {
+          "text": "Time",
+          "language": "en"
+        },
+        {
+          "text": "8:00 am",
+          "language": "en"
+        },
+        {
+          "text": "Add your note",
+          "language": "en"
+        },
+        {
+          "text": "Landing @ DMK!",
+          "language": "en"
+        },
+        {
+          "text": "14/1000",
+          "language": "en"
+        },
+        {
+          "text": "Add to itinerary",
+          "language": "en"
+        },
+        {
+          "text": "Protect yourself by not sharing sensitive info like credit card details.",
+          "language": "en"
+        },
+        {
+          "text": "Vrbo",
+          "language": "en"
+        },
+        {
+          "text": "curated by",
+          "language": "en"
+        },
+        {
+          "text": "Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Add a note"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "Date * Wed, Oct 01, 2025"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Time 8:00 am"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Add your note * Landing @ DMK! 14/1000"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Add to itinerary"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Protect yourself by not sharing sensitive info like credit card details."
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "Vrbo curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile interface for itinerary management.",
+      "intent": "User is creating or editing a note within a travel planning application.",
+      "entities": [
+        {
+          "name": "Add a note",
+          "type": "UI Element"
+        },
+        {
+          "name": "Date field",
+          "type": "Input Field",
+          "evidence": "Wed, Oct 01, 2025"
+        },
+        {
+          "name": "Time field",
+          "type": "Input Field",
+          "evidence": "8:00 am"
+        },
+        {
+          "name": "Note field",
+          "type": "Input Field",
+          "evidence": "Landing @ DMK!"
+        },
+        {
+          "name": "Vrbo",
+          "type": "Organization",
+          "evidence": "Brand name at bottom"
+        },
+        {
+          "name": "DMK",
+          "type": "Location",
+          "evidence": "Don Mueang International Airport code"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "fills in",
+          "object": "Note field"
+        },
+        {
+          "subject": "Application",
+          "predicate": "displays",
+          "object": "Security warning"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue"
+      ],
+      "style": "Clean, mobile application UI design",
+      "notes": [
+        "Standard iOS status bar",
+        "Blue call-to-action button",
+        "Icon-based field labels"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:48.704Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.644,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 924,
+      "totalTokenCount": 2151,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

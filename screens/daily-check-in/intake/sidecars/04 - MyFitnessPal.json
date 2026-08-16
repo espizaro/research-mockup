@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "MyFitnessPal",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/intake/04 - MyFitnessPal.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:24.555Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding or settings questionnaire screen.",
+    "primary_flow": "daily-check-in/intake",
+    "ux_intent": "User is selecting a preference for the intensity of lifestyle changes to guide app recommendations.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Settings",
+      "Minimalist",
+      "Progress bar at the top with first segment highlighted",
+      "Selection for 'Small changes are best' includes a blue checkmark and border",
+      "Large blue call-to-action button at the bottom"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Progress Bar",
+      "Large blue call-to-action button at the bottom"
+    ],
+    "content_blocks": [
+      "MyFitnessPal",
+      "Mobbin",
+      "Motivation Question"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app UI design",
+      "white",
+      "blue",
+      "light-gray",
+      "Progress bar at the top with first segment highlighted",
+      "Selection for 'Small changes are best' includes a blue checkmark and border",
+      "Large blue call-to-action button at the bottom"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_intake_04"
+}

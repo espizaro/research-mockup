@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Numo",
+    "platform": "ios",
+    "file_path": "screens/productivity-tasks/01 - Numo.webp",
+    "analyzed_timestamp": "2026-08-06T23:57:02.532Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Project task management dashboard in a mobile app (Asana)",
+    "primary_flow": "productivity-tasks",
+    "ux_intent": "Task organization and project management workflow",
+    "ux_patterns": [
+      "Search",
+      "Card",
+      "Uses a bottom navigation bar with icons",
+      "Cards and list-style row structure",
+      "Collapsible headers for categorization"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Uses a bottom navigation bar with icons"
+    ],
+    "content_blocks": [
+      "EOY Campaign",
+      "Asana",
+      "alexs",
+      "Sam"
+    ],
+    "visual_keywords": [
+      "Clean, mobile-first, professional SaaS UI",
+      "purple",
+      "white",
+      "gray",
+      "teal",
+      "Uses a bottom navigation bar with icons",
+      "Cards and list-style row structure",
+      "Collapsible headers for categorization"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, mobile-first, professional SaaS UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_productivity_tasks_01"
+}

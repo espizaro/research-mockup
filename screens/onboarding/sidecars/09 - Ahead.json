@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Ahead",
+    "platform": "ios",
+    "file_path": "screens/onboarding/09 - Ahead.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:34.961Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen of a mobile application.",
+    "primary_flow": "onboarding",
+    "ux_intent": "User introduction and app feature walkthrough trigger.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Hero illustration is a stylized, anthropomorphic character acting as a friendly guide.",
+      "The character reinforces the brand identity of being a 'gentle' health app.",
+      "Visual hierarchy is clear with headline at the top and CTA button centered towards the bottom.",
+      "Clean, sans-serif typography."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Visual hierarchy is clear with headline at the top and CTA button centered towards the bottom."
+    ],
+    "content_blocks": [
+      "Alex",
+      "Gentler Streak",
+      "Mascot",
+      "Go for it"
+    ],
+    "visual_keywords": [
+      "Minimalist UI with flat, friendly character illustration.",
+      "white",
+      "pale blue",
+      "orange",
+      "black",
+      "Hero illustration is a stylized, anthropomorphic character acting as a friendly guide.",
+      "The character reinforces the brand identity of being a 'gentle' health app.",
+      "Visual hierarchy is clear with headline at the top and CTA button centered towards the bottom.",
+      "Clean, sans-serif typography."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist UI with flat, friendly character illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_09"
+}

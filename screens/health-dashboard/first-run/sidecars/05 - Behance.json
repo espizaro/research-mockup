@@ -1,0 +1,143 @@
+{
+  "image": "05 - Behance.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for a 'Project Editor' interface, likely from Behance, showing a workspace for creating a new project with various media selection tools and a grid of recent image assets.",
+    "ocr": {
+      "full_text": "9:41\nClose\nProject Editor\nNext\nStart a Project\nAdd content to your project\nusing the tools below.\nLr\nAlbums\nBehance\ncurated by\nMobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Close"
+        },
+        {
+          "text": "Project Editor"
+        },
+        {
+          "text": "Next"
+        },
+        {
+          "text": "Start a Project"
+        },
+        {
+          "text": "Add content to your project"
+        },
+        {
+          "text": "using the tools below."
+        },
+        {
+          "text": "Lr"
+        },
+        {
+          "text": "Albums"
+        },
+        {
+          "text": "Behance"
+        },
+        {
+          "text": "curated by"
+        },
+        {
+          "text": "Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Project Editor"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Start a Project. Add content to your project using the tools below."
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Tool icons: Lr, camera, text, code"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Grid of images showing albums, a perfume bottle, a shoe, a Coca-Cola can, a night cityscape, and a portrait of a man."
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Footer containing Behance logo and 'curated by Mobbin'."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app project creation interface",
+      "intent": "User is selecting media assets to add to a creative project.",
+      "entities": [
+        {
+          "name": "Behance",
+          "type": "Brand"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Brand"
+        },
+        {
+          "name": "Coca-Cola",
+          "type": "Product"
+        },
+        {
+          "name": "Lr",
+          "type": "Software",
+          "evidence": "Icon indicating Lightroom integration"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Behance",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "red"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Clean white background",
+        "Standard iOS system bar at top",
+        "Grid layout for media assets"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:34.739Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.861,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 696,
+      "totalTokenCount": 1923,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

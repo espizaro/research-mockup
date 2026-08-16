@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Bloom",
+    "platform": "ios",
+    "file_path": "screens/auth-register-success/01 - Bloom.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:20.023Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app welcome screen post-subscription purchase.",
+    "primary_flow": "auth-register-success",
+    "ux_intent": "Welcome the user, reaffirm the value proposition, and encourage user progression.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "Card",
+      "Abstract floral-inspired line art watermark in the background.",
+      "Card-based UI for the unlocked features section.",
+      "Profile avatar used to build trust.",
+      "The aesthetic is minimalist and financial-tech focused."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Bloom",
+      "John",
+      "Sam"
+    ],
+    "visual_keywords": [
+      "Clean, modern, high-contrast mobile UI with a professional yet welcoming tone.",
+      "deep blue",
+      "white",
+      "black",
+      "Abstract floral-inspired line art watermark in the background.",
+      "Card-based UI for the unlocked features section.",
+      "Profile avatar used to build trust.",
+      "The aesthetic is minimalist and financial-tech focused."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern, high-contrast mobile UI with a professional yet welcoming tone."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_success_01"
+}

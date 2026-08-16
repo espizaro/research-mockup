@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Careem",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/detail-sections/06 - Careem.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:34.443Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app restaurant profile screen.",
+    "primary_flow": "daily-check-in/detail-sections",
+    "ux_intent": "Providing information about a restaurant named Amici Miei.",
+    "ux_patterns": [
+      "Form",
+      "Profile",
+      "Minimalist",
+      "Includes icons for seating, view, alcohol, and parking.",
+      "Curated by footer visible at bottom."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Amici Miei",
+      "Italy",
+      "Dubai",
+      "Burj Khalifa",
+      "Careem",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Mobile UI, minimalist, clean layout.",
+      "white",
+      "black",
+      "teal",
+      "Includes icons for seating, view, alcohol, and parking.",
+      "Curated by footer visible at bottom."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile UI, minimalist, clean layout."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_detail_sections_06"
+}

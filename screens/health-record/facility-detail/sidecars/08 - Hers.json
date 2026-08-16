@@ -1,0 +1,170 @@
+{
+  "image": "08 - Hers.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A product page from the 'Hers' brand showcasing a 'Biotin + Minoxidil Gummy' hair treatment, including descriptions, pricing, and availability information.",
+    "ocr": {
+      "full_text": "Better hair days ahead. Based on your responses, a provider may consider this match for you. Rx Biotin + Minoxidil Gummy. Plans starting at $35/mo*. *Paid upfront, in full. Minimum 3 month subscription required. Pricing varies by subscription plan. Meet Biotin + Minoxidil Gummy. The 2-in-1 daily gummy that tastes like green apple and gets right to the core of hair thinning. This dermatologist-formulated treatment combines minoxidil, an ingredient proven to regrow thicker, fuller hair in 3-6 months, with biotin, a vitamin that supports healthy hair. Only available if prescribed. Important safety information. About Minoxidil. About Biotin. hers. curated by Mobbin.",
+      "lines": [
+        {
+          "text": "Better hair days ahead"
+        },
+        {
+          "text": "Based on your responses, a provider may consider this match for you."
+        },
+        {
+          "text": "Rx"
+        },
+        {
+          "text": "Biotin + Minoxidil Gummy"
+        },
+        {
+          "text": "Plans starting at $35/mo*"
+        },
+        {
+          "text": "*Paid upfront, in full. Minimum 3 month subscription required. Pricing varies by subscription plan."
+        },
+        {
+          "text": "Meet Biotin + Minoxidil Gummy"
+        },
+        {
+          "text": "The 2-in-1 daily gummy that tastes like green apple and gets right to the core"
+        },
+        {
+          "text": "of hair thinning. This dermatologist-formulated treatment combines minoxidil,"
+        },
+        {
+          "text": "an ingredient proven to regrow thicker, fuller hair in 3-6 months, with biotin, a"
+        },
+        {
+          "text": "vitamin that supports healthy hair."
+        },
+        {
+          "text": "Only available if prescribed"
+        },
+        {
+          "text": "Important safety information"
+        },
+        {
+          "text": "About Minoxidil"
+        },
+        {
+          "text": "About Biotin"
+        },
+        {
+          "text": "hers"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Better hair days ahead"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Based on your responses, a provider may consider this match for you."
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Rx Biotin + Minoxidil Gummy Plans starting at $35/mo*"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "*Paid upfront, in full. Minimum 3 month subscription required. Pricing varies by subscription plan."
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Meet Biotin + Minoxidil Gummy. The 2-in-1 daily gummy that tastes like green apple and gets right to the core of hair thinning. This dermatologist-formulated treatment combines minoxidil, an ingredient proven to regrow thicker, fuller hair in 3-6 months, with biotin, a vitamin that supports healthy hair. Only available if prescribed. Important safety information. About Minoxidil. About Biotin."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app product detail page for a health/wellness product.",
+      "intent": "To inform the user about a prescription hair growth product and provide information on its benefits and cost.",
+      "entities": [
+        {
+          "name": "Hers",
+          "type": "Brand"
+        },
+        {
+          "name": "Biotin + Minoxidil Gummy",
+          "type": "Product"
+        },
+        {
+          "name": "Minoxidil",
+          "type": "Ingredient"
+        },
+        {
+          "name": "Biotin",
+          "type": "Ingredient"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Biotin + Minoxidil Gummy",
+          "predicate": "contains",
+          "object": "Minoxidil"
+        },
+        {
+          "subject": "Biotin + Minoxidil Gummy",
+          "predicate": "contains",
+          "object": "Biotin"
+        },
+        {
+          "subject": "Biotin + Minoxidil Gummy",
+          "predicate": "is_a",
+          "object": "Dermatologist-formulated treatment"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "mint green",
+        "white",
+        "black"
+      ],
+      "style": "clean, modern, minimalist UI",
+      "notes": [
+        "Uses soft pastel green background for product card",
+        "Includes an icon of the gummy"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:46.607Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.84,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1127,
+      "totalTokenCount": 2334,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

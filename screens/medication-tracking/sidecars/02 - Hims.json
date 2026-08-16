@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Hims",
+    "platform": "ios",
+    "file_path": "screens/medication-tracking/02 - Hims.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:35.617Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application user interface for managing medication subscriptions and reminders.",
+    "primary_flow": "medication-tracking",
+    "ux_intent": "To allow a user to enable and configure push notifications for taking their medication.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Minimalist",
+      "Toggle",
+      "There is a top close button (x) on the modal.",
+      "The toggle for 'Remind me daily' is in the 'on' (green) state."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "There is a top close button (x) on the modal."
+    ],
+    "content_blocks": [
+      "Hims",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern mobile application interface, clean, minimalist design.",
+      "white",
+      "light grey",
+      "green",
+      "There is a top close button (x) on the modal.",
+      "The toggle for 'Remind me daily' is in the 'on' (green) state."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile application interface, clean, minimalist design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_medications_02"
+}

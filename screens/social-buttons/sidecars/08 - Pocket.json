@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Pocket",
+    "platform": "ios",
+    "file_path": "screens/social-buttons/08 - Pocket.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:22.758Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile login screen for the service 'Pocket'.",
+    "primary_flow": "social-buttons",
+    "ux_intent": "To facilitate user authentication and account access.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Logo is a simple geometric icon featuring a downward-pointing arrow within a shield/pocket shape.",
+      "Clear visual hierarchy with primary brand color (red) and primary CTA button (green).",
+      "Social login buttons use high-contrast white backgrounds with brand-appropriate icons (Mozilla, Apple, Google)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Primary CTA Button",
+      "Clear visual hierarchy with primary brand color (red) and primary CTA button (green).",
+      "Social login buttons use high-contrast white backgrounds with brand-appropriate icons (Mozilla, Apple, Google)."
+    ],
+    "content_blocks": [
+      "Pocket",
+      "Mozilla",
+      "Apple",
+      "Google",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat mobile UI design",
+      "red",
+      "blue",
+      "white",
+      "gray",
+      "green",
+      "Logo is a simple geometric icon featuring a downward-pointing arrow within a shield/pocket shape.",
+      "Clear visual hierarchy with primary brand color (red) and primary CTA button (green).",
+      "Social login buttons use high-contrast white backgrounds with brand-appropriate icons (Mozilla, Apple, Google)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat mobile UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_social_buttons_08"
+}

@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Me+",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-quiz/04 - Me+.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:50.265Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding/Settings questionnaire screen",
+    "primary_flow": "auth-onboarding-quiz",
+    "ux_intent": "To capture user motivation for personal organization to personalize the user experience.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Settings",
+      "Checkbox",
+      "The mascot is a white chicken with purple glasses placed above the headline.",
+      "The background is a soft, dark reddish-purple bookshelf.",
+      "UI patterns include a selection list with checkboxes.",
+      "The overall design feels approachable and encouraging."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Checkbox"
+    ],
+    "content_blocks": [
+      "Mascot",
+      "ADHD related problem",
+      "Lack of motivation",
+      "No daily plan",
+      "Not enough time",
+      "There's nothing holding me back"
+    ],
+    "visual_keywords": [
+      "Friendly, playful, app-standard, UI with mascot",
+      "white",
+      "purple",
+      "light gray",
+      "The mascot is a white chicken with purple glasses placed above the headline.",
+      "The background is a soft, dark reddish-purple bookshelf.",
+      "UI patterns include a selection list with checkboxes.",
+      "The overall design feels approachable and encouraging."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Friendly, playful, app-standard, UI with mascot"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_quiz_04"
+}

@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "HBX",
+    "platform": "ios",
+    "file_path": "screens/social-buttons/06 - HBX.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:19.337Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login and account creation page on mobile.",
+    "primary_flow": "social-buttons",
+    "ux_intent": "To authenticate existing users or facilitate new account registration.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No decorative illustrations present.",
+      "Uses standard mobile browser chrome.",
+      "High-contrast text for accessibility."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "HBX",
+      "Apple",
+      "Facebook",
+      "Google",
+      "WeChat"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, utility-focused mobile web UI",
+      "White",
+      "Black",
+      "Light Grey",
+      "No decorative illustrations present.",
+      "Uses standard mobile browser chrome.",
+      "High-contrast text for accessibility."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, utility-focused mobile web UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_social_buttons_06"
+}

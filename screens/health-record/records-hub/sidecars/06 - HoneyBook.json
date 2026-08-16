@@ -1,0 +1,180 @@
+{
+  "image": "06 - HoneyBook.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the HoneyBook 'Projects' dashboard interface, showing a project pipeline view with an 'Importing data...' status notification at the top right, and a list of project entries below.",
+    "ocr": {
+      "full_text": "HB Home Projects Leads Files Templates Automations Tools New Finance See pricing NEW Projects Main view + Import data CREATE NEW Customize pipeline Filter Opportunities Projects 10 All 6 New 0 Discovery 1 Proposal 1 Contract Signed 2 Kick off 0 Onboarding 0 Planning 0 Delivery 0 Comp PROJECT NAME CONTACT TYPE DATE TAGS LEAD SOURCE RECENT Website Redesign for Client A Sam Lee Website Design Tue, Mar 18, 2025 Unknown Alex's test project Sam Lee Branding TBD Unknown Cont Alex's test project Branding TBD Unknown Alex's test project Sam Lee Branding TBD Unknown Alex's test project Branding TBD Unknown Alex's test project Branding TBD Unknown Alex's test project Sam Lee Branding TBD Unknown HoneyBook curated by Mobbin",
+      "lines": [
+        {
+          "text": "HB Home Projects Leads Files Templates Automations Tools New Finance"
+        },
+        {
+          "text": "See pricing"
+        },
+        {
+          "text": "NEW"
+        },
+        {
+          "text": "Importing data..."
+        },
+        {
+          "text": "Projects"
+        },
+        {
+          "text": "Main view +"
+        },
+        {
+          "text": "Import data CREATE NEW"
+        },
+        {
+          "text": "Customize pipeline Filter"
+        },
+        {
+          "text": "Opportunities Projects"
+        },
+        {
+          "text": "10 All 6 New 0 Discovery 1 Proposal 1 Contract Signed 2 Kick off 0 Onboarding 0 Planning 0 Delivery 0 Comp"
+        },
+        {
+          "text": "PROJECT NAME CONTACT TYPE DATE TAGS LEAD SOURCE RECENT"
+        },
+        {
+          "text": "Website Redesign for Client A Sam Lee Website Design Tue, Mar 18, 2025 Unknown"
+        },
+        {
+          "text": "Alex's test project Sam Lee Branding TBD Unknown Cont"
+        },
+        {
+          "text": "Alex's test project Branding TBD Unknown"
+        },
+        {
+          "text": "Alex's test project Sam Lee Branding TBD Unknown"
+        },
+        {
+          "text": "Alex's test project Branding TBD Unknown"
+        },
+        {
+          "text": "Alex's test project Branding TBD Unknown"
+        },
+        {
+          "text": "Alex's test project Sam Lee Branding TBD Unknown"
+        },
+        {
+          "text": "HoneyBook curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "other",
+          "reading_order": 1,
+          "text": "HoneyBook navigation bar with home, projects, leads, files, templates, automations, tools, and finance menus."
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Projects"
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Importing data status modal in top right corner."
+        },
+        {
+          "type": "table",
+          "reading_order": 4,
+          "text": "Pipeline stages board showing 10 total projects with counts for each stage like New, Discovery, Proposal, etc."
+        },
+        {
+          "type": "table",
+          "reading_order": 5,
+          "text": "List of projects including Project Name, Contact, Type, Date, and Lead Source."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A SaaS business management software dashboard (HoneyBook) for project tracking and client management.",
+      "intent": "To display the project management pipeline and project listing.",
+      "entities": [
+        {
+          "name": "HoneyBook",
+          "type": "Software Brand",
+          "evidence": "Logo and text present at the top and bottom"
+        },
+        {
+          "name": "Projects",
+          "type": "Dashboard View",
+          "evidence": "Header text"
+        },
+        {
+          "name": "Sam Lee",
+          "type": "Contact Person",
+          "evidence": "Listed under CONTACT column"
+        },
+        {
+          "name": "Website Redesign for Client A",
+          "type": "Project Title",
+          "evidence": "First entry in table"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator",
+          "evidence": "Text in footer"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam Lee",
+          "predicate": "is the contact for",
+          "object": "Website Redesign for Client A"
+        },
+        {
+          "subject": "HoneyBook",
+          "predicate": "provides service for",
+          "object": "Project management"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "gray",
+        "black",
+        "purple"
+      ],
+      "style": "Clean, modern, web application UI interface.",
+      "notes": [
+        "The interface is typical of productivity software.",
+        "There is an active file import progress bar at the top."
+      ]
+    },
+    "uncertainty": [
+      "The text 'Cont' in the 'RECENT' column might be truncated text for 'Contact' or 'Continued'.",
+      "The 'Comp' label in the pipeline likely stands for 'Completed' but is cut off."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:23.163Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.869,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1167,
+      "totalTokenCount": 2374,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

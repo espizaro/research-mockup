@@ -1,0 +1,179 @@
+{
+  "image": "04 - SHEIN.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the SHEIN mobile application shopping cart interface, featuring a prominent 'Low stock alert!' modal pop-up overlay notifying the user that an item in their cart is down to '1 left', with a 'Claim Now' button. The underlying interface shows cart contents, shipping thresholds, and discount offers.",
+    "ocr": {
+      "full_text": "9:41\nAll Cart(1) Ship to United States >\nFree return $5 Credits if Late\nEligible to get a $700.00 Coupon Bundle after order!\nAll Almost Out of Stock 30% OFF $9.9+\nSHEIN\nBuy $7.27 more to enjoy FREE STANDARD\nSHIPPING! Low stock alert!\nStock down to 1 left\n1 Left\nClaim Now\nAll Local\nSpend $2.17 to get 30% OFF. Add more items to apply! Add >\n$7.73 Saved$5.76\n-42%\nCheckout(1)\nAlmost sold out!\nSHEIN curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "All Cart(1) Ship to United States >"
+        },
+        {
+          "text": "Free return $5 Credits if Late"
+        },
+        {
+          "text": "Eligible to get a $700.00 Coupon Bundle after order!"
+        },
+        {
+          "text": "All Almost Out of Stock 30% OFF $9.9+"
+        },
+        {
+          "text": "SHEIN"
+        },
+        {
+          "text": "Buy $7.27 more to enjoy FREE STANDARD"
+        },
+        {
+          "text": "SHIPPING! Low stock alert!"
+        },
+        {
+          "text": "Stock down to 1 left"
+        },
+        {
+          "text": "1 Left"
+        },
+        {
+          "text": "Claim Now"
+        },
+        {
+          "text": "All Local"
+        },
+        {
+          "text": "Spend $2.17 to get 30% OFF. Add more items to apply! Add >"
+        },
+        {
+          "text": "$7.73 Saved$5.76"
+        },
+        {
+          "text": "-42%"
+        },
+        {
+          "text": "Checkout(1)"
+        },
+        {
+          "text": "Almost sold out!"
+        },
+        {
+          "text": "SHEIN curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Cart(1)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Free return $5 Credits if Late"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Eligible to get a $700.00 Coupon Bundle after order!"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Low stock alert!"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Stock down to 1 left 1 Left Claim Now"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Spend $2.17 to get 30% OFF. Add more items to apply!"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Checkout(1) Almost sold out!"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Shopping cart page in a mobile e-commerce application.",
+      "intent": "User is being nudged to complete a purchase for an item that is low in stock.",
+      "entities": [
+        {
+          "name": "SHEIN",
+          "type": "Brand"
+        },
+        {
+          "name": "Cart",
+          "type": "UI Component"
+        },
+        {
+          "name": "Coupon Bundle",
+          "type": "Promotion"
+        },
+        {
+          "name": "Stock alert modal",
+          "type": "UI Component"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "SHEIN",
+          "predicate": "has_cart_page",
+          "object": "User"
+        },
+        {
+          "subject": "Stock alert modal",
+          "predicate": "prompts",
+          "object": "Purchase"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "orange",
+        "red"
+      ],
+      "style": "Minimalist mobile UI, high-contrast promotional overlays.",
+      "notes": [
+        "Centered modal pop-up creates focal point",
+        "Red accents used to highlight urgency and stock warnings",
+        "Standard iPhone status bar at top"
+      ]
+    },
+    "uncertainty": [
+      "Exact image content inside the low stock notification modal is small and partially obscured by UI layers.",
+      "Text '30% OFF $9.9+' is slightly compressed."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:22.149Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.059,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1140,
+      "totalTokenCount": 2367,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

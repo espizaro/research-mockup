@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "DoorDash Dasher",
+    "platform": "ios",
+    "file_path": "screens/sos/03 - DoorDash Dasher.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:17.152Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application interface (DoorDash Dasher) showing a safety information overlay on top of a mapping interface.",
+    "primary_flow": "sos",
+    "ux_intent": "To provide the user with access to safety tools and emergency services while operating as a delivery driver.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "The modal has a prominent red 'Swipe for 911' button at the bottom.",
+      "The map in the background shows 'San Francisco' marked as 'Busy'."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The modal has a prominent red 'Swipe for 911' button at the bottom."
+    ],
+    "content_blocks": [
+      "DoorDash Dasher",
+      "RapidSOS",
+      "SafeDash",
+      "911",
+      "San Francisco"
+    ],
+    "visual_keywords": [
+      "Mobile UI design with overlay modal",
+      "white",
+      "red",
+      "gray",
+      "The modal has a prominent red 'Swipe for 911' button at the bottom.",
+      "The map in the background shows 'San Francisco' marked as 'Busy'."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile UI design with overlay modal"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_sos_03"
+}

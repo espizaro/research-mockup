@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Hevy",
+    "platform": "ios",
+    "file_path": "screens/health-trends/03 - Hevy.webp",
+    "analyzed_timestamp": "2026-08-05T19:46:58.340Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application user interface",
+    "primary_flow": "health-trends",
+    "ux_intent": "Displaying monthly workout statistics and progress",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Tabs",
+      "Profile",
+      "Calendar",
+      "Chart",
+      "Minimalist",
+      "Clear, minimalist aesthetic",
+      "Primary action button is blue"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Table",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Primary action button is blue"
+    ],
+    "content_blocks": [
+      "Hevy",
+      "August Report",
+      "Calendar",
+      "Radar Chart"
+    ],
+    "visual_keywords": [
+      "Modern mobile flat UI",
+      "white",
+      "blue",
+      "grey",
+      "orange",
+      "Clear, minimalist aesthetic",
+      "Primary action button is blue"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile flat UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_evolution_03"
+}

@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Me+",
+    "platform": "ios",
+    "file_path": "screens/health-dashboard/mood-selector/02 - Me+.webp",
+    "analyzed_timestamp": "2026-08-10T06:03:16.102Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mood selection interface within a wellness or personal tracking mobile application.",
+    "primary_flow": "health-dashboard/mood-selector",
+    "ux_intent": "To allow the user to log their emotional state for the day.",
+    "ux_patterns": [
+      "Form",
+      "Settings",
+      "Calendar",
+      "Minimalist",
+      "Emoji-based emotional scale",
+      "Circular button icons for each mood",
+      "Bottom navigation buttons for settings and calendar"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Circular button icons for each mood",
+      "Bottom navigation buttons for settings and calendar"
+    ],
+    "content_blocks": [
+      "Me+",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat design, modern mobile UI",
+      "white",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "red",
+      "grey",
+      "Emoji-based emotional scale",
+      "Circular button icons for each mood"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat design, modern mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_home_dashboard_02"
+}

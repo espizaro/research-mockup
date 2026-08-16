@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Klima",
+    "platform": "ios",
+    "file_path": "screens/history-list/08 - Klima.webp",
+    "analyzed_timestamp": "2026-08-11T22:30:13.260Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application interface displaying a user's transaction history.",
+    "primary_flow": "history-list",
+    "ux_intent": "To view previous and scheduled payments for carbon offsetting.",
+    "ux_patterns": [
+      "List View",
+      "Minimalist",
+      "Card",
+      "Uses a clean list view with card elements for each payment entry.",
+      "Icons are present next to the payment status."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Payment Log",
+      "13 Nov 2023",
+      "13 Oct 2023",
+      "US$ 16.93",
+      "1.30 t CO2e",
+      "Klima"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "white",
+      "blue",
+      "gray",
+      "Uses a clean list view with card elements for each payment entry.",
+      "Icons are present next to the payment status."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_history_list_08"
+}

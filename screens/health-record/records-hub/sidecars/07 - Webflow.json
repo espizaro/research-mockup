@@ -1,0 +1,180 @@
+{
+  "image": "07 - Webflow.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Webflow CMS interface displaying a 'Projects' collection. It includes a table of project entries with columns for Name, Status, Link, Created, Modified, and Published dates. A side panel shows collection navigation and a promotional educational card for Webflow University. A dropdown menu for column visibility is open on the right.",
+    "ocr": {
+      "full_text": "CMS Collections Projects Search projects... Filter Select... Export Import Settings + New Project Projects 5 items Name Status Link Created Modified Published ASMobbin website Staged for Publish websiteproject Jul 8, 2024 12:59 PM Jul 8, 2024 1:12 PM Not Publish Do Sed Lorem Elit Staged for Publish do-sed-lorem-elit Jul 8, 2024 12:59 PM Jul 8, 2024 12:59 PM Not Publish Ut Tempor Staged for Publish ut-tempor Jul 8, 2024 12:59 PM Jul 8, 2024 12:59 PM Not Publish Lorem Draft lorem Jul 8, 2024 12:59 PM Jul 8, 2024 1:10 PM Not Publish Dolore Draft dolore Jul 8, 2024 12:59 PM Jul 8, 2024 1:10 PM Not Publish Discover the power of the Webflow CMS and Collections Watch more video tutorials on the Webflow University. Name Status Item ID Project Summary Client Featured Project? Color Link Created Modified Published Scheduled Showing 1-5 of 5 Webflow curated by Mobbin",
+      "lines": [
+        {
+          "text": "CMS Collections"
+        },
+        {
+          "text": "Projects"
+        },
+        {
+          "text": "Search projects..."
+        },
+        {
+          "text": "Filter"
+        },
+        {
+          "text": "Select..."
+        },
+        {
+          "text": "Export"
+        },
+        {
+          "text": "Import"
+        },
+        {
+          "text": "Settings"
+        },
+        {
+          "text": "+ New Project"
+        },
+        {
+          "text": "Projects 5 items"
+        },
+        {
+          "text": "Name Status Link Created Modified Published"
+        },
+        {
+          "text": "ASMobbin website Staged for Publish websiteproject Jul 8, 2024 12:59 PM Jul 8, 2024 1:12 PM Not Publish"
+        },
+        {
+          "text": "Do Sed Lorem Elit Staged for Publish do-sed-lorem-elit Jul 8, 2024 12:59 PM Jul 8, 2024 12:59 PM Not Publish"
+        },
+        {
+          "text": "Ut Tempor Staged for Publish ut-tempor Jul 8, 2024 12:59 PM Jul 8, 2024 12:59 PM Not Publish"
+        },
+        {
+          "text": "Lorem Draft lorem Jul 8, 2024 12:59 PM Jul 8, 2024 1:10 PM Not Publish"
+        },
+        {
+          "text": "Dolore Draft dolore Jul 8, 2024 12:59 PM Jul 8, 2024 1:10 PM Not Publish"
+        },
+        {
+          "text": "Discover the power of the Webflow CMS and Collections"
+        },
+        {
+          "text": "Watch more video tutorials on the Webflow University."
+        },
+        {
+          "text": "Name Status Item ID Project Summary Client Featured Project? Color Link Created Modified Published Scheduled"
+        },
+        {
+          "text": "Showing 1-5 of 5"
+        },
+        {
+          "text": "Webflow"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "CMS Collections"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Projects"
+        },
+        {
+          "type": "table",
+          "reading_order": 3,
+          "text": "Name, Status, Link, Created, Modified, Published. Entries: ASMobbin website, Do Sed Lorem Elit, Ut Tempor, Lorem, Dolore."
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Column settings menu displaying checkable options for Name, Status, Item ID, Project Summary, Client, Featured Project, Color, Link, Created, Modified, Published, Scheduled."
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Educational card: Discover the power of the Webflow CMS and Collections"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Web application user interface, specifically the Webflow CMS dashboard.",
+      "intent": "Demonstrate the CMS interface for managing project data.",
+      "entities": [
+        {
+          "name": "Webflow",
+          "type": "Software Brand"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator Brand"
+        },
+        {
+          "name": "CMS Collections",
+          "type": "Feature"
+        },
+        {
+          "name": "Projects",
+          "type": "Database Collection"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Webflow",
+          "predicate": "is curated by",
+          "object": "Mobbin"
+        },
+        {
+          "subject": "Projects",
+          "predicate": "contains",
+          "object": "ASMobbin website"
+        },
+        {
+          "subject": "Projects",
+          "predicate": "contains",
+          "object": "Do Sed Lorem Elit"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#1e1e1e",
+        "#ffffff",
+        "#3b3b3b"
+      ],
+      "style": "Dark mode UI, clean, technical, minimalist.",
+      "notes": [
+        "Standard web dashboard layout with sidebar, header toolbar, and central data table."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:31.961Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.147,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1374,
+      "totalTokenCount": 2581,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

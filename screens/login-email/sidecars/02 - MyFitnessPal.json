@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "MyFitnessPal",
+    "platform": "ios",
+    "file_path": "screens/login-email/02 - MyFitnessPal.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:55.337Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen for a mobile fitness tracking app",
+    "primary_flow": "login-email",
+    "ux_intent": "Authenticating a user into an existing account",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustration or decorative art present.",
+      "Clean, functional design focused on conversion.",
+      "Uses standard mobile UI patterns for login."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "MyFitnessPal",
+      "Google",
+      "Apple",
+      "Facebook",
+      "Email Input"
+    ],
+    "visual_keywords": [
+      "Minimalist, platform-standard mobile UI",
+      "white",
+      "blue",
+      "grey",
+      "No hero illustration or decorative art present.",
+      "Clean, functional design focused on conversion.",
+      "Uses standard mobile UI patterns for login."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, platform-standard mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_email_02"
+}

@@ -1,0 +1,154 @@
+{
+  "image": "04 - Google Drive.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile screenshot of the 'Shared' tab in the Google Drive app, showing a single shared file named 'Pumpkin spice latte recipe' and a standard bottom navigation bar.",
+    "ocr": {
+      "full_text": "9:41\nSearch in Drive\nA\nDate shared\nPumpkin spice latte recipe\nalexsmith.mobbin@gmail.com - Tue 5...\nHome\nStarred\nShared\nFiles\nGoogle Drive\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Search in Drive",
+          "language": "en"
+        },
+        {
+          "text": "A",
+          "language": "en"
+        },
+        {
+          "text": "Date shared",
+          "language": "en"
+        },
+        {
+          "text": "Pumpkin spice latte recipe",
+          "language": "en"
+        },
+        {
+          "text": "alexsmith.mobbin@gmail.com - Tue 5...",
+          "language": "en"
+        },
+        {
+          "text": "Home",
+          "language": "en"
+        },
+        {
+          "text": "Starred",
+          "language": "en"
+        },
+        {
+          "text": "Shared",
+          "language": "en"
+        },
+        {
+          "text": "Files",
+          "language": "en"
+        },
+        {
+          "text": "Google Drive",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Search in Drive"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Date shared"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Pumpkin spice latte recipe, alexsmith.mobbin@gmail.com - Tue 5..."
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Bottom navigation bar (Home, Starred, Shared, Files)"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Footer (Google Drive curated by Mobbin)"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App interface",
+      "intent": "Showing the shared file view in Google Drive",
+      "entities": [
+        {
+          "name": "Google Drive",
+          "type": "Application",
+          "evidence": "Logo and app name at bottom"
+        },
+        {
+          "name": "Pumpkin spice latte recipe",
+          "type": "File",
+          "evidence": "Displayed in the shared file list"
+        },
+        {
+          "name": "alexsmith.mobbin@gmail.com",
+          "type": "Email",
+          "evidence": "Associated with the shared file"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "alexsmith.mobbin@gmail.com",
+          "predicate": "shared",
+          "object": "Pumpkin spice latte recipe"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue",
+        "light gray"
+      ],
+      "style": "Mobile UI design",
+      "notes": [
+        "The UI uses a minimalist, modern aesthetic typical of Google apps.",
+        "The bottom navigation bar has the 'Shared' tab highlighted."
+      ]
+    },
+    "uncertainty": [
+      "The text 'Tue 5...' is truncated, so the full timestamp is unknown."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:06:36.551Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.694,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 961,
+      "totalTokenCount": 2188,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

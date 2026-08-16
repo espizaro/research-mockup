@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Udemy",
+    "platform": "ios",
+    "file_path": "screens/auth-register-illustrated/04 - Udemy.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:56.592Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding/Sign-up screen for an educational app",
+    "primary_flow": "auth-register-illustrated",
+    "ux_intent": "User registration or authentication",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Checkbox",
+      "The hero illustration is abstract and geometric, placed above the headline to visually reinforce the concept of diverse learning (code, email, language).",
+      "The primary color is a distinct purple, used for the CTA button and links.",
+      "The UI uses standard mobile iOS header elements.",
+      "Design-system cues include a clean, centered alignment, standard brand iconography, and clear visual hierarchy."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Checkbox",
+      "The primary color is a distinct purple, used for the CTA button and links."
+    ],
+    "content_blocks": [
+      "Udemy",
+      "Sign up",
+      "Terms of Use",
+      "Privacy Statement"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, educational tech interface",
+      "hex FFFFFF",
+      "hex A435F0",
+      "hex 000000",
+      "The hero illustration is abstract and geometric, placed above the headline to visually reinforce the concept of diverse learning (code, email, language).",
+      "The primary color is a distinct purple, used for the CTA button and links.",
+      "The UI uses standard mobile iOS header elements.",
+      "Design-system cues include a clean, centered alignment, standard brand iconography, and clear visual hierarchy."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, educational tech interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_illustrated_04"
+}

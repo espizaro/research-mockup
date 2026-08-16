@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Atoms",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/v2-checkin/01 - Atoms.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:01.114Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app interface",
+    "primary_flow": "daily-check-in/v2-checkin",
+    "ux_intent": "To log a daily habit",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Profile",
+      "Minimalist",
+      "Centered large orange circle acts as the main interaction point",
+      "The bottom navigation bar contains icons for Home, Progress, and Mindset",
+      "Soft, clean aesthetic"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Centered large orange circle acts as the main interaction point",
+      "The bottom navigation bar contains icons for Home, Progress, and Mindset"
+    ],
+    "content_blocks": [
+      "Atoms",
+      "walk for 15mins",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist UI",
+      "beige",
+      "orange",
+      "black",
+      "Centered large orange circle acts as the main interaction point",
+      "The bottom navigation bar contains icons for Home, Progress, and Mindset",
+      "Soft, clean aesthetic"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_checkin_01"
+}

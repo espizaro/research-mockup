@@ -1,0 +1,242 @@
+{
+  "image": "05 - Lyssna.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a usability testing dashboard titled 'Feature A - Usability Testing' on the Lyssna platform, showing filtered results from 5 out of 8 participants in Indonesia.",
+    "ocr": {
+      "full_text": "Dashboard. Updates. Help. 10 credits. Feature A Research / Feature A - Usability Testing. Created 2 days ago by Jane Doe. Make variation set. Build. Recruit. Results 8. Filters. Participants. 8 Total participants. 5 of 8 Responses shown (filtered). Share. Export 5 results as CSV. Country. Indonesia 5 of 5. Singapore 0 of 3. Age range. Unknown 5 of 8. Sources. Self-recruited 5 of 8. 1. Design Test. Show us how you order a meal for delivery!. Goal. Frame 8. 100%. 13 clicks (33% misclicks). 35s. 5. Show paths & clickmaps. 1.1. Linear scale question REQUIRED. How was your experience?. Very Difficult. 0%. 0%. 0%. 60%. 40%. Very Easy. Lyssna. curated by Mobbin.",
+      "lines": [
+        {
+          "text": "Dashboard"
+        },
+        {
+          "text": "Updates"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "10 credits"
+        },
+        {
+          "text": "Feature A Research / Feature A - Usability Testing"
+        },
+        {
+          "text": "Created 2 days ago by Jane Doe"
+        },
+        {
+          "text": "Make variation set"
+        },
+        {
+          "text": "Build"
+        },
+        {
+          "text": "Recruit"
+        },
+        {
+          "text": "Results 8"
+        },
+        {
+          "text": "Filters"
+        },
+        {
+          "text": "Participants"
+        },
+        {
+          "text": "8 Total participants"
+        },
+        {
+          "text": "5 of 8 Responses shown (filtered)"
+        },
+        {
+          "text": "Share"
+        },
+        {
+          "text": "Export 5 results as CSV"
+        },
+        {
+          "text": "Country"
+        },
+        {
+          "text": "Indonesia 5 of 5"
+        },
+        {
+          "text": "Singapore 0 of 3"
+        },
+        {
+          "text": "Age range"
+        },
+        {
+          "text": "Unknown 5 of 8"
+        },
+        {
+          "text": "Sources"
+        },
+        {
+          "text": "Self-recruited 5 of 8"
+        },
+        {
+          "text": "1. Design Test"
+        },
+        {
+          "text": "Show us how you order a meal for delivery!"
+        },
+        {
+          "text": "Goal Frame 8"
+        },
+        {
+          "text": "100%"
+        },
+        {
+          "text": "13 clicks (33% misclicks)"
+        },
+        {
+          "text": "35s"
+        },
+        {
+          "text": "5"
+        },
+        {
+          "text": "Show paths & clickmaps"
+        },
+        {
+          "text": "1.1. Linear scale question REQUIRED"
+        },
+        {
+          "text": "How was your experience?"
+        },
+        {
+          "text": "Very Difficult"
+        },
+        {
+          "text": "0% 0% 0% 60% 40%"
+        },
+        {
+          "text": "Very Easy"
+        },
+        {
+          "text": "Lyssna"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Feature A Research / Feature A - Usability Testing"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Created 2 days ago by Jane Doe"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Filters\nParticipants"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "8 Total participants\n5 of 8 Responses shown (filtered)"
+        },
+        {
+          "type": "table",
+          "reading_order": 5,
+          "text": "Country\nIndonesia 5 of 5\nSingapore 0 of 3\nAge range\nUnknown 5 of 8\nSources\nSelf-recruited 5 of 8"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "1. Design Test\nShow us how you order a meal for delivery!"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Goal Frame 8\n100%\n13 clicks (33% misclicks)\n35s\n5"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "1.1. Linear scale question REQUIRED\nHow was your experience?\nVery Difficult\n0% 0% 0% 60% 40%\nVery Easy"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "SaaS Usability Testing Dashboard",
+      "intent": "View and manage results of a usability research study",
+      "entities": [
+        {
+          "name": "Lyssna",
+          "type": "Platform",
+          "evidence": "Platform branding"
+        },
+        {
+          "name": "Jane Doe",
+          "type": "User",
+          "evidence": "Creator of study"
+        },
+        {
+          "name": "Feature A - Usability Testing",
+          "type": "Project",
+          "evidence": "Project title"
+        },
+        {
+          "name": "Indonesia",
+          "type": "Location",
+          "evidence": "Filtered geographic data"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Jane Doe",
+          "predicate": "created",
+          "object": "Feature A - Usability Testing"
+        },
+        {
+          "subject": "Lyssna",
+          "predicate": "hosts",
+          "object": "Feature A - Usability Testing"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-grey",
+        "green"
+      ],
+      "style": "Modern Web UI",
+      "notes": [
+        "Clean layout with sidebar for filters and main content area for study results."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:02.397Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.426,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1429,
+      "totalTokenCount": 2636,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

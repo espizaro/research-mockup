@@ -1,0 +1,206 @@
+{
+  "image": "03 - bunq.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for setting a monetary range filter, featuring 'From' and 'To' input fields and a numeric keypad.",
+    "ocr": {
+      "full_text": "9:41\n< Filter Range Reset\nFrom\n€ 0.00\nTo\n€ 0.00\n1\n2 ABC\n3 DEF\n4 GHI\n5 JKL\n6 MNO\n7 PQRS\n8 TUV\n9 WXYZ\n.\n0\n⌫\nbunq\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "< Filter",
+          "language": "en"
+        },
+        {
+          "text": "Range",
+          "language": "en"
+        },
+        {
+          "text": "Reset",
+          "language": "en"
+        },
+        {
+          "text": "From",
+          "language": "en"
+        },
+        {
+          "text": "€ 0.00",
+          "language": "en"
+        },
+        {
+          "text": "To",
+          "language": "en"
+        },
+        {
+          "text": "€ 0.00",
+          "language": "en"
+        },
+        {
+          "text": "1",
+          "language": "en"
+        },
+        {
+          "text": "2 ABC",
+          "language": "en"
+        },
+        {
+          "text": "3 DEF",
+          "language": "en"
+        },
+        {
+          "text": "4 GHI",
+          "language": "en"
+        },
+        {
+          "text": "5 JKL",
+          "language": "en"
+        },
+        {
+          "text": "6 MNO",
+          "language": "en"
+        },
+        {
+          "text": "7 PQRS",
+          "language": "en"
+        },
+        {
+          "text": "8 TUV",
+          "language": "en"
+        },
+        {
+          "text": "9 WXYZ",
+          "language": "en"
+        },
+        {
+          "text": ".",
+          "language": "en"
+        },
+        {
+          "text": "0",
+          "language": "en"
+        },
+        {
+          "text": "⌫",
+          "language": "en"
+        },
+        {
+          "text": "bunq",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Range"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "< Filter"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Reset"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "From € 0.00 To € 0.00"
+        },
+        {
+          "type": "table",
+          "reading_order": 5,
+          "text": "1 2 ABC 3 DEF 4 GHI 5 JKL 6 MNO 7 PQRS 8 TUV 9 WXYZ . 0 ⌫"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "bunq curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A smartphone screen displaying a filter range input UI.",
+      "intent": "Allow the user to set a minimum and maximum currency range for filtering data.",
+      "entities": [
+        {
+          "name": "bunq",
+          "type": "Brand"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Brand"
+        },
+        {
+          "name": "Filter",
+          "type": "UI Element"
+        },
+        {
+          "name": "Range",
+          "type": "Header"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bunq",
+          "predicate": "is curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#000000",
+        "#FFFFFF",
+        "#4D4D4D"
+      ],
+      "style": "Dark mode mobile UI with a flat design numeric keypad.",
+      "notes": [
+        "Standard iOS-style status bar at the top.",
+        "Currency format uses the Euro symbol."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:23:13.538Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.899,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 931,
+      "totalTokenCount": 2158,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.901
+      }
+    ],
+    "warnings": []
+  }
+}

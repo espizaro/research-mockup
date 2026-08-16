@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "How We Feel",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/v2-checkin/03 - How We Feel.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:14.085Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app dashboard for mood tracking.",
+    "primary_flow": "daily-check-in/v2-checkin",
+    "ux_intent": "User is prompted to log their daily mood via a check-in feature.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Dark Mode",
+      "Minimalist",
+      "The circular element represents a progress or mood spectrum.",
+      "The background is deep black.",
+      "The UI uses high-quality sans-serif typography."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "How We Feel",
+      "Check in",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Dark mode interface with minimalist, modern design elements and a high-contrast circular graphic.",
+      "black",
+      "green",
+      "yellow",
+      "white",
+      "The circular element represents a progress or mood spectrum.",
+      "The background is deep black.",
+      "The UI uses high-quality sans-serif typography."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode interface with minimalist, modern design elements and a high-contrast circular graphic."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_checkin_03"
+}

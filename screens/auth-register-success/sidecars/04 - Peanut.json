@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Peanut",
+    "platform": "ios",
+    "file_path": "screens/auth-register-success/04 - Peanut.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:22.662Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding / Success screen",
+    "primary_flow": "auth-register-success",
+    "ux_intent": "Welcome the user after successful sign-up or onboarding completion and prompt them to enter the main app interface.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Central hero icon (lightning bolt) represents energy or initiation",
+      "The icon is simple, geometric, and decorative",
+      "Typography is bold and centered to focus user attention",
+      "Call-to-action button uses a solid color to stand out"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Call-to-action button uses a solid color to stand out"
+    ],
+    "content_blocks": [
+      "Peanut",
+      "LET'S GO",
+      "Lightning bolt"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, high-contrast, modern UI",
+      "White",
+      "Pink",
+      "Black",
+      "Central hero icon (lightning bolt) represents energy or initiation",
+      "The icon is simple, geometric, and decorative",
+      "Typography is bold and centered to focus user attention",
+      "Call-to-action button uses a solid color to stand out"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, high-contrast, modern UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_success_04"
+}

@@ -1,0 +1,152 @@
+{
+  "image": "02 - Numo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile app interface displaying a 3-day achievement streak with an encouragement to continue, along with a calendar progress tracker and a feature to 'Pause & preserve' the streak.",
+    "ocr": {
+      "full_text": "9:41 3 day streak It's your longest streak, don't stop! SHARE Th Fr Sa Su Mo Tu We Pause & preserve You can skip a day without losing your streak Numo curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "3",
+          "language": "en"
+        },
+        {
+          "text": "day streak",
+          "language": "en"
+        },
+        {
+          "text": "It's your longest streak,",
+          "language": "en"
+        },
+        {
+          "text": "don't stop!",
+          "language": "en"
+        },
+        {
+          "text": "SHARE",
+          "language": "en"
+        },
+        {
+          "text": "Th Fr Sa Su Mo Tu We",
+          "language": "en"
+        },
+        {
+          "text": "Pause & preserve",
+          "language": "en"
+        },
+        {
+          "text": "You can skip a day without",
+          "language": "en"
+        },
+        {
+          "text": "losing your streak",
+          "language": "en"
+        },
+        {
+          "text": "Numo",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "3 day streak"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "It's your longest streak, don't stop!"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "SHARE"
+        },
+        {
+          "type": "table",
+          "reading_order": 4,
+          "text": "Th Fr Sa Su Mo Tu We (Calendar checkmarks)"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Pause & preserve - You can skip a day without losing your streak"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app gamification or habit tracking screen.",
+      "intent": "To inform the user of their current progress streak and offer options to maintain it.",
+      "entities": [
+        {
+          "name": "Numo",
+          "type": "application",
+          "evidence": "Logo/text at the bottom"
+        },
+        {
+          "name": "Mobbin",
+          "type": "brand",
+          "evidence": "Text 'curated by Mobbin'"
+        },
+        {
+          "name": "Streak",
+          "type": "feature",
+          "evidence": "Text '3 day streak'"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Numo",
+          "predicate": "is curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "red",
+        "black"
+      ],
+      "style": "Minimalist UI, bold typography, high-contrast dark mode",
+      "notes": [
+        "Uses a droplet-shaped icon for the streak count",
+        "Uses checkmarks for completed days"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:24.189Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.032,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 764,
+      "totalTokenCount": 1991,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

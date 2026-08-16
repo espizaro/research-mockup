@@ -1,0 +1,45 @@
+{
+  "identification": {
+    "app_name": "Flo",
+    "platform": "ios",
+    "file_path": "screens/medication-tracking/effects/04 - Flo.webp",
+    "analyzed_timestamp": "2026-08-05T19:41:10.994Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Health tracking mobile application interface.",
+    "primary_flow": "medication-tracking/effects",
+    "ux_intent": "Logging daily activities, medication status, and water intake.",
+    "ux_patterns": [
+      "Form",
+      "Search"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Flo",
+      "Cycle tracker"
+    ],
+    "visual_keywords": [
+      "clean, modern, mobile UI",
+      "white",
+      "light gray",
+      "light green",
+      "light blue",
+      "pink"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean, modern, mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_medication_effect_04"
+}

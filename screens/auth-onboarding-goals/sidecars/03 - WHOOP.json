@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "WHOOP",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-goals/03 - WHOOP.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:57.535Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding flow for goal selection.",
+    "primary_flow": "auth-onboarding-goals",
+    "ux_intent": "To capture user motivation to tailor future app experiences.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Dark Mode",
+      "Minimalist",
+      "Uses subtle icons (smiley face, starburst, speedometer) as decorative art for each option.",
+      "The 'IMPROVE FITNESS' option is currently selected via a white border highlight.",
+      "High contrast text against a dark background.",
+      "Fixed footer with 'NEXT' CTA."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "WHOOP",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist dark mode UI",
+      "black",
+      "dark gray",
+      "white",
+      "green",
+      "Uses subtle icons (smiley face, starburst, speedometer) as decorative art for each option.",
+      "The 'IMPROVE FITNESS' option is currently selected via a white border highlight.",
+      "High contrast text against a dark background.",
+      "Fixed footer with 'NEXT' CTA."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist dark mode UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_goals_03"
+}

@@ -1,0 +1,217 @@
+{
+  "image": "05 - Google Fit.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Google Fit mobile application home screen displaying various health metrics, including steps, heart rate, respiratory rate, and weight.",
+    "ocr": {
+      "full_text": "9:41\nSteps\nLast 7 days\n11,575 steps\nToday\nF S S M T W T\nHeart rate\nLast 9 hours\n76 bpm\n2 hr ago\n9 11 1 3\nRespiratory rate\nLast 7 days\n14 rpm\nAverage\nF S S M T W T\nWeight\nJun 18 - Sep 9\n75.6 kg\n2 hr ago\nJul Aug Sep\nDISCOVER\nHome\nGoogle Fit\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Steps"
+        },
+        {
+          "text": "Last 7 days"
+        },
+        {
+          "text": "11,575 steps"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "F S S M T W T"
+        },
+        {
+          "text": "Heart rate"
+        },
+        {
+          "text": "Last 9 hours"
+        },
+        {
+          "text": "76 bpm"
+        },
+        {
+          "text": "2 hr ago"
+        },
+        {
+          "text": "9 11 1 3"
+        },
+        {
+          "text": "Respiratory rate"
+        },
+        {
+          "text": "Last 7 days"
+        },
+        {
+          "text": "14 rpm"
+        },
+        {
+          "text": "Average"
+        },
+        {
+          "text": "F S S M T W T"
+        },
+        {
+          "text": "Weight"
+        },
+        {
+          "text": "Jun 18 - Sep 9"
+        },
+        {
+          "text": "75.6 kg"
+        },
+        {
+          "text": "2 hr ago"
+        },
+        {
+          "text": "Jul Aug Sep"
+        },
+        {
+          "text": "DISCOVER"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Google Fit"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "9:41"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Steps. Last 7 days. 11,575 steps. Today."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Heart rate. Last 9 hours. 76 bpm. 2 hr ago."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Respiratory rate. Last 7 days. 14 rpm. Average."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Weight. Jun 18 - Sep 9. 75.6 kg. 2 hr ago."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "DISCOVER"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Home"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "Google Fit. curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Health tracking app dashboard",
+      "intent": "Display daily and historical health data",
+      "entities": [
+        {
+          "name": "Google Fit",
+          "type": "Application"
+        },
+        {
+          "name": "Steps",
+          "type": "Metric",
+          "evidence": "11,575 steps"
+        },
+        {
+          "name": "Heart rate",
+          "type": "Metric",
+          "evidence": "76 bpm"
+        },
+        {
+          "name": "Respiratory rate",
+          "type": "Metric",
+          "evidence": "14 rpm"
+        },
+        {
+          "name": "Weight",
+          "type": "Metric",
+          "evidence": "75.6 kg"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Google Fit",
+          "predicate": "tracks",
+          "object": "Steps"
+        },
+        {
+          "subject": "Google Fit",
+          "predicate": "tracks",
+          "object": "Heart rate"
+        },
+        {
+          "subject": "Google Fit",
+          "predicate": "tracks",
+          "object": "Respiratory rate"
+        },
+        {
+          "subject": "Google Fit",
+          "predicate": "tracks",
+          "object": "Weight"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "dark gray",
+        "blue"
+      ],
+      "style": "Dark mode mobile UI",
+      "notes": [
+        "Clean, card-based interface with data visualizations for trends"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:30.038Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.302,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1134,
+      "totalTokenCount": 2361,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

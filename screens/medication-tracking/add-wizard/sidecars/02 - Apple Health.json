@@ -1,0 +1,159 @@
+{
+  "image": "02 - Apple Health.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "An Apple Health mobile app screen prompting the user to set up medication tracking, highlighting features like scheduling, interaction warnings, and data privacy, with a call-to-action button to add a medication.",
+    "ocr": {
+      "full_text": "9:41 Medications Set Up Medications Track all your medications in one place. Set a schedule and get reminders. Learn about potential interactions between medications on your list. Your medication information is encrypted and cannot be read by anyone, including Apple, without your permission. Add a Medication About Medications Summary Sharing Apple Health curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Medications",
+          "language": "en"
+        },
+        {
+          "text": "Set Up Medications",
+          "language": "en"
+        },
+        {
+          "text": "Track all your medications in one place.",
+          "language": "en"
+        },
+        {
+          "text": "Set a schedule and get reminders.",
+          "language": "en"
+        },
+        {
+          "text": "Learn about potential interactions between medications on your list.",
+          "language": "en"
+        },
+        {
+          "text": "Your medication information is encrypted and cannot be read by anyone, including Apple, without your permission.",
+          "language": "en"
+        },
+        {
+          "text": "Add a Medication",
+          "language": "en"
+        },
+        {
+          "text": "About Medications",
+          "language": "en"
+        },
+        {
+          "text": "Summary",
+          "language": "en"
+        },
+        {
+          "text": "Sharing",
+          "language": "en"
+        },
+        {
+          "text": "Apple Health",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Medications"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Set Up Medications"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Track all your medications in one place. Set a schedule and get reminders. Learn about potential interactions between medications on your list. Your medication information is encrypted and cannot be read by anyone, including Apple, without your permission."
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Add a Medication"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 5,
+          "text": "About Medications"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app UI screen for Apple Health",
+      "intent": "Onboarding the user to the medication tracking feature",
+      "entities": [
+        {
+          "name": "Apple Health",
+          "type": "Application"
+        },
+        {
+          "name": "Add a Medication",
+          "type": "Button"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Apple Health",
+          "predicate": "offers",
+          "object": "Medication tracking"
+        },
+        {
+          "subject": "Add a Medication",
+          "predicate": "is located on",
+          "object": "Set Up Medications screen"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue",
+        "light grey"
+      ],
+      "style": "Minimalist mobile interface, iOS design guidelines",
+      "notes": [
+        "Illustrations of pills and capsules appear above the title.",
+        "Icons represent each list item.",
+        "The bottom navigation bar indicates active 'Summary' tab."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:27.717Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.816,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1005,
+      "totalTokenCount": 2232,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "image": "05 - PlayStation App.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile interface screen from the PlayStation App displaying subscription management. It shows an active PS Plus Extra subscription with options to change or cancel, and a list of expired subscriptions, specifically an EA Play 1 Month membership.",
+    "ocr": {
+      "full_text": "9:41 Done Subscriptions You can change your current PS Plus Extra subscription at any time. Change CANCEL SUBSCRIPTION If you cancel now, you can still enjoy your subscription until 03/07/2024. Cancel Subscription Settings Expired Play 1 Month Membership EA Play 1 Month Expiry date: 05/06/2024 PlayStation App curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Done"
+        },
+        {
+          "text": "Subscriptions"
+        },
+        {
+          "text": "You can change your current PS Plus Extra subscription at any time."
+        },
+        {
+          "text": "Change"
+        },
+        {
+          "text": "CANCEL SUBSCRIPTION"
+        },
+        {
+          "text": "If you cancel now, you can still enjoy your subscription until 03/07/2024."
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Subscription Settings"
+        },
+        {
+          "text": "Expired"
+        },
+        {
+          "text": "Play"
+        },
+        {
+          "text": "1 Month Membership"
+        },
+        {
+          "text": "EA Play 1 Month"
+        },
+        {
+          "text": "Expiry date: 05/06/2024"
+        },
+        {
+          "text": "PlayStation App"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Subscriptions"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "You can change your current PS Plus Extra subscription at any time."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Change"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "CANCEL SUBSCRIPTION"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "If you cancel now, you can still enjoy your subscription until 03/07/2024."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Cancel"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Subscription Settings"
+        },
+        {
+          "type": "title",
+          "reading_order": 8,
+          "text": "Expired"
+        },
+        {
+          "type": "image",
+          "reading_order": 9,
+          "text": "EA Play 1 Month logo"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 10,
+          "text": "EA Play 1 Month"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 11,
+          "text": "Expiry date: 05/06/2024"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Account management screen in a mobile application.",
+      "intent": "To allow the user to view and modify subscription statuses.",
+      "entities": [
+        {
+          "name": "PS Plus Extra",
+          "type": "Subscription",
+          "evidence": "You can change your current PS Plus Extra subscription at any time."
+        },
+        {
+          "name": "EA Play",
+          "type": "Subscription",
+          "evidence": "EA Play 1 Month"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "PS Plus Extra",
+          "predicate": "status",
+          "object": "Active"
+        },
+        {
+          "subject": "EA Play",
+          "predicate": "status",
+          "object": "Expired"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-gray",
+        "blue"
+      ],
+      "style": "Mobile UI/UX flat design",
+      "notes": [
+        "Standard iOS status bar",
+        "PlayStation branding consistent with official app aesthetic"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:59.066Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.273,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 968,
+      "totalTokenCount": 2195,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

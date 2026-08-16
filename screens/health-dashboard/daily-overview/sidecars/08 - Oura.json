@@ -1,0 +1,178 @@
+{
+  "image": "08 - Oura.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Oura health tracking application displaying a 'Readiness' dashboard for Thursday, 23 Nov, showing a Readiness score of 66 (Fair) and various metrics like Resting HR, HRV, body temperature, and respiratory rate.",
+    "ocr": {
+      "full_text": "9:41 22 Nov Thu, 23 Nov Fri, 24 Nov 48 49 53 50 48 57 Readiness Resting HR Resting heart rate 50 bpm Heart rate variability 52 ms Body temperature -0.2 C Respiratory rate 13.8 / min Readiness Score 66 Fair Readiness contributors Resting heart rate 50 bpm HRV balance Pay attention Body temperature Optimal Recovery index Pay attention Home Readiness Sleep Activity Explore Oura curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "22 Nov Thu, 23 Nov Fri, 24 Nov"
+        },
+        {
+          "text": "48 49 53 50 48 57"
+        },
+        {
+          "text": "Readiness Resting HR"
+        },
+        {
+          "text": "Resting heart rate 50 bpm"
+        },
+        {
+          "text": "Heart rate variability 52 ms"
+        },
+        {
+          "text": "Body temperature -0.2 C"
+        },
+        {
+          "text": "Respiratory rate 13.8 / min"
+        },
+        {
+          "text": "Readiness Score 66 Fair"
+        },
+        {
+          "text": "Readiness contributors"
+        },
+        {
+          "text": "Resting heart rate 50 bpm"
+        },
+        {
+          "text": "HRV balance Pay attention"
+        },
+        {
+          "text": "Body temperature Optimal"
+        },
+        {
+          "text": "Recovery index Pay attention"
+        },
+        {
+          "text": "Home Readiness Sleep Activity Explore"
+        },
+        {
+          "text": "Oura curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Thu, 23 Nov"
+        },
+        {
+          "type": "chart",
+          "reading_order": 2,
+          "text": "Readiness and Resting HR bar chart"
+        },
+        {
+          "type": "table",
+          "reading_order": 3,
+          "text": "Resting heart rate: 50 bpm, Heart rate variability: 52 ms, Body temperature: -0.2 C, Respiratory rate: 13.8 / min"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Readiness Score 66 Fair"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Readiness contributors: Resting heart rate 50 bpm, HRV balance Pay attention, Body temperature Optimal, Recovery index Pay attention"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Navigation bar: Home, Readiness, Sleep, Activity, Explore"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app health dashboard",
+      "intent": "View daily health readiness score and metrics",
+      "entities": [
+        {
+          "name": "Oura",
+          "type": "Brand"
+        },
+        {
+          "name": "Readiness Score",
+          "type": "Metric",
+          "evidence": "66 Fair"
+        },
+        {
+          "name": "Resting heart rate",
+          "type": "Metric",
+          "evidence": "50 bpm"
+        },
+        {
+          "name": "Heart rate variability",
+          "type": "Metric",
+          "evidence": "52 ms"
+        },
+        {
+          "name": "Body temperature",
+          "type": "Metric",
+          "evidence": "-0.2 C"
+        },
+        {
+          "name": "Respiratory rate",
+          "type": "Metric",
+          "evidence": "13.8 / min"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Readiness Score",
+          "predicate": "value is",
+          "object": "66"
+        },
+        {
+          "subject": "Body temperature",
+          "predicate": "status is",
+          "object": "Optimal"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "blue",
+        "white"
+      ],
+      "style": "Dark mode mobile UI",
+      "notes": [
+        "Data visualization charts are present",
+        "Navigation icons at the bottom"
+      ]
+    },
+    "uncertainty": [
+      "The degree symbol after -0.2 is formatted as 'C' in the text, potentially due to OCR limitations on degree characters."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:52.938Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.283,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 985,
+      "totalTokenCount": 2212,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

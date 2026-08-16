@@ -1,0 +1,45 @@
+{
+  "identification": {
+    "app_name": "Retro",
+    "platform": "ios",
+    "file_path": "screens/health-logging/overview/01 - Retro.webp",
+    "analyzed_timestamp": "2026-08-05T19:41:50.238Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app interface",
+    "primary_flow": "health-logging/overview",
+    "ux_intent": "User interface for managing photo journals",
+    "ux_patterns": [
+      "Minimalist"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Journals",
+      "Besties",
+      "Event",
+      "Friends",
+      "Couple",
+      "Kids"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "white",
+      "black",
+      "grey"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_overview_01"
+}

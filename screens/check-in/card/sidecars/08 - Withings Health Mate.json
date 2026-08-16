@@ -1,0 +1,159 @@
+{
+  "image": "08 - Withings Health Mate.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a mobile health application screen for logging daily mood, specifically for '18 February 2024'. It features a selection of five emojis representing different mood states, with the 'Good' state currently selected.",
+    "ocr": {
+      "full_text": "9:41 Mood 18 February 2024 Good Feeling positive and content Save Withings Health Mate curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Mood",
+          "language": "en"
+        },
+        {
+          "text": "18 February 2024",
+          "language": "en"
+        },
+        {
+          "text": "Good",
+          "language": "en"
+        },
+        {
+          "text": "Feeling positive and content",
+          "language": "en"
+        },
+        {
+          "text": "Save",
+          "language": "en"
+        },
+        {
+          "text": "Withings Health Mate",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Mood"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "18 February 2024"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 3,
+          "text": "Good"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Feeling positive and content"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Save"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile interface for tracking daily mood.",
+      "intent": "To log the user's mood for a specific date.",
+      "entities": [
+        {
+          "name": "Mood",
+          "type": "Category"
+        },
+        {
+          "name": "18 February 2024",
+          "type": "Date"
+        },
+        {
+          "name": "Good",
+          "type": "Mood State"
+        },
+        {
+          "name": "Save",
+          "type": "Button"
+        },
+        {
+          "name": "Withings Health Mate",
+          "type": "Application Name"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "selects",
+          "object": "Good"
+        },
+        {
+          "subject": "Save",
+          "predicate": "confirms",
+          "object": "Mood Entry"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "blue grey",
+        "black"
+      ],
+      "style": "Minimalist mobile app UI design",
+      "notes": [
+        "The selected mood icon has a different, darker background color compared to the others.",
+        "The interface uses a clean sans-serif typography."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T05:41:28.295Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.633,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 866,
+      "totalTokenCount": 2093,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.634
+      }
+    ],
+    "warnings": []
+  }
+}

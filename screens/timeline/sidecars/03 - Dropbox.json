@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Dropbox",
+    "platform": "ios",
+    "file_path": "screens/timeline/03 - Dropbox.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:47.009Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application user interface (Dropbox).",
+    "primary_flow": "timeline",
+    "ux_intent": "Display recent file and folder activity log.",
+    "ux_patterns": [
+      "The interface uses circular avatars with initials (SL, AS) for users."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Sam Lee",
+      "Alex Smith",
+      "Dropbox",
+      "Camera Uploads",
+      "my picture-1.jpg",
+      "pantry.jpg"
+    ],
+    "visual_keywords": [
+      "Mobile app UI, Material Design / iOS hybrid look",
+      "white",
+      "light grey",
+      "purple",
+      "blue",
+      "The interface uses circular avatars with initials (SL, AS) for users."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile app UI, Material Design / iOS hybrid look"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_timeline_03"
+}

@@ -1,0 +1,48 @@
+{
+  "identification": {
+    "app_name": "VSCO",
+    "platform": "ios",
+    "file_path": "screens/auth-register-success/08 - VSCO.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:25.337Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A success/confirmation screen in a mobile application.",
+    "primary_flow": "auth-register-success",
+    "ux_intent": "To confirm a successful transaction (membership subscription) and direct the user to the app's main functionality.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "The illustration is a simple, abstract line-art face enclosed in a circle, positioned centrally above the main content to add a friendly, welcoming tone.",
+      "The design uses generous negative space, typical of modern premium mobile applications.",
+      "Highly accessible typography with high contrast between text and background."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "VSCO",
+      "Get Started"
+    ],
+    "visual_keywords": [
+      "Minimalist, high-contrast, clean UI/UX design.",
+      "white",
+      "black",
+      "The illustration is a simple, abstract line-art face enclosed in a circle, positioned centrally above the main content to add a friendly, welcoming tone.",
+      "The design uses generous negative space, typical of modern premium mobile applications.",
+      "Highly accessible typography with high contrast between text and background."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, high-contrast, clean UI/UX design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_success_08"
+}

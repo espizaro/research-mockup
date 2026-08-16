@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Hyundai Card",
+    "platform": "ios",
+    "file_path": "screens/auth-welcome-illustrated/03 - Hyundai Card.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:28.271Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application empty state screen.",
+    "primary_flow": "auth-welcome-illustrated",
+    "ux_intent": "To inform the user there is no content to show and prompt them to explore available benefits.",
+    "ux_patterns": [
+      "Form",
+      "Empty State",
+      "Minimalist",
+      "Card",
+      "The illustration is an isometric 3D-style line art icon showing binoculars pointing through a brick wall.",
+      "The illustration is placed centrally as a focal point to highlight the absence of content.",
+      "The overall design system is clean and professional with significant whitespace.",
+      "The primary navigation includes categorized menu items: Cards, Finance, Assets."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The primary navigation includes categorized menu items: Cards, Finance, Assets."
+    ],
+    "content_blocks": [
+      "Hyundai Card",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat UI, clean typography, thin-line isometric illustration.",
+      "hex EEEEEE",
+      "hex 000000",
+      "hex 87CEEB",
+      "hex FF69B4",
+      "The illustration is an isometric 3D-style line art icon showing binoculars pointing through a brick wall.",
+      "The illustration is placed centrally as a focal point to highlight the absence of content.",
+      "The overall design system is clean and professional with significant whitespace.",
+      "The primary navigation includes categorized menu items: Cards, Finance, Assets."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat UI, clean typography, thin-line isometric illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_welcome_illustrated_03"
+}

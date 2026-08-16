@@ -1,0 +1,212 @@
+{
+  "image": "08 - Slack.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface screen from the Slack application showing an Activity tab with various notifications, mentions, and thread replies within channels like #ux-workshop and #general.",
+    "ocr": {
+      "full_text": "9:41 Activity Activity Jump to or search... All Mentions Threads @ Mention in #ux-workshop 1h ago jackdoe replied to: Attaching great videos for you to watch Yeah, these are gems! @jsmith.mobbin5 Thread in #ux-workshop 2h ago jendoe1 replied to: Here are what we might need to prepare f... Done tooo jackdoe and jendoe1 reacted in #ux-workshop 2h ago jsmith.mobbin5 Here are what we might need to prepare for the meetings workshop. 1 1 @ Mention in #ux-workshop 1d ago jackdoe replied to: We can learn from this too https://www.y... Yeah no problem! @jsmith.mobbin5 Thread in #general 2h ago jackdoe Unread Home DMs Activity Slack curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Activity"
+        },
+        {
+          "text": "Jump to or search..."
+        },
+        {
+          "text": "All"
+        },
+        {
+          "text": "Mentions"
+        },
+        {
+          "text": "Threads"
+        },
+        {
+          "text": "@ Mention in #ux-workshop 1h ago"
+        },
+        {
+          "text": "jackdoe"
+        },
+        {
+          "text": "replied to: Attaching great videos for you to watch"
+        },
+        {
+          "text": "Yeah, these are gems! @jsmith.mobbin5"
+        },
+        {
+          "text": "Thread in #ux-workshop 2h ago"
+        },
+        {
+          "text": "jendoe1"
+        },
+        {
+          "text": "replied to: Here are what we might need to prepare f..."
+        },
+        {
+          "text": "Done tooo"
+        },
+        {
+          "text": "jackdoe and jendoe1 reacted in #ux-workshop 2h ago"
+        },
+        {
+          "text": "jsmith.mobbin5"
+        },
+        {
+          "text": "Here are what we might need to prepare for the meetings workshop."
+        },
+        {
+          "text": "1 1"
+        },
+        {
+          "text": "@ Mention in #ux-workshop 1d ago"
+        },
+        {
+          "text": "jackdoe"
+        },
+        {
+          "text": "replied to: We can learn from this too https://www.y..."
+        },
+        {
+          "text": "Yeah no problem! @jsmith.mobbin5"
+        },
+        {
+          "text": "Thread in #general 2h ago"
+        },
+        {
+          "text": "jackdoe"
+        },
+        {
+          "text": "Unread"
+        },
+        {
+          "text": "Home DMs Activity"
+        },
+        {
+          "text": "Slack curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Activity"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "Jump to or search..."
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "All Mentions Threads"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Notifications feed including mentions and threads from #ux-workshop and #general"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app UI screen for Slack Activity tab",
+      "intent": "Displaying recent activity and notifications for a user",
+      "entities": [
+        {
+          "name": "Slack",
+          "type": "Application"
+        },
+        {
+          "name": "jackdoe",
+          "type": "User"
+        },
+        {
+          "name": "jendoe1",
+          "type": "User"
+        },
+        {
+          "name": "jsmith.mobbin5",
+          "type": "User"
+        },
+        {
+          "name": "#ux-workshop",
+          "type": "Channel"
+        },
+        {
+          "name": "#general",
+          "type": "Channel"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "jackdoe",
+          "predicate": "mentions",
+          "object": "jsmith.mobbin5"
+        },
+        {
+          "subject": "jendoe1",
+          "predicate": "replies_to_thread_in",
+          "object": "#ux-workshop"
+        },
+        {
+          "subject": "jsmith.mobbin5",
+          "predicate": "posts_in",
+          "object": "#ux-workshop"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "purple",
+        "white",
+        "black",
+        "grey"
+      ],
+      "style": "Mobile application interface",
+      "notes": [
+        "Standard Slack interface elements",
+        "Bottom navigation present",
+        "Status bar at top"
+      ]
+    },
+    "uncertainty": [
+      "The URL https://www.y... is truncated",
+      "The text 'Here are what we might need to prepare f...' is truncated"
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:20:22.274Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.916,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1157,
+      "totalTokenCount": 2384,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.918
+      }
+    ],
+    "warnings": []
+  }
+}

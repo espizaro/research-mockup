@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Yazio",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/trend-preview/06 - Yazio.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:35.476Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App UI for a health and fitness tracking application",
+    "primary_flow": "daily-check-in/trend-preview",
+    "ux_intent": "User is viewing their weekly fasting progress statistics",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Tabs",
+      "Profile",
+      "Chart",
+      "Uses a bottom navigation bar with icons",
+      "Includes a data visualization of weekly habits"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Uses a bottom navigation bar with icons"
+    ],
+    "content_blocks": [
+      "Yazio",
+      "Fasting Tracker"
+    ],
+    "visual_keywords": [
+      "Mobile app UI, modern flat design",
+      "white",
+      "purple",
+      "dark-blue",
+      "Uses a bottom navigation bar with icons",
+      "Includes a data visualization of weekly habits"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile app UI, modern flat design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_trend_preview_06"
+}

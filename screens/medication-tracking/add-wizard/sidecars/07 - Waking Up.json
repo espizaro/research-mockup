@@ -1,0 +1,162 @@
+{
+  "image": "07 - Waking Up.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen for setting a meditation reminder. It allows users to specify the time and days for the reminder.",
+    "ocr": {
+      "full_text": "9.41\nMeditation Reminder\nWhen do you want to meditate?\nWe'll remind you at:\n7.00 PM\nTue, Wed, Thu, Fri, Sat\nSet a Reminder\nHome\nExplore\nMy Library\nMore\nWaking Up\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9.41",
+          "language": "en"
+        },
+        {
+          "text": "Meditation Reminder",
+          "language": "en"
+        },
+        {
+          "text": "When do you want to meditate?",
+          "language": "en"
+        },
+        {
+          "text": "We'll remind you at:",
+          "language": "en"
+        },
+        {
+          "text": "7.00 PM",
+          "language": "en"
+        },
+        {
+          "text": "Tue, Wed, Thu, Fri, Sat",
+          "language": "en"
+        },
+        {
+          "text": "Set a Reminder",
+          "language": "en"
+        },
+        {
+          "text": "Home",
+          "language": "en"
+        },
+        {
+          "text": "Explore",
+          "language": "en"
+        },
+        {
+          "text": "My Library",
+          "language": "en"
+        },
+        {
+          "text": "More",
+          "language": "en"
+        },
+        {
+          "text": "Waking Up",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Meditation Reminder"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "When do you want to meditate?"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "We'll remind you at:"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "7.00 PM"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Tue, Wed, Thu, Fri, Sat"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Set a Reminder"
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "Home, Explore, My Library, More"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI for setting meditation reminders.",
+      "intent": "To configure a recurring notification for meditation.",
+      "entities": [
+        {
+          "name": "Meditation Reminder",
+          "type": "feature"
+        },
+        {
+          "name": "7.00 PM",
+          "type": "time"
+        },
+        {
+          "name": "Tue, Wed, Thu, Fri, Sat",
+          "type": "days"
+        },
+        {
+          "name": "Waking Up",
+          "type": "application name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "sets reminder for",
+          "object": "Meditation"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "dark blue"
+      ],
+      "style": "Minimalist mobile UI"
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:15.835Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.421,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 797,
+      "totalTokenCount": 2024,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

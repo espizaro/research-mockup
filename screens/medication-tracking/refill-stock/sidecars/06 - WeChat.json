@@ -1,0 +1,153 @@
+{
+  "image": "06 - WeChat.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a mobile app interface, likely a payment or merchant management feature within WeChat. It shows a dashboard for business transaction tracking, including a 'Today's Revenue' section, a promotion for 'Merchant Collection Services' featuring staff, member activities, and multi-store management, and a menu for 'Collection Management' with options like business reports and voice alerts.",
+    "ocr": {
+      "full_text": "09:41\n补充信息，开启收款方名片\n今日收款 0 笔，共计\n¥ 0.00\n查看全部\n做生意，就用经营收款服务\n去了解\n添加收款店员\n设置会员活动\n区分多店铺收款\n更丰富的经营功能·做生意更方便\n收款管理\n经营报表\n语音提醒\nWeChat\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "09:41"
+        },
+        {
+          "text": "补充信息，开启收款方名片"
+        },
+        {
+          "text": "今日收款 0 笔，共计"
+        },
+        {
+          "text": "¥ 0.00"
+        },
+        {
+          "text": "查看全部"
+        },
+        {
+          "text": "做生意，就用经营收款服务"
+        },
+        {
+          "text": "去了解"
+        },
+        {
+          "text": "添加收款店员"
+        },
+        {
+          "text": "设置会员活动"
+        },
+        {
+          "text": "区分多店铺收款"
+        },
+        {
+          "text": "更丰富的经营功能·做生意更方便"
+        },
+        {
+          "text": "收款管理"
+        },
+        {
+          "text": "经营报表"
+        },
+        {
+          "text": "语音提醒"
+        },
+        {
+          "text": "WeChat"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "补充信息，开启收款方名片"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "今日收款 0 笔，共计 ¥ 0.00 查看全部"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "做生意，就用经营收款服务 去了解 添加收款店员 设置会员活动 区分多店铺收款 更丰富的经营功能·做生意更方便"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "收款管理"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "经营报表 语音提醒"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface, merchant/payment dashboard",
+      "intent": "To provide a management dashboard for merchants to view payments and access business features.",
+      "entities": [
+        {
+          "name": "WeChat",
+          "type": "App/Platform",
+          "evidence": "Logo and name present at bottom"
+        },
+        {
+          "name": "Merchant Payment Services",
+          "type": "Feature",
+          "evidence": "Text: 做生意，就用经营收款服务"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "views",
+          "object": "transaction status"
+        },
+        {
+          "subject": "Platform",
+          "predicate": "promotes",
+          "object": "business features"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "green",
+        "yellow"
+      ],
+      "style": "Mobile Application UI, minimalist, clean, flat design",
+      "notes": [
+        "The UI uses soft rounded rectangles for sections.",
+        "Green and yellow accents are used for primary call-to-actions and status indicators."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:42.177Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.927,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 910,
+      "totalTokenCount": 2137,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

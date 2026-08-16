@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Wolt Delivery",
+    "platform": "ios",
+    "file_path": "screens/auth-login-magic-link/04 - Wolt Delivery.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:25.150Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication flow after user initiates login request.",
+    "primary_flow": "auth-login-magic-link",
+    "ux_intent": "Verify email address and assist user in accessing their inbox to find the login magic link.",
+    "ux_patterns": [
+      "Bottom Sheet",
+      "Form",
+      "Login",
+      "Minimalist",
+      "There is a rectangular empty box in the upper section that appears to be a placeholder for an illustration that did not load or is hidden.",
+      "The layout follows standard mobile OS design patterns for bottom sheets.",
+      "The high-contrast blue is used for actionable elements."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The high-contrast blue is used for actionable elements."
+    ],
+    "content_blocks": [
+      "Email Address",
+      "Action Sheet",
+      "Wolt Delivery"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean mobile UI design, standard iOS interaction patterns.",
+      "light grey (background)",
+      "blue (primary actions/elements)",
+      "black (text)",
+      "There is a rectangular empty box in the upper section that appears to be a placeholder for an illustration that did not load or is hidden.",
+      "The layout follows standard mobile OS design patterns for bottom sheets.",
+      "The high-contrast blue is used for actionable elements."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean mobile UI design, standard iOS interaction patterns."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_magic_link_04"
+}

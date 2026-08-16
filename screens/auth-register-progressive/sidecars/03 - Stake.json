@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Stake",
+    "platform": "ios",
+    "file_path": "screens/auth-register-progressive/03 - Stake.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:13.630Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account setup or KYC (Know Your Customer) data collection flow.",
+    "primary_flow": "auth-register-progressive",
+    "ux_intent": "To collect essential user identification data for account registration.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "No decorative illustrations present. Layout is strictly functional for data entry.",
+      "Design system features clear labels and field borders. Standard iOS status bar elements present."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Dropdown"
+    ],
+    "content_blocks": [
+      "Mobile number field",
+      "Date of birth field",
+      "Country of citizenship dropdown",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile application UI, clean white background, high contrast text.",
+      "white",
+      "grey",
+      "black",
+      "No decorative illustrations present. Layout is strictly functional for data entry.",
+      "Design system features clear labels and field borders. Standard iOS status bar elements present."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile application UI, clean white background, high contrast text."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_progressive_03"
+}

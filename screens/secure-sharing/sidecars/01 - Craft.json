@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Craft",
+    "platform": "ios",
+    "file_path": "screens/secure-sharing/01 - Craft.webp",
+    "analyzed_timestamp": "2026-08-05T19:24:24.399Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile device displaying a password-protected content page within an app.",
+    "primary_flow": "secure-sharing",
+    "ux_intent": "The user is attempting to access protected content that requires a password.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Modal window has a blurred background effect.",
+      "Keyboard is active at the bottom."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "NebulaX",
+      "Mobbin",
+      "Craft"
+    ],
+    "visual_keywords": [
+      "Clean, modern mobile interface (iOS-style).",
+      "hex FFFFFF",
+      "hex E0E0E0",
+      "hex 7EA9E3",
+      "Modal window has a blurred background effect.",
+      "Keyboard is active at the bottom."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern mobile interface (iOS-style)."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_secure_sharing_01"
+}

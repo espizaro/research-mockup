@@ -1,0 +1,141 @@
+{
+  "image": "01 - GoodRx.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen titled 'Daily med reminders' showing a scheduled medication reminder for 'Ozempic' on weekdays at 12:00 pm. There is also a button to 'Schedule new reminder'.",
+    "ocr": {
+      "full_text": "9:41\nDaily med reminders\nWeekdays\n12:00 pm · Mon, Tue, Wed, Thu, Fri\nEdit\nOzempic 1 prefilled 2mg pen of 2mg/3ml\nSchedule new reminder\nGoodRx\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Daily med reminders",
+          "language": "en"
+        },
+        {
+          "text": "Weekdays",
+          "language": "en"
+        },
+        {
+          "text": "12:00 pm · Mon, Tue, Wed, Thu, Fri",
+          "language": "en"
+        },
+        {
+          "text": "Edit",
+          "language": "en"
+        },
+        {
+          "text": "Ozempic 1 prefilled 2mg pen of 2mg/3ml",
+          "language": "en"
+        },
+        {
+          "text": "Schedule new reminder",
+          "language": "en"
+        },
+        {
+          "text": "GoodRx",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Daily med reminders"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Weekdays\n12:00 pm · Mon, Tue, Wed, Thu, Fri"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Edit"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Ozempic 1 prefilled 2mg pen of 2mg/3ml"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Schedule new reminder"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A medication management application interface on a smartphone screen.",
+      "intent": "To allow the user to view, manage, and schedule medication reminders.",
+      "entities": [
+        {
+          "name": "Ozempic",
+          "type": "Medication",
+          "evidence": "Ozempic 1 prefilled 2mg pen of 2mg/3ml"
+        },
+        {
+          "name": "GoodRx",
+          "type": "Company",
+          "evidence": "GoodRx logo"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Company",
+          "evidence": "curated by Mobbin"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has scheduled",
+          "object": "Ozempic"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue",
+        "yellow"
+      ],
+      "style": "Clean, minimalist mobile UI design",
+      "notes": [
+        "Yellow icon for medication reminder",
+        "Large blue button for action",
+        "Status bar at top with time and signal indicators"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:26:52.351Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.14,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 922,
+      "totalTokenCount": 2149,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

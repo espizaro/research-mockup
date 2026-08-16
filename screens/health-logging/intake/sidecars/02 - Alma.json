@@ -1,0 +1,61 @@
+{
+  "identification": {
+    "app_name": "Alma",
+    "platform": "ios",
+    "file_path": "screens/health-logging/intake/02 - Alma.webp",
+    "analyzed_timestamp": "2026-08-05T19:43:37.032Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding screen for food preferences.",
+    "primary_flow": "health-logging/intake",
+    "ux_intent": "To collect user food preferences via selectable tags.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "Progress bar at top with twelve segments.",
+      "Mediterranean tag is highlighted with light blue background."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Progress Bar"
+    ],
+    "content_blocks": [
+      "Spicy",
+      "Sweet",
+      "Savory",
+      "Salty",
+      "Umami",
+      "Comfort",
+      "Seafood",
+      "Mexican"
+    ],
+    "visual_keywords": [
+      "Modern minimalist UI",
+      "beige",
+      "white",
+      "brown",
+      "orange",
+      "purple",
+      "light blue",
+      "dark green",
+      "Progress bar at top with twelve segments.",
+      "Mediterranean tag is highlighted with light blue background."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_intake_02"
+}

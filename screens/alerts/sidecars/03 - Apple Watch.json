@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Apple Watch",
+    "platform": "ios",
+    "file_path": "screens/alerts/03 - Apple Watch.webp",
+    "analyzed_timestamp": "2026-08-05T19:24:28.533Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app settings screen for Apple Watch health notification configuration.",
+    "primary_flow": "alerts",
+    "ux_intent": "To inform the user about the noise level monitoring feature and provide a button to proceed with setup.",
+    "ux_patterns": [
+      "Form",
+      "Settings",
+      "Minimalist",
+      "Toggle",
+      "Includes an ear icon representing the noise feature",
+      "Toggle switch for noise notifications is in the 'on' state (green)"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Toggle Switch"
+    ],
+    "content_blocks": [
+      "Apple Watch",
+      "Mobbin",
+      "Noise"
+    ],
+    "visual_keywords": [
+      "Minimalist, dark-mode mobile UI design.",
+      "black",
+      "white",
+      "green",
+      "yellow",
+      "Includes an ear icon representing the noise feature",
+      "Toggle switch for noise notifications is in the 'on' state (green)"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, dark-mode mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_alerts_03"
+}

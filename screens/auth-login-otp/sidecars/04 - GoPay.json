@@ -1,0 +1,45 @@
+{
+  "identification": {
+    "app_name": "GoPay",
+    "platform": "ios",
+    "file_path": "screens/auth-login-otp/04 - GoPay.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:32.761Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication screen for OTP verification.",
+    "primary_flow": "auth-login-otp",
+    "ux_intent": "Verify user identity via one-time passcode.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "The screen features a central loading spinner (indicated by 'C') implying an active background process. The design uses standard iOS status bar elements. There is a strong reliance on white space. The branding 'from goto' is centered at the bottom, indicating a corporate ecosystem."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "GoPay",
+      "OTP",
+      "Goto"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, mobile UI design",
+      "White",
+      "Light Gray",
+      "Green",
+      "The screen features a central loading spinner (indicated by 'C') implying an active background process. The design uses standard iOS status bar elements. There is a strong reliance on white space. The branding 'from goto' is centered at the bottom, indicating a corporate ecosystem."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, mobile UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_otp_04"
+}

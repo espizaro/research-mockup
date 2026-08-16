@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "YNAB",
+    "platform": "ios",
+    "file_path": "screens/auth-login-social/03 - YNAB.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:19.179Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app login screen",
+    "primary_flow": "auth-login-social",
+    "ux_intent": "User authentication",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Hero illustration: The YNAB tree logo is centered at the top, serving as brand reinforcement rather than purely decorative art.",
+      "Style: Clean, professional, high-contrast typography.",
+      "Accessibility cues: Large touch targets for buttons, eye icon for password visibility.",
+      "Layout: Vertical stack pattern, typical of modern authentication flows."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Accessibility cues: Large touch targets for buttons, eye icon for password visibility."
+    ],
+    "content_blocks": [
+      "YNAB",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat design, mobile-first",
+      "white",
+      "blue",
+      "light-grey",
+      "Hero illustration: The YNAB tree logo is centered at the top, serving as brand reinforcement rather than purely decorative art.",
+      "Style: Clean, professional, high-contrast typography.",
+      "Accessibility cues: Large touch targets for buttons, eye icon for password visibility.",
+      "Layout: Vertical stack pattern, typical of modern authentication flows."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat design, mobile-first"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_social_03"
+}

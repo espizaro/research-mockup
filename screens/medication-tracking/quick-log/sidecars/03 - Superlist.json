@@ -1,0 +1,151 @@
+{
+  "image": "03 - Superlist.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for a productivity app named Superlist, showing a task creation screen with a keyboard open.",
+    "ocr": {
+      "full_text": "9:41 Create meeting notes AS Alex Smith Inbox Due date Label Task List Talk Superlist curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Create meeting notes",
+          "language": "en"
+        },
+        {
+          "text": "AS Alex Smith",
+          "language": "en"
+        },
+        {
+          "text": "Inbox",
+          "language": "en"
+        },
+        {
+          "text": "Due date",
+          "language": "en"
+        },
+        {
+          "text": "Label",
+          "language": "en"
+        },
+        {
+          "text": "Task",
+          "language": "en"
+        },
+        {
+          "text": "List",
+          "language": "en"
+        },
+        {
+          "text": "Talk",
+          "language": "en"
+        },
+        {
+          "text": "Superlist",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Create meeting notes"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "AS Alex Smith Inbox Due date Label"
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Task List Talk"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Keyboard area"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Superlist curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "Creating a new meeting note task",
+      "entities": [
+        {
+          "name": "Alex Smith",
+          "type": "person"
+        },
+        {
+          "name": "Superlist",
+          "type": "application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "platform"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "App",
+          "predicate": "is",
+          "object": "Superlist"
+        },
+        {
+          "subject": "User",
+          "predicate": "is",
+          "object": "Alex Smith"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "red",
+        "black"
+      ],
+      "style": "clean modern mobile UI",
+      "notes": [
+        "keyboard is open",
+        "UI is minimalist"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:10.641Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.662,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 632,
+      "totalTokenCount": 1859,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

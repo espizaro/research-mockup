@@ -1,0 +1,46 @@
+{
+  "identification": {
+    "app_name": "BitePal",
+    "platform": "ios",
+    "file_path": "screens/detail-sheets/02 - BitePal.webp",
+    "analyzed_timestamp": "2026-08-05T19:42:27.324Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application interface for health and nutrition tracking.",
+    "primary_flow": "detail-sheets",
+    "ux_intent": "The user is intended to log their food intake.",
+    "ux_patterns": [
+      "Minimalist",
+      "Card",
+      "The interface uses a dark background with a large white card overlay.",
+      "The spelling 'salah' in 'caesar salah' appears to be a typo in the original app interface."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "BitePal",
+      "Mobbin",
+      "caesar salah with 200g of chicken"
+    ],
+    "visual_keywords": [
+      "Modern minimalist UI",
+      "hex FFFFFF",
+      "hex 000000",
+      "hex F8F8F8",
+      "The interface uses a dark background with a large white card overlay.",
+      "The spelling 'salah' in 'caesar salah' appears to be a typo in the original app interface."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_sheets_02"
+}

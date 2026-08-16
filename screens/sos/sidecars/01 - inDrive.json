@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "inDrive",
+    "platform": "ios",
+    "file_path": "screens/sos/01 - inDrive.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:59.019Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app interface for emergency services.",
+    "primary_flow": "sos",
+    "ux_intent": "To provide critical information to a user during an emergency situation.",
+    "ux_patterns": [
+      "Form",
+      "The car license plate is partially obscured by a white rounded rectangle."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "inDrive",
+      "Nissan VDrive",
+      "Av. Independencia 562",
+      "911"
+    ],
+    "visual_keywords": [
+      "clean mobile UI",
+      "white",
+      "red",
+      "gray",
+      "The car license plate is partially obscured by a white rounded rectangle."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_sos_01"
+}

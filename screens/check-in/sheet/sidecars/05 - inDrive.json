@@ -1,0 +1,184 @@
+{
+  "image": "05 - inDrive.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen from inDrive, showing a post-ride feedback and tipping interface. The user is prompted to rate their driver with five stars and select from several compliment tags, with options to leave comments before clicking the Send button.",
+    "ocr": {
+      "full_text": "9:41 Barbacoa Hidalgo Charales Mariscos Y Restaurante Jose Maria Morelos Abarrotes El Paraiso Miguel Hidalgo Av. Independencia 595 Aaron Merindez mendez endencia iembre Excellent You can thank your driver with a tip Good music Clean and neat Careful driving Nice car Polite driver Driver arrived quickly Comments Send inDrive curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Barbacoa Hidalgo"
+        },
+        {
+          "text": "Charales Mariscos Y Restaurante"
+        },
+        {
+          "text": "Jose Maria Morelos"
+        },
+        {
+          "text": "Abarrotes El Paraiso"
+        },
+        {
+          "text": "Miguel Hidalgo"
+        },
+        {
+          "text": "Av. Independencia 595"
+        },
+        {
+          "text": "Aaron Merindez"
+        },
+        {
+          "text": "mendez"
+        },
+        {
+          "text": "endencia"
+        },
+        {
+          "text": "iembre"
+        },
+        {
+          "text": "Excellent"
+        },
+        {
+          "text": "You can thank your driver with a tip"
+        },
+        {
+          "text": "Good music"
+        },
+        {
+          "text": "Clean and neat"
+        },
+        {
+          "text": "Careful driving"
+        },
+        {
+          "text": "Nice car"
+        },
+        {
+          "text": "Polite driver"
+        },
+        {
+          "text": "Driver arrived quickly"
+        },
+        {
+          "text": "Comments"
+        },
+        {
+          "text": "Send"
+        },
+        {
+          "text": "inDrive"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Excellent"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "You can thank your driver with a tip"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Good music, Clean and neat, Careful driving, Nice car, Polite driver, Driver arrived quickly"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Comments"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Send"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application interface for ride-sharing rating and feedback.",
+      "intent": "To collect user feedback (star rating, compliment tags, and comments) for a completed ride.",
+      "entities": [
+        {
+          "name": "inDrive",
+          "type": "Company",
+          "evidence": "Logo and text at the bottom"
+        },
+        {
+          "name": "Av. Independencia 595",
+          "type": "Location",
+          "evidence": "Map label text"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "rates",
+          "object": "Driver"
+        },
+        {
+          "subject": "User",
+          "predicate": "selects",
+          "object": "Compliment tags"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "yellow",
+        "green"
+      ],
+      "style": "Mobile app UI, modal overlay on map view.",
+      "notes": [
+        "The UI elements are flat and modern.",
+        "A prominent green button is used for the primary call-to-action (Send).",
+        "There is a standard map interface blurred in the background."
+      ]
+    },
+    "uncertainty": [
+      "The map text 'Aaron Merindez mendez endencia iembre' is fragmented due to overlay and map rendering, potentially incomplete."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:19:17.597Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.298,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 906,
+      "totalTokenCount": 2133,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.301
+      }
+    ],
+    "warnings": []
+  }
+}

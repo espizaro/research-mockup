@@ -1,0 +1,213 @@
+{
+  "image": "04 - Lex.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen for a dating or social platform, specifically titled 'Who do you want to date?'. It provides user filters for setting preferences on maximum distance, age range, and gender.",
+    "ocr": {
+      "full_text": "9:41\nWho do you want to date?\nMaximum distance\nDistance filters only affect the people that you\ndiscover.\n100 mi\nAge\nAge filters only affect the people that you\ndiscover.\n18 to 100\nGender\nGender filters only affect the people that you\ndiscover.\nSelect >\nNext\nLex\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Who do you want to date?",
+          "language": "en"
+        },
+        {
+          "text": "Maximum distance",
+          "language": "en"
+        },
+        {
+          "text": "Distance filters only affect the people that you",
+          "language": "en"
+        },
+        {
+          "text": "discover.",
+          "language": "en"
+        },
+        {
+          "text": "100 mi",
+          "language": "en"
+        },
+        {
+          "text": "Age",
+          "language": "en"
+        },
+        {
+          "text": "Age filters only affect the people that you",
+          "language": "en"
+        },
+        {
+          "text": "discover.",
+          "language": "en"
+        },
+        {
+          "text": "18 to 100",
+          "language": "en"
+        },
+        {
+          "text": "Gender",
+          "language": "en"
+        },
+        {
+          "text": "Gender filters only affect the people that you",
+          "language": "en"
+        },
+        {
+          "text": "discover.",
+          "language": "en"
+        },
+        {
+          "text": "Select >",
+          "language": "en"
+        },
+        {
+          "text": "Next",
+          "language": "en"
+        },
+        {
+          "text": "Lex",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Who do you want to date?"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Maximum distance. Distance filters only affect the people that you discover."
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "100 mi"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Age. Age filters only affect the people that you discover."
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "18 to 100"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Gender. Gender filters only affect the people that you discover."
+        },
+        {
+          "type": "form",
+          "reading_order": 7,
+          "text": "Select >"
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Next"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI for setting user discovery preferences.",
+      "intent": "User is configuring search criteria for matches.",
+      "entities": [
+        {
+          "name": "Maximum distance",
+          "type": "filter category"
+        },
+        {
+          "name": "Age",
+          "type": "filter category"
+        },
+        {
+          "name": "Gender",
+          "type": "filter category"
+        },
+        {
+          "name": "Next",
+          "type": "button"
+        },
+        {
+          "name": "Lex",
+          "type": "app name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "sets",
+          "object": "Maximum distance"
+        },
+        {
+          "subject": "User",
+          "predicate": "sets",
+          "object": "Age range"
+        },
+        {
+          "subject": "User",
+          "predicate": "sets",
+          "object": "Gender"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "green"
+      ],
+      "style": "Minimalist mobile app interface.",
+      "notes": [
+        "The layout uses pill-shaped input containers.",
+        "Green is used for the primary call-to-action button.",
+        "Yellow highlights the Select button."
+      ]
+    },
+    "uncertainty": [
+      "Faint text labels inside the input fields (e.g., '50 mi', '99') are partially occluded by the main text overlaying them, making them difficult to read perfectly."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:23:20.613Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.084,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1320,
+      "totalTokenCount": 2547,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 5.085
+      }
+    ],
+    "warnings": []
+  }
+}

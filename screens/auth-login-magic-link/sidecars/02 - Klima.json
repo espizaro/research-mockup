@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Klima",
+    "platform": "ios",
+    "file_path": "screens/auth-login-magic-link/02 - Klima.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:23.981Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login confirmation screen",
+    "primary_flow": "auth-login-magic-link",
+    "ux_intent": "Confirm to the user that a magic login link has been sent and provide an option to resend if not received.",
+    "ux_patterns": [
+      "Login",
+      "Minimalist",
+      "The hero illustration is a 3D-style magic wand with sparkling stars, serving as a metaphorical representation of a 'magic link'.",
+      "The illustration is placed centrally between the header and the instructional text.",
+      "Visual hierarchy is clear with the 'Log in' title at the top and actionable text at the bottom.",
+      "The design uses a soft, friendly aesthetic with gradients on the wand icon."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Visual hierarchy is clear with the 'Log in' title at the top and actionable text at the bottom."
+    ],
+    "content_blocks": [
+      "Magic wand illustration",
+      "Resend Email"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern mobile UI",
+      "white",
+      "blue",
+      "green",
+      "The hero illustration is a 3D-style magic wand with sparkling stars, serving as a metaphorical representation of a 'magic link'.",
+      "The illustration is placed centrally between the header and the instructional text.",
+      "Visual hierarchy is clear with the 'Log in' title at the top and actionable text at the bottom.",
+      "The design uses a soft, friendly aesthetic with gradients on the wand icon."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_magic_link_02"
+}

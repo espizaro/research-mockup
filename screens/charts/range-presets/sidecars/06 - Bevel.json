@@ -1,0 +1,282 @@
+{
+  "image": "06 - Bevel.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application health dashboard screenshot displaying daily nutrition insights and various health monitoring metrics like respiratory rate, heart rate, heart rate variability, blood oxygen, temperature, and sleep duration.",
+    "ocr": {
+      "full_text": "9:41 Today, 14 September Nutrition Today's foods 64 fair 71g 37g 52g Blood glucose - mmol/L Health Monitor RR 15.6 rpm Normal RHR 53.9 bpm Lower HRV 74.4 ms Normal SpO2 95.6 % Normal Temp 34.8 °C Normal Sleep 4h 42m Lower Home Journal Fitness Biology Bevel curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Today, 14 September"
+        },
+        {
+          "text": "Nutrition"
+        },
+        {
+          "text": "Today's foods"
+        },
+        {
+          "text": "64"
+        },
+        {
+          "text": "fair"
+        },
+        {
+          "text": "71g"
+        },
+        {
+          "text": "37g"
+        },
+        {
+          "text": "52g"
+        },
+        {
+          "text": "Blood glucose"
+        },
+        {
+          "text": "- mmol/L"
+        },
+        {
+          "text": "Health Monitor"
+        },
+        {
+          "text": "RR"
+        },
+        {
+          "text": "15.6 rpm"
+        },
+        {
+          "text": "Normal"
+        },
+        {
+          "text": "RHR"
+        },
+        {
+          "text": "53.9 bpm"
+        },
+        {
+          "text": "Lower"
+        },
+        {
+          "text": "HRV"
+        },
+        {
+          "text": "74.4 ms"
+        },
+        {
+          "text": "Normal"
+        },
+        {
+          "text": "SpO2"
+        },
+        {
+          "text": "95.6 %"
+        },
+        {
+          "text": "Normal"
+        },
+        {
+          "text": "Temp"
+        },
+        {
+          "text": "34.8 °C"
+        },
+        {
+          "text": "Normal"
+        },
+        {
+          "text": "Sleep"
+        },
+        {
+          "text": "4h 42m"
+        },
+        {
+          "text": "Lower"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Journal"
+        },
+        {
+          "text": "Fitness"
+        },
+        {
+          "text": "Biology"
+        },
+        {
+          "text": "Bevel"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Today, 14 September"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Nutrition"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Today's foods"
+        },
+        {
+          "type": "table",
+          "reading_order": 4,
+          "text": "64 fair, 71g, 37g, 52g, Blood glucose - mmol/L"
+        },
+        {
+          "type": "title",
+          "reading_order": 5,
+          "text": "Health Monitor"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "RR 15.6 rpm Normal; RHR 53.9 bpm Lower; HRV 74.4 ms Normal; SpO2 95.6 % Normal; Temp 34.8 °C Normal; Sleep 4h 42m Lower"
+        },
+        {
+          "type": "form",
+          "reading_order": 7,
+          "text": "Home, Journal, +, Fitness, Biology"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile health monitoring application dashboard.",
+      "intent": "Display daily user health data and nutrition summary.",
+      "entities": [
+        {
+          "name": "Nutrition",
+          "type": "category"
+        },
+        {
+          "name": "Health Monitor",
+          "type": "category"
+        },
+        {
+          "name": "RR",
+          "type": "metric"
+        },
+        {
+          "name": "RHR",
+          "type": "metric"
+        },
+        {
+          "name": "HRV",
+          "type": "metric"
+        },
+        {
+          "name": "SpO2",
+          "type": "metric"
+        },
+        {
+          "name": "Temp",
+          "type": "metric"
+        },
+        {
+          "name": "Sleep",
+          "type": "metric"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nutrition",
+          "predicate": "has",
+          "object": "Today's foods"
+        },
+        {
+          "subject": "Health Monitor",
+          "predicate": "tracks",
+          "object": "RR"
+        },
+        {
+          "subject": "Health Monitor",
+          "predicate": "tracks",
+          "object": "RHR"
+        },
+        {
+          "subject": "Health Monitor",
+          "predicate": "tracks",
+          "object": "HRV"
+        },
+        {
+          "subject": "Health Monitor",
+          "predicate": "tracks",
+          "object": "SpO2"
+        },
+        {
+          "subject": "Health Monitor",
+          "predicate": "tracks",
+          "object": "Temp"
+        },
+        {
+          "subject": "Health Monitor",
+          "predicate": "tracks",
+          "object": "Sleep"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "blue",
+        "green",
+        "orange"
+      ],
+      "style": "Modern minimalist UI design.",
+      "notes": [
+        "Rounded corners on cards",
+        "Iconography for health metrics",
+        "Bottom navigation bar"
+      ]
+    },
+    "uncertainty": [
+      "The value for Blood glucose is marked with a dash, implying no data recorded or hidden."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:22:40.754Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.903,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1319,
+      "totalTokenCount": 2546,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.905
+      }
+    ],
+    "warnings": []
+  }
+}

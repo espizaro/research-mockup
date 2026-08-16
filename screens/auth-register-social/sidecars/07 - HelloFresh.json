@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "HelloFresh",
+    "platform": "ios",
+    "file_path": "screens/auth-register-social/07 - HelloFresh.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:11.913Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app checkout onboarding/account creation",
+    "primary_flow": "auth-register-social",
+    "ux_intent": "User conversion/account registration",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Checkout",
+      "Login",
+      "Minimalist",
+      "Character-based hero illustration used to humanize the experience and imply social/enjoyable aspects of the meal kit.",
+      "Clear visual hierarchy with form fields and CTAs focused in the middle.",
+      "Usage of progressive disclosure via the step indicator at the top."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "HelloFresh",
+      "Mobbin",
+      "Email field",
+      "Continue",
+      "Social Login"
+    ],
+    "visual_keywords": [
+      "Modern minimalist mobile UI, high contrast, clean typography",
+      "white",
+      "dark-green",
+      "light-green",
+      "Character-based hero illustration used to humanize the experience and imply social/enjoyable aspects of the meal kit.",
+      "Clear visual hierarchy with form fields and CTAs focused in the middle.",
+      "Usage of progressive disclosure via the step indicator at the top."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist mobile UI, high contrast, clean typography"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_social_07"
+}

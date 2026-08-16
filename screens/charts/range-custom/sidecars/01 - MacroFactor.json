@@ -1,0 +1,219 @@
+{
+  "image": "01 - MacroFactor.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This mobile application interface displays a 'Body Metrics' logging screen. It includes fields for 'Upper Body' measurements (Neck: 14, Shoulders: 17, Waist: 37) and a body fat percentage reference guide featuring nine stylized illustrations of female body types with corresponding ranges (10-13% through 50%+).",
+    "ocr": {
+      "full_text": "9:41 Body Metrics 25/08/2024 Upper Body Neck 14 in Shoulders 17 in Waist 37 in 10-13% 14-17% 18-23% 24-28% 29-33% 34-37% 38-42% 43-49% 50% + MacroFactor curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Body Metrics",
+          "language": "en"
+        },
+        {
+          "text": "25/08/2024",
+          "language": "en"
+        },
+        {
+          "text": "Upper Body",
+          "language": "en"
+        },
+        {
+          "text": "Neck",
+          "language": "en"
+        },
+        {
+          "text": "14",
+          "language": "en"
+        },
+        {
+          "text": "in",
+          "language": "en"
+        },
+        {
+          "text": "Shoulders",
+          "language": "en"
+        },
+        {
+          "text": "17",
+          "language": "en"
+        },
+        {
+          "text": "in",
+          "language": "en"
+        },
+        {
+          "text": "Waist",
+          "language": "en"
+        },
+        {
+          "text": "37",
+          "language": "en"
+        },
+        {
+          "text": "in",
+          "language": "en"
+        },
+        {
+          "text": "10-13%",
+          "language": "en"
+        },
+        {
+          "text": "14-17%",
+          "language": "en"
+        },
+        {
+          "text": "18-23%",
+          "language": "en"
+        },
+        {
+          "text": "24-28%",
+          "language": "en"
+        },
+        {
+          "text": "29-33%",
+          "language": "en"
+        },
+        {
+          "text": "34-37%",
+          "language": "en"
+        },
+        {
+          "text": "38-42%",
+          "language": "en"
+        },
+        {
+          "text": "43-49%",
+          "language": "en"
+        },
+        {
+          "text": "50% +",
+          "language": "en"
+        },
+        {
+          "text": "MacroFactor",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Body Metrics"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Upper Body"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Neck 14 in, Shoulders 17 in, Waist 37 in"
+        },
+        {
+          "type": "chart",
+          "reading_order": 4,
+          "text": "Body fat percentage visual guide: 10-13%, 14-17%, 18-23%, 24-28%, 29-33%, 34-37%, 38-42%, 43-49%, 50% +"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app health/fitness dashboard for logging body measurements and estimating body fat percentage.",
+      "intent": "User is viewing or updating body composition metrics.",
+      "entities": [
+        {
+          "name": "MacroFactor",
+          "type": "Brand/App Name"
+        },
+        {
+          "name": "Body Metrics",
+          "type": "Feature"
+        },
+        {
+          "name": "Neck",
+          "type": "Measurement Category"
+        },
+        {
+          "name": "Shoulders",
+          "type": "Measurement Category"
+        },
+        {
+          "name": "Waist",
+          "type": "Measurement Category"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Neck",
+          "predicate": "measurement is",
+          "object": "14 in"
+        },
+        {
+          "subject": "Shoulders",
+          "predicate": "measurement is",
+          "object": "17 in"
+        },
+        {
+          "subject": "Waist",
+          "predicate": "measurement is",
+          "object": "37 in"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "gray",
+        "black"
+      ],
+      "style": "Minimalist mobile UI, functional, data-driven.",
+      "notes": [
+        "The UI uses a circular grid layout for body fat estimations.",
+        "The app name 'MacroFactor' appears at the bottom left.",
+        "Curated by 'Mobbin' credit at the bottom right."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:23:01.003Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.415,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1429,
+      "totalTokenCount": 2656,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 5.417
+      }
+    ],
+    "warnings": []
+  }
+}

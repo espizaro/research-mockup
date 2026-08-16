@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Future Pro",
+    "platform": "ios",
+    "file_path": "screens/onboarding-welcome/02 - Future Pro.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:39.693Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen for a fitness application.",
+    "primary_flow": "onboarding-welcome",
+    "ux_intent": "Guide the user through the onboarding process and explain the value proposition of the app's personal coaching feature.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "Hero image is high quality and occupies the majority of the screen, serving as an emotional hook.",
+      "The layout follows a standard 'header-copy-action' structure.",
+      "The 'NEXT' button uses a gradient or solid cyan color, contrasting with the dark background.",
+      "Typography is clean and legible."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The layout follows a standard 'header-copy-action' structure.",
+      "The 'NEXT' button uses a gradient or solid cyan color, contrasting with the dark background."
+    ],
+    "content_blocks": [
+      "Future",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Aspirational, lifestyle-focused, high-contrast, minimalist UI",
+      "dark gray",
+      "sunset orange",
+      "cyan",
+      "black",
+      "Hero image is high quality and occupies the majority of the screen, serving as an emotional hook.",
+      "The layout follows a standard 'header-copy-action' structure.",
+      "The 'NEXT' button uses a gradient or solid cyan color, contrasting with the dark background.",
+      "Typography is clean and legible."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Aspirational, lifestyle-focused, high-contrast, minimalist UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_welcome_02"
+}

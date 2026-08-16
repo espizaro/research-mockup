@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "eBay",
+    "platform": "ios",
+    "file_path": "screens/signup-social/06 - eBay.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:14.100Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account registration mobile screen",
+    "primary_flow": "signup-social",
+    "ux_intent": "To capture user identification details via email or social authentication providers.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Standard iOS-style navigation bar at top",
+      "Clear visual hierarchy with form fields, main CTA, and secondary social actions",
+      "No decorative illustrations present",
+      "High contrast text for readability"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Standard iOS-style navigation bar at top",
+      "Clear visual hierarchy with form fields, main CTA, and secondary social actions"
+    ],
+    "content_blocks": [
+      "Email",
+      "First Name",
+      "Last Name",
+      "Continue with email",
+      "Social Logins"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat UI, mobile-native",
+      "White",
+      "Blue",
+      "Black",
+      "Gray",
+      "Standard iOS-style navigation bar at top",
+      "Clear visual hierarchy with form fields, main CTA, and secondary social actions",
+      "No decorative illustrations present",
+      "High contrast text for readability"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat UI, mobile-native"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_signup_social_06"
+}

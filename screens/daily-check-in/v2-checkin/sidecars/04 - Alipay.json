@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "Alipay",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/v2-checkin/04 - Alipay.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:20.376Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app loyalty program interface",
+    "primary_flow": "daily-check-in/v2-checkin",
+    "ux_intent": "Display user check-in status and points tasks",
+    "ux_patterns": [
+      "Calendar",
+      "Clear blue background gradient.",
+      "Icon-based navigation elements.",
+      "Includes a prominent 'Today' highlighted check-in slot."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Icon-based navigation elements."
+    ],
+    "content_blocks": [
+      "Alipay",
+      "19"
+    ],
+    "visual_keywords": [
+      "Mobile app UI, flat design",
+      "blue",
+      "white",
+      "gold",
+      "Clear blue background gradient.",
+      "Icon-based navigation elements.",
+      "Includes a prominent 'Today' highlighted check-in slot."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile app UI, flat design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_checkin_04"
+}

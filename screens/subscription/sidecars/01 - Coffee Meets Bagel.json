@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Coffee Meets Bagel",
+    "platform": "ios",
+    "file_path": "screens/subscription/01 - Coffee Meets Bagel.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:20.987Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App subscription payment screen.",
+    "primary_flow": "subscription",
+    "ux_intent": "User is selecting a subscription plan for Coffee Meets Bagel Premium.",
+    "ux_patterns": [
+      "Form",
+      "The '3 months' plan is highlighted as 'POPULAR' with a star icon."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Coffee Meets Bagel",
+      "App Store",
+      "1 month plan",
+      "3 months plan",
+      "6 months plan"
+    ],
+    "visual_keywords": [
+      "clean mobile application interface",
+      "white",
+      "blue",
+      "light grey",
+      "The '3 months' plan is highlighted as 'POPULAR' with a star icon."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean mobile application interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_subscription_01"
+}

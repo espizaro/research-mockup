@@ -1,0 +1,139 @@
+{
+  "image": "02 - Shelf.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app onboarding screen for an app called 'Shelf'. It encourages users to add three interests to assemble a 'Shelf' or to connect third-party platforms to get insights.",
+    "ocr": {
+      "full_text": "9:41 Connect Platforms 10 billion page turns have been tracked on Shelf. That's over 35 million novels! Add 3 things you're into You need at least 3 things to assemble a Shelf and get insights about you and your friends + Add Connect platforms instead shelf Shelf curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Connect Platforms"
+        },
+        {
+          "text": "10 billion page turns have been tracked on"
+        },
+        {
+          "text": "Shelf. That's over 35 million novels! 📖"
+        },
+        {
+          "text": "Add 3 things you're into"
+        },
+        {
+          "text": "You need at least 3 things to assemble a Shelf and get"
+        },
+        {
+          "text": "insights about you and your friends"
+        },
+        {
+          "text": "+ Add"
+        },
+        {
+          "text": "Connect platforms instead"
+        },
+        {
+          "text": "shelf Shelf"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Connect Platforms"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "10 billion page turns have been tracked on Shelf. That's over 35 million novels!"
+        },
+        {
+          "type": "title",
+          "reading_order": 3,
+          "text": "Add 3 things you're into"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "You need at least 3 things to assemble a Shelf and get insights about you and your friends"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "+ Add"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Connect platforms instead"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app onboarding screen",
+      "intent": "User onboarding/onboarding interest selection",
+      "entities": [
+        {
+          "name": "Shelf",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Shelf",
+          "predicate": "has",
+          "object": "10 billion page turns"
+        },
+        {
+          "subject": "User",
+          "predicate": "needs",
+          "object": "3 things to assemble a Shelf"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "lavender",
+        "purple"
+      ],
+      "style": "Modern minimalist UI",
+      "notes": [
+        "Contains a status bar at the top, a highlighted feature banner, placeholders for interest icons/cards, an action button, and footer attribution."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:13.086Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.544,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 731,
+      "totalTokenCount": 1958,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

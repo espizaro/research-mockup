@@ -1,0 +1,229 @@
+{
+  "image": "07 - Withings Health Mate.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen showing a health dashboard titled 'All Health Data' with widgets for Cycle Tracking, Heart Rate, Walking, and Daily Steps. The app appears to be 'Withings Health Mate'.",
+    "ocr": {
+      "full_text": "9:41 Measure + All Health Data Past 7 Days Cycle Tracking Today Days around ovulation Ends in 2 days Add Logs Heart Rate 10:55 PM 75 bpm Normal Walking 10:44 PM 21 s 2kcal Show All Workouts Daily Steps 2:56 PM Home Measure Achieve Withings Health Mate curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Measure",
+          "language": "en"
+        },
+        {
+          "text": "+",
+          "language": "en"
+        },
+        {
+          "text": "All Health Data",
+          "language": "en"
+        },
+        {
+          "text": "Past 7 Days",
+          "language": "en"
+        },
+        {
+          "text": "Cycle Tracking",
+          "language": "en"
+        },
+        {
+          "text": "Today",
+          "language": "en"
+        },
+        {
+          "text": "Days around ovulation",
+          "language": "en"
+        },
+        {
+          "text": "Ends in 2 days",
+          "language": "en"
+        },
+        {
+          "text": "Add Logs",
+          "language": "en"
+        },
+        {
+          "text": "Heart Rate",
+          "language": "en"
+        },
+        {
+          "text": "10:55 PM",
+          "language": "en"
+        },
+        {
+          "text": "75 bpm",
+          "language": "en"
+        },
+        {
+          "text": "Normal",
+          "language": "en"
+        },
+        {
+          "text": "Walking",
+          "language": "en"
+        },
+        {
+          "text": "10:44 PM",
+          "language": "en"
+        },
+        {
+          "text": "21 s",
+          "language": "en"
+        },
+        {
+          "text": "2kcal",
+          "language": "en"
+        },
+        {
+          "text": "Show All Workouts",
+          "language": "en"
+        },
+        {
+          "text": "Daily Steps",
+          "language": "en"
+        },
+        {
+          "text": "2:56 PM",
+          "language": "en"
+        },
+        {
+          "text": "Home",
+          "language": "en"
+        },
+        {
+          "text": "Measure",
+          "language": "en"
+        },
+        {
+          "text": "Achieve",
+          "language": "en"
+        },
+        {
+          "text": "Withings Health Mate",
+          "language": "en"
+        },
+        {
+          "text": "curated by",
+          "language": "en"
+        },
+        {
+          "text": "Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "All Health Data"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Past 7 Days"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Cycle Tracking: Days around ovulation. Ends in 2 days."
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Heart Rate: 75 bpm, Normal."
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Walking: 21 s, 2kcal."
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Daily Steps"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile health application dashboard.",
+      "intent": "Health data tracking and monitoring.",
+      "entities": [
+        {
+          "name": "Withings Health Mate",
+          "type": "Application"
+        },
+        {
+          "name": "Cycle Tracking",
+          "type": "Health Metric"
+        },
+        {
+          "name": "Heart Rate",
+          "type": "Health Metric"
+        },
+        {
+          "name": "Walking",
+          "type": "Health Metric"
+        },
+        {
+          "name": "Daily Steps",
+          "type": "Health Metric"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Withings Health Mate",
+          "predicate": "displays",
+          "object": "All Health Data"
+        },
+        {
+          "subject": "Heart Rate",
+          "predicate": "value",
+          "object": "75 bpm"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "purple"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Uses iconography for health metrics",
+        "Tab bar navigation at the bottom"
+      ]
+    },
+    "uncertainty": [
+      "The value for Daily Steps is partially obscured at the bottom of the screen."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:45.428Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.158,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1021,
+      "totalTokenCount": 2248,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

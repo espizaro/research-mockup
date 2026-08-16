@@ -1,0 +1,147 @@
+{
+  "image": "01 - Zocdoc.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The user is viewing their 'Allergies' section within a mobile application, likely Zocdoc, where they can see their listed allergies (Antibiotics and Nuts) and an option to edit them. The interface also shows navigation tabs at the bottom.",
+    "ocr": {
+      "full_text": "9:41\nAllergies\nYour allergies will be pre-filled on practice forms\nwhen booking an appointment\nAllergies\nEdit >\nAntibiotics\nNuts\nHome\nAppointments\nInsurance\nMy health\nZocdoc\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Allergies"
+        },
+        {
+          "text": "Your allergies will be pre-filled on practice forms"
+        },
+        {
+          "text": "when booking an appointment"
+        },
+        {
+          "text": "Allergies"
+        },
+        {
+          "text": "Edit >"
+        },
+        {
+          "text": "Antibiotics"
+        },
+        {
+          "text": "Nuts"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Appointments"
+        },
+        {
+          "text": "Insurance"
+        },
+        {
+          "text": "My health"
+        },
+        {
+          "text": "Zocdoc"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Allergies"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Your allergies will be pre-filled on practice forms when booking an appointment"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Allergies Edit > Antibiotics Nuts"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Home Appointments Insurance My health"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Zocdoc curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application interface displaying health profile information, specifically user allergies.",
+      "intent": "The user is reviewing or editing their medical allergy information stored in the application.",
+      "entities": [
+        {
+          "name": "Antibiotics",
+          "type": "Allergy"
+        },
+        {
+          "name": "Nuts",
+          "type": "Allergy"
+        },
+        {
+          "name": "Zocdoc",
+          "type": "Brand"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has allergy",
+          "object": "Antibiotics"
+        },
+        {
+          "subject": "User",
+          "predicate": "has allergy",
+          "object": "Nuts"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "gray"
+      ],
+      "style": "Mobile app UI, minimalist",
+      "notes": [
+        "Clean, white background with dark text."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:30.141Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.407,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 722,
+      "totalTokenCount": 1949,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

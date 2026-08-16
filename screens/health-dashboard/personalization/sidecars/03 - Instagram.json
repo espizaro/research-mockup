@@ -1,0 +1,125 @@
+{
+  "image": "03 - Instagram.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface screenshot displaying two Instagram 'Messages' widgets with profile information, on a light gray background. The footer includes branding for Instagram and Mobbin.",
+    "ocr": {
+      "full_text": "9:41 Messages samleefin18 Messages samleefi... Instagram curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Messages",
+          "language": "en"
+        },
+        {
+          "text": "samleefin18",
+          "language": "en"
+        },
+        {
+          "text": "Messages",
+          "language": "en"
+        },
+        {
+          "text": "samleefi...",
+          "language": "en"
+        },
+        {
+          "text": "Instagram",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "9:41"
+        },
+        {
+          "type": "other",
+          "reading_order": 2,
+          "text": "Messages widget 1 containing profile picture and text 'samleefin18'"
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Messages widget 2 containing profile picture and text 'samleefi...'"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Instagram curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile device screen showing widget configurations for a messaging application.",
+      "intent": "To demonstrate the UI layout of Instagram messaging widgets.",
+      "entities": [
+        {
+          "name": "Instagram",
+          "type": "Application",
+          "evidence": "Instagram icon and text"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Service",
+          "evidence": "Logo and text in footer"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Instagram",
+          "predicate": "features",
+          "object": "Messages widgets"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "light gray",
+        "white",
+        "black"
+      ],
+      "style": "Minimalist mobile application UI",
+      "notes": [
+        "The UI includes system status bar indicators at the top.",
+        "The widget cards have rounded corners.",
+        "Footer branding suggests this is a screenshot from a design resource platform."
+      ]
+    },
+    "uncertainty": [
+      "The full text of the second widget's username is truncated as 'samleefi...'"
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:18.099Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.33,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 726,
+      "totalTokenCount": 1953,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

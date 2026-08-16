@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Ferndesk",
+    "platform": "web",
+    "file_path": "screens/auth-login-desktop/03 - Ferndesk.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:46.259Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen for a software service (Ferndesk).",
+    "primary_flow": "auth-login-desktop",
+    "ux_intent": "Authenticate an existing user.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "The pixel art illustration is purely decorative and does not convey functional information.",
+      "The form uses high-contrast text and standard input fields.",
+      "The 'Forgot password?' link uses a distinct green color, which might be a potential accessibility concern depending on contrast ratios.",
+      "The overall design system emphasizes whitespace on the left and immersive imagery on the right."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The form uses high-contrast text and standard input fields."
+    ],
+    "content_blocks": [
+      "Ferndesk",
+      "Mobbin",
+      "Login Form",
+      "Pixel art landscape"
+    ],
+    "visual_keywords": [
+      "Modern minimalist UI contrasted with detailed pixel art.",
+      "teal",
+      "white",
+      "black",
+      "green",
+      "grey",
+      "The pixel art illustration is purely decorative and does not convey functional information.",
+      "The form uses high-contrast text and standard input fields.",
+      "The 'Forgot password?' link uses a distinct green color, which might be a potential accessibility concern depending on contrast ratios.",
+      "The overall design system emphasizes whitespace on the left and immersive imagery on the right."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist UI contrasted with detailed pixel art."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_desktop_03"
+}

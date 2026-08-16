@@ -1,0 +1,62 @@
+{
+  "identification": {
+    "app_name": "MyFitnessPal",
+    "platform": "ios",
+    "file_path": "screens/register-wizard/02 - MyFitnessPal.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:01.459Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account Registration Step",
+    "primary_flow": "register-wizard",
+    "ux_intent": "Capture user credentials and obtain legal consent to complete account creation.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Minimalist",
+      "Checkbox",
+      "Progress bar at the top indicates current step status.",
+      "The 'Next' button is a solid primary color (blue) for visibility.",
+      "No hero illustration used; content-focused design.",
+      "Input fields have clear labels and micro-copy for requirements."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Progress Bar",
+      "Checkbox",
+      "The 'Next' button is a solid primary color (blue) for visibility.",
+      "Input fields have clear labels and micro-copy for requirements."
+    ],
+    "content_blocks": [
+      "MyFitnessPal",
+      "Email Field",
+      "Password Field",
+      "Agreement Checkbox",
+      "Next"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app UI; clean typography with ample white space.",
+      "white",
+      "blue",
+      "green",
+      "grey",
+      "Progress bar at the top indicates current step status.",
+      "The 'Next' button is a solid primary color (blue) for visibility.",
+      "No hero illustration used; content-focused design.",
+      "Input fields have clear labels and micro-copy for requirements."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app UI; clean typography with ample white space."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_register_wizard_02"
+}

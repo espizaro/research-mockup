@@ -1,0 +1,203 @@
+{
+  "image": "06 - mymind.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the mobile app 'mymind', featuring a grid-style layout of saved notes, images, and content items. The bottom navigation bar includes 'Everything', 'Spaces', and 'Serendipity'.",
+    "ocr": {
+      "full_text": "9:41 Search my mind... + find inspiration for website design Smashburger The Best of Sicily “ Do what you can, with what you have, where you are. ” Iced Matcha Latte Recipe Fashion Model in Casual At... ADD A NEW NOTE Start typing here... Everything Spaces Serendipity mymind curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Search my mind..."
+        },
+        {
+          "text": "+"
+        },
+        {
+          "text": "find inspiration for"
+        },
+        {
+          "text": "website design"
+        },
+        {
+          "text": "Smashburger"
+        },
+        {
+          "text": "The Best of Sicily"
+        },
+        {
+          "text": "“"
+        },
+        {
+          "text": "Do what you can, with"
+        },
+        {
+          "text": "what you have, where you"
+        },
+        {
+          "text": "are."
+        },
+        {
+          "text": "”"
+        },
+        {
+          "text": "Iced Matcha Latte Recipe"
+        },
+        {
+          "text": "Fashion Model in Casual At..."
+        },
+        {
+          "text": "ADD A NEW NOTE"
+        },
+        {
+          "text": "Start typing here..."
+        },
+        {
+          "text": "Everything"
+        },
+        {
+          "text": "Spaces"
+        },
+        {
+          "text": "Serendipity"
+        },
+        {
+          "text": "mymind"
+        },
+        {
+          "text": "curated by"
+        },
+        {
+          "text": "Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Search my mind..."
+        },
+        {
+          "type": "other",
+          "reading_order": 2,
+          "text": "+"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "find inspiration for website design"
+        },
+        {
+          "type": "image",
+          "reading_order": 4,
+          "text": "Smashburger"
+        },
+        {
+          "type": "image",
+          "reading_order": 5,
+          "text": "The Best of Sicily"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Do what you can, with what you have, where you are."
+        },
+        {
+          "type": "image",
+          "reading_order": 7,
+          "text": "Iced Matcha Latte Recipe"
+        },
+        {
+          "type": "image",
+          "reading_order": 8,
+          "text": "Fashion Model in Casual At..."
+        },
+        {
+          "type": "form",
+          "reading_order": 9,
+          "text": "ADD A NEW NOTE Start typing here..."
+        },
+        {
+          "type": "other",
+          "reading_order": 10,
+          "text": "Everything Spaces Serendipity"
+        },
+        {
+          "type": "other",
+          "reading_order": 11,
+          "text": "mymind curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application interface displaying a user dashboard with various cards (images and text snippets).",
+      "intent": "To present a content-organizing mobile app interface with various saved items.",
+      "entities": [
+        {
+          "name": "mymind",
+          "type": "application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "platform"
+        },
+        {
+          "name": "Smashburger",
+          "type": "food_item"
+        },
+        {
+          "name": "Iced Matcha Latte",
+          "type": "food_item"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "mymind",
+          "predicate": "curated_by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "orange",
+        "green"
+      ],
+      "style": "clean, minimalist mobile interface",
+      "notes": [
+        "The UI uses a grid layout common for Pinterest-style platforms."
+      ]
+    },
+    "uncertainty": [
+      "The full text of 'Fashion Model in Casual At...' is truncated."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:06:53.303Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.636,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 923,
+      "totalTokenCount": 2150,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

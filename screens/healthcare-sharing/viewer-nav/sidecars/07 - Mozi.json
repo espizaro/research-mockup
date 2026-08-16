@@ -1,0 +1,198 @@
+{
+  "image": "07 - Mozi.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for a travel planning app called Mozi, showing a list of user-defined travel plans organized by month. There are trips to New Orleans in January and Tokyo in February, with a navigation bar at the bottom.",
+    "ocr": {
+      "full_text": "9.41 My Plans Share your plans with your friends so they know where to find you January New Orleans, LA Jan 24 - 27 Short getaway Tentative February Tokyo, Japan Feb 3 - 10 Traveling & eating 🍣🍶 8d trip June Home My Plans + My People Profile Mozi curated by Mobbin",
+      "lines": [
+        {
+          "text": "9.41"
+        },
+        {
+          "text": "My Plans"
+        },
+        {
+          "text": "Share your plans with your friends so they know where to find you"
+        },
+        {
+          "text": "January"
+        },
+        {
+          "text": "New Orleans, LA"
+        },
+        {
+          "text": "Jan 24 - 27"
+        },
+        {
+          "text": "Short getaway"
+        },
+        {
+          "text": "Tentative"
+        },
+        {
+          "text": "February"
+        },
+        {
+          "text": "Tokyo, Japan"
+        },
+        {
+          "text": "Feb 3 - 10"
+        },
+        {
+          "text": "Traveling & eating 🍣🍶"
+        },
+        {
+          "text": "8d trip"
+        },
+        {
+          "text": "June"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "My Plans"
+        },
+        {
+          "text": "My People"
+        },
+        {
+          "text": "Profile"
+        },
+        {
+          "text": "Mozi"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "My Plans"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Share your plans with your friends so they know where to find you"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 3,
+          "text": "January"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "New Orleans, LA, Jan 24 - 27, Short getaway, Tentative"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 5,
+          "text": "February"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Tokyo, Japan, Feb 3 - 10, Traveling & eating, 8d trip"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 7,
+          "text": "June"
+        },
+        {
+          "type": "other",
+          "reading_order": 8,
+          "text": "Bottom navigation bar containing Home, My Plans, Create (+), My People, Profile"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Travel planning mobile app interface.",
+      "intent": "User is viewing and managing their upcoming travel itineraries.",
+      "entities": [
+        {
+          "name": "New Orleans",
+          "type": "Location",
+          "evidence": "New Orleans, LA"
+        },
+        {
+          "name": "Tokyo",
+          "type": "Location",
+          "evidence": "Tokyo, Japan"
+        },
+        {
+          "name": "Mozi",
+          "type": "Application",
+          "evidence": "Mozi"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization",
+          "evidence": "curated by Mobbin"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has plan in",
+          "object": "January"
+        },
+        {
+          "subject": "User",
+          "predicate": "has plan in",
+          "object": "February"
+        },
+        {
+          "subject": "Trip",
+          "predicate": "is located in",
+          "object": "New Orleans"
+        },
+        {
+          "subject": "Trip",
+          "predicate": "is located in",
+          "object": "Tokyo"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "off-white",
+        "white",
+        "black"
+      ],
+      "style": "Minimalist mobile UI, card-based design.",
+      "notes": [
+        "Uses high-quality travel photography thumbnails for each destination card."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:00.168Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.38,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 930,
+      "totalTokenCount": 2157,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

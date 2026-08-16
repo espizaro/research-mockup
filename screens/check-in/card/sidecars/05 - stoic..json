@@ -1,0 +1,158 @@
+{
+  "image": "05 - stoic..webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen from the 'stoic.' app, part of a curated collection by Mobbin. It presents a mood tracking interface where a user is prompted to select their current feeling from a grid of emotion buttons, with an option to see more.",
+    "ocr": {
+      "full_text": "How would you describe how you’re feeling today? Brave Satisfied Proud Loved Excited Calm Happy Grateful Motivated Relaxed Show more emotions stoic. curated by Mobbin",
+      "lines": [
+        {
+          "text": "How would you describe how",
+          "language": "en"
+        },
+        {
+          "text": "you’re feeling today?",
+          "language": "en"
+        },
+        {
+          "text": "Brave",
+          "language": "en"
+        },
+        {
+          "text": "Satisfied",
+          "language": "en"
+        },
+        {
+          "text": "Proud",
+          "language": "en"
+        },
+        {
+          "text": "Loved",
+          "language": "en"
+        },
+        {
+          "text": "Excited",
+          "language": "en"
+        },
+        {
+          "text": "Calm",
+          "language": "en"
+        },
+        {
+          "text": "Happy",
+          "language": "en"
+        },
+        {
+          "text": "Grateful",
+          "language": "en"
+        },
+        {
+          "text": "Motivated",
+          "language": "en"
+        },
+        {
+          "text": "Relaxed",
+          "language": "en"
+        },
+        {
+          "text": "Show more emotions",
+          "language": "en"
+        },
+        {
+          "text": "stoic.",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "How would you describe how you’re feeling today?"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Brave, Satisfied, Proud, Loved, Excited, Calm, Happy, Grateful, Motivated, Relaxed"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Show more emotions"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI screen for emotion tracking",
+      "intent": "To allow the user to log their emotional state",
+      "entities": [
+        {
+          "name": "stoic.",
+          "type": "application",
+          "evidence": "Logo/name at the bottom"
+        },
+        {
+          "name": "Mobbin",
+          "type": "curator",
+          "evidence": "Branding at the bottom"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "chooses",
+          "object": "emotion"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "light gray"
+      ],
+      "style": "Minimalist UI design",
+      "notes": [
+        "Navigation bar visible with progress dots",
+        "Buttons arranged in a 2-column grid",
+        "Bottom right navigation arrow button present"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T05:41:11.673Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.605,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 880,
+      "totalTokenCount": 2107,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.608
+      }
+    ],
+    "warnings": []
+  }
+}

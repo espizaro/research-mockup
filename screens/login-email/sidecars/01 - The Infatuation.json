@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "The Infatuation",
+    "platform": "ios",
+    "file_path": "screens/login-email/01 - The Infatuation.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:52.310Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app login screen",
+    "primary_flow": "login-email",
+    "ux_intent": "User authentication and sign-in flow",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustrations present; focuses purely on utility.",
+      "High contrast text for readability.",
+      "Clear visual hierarchy using button weight and spacing.",
+      "Standard iOS status bar elements."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Clear visual hierarchy using button weight and spacing."
+    ],
+    "content_blocks": [
+      "Email field",
+      "Password field",
+      "Log In",
+      "Google",
+      "Apple"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat UI design",
+      "white",
+      "black",
+      "gray",
+      "blue",
+      "No hero illustrations present; focuses purely on utility.",
+      "High contrast text for readability.",
+      "Clear visual hierarchy using button weight and spacing.",
+      "Standard iOS status bar elements."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_email_01"
+}

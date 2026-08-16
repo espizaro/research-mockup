@@ -1,0 +1,48 @@
+{
+  "identification": {
+    "app_name": "Runna",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/closure-report/06 - Runna.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:35.509Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Fitness application workout summary screen",
+    "primary_flow": "daily-check-in/closure-report",
+    "ux_intent": "Displaying completed workout details and prompting user feedback",
+    "ux_patterns": [
+      "Progress",
+      "gradient background",
+      "use of iconography for workout status"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Runna",
+      "Alex",
+      "Gradual Build",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "clean mobile application interface",
+      "green",
+      "white",
+      "black",
+      "gradient background",
+      "use of iconography for workout status"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean mobile application interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_closure_report_06"
+}

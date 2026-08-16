@@ -1,0 +1,147 @@
+{
+  "image": "01 - Todoist.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile screen showing a notification center in the Todoist app with a 'Mark all as read' confirmation dialog overlay.",
+    "ocr": {
+      "full_text": "9:41 Notifications All Unread (1) Your journey towards higher productivity begins today! You're now a Karma Novice. 2 days ago Mark all as read Are you sure you want to mark all notifications as read? Don't ask me again Mark all as read Cancel Todoist curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Notifications"
+        },
+        {
+          "text": "All"
+        },
+        {
+          "text": "Unread (1)"
+        },
+        {
+          "text": "Your journey towards higher productivity begins today! You're now a Karma Novice."
+        },
+        {
+          "text": "2 days ago"
+        },
+        {
+          "text": "Mark all as read"
+        },
+        {
+          "text": "Are you sure you want to mark all notifications as read?"
+        },
+        {
+          "text": "Don't ask me again"
+        },
+        {
+          "text": "Mark all as read"
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Todoist"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Notifications"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "All Unread (1)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Your journey towards higher productivity begins today! You're now a Karma Novice. 2 days ago"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Mark all as read Are you sure you want to mark all notifications as read? Don't ask me again Mark all as read Cancel"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Todoist curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app notification interface with a modal dialog.",
+      "intent": "The user is attempting to mark all notifications as read.",
+      "entities": [
+        {
+          "name": "Todoist",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization"
+        },
+        {
+          "name": "Karma Novice",
+          "type": "User Status"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Mobbin",
+          "predicate": "curated",
+          "object": "Todoist interface image"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light gray",
+        "red"
+      ],
+      "style": "Clean modern mobile UI, Material/iOS inspired.",
+      "notes": [
+        "Modal overlay has a semi-transparent background."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:20:27.717Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.367,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 700,
+      "totalTokenCount": 1927,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.368
+      }
+    ],
+    "warnings": []
+  }
+}

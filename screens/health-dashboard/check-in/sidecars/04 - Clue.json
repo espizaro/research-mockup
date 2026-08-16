@@ -1,0 +1,199 @@
+{
+  "image": "04 - Clue.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a mobile period tracker application called Clue, showing a daily tracking screen where a user can log their feelings, pain, and sleep quality for Aug 26, 2025.",
+    "ocr": {
+      "full_text": "9:41 Today: Aug 26, 2025 26 S M T W T F S 10 11 12 13 14 15 16 Customize Feelings Learn more Mood swings Not in control Fine Ha Pain Learn more Pain free Cramps Ovulation Br tend Sleep quality Learn more Save Sleep Learn more Clue curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Today: Aug 26, 2025"
+        },
+        {
+          "text": "26"
+        },
+        {
+          "text": "S M T W T F S"
+        },
+        {
+          "text": "10 11 12 13 14 15 16"
+        },
+        {
+          "text": "Customize"
+        },
+        {
+          "text": "Feelings Learn more"
+        },
+        {
+          "text": "Mood swings"
+        },
+        {
+          "text": "Not in control"
+        },
+        {
+          "text": "Fine"
+        },
+        {
+          "text": "Ha"
+        },
+        {
+          "text": "Pain Learn more"
+        },
+        {
+          "text": "Pain free"
+        },
+        {
+          "text": "Cramps"
+        },
+        {
+          "text": "Ovulation"
+        },
+        {
+          "text": "Br tend"
+        },
+        {
+          "text": "Sleep quality Learn more"
+        },
+        {
+          "text": "Save"
+        },
+        {
+          "text": "Sleep Learn more"
+        },
+        {
+          "text": "Clue curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Today: Aug 26, 2025"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Customize"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 3,
+          "text": "Feelings Learn more"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Mood swings, Not in control, Fine, Ha"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 5,
+          "text": "Pain Learn more"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Pain free, Cramps, Ovulation, Br tend"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 7,
+          "text": "Sleep quality Learn more"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "Save"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 9,
+          "text": "Sleep Learn more"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A health tracking application interface, specifically for tracking physical and mental symptoms related to a menstrual cycle.",
+      "intent": "User is selecting symptoms to log for their daily health profile.",
+      "entities": [
+        {
+          "name": "Clue",
+          "type": "Application",
+          "evidence": "Logo/name at the bottom."
+        },
+        {
+          "name": "Aug 26, 2025",
+          "type": "Date",
+          "evidence": "Header text."
+        },
+        {
+          "name": "Feelings",
+          "type": "Tracking Category"
+        },
+        {
+          "name": "Pain",
+          "type": "Tracking Category"
+        },
+        {
+          "name": "Sleep quality",
+          "type": "Tracking Category"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Service",
+          "evidence": "curated by Mobbin"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Application",
+          "predicate": "is curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "orange",
+        "blue",
+        "red"
+      ],
+      "style": "Clean mobile UI, flat icons, rounded corners.",
+      "notes": [
+        "Color-coded categories: Orange for Feelings/Sleep, Blue for Pain/Save button.",
+        "The calendar strip shows visual markers for different types of logs."
+      ]
+    },
+    "uncertainty": [
+      "The labels 'Ha' and 'Br tend' are truncated due to screen width/UI constraints."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:25.754Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.321,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1045,
+      "totalTokenCount": 2272,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

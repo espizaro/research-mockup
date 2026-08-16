@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Google Home",
+    "platform": "ios",
+    "file_path": "screens/auth-welcome-illustrated/01 - Google Home.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:26.293Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen for a smart home application.",
+    "primary_flow": "auth-welcome-illustrated",
+    "ux_intent": "Welcome the user and initiate the app setup process via the 'Get started' button.",
+    "ux_patterns": [
+      "Onboarding",
+      "Minimalist",
+      "The hero illustration is abstract and geometric, reinforcing the 'home' concept through simplified shapes.",
+      "The illustration is placed centrally between the text and the CTA button.",
+      "High visual hierarchy with the CTA button being the most prominent interactive element.",
+      "The UI follows standard iOS header bar styling."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The illustration is placed centrally between the text and the CTA button.",
+      "High visual hierarchy with the CTA button being the most prominent interactive element."
+    ],
+    "content_blocks": [
+      "Google Home",
+      "Get started"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat geometric illustration style, Material Design language.",
+      "white",
+      "blue",
+      "grey",
+      "The hero illustration is abstract and geometric, reinforcing the 'home' concept through simplified shapes.",
+      "The illustration is placed centrally between the text and the CTA button.",
+      "High visual hierarchy with the CTA button being the most prominent interactive element.",
+      "The UI follows standard iOS header bar styling."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat geometric illustration style, Material Design language."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_welcome_illustrated_01"
+}

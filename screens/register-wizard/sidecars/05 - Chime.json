@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Chime",
+    "platform": "ios",
+    "file_path": "screens/register-wizard/05 - Chime.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:05.824Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account registration flow for a banking application.",
+    "primary_flow": "register-wizard",
+    "ux_intent": "User onboarding: gathering initial identity information to initiate the account creation process.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "Stepper",
+      "The stepper uses simple icon markers (user profile, shield, heart) to denote the flow stages.",
+      "Green is the primary brand color, used for the logo and the 'Next' call-to-action button, ensuring high prominence.",
+      "Input fields follow a standard mobile design pattern with clear labels.",
+      "The overall design system prioritizes accessibility through high contrast text and generous whitespace."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Stepper",
+      "Green is the primary brand color, used for the logo and the 'Next' call-to-action button, ensuring high prominence.",
+      "Input fields follow a standard mobile design pattern with clear labels."
+    ],
+    "content_blocks": [
+      "Chime",
+      "Alex Smith",
+      "alexsmith.mobbin@gmail.com"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern UI design common in fintech apps.",
+      "white",
+      "green",
+      "dark gray",
+      "The stepper uses simple icon markers (user profile, shield, heart) to denote the flow stages.",
+      "Green is the primary brand color, used for the logo and the 'Next' call-to-action button, ensuring high prominence.",
+      "Input fields follow a standard mobile design pattern with clear labels.",
+      "The overall design system prioritizes accessibility through high contrast text and generous whitespace."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern UI design common in fintech apps."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_register_wizard_05"
+}

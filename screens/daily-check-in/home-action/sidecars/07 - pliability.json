@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "pliability",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/home-action/07 - pliability.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:46.191Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app interface for a fitness or mobility platform.",
+    "primary_flow": "daily-check-in/home-action",
+    "ux_intent": "User interface for starting daily mobility workouts and managing interests.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Dark Mode",
+      "The layout uses high-contrast colors like neon yellow for call-to-action buttons.",
+      "The UI design follows standard iOS patterns."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "The layout uses high-contrast colors like neon yellow for call-to-action buttons."
+    ],
+    "content_blocks": [
+      "Pliability",
+      "Daily Sessions",
+      "Upper Body",
+      "Adaptive",
+      "Breathing"
+    ],
+    "visual_keywords": [
+      "Modern mobile application dark mode interface",
+      "black",
+      "yellow",
+      "white",
+      "The layout uses high-contrast colors like neon yellow for call-to-action buttons.",
+      "The UI design follows standard iOS patterns."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile application dark mode interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_home_action_07"
+}

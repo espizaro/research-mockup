@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Equinox+",
+    "platform": "ios",
+    "file_path": "screens/auth-register-progressive/06 - Equinox+.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:17.208Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding / user profile configuration screen.",
+    "primary_flow": "auth-register-progressive",
+    "ux_intent": "Collect user health data for fitness tracking.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Profile",
+      "Dark Mode",
+      "Minimalist",
+      "No decorative illustrations or imagery present; relies on clean typography and structured form layout.",
+      "Strong emphasis on utility and data entry.",
+      "Mobile standard status bar at the top.",
+      "Footer attribution indicates this is a screenshot from Mobbin, not the app itself."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Equinox+",
+      "Mobbin",
+      "Next Step"
+    ],
+    "visual_keywords": [
+      "Modern dark mode, minimalist, high contrast, clean typography, mobile-native UI design.",
+      "black",
+      "dark gray",
+      "white",
+      "No decorative illustrations or imagery present; relies on clean typography and structured form layout.",
+      "Strong emphasis on utility and data entry.",
+      "Mobile standard status bar at the top.",
+      "Footer attribution indicates this is a screenshot from Mobbin, not the app itself."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern dark mode, minimalist, high contrast, clean typography, mobile-native UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_progressive_06"
+}

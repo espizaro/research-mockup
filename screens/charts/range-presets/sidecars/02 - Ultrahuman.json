@@ -1,0 +1,231 @@
+{
+  "image": "02 - Ultrahuman.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen from the Ultrahuman app, displaying health metrics including a stress rhythm score, a caffeine restriction window, and quick action buttons.",
+    "ocr": {
+      "full_text": "9:41\nSAT 24 MAY\nTODAY\nSTRESS RHYTHM\n86\nRelaxed\nStressed\n7 PM\n8 PM\n9 PM\n10 PM\n11 PM\n12 AM\n1 AM\n2 AM\nCAFFEINE WINDOW\n7:10 AM\n12:00 PM\n3:30 PM\n7:00 PM\n11:00 PM\nCaffeine Restriction Window\nAvoiding stimulants such as caffeine now will improve\nyour chances of a restful, deep sleep.\nQuick start\nBreathwork\nWorkout\n+\nZones\nRING\nMETABOLISM\nZONES\nDISCOVER\nPROFILE\nUltrahuman\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "SAT 24 MAY"
+        },
+        {
+          "text": "TODAY"
+        },
+        {
+          "text": "STRESS RHYTHM"
+        },
+        {
+          "text": "86"
+        },
+        {
+          "text": "Relaxed"
+        },
+        {
+          "text": "Stressed"
+        },
+        {
+          "text": "7 PM"
+        },
+        {
+          "text": "8 PM"
+        },
+        {
+          "text": "9 PM"
+        },
+        {
+          "text": "10 PM"
+        },
+        {
+          "text": "11 PM"
+        },
+        {
+          "text": "12 AM"
+        },
+        {
+          "text": "1 AM"
+        },
+        {
+          "text": "2 AM"
+        },
+        {
+          "text": "CAFFEINE WINDOW"
+        },
+        {
+          "text": "7:10 AM"
+        },
+        {
+          "text": "12:00 PM"
+        },
+        {
+          "text": "3:30 PM"
+        },
+        {
+          "text": "7:00 PM"
+        },
+        {
+          "text": "11:00 PM"
+        },
+        {
+          "text": "Caffeine Restriction Window"
+        },
+        {
+          "text": "Avoiding stimulants such as caffeine now will improve"
+        },
+        {
+          "text": "your chances of a restful, deep sleep."
+        },
+        {
+          "text": "Quick start"
+        },
+        {
+          "text": "Breathwork"
+        },
+        {
+          "text": "Workout"
+        },
+        {
+          "text": "Zones"
+        },
+        {
+          "text": "RING"
+        },
+        {
+          "text": "METABOLISM"
+        },
+        {
+          "text": "ZONES"
+        },
+        {
+          "text": "DISCOVER"
+        },
+        {
+          "text": "PROFILE"
+        },
+        {
+          "text": "Ultrahuman"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "SAT 24 MAY TODAY"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "STRESS RHYTHM 86 Relaxed"
+        },
+        {
+          "type": "chart",
+          "reading_order": 3,
+          "text": "Time scale chart from 7 PM to 2 AM"
+        },
+        {
+          "type": "title",
+          "reading_order": 4,
+          "text": "CAFFEINE WINDOW"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Caffeine Restriction Window: Avoiding stimulants such as caffeine now will improve your chances of a restful, deep sleep."
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Quick start: Breathwork, Workout"
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "Navigation bar: RING, METABOLISM, ZONES, DISCOVER, PROFILE"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Health and wellness dashboard mobile application",
+      "intent": "To track physiological rhythms and provide health guidance",
+      "entities": [
+        {
+          "name": "Ultrahuman",
+          "type": "Brand"
+        },
+        {
+          "name": "Stress Rhythm",
+          "type": "Health Metric"
+        },
+        {
+          "name": "Caffeine Restriction Window",
+          "type": "Health Advice"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Ultrahuman",
+          "predicate": "displays",
+          "object": "Stress Rhythm"
+        },
+        {
+          "subject": "Caffeine Restriction Window",
+          "predicate": "provides",
+          "object": "Health Advice"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "dark grey",
+        "white",
+        "red"
+      ],
+      "style": "Modern dark-mode UI design",
+      "notes": [
+        "Clean layout",
+        "High contrast text",
+        "Use of rounded cards"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:22:14.093Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.204,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1174,
+      "totalTokenCount": 2401,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.205
+      }
+    ],
+    "warnings": []
+  }
+}

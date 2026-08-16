@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Thrive Market",
+    "platform": "ios",
+    "file_path": "screens/password-recovery/08 - Thrive Market.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:27.577Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile password recovery screen.",
+    "primary_flow": "password-recovery",
+    "ux_intent": "User is attempting to recover their account access by entering their email address.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustration present.",
+      "High contrast text on white background.",
+      "Standard iOS status bar at the top.",
+      "Bottom navigation branding indicates this is a platform-specific screenshot for a library."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Bottom navigation branding indicates this is a platform-specific screenshot for a library."
+    ],
+    "content_blocks": [
+      "Email input",
+      "Send email",
+      "Realtor.com",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, mobile-first design.",
+      "white",
+      "black",
+      "No hero illustration present.",
+      "High contrast text on white background.",
+      "Standard iOS status bar at the top.",
+      "Bottom navigation branding indicates this is a platform-specific screenshot for a library."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, mobile-first design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_password_recovery_08"
+}

@@ -1,0 +1,149 @@
+{
+  "image": "06 - Spotify.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the 'Your Updates' screen from the Spotify mobile app. It shows a list of recent activity notifications, including concert announcements, a friend accepting a Blend invite, and ticket sales. An 'Options' bottom sheet is overlaid at the bottom with a 'Mark all as read' button.",
+    "ocr": {
+      "full_text": "9:41 Your Updates New The Rare Occasions show just announced near you. Save the date! 9h Sam accepted your Blend invite 14h Tickets on sale for Myles Smith in Inglewood on Sat 17 Jan 15 Dec Say hello to your updates. Check here for news on your followers, playlists, events and more 10 Dec Options Mark all as read Spotify curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Your Updates",
+          "language": "en"
+        },
+        {
+          "text": "New The Rare Occasions show just announced near you. Save the date! 9h",
+          "language": "en"
+        },
+        {
+          "text": "Sam accepted your Blend invite 14h",
+          "language": "en"
+        },
+        {
+          "text": "Tickets on sale for Myles Smith in Inglewood on Sat 17 Jan 15 Dec",
+          "language": "en"
+        },
+        {
+          "text": "Say hello to your updates. Check here for news on your followers, playlists, events and more 10 Dec",
+          "language": "en"
+        },
+        {
+          "text": "Options",
+          "language": "en"
+        },
+        {
+          "text": "Mark all as read",
+          "language": "en"
+        },
+        {
+          "text": "Spotify",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Your Updates"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "New The Rare Occasions show just announced near you. Save the date! 9h\nSam accepted your Blend invite 14h\nTickets on sale for Myles Smith in Inglewood on Sat 17 Jan 15 Dec\nSay hello to your updates. Check here for news on your followers, playlists, events and more 10 Dec"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Options\nMark all as read"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app notification list screen (Spotify)",
+      "intent": "View notifications and manage 'mark all as read' setting",
+      "entities": [
+        {
+          "name": "The Rare Occasions",
+          "type": "Artist"
+        },
+        {
+          "name": "Sam",
+          "type": "User/Friend"
+        },
+        {
+          "name": "Myles Smith",
+          "type": "Artist"
+        },
+        {
+          "name": "Spotify",
+          "type": "Service"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam",
+          "predicate": "accepted",
+          "object": "Blend invite"
+        },
+        {
+          "subject": "Myles Smith",
+          "predicate": "ticket sale location",
+          "object": "Inglewood"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "dark gray",
+        "white"
+      ],
+      "style": "Dark mode mobile UI",
+      "notes": [
+        "The bottom sheet 'Options' has a slight translucency",
+        "There is a small blue dot next to several notifications indicating they are unread",
+        "The top navigation bar contains a back arrow and an ellipsis menu"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:20:58.020Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.969,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1012,
+      "totalTokenCount": 2239,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.972
+      }
+    ],
+    "warnings": []
+  }
+}

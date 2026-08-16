@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Lapse",
+    "platform": "ios",
+    "file_path": "screens/auth-register-success/06 - Lapse.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:23.805Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding screen",
+    "primary_flow": "auth-register-success",
+    "ux_intent": "Welcome the user to the platform after successful account setup.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Profile",
+      "Dark Mode",
+      "Minimalist",
+      "Hero image is a realistic photographic portrait in a circular mask.",
+      "Typography uses a mix of modern sans-serif for UI elements and elegant serif for the welcome message.",
+      "The aesthetic is clean, sophisticated, and user-centric."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Lapse",
+      "Alexsmith.mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, high-contrast dark mode UI",
+      "black",
+      "white",
+      "grey",
+      "Hero image is a realistic photographic portrait in a circular mask.",
+      "Typography uses a mix of modern sans-serif for UI elements and elegant serif for the welcome message.",
+      "The aesthetic is clean, sophisticated, and user-centric."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, high-contrast dark mode UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_success_06"
+}

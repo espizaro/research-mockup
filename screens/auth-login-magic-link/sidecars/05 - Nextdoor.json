@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Nextdoor",
+    "platform": "ios",
+    "file_path": "screens/auth-login-magic-link/05 - Nextdoor.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:27.676Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app account verification screen.",
+    "primary_flow": "auth-login-magic-link",
+    "ux_intent": "User is authenticating their account by entering a one-time code.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "The screen lacks any decorative illustrations, focusing entirely on utility and form completion.",
+      "The CTA is a high-contrast green button, consistent with standard UI practices for primary actions.",
+      "The design uses a clean layout with ample whitespace."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The CTA is a high-contrast green button, consistent with standard UI practices for primary actions."
+    ],
+    "content_blocks": [
+      "Nextdoor",
+      "Login code",
+      "Contact Support"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, mobile-native UI design.",
+      "white",
+      "dark blue",
+      "green",
+      "The screen lacks any decorative illustrations, focusing entirely on utility and form completion.",
+      "The CTA is a high-contrast green button, consistent with standard UI practices for primary actions.",
+      "The design uses a clean layout with ample whitespace."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, mobile-native UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_magic_link_05"
+}

@@ -1,0 +1,155 @@
+{
+  "image": "05 - Notion.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a Notion page titled 'SLMobbin — Creative Strategy Framework', showing a workspace sidebar, the main document content, and a right-hand side analytics panel for page views.",
+    "ocr": {
+      "full_text": "samlee's Space. Home. Trial 22 days left. Recents. SLMobbin — Creative Strategy. Paragraph clarity check. New page. No pages inside. Welcome to Notion. Favorites. SLMobbin — Creative Strategy. Agents Beta. New agent. Private. SLMobbin — Creative Strategy. Sidekick AI Instructions. Check similar app color sche. Welcome to Notion. Teamspaces. samlee's Space HQ. SLMobbin — Creative Strategy. Add new. Invite members. Collaborate with your team. New chat. samlee's Space HQ. SLMobbin — Creative Strategy Fra. Verified. SLMobbin — Creative Strategy Framework. samlee Apr 10. Document to be refined by @alexsmith. Add a comment. SLMobbin's Creative Strategy sets the north star for how we show up in the world: the ideas we lead with, the words we choose, and the visuals we ship. It defines our creative direction, tone of voice, and visual guidelines so every touchpoint feels unmistakably SLMobbin—confident, design-forward, and a little bit edgy. Use this document to align internal team members and collaborators on how we communicate our brand and client work across social media, campaigns, and content formats, with bold storytelling and visual clarity as the baseline. 1. Purpose. This document defines the creative foundation that guides all outputs of SLMobbin. It ensures consistency, clarity, and excellence across all touchpoints—from product. Updates. Analytics. Views (10 total). Last 28 Days. On Apr 14, 2026. 7 total views. 2 unique views. Viewers. Show your view history. Page editors can see your view history for this page. Learn more. samlee 19 hours ago. alexsmith 1 day ago. Editors. Created by samlee 5 days ago. Recently edited by samlee 19 hours ago. alexsmith 1 day ago. Settings. Learn more. Notion. curated by Mobbin.",
+      "lines": [
+        {
+          "text": "samlee's Space"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Trial 22 days left"
+        },
+        {
+          "text": "SLMobbin — Creative Strategy Framework"
+        },
+        {
+          "text": "SLMobbin's Creative Strategy sets the north star for how we show up in the world: the ideas we lead with, the words we choose, and the visuals we ship."
+        },
+        {
+          "text": "1. Purpose"
+        },
+        {
+          "text": "This document defines the creative foundation that guides all outputs of SLMobbin."
+        },
+        {
+          "text": "Views (10 total)"
+        },
+        {
+          "text": "Last 28 Days"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "other",
+          "reading_order": 1,
+          "text": "Sidebar with navigation and user workspace."
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "SLMobbin — Creative Strategy Framework"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "SLMobbin's Creative Strategy sets the north star for how we show up in the world: the ideas we lead with, the words we choose, and the visuals we ship. It defines our creative direction, tone of voice, and visual guidelines so every touchpoint feels unmistakably SLMobbin—confident, design-forward, and a little bit edgy. Use this document to align internal team members and collaborators on how we communicate our brand and client work across social media, campaigns, and content formats, with bold storytelling and visual clarity as the baseline."
+        },
+        {
+          "type": "title",
+          "reading_order": 4,
+          "text": "1. Purpose"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "This document defines the creative foundation that guides all outputs of SLMobbin. It ensures consistency, clarity, and excellence across all touchpoints—from product"
+        },
+        {
+          "type": "chart",
+          "reading_order": 6,
+          "text": "Analytics graph showing 10 total views over time."
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "Notion and Mobbin branding at the bottom."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A digital document workspace (Notion) displaying a 'Creative Strategy' document.",
+      "intent": "To present a collaborative strategy document and its associated analytics.",
+      "entities": [
+        {
+          "name": "SLMobbin",
+          "type": "Brand/Organization"
+        },
+        {
+          "name": "samlee",
+          "type": "User"
+        },
+        {
+          "name": "alexsmith",
+          "type": "User"
+        },
+        {
+          "name": "Notion",
+          "type": "Software Platform"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "samlee",
+          "predicate": "is member of",
+          "object": "samlee's Space"
+        },
+        {
+          "subject": "SLMobbin",
+          "predicate": "created",
+          "object": "Creative Strategy Framework"
+        },
+        {
+          "subject": "alexsmith",
+          "predicate": "is editor of",
+          "object": "Creative Strategy Framework"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "gray"
+      ],
+      "style": "UI/UX interface, professional, minimalist document layout."
+    },
+    "uncertainty": [
+      "The full text of the chart tooltip might be slightly obscured by screen scale.",
+      "The exact date on the graph hover tooltip says Apr 14, 2026, which is in the future."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:07.285Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.034,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1341,
+      "totalTokenCount": 2548,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

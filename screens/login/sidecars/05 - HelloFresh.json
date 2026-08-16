@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "HelloFresh",
+    "platform": "ios",
+    "file_path": "screens/login/05 - HelloFresh.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:51.743Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen for the ZigZag mobile application.",
+    "primary_flow": "login",
+    "ux_intent": "Allow user to sign in to their existing account via email.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "The UI uses a high-contrast black text on a white background with subtle grey for inactive elements. No hero illustrations are present. It is a strictly functional, utility-focused interface."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "ZigZag",
+      "Email input field",
+      "Password input field",
+      "Login button",
+      "Account recovery links"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile UI; standard iOS look and feel.",
+      "white",
+      "light-grey",
+      "black",
+      "The UI uses a high-contrast black text on a white background with subtle grey for inactive elements. No hero illustrations are present. It is a strictly functional, utility-focused interface."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile UI; standard iOS look and feel."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_05"
+}

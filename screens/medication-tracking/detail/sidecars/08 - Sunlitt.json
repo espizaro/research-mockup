@@ -1,0 +1,163 @@
+{
+  "image": "08 - Sunlitt.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app subscription management screen. It shows the user's active 'Sunlitt PRO – Yearly' subscription, along with options to manage it, request a refund, redeem a code, or purchase a lifetime subscription.",
+    "ocr": {
+      "full_text": "9:41\nSettings\nSubscription\nYour Subscription\nSunlitt PRO – Yearly\nS$ 14.98 /year\nUntil 8 September 2025\nManage Subscription\nRefund\nRedeem Code\nSunlitt PRO – Lifetime\nSunlitt\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Settings"
+        },
+        {
+          "text": "Subscription"
+        },
+        {
+          "text": "Your Subscription"
+        },
+        {
+          "text": "Sunlitt PRO – Yearly"
+        },
+        {
+          "text": "S$ 14.98 /year"
+        },
+        {
+          "text": "Until 8 September 2025"
+        },
+        {
+          "text": "Manage Subscription"
+        },
+        {
+          "text": "Refund"
+        },
+        {
+          "text": "Redeem Code"
+        },
+        {
+          "text": "Sunlitt PRO – Lifetime"
+        },
+        {
+          "text": "Sunlitt"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Subscription"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Your Subscription"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Sunlitt PRO – Yearly S$ 14.98 /year Until 8 September 2025"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Manage Subscription"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Refund"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Redeem Code"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Sunlitt PRO – Lifetime"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App Subscription management screen.",
+      "intent": "User interface for managing current mobile app subscription plans.",
+      "entities": [
+        {
+          "name": "Sunlitt",
+          "type": "Application Name"
+        },
+        {
+          "name": "Sunlitt PRO",
+          "type": "Service Plan"
+        },
+        {
+          "name": "S$ 14.98",
+          "type": "Price"
+        },
+        {
+          "name": "8 September 2025",
+          "type": "Date"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Curator"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sunlitt PRO",
+          "predicate": "has_price",
+          "object": "S$ 14.98 /year"
+        },
+        {
+          "subject": "Sunlitt PRO",
+          "predicate": "expires_on",
+          "object": "8 September 2025"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "dark gray",
+        "orange"
+      ],
+      "style": "Dark mode mobile UI",
+      "notes": [
+        "The UI consists of cards against a dark background.",
+        "The app branding logo is orange."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:28.919Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.812,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 832,
+      "totalTokenCount": 2059,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "image": "01 - Alma.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile app interface screen showing a user score comparison and a modal window for selecting emojis for a user named Jane Smith.",
+    "ocr": {
+      "full_text": "9:41 59 You 58 58 Jane Smith Custom Alma curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "59"
+        },
+        {
+          "text": "You"
+        },
+        {
+          "text": "58"
+        },
+        {
+          "text": "58"
+        },
+        {
+          "text": "Jane Smith"
+        },
+        {
+          "text": "Custom"
+        },
+        {
+          "text": "Alma"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "9:41"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "59 You"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "58"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "58 Jane Smith"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Grid of emojis"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Custom"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Alma curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI showing social comparison and emoji reaction picker.",
+      "intent": "User is selecting an emoji to react to or express status for Jane Smith.",
+      "entities": [
+        {
+          "name": "Jane Smith",
+          "type": "User"
+        },
+        {
+          "name": "Alma",
+          "type": "Application Name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Jane Smith",
+          "predicate": "has score",
+          "object": "58"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "olive green",
+        "brown"
+      ],
+      "style": "Minimalist mobile app interface",
+      "notes": [
+        "Modal overlay in center",
+        "Circular progress indicators for scores",
+        "Grid layout for emojis"
+      ]
+    },
+    "uncertainty": [
+      "The specific functionality of the 59 and 58 numbers is inferred as a score or streak.",
+      "The function of the 'curated by Mobbin' text is a footer attribution."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:18:53.643Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.523,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 615,
+      "totalTokenCount": 1842,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.528
+      }
+    ],
+    "warnings": []
+  }
+}

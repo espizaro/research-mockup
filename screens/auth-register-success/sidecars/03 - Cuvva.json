@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Cuvva",
+    "platform": "ios",
+    "file_path": "screens/auth-register-success/03 - Cuvva.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:20.647Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app success or welcome screen.",
+    "primary_flow": "auth-register-success",
+    "ux_intent": "To confirm the user has successfully registered or logged into the application and to welcome them.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "The illustration is a central character-based mascot blowing a party horn, used to reinforce the celebratory tone of the message.",
+      "The layout is extremely clean with a high focus on center-aligned hierarchy.",
+      "The design uses a clean sans-serif typeface.",
+      "The aesthetic is playful and friendly, likely intended to reduce user friction after a sign-up process."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Cuvva",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat vector illustration",
+      "white",
+      "yellow",
+      "pink",
+      "black",
+      "The illustration is a central character-based mascot blowing a party horn, used to reinforce the celebratory tone of the message.",
+      "The layout is extremely clean with a high focus on center-aligned hierarchy.",
+      "The design uses a clean sans-serif typeface.",
+      "The aesthetic is playful and friendly, likely intended to reduce user friction after a sign-up process."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat vector illustration"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_success_03"
+}

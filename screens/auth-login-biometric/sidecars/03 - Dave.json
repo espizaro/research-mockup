@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Dave",
+    "platform": "ios",
+    "file_path": "screens/auth-login-biometric/03 - Dave.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:38.871Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application login authentication screen.",
+    "primary_flow": "auth-login-biometric",
+    "ux_intent": "To prompt the user to enable Face ID for convenient account access while providing a fallback authentication method.",
+    "ux_patterns": [
+      "Login",
+      "Minimalist",
+      "The Face ID icon is a hero element placed centrally to provide immediate visual context.",
+      "The use of high-contrast green for the primary button effectively draws attention to the preferred action.",
+      "The hierarchy is clear: Icon -> Title -> Primary Action -> Secondary Action."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The use of high-contrast green for the primary button effectively draws attention to the preferred action.",
+      "The hierarchy is clear: Icon -> Title -> Primary Action -> Secondary Action."
+    ],
+    "content_blocks": [
+      "Face ID",
+      "Yes, sign in with Face ID",
+      "Use mobile unlock code"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, mobile-native UI design.",
+      "green",
+      "white",
+      "The Face ID icon is a hero element placed centrally to provide immediate visual context.",
+      "The use of high-contrast green for the primary button effectively draws attention to the preferred action.",
+      "The hierarchy is clear: Icon -> Title -> Primary Action -> Secondary Action."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, mobile-native UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_biometric_03"
+}

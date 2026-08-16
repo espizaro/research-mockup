@@ -1,0 +1,173 @@
+{
+  "image": "04 - Pillow.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen from the 'Pillow' application, used for medical or health data collection. It displays a list of health conditions and asks the user to 'Select all that apply'.",
+    "ocr": {
+      "full_text": "Select all that apply. 9.41 Sleep apnea High blood pressure Narcolepsy Atrial fibrillation Restless leg syndrome Diabetes Chronic pain Chronic fatigue syndrome Anxiety disorder Major depressive disorder Congestive heart failure Pillow curated by Mobbin",
+      "lines": [
+        {
+          "text": "Select all that apply."
+        },
+        {
+          "text": "9.41"
+        },
+        {
+          "text": "Sleep apnea"
+        },
+        {
+          "text": "High blood pressure"
+        },
+        {
+          "text": "Narcolepsy"
+        },
+        {
+          "text": "Atrial fibrillation"
+        },
+        {
+          "text": "Restless leg syndrome"
+        },
+        {
+          "text": "Diabetes"
+        },
+        {
+          "text": "Chronic pain"
+        },
+        {
+          "text": "Chronic fatigue syndrome"
+        },
+        {
+          "text": "Anxiety disorder"
+        },
+        {
+          "text": "Major depressive disorder"
+        },
+        {
+          "text": "Congestive heart failure"
+        },
+        {
+          "text": "Pillow"
+        },
+        {
+          "text": "curated by"
+        },
+        {
+          "text": "Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Select all that apply."
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Sleep apnea\nHigh blood pressure\nNarcolepsy\nAtrial fibrillation\nRestless leg syndrome\nDiabetes\nChronic pain\nChronic fatigue syndrome\nAnxiety disorder\nMajor depressive disorder\nCongestive heart failure"
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Pillow curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile interface screen for medical survey.",
+      "intent": "To allow a user to select existing health conditions from a list.",
+      "entities": [
+        {
+          "name": "Sleep apnea",
+          "type": "Medical Condition"
+        },
+        {
+          "name": "High blood pressure",
+          "type": "Medical Condition"
+        },
+        {
+          "name": "Narcolepsy",
+          "type": "Medical Condition"
+        },
+        {
+          "name": "Atrial fibrillation",
+          "type": "Medical Condition"
+        },
+        {
+          "name": "Restless leg syndrome",
+          "type": "Medical Condition"
+        },
+        {
+          "name": "Diabetes",
+          "type": "Medical Condition"
+        },
+        {
+          "name": "Chronic pain",
+          "type": "Medical Condition"
+        },
+        {
+          "name": "Chronic fatigue syndrome",
+          "type": "Medical Condition"
+        },
+        {
+          "name": "Anxiety disorder",
+          "type": "Medical Condition"
+        },
+        {
+          "name": "Major depressive disorder",
+          "type": "Medical Condition"
+        },
+        {
+          "name": "Congestive heart failure",
+          "type": "Medical Condition"
+        },
+        {
+          "name": "Pillow",
+          "type": "App Name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "is asked to select",
+          "object": "Medical Conditions"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "deep purple"
+      ],
+      "style": "Minimalist mobile app UI, dark mode",
+      "notes": [
+        "The UI uses a dark purple theme",
+        "Includes navigation icons (back and forward)"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:52.787Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.967,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 841,
+      "totalTokenCount": 2068,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

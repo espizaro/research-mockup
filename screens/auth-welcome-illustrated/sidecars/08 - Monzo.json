@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Monzo",
+    "platform": "ios",
+    "file_path": "screens/auth-welcome-illustrated/08 - Monzo.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:33.493Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Personal finance app mobile interface showing a 'Trends' empty state screen encouraging the user to configure a new spending goal.",
+    "primary_flow": "auth-welcome-illustrated",
+    "ux_intent": "Onboarding/Empty state education to drive feature adoption for 'spending targets'.",
+    "ux_patterns": [
+      "Form",
+      "Empty State",
+      "Onboarding",
+      "Minimalist",
+      "The illustration is a flat vector style with a rocket icon, serving as a 'hero' graphic above the main content to provide visual interest and reinforce the 'reaching goals' message.",
+      "The color palette is light and airy, typical for financial apps aiming to reduce user anxiety.",
+      "High contrast text ensures readability.",
+      "Bottom navigation is clear and consistent with common mobile patterns."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Bottom navigation is clear and consistent with common mobile patterns."
+    ],
+    "content_blocks": [
+      "Monzo",
+      "Mobbin",
+      "Get started"
+    ],
+    "visual_keywords": [
+      "Clean, modern, minimalist fintech UI. Uses soft gradient backgrounds and flat, vector-based illustration style.",
+      "hex f0f4f8",
+      "hex ffffff",
+      "hex 4a8fb3",
+      "hex ed6b5b",
+      "hex a9f552",
+      "The illustration is a flat vector style with a rocket icon, serving as a 'hero' graphic above the main content to provide visual interest and reinforce the 'reaching goals' message.",
+      "The color palette is light and airy, typical for financial apps aiming to reduce user anxiety.",
+      "High contrast text ensures readability.",
+      "Bottom navigation is clear and consistent with common mobile patterns."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern, minimalist fintech UI. Uses soft gradient backgrounds and flat, vector-based illustration style."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_welcome_illustrated_08"
+}

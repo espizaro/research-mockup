@@ -1,0 +1,125 @@
+{
+  "image": "03 - NGL.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface screen showing a rating popup for the NGL app, asking the user to rate their experience with five stars.",
+    "ocr": {
+      "full_text": "9:41 send me anonymous messages! We love to see you using NGL so much How would you rate your experience so far? Send my rating NGL curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "send me anonymous messages!"
+        },
+        {
+          "text": "We love to see you using NGL so much"
+        },
+        {
+          "text": "How would you rate your experience so far?"
+        },
+        {
+          "text": "Send my rating"
+        },
+        {
+          "text": "NGL"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "send me anonymous messages!"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "We love to see you using NGL so much"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "How would you rate your experience so far?"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Send my rating"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI screenshot",
+      "intent": "Prompting user to provide a feedback rating for the app",
+      "entities": [
+        {
+          "name": "NGL",
+          "type": "Application",
+          "evidence": "Mentioned in text"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization",
+          "evidence": "Curator credit"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "NGL",
+          "predicate": "requests",
+          "object": "rating"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue",
+        "purple"
+      ],
+      "style": "Mobile UI design, minimal, clean, modern popup",
+      "notes": [
+        "Popup modal overlay",
+        "Star icon rating scale present",
+        "Gradient background in main view",
+        "Fixed footer with curation branding"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:19:05.213Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.129,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 647,
+      "totalTokenCount": 1874,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.131
+      }
+    ],
+    "warnings": []
+  }
+}

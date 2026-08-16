@@ -1,0 +1,198 @@
+{
+  "image": "06 - Square Go.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen showing a list of hair salon or stylist listings based on a 'Haircut' search query, with a 'Map View' overlay button and bottom navigation.",
+    "ocr": {
+      "full_text": "9:41\nHaircut - Map area\nGuido Avallone HAIR\nMen's haircut, Haircut, Child hc,\nand Bang Trim\n5.0 - Wed, August 30 -\n8,468 mi\nShayla Rae Hair\nWomen's Haircut, Bang Trim,\nCellophane & Haircut Style, You...\n5.0 - Next Thursday -\n8,468 mi\nSangNgStylist\nMen's Haircut and\nWomen's Haircut\nSaturday 10:30pm -\n8,468 mi\nMonica Andrea\nSalon Cozzolino\nMap View\nSquare Go\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Haircut - Map area"
+        },
+        {
+          "text": "Guido Avallone HAIR"
+        },
+        {
+          "text": "Men's haircut, Haircut, Child hc,"
+        },
+        {
+          "text": "and Bang Trim"
+        },
+        {
+          "text": "5.0 - Wed, August 30 -"
+        },
+        {
+          "text": "8,468 mi"
+        },
+        {
+          "text": "Shayla Rae Hair"
+        },
+        {
+          "text": "Women's Haircut, Bang Trim,"
+        },
+        {
+          "text": "Cellophane & Haircut Style, You..."
+        },
+        {
+          "text": "5.0 - Next Thursday -"
+        },
+        {
+          "text": "8,468 mi"
+        },
+        {
+          "text": "SangNgStylist"
+        },
+        {
+          "text": "Men's Haircut and"
+        },
+        {
+          "text": "Women's Haircut"
+        },
+        {
+          "text": "Saturday 10:30pm -"
+        },
+        {
+          "text": "8,468 mi"
+        },
+        {
+          "text": "Monica Andrea"
+        },
+        {
+          "text": "Salon Cozzolino"
+        },
+        {
+          "text": "Map View"
+        },
+        {
+          "text": "Square Go"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Haircut - Map area"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Guido Avallone HAIR, Men's haircut, Haircut, Child hc, and Bang Trim, 5.0, Wed, August 30, 8,468 mi"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Shayla Rae Hair, Women's Haircut, Bang Trim, Cellophane & Haircut Style, You..., 5.0, Next Thursday, 8,468 mi"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "SangNgStylist, Men's Haircut and Women's Haircut, Saturday 10:30pm, 8,468 mi"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Map View"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "Square Go, curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface for a local service discovery platform.",
+      "intent": "To help the user find and book hair salon services.",
+      "entities": [
+        {
+          "name": "Guido Avallone HAIR",
+          "type": "Business"
+        },
+        {
+          "name": "Shayla Rae Hair",
+          "type": "Business"
+        },
+        {
+          "name": "SangNgStylist",
+          "type": "Business"
+        },
+        {
+          "name": "Monica Andrea",
+          "type": "Business"
+        },
+        {
+          "name": "Square Go",
+          "type": "Application Name"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Guido Avallone HAIR",
+          "predicate": "offers",
+          "object": "Men's haircut"
+        },
+        {
+          "subject": "Shayla Rae Hair",
+          "predicate": "offers",
+          "object": "Women's Haircut"
+        },
+        {
+          "subject": "SangNgStylist",
+          "predicate": "offers",
+          "object": "Men's Haircut and Women's Haircut"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "dark blue",
+        "red"
+      ],
+      "style": "Modern mobile application interface",
+      "notes": [
+        "Contains icons for navigation",
+        "Uses a floating button for 'Map View'",
+        "List format with ratings and distance info"
+      ]
+    },
+    "uncertainty": [
+      "The cut-off text 'You...' under Shayla Rae Hair is incomplete."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:19.256Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.258,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1125,
+      "totalTokenCount": 2352,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

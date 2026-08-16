@@ -1,0 +1,224 @@
+{
+  "image": "01 - Zocdoc.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for a health management application showing a 'My health' screen with sections for medical history, insurance, and a 'Well Guide' section tracking preventative care visits.",
+    "ocr": {
+      "full_text": "9:41 My health Medical history Medications, vaccinations, allergies Insurance Medical, vision, dental Well Guide See all Preventative care 4/4 Visits complete Your recommendations Annual checkup Nov 2025 Skin check Apr 2026 Teeth cleaning Dec 2025 Eye exam Sep 2024 Home Appointments Insurance My health Zocdoc curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "My health",
+          "language": "en"
+        },
+        {
+          "text": "Medical history",
+          "language": "en"
+        },
+        {
+          "text": "Medications, vaccinations, allergies",
+          "language": "en"
+        },
+        {
+          "text": "Insurance",
+          "language": "en"
+        },
+        {
+          "text": "Medical, vision, dental",
+          "language": "en"
+        },
+        {
+          "text": "Well Guide",
+          "language": "en"
+        },
+        {
+          "text": "See all",
+          "language": "en"
+        },
+        {
+          "text": "Preventative care",
+          "language": "en"
+        },
+        {
+          "text": "4/4",
+          "language": "en"
+        },
+        {
+          "text": "Visits complete",
+          "language": "en"
+        },
+        {
+          "text": "Your recommendations",
+          "language": "en"
+        },
+        {
+          "text": "Annual checkup",
+          "language": "en"
+        },
+        {
+          "text": "Nov 2025",
+          "language": "en"
+        },
+        {
+          "text": "Skin check",
+          "language": "en"
+        },
+        {
+          "text": "Apr 2026",
+          "language": "en"
+        },
+        {
+          "text": "Teeth cleaning",
+          "language": "en"
+        },
+        {
+          "text": "Dec 2025",
+          "language": "en"
+        },
+        {
+          "text": "Eye exam",
+          "language": "en"
+        },
+        {
+          "text": "Sep 2024",
+          "language": "en"
+        },
+        {
+          "text": "Home",
+          "language": "en"
+        },
+        {
+          "text": "Appointments",
+          "language": "en"
+        },
+        {
+          "text": "Insurance",
+          "language": "en"
+        },
+        {
+          "text": "My health",
+          "language": "en"
+        },
+        {
+          "text": "Zocdoc",
+          "language": "en"
+        },
+        {
+          "text": "curated by",
+          "language": "en"
+        },
+        {
+          "text": "Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "My health"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Medical history\nMedications, vaccinations, allergies"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Insurance\nMedical, vision, dental"
+        },
+        {
+          "type": "title",
+          "reading_order": 4,
+          "text": "Well Guide\nSee all"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Preventative care\n4/4\nVisits complete"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Your recommendations\nAnnual checkup - Nov 2025\nSkin check - Apr 2026\nTeeth cleaning - Dec 2025\nEye exam - Sep 2024"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface (health profile screen)",
+      "intent": "View medical history, insurance status, and health preventative checkup schedule.",
+      "entities": [
+        {
+          "name": "Medical history",
+          "type": "Category"
+        },
+        {
+          "name": "Insurance",
+          "type": "Category"
+        },
+        {
+          "name": "Well Guide",
+          "type": "Feature"
+        },
+        {
+          "name": "Zocdoc",
+          "type": "Organization"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Well Guide",
+          "predicate": "contains",
+          "object": "Preventative care tracker"
+        },
+        {
+          "subject": "User",
+          "predicate": "has",
+          "object": "Recommendations"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "yellow",
+        "gray"
+      ],
+      "style": "Mobile app UI, clean, minimalist, flat design",
+      "notes": [
+        "Uses a bottom navigation bar",
+        "Includes a progress indicator for health visits",
+        "Checkmarks indicate completed or scheduled status"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:03.239Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.56,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1137,
+      "totalTokenCount": 2364,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

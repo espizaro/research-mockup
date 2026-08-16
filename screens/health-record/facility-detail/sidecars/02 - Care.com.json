@@ -1,0 +1,299 @@
+{
+  "image": "02 - Care.com.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A screen capture of the Care.com website showing a daycare search interface with a modal window displaying 'Center Highlights' for a facility. The modal details the center's type, philosophy, services, qualifications, and credentials.",
+    "ocr": {
+      "full_text": "Care.com\nHide Filters\nDaycare centers\nLocation\n94025\nFilters\nClear\nDistance\n10 miles\nWho needs care?\nDate of birth (MM/YYYY)\n01/2022\nAdd another child\nTop daycare ma\nDaycares fill up f\nChoose the ones y\n5%\n$100\nCare.com\nAbout\nCenter Highlights\nCost\nLicense\nReviews\nCenter Highlights\nType\nPreschool (or nursery school or pre-k\nServices\nWilling to care for twins/multiples\nSummer care\nPick up/drop off\nCredentials\nSpecial needs care\nPhilosophy\nAcademic\nOutdoor/nature\nDevelopmental (play-based)\nFaith-based\nQualifications\nCpr training\nCertified teacher\nEarly child development coursework\nEarly childhood education (ece)\nFirst aid training\nCost\nAge Range\nMonthly R\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "Care.com",
+          "language": "en"
+        },
+        {
+          "text": "Hide Filters",
+          "language": "en"
+        },
+        {
+          "text": "Daycare centers",
+          "language": "en"
+        },
+        {
+          "text": "Location",
+          "language": "en"
+        },
+        {
+          "text": "94025",
+          "language": "en"
+        },
+        {
+          "text": "Filters",
+          "language": "en"
+        },
+        {
+          "text": "Clear",
+          "language": "en"
+        },
+        {
+          "text": "Distance",
+          "language": "en"
+        },
+        {
+          "text": "10 miles",
+          "language": "en"
+        },
+        {
+          "text": "Who needs care?",
+          "language": "en"
+        },
+        {
+          "text": "Date of birth (MM/YYYY)",
+          "language": "en"
+        },
+        {
+          "text": "01/2022",
+          "language": "en"
+        },
+        {
+          "text": "Add another child",
+          "language": "en"
+        },
+        {
+          "text": "Top daycare ma",
+          "language": "en"
+        },
+        {
+          "text": "Daycares fill up f",
+          "language": "en"
+        },
+        {
+          "text": "Choose the ones y",
+          "language": "en"
+        },
+        {
+          "text": "5%",
+          "language": "en"
+        },
+        {
+          "text": "$100",
+          "language": "en"
+        },
+        {
+          "text": "About",
+          "language": "en"
+        },
+        {
+          "text": "Center Highlights",
+          "language": "en"
+        },
+        {
+          "text": "Cost",
+          "language": "en"
+        },
+        {
+          "text": "License",
+          "language": "en"
+        },
+        {
+          "text": "Reviews",
+          "language": "en"
+        },
+        {
+          "text": "Center Highlights",
+          "language": "en"
+        },
+        {
+          "text": "Type",
+          "language": "en"
+        },
+        {
+          "text": "Preschool (or nursery school or pre-k",
+          "language": "en"
+        },
+        {
+          "text": "Services",
+          "language": "en"
+        },
+        {
+          "text": "Willing to care for twins/multiples",
+          "language": "en"
+        },
+        {
+          "text": "Summer care",
+          "language": "en"
+        },
+        {
+          "text": "Pick up/drop off",
+          "language": "en"
+        },
+        {
+          "text": "Credentials",
+          "language": "en"
+        },
+        {
+          "text": "Special needs care",
+          "language": "en"
+        },
+        {
+          "text": "Philosophy",
+          "language": "en"
+        },
+        {
+          "text": "Academic",
+          "language": "en"
+        },
+        {
+          "text": "Outdoor/nature",
+          "language": "en"
+        },
+        {
+          "text": "Developmental (play-based)",
+          "language": "en"
+        },
+        {
+          "text": "Faith-based",
+          "language": "en"
+        },
+        {
+          "text": "Qualifications",
+          "language": "en"
+        },
+        {
+          "text": "Cpr training",
+          "language": "en"
+        },
+        {
+          "text": "Certified teacher",
+          "language": "en"
+        },
+        {
+          "text": "Early child development coursework",
+          "language": "en"
+        },
+        {
+          "text": "Early childhood education (ece)",
+          "language": "en"
+        },
+        {
+          "text": "First aid training",
+          "language": "en"
+        },
+        {
+          "text": "Cost",
+          "language": "en"
+        },
+        {
+          "text": "Age Range",
+          "language": "en"
+        },
+        {
+          "text": "Monthly R",
+          "language": "en"
+        },
+        {
+          "text": "Care.com",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Care.com"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "Filters section for daycare location, distance, and child age."
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Modal window containing Center Highlights, including Type, Philosophy, Services, Qualifications, and Credentials."
+        },
+        {
+          "type": "table",
+          "reading_order": 4,
+          "text": "Cost section at the bottom of the modal."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A webpage interface for a daycare center search, specifically showing the expanded details modal for a daycare listing.",
+      "intent": "To provide prospective parents with detailed information about a specific daycare center's amenities, qualifications, and cost.",
+      "entities": [
+        {
+          "name": "Care.com",
+          "type": "Organization",
+          "evidence": "Logo and site name displayed in the header and footer."
+        },
+        {
+          "name": "94025",
+          "type": "Zip Code",
+          "evidence": "Location input field."
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization",
+          "evidence": "Curated by credit in footer."
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Care.com",
+          "predicate": "provides",
+          "object": "daycare search service"
+        },
+        {
+          "subject": "Modal Window",
+          "predicate": "details",
+          "object": "Center Highlights"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "black"
+      ],
+      "style": "clean, modern, minimalist web interface design",
+      "notes": [
+        "Includes a floating modal window covering the right side of the screen.",
+        "Standard checkbox list UI pattern for filters and highlights."
+      ]
+    },
+    "uncertainty": [
+      "The full text of some truncated sentences in the background list cards (e.g., 'Top daycare ma') is not fully legible.",
+      "The bottom 'Cost' table content is partially obscured or cut off."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:42.722Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.227,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1667,
+      "totalTokenCount": 2874,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

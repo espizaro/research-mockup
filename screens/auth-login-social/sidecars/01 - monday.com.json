@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "monday.com",
+    "platform": "ios",
+    "file_path": "screens/auth-login-social/01 - monday.com.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:15.803Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application authentication/login screen.",
+    "primary_flow": "auth-login-social",
+    "ux_intent": "To provide multiple authentication methods to a user so they can access their application account.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Standard iOS keyboard is displayed.",
+      "Clear hierarchy with primary blue CTA.",
+      "No hero illustrations or decorative art present.",
+      "Clean, high-contrast, text-heavy interface."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "monday.com",
+      "Google",
+      "Apple",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat mobile UI design standard for enterprise SaaS products.",
+      "white",
+      "blue",
+      "grey",
+      "Standard iOS keyboard is displayed.",
+      "Clear hierarchy with primary blue CTA.",
+      "No hero illustrations or decorative art present.",
+      "Clean, high-contrast, text-heavy interface."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat mobile UI design standard for enterprise SaaS products."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_social_01"
+}

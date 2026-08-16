@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "pushr",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/home-action/01 - pushr.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:06.895Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI screen for scheduling events.",
+    "primary_flow": "daily-check-in/home-action",
+    "ux_intent": "View and manage user-defined time-based schedules.",
+    "ux_patterns": [
+      "Minimalist",
+      "Toggle",
+      "Clean typography",
+      "high contrast",
+      "icon-based controls for editing and active status"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "schedule",
+      "weekdays",
+      "mon, tue, thu, fri, sat",
+      "pushr",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface",
+      "white",
+      "black",
+      "light gray",
+      "green",
+      "Clean typography",
+      "high contrast",
+      "icon-based controls for editing and active status"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_home_action_01"
+}

@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Fiverr",
+    "platform": "ios",
+    "file_path": "screens/signup-social/07 - Fiverr.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:14.282Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Registration/Sign-up screen",
+    "primary_flow": "signup-social",
+    "ux_intent": "User account creation",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Uses standard mobile input field patterns",
+      "Includes green checkmarks to indicate valid form inputs",
+      "Social authentication buttons use brand-standard icons",
+      "Consistent padding and hierarchy"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View"
+    ],
+    "interaction_elements": [
+      "Uses standard mobile input field patterns",
+      "Includes green checkmarks to indicate valid form inputs",
+      "Social authentication buttons use brand-standard icons"
+    ],
+    "content_blocks": [
+      "Fiverr",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat mobile UI",
+      "white",
+      "black",
+      "green",
+      "grey",
+      "Uses standard mobile input field patterns",
+      "Includes green checkmarks to indicate valid form inputs",
+      "Social authentication buttons use brand-standard icons",
+      "Consistent padding and hierarchy"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_signup_social_07"
+}

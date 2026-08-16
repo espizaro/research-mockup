@@ -1,0 +1,135 @@
+{
+  "image": "02 - Retro.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for an 'Add Note' screen featuring a date picker set to May 2021.",
+    "ocr": {
+      "full_text": "9:41 Cancel Add Note Save Note ie. Birthdays, firsts, anniversaries, reflections Date When did this happen? 27 May 2021 May 2021 January February March April May June July August 2018 2019 2020 2021 2022 2023 2024 Retro curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Cancel Add Note Save"
+        },
+        {
+          "text": "Note"
+        },
+        {
+          "text": "ie. Birthdays, firsts, anniversaries, reflections"
+        },
+        {
+          "text": "Date"
+        },
+        {
+          "text": "When did this happen?"
+        },
+        {
+          "text": "27 May 2021"
+        },
+        {
+          "text": "May 2021"
+        },
+        {
+          "text": "January February March April May June July August"
+        },
+        {
+          "text": "2018 2019 2020 2021 2022 2023 2024"
+        },
+        {
+          "text": "Retro curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Add Note"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Note ie. Birthdays, firsts, anniversaries, reflections"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Date When did this happen? 27 May 2021"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "May 2021. Date picker interface with months (January-August) and years (2018-2024)."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile app UI for creating a note.",
+      "intent": "To capture user input for a new note with an associated date.",
+      "entities": [
+        {
+          "name": "Cancel",
+          "type": "Button"
+        },
+        {
+          "name": "Save",
+          "type": "Button"
+        },
+        {
+          "name": "Note text field",
+          "type": "Input Field"
+        },
+        {
+          "name": "Date picker",
+          "type": "UI Control"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Date picker",
+          "predicate": "displays",
+          "object": "27 May 2021"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "blue"
+      ],
+      "style": "Minimalist iOS interface",
+      "notes": [
+        "Standard iOS status bar",
+        "Date picker scroll wheel style interface"
+      ]
+    },
+    "uncertainty": [
+      "The status bar icons for battery/wifi are stylized but generally recognizable."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:02.479Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.762,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 741,
+      "totalTokenCount": 1968,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

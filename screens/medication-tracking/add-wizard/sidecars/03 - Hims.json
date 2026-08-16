@@ -1,0 +1,159 @@
+{
+  "image": "03 - Hims.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen for setting medication reminders within a 'Subscription' section. The modal window prompts the user to set a daily reminder, includes an interface to add more reminders, and provides a disclaimer regarding data privacy and medical advice.",
+    "ocr": {
+      "full_text": "9:41 Subscription Set your reminder Toggle medication reminders on to stay on top of your medication schedule. Remind me daily Reminder 1 8:00 AM + Add another reminder The med reminder is a tool to help you stay on track with your medication. Any information generated will not be shared with your Care Team. Contact your provider if you have any questions about your medication, including when and how often you should take it. Hims curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Subscription"
+        },
+        {
+          "text": "Set your reminder"
+        },
+        {
+          "text": "Toggle medication reminders on to stay on top"
+        },
+        {
+          "text": "of your medication schedule."
+        },
+        {
+          "text": "Remind me daily"
+        },
+        {
+          "text": "Reminder 1"
+        },
+        {
+          "text": "8:00 AM"
+        },
+        {
+          "text": "+ Add another reminder"
+        },
+        {
+          "text": "The med reminder is a tool to help you stay on track with your"
+        },
+        {
+          "text": "medication. Any information generated will not be shared with"
+        },
+        {
+          "text": "your Care Team. Contact your provider if you have any questions"
+        },
+        {
+          "text": "about your medication, including when and how often you"
+        },
+        {
+          "text": "should take it."
+        },
+        {
+          "text": "Hims"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Subscription"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Set your reminder"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Toggle medication reminders on to stay on top of your medication schedule."
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Remind me daily"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Reminder 1 8:00 AM"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "+ Add another reminder"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "The med reminder is a tool to help you stay on track with your medication. Any information generated will not be shared with your Care Team. Contact your provider if you have any questions about your medication, including when and how often you should take it."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app settings screen for medication adherence.",
+      "intent": "Allow the user to configure daily medication reminders.",
+      "entities": [
+        {
+          "name": "Hims",
+          "type": "Company"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Service"
+        },
+        {
+          "name": "Subscription",
+          "type": "App Section"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Mobbin",
+          "predicate": "curated",
+          "object": "Hims app content"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "grey",
+        "green"
+      ],
+      "style": "Mobile UI/UX design with a modal overlay",
+      "notes": [
+        "The UI uses a card-based layout for the notification settings."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:39.373Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.739,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 880,
+      "totalTokenCount": 2107,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

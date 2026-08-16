@@ -1,0 +1,184 @@
+{
+  "image": "03 - Alan.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile app settings screen showing a 'Settings' menu with various options, with a modal popup open over the bottom half of the screen titled 'App language' showing language options 'Français' and 'English'.",
+    "ocr": {
+      "full_text": "9:41 Get €0 Activity Insurance Help Settings Privacy Security App icon App start screen App language Notifications Apple Health Link devices and apps App language Français English Alan curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Get €0",
+          "language": "en"
+        },
+        {
+          "text": "Activity",
+          "language": "en"
+        },
+        {
+          "text": "Insurance",
+          "language": "en"
+        },
+        {
+          "text": "Help",
+          "language": "en"
+        },
+        {
+          "text": "Settings",
+          "language": "en"
+        },
+        {
+          "text": "Privacy",
+          "language": "en"
+        },
+        {
+          "text": "Security",
+          "language": "en"
+        },
+        {
+          "text": "App icon",
+          "language": "en"
+        },
+        {
+          "text": "App start screen",
+          "language": "en"
+        },
+        {
+          "text": "App language",
+          "language": "en"
+        },
+        {
+          "text": "Notifications",
+          "language": "en"
+        },
+        {
+          "text": "Apple Health",
+          "language": "en"
+        },
+        {
+          "text": "Link devices and apps",
+          "language": "en"
+        },
+        {
+          "text": "App language",
+          "language": "en"
+        },
+        {
+          "text": "Français",
+          "language": "fr"
+        },
+        {
+          "text": "English",
+          "language": "en"
+        },
+        {
+          "text": "Alan",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Settings"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Privacy, Security, App icon, App start screen, App language, Notifications, Apple Health"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "App language modal: Français, English"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application interface, settings menu with a language selection modal.",
+      "intent": "User is changing the application language settings.",
+      "entities": [
+        {
+          "name": "Settings Menu",
+          "type": "UI Component"
+        },
+        {
+          "name": "App Language Modal",
+          "type": "UI Component"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Brand"
+        },
+        {
+          "name": "Alan",
+          "type": "App Name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "App Language Modal",
+          "predicate": "displays",
+          "object": "Language Options"
+        },
+        {
+          "subject": "Settings Menu",
+          "predicate": "contains",
+          "object": "App Language"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "light purple",
+        "white",
+        "gray",
+        "blue"
+      ],
+      "style": "clean modern mobile UI, minimalist",
+      "notes": [
+        "The UI uses a bottom sheet modal for the language selection."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:21:30.179Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.481,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 742,
+      "totalTokenCount": 1969,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.482
+      }
+    ],
+    "warnings": []
+  }
+}

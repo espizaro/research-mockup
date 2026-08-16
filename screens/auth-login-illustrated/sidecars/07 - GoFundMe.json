@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "GoFundMe",
+    "platform": "ios",
+    "file_path": "screens/auth-login-illustrated/07 - GoFundMe.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:11.436Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen",
+    "primary_flow": "auth-login-illustrated",
+    "ux_intent": "User authentication",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "The hero illustration features two characters on a flower, serving as decorative art that brings a warm, human-centric tone to the login flow.",
+      "The form uses standard iOS-like input styles.",
+      "The 'Sign in' button has high visual contrast.",
+      "The interface is clean and uncluttered."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The form uses standard iOS-like input styles.",
+      "The 'Sign in' button has high visual contrast."
+    ],
+    "content_blocks": [
+      "GoFundMe",
+      "Mobbin",
+      "Terms of Service",
+      "Privacy Notice"
+    ],
+    "visual_keywords": [
+      "Illustration-heavy mobile UI with clean, modern typography.",
+      "green",
+      "orange",
+      "white",
+      "black",
+      "The hero illustration features two characters on a flower, serving as decorative art that brings a warm, human-centric tone to the login flow.",
+      "The form uses standard iOS-like input styles.",
+      "The 'Sign in' button has high visual contrast.",
+      "The interface is clean and uncluttered."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Illustration-heavy mobile UI with clean, modern typography."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_illustrated_07"
+}

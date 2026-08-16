@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Asana",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/closure-report/07 - Asana.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:42.185Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Project management mobile application interface.",
+    "primary_flow": "daily-check-in/closure-report",
+    "ux_intent": "Display project overview dashboard.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Search",
+      "Card",
+      "Standard iOS status bar",
+      "Tab navigation at the bottom",
+      "Card-based layout"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Tab navigation at the bottom"
+    ],
+    "content_blocks": [
+      "EOY Campaign",
+      "Sam Lee",
+      "Asana"
+    ],
+    "visual_keywords": [
+      "clean mobile UI",
+      "white",
+      "blue",
+      "grey",
+      "black",
+      "Standard iOS status bar",
+      "Tab navigation at the bottom",
+      "Card-based layout"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_closure_report_07"
+}

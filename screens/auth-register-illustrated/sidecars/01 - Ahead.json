@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Ahead",
+    "platform": "ios",
+    "file_path": "screens/auth-register-illustrated/01 - Ahead.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:52.432Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application sign up screen",
+    "primary_flow": "auth-register-illustrated",
+    "ux_intent": "To guide a new user through the registration process",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Login",
+      "The mascot character is a semi-transparent purple blob-like creature, which obscures some text. This could be an accessibility issue regarding contrast and legibility.",
+      "The green checkmarks indicate valid form input."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The green checkmarks indicate valid form input."
+    ],
+    "content_blocks": [
+      "Sign up button",
+      "Mascot illustration",
+      "Form fields",
+      "Log in"
+    ],
+    "visual_keywords": [
+      "Modern mobile UI, flat design, mascot character illustration, clean typography",
+      "white",
+      "purple",
+      "light-purple",
+      "green",
+      "The mascot character is a semi-transparent purple blob-like creature, which obscures some text. This could be an accessibility issue regarding contrast and legibility.",
+      "The green checkmarks indicate valid form input."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile UI, flat design, mascot character illustration, clean typography"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_illustrated_01"
+}

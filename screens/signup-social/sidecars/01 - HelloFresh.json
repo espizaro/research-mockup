@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "HelloFresh",
+    "platform": "ios",
+    "file_path": "screens/signup-social/01 - HelloFresh.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:09.411Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding screen for user authentication.",
+    "primary_flow": "signup-social",
+    "ux_intent": "To facilitate user registration or account sign-in via social providers or email.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "There is no hero illustration in this screen.",
+      "The UI uses standard social media sign-in design patterns.",
+      "The aesthetic is clean and functional, typical of modern consumer applications.",
+      "Design-system cues include consistent button heights and typography."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Design-system cues include consistent button heights and typography."
+    ],
+    "content_blocks": [
+      "HelloFresh",
+      "Google",
+      "Apple",
+      "Facebook",
+      "Email Field"
+    ],
+    "visual_keywords": [
+      "Minimalist corporate mobile UI, high-contrast buttons.",
+      "green",
+      "white",
+      "blue",
+      "black",
+      "There is no hero illustration in this screen.",
+      "The UI uses standard social media sign-in design patterns.",
+      "The aesthetic is clean and functional, typical of modern consumer applications.",
+      "Design-system cues include consistent button heights and typography."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist corporate mobile UI, high-contrast buttons."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_signup_social_01"
+}

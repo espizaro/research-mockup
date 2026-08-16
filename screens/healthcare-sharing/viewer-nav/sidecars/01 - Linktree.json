@@ -1,0 +1,202 @@
+{
+  "image": "01 - Linktree.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app dashboard for a user named alexsmith on Linktree. The interface shows a profile summary, tabs for 'Products', 'Design', and 'Settings', an area to manage links and set up a shop, and a progress indicator showing 17% set up. A bottom navigation bar provides access to My Linktree, Earn, Insights, Audience, and More.",
+    "ocr": {
+      "full_text": "9:41 Try Pro for free alexsmith linktr.ee/alexsmith Products Design Settings @alexsmith Join alexsmith on Linktree Report Privacy Explore Set up your Shop Curate the products you love right in your Linktree Links Shop Set up 17% set up My Linktree Earn Insights Audience More Linktree curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Try Pro for free",
+          "language": "en"
+        },
+        {
+          "text": "alexsmith",
+          "language": "en"
+        },
+        {
+          "text": "linktr.ee/alexsmith",
+          "language": "en"
+        },
+        {
+          "text": "Products",
+          "language": "en"
+        },
+        {
+          "text": "Design",
+          "language": "en"
+        },
+        {
+          "text": "Settings",
+          "language": "en"
+        },
+        {
+          "text": "@alexsmith",
+          "language": "en"
+        },
+        {
+          "text": "Join alexsmith on Linktree",
+          "language": "en"
+        },
+        {
+          "text": "Report Privacy Explore",
+          "language": "en"
+        },
+        {
+          "text": "Set up your Shop",
+          "language": "en"
+        },
+        {
+          "text": "Curate the products you love right in your Linktree.",
+          "language": "en"
+        },
+        {
+          "text": "Links",
+          "language": "en"
+        },
+        {
+          "text": "Shop",
+          "language": "en"
+        },
+        {
+          "text": "Set up",
+          "language": "en"
+        },
+        {
+          "text": "17% set up",
+          "language": "en"
+        },
+        {
+          "text": "My Linktree",
+          "language": "en"
+        },
+        {
+          "text": "Earn",
+          "language": "en"
+        },
+        {
+          "text": "Insights",
+          "language": "en"
+        },
+        {
+          "text": "Audience",
+          "language": "en"
+        },
+        {
+          "text": "More",
+          "language": "en"
+        },
+        {
+          "text": "Linktree curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "alexsmith"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "linktr.ee/alexsmith"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Products, Design, Settings"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Profile Preview Card"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Set up your Shop Card"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "17% set up progress ring"
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "Bottom navigation menu with tabs: My Linktree, Earn, Insights, Audience, More"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "User management and content creation/organization on Linktree profile.",
+      "entities": [
+        {
+          "name": "alexsmith",
+          "type": "user",
+          "evidence": "Profile name at top and handle."
+        },
+        {
+          "name": "Linktree",
+          "type": "platform",
+          "evidence": "Brand name mentioned in UI."
+        },
+        {
+          "name": "Mobbin",
+          "type": "platform/service",
+          "evidence": "Curated by Mobbin footer."
+        }
+      ],
+      "relations": [
+        {
+          "subject": "alexsmith",
+          "predicate": "has_profile_on",
+          "object": "Linktree"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "light gray",
+        "purple"
+      ],
+      "style": "Clean, minimalist mobile application UI, light mode.",
+      "notes": [
+        "Uses standard mobile icons for profile, share, notification, and navigation."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:06:15.236Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.816,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 983,
+      "totalTokenCount": 2210,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

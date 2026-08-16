@@ -1,0 +1,211 @@
+{
+  "image": "01 - Asana.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the mobile Asana application dashboard for a user named Sam, displaying greeting, upcoming tasks, and a navigation bar at the bottom.",
+    "ocr": {
+      "full_text": "9.41\nFri, 15 November\nGood morning, Sam\nA task is due in 3 days\nGet organized with sections\nMon\nView task\nMy tasks\nDue soon\nFollow up on \"Task 1\"\nToday\nGet organized with sections\nMon\nKOL Meeting\n22 Nov\nGo to My Tasks\nRecents\nHome\nMy tasks\nInbox\nSearch\nAccount\nAsana\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9.41",
+          "language": "en"
+        },
+        {
+          "text": "Fri, 15 November",
+          "language": "en"
+        },
+        {
+          "text": "Good morning, Sam",
+          "language": "en"
+        },
+        {
+          "text": "A task is due in 3 days",
+          "language": "en"
+        },
+        {
+          "text": "Get organized with sections",
+          "language": "en"
+        },
+        {
+          "text": "Mon",
+          "language": "en"
+        },
+        {
+          "text": "View task",
+          "language": "en"
+        },
+        {
+          "text": "My tasks",
+          "language": "en"
+        },
+        {
+          "text": "Due soon",
+          "language": "en"
+        },
+        {
+          "text": "Follow up on \"Task 1\"",
+          "language": "en"
+        },
+        {
+          "text": "Today",
+          "language": "en"
+        },
+        {
+          "text": "Get organized with sections",
+          "language": "en"
+        },
+        {
+          "text": "Mon",
+          "language": "en"
+        },
+        {
+          "text": "KOL Meeting",
+          "language": "en"
+        },
+        {
+          "text": "22 Nov",
+          "language": "en"
+        },
+        {
+          "text": "Go to My Tasks",
+          "language": "en"
+        },
+        {
+          "text": "Recents",
+          "language": "en"
+        },
+        {
+          "text": "Home",
+          "language": "en"
+        },
+        {
+          "text": "My tasks",
+          "language": "en"
+        },
+        {
+          "text": "Inbox",
+          "language": "en"
+        },
+        {
+          "text": "Search",
+          "language": "en"
+        },
+        {
+          "text": "Account",
+          "language": "en"
+        },
+        {
+          "text": "Asana",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Good morning, Sam"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Fri, 15 November"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "A task is due in 3 days. Get organized with sections. Mon. View task."
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "My tasks. Due soon. Follow up on \"Task 1\" (Today), Get organized with sections (Mon), KOL Meeting (22 Nov). Go to My Tasks."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Recents"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "Bottom navigation bar (Home, My tasks, Inbox, Search, Account)"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application interface for task management.",
+      "intent": "View task dashboard for the user.",
+      "entities": [
+        {
+          "name": "Sam",
+          "type": "Person",
+          "evidence": "Greeting text"
+        },
+        {
+          "name": "Asana",
+          "type": "Software",
+          "evidence": "Brand name in bottom corner"
+        },
+        {
+          "name": "Follow up on \"Task 1\"",
+          "type": "Task",
+          "evidence": "List item"
+        },
+        {
+          "name": "KOL Meeting",
+          "type": "Task",
+          "evidence": "List item"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam",
+          "predicate": "uses",
+          "object": "Asana"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "blue",
+        "grey"
+      ],
+      "style": "clean mobile application user interface",
+      "notes": [
+        "Standard iOS status bar header present",
+        "Bottom navigation icons present"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:13.978Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.288,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1026,
+      "totalTokenCount": 2253,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

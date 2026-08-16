@@ -1,0 +1,182 @@
+{
+  "image": "02 - YNAB.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image is a screenshot of the YNAB (You Need A Budget) mobile application, showing the user's budgeting dashboard for September 2025. It highlights available funds, a prompt to finish onboarding, and a list of bills with their respective funding statuses.",
+    "ocr": {
+      "full_text": "9:41\nSep 2025\n$47,200.00\nReady to Assign\nAssign Money\nSpend with confidence and clarity\nIntentional spending reduces stress, regret, and\nsecond-guessing.\nFinish Onboarding\nBills\nAvailable\nto Spend\nRent\n$2,800.00\nFunded\nUtilities\n$0.00\n$60.00 more needed by the 30th\nTV, phone and internet\n$0.00\n$80.00 more needed by the 30th\nInsurance\n$0.00\nPlan\nAccounts\nTransaction\nReflect\nHelp\nYNAB\ncurated by\nMobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Sep 2025"
+        },
+        {
+          "text": "$47,200.00"
+        },
+        {
+          "text": "Ready to Assign"
+        },
+        {
+          "text": "Assign Money"
+        },
+        {
+          "text": "Spend with confidence and clarity"
+        },
+        {
+          "text": "Intentional spending reduces stress, regret, and"
+        },
+        {
+          "text": "second-guessing."
+        },
+        {
+          "text": "Finish Onboarding"
+        },
+        {
+          "text": "Bills"
+        },
+        {
+          "text": "Available to Spend"
+        },
+        {
+          "text": "Rent"
+        },
+        {
+          "text": "$2,800.00"
+        },
+        {
+          "text": "Funded"
+        },
+        {
+          "text": "Utilities"
+        },
+        {
+          "text": "$0.00"
+        },
+        {
+          "text": "$60.00 more needed by the 30th"
+        },
+        {
+          "text": "TV, phone and internet"
+        },
+        {
+          "text": "$0.00"
+        },
+        {
+          "text": "$80.00 more needed by the 30th"
+        },
+        {
+          "text": "Insurance"
+        },
+        {
+          "text": "$0.00"
+        },
+        {
+          "text": "Plan Accounts Transaction Reflect Help"
+        },
+        {
+          "text": "YNAB curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Sep 2025"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "$47,200.00 Ready to Assign"
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Assign Money"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Spend with confidence and clarity. Intentional spending reduces stress, regret, and second-guessing. Finish Onboarding"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Bills. Rent: $2,800.00 (Funded). Utilities: $0.00 ($60.00 more needed by the 30th). TV, phone and internet: $0.00 ($80.00 more needed by the 30th). Insurance: $0.00."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Personal finance mobile application interface.",
+      "intent": "To help a user manage their monthly budget, track bills, and assign available money.",
+      "entities": [
+        {
+          "name": "YNAB",
+          "type": "Application",
+          "evidence": "Logo/Footer text"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Service",
+          "evidence": "Footer text"
+        },
+        {
+          "name": "September 2025",
+          "type": "Date",
+          "evidence": "Header text"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "YNAB",
+          "predicate": "is_curated_by",
+          "object": "Mobbin"
+        },
+        {
+          "subject": "User",
+          "predicate": "has_budget_for",
+          "object": "September 2025"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-green",
+        "light-purple",
+        "blue"
+      ],
+      "style": "Clean, minimalist mobile UI design.",
+      "notes": [
+        "Use of color-coded status pills for budget items",
+        "Includes tabbed navigation bar at the bottom"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:01.287Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.916,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1135,
+      "totalTokenCount": 2362,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

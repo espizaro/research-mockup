@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Check",
+    "platform": "ios",
+    "file_path": "screens/login-email/08 - Check.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:59.642Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application login screen",
+    "primary_flow": "login-email",
+    "ux_intent": "User authentication",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "High contrast black and white color scheme",
+      "Standard iOS status bar header",
+      "No hero illustrations; utility-focused design",
+      "Visual hierarchy focused on form entry"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Apple",
+      "Google",
+      "Facebook",
+      "Email Field",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat UI",
+      "white",
+      "black",
+      "High contrast black and white color scheme",
+      "Standard iOS status bar header",
+      "No hero illustrations; utility-focused design",
+      "Visual hierarchy focused on form entry"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_email_08"
+}

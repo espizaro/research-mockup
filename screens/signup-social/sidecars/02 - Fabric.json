@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Fabric",
+    "platform": "ios",
+    "file_path": "screens/signup-social/02 - Fabric.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:09.980Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app registration screen",
+    "primary_flow": "signup-social",
+    "ux_intent": "User account creation via SSO or standard email/password registration",
+    "ux_patterns": [
+      "Form",
+      "FAB",
+      "Login",
+      "Minimalist",
+      "Toggle",
+      "No illustrations or decorative art present.",
+      "Standardized mobile layout with center-aligned elements.",
+      "High visual hierarchy on the primary 'Sign up' CTA.",
+      "Accessibility: Good contrast between text and background, password visibility toggle included."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Apple",
+      "Google",
+      "Sign up",
+      "Sign in",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, high-contrast, iOS-native aesthetic",
+      "white",
+      "black",
+      "gray",
+      "No illustrations or decorative art present.",
+      "Standardized mobile layout with center-aligned elements.",
+      "High visual hierarchy on the primary 'Sign up' CTA.",
+      "Accessibility: Good contrast between text and background, password visibility toggle included."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, high-contrast, iOS-native aesthetic"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_signup_social_02"
+}

@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Recime",
+    "platform": "ios",
+    "file_path": "screens/auth-register-social/02 - Recime.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:06.975Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app registration screen",
+    "primary_flow": "auth-register-social",
+    "ux_intent": "Account creation/onboarding flow",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "No hero illustration present.",
+      "Button components feature standard platform icons.",
+      "The UI uses a cream-colored background, likely a design-system choice for readability.",
+      "Clear hierarchy from title to social login actions."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Button components feature standard platform icons.",
+      "Clear hierarchy from title to social login actions."
+    ],
+    "content_blocks": [
+      "Recime",
+      "Apple",
+      "Google",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist modern mobile UI with soft color palette, rounded buttons, and iconography.",
+      "cream",
+      "white",
+      "blue",
+      "black",
+      "orange",
+      "No hero illustration present.",
+      "Button components feature standard platform icons.",
+      "The UI uses a cream-colored background, likely a design-system choice for readability.",
+      "Clear hierarchy from title to social login actions."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist modern mobile UI with soft color palette, rounded buttons, and iconography."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_social_02"
+}

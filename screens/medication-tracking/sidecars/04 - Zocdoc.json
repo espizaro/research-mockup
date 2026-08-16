@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Zocdoc",
+    "platform": "ios",
+    "file_path": "screens/medication-tracking/04 - Zocdoc.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:51.494Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application UI for medical health management.",
+    "primary_flow": "medication-tracking",
+    "ux_intent": "User is prompted to confirm the deletion of a medication record.",
+    "ux_patterns": [
+      "Form",
+      "Confirmation dialog is overlayed on the screen.",
+      "The 'Save' and 'Remove' buttons are visible behind the dialog.",
+      "Bottom navigation bar included."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "The 'Save' and 'Remove' buttons are visible behind the dialog.",
+      "Bottom navigation bar included."
+    ],
+    "content_blocks": [
+      "Ibuprofen",
+      "Zocdoc",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Mobile application interface, flat design.",
+      "light grey",
+      "white",
+      "blue",
+      "Confirmation dialog is overlayed on the screen.",
+      "The 'Save' and 'Remove' buttons are visible behind the dialog.",
+      "Bottom navigation bar included."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile application interface, flat design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_medications_04"
+}

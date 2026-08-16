@@ -1,0 +1,167 @@
+{
+  "image": "05 - Retro.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen titled 'Activity' that lists recent interactions such as friend requests, reactions to posts, and comments.",
+    "ocr": {
+      "full_text": "9:41 Activity JS sent you a friend request. jendoe1 8h your post jendoe1 8h Yeah me too wanna join, let's do yoga together next time jendoe1 8h accepted your friend request. jeremydoe 8h 3 of your posts jeremydoe 8h I wanna join too! jeremydoe 8h accepted your friend request. jendoe1 2d Love u guysssss, thanks for the cake :) jendoe1 2d accepted your friend request. jackmob1 2d accepted your friend request. Retro curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Activity"
+        },
+        {
+          "text": "JS sent you a friend request."
+        },
+        {
+          "text": "jendoe1 8h"
+        },
+        {
+          "text": "your post"
+        },
+        {
+          "text": "jendoe1 8h"
+        },
+        {
+          "text": "Yeah me too wanna join, let's do yoga together next time"
+        },
+        {
+          "text": "jendoe1 8h"
+        },
+        {
+          "text": "accepted your friend request."
+        },
+        {
+          "text": "jeremydoe 8h"
+        },
+        {
+          "text": "3 of your posts"
+        },
+        {
+          "text": "jeremydoe 8h"
+        },
+        {
+          "text": "I wanna join too!"
+        },
+        {
+          "text": "jeremydoe 8h"
+        },
+        {
+          "text": "accepted your friend request."
+        },
+        {
+          "text": "jendoe1 2d"
+        },
+        {
+          "text": "Love u guysssss, thanks for the cake :)"
+        },
+        {
+          "text": "jendoe1 2d"
+        },
+        {
+          "text": "accepted your friend request."
+        },
+        {
+          "text": "jackmob1 2d"
+        },
+        {
+          "text": "accepted your friend request."
+        },
+        {
+          "text": "Retro curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Activity"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "JS sent you a friend request. jendoe1 8h your post... (list of notifications)"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app social media notification activity feed",
+      "entities": [
+        {
+          "name": "jendoe1",
+          "type": "user"
+        },
+        {
+          "name": "jeremydoe",
+          "type": "user"
+        },
+        {
+          "name": "jackmob1",
+          "type": "user"
+        },
+        {
+          "name": "JS",
+          "type": "user"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "jendoe1",
+          "predicate": "interacts with",
+          "object": "post"
+        },
+        {
+          "subject": "jeremydoe",
+          "predicate": "interacts with",
+          "object": "post"
+        },
+        {
+          "subject": "user",
+          "predicate": "received notification from",
+          "object": "jendoe1"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black"
+      ],
+      "style": "Mobile user interface, minimalistic, light theme",
+      "notes": [
+        "Standard iOS-style status bar",
+        "Navigation bar at bottom"
+      ]
+    },
+    "uncertainty": [
+      "The image of JS is abbreviated as initials, rest are user avatars",
+      "Some small thumbnails are blurry and difficult to distinguish"
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:11.682Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.906,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 891,
+      "totalTokenCount": 2118,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

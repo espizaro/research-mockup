@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Hers",
+    "platform": "ios",
+    "file_path": "screens/signup-social/05 - Hers.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:10.276Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding/authentication screen.",
+    "primary_flow": "signup-social",
+    "ux_intent": "To guide a new user through the registration flow via email or third-party authentication services.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "No hero illustration used.",
+      "Uses high-contrast black buttons for primary CTA.",
+      "The interface is very text-centric with subtle brand-colored UI accents (the bottom left 'Hers' icon)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Uses high-contrast black buttons for primary CTA."
+    ],
+    "content_blocks": [
+      "Hers",
+      "Google",
+      "Apple"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, mobile-first design.",
+      "white",
+      "black",
+      "light gray",
+      "No hero illustration used.",
+      "Uses high-contrast black buttons for primary CTA.",
+      "The interface is very text-centric with subtle brand-colored UI accents (the bottom left 'Hers' icon)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, mobile-first design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_signup_social_05"
+}

@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Binance",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/trend-preview/07 - Binance.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:43.189Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Financial trading mobile application screen displaying cryptocurrency market analysis.",
+    "primary_flow": "daily-check-in/trend-preview",
+    "ux_intent": "To inform users about current selling trends of 'top players' in specific crypto assets to identify potential market movements.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "The interface uses a white background with black text for clarity.",
+      "A yellow accent line is used to indicate the selected 'Active sell' tab.",
+      "Red and green indicators are used for price changes and statistical data."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Binance",
+      "AMP",
+      "AIXBT",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Clean mobile UI, financial dashboard, minimalist design",
+      "white",
+      "black",
+      "yellow",
+      "The interface uses a white background with black text for clarity.",
+      "A yellow accent line is used to indicate the selected 'Active sell' tab.",
+      "Red and green indicators are used for price changes and statistical data."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean mobile UI, financial dashboard, minimalist design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_trend_preview_07"
+}

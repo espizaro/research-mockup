@@ -1,0 +1,222 @@
+{
+  "image": "02 - Finch.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for 'Finch,' a self-care app, displaying a daily check-in or routine tracker for 'Today, Aug 27.' It categorizes daily activities into sections such as Reflections, Breathing Session, Movement, Timer, and Deep Dive, showcasing completed or scheduled tasks.",
+    "ocr": {
+      "full_text": "Today, Aug 27 M 25 T 26 W 27 T 28 F 29 S 30 S 31 2 Reflections + I woke up on time Who is a family member that is easy to be kind to? Why? Brother - because he receives every action/ things well 1 Breathing Session Calm Breathing for 1 min 1 Movement Morning Exercise for 1 min 1 Timer Meditation Timer for 3 min 1 Deep Dive Savoring Pleasant Moments Finch curated by Mobbin",
+      "lines": [
+        {
+          "text": "Today, Aug 27"
+        },
+        {
+          "text": "M 25"
+        },
+        {
+          "text": "T 26"
+        },
+        {
+          "text": "W 27"
+        },
+        {
+          "text": "T 28"
+        },
+        {
+          "text": "F 29"
+        },
+        {
+          "text": "S 30"
+        },
+        {
+          "text": "S 31"
+        },
+        {
+          "text": "2 Reflections"
+        },
+        {
+          "text": "I woke up on time"
+        },
+        {
+          "text": "Who is a family member that is easy to be kind to? Why?"
+        },
+        {
+          "text": "Brother - because he receives every action/ things well"
+        },
+        {
+          "text": "1 Breathing Session"
+        },
+        {
+          "text": "Calm Breathing for 1 min"
+        },
+        {
+          "text": "1 Movement"
+        },
+        {
+          "text": "Morning Exercise for 1 min"
+        },
+        {
+          "text": "1 Timer"
+        },
+        {
+          "text": "Meditation Timer for 3 min"
+        },
+        {
+          "text": "1 Deep Dive"
+        },
+        {
+          "text": "Savoring Pleasant Moments"
+        },
+        {
+          "text": "Finch"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Today, Aug 27"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "2 Reflections"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "I woke up on time"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Who is a family member that is easy to be kind to? Why? Brother - because he receives every action/ things well"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "1 Breathing Session"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Calm Breathing for 1 min"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "1 Movement"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "Morning Exercise for 1 min"
+        },
+        {
+          "type": "list",
+          "reading_order": 9,
+          "text": "1 Timer"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 10,
+          "text": "Meditation Timer for 3 min"
+        },
+        {
+          "type": "list",
+          "reading_order": 11,
+          "text": "1 Deep Dive"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 12,
+          "text": "Savoring Pleasant Moments"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Self-care application dashboard for daily activities.",
+      "intent": "Track and view daily self-care tasks and reflections.",
+      "entities": [
+        {
+          "name": "Finch",
+          "type": "Application"
+        },
+        {
+          "name": "Aug 27",
+          "type": "Date"
+        },
+        {
+          "name": "Brother",
+          "type": "Person"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Finch",
+          "predicate": "tracks",
+          "object": "Reflections"
+        },
+        {
+          "subject": "Finch",
+          "predicate": "tracks",
+          "object": "Breathing Session"
+        },
+        {
+          "subject": "Finch",
+          "predicate": "tracks",
+          "object": "Movement"
+        },
+        {
+          "subject": "Finch",
+          "predicate": "tracks",
+          "object": "Timer"
+        },
+        {
+          "subject": "Finch",
+          "predicate": "tracks",
+          "object": "Deep Dive"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "green",
+        "white",
+        "light gray"
+      ],
+      "style": "Mobile app UI, clean, minimalist, flat design with icons.",
+      "notes": [
+        "The interface uses icons to represent activity categories.",
+        "There is a date selection navigation bar at the top."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:02.430Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.622,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1194,
+      "totalTokenCount": 2421,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Blinkist",
+    "platform": "ios",
+    "file_path": "screens/signup-social/08 - Blinkist.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:14.037Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account creation / Onboarding screen",
+    "primary_flow": "signup-social",
+    "ux_intent": "To incentivize the user to register an account by explaining the benefit of cross-device synchronization of purchased content.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "Clean layout, vertical alignment of input fields, distinct primary button, clear social login hierarchy, use of platform-specific brand colors for social buttons (Apple-black, Google-blue, Facebook-dark blue)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Clean layout, vertical alignment of input fields, distinct primary button, clear social login hierarchy, use of platform-specific brand colors for social buttons (Apple-black, Google-blue, Facebook-dark blue)."
+    ],
+    "content_blocks": [
+      "Email",
+      "Password",
+      "Create account",
+      "Continue with Apple",
+      "Continue with Google",
+      "Continue with Facebook"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app UI design",
+      "white",
+      "blue",
+      "black",
+      "gray",
+      "Clean layout, vertical alignment of input fields, distinct primary button, clear social login hierarchy, use of platform-specific brand colors for social buttons (Apple-black, Google-blue, Facebook-dark blue)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_signup_social_08"
+}

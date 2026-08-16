@@ -1,0 +1,286 @@
+{
+  "image": "04 - Plazo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows a list view from a mobile application called 'plazo', displaying a directory of medical professionals with their names, specialties, and availability statuses.",
+    "ocr": {
+      "full_text": "9:41 plazo Dra. Victoria Torralbo Medicina General Horario no disponible Dr. Wilson Cubillos Médico General Disponible el martes a las 12:00 a.m. Paula Cortés Nutricionista Horario no disponible Dra. Teresa Atienza Pediatra Disponible mañana a las 2:00 p.m. Alba Antón Nutricionista Disponible mañana a las 4:00 p.m. Dr. Horacio Jesús Majul Cardiólogo Disponible mañana a las 11:00 a.m. Eva Ugarte Psicóloga Disponible mañana a las 2:00 p.m. Dra. Vera Garcia Ginecología Disponible el miércoles a las 3:00 p.m. Raúl Pizzi Fisioterapeuta plazo curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "plazo",
+          "language": "es"
+        },
+        {
+          "text": "Dra. Victoria Torralbo",
+          "language": "es"
+        },
+        {
+          "text": "Medicina General",
+          "language": "es"
+        },
+        {
+          "text": "Horario no disponible",
+          "language": "es"
+        },
+        {
+          "text": "Dr. Wilson Cubillos",
+          "language": "es"
+        },
+        {
+          "text": "Médico General",
+          "language": "es"
+        },
+        {
+          "text": "Disponible el martes a las 12:00 a.m.",
+          "language": "es"
+        },
+        {
+          "text": "Paula Cortés",
+          "language": "es"
+        },
+        {
+          "text": "Nutricionista",
+          "language": "es"
+        },
+        {
+          "text": "Horario no disponible",
+          "language": "es"
+        },
+        {
+          "text": "Dra. Teresa Atienza",
+          "language": "es"
+        },
+        {
+          "text": "Pediatra",
+          "language": "es"
+        },
+        {
+          "text": "Disponible mañana a las 2:00 p.m.",
+          "language": "es"
+        },
+        {
+          "text": "Alba Antón",
+          "language": "es"
+        },
+        {
+          "text": "Nutricionista",
+          "language": "es"
+        },
+        {
+          "text": "Disponible mañana a las 4:00 p.m.",
+          "language": "es"
+        },
+        {
+          "text": "Dr. Horacio Jesús Majul",
+          "language": "es"
+        },
+        {
+          "text": "Cardiólogo",
+          "language": "es"
+        },
+        {
+          "text": "Disponible mañana a las 11:00 a.m.",
+          "language": "es"
+        },
+        {
+          "text": "Eva Ugarte",
+          "language": "es"
+        },
+        {
+          "text": "Psicóloga",
+          "language": "es"
+        },
+        {
+          "text": "Disponible mañana a las 2:00 p.m.",
+          "language": "es"
+        },
+        {
+          "text": "Dra. Vera Garcia",
+          "language": "es"
+        },
+        {
+          "text": "Ginecología",
+          "language": "es"
+        },
+        {
+          "text": "Disponible el miércoles a las 3:00 p.m.",
+          "language": "es"
+        },
+        {
+          "text": "Raúl Pizzi",
+          "language": "es"
+        },
+        {
+          "text": "Fisioterapeuta",
+          "language": "es"
+        },
+        {
+          "text": "plazo",
+          "language": "es"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "plazo"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Dra. Victoria Torralbo, Medicina General, Horario no disponible. Dr. Wilson Cubillos, Médico General, Disponible el martes a las 12:00 a.m. Paula Cortés, Nutricionista, Horario no disponible. Dra. Teresa Atienza, Pediatra, Disponible mañana a las 2:00 p.m. Alba Antón, Nutricionista, Disponible mañana a las 4:00 p.m. Dr. Horacio Jesús Majul, Cardiólogo, Disponible mañana a las 11:00 a.m. Eva Ugarte, Psicóloga, Disponible mañana a las 2:00 p.m. Dra. Vera Garcia, Ginecología, Disponible el miércoles a las 3:00 p.m. Raúl Pizzi, Fisioterapeuta"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app medical appointment directory",
+      "intent": "View list of doctors and their availability",
+      "entities": [
+        {
+          "name": "Victoria Torralbo",
+          "type": "Person",
+          "evidence": "Dra. Victoria Torralbo"
+        },
+        {
+          "name": "Wilson Cubillos",
+          "type": "Person",
+          "evidence": "Dr. Wilson Cubillos"
+        },
+        {
+          "name": "Paula Cortés",
+          "type": "Person",
+          "evidence": "Paula Cortés"
+        },
+        {
+          "name": "Teresa Atienza",
+          "type": "Person",
+          "evidence": "Dra. Teresa Atienza"
+        },
+        {
+          "name": "Alba Antón",
+          "type": "Person",
+          "evidence": "Alba Antón"
+        },
+        {
+          "name": "Horacio Jesús Majul",
+          "type": "Person",
+          "evidence": "Dr. Horacio Jesús Majul"
+        },
+        {
+          "name": "Eva Ugarte",
+          "type": "Person",
+          "evidence": "Eva Ugarte"
+        },
+        {
+          "name": "Vera Garcia",
+          "type": "Person",
+          "evidence": "Dra. Vera Garcia"
+        },
+        {
+          "name": "Raúl Pizzi",
+          "type": "Person",
+          "evidence": "Raúl Pizzi"
+        },
+        {
+          "name": "plazo",
+          "type": "Application",
+          "evidence": "plazo"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Victoria Torralbo",
+          "predicate": "has_specialty",
+          "object": "Medicina General"
+        },
+        {
+          "subject": "Wilson Cubillos",
+          "predicate": "has_specialty",
+          "object": "Médico General"
+        },
+        {
+          "subject": "Paula Cortés",
+          "predicate": "has_specialty",
+          "object": "Nutricionista"
+        },
+        {
+          "subject": "Teresa Atienza",
+          "predicate": "has_specialty",
+          "object": "Pediatra"
+        },
+        {
+          "subject": "Alba Antón",
+          "predicate": "has_specialty",
+          "object": "Nutricionista"
+        },
+        {
+          "subject": "Horacio Jesús Majul",
+          "predicate": "has_specialty",
+          "object": "Cardiólogo"
+        },
+        {
+          "subject": "Eva Ugarte",
+          "predicate": "has_specialty",
+          "object": "Psicóloga"
+        },
+        {
+          "subject": "Vera Garcia",
+          "predicate": "has_specialty",
+          "object": "Ginecología"
+        },
+        {
+          "subject": "Raúl Pizzi",
+          "predicate": "has_specialty",
+          "object": "Fisioterapeuta"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "red",
+        "green"
+      ],
+      "style": "Clean mobile UI design",
+      "notes": [
+        "Small colored circles indicate availability status: Green for available/not specified, Red for possibly unavailable or specific booking."
+      ]
+    },
+    "uncertainty": [
+      "The availability of Raul Pizzi is not fully visible as the text gets cut off at the bottom."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:00.485Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.522,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1784,
+      "totalTokenCount": 3011,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

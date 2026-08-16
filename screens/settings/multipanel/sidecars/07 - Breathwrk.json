@@ -1,0 +1,187 @@
+{
+  "image": "07 - Breathwrk.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile screenshot of the 'Settings' screen for the Breathwrk application. The interface provides various user account settings, subscription management, legal information, and account authentication options, including a link to connect with Peloton membership and a logout button.",
+    "ocr": {
+      "full_text": "breathwrk Settings Change my Goals Change my Breathwrk Time Take Breath Test Subscription Management Contact Us Terms and Conditions Privacy Policy Breathwrk is free for Peloton All-Access, Guide, and App+ Members. Log in with Peloton Logout Delete Account uZDBxN97SRVWCZ880R4jhKepq0t1 Breathwrk curated by Mobbin",
+      "lines": [
+        {
+          "text": "breathwrk",
+          "language": "en"
+        },
+        {
+          "text": "Settings",
+          "language": "en"
+        },
+        {
+          "text": "Change my Goals",
+          "language": "en"
+        },
+        {
+          "text": "Change my Breathwrk Time",
+          "language": "en"
+        },
+        {
+          "text": "Take Breath Test",
+          "language": "en"
+        },
+        {
+          "text": "Subscription Management",
+          "language": "en"
+        },
+        {
+          "text": "Contact Us",
+          "language": "en"
+        },
+        {
+          "text": "Terms and Conditions",
+          "language": "en"
+        },
+        {
+          "text": "Privacy Policy",
+          "language": "en"
+        },
+        {
+          "text": "Breathwrk is free for Peloton All-Access, Guide, and App+ Members.",
+          "language": "en"
+        },
+        {
+          "text": "Log in with Peloton",
+          "language": "en"
+        },
+        {
+          "text": "Logout",
+          "language": "en"
+        },
+        {
+          "text": "Delete Account",
+          "language": "en"
+        },
+        {
+          "text": "uZDBxN97SRVWCZ880R4jhKepq0t1",
+          "language": "en"
+        },
+        {
+          "text": "Breathwrk",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Settings"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Change my Goals Change my Breathwrk Time Take Breath Test Subscription Management"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Contact Us Terms and Conditions Privacy Policy"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Breathwrk is free for Peloton All-Access, Guide, and App+ Members."
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Log in with Peloton"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Logout"
+        },
+        {
+          "type": "form",
+          "reading_order": 7,
+          "text": "Delete Account"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface displaying a settings menu.",
+      "intent": "User is navigating the settings screen to manage account, subscription, and app preferences.",
+      "entities": [
+        {
+          "name": "Breathwrk",
+          "type": "Application",
+          "evidence": "Header text and app logo."
+        },
+        {
+          "name": "Peloton",
+          "type": "Service",
+          "evidence": "Mentioned as an integration provider."
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator",
+          "evidence": "Footer text indicates curation."
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Breathwrk",
+          "predicate": "offers_integration_with",
+          "object": "Peloton"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "dark grey",
+        "white",
+        "black"
+      ],
+      "style": "Modern mobile application interface with a dark mode theme, clean typography, and rounded buttons.",
+      "notes": [
+        "The UI uses a dark gradient background with a semi-transparent overlay for the main content area."
+      ]
+    },
+    "uncertainty": [
+      "The alphanumeric string 'uZDBxN97SRVWCZ880R4jhKepq0t1' appears to be a unique identifier or session token, but its specific function is inferred."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:21:55.604Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.072,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1007,
+      "totalTokenCount": 2234,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.075
+      }
+    ],
+    "warnings": []
+  }
+}

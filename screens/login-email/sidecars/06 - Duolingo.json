@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Duolingo",
+    "platform": "ios",
+    "file_path": "screens/login-email/06 - Duolingo.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:56.357Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app login screen",
+    "primary_flow": "login-email",
+    "ux_intent": "User authentication",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustration present",
+      "Clean, high-contrast design",
+      "Standard platform-specific icons for social login"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Duolingo",
+      "Google",
+      "Facebook",
+      "Apple"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "white",
+      "grey",
+      "blue",
+      "No hero illustration present",
+      "Clean, high-contrast design",
+      "Standard platform-specific icons for social login"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_email_06"
+}

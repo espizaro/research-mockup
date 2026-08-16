@@ -1,0 +1,177 @@
+{
+  "image": "01 - Bloom.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen titled 'Subscription' showing the status of a paused subscription, payment methods, and billing history.",
+    "ocr": {
+      "full_text": "9:41\n< Subscription 1,668\n$5.00/ month\nPauses at: Sep 11, 2023\nBuy 5000+ stocks & ETFs\n200+ financial lessons\nOink Hub games & rewards\nUnpause my subscription\nPayment method\nVisa .... 2970\nBilling history\nSubscription payment\nAug 11, 2023\n$15.00\nCancel subscription\nBloom\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "< Subscription"
+        },
+        {
+          "text": "1,668"
+        },
+        {
+          "text": "$5.00/ month"
+        },
+        {
+          "text": "Pauses at: Sep 11, 2023"
+        },
+        {
+          "text": "Buy 5000+ stocks & ETFs"
+        },
+        {
+          "text": "200+ financial lessons"
+        },
+        {
+          "text": "Oink Hub games & rewards"
+        },
+        {
+          "text": "Unpause my subscription"
+        },
+        {
+          "text": "Payment method"
+        },
+        {
+          "text": "Visa .... 2970"
+        },
+        {
+          "text": "Billing history"
+        },
+        {
+          "text": "Subscription payment"
+        },
+        {
+          "text": "Aug 11, 2023"
+        },
+        {
+          "text": "$15.00"
+        },
+        {
+          "text": "Cancel subscription"
+        },
+        {
+          "text": "Bloom"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Subscription"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "$5.00/ month Pauses at: Sep 11, 2023"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Buy 5000+ stocks & ETFs 200+ financial lessons Oink Hub games & rewards"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Unpause my subscription"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Payment method Visa .... 2970"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 6,
+          "text": "Billing history"
+        },
+        {
+          "type": "table",
+          "reading_order": 7,
+          "text": "Subscription payment Aug 11, 2023 $15.00"
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Cancel subscription"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app subscription management settings screen.",
+      "intent": "The user is viewing their paused subscription details and has the option to resume it.",
+      "entities": [
+        {
+          "name": "Subscription",
+          "type": "Feature"
+        },
+        {
+          "name": "Visa",
+          "type": "Payment Method"
+        },
+        {
+          "name": "Oink Hub",
+          "type": "Service"
+        },
+        {
+          "name": "Bloom",
+          "type": "App"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Subscription",
+          "predicate": "costs",
+          "object": "$5.00/month"
+        },
+        {
+          "subject": "Subscription",
+          "predicate": "status",
+          "object": "paused"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "dark magenta",
+        "white"
+      ],
+      "style": "clean modern mobile UI",
+      "notes": [
+        "The app uses a gradient purple-to-magenta background for the primary subscription card."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:16.730Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.009,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 966,
+      "totalTokenCount": 2193,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

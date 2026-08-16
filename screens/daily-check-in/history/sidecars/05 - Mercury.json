@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Mercury",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/history/05 - Mercury.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:29.552Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile banking application transaction history",
+    "primary_flow": "daily-check-in/history",
+    "ux_intent": "Display financial transactions and show a receipt matching confirmation",
+    "ux_patterns": [
+      "Bottom Sheet",
+      "Search",
+      "Minimalist",
+      "Uses standard iOS top bar",
+      "Includes sparkle icons for AI/smart features"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Google Workspace",
+      "Mobbin",
+      "Mercury",
+      "Google.pdf"
+    ],
+    "visual_keywords": [
+      "clean mobile UI, minimalist",
+      "white",
+      "light grey",
+      "black",
+      "green",
+      "Uses standard iOS top bar",
+      "Includes sparkle icons for AI/smart features"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean mobile UI, minimalist"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_history_05"
+}

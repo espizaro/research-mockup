@@ -1,0 +1,202 @@
+{
+  "image": "03 - BitePal.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app UI screen showcasing personalized nutrition recommendations and a fasting schedule for a user.",
+    "ocr": {
+      "full_text": "Reach your goal by 28 January 2026\nHabits will help you sustain your success\nNutrition recommendations\n2,121 kcal\nCarbs\n265 g\nFats\n66 g\nProteins\n117 g\nBased on your needs, we calculated your daily\ncalories and macro balance. You can always\nadjust them in the app.\nFasting schedule\n15 h\nFasting time\n9 h\nEating time\nYour fasting schedule is based on your eating\nwindow. You can change your goal anytime in\nsettings.\nCommit to my goal\nDaily\nBitePal curated by Mobbin",
+      "lines": [
+        {
+          "text": "Reach your goal by 28 January 2026",
+          "language": "en"
+        },
+        {
+          "text": "Habits will help you sustain your success",
+          "language": "en"
+        },
+        {
+          "text": "Nutrition recommendations",
+          "language": "en"
+        },
+        {
+          "text": "2,121 kcal",
+          "language": "en"
+        },
+        {
+          "text": "Carbs",
+          "language": "en"
+        },
+        {
+          "text": "265 g",
+          "language": "en"
+        },
+        {
+          "text": "Fats",
+          "language": "en"
+        },
+        {
+          "text": "66 g",
+          "language": "en"
+        },
+        {
+          "text": "Proteins",
+          "language": "en"
+        },
+        {
+          "text": "117 g",
+          "language": "en"
+        },
+        {
+          "text": "Based on your needs, we calculated your daily calories and macro balance. You can always adjust them in the app.",
+          "language": "en"
+        },
+        {
+          "text": "Fasting schedule",
+          "language": "en"
+        },
+        {
+          "text": "15 h",
+          "language": "en"
+        },
+        {
+          "text": "Fasting time",
+          "language": "en"
+        },
+        {
+          "text": "9 h",
+          "language": "en"
+        },
+        {
+          "text": "Eating time",
+          "language": "en"
+        },
+        {
+          "text": "Your fasting schedule is based on your eating window. You can change your goal anytime in settings.",
+          "language": "en"
+        },
+        {
+          "text": "Commit to my goal",
+          "language": "en"
+        },
+        {
+          "text": "Daily",
+          "language": "en"
+        },
+        {
+          "text": "BitePal curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Reach your goal by 28 January 2026. Habits will help you sustain your success."
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Nutrition recommendations"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "2,121 kcal. Carbs 265g, Fats 66g, Proteins 117g. Based on your needs, we calculated your daily calories and macro balance. You can always adjust them in the app."
+        },
+        {
+          "type": "title",
+          "reading_order": 4,
+          "text": "Fasting schedule"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "15 h Fasting time, 9 h Eating time. Your fasting schedule is based on your eating window. You can change your goal anytime in settings."
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Commit to my goal"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface displaying health and nutrition plan details.",
+      "intent": "User is viewing personalized health goals and confirming commitment.",
+      "entities": [
+        {
+          "name": "BitePal",
+          "type": "App Name"
+        },
+        {
+          "name": "Nutrition recommendations",
+          "type": "Health metric"
+        },
+        {
+          "name": "Fasting schedule",
+          "type": "Health metric"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "App",
+          "predicate": "displays",
+          "object": "Nutrition recommendations"
+        },
+        {
+          "subject": "App",
+          "predicate": "displays",
+          "object": "Fasting schedule"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "black",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "style": "Minimalist mobile application UI with rounded cards and clear data visualizations.",
+      "notes": [
+        "The interface uses color-coded bars for macros and fasting windows.",
+        "The 'Commit to my goal' button is a prominent call-to-action."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:22:21.596Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.262,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1376,
+      "totalTokenCount": 2603,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 5.264
+      }
+    ],
+    "warnings": []
+  }
+}

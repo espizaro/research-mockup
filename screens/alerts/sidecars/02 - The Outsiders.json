@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "The Outsiders",
+    "platform": "ios",
+    "file_path": "screens/alerts/02 - The Outsiders.webp",
+    "analyzed_timestamp": "2026-08-05T19:24:21.970Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app health tracking interface.",
+    "primary_flow": "alerts",
+    "ux_intent": "To inform the user about their resting heart rate trends and health implications.",
+    "ux_patterns": [
+      "Form",
+      "Slider",
+      "Progress",
+      "Dark Mode",
+      "Card",
+      "Uses a slider visual for range visualization",
+      "Clear hierarchy with section headings",
+      "Navigation icons at the bottom"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Slider",
+      "Navigation icons at the bottom"
+    ],
+    "content_blocks": [
+      "Sleeping Heart Rate",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Mobile user interface, dark mode theme",
+      "dark green",
+      "black",
+      "light green",
+      "grey",
+      "Uses a slider visual for range visualization",
+      "Clear hierarchy with section headings",
+      "Navigation icons at the bottom"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile user interface, dark mode theme"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_alerts_02"
+}

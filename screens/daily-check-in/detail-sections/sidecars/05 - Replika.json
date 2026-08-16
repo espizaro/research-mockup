@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Replika",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/detail-sections/05 - Replika.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:27.196Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application user profile memory management screen.",
+    "primary_flow": "daily-check-in/detail-sections",
+    "ux_intent": "To view or edit personal memory details about a user profile.",
+    "ux_patterns": [
+      "Form",
+      "Profile",
+      "Minimalist",
+      "Card",
+      "Standard iOS status bar header.",
+      "Curated by Mobbin watermark present."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Sammie",
+      "John",
+      "Replika"
+    ],
+    "visual_keywords": [
+      "Modern minimalist UI with blurred background, rounded buttons, and grey content cards.",
+      "grey",
+      "dark grey",
+      "white",
+      "Standard iOS status bar header.",
+      "Curated by Mobbin watermark present."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist UI with blurred background, rounded buttons, and grey content cards."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_detail_sections_05"
+}

@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "WEAR",
+    "platform": "ios",
+    "file_path": "screens/reset-password/01 - WEAR.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:26.952Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app success confirmation screen",
+    "primary_flow": "reset-password",
+    "ux_intent": "To inform the user that their password reset process is complete.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "The design is highly minimal with ample negative space.",
+      "No hero illustration is present.",
+      "The 'done' button in the top right is a standard iOS navigation pattern.",
+      "The footer branding is external to the app interface."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The 'done' button in the top right is a standard iOS navigation pattern."
+    ],
+    "content_blocks": [
+      "Change password",
+      "done",
+      "Password has been reset."
+    ],
+    "visual_keywords": [
+      "Minimalist, system-native UI",
+      "white",
+      "black",
+      "blue",
+      "The design is highly minimal with ample negative space.",
+      "No hero illustration is present.",
+      "The 'done' button in the top right is a standard iOS navigation pattern.",
+      "The footer branding is external to the app interface."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, system-native UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_reset_password_01"
+}

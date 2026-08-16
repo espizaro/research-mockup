@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "[untitled]",
+    "platform": "ios",
+    "file_path": "screens/secure-sharing/04 - [untitled].webp",
+    "analyzed_timestamp": "2026-08-05T19:24:47.472Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app modal window for invite link management.",
+    "primary_flow": "secure-sharing",
+    "ux_intent": "To provide a shareable link for others to join a workspace or project.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Settings",
+      "Minimalist",
+      "Toggle",
+      "Modal overlay effect",
+      "Iconography present for invite, toggle, copy, and share actions"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Iconography present for invite, toggle, copy, and share actions"
+    ],
+    "content_blocks": [
+      "Waves",
+      "untitled.stream",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "white",
+      "light grey",
+      "dark grey",
+      "purple",
+      "Modal overlay effect",
+      "Iconography present for invite, toggle, copy, and share actions"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_secure_sharing_04"
+}

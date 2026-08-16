@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Strava",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/home-action/06 - Strava.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:40.416Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI showing fitness activity summary.",
+    "primary_flow": "daily-check-in/home-action",
+    "ux_intent": "Display recent fitness data and activity history.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Calendar",
+      "The orange accent color is used for call-to-action buttons and the path on the map."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Table",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "The orange accent color is used for call-to-action buttons and the path on the map."
+    ],
+    "content_blocks": [
+      "Strava",
+      "K1",
+      "Bukit Jalil, Malaysia",
+      "Garmin Forerunner 970",
+      "Local Legend of interval loop"
+    ],
+    "visual_keywords": [
+      "Clean, modern mobile interface with high-contrast icons.",
+      "white",
+      "orange",
+      "grey",
+      "The orange accent color is used for call-to-action buttons and the path on the map."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern mobile interface with high-contrast icons."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_home_action_06"
+}

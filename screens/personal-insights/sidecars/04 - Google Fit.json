@@ -1,0 +1,48 @@
+{
+  "identification": {
+    "app_name": "Google Fit",
+    "platform": "ios",
+    "file_path": "screens/personal-insights/04 - Google Fit.webp",
+    "analyzed_timestamp": "2026-08-05T19:47:54.627Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Health and fitness dashboard application interface.",
+    "primary_flow": "personal-insights",
+    "ux_intent": "Display historical fitness and health activity trends.",
+    "ux_patterns": [
+      "Dark Mode",
+      "Minimalist"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Google Fit",
+      "Sleep duration",
+      "Bedtime schedule",
+      "Period",
+      "Heart Points",
+      "Steps"
+    ],
+    "visual_keywords": [
+      "Dark mode mobile UI, flat design, minimalist icons.",
+      "black",
+      "dark gray",
+      "purple",
+      "light red",
+      "teal"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode mobile UI, flat design, minimalist icons."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_insights_04"
+}

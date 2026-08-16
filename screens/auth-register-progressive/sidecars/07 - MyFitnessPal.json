@@ -1,0 +1,60 @@
+{
+  "identification": {
+    "app_name": "MyFitnessPal",
+    "platform": "ios",
+    "file_path": "screens/auth-register-progressive/07 - MyFitnessPal.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:18.346Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding/Profile setup screen",
+    "primary_flow": "auth-register-progressive",
+    "ux_intent": "Collect user's demographic data (sex, age, location) to initialize health/calorie tracking goals.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "Radio",
+      "Progress indicator bar at the top",
+      "High-contrast blue primary button",
+      "Clear typography for hierarchy",
+      "No hero illustrations; purely functional layout"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Dropdown",
+      "High-contrast blue primary button"
+    ],
+    "content_blocks": [
+      "MyFitnessPal",
+      "Mobbin",
+      "Sex Selection",
+      "Age Field",
+      "Location Fields"
+    ],
+    "visual_keywords": [
+      "clean, minimalist mobile UI",
+      "white",
+      "blue",
+      "grey",
+      "Progress indicator bar at the top",
+      "High-contrast blue primary button",
+      "Clear typography for hierarchy",
+      "No hero illustrations; purely functional layout"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean, minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_progressive_07"
+}

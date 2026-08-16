@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Tonal",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/detail-sections/01 - Tonal.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:02.014Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app exercise tracking interface.",
+    "primary_flow": "daily-check-in/detail-sections",
+    "ux_intent": "View workout history for a specific exercise.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Standard iOS status bar at the top",
+      "Navigation back button on the left",
+      "Selected tab is 'Workouts'",
+      "Includes a thumbnail image of the exercise"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Navigation back button on the left"
+    ],
+    "content_blocks": [
+      "Alternating Neutral Lat Pull",
+      "Quick Fit: Back and Biceps E...",
+      "Tonal",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface",
+      "white",
+      "black",
+      "light gray",
+      "Standard iOS status bar at the top",
+      "Navigation back button on the left",
+      "Selected tab is 'Workouts'",
+      "Includes a thumbnail image of the exercise"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_detail_sections_01"
+}

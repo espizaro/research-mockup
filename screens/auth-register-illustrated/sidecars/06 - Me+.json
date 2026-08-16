@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Me+",
+    "platform": "ios",
+    "file_path": "screens/auth-register-illustrated/06 - Me+.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:55.953Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile sign-up screen",
+    "primary_flow": "auth-register-illustrated",
+    "ux_intent": "User authentication/onboarding",
+    "ux_patterns": [
+      "Progress",
+      "Onboarding",
+      "Login",
+      "Character mascot with glasses at top",
+      "Soft, rounded design elements",
+      "Social login buttons for ease of use",
+      "Background features heart shapes for a friendly aesthetic"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Social login buttons for ease of use"
+    ],
+    "content_blocks": [
+      "Me+",
+      "Facebook",
+      "Google",
+      "Apple"
+    ],
+    "visual_keywords": [
+      "Friendly, modern, minimal mobile UI",
+      "light purple",
+      "white",
+      "blue",
+      "black",
+      "Character mascot with glasses at top",
+      "Soft, rounded design elements",
+      "Social login buttons for ease of use",
+      "Background features heart shapes for a friendly aesthetic"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Friendly, modern, minimal mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_illustrated_06"
+}

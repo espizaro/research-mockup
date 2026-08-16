@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Programa",
+    "platform": "ios",
+    "file_path": "screens/project-dashboard/02 - Programa.webp",
+    "analyzed_timestamp": "2026-08-06T23:57:49.235Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Software development project management dashboard.",
+    "primary_flow": "project-dashboard",
+    "ux_intent": "Task management and workflow tracking for a software project.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Minimalist",
+      "Card",
+      "Uses standard Kanban UX pattern.",
+      "Highly consistent typography.",
+      "Low contrast separators."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "GitHub",
+      "Project Board",
+      "New, Backlog, Ready, In progress"
+    ],
+    "visual_keywords": [
+      "Minimalist, professional, clean interface design.",
+      "white",
+      "grey",
+      "black",
+      "Uses standard Kanban UX pattern.",
+      "Highly consistent typography.",
+      "Low contrast separators."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, professional, clean interface design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_project_dashboard_02"
+}

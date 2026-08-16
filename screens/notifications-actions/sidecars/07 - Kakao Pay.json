@@ -1,0 +1,247 @@
+{
+  "image": "07 - Kakao Pay.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the notification screen from the Kakao Pay mobile application. It lists recent app notifications, including rewards for step counting, promotional offers for mobile plans, payment confirmation notifications, and money transfer requests.",
+    "ocr": {
+      "full_text": "9:41 알림 모두 읽음 페이 증권 전체 안읽음 60 편의 13 결제 11 페이머니 3 놓치고 있는 혜택, 알림이 있어요. 알림켜기 > 만보기 5일 전 오늘 벌써 1000걸음 달성했네요! 걸은 만큼 받을 수 있는 포인트가 쌓여있어요 8개 내역 더보기 > 통신비교 5일 전 91GB+완전 무제한 월 13,000원 (광고) 놓치면 후회하는 한정판 요금제예요 CU 매월 5천원 할인 91GB+무제한 월 13,000원 pay 알림을 끄고 싶다면 페이앱 설정에서 결제 6일 전 결제가 완료되었어요 주식회사 카카오에서 10,000원을 결제했어요. 3개 내역 더보기 > 송금 6일 전 송금을 받아주세요 Kakao Pay curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "ko"
+        },
+        {
+          "text": "알림",
+          "language": "ko"
+        },
+        {
+          "text": "모두 읽음",
+          "language": "ko"
+        },
+        {
+          "text": "페이",
+          "language": "ko"
+        },
+        {
+          "text": "증권",
+          "language": "ko"
+        },
+        {
+          "text": "전체",
+          "language": "ko"
+        },
+        {
+          "text": "안읽음 60",
+          "language": "ko"
+        },
+        {
+          "text": "편의 13",
+          "language": "ko"
+        },
+        {
+          "text": "결제 11",
+          "language": "ko"
+        },
+        {
+          "text": "페이머니 3",
+          "language": "ko"
+        },
+        {
+          "text": "놓치고 있는 혜택, 알림이 있어요.",
+          "language": "ko"
+        },
+        {
+          "text": "알림켜기 >",
+          "language": "ko"
+        },
+        {
+          "text": "만보기 5일 전",
+          "language": "ko"
+        },
+        {
+          "text": "오늘 벌써 1000걸음 달성했네요!",
+          "language": "ko"
+        },
+        {
+          "text": "걸은 만큼 받을 수 있는 포인트가 쌓여있어요",
+          "language": "ko"
+        },
+        {
+          "text": "8개 내역 더보기 >",
+          "language": "ko"
+        },
+        {
+          "text": "통신비교 5일 전",
+          "language": "ko"
+        },
+        {
+          "text": "91GB+완전 무제한 월 13,000원",
+          "language": "ko"
+        },
+        {
+          "text": "(광고) 놓치면 후회하는 한정판 요금제예요",
+          "language": "ko"
+        },
+        {
+          "text": "CU 매월 5천원 할인",
+          "language": "ko"
+        },
+        {
+          "text": "91GB+무제한 월 13,000원",
+          "language": "ko"
+        },
+        {
+          "text": "pay",
+          "language": "en"
+        },
+        {
+          "text": "알림을 끄고 싶다면 페이앱 설정에서",
+          "language": "ko"
+        },
+        {
+          "text": "결제 6일 전",
+          "language": "ko"
+        },
+        {
+          "text": "결제가 완료되었어요",
+          "language": "ko"
+        },
+        {
+          "text": "주식회사 카카오에서 10,000원을 결제했어요.",
+          "language": "ko"
+        },
+        {
+          "text": "3개 내역 더보기 >",
+          "language": "ko"
+        },
+        {
+          "text": "송금 6일 전",
+          "language": "ko"
+        },
+        {
+          "text": "송금을 받아주세요",
+          "language": "ko"
+        },
+        {
+          "text": "Kakao Pay",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "알림"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "전체 안읽음 60 편의 13 결제 11 페이머니 3"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "놓치고 있는 혜택, 알림이 있어요. 알림켜기"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "만보기 5일 전: 오늘 벌써 1000걸음 달성했네요! 걸은 만큼 받을 수 있는 포인트가 쌓여있어요 8개 내역 더보기"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "통신비교 5일 전: 91GB+완전 무제한 월 13,000원 (광고) 놓치면 후회하는 한정판 요금제예요"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "결제 6일 전: 결제가 완료되었어요 주식회사 카카오에서 10,000원을 결제했어요. 3개 내역 더보기"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "송금 6일 전: 송금을 받아주세요"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface, specifically the notification screen of Kakao Pay.",
+      "intent": "Display recent service notifications, payment activity, and promotional offers.",
+      "entities": [
+        {
+          "name": "Kakao Pay",
+          "type": "Application/Brand"
+        },
+        {
+          "name": "CU",
+          "type": "Brand/Retailer"
+        },
+        {
+          "name": "주식회사 카카오",
+          "type": "Organization"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Kakao Pay",
+          "predicate": "sends",
+          "object": "notifications"
+        },
+        {
+          "subject": "CU",
+          "predicate": "offers",
+          "object": "discount"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light blue",
+        "black"
+      ],
+      "style": "Mobile user interface, minimalist, clean, card-based layout.",
+      "notes": [
+        "The layout shows status bars, headers, tabs, a sub-notification panel, and a vertical list of notifications."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:21:05.533Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.428,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1622,
+      "totalTokenCount": 2849,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 5.43
+      }
+    ],
+    "warnings": []
+  }
+}

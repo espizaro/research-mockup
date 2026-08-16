@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Nibble",
+    "platform": "ios",
+    "file_path": "screens/health-logging/intake/04 - Nibble.webp",
+    "analyzed_timestamp": "2026-08-05T19:43:49.267Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding screen for topic selection.",
+    "primary_flow": "health-logging/intake",
+    "ux_intent": "To collect user preferences for content personalization.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Uses icons next to category text",
+      "Some buttons have a light purple background indicating selection",
+      "Large primary CTA button at the bottom"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View"
+    ],
+    "interaction_elements": [
+      "Primary CTA Button",
+      "Some buttons have a light purple background indicating selection",
+      "Large primary CTA button at the bottom"
+    ],
+    "content_blocks": [
+      "Nibble",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern minimalist UI design",
+      "white",
+      "purple",
+      "Uses icons next to category text",
+      "Some buttons have a light purple background indicating selection",
+      "Large primary CTA button at the bottom"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_intake_04"
+}

@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "GO Club",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/home-action/02 - GO Club.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:13.830Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app dashboard for a health/walking application.",
+    "primary_flow": "daily-check-in/home-action",
+    "ux_intent": "To prompt the user to start a subscription and enable location services for walking suggestions.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Card",
+      "Rounded corners on cards",
+      "High contrast text",
+      "Sun/weather-themed icons"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "GO Club",
+      "$11.99 a year",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern minimalist UI design",
+      "blue",
+      "yellow",
+      "white",
+      "Rounded corners on cards",
+      "High contrast text",
+      "Sun/weather-themed icons"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_home_action_02"
+}

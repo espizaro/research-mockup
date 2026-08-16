@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "Hevy",
+    "platform": "ios",
+    "file_path": "screens/health-logging/activity/03 - Hevy.webp",
+    "analyzed_timestamp": "2026-08-05T19:41:32.299Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A dashboard screen of a fitness tracking mobile application.",
+    "primary_flow": "health-logging/activity",
+    "ux_intent": "To provide a user with a quick overview of their current fitness progress and quick actions for logging workouts.",
+    "ux_patterns": [
+      "Progress",
+      "Minimalist",
+      "Card",
+      "Uses standard iOS UI elements like top status bar.",
+      "Icons represent the type of metric (flame for streak, moon for rest)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Hevy",
+      "18.7k kg",
+      "1 week",
+      "1 day"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface, card-based layout.",
+      "light gray background",
+      "white cards",
+      "blue icons",
+      "black text",
+      "Uses standard iOS UI elements like top status bar.",
+      "Icons represent the type of metric (flame for streak, moon for rest)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface, card-based layout."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_activity_03"
+}

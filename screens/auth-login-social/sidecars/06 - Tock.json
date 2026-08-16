@@ -1,0 +1,63 @@
+{
+  "identification": {
+    "app_name": "Tock",
+    "platform": "ios",
+    "file_path": "screens/auth-login-social/06 - Tock.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:22.137Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen of a mobile application.",
+    "primary_flow": "auth-login-social",
+    "ux_intent": "The user is intended to authenticate or create an account for the Tock application.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Toggle",
+      "No hero illustrations present.",
+      "Clear tab navigation between Log in and Sign up.",
+      "Use of standard mobile platform login icons.",
+      "Primary button utilizes a prominent blue shade for conversion.",
+      "Password field includes a visibility toggle icon."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Clear tab navigation between Log in and Sign up.",
+      "Primary button utilizes a prominent blue shade for conversion."
+    ],
+    "content_blocks": [
+      "Google",
+      "Apple",
+      "Tock",
+      "Email Field",
+      "Password Field",
+      "Login Button"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean mobile UI design.",
+      "white",
+      "blue",
+      "black",
+      "grey",
+      "No hero illustrations present.",
+      "Clear tab navigation between Log in and Sign up.",
+      "Use of standard mobile platform login icons.",
+      "Primary button utilizes a prominent blue shade for conversion.",
+      "Password field includes a visibility toggle icon."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_social_06"
+}

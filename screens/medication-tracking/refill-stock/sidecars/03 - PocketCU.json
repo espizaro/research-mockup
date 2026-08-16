@@ -1,0 +1,268 @@
+{
+  "image": "03 - PocketCU.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for 'PocketCU', displaying a 'Hot Item Inventory Lookup' for specific convenience store locations in South Korea, showing availability of various 'Dubai' themed snacks.",
+    "ocr": {
+      "full_text": "09:41, 지역 또는 점포명으로 검색해 주세요, CU에서 만나요, 전체, 가까운순, 최근방문, 단골점포, 현재 보시는 재고는 실제 점포 재고와 상이할 수 있습니다. 현 위치 기반으로 1.0km 내 점포의 재고가 보입니다., 핫이슈 상품 재고조회, 홍대성산점 163m, 서울특별시 마포구 성미산로 55 B1층, 4종 중 1종 보유, 유라가)두바이쫀득찹쌀떡, 3,500 원, 3개 남음, 참조은)두바이쫀득초코, SOLD OUT, 3,200 원, 재고부족, 조이)두바이미니수건케익, SOLD OUT, 4,900 원, 재고부족, 조이)두바이초코브라우니, SOLD OUT, 3,900 원, 재고부족, 마포성제점 413m, 서울특별시 마포구 잔다리로 89 (서교동), PocketCU, curated by Mobbin",
+      "lines": [
+        {
+          "text": "09:41",
+          "language": "ko"
+        },
+        {
+          "text": "지역 또는 점포명으로 검색해 주세요",
+          "language": "ko"
+        },
+        {
+          "text": "CU에서 만나요",
+          "language": "ko"
+        },
+        {
+          "text": "전체",
+          "language": "ko"
+        },
+        {
+          "text": "가까운순",
+          "language": "ko"
+        },
+        {
+          "text": "최근방문",
+          "language": "ko"
+        },
+        {
+          "text": "단골점포",
+          "language": "ko"
+        },
+        {
+          "text": "현재 보시는 재고는 실제 점포 재고와 상이할 수 있습니다.",
+          "language": "ko"
+        },
+        {
+          "text": "현 위치 기반으로 1.0km 내 점포의 재고가 보입니다.",
+          "language": "ko"
+        },
+        {
+          "text": "핫이슈 상품 재고조회",
+          "language": "ko"
+        },
+        {
+          "text": "홍대성산점 163m",
+          "language": "ko"
+        },
+        {
+          "text": "서울특별시 마포구 성미산로 55 B1층",
+          "language": "ko"
+        },
+        {
+          "text": "4종 중 1종 보유",
+          "language": "ko"
+        },
+        {
+          "text": "유라가)두바이쫀득찹쌀떡",
+          "language": "ko"
+        },
+        {
+          "text": "3,500 원",
+          "language": "ko"
+        },
+        {
+          "text": "3개 남음",
+          "language": "ko"
+        },
+        {
+          "text": "참조은)두바이쫀득초코",
+          "language": "ko"
+        },
+        {
+          "text": "SOLD OUT",
+          "language": "en"
+        },
+        {
+          "text": "3,200 원",
+          "language": "ko"
+        },
+        {
+          "text": "재고부족",
+          "language": "ko"
+        },
+        {
+          "text": "조이)두바이미니수건케익",
+          "language": "ko"
+        },
+        {
+          "text": "SOLD OUT",
+          "language": "en"
+        },
+        {
+          "text": "4,900 원",
+          "language": "ko"
+        },
+        {
+          "text": "재고부족",
+          "language": "ko"
+        },
+        {
+          "text": "조이)두바이초코브라우니",
+          "language": "ko"
+        },
+        {
+          "text": "SOLD OUT",
+          "language": "en"
+        },
+        {
+          "text": "3,900 원",
+          "language": "ko"
+        },
+        {
+          "text": "재고부족",
+          "language": "ko"
+        },
+        {
+          "text": "마포성제점 413m",
+          "language": "ko"
+        },
+        {
+          "text": "서울특별시 마포구 잔다리로 89 (서교동)",
+          "language": "ko"
+        },
+        {
+          "text": "PocketCU",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "09:41"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "지역 또는 점포명으로 검색해 주세요"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "가까운순, 최근방문, 단골점포"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "현재 보시는 재고는 실제 점포 재고와 상이할 수 있습니다. 현 위치 기반으로 1.0km 내 점포의 재고가 보입니다."
+        },
+        {
+          "type": "title",
+          "reading_order": 5,
+          "text": "핫이슈 상품 재고조회"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 6,
+          "text": "홍대성산점 163m, 서울특별시 마포구 성미산로 55 B1층"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "유라가)두바이쫀득찹쌀떡 3,500 원 3개 남음, 참조은)두바이쫀득초코 3,200 원 재고부족, 조이)두바이미니수건케익 4,900 원 재고부족, 조이)두바이초코브라우니 3,900 원 재고부족"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 8,
+          "text": "마포성제점 413m, 서울특별시 마포구 잔다리로 89 (서교동)"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app inventory search page for a convenience store chain.",
+      "intent": "Check product availability in local convenience store branches.",
+      "entities": [
+        {
+          "name": "PocketCU",
+          "type": "Application",
+          "evidence": "Logo/text at bottom"
+        },
+        {
+          "name": "홍대성산점",
+          "type": "Convenience Store Branch",
+          "evidence": "Header text"
+        },
+        {
+          "name": "유라가)두바이쫀득찹쌀떡",
+          "type": "Product",
+          "evidence": "List item"
+        },
+        {
+          "name": "참조은)두바이쫀득초코",
+          "type": "Product",
+          "evidence": "List item"
+        },
+        {
+          "name": "조이)두바이미니수건케익",
+          "type": "Product",
+          "evidence": "List item"
+        },
+        {
+          "name": "조이)두바이초코브라우니",
+          "type": "Product",
+          "evidence": "List item"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "홍대성산점",
+          "predicate": "has product",
+          "object": "유라가)두바이쫀득찹쌀떡"
+        },
+        {
+          "subject": "참조은)두바이쫀득초코",
+          "predicate": "is in",
+          "object": "SOLD OUT status"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "green"
+      ],
+      "style": "Mobile UI, minimalist, clean",
+      "notes": [
+        "Uses standard Material/iOS style UI elements.",
+        "The search functionality is at the top.",
+        "Products are listed with prices and status markers."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:12.130Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.354,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1746,
+      "totalTokenCount": 2973,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

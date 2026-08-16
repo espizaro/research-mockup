@@ -1,0 +1,181 @@
+{
+  "image": "03 - Numo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application interface for a task management or productivity app named 'Numo', featuring a 'Today' dashboard with a list of daily routines.",
+    "ocr": {
+      "full_text": "9:41 Today Routines House Work Study Make breakfast Brush teeth 20:00 Begin my ADHD journey Create a social media plan Drink water 09:00 Home Teams Progress Discover Numo curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Today",
+          "language": "en"
+        },
+        {
+          "text": "Routines",
+          "language": "en"
+        },
+        {
+          "text": "House",
+          "language": "en"
+        },
+        {
+          "text": "Work",
+          "language": "en"
+        },
+        {
+          "text": "Study",
+          "language": "en"
+        },
+        {
+          "text": "Make breakfast",
+          "language": "en"
+        },
+        {
+          "text": "Brush teeth",
+          "language": "en"
+        },
+        {
+          "text": "20:00",
+          "language": "en"
+        },
+        {
+          "text": "Begin my ADHD journey",
+          "language": "en"
+        },
+        {
+          "text": "Create a social media plan",
+          "language": "en"
+        },
+        {
+          "text": "Drink water",
+          "language": "en"
+        },
+        {
+          "text": "09:00",
+          "language": "en"
+        },
+        {
+          "text": "Home",
+          "language": "en"
+        },
+        {
+          "text": "Teams",
+          "language": "en"
+        },
+        {
+          "text": "Progress",
+          "language": "en"
+        },
+        {
+          "text": "Discover",
+          "language": "en"
+        },
+        {
+          "text": "Numo",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Today"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Routines House Work Study"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Make breakfast"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Brush teeth 20:00 Begin my ADHD journey Create a social media plan Drink water 09:00"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Home Teams Progress Discover"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A screenshot of a mobile task-planning app 'Numo'.",
+      "intent": "To show the user interface for tracking daily tasks and productivity goals.",
+      "entities": [
+        {
+          "name": "Numo",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Brand"
+        },
+        {
+          "name": "Today",
+          "type": "Dashboard View"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Numo",
+          "predicate": "app curated by",
+          "object": "Mobbin"
+        },
+        {
+          "subject": "Today dashboard",
+          "predicate": "contains",
+          "object": "tasks"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "blue",
+        "cream",
+        "white"
+      ],
+      "style": "Mobile app UI, clean, flat, minimalist design.",
+      "notes": [
+        "The UI features a prominent blue header, cream-colored task cards, and a bottom navigation bar."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:28.388Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.81,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 856,
+      "totalTokenCount": 2083,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

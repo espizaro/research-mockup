@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Emergent",
+    "platform": "web",
+    "file_path": "screens/auth-login-desktop/05 - Emergent.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:47.886Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login and authentication screen",
+    "primary_flow": "auth-login-desktop",
+    "ux_intent": "User authentication for SaaS platform",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "The product illustration is a high-fidelity 2D UI mockup of a collaborative website builder.",
+      "The layout uses a split-screen design: authentication on the left, product value prop/demo on the right.",
+      "The style is clean, modern, and professional, characteristic of current developer tools."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Emergent",
+      "Y Combinator",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "SaaS Minimalist Modern",
+      "white",
+      "blue",
+      "black",
+      "grey",
+      "The product illustration is a high-fidelity 2D UI mockup of a collaborative website builder.",
+      "The layout uses a split-screen design: authentication on the left, product value prop/demo on the right.",
+      "The style is clean, modern, and professional, characteristic of current developer tools."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "SaaS Minimalist Modern"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_desktop_05"
+}

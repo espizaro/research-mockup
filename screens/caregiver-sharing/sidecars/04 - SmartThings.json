@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "SmartThings",
+    "platform": "ios",
+    "file_path": "screens/caregiver-sharing/04 - SmartThings.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:41.054Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application interface for device sharing management.",
+    "primary_flow": "caregiver-sharing",
+    "ux_intent": "Facilitate device access sharing via a QR code invitation.",
+    "ux_patterns": [
+      "Settings",
+      "Minimalist",
+      "Uses system status bar icons (top right).",
+      "Includes branding footer (bottom)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Samsung The Frame 55",
+      "SmartThings"
+    ],
+    "visual_keywords": [
+      "Mobile app UI, minimalist, clean, light theme.",
+      "white",
+      "black",
+      "light blue",
+      "Uses system status bar icons (top right).",
+      "Includes branding footer (bottom)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile app UI, minimalist, clean, light theme."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_caregiver_sharing_04"
+}

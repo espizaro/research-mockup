@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Bloom",
+    "platform": "ios",
+    "file_path": "screens/health-dashboard/mood-selector/03 - Bloom.webp",
+    "analyzed_timestamp": "2026-08-10T06:02:59.435Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI for mood and emotional logging.",
+    "primary_flow": "health-dashboard/mood-selector",
+    "ux_intent": "User is selecting their mood and current emotional state for a specific date.",
+    "ux_patterns": [
+      "Form",
+      "Calendar",
+      "Minimalist",
+      "Card",
+      "The layout uses card-based containers for sections.",
+      "The interface is clean and centered.",
+      "Emotion icons in the bottom row have partially obscured labels (only 8 of 12 are clearly labeled)."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Date",
+      "Mood Selector",
+      "Emotions Grid",
+      "Apply"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface with rounded iconography.",
+      "white",
+      "pale peach",
+      "muted green",
+      "soft yellow",
+      "dull rose",
+      "The layout uses card-based containers for sections.",
+      "The interface is clean and centered.",
+      "Emotion icons in the bottom row have partially obscured labels (only 8 of 12 are clearly labeled)."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface with rounded iconography."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_home_dashboard_mood_selector_03"
+}

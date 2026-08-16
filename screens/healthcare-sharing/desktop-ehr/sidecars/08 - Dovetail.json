@@ -1,0 +1,240 @@
+{
+  "image": "08 - Dovetail.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a project management or research application interface (Dovetail) displaying a document titled 'Mobile Banking App Research (User Interview)'. The interface shows a list of user research data in a table-like format and a sidebar with summarized insights categorized by topics.",
+    "ocr": {
+      "full_text": "Mobile Banking App Research (User Interview) - dovetail_20_in... Page 1\nDate, Participant, Age, Occupation, Question, Answer, Notes\n2025-01-01, Aiya, 29, Accountant, What is your most frequent activity in the mobile banking app?, The AI assistant gives irrelevant responses., Bill payment failure, usability:complex-navigation\n2025-01-04, Brandon, 34, Software Engineer, What is your most frequent activity in the mobile banking app?, The app freezing during transfers is really annoying., User confused by navigation, notifications:delayed\n2025-01-07, Chloe, 27, Marketing Specialist, Can you describe a recent negative experience using the app?, The app freezing during transfers is really annoying., Feature request: quick transfer, bill-payment:save-failure\n2025-01-10, Dimas, 31, Project Manager, What is your most frequent activity in the mobile banking app?, The saved accounts load too slowly., User reports slow performance, performance:slow-loading\n2025-01-13, Elena, 26, Graphic Designer, How often do you make transfers per week?, The app freezing during transfers is really annoying., Feature request: quick transfer, bill-payment:save-failure\n2025-01-16, Farhan, 30, Data Analyst, Can you describe a recent negative experience using the app?, User confused by navigation, performance:slow-loading\n2025-02-09, Nadia, 25, Operations Assistant, Which feature do you wish worked better?, I usually check balances and make money transfers., AI response irrelevance, bill-payment:save-failure\n2025-02-12, Oscar, 38, HR Manager, Which feature do you wish worked better?, Around 46 transfers per week., Auto-logout issue, reliability:auto-logout\n2025-02-18, Quinn, 30, Software Tester, What is your most frequent activity in the mobile banking app?, Around 4t save my internet bill details., User confused by navigation, notifications:delayed\n2025-02-27, Tara, 28, Nurse, Which feature do you wish worked better?, Last week the app logged me out while I was typing the amount., Auto-logout issue, bill-payment:save-failure\nDisplay\nCard\nSingle page\nFull document\nOpen\nDownload\nCopy link\nProperties\nRemove\nChat with Ibrahim_Finance Officer\nBy topics\nPerformance and technical issues\nApp performance issues, particularly during transfers, emerge as a major pain point with multiple users reporting app freezing and slow loading times.\nSlow loading of saved accounts and general performance issues impact core functionalities.\nNavigation and AI assistance\nUsers express frustration with complex navigation and irrelevant AI assistant responses.\nNavigation confusion appears as a recurring theme across different user roles.\nAccount management and authentication\nUsers report disruptive auto-logout issues during important transactions.\nMoney transfers and balance checking are identified as primary activities, but technical issues hinder smooth execution.",
+      "lines": [
+        {
+          "text": "Mobile Banking App Research (User Interview) - dovetail_20_in... Page 1",
+          "language": "en"
+        },
+        {
+          "text": "Date, Participant, Age, Occupation, Question, Answer, Notes",
+          "language": "en"
+        },
+        {
+          "text": "2025-01-01, Aiya, 29, Accountant, What is your most frequent activity in the mobile banking app?, The AI assistant gives irrelevant responses., Bill payment failure, usability:complex-navigation",
+          "language": "en"
+        },
+        {
+          "text": "2025-01-04, Brandon, 34, Software Engineer, What is your most frequent activity in the mobile banking app?, The app freezing during transfers is really annoying., User confused by navigation, notifications:delayed",
+          "language": "en"
+        },
+        {
+          "text": "2025-01-07, Chloe, 27, Marketing Specialist, Can you describe a recent negative experience using the app?, The app freezing during transfers is really annoying., Feature request: quick transfer, bill-payment:save-failure",
+          "language": "en"
+        },
+        {
+          "text": "2025-01-10, Dimas, 31, Project Manager, What is your most frequent activity in the mobile banking app?, The saved accounts load too slowly., User reports slow performance, performance:slow-loading",
+          "language": "en"
+        },
+        {
+          "text": "2025-01-13, Elena, 26, Graphic Designer, How often do you make transfers per week?, The app freezing during transfers is really annoying., Feature request: quick transfer, bill-payment:save-failure",
+          "language": "en"
+        },
+        {
+          "text": "2025-01-16, Farhan, 30, Data Analyst, Can you describe a recent negative experience using the app?, User confused by navigation, performance:slow-loading",
+          "language": "en"
+        },
+        {
+          "text": "2025-02-09, Nadia, 25, Operations Assistant, Which feature do you wish worked better?, I usually check balances and make money transfers., AI response irrelevance, bill-payment:save-failure",
+          "language": "en"
+        },
+        {
+          "text": "2025-02-12, Oscar, 38, HR Manager, Which feature do you wish worked better?, Around 46 transfers per week., Auto-logout issue, reliability:auto-logout",
+          "language": "en"
+        },
+        {
+          "text": "2025-02-18, Quinn, 30, Software Tester, What is your most frequent activity in the mobile banking app?, Around 4t save my internet bill details., User confused by navigation, notifications:delayed",
+          "language": "en"
+        },
+        {
+          "text": "2025-02-27, Tara, 28, Nurse, Which feature do you wish worked better?, Last week the app logged me out while I was typing the amount., Auto-logout issue, bill-payment:save-failure",
+          "language": "en"
+        },
+        {
+          "text": "Display Card Single page Full document Open Download Copy link Properties Remove",
+          "language": "en"
+        },
+        {
+          "text": "Chat with Ibrahim_Finance Officer",
+          "language": "en"
+        },
+        {
+          "text": "By topics",
+          "language": "en"
+        },
+        {
+          "text": "Performance and technical issues",
+          "language": "en"
+        },
+        {
+          "text": "App performance issues, particularly during transfers, emerge as a major pain point with multiple users reporting app freezing and slow loading times.",
+          "language": "en"
+        },
+        {
+          "text": "Slow loading of saved accounts and general performance issues impact core functionalities.",
+          "language": "en"
+        },
+        {
+          "text": "Navigation and AI assistance",
+          "language": "en"
+        },
+        {
+          "text": "Users express frustration with complex navigation and irrelevant AI assistant responses.",
+          "language": "en"
+        },
+        {
+          "text": "Navigation confusion appears as a recurring theme across different user roles.",
+          "language": "en"
+        },
+        {
+          "text": "Account management and authentication",
+          "language": "en"
+        },
+        {
+          "text": "Users report disruptive auto-logout issues during important transactions.",
+          "language": "en"
+        },
+        {
+          "text": "Money transfers and balance checking are identified as primary activities, but technical issues hinder smooth execution.",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Mobile Banking App Research (User Interview) - dovetail_20_in... Page 1"
+        },
+        {
+          "type": "table",
+          "reading_order": 2,
+          "text": "Date, Participant, Age, Occupation, Question, Answer, Notes table containing user interview responses"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Display context menu: Card, Single page, Full document, Open, Download, Copy link, Properties, Remove"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Sidebar with topics: Performance and technical issues, Navigation and AI assistance, Account management and authentication"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Software application interface for research and data management.",
+      "intent": "Display and analyze user research data related to mobile banking app issues.",
+      "entities": [
+        {
+          "name": "Dovetail",
+          "type": "Software Platform"
+        },
+        {
+          "name": "Mobile Banking App",
+          "type": "Subject of Research"
+        },
+        {
+          "name": "Aiya",
+          "type": "Participant"
+        },
+        {
+          "name": "Brandon",
+          "type": "Participant"
+        },
+        {
+          "name": "Chloe",
+          "type": "Participant"
+        },
+        {
+          "name": "Dimas",
+          "type": "Participant"
+        },
+        {
+          "name": "Elena",
+          "type": "Participant"
+        },
+        {
+          "name": "Farhan",
+          "type": "Participant"
+        },
+        {
+          "name": "Nadia",
+          "type": "Participant"
+        },
+        {
+          "name": "Oscar",
+          "type": "Participant"
+        },
+        {
+          "name": "Quinn",
+          "type": "Participant"
+        },
+        {
+          "name": "Tara",
+          "type": "Participant"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Participants",
+          "predicate": "report",
+          "object": "performance issues"
+        },
+        {
+          "subject": "Participants",
+          "predicate": "experience",
+          "object": "navigation confusion"
+        },
+        {
+          "subject": "Participants",
+          "predicate": "experience",
+          "object": "auto-logout issues"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "black"
+      ],
+      "style": "clean web application interface, minimalist design",
+      "notes": [
+        "The UI uses a two-column layout.",
+        "There is a modal-like pop-up open over the document area."
+      ]
+    },
+    "uncertainty": [
+      "The exact number in 'Around 4t save' for Quinn's note is unclear due to potential transcription error in the original document text."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:40.239Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 8.161,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 2380,
+      "totalTokenCount": 3587,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

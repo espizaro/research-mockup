@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Alan",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-benefits/01 - Alan.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:31.174Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding or feature showcase screen.",
+    "primary_flow": "auth-onboarding-benefits",
+    "ux_intent": "To inform users about the core value propositions of the health application.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Card",
+      "Carousel",
+      "The icons (book, checkmark) act as decorative visual anchors for each feature block.",
+      "The UI uses a card-like layout for testimonials.",
+      "The pagination dots at the bottom suggest a carousel interaction."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The pagination dots at the bottom suggest a carousel interaction."
+    ],
+    "content_blocks": [
+      "Mo",
+      "Anna"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat 3D illustration style, clean UI with generous white space.",
+      "white",
+      "light blue",
+      "soft pink",
+      "peach/orange",
+      "purple",
+      "The icons (book, checkmark) act as decorative visual anchors for each feature block.",
+      "The UI uses a card-like layout for testimonials.",
+      "The pagination dots at the bottom suggest a carousel interaction."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat 3D illustration style, clean UI with generous white space."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_benefits_01"
+}

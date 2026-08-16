@@ -1,0 +1,131 @@
+{
+  "image": "08 - CapWords.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image is a screenshot of a mobile application named 'CapWords' displaying an empty state screen on September 11. It prompts the user to take a photo to capture words.",
+    "ocr": {
+      "full_text": "9:41 Sep 11 1 Words Haven't snapped anything yet? Take a look around you! CapWords curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Sep 11",
+          "language": "en"
+        },
+        {
+          "text": "1 Words",
+          "language": "en"
+        },
+        {
+          "text": "Haven't snapped anything yet?",
+          "language": "en"
+        },
+        {
+          "text": "Take a look around you!",
+          "language": "en"
+        },
+        {
+          "text": "CapWords",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "other",
+          "reading_order": 1,
+          "text": "9:41"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Sep 11"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "1 Words"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Haven't snapped anything yet? Take a look around you!"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "CapWords curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app empty state screen",
+      "intent": "Prompt user to start capturing images",
+      "entities": [
+        {
+          "name": "CapWords",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        },
+        {
+          "name": "Date",
+          "type": "Sep 11",
+          "evidence": "Sep 11"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "CapWords",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "gray",
+        "multicolored"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "The background has a subtle dot grid pattern.",
+        "An icon resembling eyes is placed above the prompt text.",
+        "A colorful circular camera/shutter icon is at the bottom center."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:55.727Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.543,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 754,
+      "totalTokenCount": 1981,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

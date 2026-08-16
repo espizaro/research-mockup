@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Yazio",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/v2-checkin/06 - Yazio.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:33.943Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI for a fasting tracker",
+    "primary_flow": "daily-check-in/v2-checkin",
+    "ux_intent": "To track fasting windows and provide status updates on eating cycles.",
+    "ux_patterns": [
+      "Form",
+      "Profile",
+      "Minimalist",
+      "Card",
+      "Rounded corners on cards",
+      "Icon-based bottom navigation"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Icon-based bottom navigation"
+    ],
+    "content_blocks": [
+      "Yazio",
+      "Fasting Tracker",
+      "Fox"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile interface",
+      "white",
+      "sage green",
+      "dark olive",
+      "Rounded corners on cards",
+      "Icon-based bottom navigation"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_checkin_06"
+}

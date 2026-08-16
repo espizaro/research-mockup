@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Amazon Shopping",
+    "platform": "ios",
+    "file_path": "screens/auth-login-otp/05 - Amazon Shopping.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:33.797Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account verification screen on a mobile device.",
+    "primary_flow": "auth-login-otp",
+    "ux_intent": "To verify the user's phone number via a One Time Password (OTP).",
+    "ux_patterns": [
+      "Form",
+      "Search",
+      "Minimalist",
+      "The layout is minimalist and functional.",
+      "Primary brand color (Amazon yellow) is used for the primary CTA.",
+      "Footer content is densely packed with legal links.",
+      "Clear visual hierarchy with heading followed by input field and CTA.",
+      "No illustrative imagery; focuses on utility."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Clear visual hierarchy with heading followed by input field and CTA."
+    ],
+    "content_blocks": [
+      "Amazon",
+      "OTP Input Field",
+      "Verify Button"
+    ],
+    "visual_keywords": [
+      "Mobile Material/System UI Design",
+      "yellow",
+      "white",
+      "dark blue",
+      "The layout is minimalist and functional.",
+      "Primary brand color (Amazon yellow) is used for the primary CTA.",
+      "Footer content is densely packed with legal links.",
+      "Clear visual hierarchy with heading followed by input field and CTA.",
+      "No illustrative imagery; focuses on utility."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile Material/System UI Design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_otp_05"
+}

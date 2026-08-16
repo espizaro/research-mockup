@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Greptile",
+    "platform": "web",
+    "file_path": "screens/auth-login-desktop/02 - Greptile.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:45.825Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login / Authentication screen",
+    "primary_flow": "auth-login-desktop",
+    "ux_intent": "To facilitate user authentication via email or third-party SSO providers (GitHub, GitLab, Google).",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "The right-side graphic is a 3D abstract composition consisting of a vertical, cylindrical grid structure with floating, semi-transparent cubes containing spherical wireframe patterns.",
+      "The layout uses a split-screen design, common in modern SaaS product landing pages.",
+      "Visual hierarchy is clear, with the primary call-to-action (Login button) highlighted in a distinct brand green.",
+      "The design implies a high-tech/data-centric product based on the wireframe/grid aesthetic."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Visual hierarchy is clear, with the primary call-to-action (Login button) highlighted in a distinct brand green."
+    ],
+    "content_blocks": [
+      "Greptile",
+      "Mobbin",
+      "GitHub",
+      "GitLab",
+      "Google"
+    ],
+    "visual_keywords": [
+      "Minimalist, modern, tech-focused",
+      "hex FFFFFF",
+      "hex 5A67F2",
+      "hex 00E68A",
+      "The right-side graphic is a 3D abstract composition consisting of a vertical, cylindrical grid structure with floating, semi-transparent cubes containing spherical wireframe patterns.",
+      "The layout uses a split-screen design, common in modern SaaS product landing pages.",
+      "Visual hierarchy is clear, with the primary call-to-action (Login button) highlighted in a distinct brand green.",
+      "The design implies a high-tech/data-centric product based on the wireframe/grid aesthetic."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, modern, tech-focused"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_desktop_02"
+}

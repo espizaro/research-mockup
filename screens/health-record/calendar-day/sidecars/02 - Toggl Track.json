@@ -1,0 +1,194 @@
+{
+  "image": "02 - Toggl Track.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen showing a calendar-based time tracking interface, likely Toggl Track, for Thursday, April 25. The calendar displays time-blocked tasks such as 'creating moodboard' and 'file template & thumbnail' for 'job portal's design system'. There is an active input field at the bottom for starting a new task timer.",
+    "ocr": {
+      "full_text": "9:41 Calendar Thursday, Apr 25 7:04:36 M 22 T 23 W 24 T 25 F 26 S 27 S 28 7:00 AM 8:00 AM creating moodboard company website 9:00 AM 10:00 AM file template & thumbnail job portal’s design system file template & thumbnail job portal’s design system 11:00 AM 12:00 AM 3:09:48 $ 3:09:48 $ 1:00 PM 2:00 PM + Add favorite I'm working on... Toggl Track curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Calendar"
+        },
+        {
+          "text": "Thursday, Apr 25"
+        },
+        {
+          "text": "7:04:36"
+        },
+        {
+          "text": "M 22 T 23 W 24 T 25 F 26 S 27 S 28"
+        },
+        {
+          "text": "7:00 AM"
+        },
+        {
+          "text": "8:00 AM"
+        },
+        {
+          "text": "creating moodboard"
+        },
+        {
+          "text": "company website"
+        },
+        {
+          "text": "9:00 AM"
+        },
+        {
+          "text": "10:00 AM"
+        },
+        {
+          "text": "file template & thumbnail"
+        },
+        {
+          "text": "job portal's design system"
+        },
+        {
+          "text": "11:00 AM"
+        },
+        {
+          "text": "12:00 AM"
+        },
+        {
+          "text": "3:09:48 $"
+        },
+        {
+          "text": "3:09:48 $"
+        },
+        {
+          "text": "1:00 PM"
+        },
+        {
+          "text": "2:00 PM"
+        },
+        {
+          "text": "+ Add favorite"
+        },
+        {
+          "text": "I'm working on..."
+        },
+        {
+          "text": "Toggl Track"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Calendar"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Thursday, Apr 25"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "M 22 T 23 W 24 T 25 F 26 S 27 S 28"
+        },
+        {
+          "type": "table",
+          "reading_order": 4,
+          "text": "Time slots from 7:00 AM to 2:00 PM with event blocks."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "+ Add favorite"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "I'm working on..."
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "Toggl Track curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App interface for time management/tracking.",
+      "intent": "View scheduled tasks and potentially start a new time tracking timer.",
+      "entities": [
+        {
+          "name": "Toggl Track",
+          "type": "Application",
+          "evidence": "Label at bottom left"
+        },
+        {
+          "name": "April 25",
+          "type": "Date",
+          "evidence": "Header text"
+        },
+        {
+          "name": "company website",
+          "type": "Project",
+          "evidence": "Calendar event text"
+        },
+        {
+          "name": "job portal's design system",
+          "type": "Project",
+          "evidence": "Calendar event text"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "creating moodboard",
+          "predicate": "is associated with",
+          "object": "company website"
+        },
+        {
+          "subject": "file template & thumbnail",
+          "predicate": "is associated with",
+          "object": "job portal's design system"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#f8f2f2",
+        "#c4e6c3",
+        "#e9ed9c",
+        "#a855f7"
+      ],
+      "style": "Minimalist mobile app UI, soft color palette",
+      "notes": [
+        "The date 25 is highlighted with a purple circle.",
+        "Green blocks indicate completed or active time logs."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:40.214Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.076,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1182,
+      "totalTokenCount": 2409,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

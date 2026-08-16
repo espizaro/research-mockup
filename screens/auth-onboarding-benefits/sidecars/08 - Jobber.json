@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Jobber",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-benefits/08 - Jobber.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:39.229Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding screen",
+    "primary_flow": "auth-onboarding-benefits",
+    "ux_intent": "Explain the benefits of the Jobber software to a new user.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Card",
+      "The illustration is a central, abstract representation of notifications/activity feed cards.",
+      "The 'Next' button is a solid, high-contrast block, clearly indicating the primary action.",
+      "The UI uses a soft shadow effect for the floating cards to create depth."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The 'Next' button is a solid, high-contrast block, clearly indicating the primary action."
+    ],
+    "content_blocks": [
+      "Jobber",
+      "Jordan",
+      "Sarah"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, professional SaaS UI",
+      "white",
+      "dark green",
+      "yellow",
+      "The illustration is a central, abstract representation of notifications/activity feed cards.",
+      "The 'Next' button is a solid, high-contrast block, clearly indicating the primary action.",
+      "The UI uses a soft shadow effect for the floating cards to create depth."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, professional SaaS UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_benefits_08"
+}

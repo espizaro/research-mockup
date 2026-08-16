@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "Ultrahuman",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-quiz/07 - Ultrahuman.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:52.493Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding/questionnaire screen",
+    "primary_flow": "auth-onboarding-quiz",
+    "ux_intent": "User is selecting a primary goal for the service",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "No hero illustration; the background is a decorative aesthetic choice.",
+      "The UI uses a clear selection state for the chosen option (check icon and specific highlight).",
+      "Accessibility check: The color contrast of white text on the magenta/purple gradient is acceptable, but might be borderline depending on the specific saturation levels."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Ultrahuman M1",
+      "Lose Weight"
+    ],
+    "visual_keywords": [
+      "Modern mobile UI with a smooth linear or radial gradient background. High contrast white text for readability against the vivid, warm-to-cool spectrum background.",
+      "purple",
+      "magenta",
+      "orange",
+      "white",
+      "No hero illustration; the background is a decorative aesthetic choice.",
+      "The UI uses a clear selection state for the chosen option (check icon and specific highlight).",
+      "Accessibility check: The color contrast of white text on the magenta/purple gradient is acceptable, but might be borderline depending on the specific saturation levels."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile UI with a smooth linear or radial gradient background. High contrast white text for readability against the vivid, warm-to-cool spectrum background."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_quiz_07"
+}

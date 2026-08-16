@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Deliveroo",
+    "platform": "ios",
+    "file_path": "screens/auth-welcome-illustrated/04 - Deliveroo.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:28.886Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI, specifically an empty state screen for a loyalty program.",
+    "primary_flow": "auth-welcome-illustrated",
+    "ux_intent": "Educate the user on how to initiate reward tracking and indicate current status (none found).",
+    "ux_patterns": [
+      "Form",
+      "Empty State",
+      "Minimalist",
+      "Card",
+      "Hero illustration is a 2D stylized vector graphic depicting a hand holding a reward card. It acts as an anchor for the empty state.",
+      "The UI uses significant negative space to draw focus to the core message.",
+      "The primary interaction is instructional, leading to a potential CTA link (How does Rewards work?).",
+      "Consistent use of teal as an accent color for branding and links."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The primary interaction is instructional, leading to a potential CTA link (How does Rewards work?)."
+    ],
+    "content_blocks": [
+      "Deliveroo",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat design, clean interface, card-based illustration style",
+      "white",
+      "dark purple",
+      "teal",
+      "Hero illustration is a 2D stylized vector graphic depicting a hand holding a reward card. It acts as an anchor for the empty state.",
+      "The UI uses significant negative space to draw focus to the core message.",
+      "The primary interaction is instructional, leading to a potential CTA link (How does Rewards work?).",
+      "Consistent use of teal as an accent color for branding and links."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat design, clean interface, card-based illustration style"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_welcome_illustrated_04"
+}

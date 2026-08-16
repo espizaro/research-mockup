@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Strava",
+    "platform": "ios",
+    "file_path": "screens/onboarding-welcome/06 - Strava.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:43.846Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen of a fitness tracking mobile application.",
+    "primary_flow": "onboarding-welcome",
+    "ux_intent": "User acquisition and onboarding to encourage sign-up or log-in by highlighting community scale.",
+    "ux_patterns": [
+      "Onboarding",
+      "Hero image is a full-bleed photograph covering the entire screen background.",
+      "Text is white with a dark gradient overlay at the bottom to ensure readability.",
+      "The CTA button is a prominent high-saturation orange.",
+      "Visual style emphasizes community, health, and outdoor activity."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The CTA button is a prominent high-saturation orange."
+    ],
+    "content_blocks": [
+      "Strava",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Photographic, modern mobile UI design with high-contrast text overlay.",
+      "orange",
+      "white",
+      "navy blue",
+      "light blue",
+      "Hero image is a full-bleed photograph covering the entire screen background.",
+      "Text is white with a dark gradient overlay at the bottom to ensure readability.",
+      "The CTA button is a prominent high-saturation orange.",
+      "Visual style emphasizes community, health, and outdoor activity."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Photographic, modern mobile UI design with high-contrast text overlay."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_welcome_06"
+}

@@ -1,0 +1,147 @@
+{
+  "image": "02 - Flo.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot from the Flo mobile application displaying a health report titled 'Patterns of your body'. It identifies a recurring pattern of users logging 'headache' during days 1-5 of their menstrual cycle, illustrated across several months of data.",
+    "ocr": {
+      "full_text": "9:41 Patterns of your body You regularly logged headache on day 1-5 of your cycle. PATTERN CURRENT CYCLE: Mar 1 - Mar 30 Headache Feb 1 - Feb 29 Headache Jan 1 - Jan 31 Headache Dec 1, 2023 - Dec 31, 2023 Headache Nov 1, 2023 - Nov 30, 2023 Headache Flo curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Patterns of your body"
+        },
+        {
+          "text": "You regularly logged headache on day 1-5"
+        },
+        {
+          "text": "of your cycle."
+        },
+        {
+          "text": "PATTERN"
+        },
+        {
+          "text": "CURRENT CYCLE: Mar 1 - Mar 30"
+        },
+        {
+          "text": "Headache"
+        },
+        {
+          "text": "Feb 1 - Feb 29"
+        },
+        {
+          "text": "Headache"
+        },
+        {
+          "text": "Jan 1 - Jan 31"
+        },
+        {
+          "text": "Headache"
+        },
+        {
+          "text": "Dec 1, 2023 - Dec 31, 2023"
+        },
+        {
+          "text": "Headache"
+        },
+        {
+          "text": "Nov 1, 2023 - Nov 30, 2023"
+        },
+        {
+          "text": "Headache"
+        },
+        {
+          "text": "Flo"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Patterns of your body"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "You regularly logged headache on day 1-5 of your cycle."
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "CURRENT CYCLE: Mar 1 - Mar 30, Feb 1 - Feb 29, Jan 1 - Jan 31, Dec 1, 2023 - Dec 31, 2023, Nov 1, 2023 - Nov 30, 2023"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app health tracking dashboard.",
+      "intent": "To inform the user about a detected health symptom pattern related to their menstrual cycle.",
+      "entities": [
+        {
+          "name": "Flo",
+          "type": "Application"
+        },
+        {
+          "name": "Headache",
+          "type": "Symptom"
+        },
+        {
+          "name": "Menstrual cycle",
+          "type": "Biological process"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "logs",
+          "object": "headache"
+        },
+        {
+          "subject": "Headache",
+          "predicate": "occurs on",
+          "object": "days 1-5 of cycle"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "pink",
+        "teal",
+        "grey"
+      ],
+      "style": "Minimalist UI, mobile dashboard with data visualization timelines.",
+      "notes": [
+        "Uses a vertical pink band to highlight the 'days 1-5' window across all months."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:33.674Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.816,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 867,
+      "totalTokenCount": 2094,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

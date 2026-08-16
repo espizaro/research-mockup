@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Tolan",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-characters/03 - Tolan.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:02.917Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding or introductory mobile screen featuring a mascot character.",
+    "primary_flow": "auth-onboarding-characters",
+    "ux_intent": "To introduce the user to the Tolan character and set the friendly tone of the app.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "The Tolan character is a 3D mascot with a yellow body, orange limbs, and a cyan neck accessory.",
+      "The background is a dark blue with a subtle, multicolored point-pattern or texture.",
+      "The UI is minimal, focused on the central character illustration.",
+      "Text is white, sans-serif, and centered over the character's body."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Tolan",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "3D character illustration, playful, clean UI.",
+      "yellow",
+      "orange",
+      "cyan",
+      "dark blue",
+      "The Tolan character is a 3D mascot with a yellow body, orange limbs, and a cyan neck accessory.",
+      "The background is a dark blue with a subtle, multicolored point-pattern or texture.",
+      "The UI is minimal, focused on the central character illustration.",
+      "Text is white, sans-serif, and centered over the character's body."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "3D character illustration, playful, clean UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_characters_03"
+}

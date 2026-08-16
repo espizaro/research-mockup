@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "WHOOP",
+    "platform": "ios",
+    "file_path": "screens/onboarding-welcome/07 - WHOOP.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:44.104Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding screen showing a lifestyle image and value proposition text for a fitness tracker.",
+    "primary_flow": "onboarding-welcome",
+    "ux_intent": "Explain the value proposition of the WHOOP fitness tracking system to a new user.",
+    "ux_patterns": [
+      "Form",
+      "Slider",
+      "Progress",
+      "Onboarding",
+      "Dark Mode",
+      "Carousel",
+      "The hero image features a real-world photograph of an athlete, which reinforces the fitness-focused message.",
+      "The blue circular progress/data element provides visual interest and highlights the focus on metric tracking.",
+      "The typography is clean, sans-serif, and white, ensuring high readability against the dark background.",
+      "A bottom pagination indicator is present, suggesting this is one screen of several in a slider/carousel flow."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Slider"
+    ],
+    "content_blocks": [
+      "WHOOP",
+      "16.8",
+      "CONTINUE"
+    ],
+    "visual_keywords": [
+      "Dark mode interface with a high-contrast, professional, and athletic photography aesthetic.",
+      "black",
+      "blue",
+      "white",
+      "The hero image features a real-world photograph of an athlete, which reinforces the fitness-focused message.",
+      "The blue circular progress/data element provides visual interest and highlights the focus on metric tracking.",
+      "The typography is clean, sans-serif, and white, ensuring high readability against the dark background.",
+      "A bottom pagination indicator is present, suggesting this is one screen of several in a slider/carousel flow."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode interface with a high-contrast, professional, and athletic photography aesthetic."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_welcome_07"
+}

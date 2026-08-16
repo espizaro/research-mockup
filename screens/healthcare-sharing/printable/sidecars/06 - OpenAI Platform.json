@@ -1,0 +1,196 @@
+{
+  "image": "06 - OpenAI Platform.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a dashboard view of the OpenAI Platform website, showing an 'External Data Eval' page with evaluation run results, test criteria, and configuration settings.",
+    "ocr": {
+      "full_text": "ASMobbin / Default project Dashboard API Docs A Create Chat Agent Builder Audio Images Videos Assistants Manage Usage API keys ChatGPT Apps Logs Storage Batches Optimize Evaluation Fine-tuning < External Data Eval Report Data Runs Run Score String check grader Trip Planning.csv 100% 100% Test criteria Q String check grader Check for exact or partial matches against a reference value. + Add criteria + Add run Configuration Created Feb 26, 2026, 10:20 AM Data source Custom Evaluation ID eval_699fbc194434... Data sharing Share your evaluation and fine-tuning data with OpenAI to get 7 free weekly evals. Learn more No, thanks Share Metadata No metadata entries Item schema { \"type\": \"object\", \"properties\": { \"num_days\": { \"type\": \"string\" }, \"city\": { \"type\": \"string\" }, \"prompt_1_input\": { \"type\": \"string\" }, \"prompt_1_output\": { \"type\": \"string\" } }, \"required\": [ \"city\", \"num_days\", \"prompt_1_input\", OpenAI Platform curated by Mobbin",
+      "lines": [
+        {
+          "text": "ASMobbin / Default project Dashboard API Docs A"
+        },
+        {
+          "text": "Create Chat Agent Builder Audio Images Videos Assistants Manage Usage API keys ChatGPT Apps Logs Storage Batches Optimize Evaluation Fine-tuning"
+        },
+        {
+          "text": "< External Data Eval Report Data"
+        },
+        {
+          "text": "+ Add run"
+        },
+        {
+          "text": "Runs"
+        },
+        {
+          "text": "Run Score String check grader"
+        },
+        {
+          "text": "Trip Planning.csv 100% 100%"
+        },
+        {
+          "text": "Test criteria"
+        },
+        {
+          "text": "Q String check grader"
+        },
+        {
+          "text": "Check for exact or partial matches against a reference value."
+        },
+        {
+          "text": "+ Add criteria"
+        },
+        {
+          "text": "Configuration"
+        },
+        {
+          "text": "Created Feb 26, 2026, 10:20 AM"
+        },
+        {
+          "text": "Data source Custom"
+        },
+        {
+          "text": "Evaluation ID eval_699fbc194434..."
+        },
+        {
+          "text": "Data sharing"
+        },
+        {
+          "text": "Share your evaluation and fine-tuning data with OpenAI to get 7 free weekly evals."
+        },
+        {
+          "text": "Learn more No, thanks Share"
+        },
+        {
+          "text": "Metadata"
+        },
+        {
+          "text": "No metadata entries"
+        },
+        {
+          "text": "Item schema"
+        },
+        {
+          "text": "{ \"type\": \"object\", \"properties\": { \"num_days\": { \"type\": \"string\" }, \"city\": { \"type\": \"string\" }, \"prompt_1_input\": { \"type\": \"string\" }, \"prompt_1_output\": { \"type\": \"string\" } }, \"required\": [ \"city\", \"num_days\", \"prompt_1_input\","
+        },
+        {
+          "text": "OpenAI Platform curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "External Data Eval"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Runs"
+        },
+        {
+          "type": "table",
+          "reading_order": 3,
+          "text": "Trip Planning.csv 100% 100%"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Test criteria"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "String check grader. Check for exact or partial matches against a reference value."
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Configuration: Created Feb 26, 2026, 10:20 AM, Data source Custom, Evaluation ID eval_699fbc194434..."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Item schema: { \"type\": \"object\", \"properties\": { \"num_days\": { \"type\": \"string\" }, \"city\": { \"type\": \"string\" }, \"prompt_1_input\": { \"type\": \"string\" }, \"prompt_1_output\": { \"type\": \"string\" } }, \"required\": [ \"city\", \"num_days\", \"prompt_1_input\" ] }"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "SaaS dashboard interface for evaluating AI data models.",
+      "intent": "Displaying and managing evaluation test results for a data project.",
+      "entities": [
+        {
+          "name": "ASMobbin",
+          "type": "Platform"
+        },
+        {
+          "name": "OpenAI Platform",
+          "type": "Service"
+        },
+        {
+          "name": "Trip Planning.csv",
+          "type": "Data file"
+        },
+        {
+          "name": "String check grader",
+          "type": "Test criterion"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trip Planning.csv",
+          "predicate": "has score",
+          "object": "100%"
+        },
+        {
+          "subject": "Configuration",
+          "predicate": "contains",
+          "object": "Created date"
+        },
+        {
+          "subject": "Item schema",
+          "predicate": "describes",
+          "object": "Data format"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light gray",
+        "dark gray"
+      ],
+      "style": "clean web application interface, minimalist design, high contrast",
+      "notes": [
+        "Monospaced font used for code block",
+        "Navigation bar on left, main content in center, configuration panel on right"
+      ]
+    },
+    "uncertainty": [
+      "The bottom of the item schema is cut off in the screenshot."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:10.532Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.905,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1336,
+      "totalTokenCount": 2543,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

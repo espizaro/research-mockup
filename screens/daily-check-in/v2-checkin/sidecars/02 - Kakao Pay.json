@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Kakao Pay",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/v2-checkin/02 - Kakao Pay.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:07.963Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application interface for a daily attendance or check-in reward program.",
+    "primary_flow": "daily-check-in/v2-checkin",
+    "ux_intent": "To encourage the user to click the attendance button and engage with the daily reward system.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "The UI uses a light blue background for a friendly atmosphere.",
+      "The attendance tracker path is indicated by a dashed line.",
+      "The primary call-to-action is a large, high-contrast yellow button at the bottom."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The primary call-to-action is a large, high-contrast yellow button at the bottom."
+    ],
+    "content_blocks": [
+      "Chun-sik",
+      "A.P.C.",
+      "Musinsa"
+    ],
+    "visual_keywords": [
+      "clean, minimalist mobile app design with rounded buttons and cute character illustrations",
+      "light blue",
+      "white",
+      "yellow",
+      "The UI uses a light blue background for a friendly atmosphere.",
+      "The attendance tracker path is indicated by a dashed line.",
+      "The primary call-to-action is a large, high-contrast yellow button at the bottom."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean, minimalist mobile app design with rounded buttons and cute character illustrations"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_checkin_02"
+}

@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "timespent",
+    "platform": "ios",
+    "file_path": "screens/calendar-browse/02 - timespent.webp",
+    "analyzed_timestamp": "2026-08-11T22:28:25.123Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application user interface for tracking reading habits.",
+    "primary_flow": "calendar-browse",
+    "ux_intent": "To view reading activity history and a monthly calendar.",
+    "ux_patterns": [
+      "Form",
+      "Calendar",
+      "Chart",
+      "Dark Mode",
+      "Minimalist",
+      "The calendar highlights July 2025. The navigation bar uses a dark mode selection style for 'Activities'."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Table",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "The calendar highlights July 2025. The navigation bar uses a dark mode selection style for 'Activities'."
+    ],
+    "content_blocks": [
+      "timespent",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app UI design.",
+      "white",
+      "black",
+      "light gray",
+      "light tan",
+      "The calendar highlights July 2025. The navigation bar uses a dark mode selection style for 'Activities'."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_calendar_browse_02"
+}

@@ -1,0 +1,45 @@
+{
+  "identification": {
+    "app_name": "Grab",
+    "platform": "ios",
+    "file_path": "screens/sos/04 - Grab.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:28.336Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app ride-hailing interface.",
+    "primary_flow": "sos",
+    "ux_intent": "User is checking safety tools while waiting for a ride.",
+    "ux_patterns": [
+      "Form",
+      "Profile",
+      "Card",
+      "The text 'Car Stan...' and driver profile photo are partially obscured."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Grab",
+      "Lazada",
+      "AION Y Plus",
+      "Teras Kota BSD"
+    ],
+    "visual_keywords": [
+      "Modern UI/UX design with overlays and cards.",
+      "white",
+      "green",
+      "pink",
+      "black",
+      "The text 'Car Stan...' and driver profile photo are partially obscured."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern UI/UX design with overlays and cards."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_sos_04"
+}

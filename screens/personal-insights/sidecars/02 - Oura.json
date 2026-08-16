@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Oura",
+    "platform": "ios",
+    "file_path": "screens/personal-insights/02 - Oura.webp",
+    "analyzed_timestamp": "2026-08-05T19:47:32.328Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app health tracking dashboard",
+    "primary_flow": "personal-insights",
+    "ux_intent": "Educate user on HRV and heart rate trends for recovery tracking",
+    "ux_patterns": [
+      "Chart",
+      "Dark Mode",
+      "Minimalist",
+      "Two charts present: one for resting heart rate (partially visible) and one for HRV",
+      "Blue gradient area under the line chart"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Oura",
+      "HRV"
+    ],
+    "visual_keywords": [
+      "Dark mode UI, minimalist",
+      "black",
+      "blue",
+      "white",
+      "Two charts present: one for resting heart rate (partially visible) and one for HRV",
+      "Blue gradient area under the line chart"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode UI, minimalist"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_insights_02"
+}

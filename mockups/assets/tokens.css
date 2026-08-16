@@ -1,0 +1,190 @@
+/* =============================================================================
+   Research Mockup - Starter Design Tokens (light & dark)
+
+   A neutral, industry-grade starting point implementing the Design Foundation
+   (core/foundation/DESIGN-FOUNDATION.md). Adopted automatically when the project
+   does not bring its own token file. Components use semantic tokens only.
+   ============================================================================= */
+
+:root {
+  /* 1. Primitives - never use directly in components */
+  --primitive-white: #ffffff;
+  --primitive-ink: #101418;
+  --primitive-slate-50: #f6f7f8;
+  --primitive-slate-100: #eef0f2;
+  --primitive-slate-200: #e2e5e9;
+  --primitive-slate-300: #cdd2d9;
+  --primitive-slate-400: #9aa3ae;
+  --primitive-slate-500: #67717e;
+  --primitive-slate-700: #3b434e;
+  --primitive-slate-900: #20262e;
+  --primitive-blue-500: #2f6fed;
+  --primitive-blue-600: #2359c8;
+  --primitive-blue-100: #e3edff;
+  --primitive-red-600: #c0392b;
+  --primitive-green-600: #1e7d4f;
+  --primitive-amber-600: #b26a00;
+
+  /* 2. Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* 3. Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 999px;
+
+  /* 4. Typography */
+  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  --text-display: clamp(2.25rem, 5vw + 1rem, 3rem);
+  --text-title: clamp(1.5rem, 2vw + 0.75rem, 1.75rem);
+  --text-headline: 1.125rem;
+  --text-body: 1rem;
+  --text-label: 0.875rem;
+  --text-eyebrow: 0.6875rem;
+  --leading-display: 1.1;
+  --leading-title: 1.2;
+  --leading-body: 1.45;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --tracking-eyebrow: 0.06em;
+
+  /* 5. Motion (M3 Expressive) */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasized: cubic-bezier(0.2, 0, 0, 1);
+  --ease-accelerate: cubic-bezier(0.3, 0, 1, 1);
+  --ease-decelerate: cubic-bezier(0, 0, 0, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+  --press-scale: 0.97;
+
+  /* 6. Layout */
+  --mobile-nav-height: 64px;
+  --content-max-width: 720px;
+  --tap-target-min: 44px;
+
+  /* 7. Semantic tokens - light (the contract components consume) */
+  --color-bg: var(--primitive-white);
+  --color-bg-sunken: var(--primitive-slate-50);
+  --color-surface: var(--primitive-white);
+  --color-surface-muted: var(--primitive-slate-100);
+  --color-primary: var(--primitive-blue-500);
+  --color-primary-strong: var(--primitive-blue-600);
+  --color-primary-soft: var(--primitive-blue-100);
+  --color-on-primary: var(--primitive-white);
+  --color-text: var(--primitive-ink);
+  --color-text-secondary: var(--primitive-slate-500);
+  --color-text-tertiary: var(--primitive-slate-400);
+  --color-text-inverse: var(--primitive-white);
+  --color-border: var(--primitive-slate-200);
+  --color-focus: var(--primitive-blue-500);
+  --color-success: var(--primitive-green-600);
+  --color-warning: var(--primitive-amber-600);
+  --color-danger: var(--primitive-red-600);
+  --color-sunken-divider: rgba(16, 20, 24, 0.06);
+  --shadow-fab: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+html.app-dark {
+  --color-bg: var(--primitive-slate-900);
+  --color-bg-sunken: #191f27;
+  --color-surface: var(--primitive-slate-900);
+  --color-surface-muted: var(--primitive-slate-700);
+  --color-primary: #7ba4f5;
+  --color-primary-strong: #9cbcf8;
+  --color-primary-soft: #25334d;
+  --color-text: #f2f4f7;
+  --color-text-secondary: var(--primitive-slate-300);
+  --color-text-tertiary: var(--primitive-slate-400);
+  --color-border: var(--primitive-slate-700);
+  --color-sunken-divider: rgba(255, 255, 255, 0.06);
+  --shadow-fab: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+/* =============================================================================
+   Studio engine compatibility aliases
+   The shared engine (mockups/assets/base.css) reads these names. They map onto
+   the semantic tokens above so the starter kit works without changes.
+   ============================================================================= */
+:root {
+  --color-surface-raised: #ffffff;
+  --color-bottom-sheet-bg: #ffffff;
+  --color-btn-secondary-bg: var(--primitive-slate-100);
+  --color-divider: rgba(16, 20, 24, 0.06);
+  --color-border-focus: var(--primitive-blue-500);
+  --color-border-strong: var(--primitive-slate-400);
+  --color-input-bg: var(--primitive-slate-50);
+  --color-input-border: var(--primitive-slate-200);
+  --color-input-text: var(--primitive-ink);
+  --color-input-placeholder: var(--primitive-slate-400);
+  --color-nav-bg: #ffffff;
+  --color-nav-border: rgba(16, 20, 24, 0.06);
+  --color-nav-item-text: var(--primitive-slate-500);
+  --color-primary-600: var(--primitive-blue-600);
+  --color-hover: rgba(16, 20, 24, 0.05);
+  --color-scrim: rgba(16, 20, 24, 0.4);
+  --color-success-soft: #e3f4ea;
+  --color-warning-soft: #fbf0dc;
+  --color-error-soft: #fbe4e1;
+  --color-error: var(--primitive-red-600);
+  --color-trace-soft-purple: #eeeafd;
+  --primitive-ai-purple: #7c5cf0;
+  --color-text-on-primary: var(--primitive-white);
+
+  --radius-2xl: 24px;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-sans: var(--font-ui);
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+  --tracking-tight: -0.01em;
+  --tracking-title: -0.02em;
+  --tracking-wider: 0.05em;
+
+  --duration-normal: var(--duration-base);
+  --duration-slower: 450ms;
+  --ease-default: var(--ease-standard);
+  --ease-out: var(--ease-decelerate);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-all: all var(--duration-base) var(--ease-standard);
+  --transition-colors: background-color var(--duration-fast) var(--ease-standard),
+    color var(--duration-fast) var(--ease-standard), border-color var(--duration-fast) var(--ease-standard);
+  --z-overlay: 40;
+}
+
+html.app-dark {
+  --color-surface-raised: var(--primitive-slate-700);
+  --color-bottom-sheet-bg: var(--primitive-slate-900);
+  --color-btn-secondary-bg: var(--primitive-slate-700);
+  --color-divider: rgba(255, 255, 255, 0.06);
+  --color-input-bg: var(--primitive-slate-700);
+  --color-input-border: var(--primitive-slate-500);
+  --color-nav-bg: var(--primitive-slate-900);
+  --color-nav-border: rgba(255, 255, 255, 0.06);
+  --color-nav-item-text: var(--primitive-slate-300);
+  --color-hover: rgba(255, 255, 255, 0.06);
+  --color-scrim: rgba(0, 0, 0, 0.55);
+  --color-success-soft: #17342a;
+  --color-warning-soft: #3a2d16;
+  --color-error-soft: #3b211e;
+  --color-trace-soft-purple: #2b2747;
+}

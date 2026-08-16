@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Runna",
+    "platform": "ios",
+    "file_path": "screens/onboarding/12 - Runna.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:38.090Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding process screen for a mobile application.",
+    "primary_flow": "onboarding",
+    "ux_intent": "To greet the user and build rapport via a mascot character after personalization.",
+    "ux_patterns": [
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "Central hero character is a mascot, serving to add personality and delight.",
+      "The layout follows a progressive disclosure pattern.",
+      "Clean, high-contrast typography.",
+      "The character acts as a non-verbal emotional anchor, reinforcing the friendly tone."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Progress Bar"
+    ],
+    "content_blocks": [
+      "Alex",
+      "Yazio"
+    ],
+    "visual_keywords": [
+      "Modern, flat UI with character-driven illustration.",
+      "white",
+      "teal",
+      "cyan",
+      "light-grey",
+      "Central hero character is a mascot, serving to add personality and delight.",
+      "The layout follows a progressive disclosure pattern.",
+      "Clean, high-contrast typography.",
+      "The character acts as a non-verbal emotional anchor, reinforcing the friendly tone."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern, flat UI with character-driven illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_12"
+}

@@ -1,0 +1,178 @@
+{
+  "image": "07 - Hotjar.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a digital survey report interface from Hotjar showing analysis for 'New survey 1', highlighting mixed user feedback, general satisfaction, and suggestions for improvements like better guidance.",
+    "ocr": {
+      "full_text": "x Survey report BETA AI Survey report: New survey 1 Data from June 4, 11:16 to June 11, 11:39 Jane Smith · June 11, 11:39 Share Summary The survey gathered mixed responses, indicating general satisfaction with some areas for improvement suggested. Findings • Overall, users are relatively satisfied with the current state, but there are opportunities for enhancement. • Several respondents appreciate the recent updates and find the system easy to use. • There is a desire among some users for more guided tutorials to better navigate changes. • Some resistance towards participating in surveys was noted, indicating potential survey fatigue or communication issues. Quotes \"It's not bad but can be better\" Hotjar curated by Mobbin Rate your experience",
+      "lines": [
+        {
+          "text": "x Survey report BETA"
+        },
+        {
+          "text": "AI"
+        },
+        {
+          "text": "Survey report: New survey 1"
+        },
+        {
+          "text": "Data from June 4, 11:16 to June 11, 11:39"
+        },
+        {
+          "text": "Jane Smith · June 11, 11:39 Share"
+        },
+        {
+          "text": "Summary"
+        },
+        {
+          "text": "The survey gathered mixed responses, indicating general satisfaction with some areas for improvement suggested."
+        },
+        {
+          "text": "Findings"
+        },
+        {
+          "text": "• Overall, users are relatively satisfied with the current state, but there are opportunities for enhancement."
+        },
+        {
+          "text": "• Several respondents appreciate the recent updates and find the system easy to use."
+        },
+        {
+          "text": "• There is a desire among some users for more guided tutorials to better navigate changes."
+        },
+        {
+          "text": "• Some resistance towards participating in surveys was noted, indicating potential survey fatigue or communication issues."
+        },
+        {
+          "text": "Quotes"
+        },
+        {
+          "text": "\"It's not bad but can be better\""
+        },
+        {
+          "text": "Hotjar"
+        },
+        {
+          "text": "curated by Mobbin"
+        },
+        {
+          "text": "Rate your experience"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Survey report: New survey 1"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Data from June 4, 11:16 to June 11, 11:39"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Summary"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "The survey gathered mixed responses, indicating general satisfaction with some areas for improvement suggested."
+        },
+        {
+          "type": "title",
+          "reading_order": 5,
+          "text": "Findings"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "• Overall, users are relatively satisfied with the current state, but there are opportunities for enhancement. • Several respondents appreciate the recent updates and find the system easy to use. • There is a desire among some users for more guided tutorials to better navigate changes. • Some resistance towards participating in surveys was noted, indicating potential survey fatigue or communication issues."
+        },
+        {
+          "type": "title",
+          "reading_order": 7,
+          "text": "Quotes"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "\"It's not bad but can be better\""
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A survey analytics software dashboard displayed on a screen.",
+      "intent": "Presenting summary results and findings from a user feedback survey.",
+      "entities": [
+        {
+          "name": "Hotjar",
+          "type": "Product",
+          "evidence": "Logo at bottom left"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization",
+          "evidence": "Footer text"
+        },
+        {
+          "name": "Jane Smith",
+          "type": "Person",
+          "evidence": "Author name"
+        },
+        {
+          "name": "New survey 1",
+          "type": "Survey",
+          "evidence": "Report title"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hotjar",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        },
+        {
+          "subject": "Jane Smith",
+          "predicate": "authored",
+          "object": "Survey report"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "dark gray"
+      ],
+      "style": "clean web dashboard interface",
+      "notes": [
+        "UI elements include a 'Share' button and a 'Rate your experience' sidebar."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:19.038Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.071,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1141,
+      "totalTokenCount": 2348,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

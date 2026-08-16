@@ -1,0 +1,155 @@
+{
+  "image": "01 - Retool.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows the Retool development interface, displaying a web application builder with a 'Hello Sam!' dashboard, data tables, and an 'Add transaction' form component.",
+    "ocr": {
+      "full_text": "Hello Sam! Date Month Year Fishermen Commodity Quantity Price/Kg Total Pri... 1,779 results Save Add transaction Date * Dec 6, 2024 Month * Select an option Year * 0 Fishermen * Enter value Commodity * Retool curated by Mobbin",
+      "lines": [
+        {
+          "text": "Hello Sam!"
+        },
+        {
+          "text": "Date Month Year Fishermen Commodity Quantity Price/Kg Total Pri"
+        },
+        {
+          "text": "1,779 results"
+        },
+        {
+          "text": "Save"
+        },
+        {
+          "text": "Add transaction"
+        },
+        {
+          "text": "Date *"
+        },
+        {
+          "text": "Dec 6, 2024"
+        },
+        {
+          "text": "Month *"
+        },
+        {
+          "text": "Select an option"
+        },
+        {
+          "text": "Year *"
+        },
+        {
+          "text": "0"
+        },
+        {
+          "text": "Fishermen *"
+        },
+        {
+          "text": "Enter value"
+        },
+        {
+          "text": "Commodity *"
+        },
+        {
+          "text": "Retool"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Hello Sam!"
+        },
+        {
+          "type": "table",
+          "reading_order": 2,
+          "text": "Data table showing transactions with columns: Date, Month, Year, Fishermen, Commodity, Quantity, Price/Kg, Total Price"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Add transaction form with input fields for Date, Month, Year, Fishermen, and Commodity"
+        },
+        {
+          "type": "table",
+          "reading_order": 4,
+          "text": "Secondary data table with tabbed interface for Jan, Feb, Mar"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Software development environment for web applications (Retool).",
+      "intent": "To demonstrate the UI builder functionality for creating data-driven dashboard forms.",
+      "entities": [
+        {
+          "name": "Retool",
+          "type": "Software Platform"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        },
+        {
+          "name": "Hello Sam!",
+          "type": "Dashboard Greeting"
+        },
+        {
+          "name": "Add transaction",
+          "type": "User Input Form"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Retool",
+          "predicate": "hosts",
+          "object": "web application interface"
+        },
+        {
+          "subject": "Mobbin",
+          "predicate": "curated",
+          "object": "UI design example"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light gray",
+        "blue"
+      ],
+      "style": "Clean, minimalist UI design, typical of a low-code software development tool.",
+      "notes": [
+        "The UI consists of a sidebar on the left, a central canvas area with widgets, and an empty panel on the right."
+      ]
+    },
+    "uncertainty": [
+      "The full text in some table cells is truncated (e.g., 'Total Pri...').",
+      "Some sidebar tree items are too small to read clearly."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:32.106Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.144,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 800,
+      "totalTokenCount": 2007,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

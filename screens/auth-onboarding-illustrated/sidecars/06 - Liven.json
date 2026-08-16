@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Liven",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-illustrated/06 - Liven.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:31.259Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen for a mobile application.",
+    "primary_flow": "auth-onboarding-illustrated",
+    "ux_intent": "Welcome the user and initiate the app onboarding flow.",
+    "ux_patterns": [
+      "Onboarding",
+      "The illustration is a decorative, full-bleed background that spans the entire screen, serving to establish a calm, reflective tone for 'self-discovery'.",
+      "The layout is centered, with typography placed in the upper-middle section for high visibility.",
+      "The CTA button is high-contrast against the background illustration.",
+      "The UI follows standard mobile patterns for a welcome/onboarding splash screen."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The CTA button is high-contrast against the background illustration."
+    ],
+    "content_blocks": [
+      "Liven",
+      "Start now",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Vector illustration, flat design, calming, nature-themed.",
+      "pink",
+      "peach",
+      "green",
+      "dark purple",
+      "The illustration is a decorative, full-bleed background that spans the entire screen, serving to establish a calm, reflective tone for 'self-discovery'.",
+      "The layout is centered, with typography placed in the upper-middle section for high visibility.",
+      "The CTA button is high-contrast against the background illustration.",
+      "The UI follows standard mobile patterns for a welcome/onboarding splash screen."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Vector illustration, flat design, calming, nature-themed."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_illustrated_06"
+}

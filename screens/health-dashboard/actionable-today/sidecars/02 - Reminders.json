@@ -1,0 +1,201 @@
+{
+  "image": "02 - Reminders.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface showing a 'Today' reminders screen, likely a task management application, featuring scheduled tasks, geolocation/context-based alerts, and an integrated branding graphic.",
+    "ocr": {
+      "full_text": "9:41 Today Morning Afternoon Research AI tools Work Reminders 4:00 PM Tonight You're Nearby !! Design Wireframe Design ecommerce wireframe Work Reminders 2/18/26, 10:00 PM Weekdays #Work Arriving: Gang Jaro Saleh No. 106 Tan... Messaging: Sam lee SLM SLMOBBIN Reminders curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Morning"
+        },
+        {
+          "text": "Afternoon"
+        },
+        {
+          "text": "Research AI tools"
+        },
+        {
+          "text": "Work Reminders 4:00 PM"
+        },
+        {
+          "text": "Tonight"
+        },
+        {
+          "text": "You're Nearby"
+        },
+        {
+          "text": "!! Design Wireframe"
+        },
+        {
+          "text": "Design ecommerce wireframe"
+        },
+        {
+          "text": "Work Reminders 2/18/26, 10:00 PM"
+        },
+        {
+          "text": "Weekdays #Work"
+        },
+        {
+          "text": "Arriving: Gang Jaro Saleh No. 106 Tan..."
+        },
+        {
+          "text": "Messaging: Sam lee"
+        },
+        {
+          "text": "SLM"
+        },
+        {
+          "text": "SLMOBBIN"
+        },
+        {
+          "text": "Reminders"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Today"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Morning"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Afternoon"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Research AI tools Work Reminders 4:00 PM"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Tonight"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "You're Nearby"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "!! Design Wireframe Design ecommerce wireframe Work Reminders 2/18/26, 10:00 PM Weekdays #Work"
+        },
+        {
+          "type": "other",
+          "reading_order": 8,
+          "text": "Arriving: Gang Jaro Saleh No. 106 Tan... Messaging: Sam lee"
+        },
+        {
+          "type": "image",
+          "reading_order": 9,
+          "text": "SLM SLMOBBIN"
+        },
+        {
+          "type": "other",
+          "reading_order": 10,
+          "text": "Reminders curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile UI dashboard for a productivity/reminder app.",
+      "intent": "Displaying daily tasks and context-aware notifications.",
+      "entities": [
+        {
+          "name": "Research AI tools",
+          "type": "task"
+        },
+        {
+          "name": "Design Wireframe",
+          "type": "task"
+        },
+        {
+          "name": "Sam lee",
+          "type": "person"
+        },
+        {
+          "name": "Gang Jaro Saleh No. 106",
+          "type": "location"
+        },
+        {
+          "name": "Mobbin",
+          "type": "organization"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Design Wireframe",
+          "predicate": "has_priority",
+          "object": "!!"
+        },
+        {
+          "subject": "Design Wireframe",
+          "predicate": "has_tag",
+          "object": "#Work"
+        },
+        {
+          "subject": "Sam lee",
+          "predicate": "associated_with",
+          "object": "Messaging"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue",
+        "black",
+        "grey"
+      ],
+      "style": "Clean, minimalist mobile application design.",
+      "notes": [
+        "Contains a 'curated by' watermark at the bottom.",
+        "Includes a floating plus icon in the bottom right corner."
+      ]
+    },
+    "uncertainty": [
+      "The full address for 'Gang Jaro Saleh No. 106 Tan...' is truncated."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:21.663Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.817,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1063,
+      "totalTokenCount": 2290,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

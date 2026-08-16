@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Yuka",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-characters/04 - Yuka.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:03.176Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding welcome screen.",
+    "primary_flow": "auth-onboarding-characters",
+    "ux_intent": "To introduce the user to the purpose of the Yuka app.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "The mascot is centrally placed at the top.",
+      "The color palette is cohesive with green backgrounds and orange highlights matching the brand mascot.",
+      "Visual hierarchy is clear: Mascot -> Title -> Description -> Interaction prompt.",
+      "Accessibility: The light gray text for 'Slide to continue' might have low contrast against the green background."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Visual hierarchy is clear: Mascot -> Title -> Description -> Interaction prompt."
+    ],
+    "content_blocks": [
+      "Yuka",
+      "Mascot"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat design with a friendly character mascot.",
+      "green",
+      "orange",
+      "white",
+      "The mascot is centrally placed at the top.",
+      "The color palette is cohesive with green backgrounds and orange highlights matching the brand mascot.",
+      "Visual hierarchy is clear: Mascot -> Title -> Description -> Interaction prompt.",
+      "Accessibility: The light gray text for 'Slide to continue' might have low contrast against the green background."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat design with a friendly character mascot."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_characters_04"
+}

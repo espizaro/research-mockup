@@ -1,0 +1,186 @@
+{
+  "image": "05 - Apple Health.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for tracking blood pressure measurements, displaying current status, progress towards daily goals for wake-up and bedtime, and an education section within a health monitoring app.",
+    "ocr": {
+      "full_text": "9:41 < Blood Pressure + Sun Mon Tue Wed Thu Fri Sat Non-elevated blood pressure -- Show All Blood Pressure Ranges Blood Pressure Log Options Next Measurement: After Waking Up Measurements Left: 12 Wake-up 1 of 7 Bedtime 1 of 7 Add a Measurement Education Summary Sharing Apple Health curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "< Blood Pressure +"
+        },
+        {
+          "text": "Sun Mon Tue Wed Thu Fri Sat"
+        },
+        {
+          "text": "Non-elevated blood pressure --"
+        },
+        {
+          "text": "Show All Blood Pressure Ranges"
+        },
+        {
+          "text": "Blood Pressure Log Options"
+        },
+        {
+          "text": "Next Measurement: After Waking Up"
+        },
+        {
+          "text": "Measurements Left: 12"
+        },
+        {
+          "text": "Wake-up 1 of 7"
+        },
+        {
+          "text": "Bedtime 1 of 7"
+        },
+        {
+          "text": "Add a Measurement"
+        },
+        {
+          "text": "Education"
+        },
+        {
+          "text": "Summary Sharing"
+        },
+        {
+          "text": "Apple Health curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Blood Pressure"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Non-elevated blood pressure --"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Show All Blood Pressure Ranges"
+        },
+        {
+          "type": "title",
+          "reading_order": 4,
+          "text": "Blood Pressure Log"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Next Measurement: After Waking Up Measurements Left: 12"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Wake-up 1 of 7"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Bedtime 1 of 7"
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Add a Measurement"
+        },
+        {
+          "type": "title",
+          "reading_order": 9,
+          "text": "Education"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A smartphone app screen dedicated to logging and monitoring blood pressure measurements.",
+      "intent": "Track compliance with a recommended blood pressure measurement schedule.",
+      "entities": [
+        {
+          "name": "Apple Health",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Curator"
+        },
+        {
+          "name": "Blood Pressure Log",
+          "type": "Feature"
+        },
+        {
+          "name": "Wake-up measurement",
+          "type": "Task"
+        },
+        {
+          "name": "Bedtime measurement",
+          "type": "Task"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "tracks",
+          "object": "Blood Pressure"
+        },
+        {
+          "subject": "App",
+          "predicate": "displays",
+          "object": "Measurement Progress"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "light green",
+        "light purple"
+      ],
+      "style": "Minimalist mobile UI design with cards and soft color gradients.",
+      "notes": [
+        "Uses standard iOS system status bar and navigation patterns."
+      ]
+    },
+    "uncertainty": [
+      "The specific health app version is identified as Apple Health, but context provided by Mobbin suggests this may be a mock-up or design reference."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:22:33.721Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.968,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 911,
+      "totalTokenCount": 2138,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.97
+      }
+    ],
+    "warnings": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Airwallex",
+    "platform": "ios",
+    "file_path": "screens/auth-login-illustrated/09 - Airwallex.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:14.735Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login and authentication screen for a fintech/finance mobile app.",
+    "primary_flow": "auth-login-illustrated",
+    "ux_intent": "To facilitate user authentication and provide entry to the app, with an alternative option for new user registration.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Toggle",
+      "The rocket illustration serves as a hero graphic to convey growth or speed, placed centrally between the logo and the headline.",
+      "The color palette is professional with a strong contrast for CTA buttons.",
+      "Visual hierarchy is clear, centering the login form as the main focus.",
+      "The design uses a standard mobile login pattern."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Secondary Button",
+      "The color palette is professional with a strong contrast for CTA buttons."
+    ],
+    "content_blocks": [
+      "Airwallex",
+      "Email or mobile number",
+      "Password",
+      "Log in",
+      "Create an account"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, corporate UI design with a 2D flat geometric rocket illustration.",
+      "White",
+      "Dark Purple/Blue",
+      "Orange",
+      "The rocket illustration serves as a hero graphic to convey growth or speed, placed centrally between the logo and the headline.",
+      "The color palette is professional with a strong contrast for CTA buttons.",
+      "Visual hierarchy is clear, centering the login form as the main focus.",
+      "The design uses a standard mobile login pattern."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, corporate UI design with a 2D flat geometric rocket illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_illustrated_09"
+}

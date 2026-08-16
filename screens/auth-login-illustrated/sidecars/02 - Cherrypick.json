@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Cherrypick",
+    "platform": "ios",
+    "file_path": "screens/auth-login-illustrated/02 - Cherrypick.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:07.008Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication screen",
+    "primary_flow": "auth-login-illustrated",
+    "ux_intent": "User authentication",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Toggle",
+      "The hand illustration is a character-based mascot that reinforces the brand name 'Cherrypick'.",
+      "The layout is centered and vertically aligned, which is standard for mobile authentication screens.",
+      "The contrast between the maroon button and the light blue background is strong for accessibility.",
+      "Contains a visual 'X' button in the top right, likely to close the login flow."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The contrast between the maroon button and the light blue background is strong for accessibility.",
+      "Contains a visual 'X' button in the top right, likely to close the login flow."
+    ],
+    "content_blocks": [
+      "Cherrypick",
+      "Mascot",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat illustration, clean UI",
+      "light blue (background)",
+      "dark maroon/pink (button)",
+      "dark green (headline)",
+      "The hand illustration is a character-based mascot that reinforces the brand name 'Cherrypick'.",
+      "The layout is centered and vertically aligned, which is standard for mobile authentication screens.",
+      "The contrast between the maroon button and the light blue background is strong for accessibility.",
+      "Contains a visual 'X' button in the top right, likely to close the login flow."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat illustration, clean UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_illustrated_02"
+}

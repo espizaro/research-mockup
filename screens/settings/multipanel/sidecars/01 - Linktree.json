@@ -1,0 +1,203 @@
+{
+  "image": "01 - Linktree.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen showing a settings menu ('More') with an active modal overlay for selecting the application's appearance theme (System, Light mode, or Dark mode).",
+    "ocr": {
+      "full_text": "9:41 More Reset password Privacy settings DISPLAY Appearance System SUPPORT Ask a question Help topics Restore purchases Switch to Visitor Appearance System Light mode Dark mode Linktree curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "More"
+        },
+        {
+          "text": "Reset password"
+        },
+        {
+          "text": "Privacy settings"
+        },
+        {
+          "text": "DISPLAY"
+        },
+        {
+          "text": "Appearance"
+        },
+        {
+          "text": "System"
+        },
+        {
+          "text": "SUPPORT"
+        },
+        {
+          "text": "Ask a question"
+        },
+        {
+          "text": "Help topics"
+        },
+        {
+          "text": "Restore purchases"
+        },
+        {
+          "text": "Switch to Visitor"
+        },
+        {
+          "text": "Appearance"
+        },
+        {
+          "text": "System"
+        },
+        {
+          "text": "Light mode"
+        },
+        {
+          "text": "Dark mode"
+        },
+        {
+          "text": "Linktree"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "More"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Reset password, Privacy settings"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 3,
+          "text": "DISPLAY"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Appearance, System"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 5,
+          "text": "SUPPORT"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Ask a question, Help topics, Restore purchases"
+        },
+        {
+          "type": "form",
+          "reading_order": 7,
+          "text": "Switch to Visitor"
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Appearance, System (selected), Light mode, Dark mode"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app settings screen with an active appearance preference modal overlay.",
+      "intent": "The user is interacting with an interface to change the application's visual theme settings.",
+      "entities": [
+        {
+          "name": "Reset password",
+          "type": "menu_item"
+        },
+        {
+          "name": "Privacy settings",
+          "type": "menu_item"
+        },
+        {
+          "name": "Appearance",
+          "type": "menu_item"
+        },
+        {
+          "name": "System",
+          "type": "setting_option"
+        },
+        {
+          "name": "Light mode",
+          "type": "setting_option"
+        },
+        {
+          "name": "Dark mode",
+          "type": "setting_option"
+        },
+        {
+          "name": "Linktree",
+          "type": "branding"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Appearance modal",
+          "predicate": "contains",
+          "object": "System"
+        },
+        {
+          "subject": "Appearance modal",
+          "predicate": "contains",
+          "object": "Light mode"
+        },
+        {
+          "subject": "Appearance modal",
+          "predicate": "contains",
+          "object": "Dark mode"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "gray"
+      ],
+      "style": "Mobile UI design, clean, minimalist, high contrast modal overlay.",
+      "notes": [
+        "The 'System' option in the modal has a filled radio button indicating it is the current selection."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:21:18.579Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.842,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 887,
+      "totalTokenCount": 2114,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.844
+      }
+    ],
+    "warnings": []
+  }
+}

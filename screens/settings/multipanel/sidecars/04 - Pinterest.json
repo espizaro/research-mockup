@@ -1,0 +1,196 @@
+{
+  "image": "04 - Pinterest.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface screenshot of a Pinterest board settings menu, specifically the 'Board view' modal, overlaid on a board titled 'Floral'. The modal allows users to filter pins, adjust view settings (Wide, Default, Compact), and toggle recommendations.",
+    "ocr": {
+      "full_text": "9:41\n<\nFloral\nSecret 4 Pins 1 section\nMore ideas All saves\nBoard view\nFilter by type\nAll Pins\nFavorites\nSet view as\nWide\nDefault\nCompact\nSet default display\nShow recommendations first Beta\nSee finds and ideas first when you open this board. Switch to your saves any time.\nClose\nPinterest\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "<",
+          "language": "en"
+        },
+        {
+          "text": "Floral",
+          "language": "en"
+        },
+        {
+          "text": "Secret 4 Pins 1 section",
+          "language": "en"
+        },
+        {
+          "text": "More ideas All saves",
+          "language": "en"
+        },
+        {
+          "text": "Board view",
+          "language": "en"
+        },
+        {
+          "text": "Filter by type",
+          "language": "en"
+        },
+        {
+          "text": "All Pins",
+          "language": "en"
+        },
+        {
+          "text": "Favorites",
+          "language": "en"
+        },
+        {
+          "text": "Set view as",
+          "language": "en"
+        },
+        {
+          "text": "Wide",
+          "language": "en"
+        },
+        {
+          "text": "Default",
+          "language": "en"
+        },
+        {
+          "text": "Compact",
+          "language": "en"
+        },
+        {
+          "text": "Set default display",
+          "language": "en"
+        },
+        {
+          "text": "Show recommendations first Beta",
+          "language": "en"
+        },
+        {
+          "text": "See finds and ideas first when you open this board. Switch to your saves any time.",
+          "language": "en"
+        },
+        {
+          "text": "Close",
+          "language": "en"
+        },
+        {
+          "text": "Pinterest",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Floral"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Board view"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Filter by type\nAll Pins\nFavorites"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Set view as\nWide\nDefault\nCompact"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Set default display\nShow recommendations first Beta\nSee finds and ideas first when you open this board. Switch to your saves any time."
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Close"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app settings modal",
+      "intent": "Adjust display and filter settings for a Pinterest board.",
+      "entities": [
+        {
+          "name": "Pinterest",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization/Curator"
+        },
+        {
+          "name": "Floral",
+          "type": "Board Title"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Pinterest",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        },
+        {
+          "subject": "Board view",
+          "predicate": "displays settings for",
+          "object": "Floral"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "black"
+      ],
+      "style": "Mobile UI design, clean, minimalist, modal overlay",
+      "notes": [
+        "Standard iOS status bar",
+        "Active options checked with a checkmark",
+        "Toggle switch for recommendations"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:21:36.269Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.965,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 971,
+      "totalTokenCount": 2198,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.967
+      }
+    ],
+    "warnings": []
+  }
+}

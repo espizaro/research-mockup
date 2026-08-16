@@ -1,0 +1,130 @@
+{
+  "image": "07 - QUITTR.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The screen shows a mobile app called QUITTR asking the user to report their current mood by selecting one of three emoji buttons: happy, neutral, or sad.",
+    "ocr": {
+      "full_text": "9:41\nQUITTR\n1\nF S S M T W\nAnd how are you feeling?\nQUITTR\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "QUITTR",
+          "language": "en"
+        },
+        {
+          "text": "1",
+          "language": "en"
+        },
+        {
+          "text": "T F S S M T W",
+          "language": "en"
+        },
+        {
+          "text": "And how are you feeling?",
+          "language": "en"
+        },
+        {
+          "text": "QUITTR",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "QUITTR"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "And how are you feeling?"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Three options represented by emojis: smiling face, neutral face, sad face."
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mood check-in screen for a habit-tracking app.",
+      "intent": "To collect user feedback on their current emotional state.",
+      "entities": [
+        {
+          "name": "QUITTR",
+          "type": "Application Name"
+        },
+        {
+          "name": "Emoji buttons",
+          "type": "Interactive UI elements"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "App",
+          "predicate": "asks for",
+          "object": "user sentiment"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "dark blue",
+        "purple",
+        "teal",
+        "yellow",
+        "red"
+      ],
+      "style": "Minimalist, gradient-based UI with a night-mode aesthetic.",
+      "notes": [
+        "The background features a starry sky pattern.",
+        "The mood selection buttons use a color gradient from green/teal to yellow to red."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T05:41:22.666Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.345,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 702,
+      "totalTokenCount": 1929,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.347
+      }
+    ],
+    "warnings": []
+  }
+}

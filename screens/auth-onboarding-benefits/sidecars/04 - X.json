@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "X",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-benefits/04 - X.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:36.208Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding/educational screen for X Premium.",
+    "primary_flow": "auth-onboarding-benefits",
+    "ux_intent": "Persuade the user to explore and use the Premium Hub features.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Dark Mode",
+      "Minimalist",
+      "The hero illustration is a realistic 3D smartphone mockup showing a blurred application interface to focus attention on the main features.",
+      "Uses a clean sans-serif typeface.",
+      "The layout is centered for readability.",
+      "The 'Explore Premium Hub' button uses a high-contrast pill-shaped container."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The 'Explore Premium Hub' button uses a high-contrast pill-shaped container."
+    ],
+    "content_blocks": [
+      "X",
+      "Premium Hub",
+      "Grok",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist modern mobile UI, high contrast dark mode, 3D illustrative phone mockup.",
+      "black",
+      "white",
+      "blue",
+      "The hero illustration is a realistic 3D smartphone mockup showing a blurred application interface to focus attention on the main features.",
+      "Uses a clean sans-serif typeface.",
+      "The layout is centered for readability.",
+      "The 'Explore Premium Hub' button uses a high-contrast pill-shaped container."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist modern mobile UI, high contrast dark mode, 3D illustrative phone mockup."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_benefits_04"
+}

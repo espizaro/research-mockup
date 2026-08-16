@@ -1,0 +1,225 @@
+{
+  "image": "09 - Ultrahuman.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile health dashboard screenshot from the Ultrahuman application, displaying various biometric data for Sunday, July 20th. It features a heart rate trend line and specific markers such as Cardio Age, Temperature deviation, HRV, Resting Heart Rate, and VO2 Max.",
+    "ocr": {
+      "full_text": "9:41\nSAT 19 JUL\nSUN 20 JUL\nIndividual Markers\n67 BPM\nHeart Rate\n4 AM\n12 PM\n6 PM\n12 AM\n23\nCardio Age\nYounger than your age\n-0.47 C\nTemp. deviation\nBelow Range & Optimal\nHRV\n7-day Baseline\n45 ms +8\nResting HR\nSleep Time Minima\n44 BPM -12\nVO2 Max\nCardio Fitness\n51\nRING\nMETABOLISM\nHOME\nZONES\nPROFILE\nUltrahuman\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "SAT 19 JUL"
+        },
+        {
+          "text": "SUN 20 JUL"
+        },
+        {
+          "text": "Individual Markers"
+        },
+        {
+          "text": "67 BPM"
+        },
+        {
+          "text": "Heart Rate"
+        },
+        {
+          "text": "4 AM"
+        },
+        {
+          "text": "12 PM"
+        },
+        {
+          "text": "6 PM"
+        },
+        {
+          "text": "12 AM"
+        },
+        {
+          "text": "23"
+        },
+        {
+          "text": "Cardio Age"
+        },
+        {
+          "text": "Younger than your age"
+        },
+        {
+          "text": "-0.47 C"
+        },
+        {
+          "text": "Temp. deviation"
+        },
+        {
+          "text": "Below Range & Optimal"
+        },
+        {
+          "text": "HRV"
+        },
+        {
+          "text": "7-day Baseline"
+        },
+        {
+          "text": "45 ms +8"
+        },
+        {
+          "text": "Resting HR"
+        },
+        {
+          "text": "Sleep Time Minima"
+        },
+        {
+          "text": "44 BPM -12"
+        },
+        {
+          "text": "VO2 Max"
+        },
+        {
+          "text": "Cardio Fitness"
+        },
+        {
+          "text": "51"
+        },
+        {
+          "text": "RING"
+        },
+        {
+          "text": "METABOLISM"
+        },
+        {
+          "text": "HOME"
+        },
+        {
+          "text": "ZONES"
+        },
+        {
+          "text": "PROFILE"
+        },
+        {
+          "text": "Ultrahuman"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Individual Markers"
+        },
+        {
+          "type": "chart",
+          "reading_order": 2,
+          "text": "67 BPM Heart Rate trend line from 4 AM to 12 AM"
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "23 Cardio Age, Younger than your age"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "-0.47 C Temp. deviation, Below Range & Optimal"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "HRV 7-day Baseline 45 ms +8, Resting HR Sleep Time Minima 44 BPM -12, VO2 Max Cardio Fitness 51"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Health and fitness monitoring application interface on a smartphone.",
+      "intent": "To present the user's daily health metrics and biometric markers.",
+      "entities": [
+        {
+          "name": "Ultrahuman",
+          "type": "Company/App"
+        },
+        {
+          "name": "Heart Rate",
+          "type": "Biometric"
+        },
+        {
+          "name": "Cardio Age",
+          "type": "Biometric"
+        },
+        {
+          "name": "Temp. deviation",
+          "type": "Biometric"
+        },
+        {
+          "name": "HRV",
+          "type": "Biometric"
+        },
+        {
+          "name": "Resting HR",
+          "type": "Biometric"
+        },
+        {
+          "name": "VO2 Max",
+          "type": "Biometric"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cardio Age",
+          "predicate": "is",
+          "object": "23"
+        },
+        {
+          "subject": "HRV",
+          "predicate": "value",
+          "object": "45 ms"
+        },
+        {
+          "subject": "Resting HR",
+          "predicate": "value",
+          "object": "44 BPM"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "dark gray",
+        "pink",
+        "blue"
+      ],
+      "style": "Dark mode UI with card-based layout",
+      "notes": [
+        "The interface uses high-contrast colors for data visibility."
+      ]
+    },
+    "uncertainty": [
+      "The exact temperature unit symbol next to -0.47 is slightly obscured, interpreted as C."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:47:00.346Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.202,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1121,
+      "totalTokenCount": 2348,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

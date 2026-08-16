@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Calm Sleep",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/history/04 - Calm Sleep.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:22.944Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile app interface, specifically a journal history page.",
+    "primary_flow": "daily-check-in/history",
+    "ux_intent": "Managing journal entries by allowing a user to edit or remove a selected entry.",
+    "ux_patterns": [
+      "Form",
+      "Dark Mode",
+      "Minimalist",
+      "Minimalist interface",
+      "Standard iOS-style status bar"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Journal app",
+      "My plushie",
+      "I would feel calm.",
+      "Calm Sleep",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Dark mode mobile UI",
+      "black",
+      "dark gray",
+      "white",
+      "Minimalist interface",
+      "Standard iOS-style status bar"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_history_04"
+}

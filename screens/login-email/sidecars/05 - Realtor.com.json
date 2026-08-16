@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Realtor.com",
+    "platform": "ios",
+    "file_path": "screens/login-email/05 - Realtor.com.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:56.598Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen of a mobile application.",
+    "primary_flow": "login-email",
+    "ux_intent": "To facilitate user authentication and provide options for account creation or social login.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Uses standard social authentication icons (Apple, Google, Facebook). No decorative illustrations present. High contrast text-to-background ratio."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Email",
+      "Password",
+      "Log in",
+      "Continue with Apple",
+      "Continue with Google",
+      "Continue with Facebook",
+      "Sign up",
+      "Terms of Use"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern mobile UI",
+      "White",
+      "Black",
+      "Grey",
+      "Uses standard social authentication icons (Apple, Google, Facebook). No decorative illustrations present. High contrast text-to-background ratio."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_email_05"
+}

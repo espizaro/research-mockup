@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Wolt Delivery",
+    "platform": "ios",
+    "file_path": "screens/auth-login-illustrated/05 - Wolt Delivery.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:09.964Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app login screen",
+    "primary_flow": "auth-login-illustrated",
+    "ux_intent": "User authentication",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "The hero illustration is a character-based design, centered above the text.",
+      "The style is clean, friendly, and minimalist.",
+      "The illustration depicts a cozy, relaxed scene, reinforcing the 'no-stress' passwordless login message.",
+      "Visual hierarchy places the illustration at the top, followed by the value proposition, input, and CTA."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Visual hierarchy places the illustration at the top, followed by the value proposition, input, and CTA."
+    ],
+    "content_blocks": [
+      "Wolt",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern mobile UI, flat vector illustration",
+      "white",
+      "blue",
+      "green",
+      "orange",
+      "The hero illustration is a character-based design, centered above the text.",
+      "The style is clean, friendly, and minimalist.",
+      "The illustration depicts a cozy, relaxed scene, reinforcing the 'no-stress' passwordless login message.",
+      "Visual hierarchy places the illustration at the top, followed by the value proposition, input, and CTA."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile UI, flat vector illustration"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_illustrated_05"
+}

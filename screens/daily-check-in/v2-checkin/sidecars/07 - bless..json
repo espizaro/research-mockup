@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "bless.",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/v2-checkin/07 - bless..webp",
+    "analyzed_timestamp": "2026-08-10T18:10:40.697Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App UI screen, mobile phone interface",
+    "primary_flow": "daily-check-in/v2-checkin",
+    "ux_intent": "User is being asked a daily tracking question in a habit-building/decluttering application.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Dark Mode",
+      "Minimalist",
+      "Card",
+      "High contrast text on dark backgrounds.",
+      "Rounded card elements.",
+      "Symbolic graphic icon for the level-up."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation"
+    ],
+    "content_blocks": [
+      "hello!",
+      "Declutter Challenge",
+      "Raccoon",
+      "Bottom Navigation Bar"
+    ],
+    "visual_keywords": [
+      "Modern mobile application with a minimalist, dark mode aesthetic.",
+      "black",
+      "white",
+      "dull pink",
+      "cream",
+      "High contrast text on dark backgrounds.",
+      "Rounded card elements.",
+      "Symbolic graphic icon for the level-up."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile application with a minimalist, dark mode aesthetic."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_checkin_07"
+}

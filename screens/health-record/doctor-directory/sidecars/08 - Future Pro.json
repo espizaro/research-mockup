@@ -1,0 +1,184 @@
+{
+  "image": "08 - Future Pro.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen titled 'Find Your Coach', displaying a list of fitness coaches with their professional backgrounds.",
+    "ocr": {
+      "full_text": "9:41\n< FIND YOUR COACH Filters\nAurelia\nPreviously: Master Trainer at an elite coaching gym, completing over 15,000 in-person training sessions.\nBailie\nPreviously: Elite trainer at a privately held athletic training facility. Bailie is a former collegiate softball player.\nCamryn\nPreviously: Decorated fitness professional, coaching clients from all walks of life.\nElizabeth\nPreviously: Expert coach to athletes and busy professionals, impacting thousands of lives.\nKarly\nPreviously: Dedicated personal trainer for clients from all walks of life, helping hundreds of clients find strength and achieve their goals.\nKatie\nPreviously: Coached professional athletes, busy professionals and older adults at an elite training facility in Florida.\nKaya\nPreviously: private yoga instructor and top coach at a highly-rated personal training studio. Kaya has trained executives, college athletes, and more.\nFuture curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "< FIND YOUR COACH Filters"
+        },
+        {
+          "text": "Aurelia"
+        },
+        {
+          "text": "Previously: Master Trainer at an elite coaching gym, completing over 15,000 in-person training sessions."
+        },
+        {
+          "text": "Bailie"
+        },
+        {
+          "text": "Previously: Elite trainer at a privately held athletic training facility. Bailie is a former collegiate softball player."
+        },
+        {
+          "text": "Camryn"
+        },
+        {
+          "text": "Previously: Decorated fitness professional, coaching clients from all walks of life."
+        },
+        {
+          "text": "Elizabeth"
+        },
+        {
+          "text": "Previously: Expert coach to athletes and busy professionals, impacting thousands of lives."
+        },
+        {
+          "text": "Karly"
+        },
+        {
+          "text": "Previously: Dedicated personal trainer for clients from all walks of life, helping hundreds of clients find strength and achieve their goals."
+        },
+        {
+          "text": "Katie"
+        },
+        {
+          "text": "Previously: Coached professional athletes, busy professionals and older adults at an elite training facility in Florida."
+        },
+        {
+          "text": "Kaya"
+        },
+        {
+          "text": "Previously: private yoga instructor and top coach at a highly-rated personal training studio. Kaya has trained executives, college athletes, and more."
+        },
+        {
+          "text": "Future curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "FIND YOUR COACH"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "List of coaches including Aurelia, Bailie, Camryn, Elizabeth, Karly, Katie, Kaya with their respective biographies."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application interface for selecting a fitness coach.",
+      "intent": "The user is browsing a directory of fitness coaches to potentially select one.",
+      "entities": [
+        {
+          "name": "Aurelia",
+          "type": "Coach"
+        },
+        {
+          "name": "Bailie",
+          "type": "Coach"
+        },
+        {
+          "name": "Camryn",
+          "type": "Coach"
+        },
+        {
+          "name": "Elizabeth",
+          "type": "Coach"
+        },
+        {
+          "name": "Karly",
+          "type": "Coach"
+        },
+        {
+          "name": "Katie",
+          "type": "Coach"
+        },
+        {
+          "name": "Kaya",
+          "type": "Coach"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Aurelia",
+          "predicate": "has_background",
+          "object": "Master Trainer"
+        },
+        {
+          "subject": "Bailie",
+          "predicate": "has_background",
+          "object": "Elite trainer"
+        },
+        {
+          "subject": "Camryn",
+          "predicate": "has_background",
+          "object": "fitness professional"
+        },
+        {
+          "subject": "Elizabeth",
+          "predicate": "has_background",
+          "object": "Expert coach"
+        },
+        {
+          "subject": "Karly",
+          "predicate": "has_background",
+          "object": "personal trainer"
+        },
+        {
+          "subject": "Katie",
+          "predicate": "has_background",
+          "object": "Coached professional athletes"
+        },
+        {
+          "subject": "Kaya",
+          "predicate": "has_background",
+          "object": "yoga instructor"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "white",
+        "grey"
+      ],
+      "style": "Modern mobile application UI",
+      "notes": [
+        "Dark theme implementation",
+        "Rounded profile pictures for each coach",
+        "List view layout"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:39.657Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.665,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1036,
+      "totalTokenCount": 2263,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

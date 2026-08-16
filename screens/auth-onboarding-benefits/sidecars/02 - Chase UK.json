@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Chase UK",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-benefits/02 - Chase UK.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:32.955Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding or tutorial screen highlighting financial insight features.",
+    "primary_flow": "auth-onboarding-benefits",
+    "ux_intent": "To educate the user on how to access spending trends and reward information within the Chase UK application.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Card",
+      "Carousel",
+      "Includes a small character/mascot illustration in the 'Rewards' card to symbolize financial management.",
+      "The illustration is character-based, showing a person sitting with a laptop or phone.",
+      "The style is consistent with modern fintech apps (clean sans-serif typography, light card backgrounds).",
+      "High usage of whitespace."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Chase UK",
+      "Spotlight",
+      "Rewards"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat, clean mobile UI design with high-fidelity mockups.",
+      "White",
+      "Blue",
+      "Gray",
+      "Includes a small character/mascot illustration in the 'Rewards' card to symbolize financial management.",
+      "The illustration is character-based, showing a person sitting with a laptop or phone.",
+      "The style is consistent with modern fintech apps (clean sans-serif typography, light card backgrounds).",
+      "High usage of whitespace."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat, clean mobile UI design with high-fidelity mockups."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_benefits_02"
+}

@@ -1,0 +1,209 @@
+{
+  "image": "06 - Bevel.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screenshot displaying a 'Strain Score' dashboard, likely from a fitness or health tracking app. It shows a daily trend graph over a one-month period, with a current score of 71%, and includes a breakdown legend defining low, normal, and high strain ranges.",
+    "ocr": {
+      "full_text": "9.41\nStrain Score\n71%\n14 Sep 2025\nNormal range\n12 - 71%\nStrain Score\nExercise Duration\nDaytime HR\n103\n69\nAvg. 42%\n34\n0\n15 Aug\n22 Aug\n30 Aug\n6 Sep\n14 Sep\n1M 3M 6M 1Y\nStrain Breakdown\nLow <34.0%\nNormal 34.0% - 67.0%\nHigh >67.0%\nBevel\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9.41"
+        },
+        {
+          "text": "Strain Score"
+        },
+        {
+          "text": "71%"
+        },
+        {
+          "text": "14 Sep 2025"
+        },
+        {
+          "text": "Normal range"
+        },
+        {
+          "text": "12 - 71%"
+        },
+        {
+          "text": "Strain Score"
+        },
+        {
+          "text": "Exercise Duration"
+        },
+        {
+          "text": "Daytime HR"
+        },
+        {
+          "text": "103"
+        },
+        {
+          "text": "69"
+        },
+        {
+          "text": "Avg. 42%"
+        },
+        {
+          "text": "34"
+        },
+        {
+          "text": "0"
+        },
+        {
+          "text": "15 Aug"
+        },
+        {
+          "text": "22 Aug"
+        },
+        {
+          "text": "30 Aug"
+        },
+        {
+          "text": "6 Sep"
+        },
+        {
+          "text": "14 Sep"
+        },
+        {
+          "text": "1M 3M 6M 1Y"
+        },
+        {
+          "text": "Strain Breakdown"
+        },
+        {
+          "text": "Low <34.0%"
+        },
+        {
+          "text": "Normal 34.0% - 67.0%"
+        },
+        {
+          "text": "High >67.0%"
+        },
+        {
+          "text": "Bevel"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Strain Score"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "71% 14 Sep 2025"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Normal range 12 - 71%"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Strain Score, Exercise Duration, Daytime HR"
+        },
+        {
+          "type": "chart",
+          "reading_order": 5,
+          "text": "Line graph showing daily data points from 15 Aug to 14 Sep"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "1M, 3M, 6M, 1Y"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 7,
+          "text": "Strain Breakdown"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Low <34.0%, Normal 34.0% - 67.0%, High >67.0%"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app health tracking interface",
+      "intent": "Display daily strain tracking data for the user",
+      "entities": [
+        {
+          "name": "Strain Score",
+          "type": "metric"
+        },
+        {
+          "name": "Normal range",
+          "type": "threshold"
+        },
+        {
+          "name": "Bevel",
+          "type": "brand"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Strain Score",
+          "predicate": "value is",
+          "object": "71%"
+        },
+        {
+          "subject": "Normal range",
+          "predicate": "is",
+          "object": "12 - 71%"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "dark gray",
+        "yellow",
+        "orange"
+      ],
+      "style": "Dark mode UI, minimalist mobile application design",
+      "notes": [
+        "Line graph uses a gradient from yellow to red",
+        "Three tab options at the top",
+        "Time frame filters at bottom"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:23:32.245Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.829,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1118,
+      "totalTokenCount": 2345,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.83
+      }
+    ],
+    "warnings": []
+  }
+}

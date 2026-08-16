@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Fabric",
+    "platform": "ios",
+    "file_path": "screens/login-email/04 - Fabric.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:55.429Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen of a mobile application.",
+    "primary_flow": "login-email",
+    "ux_intent": "To facilitate user authentication.",
+    "ux_patterns": [
+      "Form",
+      "FAB",
+      "Login",
+      "Minimalist",
+      "No hero illustration present.",
+      "High contrast text on light background.",
+      "Clean hierarchical spacing for buttons and fields."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Clean hierarchical spacing for buttons and fields."
+    ],
+    "content_blocks": [
+      "Sign in with Apple",
+      "Sign in with Google",
+      "Email",
+      "Password",
+      "Sign in",
+      "Forgot password?",
+      "Sign up"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern mobile UI",
+      "white",
+      "black",
+      "grey",
+      "No hero illustration present.",
+      "High contrast text on light background.",
+      "Clean hierarchical spacing for buttons and fields."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_email_04"
+}

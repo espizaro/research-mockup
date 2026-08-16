@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "How We Feel",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-illustrated/04 - How We Feel.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:26.292Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding/Welcome screen for a mental health/wellbeing app.",
+    "primary_flow": "auth-onboarding-illustrated",
+    "ux_intent": "To welcome the user to the app and encourage them to complete the initial setup process.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Dark Mode",
+      "Minimalist",
+      "The illustration depicts two anthropomorphized, abstract shapes with soft gradients (blue and green) ascending a stepped structure, symbolizing connection and progress.",
+      "The layout is vertically centered with high-contrast typography.",
+      "The design uses a clean sans-serif typeface.",
+      "Visual hierarchy is clear with the CTA button being the most prominent element."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Visual hierarchy is clear with the CTA button being the most prominent element."
+    ],
+    "content_blocks": [
+      "How We Feel",
+      "Continue",
+      "Skip setup",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern minimalist mobile app UI with a dark mode aesthetic, featuring soft-edge abstract illustrations.",
+      "black",
+      "white",
+      "blue",
+      "green",
+      "The illustration depicts two anthropomorphized, abstract shapes with soft gradients (blue and green) ascending a stepped structure, symbolizing connection and progress.",
+      "The layout is vertically centered with high-contrast typography.",
+      "The design uses a clean sans-serif typeface.",
+      "Visual hierarchy is clear with the CTA button being the most prominent element."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist mobile app UI with a dark mode aesthetic, featuring soft-edge abstract illustrations."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_illustrated_04"
+}

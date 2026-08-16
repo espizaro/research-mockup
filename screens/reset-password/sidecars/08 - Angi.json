@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Angi",
+    "platform": "ios",
+    "file_path": "screens/reset-password/08 - Angi.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:35.382Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app password recovery confirmation screen.",
+    "primary_flow": "reset-password",
+    "ux_intent": "Confirm to the user that a password reset email has been sent and offer troubleshooting options.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Card",
+      "Uses a prominent green checkmark icon to denote success/confirmation.",
+      "Uses a high-contrast red call-to-action button for 'Resend'.",
+      "Text is left-aligned.",
+      "No complex illustrations, focusing on utility and clarity."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Uses a high-contrast red call-to-action button for 'Resend'."
+    ],
+    "content_blocks": [
+      "Angi",
+      "jsmith.mobbin88@gmail.com",
+      "Resend",
+      "Customer Service",
+      "Checkmark Icon"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, clean typography, card-based layout structure.",
+      "white",
+      "red",
+      "teal",
+      "black",
+      "Uses a prominent green checkmark icon to denote success/confirmation.",
+      "Uses a high-contrast red call-to-action button for 'Resend'.",
+      "Text is left-aligned.",
+      "No complex illustrations, focusing on utility and clarity."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, clean typography, card-based layout structure."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_reset_password_08"
+}

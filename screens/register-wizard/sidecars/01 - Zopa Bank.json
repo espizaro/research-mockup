@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Zopa Bank",
+    "platform": "ios",
+    "file_path": "screens/register-wizard/01 - Zopa Bank.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:00.176Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account creation signup flow in a banking app.",
+    "primary_flow": "register-wizard",
+    "ux_intent": "To collect the user's name for identity verification during sign-up.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Minimalist",
+      "The UI uses a progress bar at the top, standard for multi-step forms.",
+      "Clear, readable sans-serif typography.",
+      "The primary CTA is a high-contrast dark green button.",
+      "No hero illustrations present; the design relies on text and clear input fields.",
+      "The layout follows standard iOS human interface guidelines."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Progress Bar",
+      "The primary CTA is a high-contrast dark green button.",
+      "No hero illustrations present; the design relies on text and clear input fields."
+    ],
+    "content_blocks": [
+      "Zopa Bank",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, professional, mobile-native UI.",
+      "white",
+      "dark green",
+      "The UI uses a progress bar at the top, standard for multi-step forms.",
+      "Clear, readable sans-serif typography.",
+      "The primary CTA is a high-contrast dark green button.",
+      "No hero illustrations present; the design relies on text and clear input fields.",
+      "The layout follows standard iOS human interface guidelines."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, professional, mobile-native UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_register_wizard_01"
+}

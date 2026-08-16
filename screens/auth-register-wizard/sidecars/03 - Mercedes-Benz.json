@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Mercedes-Benz",
+    "platform": "ios",
+    "file_path": "screens/auth-register-wizard/03 - Mercedes-Benz.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:04.131Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app registration form for Mercedes-Benz services.",
+    "primary_flow": "auth-register-wizard",
+    "ux_intent": "User is filling out a multi-step registration form to create a Mercedes me ID account.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Minimalist",
+      "Uses a step-indicator progress bar at the top (1 of 4).",
+      "Clear visual hierarchy using section headers.",
+      "No hero illustrations; focus is purely on input collection.",
+      "Design utilizes standard form input fields with placeholders and asterisks for required fields."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Progress Bar",
+      "No hero illustrations; focus is purely on input collection.",
+      "Design utilizes standard form input fields with placeholders and asterisks for required fields."
+    ],
+    "content_blocks": [
+      "Mercedes me ID",
+      "Mercedes-Benz"
+    ],
+    "visual_keywords": [
+      "Minimalist corporate UI, clean, functional, platform-standard mobile design.",
+      "white",
+      "gray",
+      "blue",
+      "black",
+      "Uses a step-indicator progress bar at the top (1 of 4).",
+      "Clear visual hierarchy using section headers.",
+      "No hero illustrations; focus is purely on input collection.",
+      "Design utilizes standard form input fields with placeholders and asterisks for required fields."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist corporate UI, clean, functional, platform-standard mobile design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_wizard_03"
+}

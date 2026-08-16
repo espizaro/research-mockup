@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Visible",
+    "platform": "ios",
+    "file_path": "screens/onboarding/04 - Visible.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:42.834Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding screen",
+    "primary_flow": "onboarding",
+    "ux_intent": "Welcome user and introduce the value proposition of the Visible app.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "The background is a smooth blue gradient.",
+      "The logo features a yellow-to-blue gradient circle icon."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Visible",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app UI",
+      "light blue",
+      "dark blue",
+      "yellow",
+      "The background is a smooth blue gradient.",
+      "The logo features a yellow-to-blue gradient circle icon."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_04"
+}

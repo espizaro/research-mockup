@@ -1,0 +1,211 @@
+{
+  "image": "06 - Bevel.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile health dashboard application interface showing various metrics like nutrition intake, blood glucose, respiration rate, resting heart rate, heart rate variability, oxygen saturation, temperature, and sleep data for September 14th.",
+    "ocr": {
+      "full_text": "9:41 Today, 14 September S Nutrition Today's foods 0g 0g 0g Blood glucose - mmol/L Health Monitor RR 15.6 rpm Normal RHR 53.9 bpm Lower HRV 74.4 ms Normal SpO2 95.6 % Normal Temp 34.8 °C Normal Sleep 4h 42m Lower Home Journal + Fitness Biology Bevel curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Today, 14 September"
+        },
+        {
+          "text": "S"
+        },
+        {
+          "text": "Nutrition"
+        },
+        {
+          "text": "Today's foods"
+        },
+        {
+          "text": "0g 0g 0g"
+        },
+        {
+          "text": "Blood glucose - mmol/L"
+        },
+        {
+          "text": "Health Monitor"
+        },
+        {
+          "text": "RR 15.6 rpm Normal"
+        },
+        {
+          "text": "RHR 53.9 bpm Lower"
+        },
+        {
+          "text": "HRV 74.4 ms Normal"
+        },
+        {
+          "text": "SpO2 95.6 % Normal"
+        },
+        {
+          "text": "Temp 34.8 °C Normal"
+        },
+        {
+          "text": "Sleep 4h 42m Lower"
+        },
+        {
+          "text": "Home Journal + Fitness Biology"
+        },
+        {
+          "text": "Bevel curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Today, 14 September"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Nutrition"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Today's foods: 0g, 0g, 0g. Blood glucose: - mmol/L"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 4,
+          "text": "Health Monitor"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "RR 15.6 rpm (Normal), RHR 53.9 bpm (Lower), HRV 74.4 ms (Normal), SpO2 95.6 % (Normal), Temp 34.8 °C (Normal), Sleep 4h 42m (Lower)"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "Navigation bar: Home, Journal, +, Fitness, Biology"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app health dashboard",
+      "intent": "Display health metrics and nutritional data to user",
+      "entities": [
+        {
+          "name": "Nutrition",
+          "type": "Section header"
+        },
+        {
+          "name": "Health Monitor",
+          "type": "Section header"
+        },
+        {
+          "name": "RR",
+          "type": "Respiration Rate",
+          "evidence": "15.6 rpm"
+        },
+        {
+          "name": "RHR",
+          "type": "Resting Heart Rate",
+          "evidence": "53.9 bpm"
+        },
+        {
+          "name": "HRV",
+          "type": "Heart Rate Variability",
+          "evidence": "74.4 ms"
+        },
+        {
+          "name": "SpO2",
+          "type": "Oxygen Saturation",
+          "evidence": "95.6 %"
+        },
+        {
+          "name": "Temp",
+          "type": "Temperature",
+          "evidence": "34.8 °C"
+        },
+        {
+          "name": "Sleep",
+          "type": "Sleep duration",
+          "evidence": "4h 42m"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "RR",
+          "predicate": "status",
+          "object": "Normal"
+        },
+        {
+          "subject": "RHR",
+          "predicate": "status",
+          "object": "Lower"
+        },
+        {
+          "subject": "HRV",
+          "predicate": "status",
+          "object": "Normal"
+        },
+        {
+          "subject": "SpO2",
+          "predicate": "status",
+          "object": "Normal"
+        },
+        {
+          "subject": "Temp",
+          "predicate": "status",
+          "object": "Normal"
+        },
+        {
+          "subject": "Sleep",
+          "predicate": "status",
+          "object": "Lower"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-gray",
+        "green",
+        "blue",
+        "orange"
+      ],
+      "style": "Clean minimalist UI, card-based layout",
+      "notes": [
+        "Navigation bar at the bottom with central plus button",
+        "Indicative color bars next to metrics",
+        "Status badges (Normal/Lower) with icons"
+      ]
+    },
+    "uncertainty": [
+      "The exact current date is provided by the UI, but the context is simulated",
+      "Certain icons within the nutrition section (the small fork, leaf, etc.) are abstract and represent categories not explicitly named"
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:38.309Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.055,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1210,
+      "totalTokenCount": 2437,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Replika",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-quiz/03 - Replika.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:48.859Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding / user preference selection",
+    "primary_flow": "auth-onboarding-quiz",
+    "ux_intent": "Capture user needs and goals for AI interaction to personalize the experience.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Card",
+      "No hero illustration present",
+      "Focus is purely on text-based interaction and choice selection",
+      "The 'Continue' button is disabled/faded, indicating a required selection",
+      "Consistent use of rounded-rect design patterns for choice cards"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Focus is purely on text-based interaction and choice selection",
+      "The 'Continue' button is disabled/faded, indicating a required selection"
+    ],
+    "content_blocks": [
+      "Replika",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat mobile UI with gradient background",
+      "blue",
+      "white",
+      "light-blue",
+      "No hero illustration present",
+      "Focus is purely on text-based interaction and choice selection",
+      "The 'Continue' button is disabled/faded, indicating a required selection",
+      "Consistent use of rounded-rect design patterns for choice cards"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat mobile UI with gradient background"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_quiz_03"
+}

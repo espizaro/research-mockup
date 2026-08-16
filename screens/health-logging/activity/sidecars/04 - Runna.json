@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Runna",
+    "platform": "ios",
+    "file_path": "screens/health-logging/activity/04 - Runna.webp",
+    "analyzed_timestamp": "2026-08-05T19:41:40.325Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app dashboard for tracking physical fitness activity.",
+    "primary_flow": "health-logging/activity",
+    "ux_intent": "To provide the user with a summary of their fitness goals, current progress, and access to educational/motivational content.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Chart",
+      "Minimalist",
+      "The UI uses icons for navigation at the bottom.",
+      "Progress circular bars use a green gradient."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Chart",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The UI uses icons for navigation at the bottom."
+    ],
+    "content_blocks": [
+      "Runna",
+      "Mobbin",
+      "Workout Dashboard"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app UI with clean typography and circular progress indicators.",
+      "white",
+      "black",
+      "green",
+      "blue",
+      "The UI uses icons for navigation at the bottom.",
+      "Progress circular bars use a green gradient."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app UI with clean typography and circular progress indicators."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_activity_04"
+}

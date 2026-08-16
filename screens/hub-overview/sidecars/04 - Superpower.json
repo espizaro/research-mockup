@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Superpower",
+    "platform": "ios",
+    "file_path": "screens/hub-overview/04 - Superpower.webp",
+    "analyzed_timestamp": "2026-08-11T22:27:18.484Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Health tracking mobile application interface showing personal health metrics.",
+    "primary_flow": "hub-overview",
+    "ux_intent": "To display and track personal health and biomarker data.",
+    "ux_patterns": [
+      "Progress",
+      "Tabs",
+      "Minimalist",
+      "Card",
+      "Progress bars are present for each metric showing a indicator dot on a gradient scale.",
+      "Bottom navigation bar includes tabs for Home, Data, Protocol, and Marketplace."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Progress Bar",
+      "Bottom navigation bar includes tabs for Home, Data, Protocol, and Marketplace."
+    ],
+    "content_blocks": [
+      "Health Score",
+      "Biological Age",
+      "Pace of Aging",
+      "Cholesterol, Total",
+      "LDL Cholesterol",
+      "HDL Cholesterol"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, card-based layout",
+      "white",
+      "light-grey",
+      "green",
+      "pink",
+      "yellow",
+      "Progress bars are present for each metric showing a indicator dot on a gradient scale.",
+      "Bottom navigation bar includes tabs for Home, Data, Protocol, and Marketplace."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, card-based layout"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_hub_overview_04"
+}

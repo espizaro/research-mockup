@@ -1,0 +1,226 @@
+{
+  "image": "02 - Hex.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Hex interface, showing the 'Projects' dashboard. A 'Status' filter dropdown menu is open over the main projects list.",
+    "ocr": {
+      "full_text": "HEX SLMobbin Team trial Search your workspace... + New project Home Collections Projects Components Data Library Learn FAVORITE PROJECTS Penguin Data FAVORITE COLLECTIONS Penguin Data will appear here. FAVORITE DATA INVENTORY_ITEMS EVENTS DISTRIBUTION_CENTERS SPICE_PURCHASES DAILY_SPICE_PRODUCTION_COSTS Archive Trash Settings Help Projects Filter Title Status Category Certified Completed In development No status Title Status Categories Owner Last viewed by you App views App last pu Penguin Data In development Dashboard S Sam Lee 2 min ago 6 2 days ago Untitled project S Sam Lee 2 hrs ago Copy of Penguin Data (2) S Sam Lee 2 hrs ago Copy of Penguin Data S Sam Lee 2 hrs ago Untitled project S Sam Lee 7 days ago Welcome to Hex! S Sam Lee 7 days ago Welcome to Hex! a alexsmith@content-mobbin.com HEX Hex curated by Mobbin",
+      "lines": [
+        {
+          "text": "HEX SLMobbin Team trial"
+        },
+        {
+          "text": "Search your workspace..."
+        },
+        {
+          "text": "+ New project"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Collections"
+        },
+        {
+          "text": "Projects"
+        },
+        {
+          "text": "Components"
+        },
+        {
+          "text": "Data"
+        },
+        {
+          "text": "Library"
+        },
+        {
+          "text": "Learn"
+        },
+        {
+          "text": "FAVORITE PROJECTS"
+        },
+        {
+          "text": "Penguin Data"
+        },
+        {
+          "text": "FAVORITE COLLECTIONS"
+        },
+        {
+          "text": "Penguin Data will appear here."
+        },
+        {
+          "text": "FAVORITE DATA"
+        },
+        {
+          "text": "INVENTORY_ITEMS"
+        },
+        {
+          "text": "EVENTS"
+        },
+        {
+          "text": "DISTRIBUTION_CENTERS"
+        },
+        {
+          "text": "SPICE_PURCHASES"
+        },
+        {
+          "text": "DAILY_SPICE_PRODUCTION_COSTS"
+        },
+        {
+          "text": "Archive"
+        },
+        {
+          "text": "Trash"
+        },
+        {
+          "text": "Settings"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "Projects"
+        },
+        {
+          "text": "Filter Title Status Category"
+        },
+        {
+          "text": "Certified"
+        },
+        {
+          "text": "Completed"
+        },
+        {
+          "text": "In development"
+        },
+        {
+          "text": "No status"
+        },
+        {
+          "text": "Title Status Categories Owner Last viewed by you App views App last pu"
+        },
+        {
+          "text": "Penguin Data In development Dashboard S Sam Lee 2 min ago 6 2 days ago"
+        },
+        {
+          "text": "Untitled project S Sam Lee 2 hrs ago"
+        },
+        {
+          "text": "Copy of Penguin Data (2) S Sam Lee 2 hrs ago"
+        },
+        {
+          "text": "Copy of Penguin Data S Sam Lee 2 hrs ago"
+        },
+        {
+          "text": "Untitled project S Sam Lee 7 days ago"
+        },
+        {
+          "text": "Welcome to Hex! S Sam Lee 7 days ago"
+        },
+        {
+          "text": "Welcome to Hex! a alexsmith@content-mobbin.com"
+        },
+        {
+          "text": "HEX Hex"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Projects"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Home, Collections, Projects, Components, Data, Library, Learn"
+        },
+        {
+          "type": "table",
+          "reading_order": 3,
+          "text": "Title: Penguin Data, Untitled project, Copy of Penguin Data (2), Copy of Penguin Data, Untitled project, Welcome to Hex!, Welcome to Hex!. Status: In development. Categories: Dashboard. Owner: Sam Lee, alexsmith@content-mobbin.com."
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Certified, Completed, In development, No status"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Project management software interface (Hex).",
+      "intent": "Displaying a list of user projects with an active filtering menu.",
+      "entities": [
+        {
+          "name": "Hex",
+          "type": "Software Platform"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        },
+        {
+          "name": "Sam Lee",
+          "type": "User"
+        },
+        {
+          "name": "Penguin Data",
+          "type": "Project"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam Lee",
+          "predicate": "owns",
+          "object": "Penguin Data"
+        },
+        {
+          "subject": "Mobbin",
+          "predicate": "curated",
+          "object": "Hex interface"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "dark grey"
+      ],
+      "style": "clean modern UI",
+      "notes": [
+        "The project list is filtered or sorted by 'Last viewed by you'."
+      ]
+    },
+    "uncertainty": [
+      "The final word of the last table header column ('App last pu') is truncated and likely meant to be 'App last published' or 'App last updated'."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:42.525Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.244,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1202,
+      "totalTokenCount": 2409,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Agoda",
+    "platform": "ios",
+    "file_path": "screens/social-buttons/04 - Agoda.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:18.300Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login or Registration screen",
+    "primary_flow": "social-buttons",
+    "ux_intent": "User authentication",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Card",
+      "No hero illustration or mascot present; relies on clean typography and brand-specific social button iconography.",
+      "Accessibility: High contrast between text and background.",
+      "Design System: Unified rounded-corner border-radius on buttons and input fields."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "No hero illustration or mascot present; relies on clean typography and brand-specific social button iconography.",
+      "Design System: Unified rounded-corner border-radius on buttons and input fields."
+    ],
+    "content_blocks": [
+      "Agoda",
+      "Google",
+      "Facebook",
+      "Apple",
+      "WhatsApp",
+      "samlee.mobbin+1@gmail.com"
+    ],
+    "visual_keywords": [
+      "Clean, modern, minimalist mobile UI. Flat design with consistent card/button padding.",
+      "White",
+      "Blue",
+      "Black",
+      "Grey",
+      "No hero illustration or mascot present; relies on clean typography and brand-specific social button iconography.",
+      "Accessibility: High contrast between text and background.",
+      "Design System: Unified rounded-corner border-radius on buttons and input fields."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern, minimalist mobile UI. Flat design with consistent card/button padding."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_social_buttons_04"
+}

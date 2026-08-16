@@ -1,0 +1,154 @@
+{
+  "image": "03 - Amazon.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of an Amazon customer's account page focused on managing veterinary clinic information. It confirms that a clinic named 'The Cats Meow Cat Clinic' has been successfully saved to the user's profile.",
+    "ocr": {
+      "full_text": "amazon prime Deliver to Alex Menlo Park 94025 All Search Amazon EN Hello, Alex Account & Lists Returns & Orders Cart All Rufus Amazon Haul Early Prime Deals Same-Day Delivery Medical Care Customer Service Prime New Releases Best Sellers Pharmacy Prime Video NBA on Prime tips off October 24 Pet Supplies Pet Profiles Dogs Cats Fish & Aquatics Small Animals Birds Reptiles Horses Deals & Coupons Pet Care Tips Subscribe & Save Veterinary Diets Your Pets Pet Profiles Pet Orders Vet Clinics Vet clinic saved successfully The Cats Meow Cat Clinic 1105 Us Highway 1 Sebastian, FL, 32958 United States Phone: (772) -388-5550 Remove this vet clinic + Add a vet Back to top Get to Know Us Careers Amazon Newsletter About Amazon Accessibility Sustainability Press Center Investor Relations Amazon Devices Make Money with Us Sell on Amazon Sell apps on Amazon Supply to Amazon Protect & Build Your Brand Become an Affiliate Become a Delivery Driver Start a Package Delivery Business Amazon Payment Products Amazon Visa Amazon Store Card Amazon Secured Card Amazon Business Card Shop with Points Credit Card Marketplace Reload Your Balance Gift Cards Amazon Currency Converter Let us Help You Your Account Your Orders Shipping Rates & Policies Amazon Prime Returns & Replacements Manage Your Content and Devices Recalls and Product amazon Amazon curated by Mobbin",
+      "lines": [
+        {
+          "text": "amazon prime"
+        },
+        {
+          "text": "Deliver to Alex Menlo Park 94025"
+        },
+        {
+          "text": "All Search Amazon"
+        },
+        {
+          "text": "EN Hello, Alex Account & Lists Returns & Orders Cart"
+        },
+        {
+          "text": "All Rufus Amazon Haul Early Prime Deals Same-Day Delivery Medical Care Customer Service Prime New Releases Best Sellers Pharmacy Prime Video NBA on Prime tips off October 24"
+        },
+        {
+          "text": "Pet Supplies Pet Profiles Dogs Cats Fish & Aquatics Small Animals Birds Reptiles Horses Deals & Coupons Pet Care Tips Subscribe & Save Veterinary Diets"
+        },
+        {
+          "text": "Your Pets"
+        },
+        {
+          "text": "Pet Profiles Pet Orders Vet Clinics"
+        },
+        {
+          "text": "Vet clinic saved successfully"
+        },
+        {
+          "text": "The Cats Meow Cat Clinic 1105 Us Highway 1 Sebastian, FL, 32958 United States Phone: (772) -388-5550"
+        },
+        {
+          "text": "Remove this vet clinic"
+        },
+        {
+          "text": "+ Add a vet"
+        },
+        {
+          "text": "Back to top"
+        },
+        {
+          "text": "Get to Know Us Careers Amazon Newsletter About Amazon Accessibility Sustainability Press Center Investor Relations Amazon Devices"
+        },
+        {
+          "text": "Make Money with Us Sell on Amazon Sell apps on Amazon Supply to Amazon Protect & Build Your Brand Become an Affiliate Become a Delivery Driver Start a Package Delivery Business"
+        },
+        {
+          "text": "Amazon Payment Products Amazon Visa Amazon Store Card Amazon Secured Card Amazon Business Card Shop with Points Credit Card Marketplace Reload Your Balance Gift Cards Amazon Currency Converter"
+        },
+        {
+          "text": "Let us Help You Your Account Your Orders Shipping Rates & Policies Amazon Prime Returns & Replacements Manage Your Content and Devices Recalls and Product"
+        },
+        {
+          "text": "amazon Amazon"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Your Pets"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Vet clinic saved successfully"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "The Cats Meow Cat Clinic 1105 Us Highway 1 Sebastian, FL, 32958 United States Phone: (772) -388-5550 Remove this vet clinic"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "+ Add a vet"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Amazon customer account interface for managing veterinary clinic information.",
+      "intent": "User is managing their pet care providers on Amazon.",
+      "entities": [
+        {
+          "name": "Amazon",
+          "type": "Platform"
+        },
+        {
+          "name": "The Cats Meow Cat Clinic",
+          "type": "Veterinary Clinic"
+        },
+        {
+          "name": "Alex",
+          "type": "User"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Alex",
+          "predicate": "has saved",
+          "object": "The Cats Meow Cat Clinic"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "dark blue",
+        "grey",
+        "black"
+      ],
+      "style": "Web application interface",
+      "notes": [
+        "Standard Amazon branding and navigation elements present.",
+        "Confirmation message shows a green checkmark indicating successful action."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:51.078Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.948,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1157,
+      "totalTokenCount": 2364,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "identification": {
+    "app_name": "Gentler Streak",
+    "platform": "ios",
+    "file_path": "screens/onboarding/08 - Gentler Streak.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:34.717Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding screen",
+    "primary_flow": "onboarding",
+    "ux_intent": "Welcome the new user, obtain consent for email marketing, and direct the user to start training or use a referral code.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Dark Mode",
+      "Minimalist",
+      "Checkbox",
+      "The hero image is a full-width background photo with a dark overlay to ensure readability of the text.",
+      "The aesthetic is athletic, community-focused, and premium.",
+      "Uses a distinct teal color for the primary CTA button.",
+      "Accessibility: text contrast on the background image is managed through an overlay, but readability might be affected by fine details in the photo.",
+      "The image serves to humanize the brand and promote a sense of inclusivity."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Primary CTA Button",
+      "Checkbox",
+      "Uses a distinct teal color for the primary CTA button."
+    ],
+    "content_blocks": [
+      "Runna",
+      "Alex",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern mobile UI, dark mode, high-contrast imagery, minimalist layout.",
+      "black",
+      "dark grey",
+      "teal",
+      "white",
+      "The hero image is a full-width background photo with a dark overlay to ensure readability of the text.",
+      "The aesthetic is athletic, community-focused, and premium.",
+      "Uses a distinct teal color for the primary CTA button.",
+      "Accessibility: text contrast on the background image is managed through an overlay, but readability might be affected by fine details in the photo.",
+      "The image serves to humanize the brand and promote a sense of inclusivity."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile UI, dark mode, high-contrast imagery, minimalist layout."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_08"
+}

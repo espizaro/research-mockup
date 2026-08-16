@@ -1,0 +1,61 @@
+{
+  "identification": {
+    "app_name": "Linktree",
+    "platform": "ios",
+    "file_path": "screens/register-wizard/08 - Linktree.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:05.804Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app settings page for configuring auto-reply settings.",
+    "primary_flow": "register-wizard",
+    "ux_intent": "The user is being asked to set a filter condition for an auto-reply feature.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Settings",
+      "Minimalist",
+      "Radio",
+      "The UI uses a clean, high-contrast design with a prominent primary purple call-to-action button.",
+      "The screen includes a progress bar at the top.",
+      "No illustrative or decorative art present.",
+      "Clear visual hierarchy using font weight and spacing."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Progress Bar",
+      "The UI uses a clean, high-contrast design with a prominent primary purple call-to-action button."
+    ],
+    "content_blocks": [
+      "Create auto-reply",
+      "Step 2 of 5",
+      "Any comment",
+      "Only comments with specific keywords",
+      "Back",
+      "Next"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, standard iOS platform conventions.",
+      "white",
+      "black",
+      "purple",
+      "The UI uses a clean, high-contrast design with a prominent primary purple call-to-action button.",
+      "The screen includes a progress bar at the top.",
+      "No illustrative or decorative art present.",
+      "Clear visual hierarchy using font weight and spacing."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, standard iOS platform conventions."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_register_wizard_08"
+}

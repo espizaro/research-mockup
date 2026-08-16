@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Hyundai Card",
+    "platform": "ios",
+    "file_path": "screens/period-comparison/03 - Hyundai Card.webp",
+    "analyzed_timestamp": "2026-08-11T22:29:11.639Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Personal finance app dashboard displaying spending analytics.",
+    "primary_flow": "period-comparison",
+    "ux_intent": "To inform the user about their financial activity in October compared to their average.",
+    "ux_patterns": [
+      "Form",
+      "Chart",
+      "Minimalist",
+      "Card",
+      "The blue color in the bar and donut charts signifies the selected data point for October."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Table",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Hyundai Card",
+      "October",
+      "2,907,740원",
+      "2,594,246원",
+      "건강/의료"
+    ],
+    "visual_keywords": [
+      "Mobile app UI, clean, minimalist, flat design.",
+      "white",
+      "gray",
+      "blue",
+      "The blue color in the bar and donut charts signifies the selected data point for October."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile app UI, clean, minimalist, flat design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_period_comparison_03"
+}

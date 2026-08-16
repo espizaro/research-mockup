@@ -1,0 +1,204 @@
+{
+  "image": "08 - MyFitnessPal.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen showing a user's 'Goals' page, likely from the MyFitnessPal application, detailing various health and fitness metrics such as weight, nutrition, and workout frequency.",
+    "ocr": {
+      "full_text": "9:41 Goals Starting Weight 71 kg on 3/4/26 Current Weight 70 kg Goal Weight 75 kg Weekly Goal Gain 0.2 kg per week Activity Level Lightly Active Nutrition Goals Calorie, Carbs, Protein and Fat Goals Customize your default or daily goals. Calorie Goals By Meal Stay on track with a calorie goal for each meal. Show Carbs, Protein and Fat By Meal View carbs, protein and fat by gram or percent. Additional Nutrient Goals Fitness Goals Workouts/Week 0 Minutes/Workout 0 MyFitnessPal curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Goals"
+        },
+        {
+          "text": "Starting Weight 71 kg on 3/4/26"
+        },
+        {
+          "text": "Current Weight 70 kg"
+        },
+        {
+          "text": "Goal Weight 75 kg"
+        },
+        {
+          "text": "Weekly Goal Gain 0.2 kg per week"
+        },
+        {
+          "text": "Activity Level Lightly Active"
+        },
+        {
+          "text": "Nutrition Goals"
+        },
+        {
+          "text": "Calorie, Carbs, Protein and Fat Goals"
+        },
+        {
+          "text": "Customize your default or daily goals."
+        },
+        {
+          "text": "Calorie Goals By Meal"
+        },
+        {
+          "text": "Stay on track with a calorie goal for each meal."
+        },
+        {
+          "text": "Show Carbs, Protein and Fat By Meal"
+        },
+        {
+          "text": "View carbs, protein and fat by gram or percent."
+        },
+        {
+          "text": "Additional Nutrient Goals"
+        },
+        {
+          "text": "Fitness Goals"
+        },
+        {
+          "text": "Workouts/Week 0"
+        },
+        {
+          "text": "Minutes/Workout 0"
+        },
+        {
+          "text": "MyFitnessPal curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Goals"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Starting Weight 71 kg on 3/4/26\nCurrent Weight 70 kg\nGoal Weight 75 kg\nWeekly Goal Gain 0.2 kg per week\nActivity Level Lightly Active"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Nutrition Goals"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Calorie, Carbs, Protein and Fat Goals\nCustomize your default or daily goals.\nCalorie Goals By Meal\nStay on track with a calorie goal for each meal.\nShow Carbs, Protein and Fat By Meal\nView carbs, protein and fat by gram or percent.\nAdditional Nutrient Goals"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Fitness Goals"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Workouts/Week 0\nMinutes/Workout 0"
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "MyFitnessPal curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app settings page for user health and fitness goals.",
+      "intent": "View and edit personal health and fitness goals.",
+      "entities": [
+        {
+          "name": "Starting Weight",
+          "type": "Metric"
+        },
+        {
+          "name": "Current Weight",
+          "type": "Metric"
+        },
+        {
+          "name": "Goal Weight",
+          "type": "Metric"
+        },
+        {
+          "name": "Weekly Goal",
+          "type": "Metric"
+        },
+        {
+          "name": "Activity Level",
+          "type": "Metric"
+        },
+        {
+          "name": "MyFitnessPal",
+          "type": "App"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Starting Weight",
+          "predicate": "is",
+          "object": "71 kg"
+        },
+        {
+          "subject": "Current Weight",
+          "predicate": "is",
+          "object": "70 kg"
+        },
+        {
+          "subject": "Goal Weight",
+          "predicate": "is",
+          "object": "75 kg"
+        },
+        {
+          "subject": "Weekly Goal",
+          "predicate": "is",
+          "object": "Gain 0.2 kg per week"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "blue"
+      ],
+      "style": "Mobile application UI, clean, list-based layout.",
+      "notes": [
+        "Standard iOS status bar header",
+        "Grey background headers for sections",
+        "Toggle switch for showing macros"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:22:53.486Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.959,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1152,
+      "totalTokenCount": 2379,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.961
+      }
+    ],
+    "warnings": []
+  }
+}

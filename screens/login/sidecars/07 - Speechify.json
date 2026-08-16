@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Speechify",
+    "platform": "ios",
+    "file_path": "screens/login/07 - Speechify.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:51.510Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application login screen",
+    "primary_flow": "login",
+    "ux_intent": "To authenticate a user or guide them to password recovery/account registration.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Toggle",
+      "No hero illustration present",
+      "The UI uses a standard mobile login pattern",
+      "High accessibility due to clear labels",
+      "Visual hierarchy is established by font weight and spacing",
+      "The bottom footer contains branding for CAVA and the curation platform Mobbin"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Email field",
+      "Password field",
+      "Show password toggle",
+      "Forgot password link",
+      "Create account link"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, high-contrast, text-heavy",
+      "white",
+      "black",
+      "No hero illustration present",
+      "The UI uses a standard mobile login pattern",
+      "High accessibility due to clear labels",
+      "Visual hierarchy is established by font weight and spacing",
+      "The bottom footer contains branding for CAVA and the curation platform Mobbin"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, high-contrast, text-heavy"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_07"
+}

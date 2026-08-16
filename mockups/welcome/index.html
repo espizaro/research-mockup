@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome · Research Mockup</title>
+<link rel="stylesheet" href="../assets/tokens.css">
+<link rel="stylesheet" href="../assets/base.css">
+</head>
+<body>
+<div class="stage">
+  <aside class="proto-nav">
+    <span class="eyebrow">Starter</span>
+    <h3 class="title">Welcome mockup</h3>
+    <p class="sub">Built with the Design Foundation: semantic tokens, one primary CTA, and a bottom sheet.</p>
+    <button class="btn" data-theme>Toggle theme</button>
+    <button class="btn" data-go="s-home">Home</button>
+    <button class="btn" data-go="s-detail">Detail</button>
+    <button class="btn" data-sheet-open="sheet-about">Open sheet</button>
+  </aside>
+
+  <div class="phone">
+    <div class="phone-inner">
+      <div class="statusbar"><span>9:41</span><span class="ph" data-icon="wifi-high"></span></div>
+      <div class="viewport">
+        <section class="screen active" id="s-home">
+          <div class="mh">
+            <h1 class="title">Good morning</h1>
+          </div>
+          <div class="insight">
+            <span class="k">Today</span>
+            <p>Your first mockup, built entirely from semantic tokens.</p>
+            <div class="src">Design Foundation</div>
+          </div>
+          <div class="sum-item"><span class="k">Primary action</span><span class="v">One CTA per screen</span></div>
+          <div class="sum-item"><span class="k">Surfaces</span><span class="v">No borders or shadows</span></div>
+          <div class="sum-item"><span class="k">Motion</span><span class="v">M3 Expressive</span></div>
+          <div class="stat-row">
+            <div class="stat"><b>2</b><span>Screens</span></div>
+            <div class="stat"><b>1</b><span>Sheet</span></div>
+            <div class="stat"><b>2</b><span>Themes</span></div>
+          </div>
+          <button class="btn primary grow" data-sheet-open="sheet-about">Open the sheet</button>
+          <button class="fab" data-sheet-open="sheet-about"><i class="ph" data-icon="plus"></i></button>
+          <div class="tabbar">
+            <button class="btn" data-go="s-home"><i class="ph" data-icon="house"></i>Home</button>
+            <button class="btn" data-go="s-detail"><i class="ph" data-icon="chart-line"></i>Detail</button>
+          </div>
+        </section>
+
+        <section class="screen" id="s-detail">
+          <div class="mh">
+            <button class="back" data-go="s-home"><i class="ph" data-icon="arrow-left"></i></button>
+            <h1 class="title">Detail</h1>
+          </div>
+          <div class="notice info"><i class="ph" data-icon="info"></i><span>A second screen state. Icons are injected from assets/icons.js.</span></div>
+          <div class="stat-row">
+            <div class="stat"><b>44px</b><span>Min tap target</span></div>
+            <div class="stat"><b>AA</b><span>WCAG 2.2 floor</span></div>
+          </div>
+          <button class="btn ghost grow" data-go="s-home">Back home</button>
+          <div class="tabbar">
+            <button class="btn" data-go="s-home"><i class="ph" data-icon="house"></i>Home</button>
+            <button class="btn" data-go="s-detail"><i class="ph" data-icon="chart-line"></i>Detail</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet-about">
+    <div class="scrim" data-sheet-close></div>
+    <div class="panel">
+      <div class="row">
+        <span class="eyebrow">Bottom sheet</span>
+        <button class="icon-btn" data-sheet-close><i class="ph" data-icon="x"></i></button>
+      </div>
+      <h2 class="title">Sticky CTA, confirmation inside</h2>
+      <p class="sub">Sheets enter with a spring and exit fast. The primary action stays pinned at the bottom.</p>
+      <div class="footer">
+        <button class="btn ghost" data-sheet-close>Cancel</button>
+        <button class="btn primary" data-sheet-close>Done</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../assets/icons.js"></script>
+<script src="../assets/illustrations.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>

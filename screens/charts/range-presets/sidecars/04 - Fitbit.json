@@ -1,0 +1,167 @@
+{
+  "image": "04 - Fitbit.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen for setting a blood glucose target range, featuring input fields for upper and lower limits and informational text about optimal levels.",
+    "ocr": {
+      "full_text": "9:41\nBlood Glucose\nWhat is your target range?\nWe use this to determine if your logged glucose levels are in range.\nUpper Limit\n10 mmol/L\nLower Limit\n4 mmol/L\nA blood sugar level of 4 to 7 mmol/L before food and 4.0 to 10 mmol/L after food is optimal. However, do note that your targets may vary depending on your condition, and thus, you should discuss it with your doctor or care team.\nSET TARGET RANGE\nFitbit\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Blood Glucose"
+        },
+        {
+          "text": "What is your target range?"
+        },
+        {
+          "text": "We use this to determine if your logged glucose levels are in range."
+        },
+        {
+          "text": "Upper Limit"
+        },
+        {
+          "text": "10 mmol/L"
+        },
+        {
+          "text": "Lower Limit"
+        },
+        {
+          "text": "4 mmol/L"
+        },
+        {
+          "text": "A blood sugar level of 4 to 7 mmol/L before food and 4.0 to 10 mmol/L after food is optimal. However, do note that your targets may vary depending on your condition, and thus, you should discuss it with your doctor or care team."
+        },
+        {
+          "text": "SET TARGET RANGE"
+        },
+        {
+          "text": "Fitbit"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Blood Glucose"
+        },
+        {
+          "type": "image",
+          "reading_order": 2,
+          "text": "Icon of a target with an arrow in the center"
+        },
+        {
+          "type": "title",
+          "reading_order": 3,
+          "text": "What is your target range?"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "We use this to determine if your logged glucose levels are in range."
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Upper Limit 10 mmol/L Lower Limit 4 mmol/L"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "A blood sugar level of 4 to 7 mmol/L before food and 4.0 to 10 mmol/L after food is optimal. However, do note that your targets may vary depending on your condition, and thus, you should discuss it with your doctor or care team."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "SET TARGET RANGE"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "User input for setting blood glucose medical tracking parameters",
+      "entities": [
+        {
+          "name": "Blood Glucose",
+          "type": "medical_metric"
+        },
+        {
+          "name": "10 mmol/L",
+          "type": "value"
+        },
+        {
+          "name": "4 mmol/L",
+          "type": "value"
+        },
+        {
+          "name": "Fitbit",
+          "type": "brand"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Upper Limit",
+          "predicate": "has value",
+          "object": "10 mmol/L"
+        },
+        {
+          "subject": "Lower Limit",
+          "predicate": "has value",
+          "object": "4 mmol/L"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "dark blue",
+        "teal",
+        "yellow",
+        "red"
+      ],
+      "style": "Modern minimalist mobile app UI",
+      "notes": [
+        "Target icon at top",
+        "Large button at bottom",
+        "Clean typography"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:22:27.545Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.843,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 948,
+      "totalTokenCount": 2175,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.846
+      }
+    ],
+    "warnings": []
+  }
+}

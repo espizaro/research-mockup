@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "Centr",
+    "platform": "ios",
+    "file_path": "screens/login/01 - Centr.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:46.720Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen of a mobile application.",
+    "primary_flow": "login",
+    "ux_intent": "Authenticate user via email and password credentials.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Toggle",
+      "No hero illustration present.",
+      "The layout is extremely sparse, focusing strictly on utility.",
+      "Standard iOS status bar elements present."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Email Field",
+      "Password Field",
+      "Sign up"
+    ],
+    "visual_keywords": [
+      "Minimalist UI, clean white background, high-contrast black text.",
+      "white",
+      "black",
+      "No hero illustration present.",
+      "The layout is extremely sparse, focusing strictly on utility.",
+      "Standard iOS status bar elements present."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist UI, clean white background, high-contrast black text."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_01"
+}

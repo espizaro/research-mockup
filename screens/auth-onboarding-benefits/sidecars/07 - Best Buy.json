@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Best Buy",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-benefits/07 - Best Buy.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:36.087Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen for a mobile retail app feature (AI Gift Finder).",
+    "primary_flow": "auth-onboarding-benefits",
+    "ux_intent": "Explain the 'save to list' functionality of an AI chat tool.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Card",
+      "The illustration is a stylized 3D representation of an app UI, reinforcing the 'chat' theme.",
+      "Visual hierarchy: Title is bold, body text is clear, CTA is high-contrast.",
+      "The 'Best Buy' yellow tag is a branding highlight.",
+      "The layout is centered, typical for mobile modals."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Primary CTA Button"
+    ],
+    "content_blocks": [
+      "Best Buy",
+      "Mobbin",
+      "Gift Finder",
+      "Juicer"
+    ],
+    "visual_keywords": [
+      "Clean, modern, minimalist mobile UI. Features a 3D-style illustrative element embedded in the screen representation.",
+      "white",
+      "blue",
+      "grey",
+      "The illustration is a stylized 3D representation of an app UI, reinforcing the 'chat' theme.",
+      "Visual hierarchy: Title is bold, body text is clear, CTA is high-contrast.",
+      "The 'Best Buy' yellow tag is a branding highlight.",
+      "The layout is centered, typical for mobile modals."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern, minimalist mobile UI. Features a 3D-style illustrative element embedded in the screen representation."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_benefits_07"
+}

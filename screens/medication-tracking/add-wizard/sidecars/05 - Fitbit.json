@@ -1,0 +1,159 @@
+{
+  "image": "05 - Fitbit.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The user is presented with a 'Blood Glucose' settings screen in a mobile application, allowing them to manage or add recurring reminders.",
+    "ocr": {
+      "full_text": "9:41 Blood Glucose Your reminders 10:58 PM Sun, Tue, Wed, Thu, Fri, Sat + ADD REMINDER NEXT DON'T REMIND ME Fitbit curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Blood Glucose",
+          "language": "en"
+        },
+        {
+          "text": "Your reminders",
+          "language": "en"
+        },
+        {
+          "text": "10:58 PM",
+          "language": "en"
+        },
+        {
+          "text": "Sun, Tue, Wed, Thu, Fri, Sat",
+          "language": "en"
+        },
+        {
+          "text": "+ ADD REMINDER",
+          "language": "en"
+        },
+        {
+          "text": "NEXT",
+          "language": "en"
+        },
+        {
+          "text": "DON'T REMIND ME",
+          "language": "en"
+        },
+        {
+          "text": "Fitbit",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Blood Glucose"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Your reminders"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "10:58 PM Sun, Tue, Wed, Thu, Fri, Sat"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "+ ADD REMINDER"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "NEXT"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "DON'T REMIND ME"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app settings interface for Blood Glucose monitoring reminders.",
+      "intent": "To allow the user to view, edit, or create blood glucose monitoring reminders.",
+      "entities": [
+        {
+          "name": "Blood Glucose",
+          "type": "Category"
+        },
+        {
+          "name": "10:58 PM",
+          "type": "Time"
+        },
+        {
+          "name": "Sun, Tue, Wed, Thu, Fri, Sat",
+          "type": "Days of week"
+        },
+        {
+          "name": "ADD REMINDER",
+          "type": "Button"
+        },
+        {
+          "name": "NEXT",
+          "type": "Button"
+        },
+        {
+          "name": "DON'T REMIND ME",
+          "type": "Link/Button"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "10:58 PM",
+          "predicate": "scheduled on",
+          "object": "Sun, Tue, Wed, Thu, Fri, Sat"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "dark blue",
+        "teal"
+      ],
+      "style": "Mobile Application UI",
+      "notes": [
+        "Minimalist design",
+        "High contrast text on light background",
+        "Standard mobile top status bar elements present"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:58.406Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.96,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 951,
+      "totalTokenCount": 2178,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

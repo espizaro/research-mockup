@@ -1,0 +1,198 @@
+{
+  "image": "05 - GoodRx.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for GoodRx featuring a safety questionnaire to screen for allergies, existing medications, and medical conditions for a patient named Sam.",
+    "ocr": {
+      "full_text": "9:41 Just a few safety questions We care about you and want to avoid any issues with your prescription. Does Sam have any allergies? Yes No Does Sam take any other medications? Yes No Does Sam have any medical conditions? Yes No Back Next Need help? Call (855) 846-4665 GoodRx curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Just a few safety questions",
+          "language": "en"
+        },
+        {
+          "text": "We care about you and want to avoid any issues",
+          "language": "en"
+        },
+        {
+          "text": "with your prescription.",
+          "language": "en"
+        },
+        {
+          "text": "Does Sam have any allergies?",
+          "language": "en"
+        },
+        {
+          "text": "Yes",
+          "language": "en"
+        },
+        {
+          "text": "No",
+          "language": "en"
+        },
+        {
+          "text": "Does Sam take any other medications?",
+          "language": "en"
+        },
+        {
+          "text": "Yes",
+          "language": "en"
+        },
+        {
+          "text": "No",
+          "language": "en"
+        },
+        {
+          "text": "Does Sam have any medical conditions?",
+          "language": "en"
+        },
+        {
+          "text": "Yes",
+          "language": "en"
+        },
+        {
+          "text": "No",
+          "language": "en"
+        },
+        {
+          "text": "Back",
+          "language": "en"
+        },
+        {
+          "text": "Next",
+          "language": "en"
+        },
+        {
+          "text": "Need help? Call (855) 846-4665",
+          "language": "en"
+        },
+        {
+          "text": "GoodRx",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Just a few safety questions"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "We care about you and want to avoid any issues with your prescription."
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Does Sam have any allergies? Yes No"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Does Sam take any other medications? Yes No"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Does Sam have any medical conditions? Yes No"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Back Next"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Need help? Call (855) 846-4665"
+        },
+        {
+          "type": "other",
+          "reading_order": 8,
+          "text": "GoodRx curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface",
+      "intent": "Collect health information for prescription safety",
+      "entities": [
+        {
+          "name": "Sam",
+          "type": "Patient"
+        },
+        {
+          "name": "GoodRx",
+          "type": "Organization"
+        },
+        {
+          "name": "(855) 846-4665",
+          "type": "Phone Number"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam",
+          "predicate": "has a question about",
+          "object": "allergies"
+        },
+        {
+          "subject": "Sam",
+          "predicate": "has a question about",
+          "object": "medications"
+        },
+        {
+          "subject": "Sam",
+          "predicate": "has a question about",
+          "object": "medical conditions"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue"
+      ],
+      "style": "clean mobile interface",
+      "notes": [
+        "Standard iOS status bar header",
+        "Close icon in top right",
+        "Primary button for 'Next' is blue"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:03.806Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.284,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1014,
+      "totalTokenCount": 2241,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Splitwise",
+    "platform": "ios",
+    "file_path": "screens/period-comparison/08 - Splitwise.webp",
+    "analyzed_timestamp": "2026-08-11T22:29:36.221Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Financial mobile application summary page for expense group management",
+    "primary_flow": "period-comparison",
+    "ux_intent": "View expense breakdown and trip statistics",
+    "ux_patterns": [
+      "Form",
+      "Chart",
+      "Toggle",
+      "Uses standard Material or iOS design patterns",
+      "Includes help/question mark icons",
+      "Visual bar chart represents relative spending"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Winter Trip",
+      "$485.00",
+      "$275.00",
+      "$375.00",
+      "$0.00",
+      "November 2025"
+    ],
+    "visual_keywords": [
+      "Modern mobile UI/UX, clean, minimal",
+      "white",
+      "blue",
+      "grey",
+      "Uses standard Material or iOS design patterns",
+      "Includes help/question mark icons",
+      "Visual bar chart represents relative spending"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile UI/UX, clean, minimal"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_period_comparison_08"
+}

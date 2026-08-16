@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Wanderlog",
+    "platform": "ios",
+    "file_path": "screens/login/04 - Wanderlog.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:48.107Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application authentication screen.",
+    "primary_flow": "login",
+    "ux_intent": "To allow the user to log into their account using their registered email and password.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustrations present.",
+      "Focus is purely functional.",
+      "High contrast text on background.",
+      "Standard iOS top status bar."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Email Input",
+      "Password Input",
+      "Login Button",
+      "Forgot password",
+      "Back Button"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean mobile UI design.",
+      "white",
+      "black",
+      "No hero illustrations present.",
+      "Focus is purely functional.",
+      "High contrast text on background.",
+      "Standard iOS top status bar."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_04"
+}

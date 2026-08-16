@@ -1,0 +1,173 @@
+{
+  "image": "03 - Liven.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows a mobile app interface titled 'Streak', displaying a 'Streak calendar' for March 2026. It highlights a current streak of 1 day and indicates a next streak goal of 3 days. The calendar view shows individual days with two specific dates (13 and 16) marked with a lightning bolt icon, indicating completed streak activities.",
+    "ocr": {
+      "full_text": "9:41\n< Streak\nStreak calendar\n1\nCurrent streak\n3\nnext streak goal\nMarch 2026\nSu Mo Tu We Th Fr Sa\n1 2 3 4 5 6 7\n8 9 10 11 12 13 14\n15 16 17 18 19 20 21\n22 23 24 25 26 27 28\n29 30 31\nLiven\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "< Streak",
+          "language": "en"
+        },
+        {
+          "text": "Streak calendar",
+          "language": "en"
+        },
+        {
+          "text": "1",
+          "language": "en"
+        },
+        {
+          "text": "Current streak",
+          "language": "en"
+        },
+        {
+          "text": "3",
+          "language": "en"
+        },
+        {
+          "text": "next streak goal",
+          "language": "en"
+        },
+        {
+          "text": "March 2026",
+          "language": "en"
+        },
+        {
+          "text": "Su Mo Tu We Th Fr Sa",
+          "language": "en"
+        },
+        {
+          "text": "1 2 3 4 5 6 7",
+          "language": "en"
+        },
+        {
+          "text": "8 9 10 11 12 13 14",
+          "language": "en"
+        },
+        {
+          "text": "15 16 17 18 19 20 21",
+          "language": "en"
+        },
+        {
+          "text": "22 23 24 25 26 27 28",
+          "language": "en"
+        },
+        {
+          "text": "29 30 31",
+          "language": "en"
+        },
+        {
+          "text": "Liven",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Streak"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Streak calendar"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "1 Current streak 3 next streak goal"
+        },
+        {
+          "type": "table",
+          "reading_order": 4,
+          "text": "March 2026 Su Mo Tu We Th Fr Sa 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface displaying a streak progress calendar.",
+      "intent": "To inform the user of their current activity streak and goal progress.",
+      "entities": [
+        {
+          "name": "Current streak",
+          "type": "metric",
+          "evidence": "1"
+        },
+        {
+          "name": "Next streak goal",
+          "type": "goal",
+          "evidence": "3"
+        },
+        {
+          "name": "Calendar",
+          "type": "ui-component",
+          "evidence": "March 2026 grid"
+        },
+        {
+          "name": "Lightning bolt icon",
+          "type": "visual-indicator",
+          "evidence": "Displayed on days 13 and 16"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Current streak",
+          "predicate": "is",
+          "object": "1"
+        },
+        {
+          "subject": "Next streak goal",
+          "predicate": "is",
+          "object": "3"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-gradient-peach",
+        "black",
+        "yellow"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "The date 16 is highlighted with a circular border."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:33.966Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.331,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1117,
+      "totalTokenCount": 2344,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

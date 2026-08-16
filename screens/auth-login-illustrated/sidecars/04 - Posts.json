@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Posts",
+    "platform": "ios",
+    "file_path": "screens/auth-login-illustrated/04 - Posts.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:20.755Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login or onboarding screen for a community feature named 'Posts' on the platform Read.cv.",
+    "primary_flow": "auth-login-illustrated",
+    "ux_intent": "To invite users to log in to the 'Posts' feature of the Read.cv platform.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Dark Mode",
+      "Minimalist",
+      "The illustration is central, positioned above the text content.",
+      "The style uses bold colors, simple geometric shapes, and a playful, non-representational aesthetic.",
+      "Dark mode theme throughout the UI.",
+      "Minimalist design with focus on a single primary call to action."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Minimalist design with focus on a single primary call to action."
+    ],
+    "content_blocks": [
+      "Read.cv",
+      "Hannah Lee",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Flat, modern, abstract vector illustration with a hand-drawn feel.",
+      "hex 000000",
+      "hex FF5733",
+      "hex FFCC66",
+      "hex 4A90E2",
+      "hex 50C878",
+      "The illustration is central, positioned above the text content.",
+      "The style uses bold colors, simple geometric shapes, and a playful, non-representational aesthetic.",
+      "Dark mode theme throughout the UI.",
+      "Minimalist design with focus on a single primary call to action."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Flat, modern, abstract vector illustration with a hand-drawn feel."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_illustrated_04"
+}

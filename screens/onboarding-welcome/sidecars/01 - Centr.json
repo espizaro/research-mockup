@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Centr",
+    "platform": "ios",
+    "file_path": "screens/onboarding-welcome/01 - Centr.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:39.730Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding welcome screen",
+    "primary_flow": "onboarding-welcome",
+    "ux_intent": "Welcome the user and prompt them to enter the application environment.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "The hero image of a fitness celebrity acts as a strong visual anchor for the brand.",
+      "The layout uses a dark overlay at the bottom to ensure text readability over the image.",
+      "The CTA button is high contrast (light text on a dark background) and prominent.",
+      "The design uses a clean sans-serif typeface.",
+      "The illustration is a realistic hero character/portrait, reinforcing the fitness lifestyle and brand authority."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The CTA button is high contrast (light text on a dark background) and prominent."
+    ],
+    "content_blocks": [
+      "Chris Hemsworth",
+      "Centr",
+      "Alex",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "High-fidelity mobile UI design, editorial photography-led aesthetic.",
+      "black",
+      "dark gray",
+      "green (nature)",
+      "The hero image of a fitness celebrity acts as a strong visual anchor for the brand.",
+      "The layout uses a dark overlay at the bottom to ensure text readability over the image.",
+      "The CTA button is high contrast (light text on a dark background) and prominent.",
+      "The design uses a clean sans-serif typeface.",
+      "The illustration is a realistic hero character/portrait, reinforcing the fitness lifestyle and brand authority."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "High-fidelity mobile UI design, editorial photography-led aesthetic."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_welcome_01"
+}

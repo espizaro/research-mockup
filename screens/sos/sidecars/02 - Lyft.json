@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Lyft",
+    "platform": "ios",
+    "file_path": "screens/sos/02 - Lyft.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:07.128Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Emergency request screen within a mobile ride-sharing application.",
+    "primary_flow": "sos",
+    "ux_intent": "To provide the user with a quick way to request emergency assistance from ADT.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Clean, minimalist layout",
+      "High contrast for accessibility",
+      "Rounded buttons and input fields"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Rounded buttons and input fields"
+    ],
+    "content_blocks": [
+      "ADT",
+      "Lyft",
+      "911"
+    ],
+    "visual_keywords": [
+      "Modern mobile application UI",
+      "white",
+      "blue",
+      "pink",
+      "Clean, minimalist layout",
+      "High contrast for accessibility",
+      "Rounded buttons and input fields"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile application UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_sos_02"
+}

@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Life Reset",
+    "platform": "ios",
+    "file_path": "screens/auth-register-wizard/04 - Life Reset.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:05.777Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application onboarding or profile setup screen for a calorie tracking tool.",
+    "primary_flow": "auth-register-wizard",
+    "ux_intent": "User is providing personal biometric data to calibrate a health tracking algorithm.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Profile",
+      "Dark Mode",
+      "Minimalist",
+      "Toggle",
+      "High contrast text on dark background",
+      "No illustrative imagery present",
+      "Standard mobile form pattern",
+      "Clear visual hierarchy with bold header"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Calorie Tracker",
+      "Male",
+      "Female",
+      "Height",
+      "Weight",
+      "Age",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Minimalist Dark Mode",
+      "hex 121212",
+      "hex ffffff",
+      "High contrast text on dark background",
+      "No illustrative imagery present",
+      "Standard mobile form pattern",
+      "Clear visual hierarchy with bold header"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist Dark Mode"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_wizard_04"
+}

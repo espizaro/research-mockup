@@ -1,0 +1,127 @@
+{
+  "image": "06 - Brick.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen capture displaying a home screen with two widgets labeled 'BRICK TIME TODAY', both showing '1h 15m'. The bottom navigation indicates 'Brick' and 'curated by Mobbin'.",
+    "ocr": {
+      "full_text": "9:41 1h 15m BRICK TIME TODAY 1h 15m BRICK TIME TODAY Brick curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "1h 15m",
+          "language": "en"
+        },
+        {
+          "text": "BRICK TIME TODAY",
+          "language": "en"
+        },
+        {
+          "text": "1h 15m",
+          "language": "en"
+        },
+        {
+          "text": "BRICK TIME TODAY",
+          "language": "en"
+        },
+        {
+          "text": "Brick",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "9:41"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "1h 15m BRICK TIME TODAY"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "1h 15m BRICK TIME TODAY"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Brick curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile device home screen or dashboard.",
+      "intent": "Displaying time-tracking widgets for an app named 'Brick'.",
+      "entities": [
+        {
+          "name": "Brick",
+          "type": "application",
+          "evidence": "Label at bottom left"
+        },
+        {
+          "name": "Mobbin",
+          "type": "organization",
+          "evidence": "Curated by credit at bottom right"
+        },
+        {
+          "name": "1h 15m",
+          "type": "time duration",
+          "evidence": "Text inside widgets"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "1h 15m",
+          "predicate": "tracks",
+          "object": "BRICK TIME TODAY"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#D3D3D3",
+        "#262626"
+      ],
+      "style": "Minimalist, flat design",
+      "notes": [
+        "Light gray background",
+        "Rounded dark gray widgets",
+        "Two widgets displayed: one wide, one square"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:40.305Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.338,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 764,
+      "totalTokenCount": 1991,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

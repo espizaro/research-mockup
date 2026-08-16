@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "ElevenLabs",
+    "platform": "ios",
+    "file_path": "screens/login/06 - ElevenLabs.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:51.117Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen of a mobile application.",
+    "primary_flow": "login",
+    "ux_intent": "To allow existing users to authenticate their account via email and password.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Toggle",
+      "No hero illustration present; the focus is on utility and form efficiency.",
+      "High contrast between the black 'LOG IN' button and the white background.",
+      "Accessibility check: the 'Forgot password?' text has moderate contrast; the password toggle icon is standard."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "High contrast between the black 'LOG IN' button and the white background."
+    ],
+    "content_blocks": [
+      "Email field",
+      "Password field",
+      "Log In button",
+      "Sign Up link"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern mobile UI design.",
+      "white",
+      "black",
+      "grey",
+      "No hero illustration present; the focus is on utility and form efficiency.",
+      "High contrast between the black 'LOG IN' button and the white background.",
+      "Accessibility check: the 'Forgot password?' text has moderate contrast; the password toggle icon is standard."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_06"
+}

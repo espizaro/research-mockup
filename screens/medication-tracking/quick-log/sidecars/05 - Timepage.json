@@ -1,0 +1,185 @@
+{
+  "image": "05 - Timepage.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app interface for creating a new calendar event, specifically titled 'Pilates', with time settings for August 14th from 10:45 AM to 11:45 AM, shown alongside an active on-screen keyboard.",
+    "ocr": {
+      "full_text": "Pilates\nCalendar\nTODAY\nAUGUST 14\n10:45AM -> 11:45 AM\nCancel\nDone\nq w e r t y u i o p\na s d f g h j k l\nz x c v b n m\n123\nspace\ndone\nTimepage\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "Pilates",
+          "language": "en"
+        },
+        {
+          "text": "Calendar",
+          "language": "en"
+        },
+        {
+          "text": "TODAY",
+          "language": "en"
+        },
+        {
+          "text": "AUGUST 14",
+          "language": "en"
+        },
+        {
+          "text": "10:45AM -> 11:45 AM",
+          "language": "en"
+        },
+        {
+          "text": "Cancel",
+          "language": "en"
+        },
+        {
+          "text": "Done",
+          "language": "en"
+        },
+        {
+          "text": "q w e r t y u i o p",
+          "language": "en"
+        },
+        {
+          "text": "a s d f g h j k l",
+          "language": "en"
+        },
+        {
+          "text": "z x c v b n m",
+          "language": "en"
+        },
+        {
+          "text": "123",
+          "language": "en"
+        },
+        {
+          "text": "space",
+          "language": "en"
+        },
+        {
+          "text": "done",
+          "language": "en"
+        },
+        {
+          "text": "Timepage",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Pilates"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Calendar"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "TODAY AUGUST 14"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "10:45AM -> 11:45 AM"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Keyboard with Cancel and Done options"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "App footer: Timepage curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app calendar event creation screen",
+      "intent": "The user is setting up a calendar event called 'Pilates' for a specific date and time.",
+      "entities": [
+        {
+          "name": "Pilates",
+          "type": "Event Title",
+          "evidence": "Text input field top"
+        },
+        {
+          "name": "Calendar",
+          "type": "Category/Calendar type",
+          "evidence": "Text label below title"
+        },
+        {
+          "name": "August 14",
+          "type": "Date",
+          "evidence": "Date display area"
+        },
+        {
+          "name": "10:45 AM",
+          "type": "Start Time",
+          "evidence": "Time display"
+        },
+        {
+          "name": "11:45 AM",
+          "type": "End Time",
+          "evidence": "Time display"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Pilates",
+          "predicate": "is scheduled for",
+          "object": "August 14"
+        },
+        {
+          "subject": "Pilates",
+          "predicate": "is scheduled from",
+          "object": "10:45 AM to 11:45 AM"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "black",
+        "purple"
+      ],
+      "style": "Mobile Application UI, minimalist, clean, flat design",
+      "notes": [
+        "Uses a system keyboard interface.",
+        "Includes a specialized time-range selector visual component."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:30.134Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.535,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1007,
+      "totalTokenCount": 2234,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

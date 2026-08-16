@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "The Outsiders",
+    "platform": "ios",
+    "file_path": "screens/detail-sheets/04 - The Outsiders.webp",
+    "analyzed_timestamp": "2026-08-05T19:42:42.095Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app workout exertion logging screen",
+    "primary_flow": "detail-sheets",
+    "ux_intent": "To capture the user's subjective physical exertion level for a workout session.",
+    "ux_patterns": [
+      "Form",
+      "Slider",
+      "Chart",
+      "Dark Mode",
+      "The slider indicator is centered on a color gradient representing exertion levels",
+      "The 'Save' button includes a descriptive sub-label regarding the current selection"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Slider",
+      "The 'Save' button includes a descriptive sub-label regarding the current selection"
+    ],
+    "content_blocks": [
+      "Perceived Exertion",
+      "5",
+      "Somewhat Hard",
+      "Save"
+    ],
+    "visual_keywords": [
+      "Modern mobile UI, dark mode",
+      "black",
+      "dark gray",
+      "orange",
+      "red",
+      "white",
+      "The slider indicator is centered on a color gradient representing exertion levels",
+      "The 'Save' button includes a descriptive sub-label regarding the current selection"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile UI, dark mode"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_sheets_04"
+}

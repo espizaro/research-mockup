@@ -1,0 +1,210 @@
+{
+  "image": "08 - Fi.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen showing a 'Timeline' view for pet tracking, specifically for a pet named 'Maggie'. The timeline displays location and companion status updates over the course of February 21st and 22nd, 2026. The bottom navigation bar indicates sections for Live, Health, Rank, Community, and a profile tab for 'Maggie'.",
+    "ocr": {
+      "full_text": "9:41\n< Timeline\nAll\nYou\nFollowing\nTODAY, FEB 22, 2026\n8:52am\nMaggie is now with Aubrey\nYESTERDAY, FEB 21, 2026\n10:18pm\nMaggie is near 1005 S 180th St\n6:18pm\nMaggie is now with Aubrey\n6:13pm\nMaggie is near 1005 S 180th St\n4:52pm\nMaggie is near 1005 S 180th St\n4:34pm\nMaggie is now with Aubrey\n4:20pm\nMaggie is near 1005 S 180th St\n4:04pm\nMaggie is now with Aubrey\nLive\nHealth\nRank\nCommunity\nMaggie\nFi\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "< Timeline"
+        },
+        {
+          "text": "All"
+        },
+        {
+          "text": "You"
+        },
+        {
+          "text": "Following"
+        },
+        {
+          "text": "TODAY, FEB 22, 2026"
+        },
+        {
+          "text": "8:52am"
+        },
+        {
+          "text": "Maggie is now with Aubrey"
+        },
+        {
+          "text": "YESTERDAY, FEB 21, 2026"
+        },
+        {
+          "text": "10:18pm"
+        },
+        {
+          "text": "Maggie is near 1005 S 180th St"
+        },
+        {
+          "text": "6:18pm"
+        },
+        {
+          "text": "Maggie is now with Aubrey"
+        },
+        {
+          "text": "6:13pm"
+        },
+        {
+          "text": "Maggie is near 1005 S 180th St"
+        },
+        {
+          "text": "4:52pm"
+        },
+        {
+          "text": "Maggie is near 1005 S 180th St"
+        },
+        {
+          "text": "4:34pm"
+        },
+        {
+          "text": "Maggie is now with Aubrey"
+        },
+        {
+          "text": "4:20pm"
+        },
+        {
+          "text": "Maggie is near 1005 S 180th St"
+        },
+        {
+          "text": "4:04pm"
+        },
+        {
+          "text": "Maggie is now with Aubrey"
+        },
+        {
+          "text": "Live"
+        },
+        {
+          "text": "Health"
+        },
+        {
+          "text": "Rank"
+        },
+        {
+          "text": "Community"
+        },
+        {
+          "text": "Maggie"
+        },
+        {
+          "text": "Fi"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Timeline"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "All You Following"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "TODAY, FEB 22, 2026"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "8:52am Maggie is now with Aubrey"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "YESTERDAY, FEB 21, 2026"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "10:18pm Maggie is near 1005 S 180th St 6:18pm Maggie is now with Aubrey 6:13pm Maggie is near 1005 S 180th St 4:52pm Maggie is near 1005 S 180th St 4:34pm Maggie is now with Aubrey 4:20pm Maggie is near 1005 S 180th St 4:04pm Maggie is now with Aubrey"
+        },
+        {
+          "type": "form",
+          "reading_order": 7,
+          "text": "Live Health Rank Community Maggie"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface showing a pet activity timeline.",
+      "intent": "Tracking the location and companionship status of a pet named Maggie.",
+      "entities": [
+        {
+          "name": "Maggie",
+          "type": "pet",
+          "evidence": "Label in navigation bar and timeline entries"
+        },
+        {
+          "name": "Aubrey",
+          "type": "person",
+          "evidence": "Mentioned as a companion in timeline entries"
+        },
+        {
+          "name": "1005 S 180th St",
+          "type": "location",
+          "evidence": "Mentioned as a location in timeline entries"
+        },
+        {
+          "name": "Fi",
+          "type": "application",
+          "evidence": "Brand name shown at the bottom"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Maggie",
+          "predicate": "is with",
+          "object": "Aubrey"
+        },
+        {
+          "subject": "Maggie",
+          "predicate": "is near",
+          "object": "1005 S 180th St"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "gray"
+      ],
+      "style": "Mobile app UI, minimalist, clean, vertical timeline list"
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:41.481Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.628,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1425,
+      "totalTokenCount": 2652,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

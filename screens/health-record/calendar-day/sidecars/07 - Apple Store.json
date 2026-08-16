@@ -1,0 +1,182 @@
+{
+  "image": "07 - Apple Store.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen from the Apple Store application, specifically within the 'Go Further' section, showing a list of upcoming events at the 'Apple The Grove' store for today, the 28th.",
+    "ocr": {
+      "full_text": "9:41 Upcoming Filter T W T F S S M 28 29 30 1 2 3 4 All Formats, All Topics, All Types, Anytime Today Apple The Grove Kids: Make a Theme Song 6:00 PM - 7:00 PM Apple The Grove Spotlight: Experience BTS in Spatial Audio 7:15 PM - 7:30 PM Apple The Grove For You Products Go Further Bag Apple Store curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Upcoming"
+        },
+        {
+          "text": "Filter"
+        },
+        {
+          "text": "T W T F S S M"
+        },
+        {
+          "text": "28 29 30 1 2 3 4"
+        },
+        {
+          "text": "All Formats, All Topics, All Types, Anytime"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Apple The Grove"
+        },
+        {
+          "text": "Kids: Make a Theme Song"
+        },
+        {
+          "text": "6:00 PM - 7:00 PM"
+        },
+        {
+          "text": "Apple The Grove"
+        },
+        {
+          "text": "Spotlight: Experience BTS in Spatial Audio"
+        },
+        {
+          "text": "7:15 PM - 7:30 PM"
+        },
+        {
+          "text": "Apple The Grove"
+        },
+        {
+          "text": "For You Products Go Further Bag"
+        },
+        {
+          "text": "Apple Store curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Upcoming"
+        },
+        {
+          "type": "other",
+          "reading_order": 2,
+          "text": "Filter"
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Calendar date row: T(28) W(29) T(30) F(1) S(2) S(3) M(4)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "All Formats, All Topics, All Types, Anytime"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 5,
+          "text": "Today"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "Apple The Grove (Store selection)"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Kids: Make a Theme Song, 6:00 PM - 7:00 PM, Apple The Grove"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Spotlight: Experience BTS in Spatial Audio, 7:15 PM - 7:30 PM, Apple The Grove"
+        },
+        {
+          "type": "other",
+          "reading_order": 9,
+          "text": "Bottom Navigation: For You, Products, Go Further, Bag"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application interface showing store event schedule.",
+      "intent": "User is browsing upcoming in-store events at an Apple Store.",
+      "entities": [
+        {
+          "name": "Apple Store",
+          "type": "Organization",
+          "evidence": "text 'Apple Store' at bottom"
+        },
+        {
+          "name": "Apple The Grove",
+          "type": "Location",
+          "evidence": "text 'Apple The Grove' mentioned in event listings"
+        },
+        {
+          "name": "Kids: Make a Theme Song",
+          "type": "Event",
+          "evidence": "List item header"
+        },
+        {
+          "name": "Spotlight: Experience BTS in Spatial Audio",
+          "type": "Event",
+          "evidence": "List item header"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Kids: Make a Theme Song",
+          "predicate": "scheduled at",
+          "object": "Apple The Grove"
+        },
+        {
+          "subject": "Spotlight: Experience BTS in Spatial Audio",
+          "predicate": "scheduled at",
+          "object": "Apple The Grove"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "light gray",
+        "blue"
+      ],
+      "style": "Minimalist, clean, iOS UI standard",
+      "notes": [
+        "Standard Apple Store app design with a persistent bottom navigation bar."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:27.491Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.168,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1080,
+      "totalTokenCount": 2307,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

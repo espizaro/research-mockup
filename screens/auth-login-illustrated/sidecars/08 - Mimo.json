@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Mimo",
+    "platform": "ios",
+    "file_path": "screens/auth-login-illustrated/08 - Mimo.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:12.419Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application authentication and login screen.",
+    "primary_flow": "auth-login-illustrated",
+    "ux_intent": "To allow existing users to log into their Mimo account via email or social providers.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "The illustration features a character/mascot which serves both as a friendly visual cue and thematic reinforcement of 'welcoming back'.",
+      "The layout follows standard mobile login patterns with a primary CTA and secondary social login row.",
+      "The design uses a monochromatic purple theme for UI elements, maintaining brand consistency.",
+      "The mascot is positioned centrally to draw focus while reinforcing the warm, welcoming tone."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Mimo",
+      "Google",
+      "Apple",
+      "Facebook",
+      "Terms of Service"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, playful, mascot-driven.",
+      "white",
+      "purple",
+      "black",
+      "The illustration features a character/mascot which serves both as a friendly visual cue and thematic reinforcement of 'welcoming back'.",
+      "The layout follows standard mobile login patterns with a primary CTA and secondary social login row.",
+      "The design uses a monochromatic purple theme for UI elements, maintaining brand consistency.",
+      "The mascot is positioned centrally to draw focus while reinforcing the warm, welcoming tone."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, playful, mascot-driven."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_illustrated_08"
+}

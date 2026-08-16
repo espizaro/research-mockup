@@ -1,0 +1,190 @@
+{
+  "image": "08 - Atoms.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows a mobile app UI featuring a profile settings screen overlaid by an 'Additional daily reminder' modal, which allows the user to set a recurring habit notification for the morning or evening.",
+    "ocr": {
+      "full_text": "9:41\nJane Doe\n1 active habit · 1 identity\nYour trial ends in 28 days\nNotifications\nHabit reminder\nAdditional daily reminder\nSet an all-in-one reminder to do your habits\nevery day\nOff\nMorning (8:00 AM)\nEvening (5:00 PM)\nSave\nAtoms\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Jane Doe",
+          "language": "en"
+        },
+        {
+          "text": "1 active habit · 1 identity",
+          "language": "en"
+        },
+        {
+          "text": "Your trial ends in 28 days",
+          "language": "en"
+        },
+        {
+          "text": "Notifications",
+          "language": "en"
+        },
+        {
+          "text": "Habit reminder",
+          "language": "en"
+        },
+        {
+          "text": "Additional daily reminder",
+          "language": "en"
+        },
+        {
+          "text": "Set an all-in-one reminder to do your habits",
+          "language": "en"
+        },
+        {
+          "text": "every day",
+          "language": "en"
+        },
+        {
+          "text": "Off",
+          "language": "en"
+        },
+        {
+          "text": "Morning (8:00 AM)",
+          "language": "en"
+        },
+        {
+          "text": "Evening (5:00 PM)",
+          "language": "en"
+        },
+        {
+          "text": "Save",
+          "language": "en"
+        },
+        {
+          "text": "Atoms",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Jane Doe"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "1 active habit · 1 identity"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Your trial ends in 28 days"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Notifications"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Habit reminder"
+        },
+        {
+          "type": "title",
+          "reading_order": 6,
+          "text": "Additional daily reminder"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Set an all-in-one reminder to do your habits every day"
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Off Morning (8:00 AM) Evening (5:00 PM)"
+        },
+        {
+          "type": "other",
+          "reading_order": 9,
+          "text": "Save"
+        },
+        {
+          "type": "other",
+          "reading_order": 10,
+          "text": "Atoms curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app UI setting a notification preference",
+      "intent": "The user is selecting a preferred time for a daily habit reminder.",
+      "entities": [
+        {
+          "name": "Jane Doe",
+          "type": "User"
+        },
+        {
+          "name": "Additional daily reminder",
+          "type": "UI Modal"
+        },
+        {
+          "name": "Morning (8:00 AM)",
+          "type": "Selection Option"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Jane Doe",
+          "predicate": "has",
+          "object": "1 active habit"
+        },
+        {
+          "subject": "Additional daily reminder",
+          "predicate": "set for",
+          "object": "Morning (8:00 AM)"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#f2f0ea",
+        "#fdbb43",
+        "#1a1a1a"
+      ],
+      "style": "Minimalist mobile app design with rounded modal corners",
+      "notes": [
+        "The UI uses a warm beige background with high contrast dark text."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:24.088Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.491,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 965,
+      "totalTokenCount": 2192,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

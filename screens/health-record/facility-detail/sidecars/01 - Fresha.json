@@ -1,0 +1,145 @@
+{
+  "image": "01 - Fresha.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for Lyna's Beauty Salon hosted on the Fresha platform, displaying a list of waxing services with prices and durations, and a side panel with salon details, booking information, and location.",
+    "ocr": {
+      "full_text": "Photos Services Team Reviews About Services Featured Head Spa Make up Eyebrow Microblading Eyelash Extensions Waxing Facial < > Lyna's Beauty Salon 5.0 (2) Book now Closed opens at 10.00 am 515 El Camino Real, #160, Downtown Menlo Park, Menlo Park, California Get directions Half Leg+Bikini 35 mins 2 services US$70 Save 13% Book Brazillian+Full leg 1 hr, 10 mins 2 services US$130 Save US$5 Book Eyebrow Tint 15 mins US$30 Book Bikini 15 mins Female only US$35 Book Full Legs Waxing 40 mins US$60 Book Half Legs Waxing 20 mins US$45 Book Fresha curated by Mobbin",
+      "lines": [
+        {
+          "text": "Photos Services Team Reviews About"
+        },
+        {
+          "text": "Services"
+        },
+        {
+          "text": "Featured Head Spa Make up Eyebrow Microblading Eyelash Extensions Waxing Facial < >"
+        },
+        {
+          "text": "Lyna's Beauty Salon"
+        },
+        {
+          "text": "5.0 (2)"
+        },
+        {
+          "text": "Book now"
+        },
+        {
+          "text": "Closed opens at 10.00 am"
+        },
+        {
+          "text": "515 El Camino Real, #160, Downtown Menlo Park, Menlo Park, California Get directions"
+        },
+        {
+          "text": "Half Leg+Bikini 35 mins 2 services US$70 Save 13% Book"
+        },
+        {
+          "text": "Brazillian+Full leg 1 hr, 10 mins 2 services US$130 Save US$5 Book"
+        },
+        {
+          "text": "Eyebrow Tint 15 mins US$30 Book"
+        },
+        {
+          "text": "Bikini 15 mins Female only US$35 Book"
+        },
+        {
+          "text": "Full Legs Waxing 40 mins US$60 Book"
+        },
+        {
+          "text": "Half Legs Waxing 20 mins US$45 Book"
+        },
+        {
+          "text": "Fresha curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Services"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Featured Head Spa Make up Eyebrow Microblading Eyelash Extensions Waxing Facial"
+        },
+        {
+          "type": "table",
+          "reading_order": 3,
+          "text": "List of waxing services including Half Leg+Bikini, Brazillian+Full leg, Eyebrow Tint, Bikini, Full Legs Waxing, and Half Legs Waxing."
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Lyna's Beauty Salon, 5.0 (2), Book now button, opening hours, and address details."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Beauty salon service booking page",
+      "intent": "View and book beauty salon services",
+      "entities": [
+        {
+          "name": "Lyna's Beauty Salon",
+          "type": "Business"
+        },
+        {
+          "name": "Fresha",
+          "type": "Platform"
+        },
+        {
+          "name": "515 El Camino Real, #160, Downtown Menlo Park, Menlo Park, California",
+          "type": "Location"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lyna's Beauty Salon",
+          "predicate": "is located at",
+          "object": "515 El Camino Real, #160, Downtown Menlo Park, Menlo Park, California"
+        },
+        {
+          "subject": "Lyna's Beauty Salon",
+          "predicate": "uses",
+          "object": "Fresha"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "gray"
+      ],
+      "style": "Mobile web UI, minimalist",
+      "notes": [
+        "Clean typography, clear hierarchy, high contrast."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:32.521Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.487,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1021,
+      "totalTokenCount": 2228,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "image": "06 - Medium.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for an 'Add note' screen in a reading application, showing a snippet of an article titled 'Mind Fullness or Emptiness?' by Tomas Byrne.",
+    "ocr": {
+      "full_text": "9:41 Add note Cancel Add a brief description In Know Thyself, Heal Thyself by Tomas Byrne Mind Fullness or Emptiness? 8 min read Oct 23, 2021 Done Medium curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Add note"
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Add a brief description"
+        },
+        {
+          "text": "In Know Thyself, Heal Thyself by Tomas Byrne"
+        },
+        {
+          "text": "Mind Fullness"
+        },
+        {
+          "text": "or Emptiness?"
+        },
+        {
+          "text": "8 min read"
+        },
+        {
+          "text": "Oct 23, 2021"
+        },
+        {
+          "text": "Done"
+        },
+        {
+          "text": "Medium"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Add note"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "Add a brief description"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "In Know Thyself, Heal Thyself by Tomas Byrne Mind Fullness or Emptiness? 8 min read Oct 23, 2021"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Done"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface modal for adding notes to an article.",
+      "intent": "User is prompted to add a description or note about the article being saved or reviewed.",
+      "entities": [
+        {
+          "name": "Know Thyself, Heal Thyself",
+          "type": "publication"
+        },
+        {
+          "name": "Tomas Byrne",
+          "type": "author"
+        },
+        {
+          "name": "Mind Fullness or Emptiness?",
+          "type": "article"
+        },
+        {
+          "name": "Medium",
+          "type": "platform"
+        },
+        {
+          "name": "Mobbin",
+          "type": "curator"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tomas Byrne",
+          "predicate": "authored",
+          "object": "Mind Fullness or Emptiness?"
+        },
+        {
+          "subject": "Mind Fullness or Emptiness?",
+          "predicate": "published_in",
+          "object": "Know Thyself, Heal Thyself"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "green",
+        "black"
+      ],
+      "style": "clean mobile UI design",
+      "notes": [
+        "The 'Done' button is a prominent green rectangle.",
+        "The card containing the article metadata has a thin light gray border."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:40.450Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 7.152,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 883,
+      "totalTokenCount": 2110,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

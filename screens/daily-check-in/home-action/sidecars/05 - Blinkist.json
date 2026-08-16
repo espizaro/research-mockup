@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Blinkist",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/home-action/05 - Blinkist.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:33.816Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application homepage for a reading/learning app.",
+    "primary_flow": "daily-check-in/home-action",
+    "ux_intent": "User interface dashboard showing personalized content recommendations.",
+    "ux_patterns": [
+      "Search",
+      "Minimalist",
+      "Card",
+      "Carousel",
+      "Uses a light green overlay for the bottom navigation bar."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Uses a light green overlay for the bottom navigation bar."
+    ],
+    "content_blocks": [
+      "Blinkist",
+      "Think and Grow Rich",
+      "Napoleon Hill"
+    ],
+    "visual_keywords": [
+      "Mobile app UI, clean, minimalist with card-based elements",
+      "white",
+      "dark blue",
+      "light green",
+      "Uses a light green overlay for the bottom navigation bar."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile app UI, clean, minimalist with card-based elements"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_home_action_05"
+}

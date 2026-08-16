@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Amplitude",
+    "platform": "ios",
+    "file_path": "screens/data-viz/02 - Amplitude.webp",
+    "analyzed_timestamp": "2026-08-06T23:57:40.286Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Web Analytics Dashboard",
+    "primary_flow": "data-viz",
+    "ux_intent": "To provide a high-level overview of website traffic and user behavior metrics.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Chart",
+      "Minimalist",
+      "Card",
+      "Clear information hierarchy",
+      "Use of color-coded trends (green/red indicators)"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Table",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Dropdown"
+    ],
+    "content_blocks": [
+      "Plausible",
+      "Jane Smith",
+      "plausible.io"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, data-heavy dashboard UI",
+      "white",
+      "blue",
+      "light-grey",
+      "dark-blue",
+      "Clear information hierarchy",
+      "Use of color-coded trends (green/red indicators)"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, data-heavy dashboard UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_data_viz_02"
+}

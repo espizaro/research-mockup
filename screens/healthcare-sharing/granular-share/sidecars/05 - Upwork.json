@@ -1,0 +1,145 @@
+{
+  "image": "05 - Upwork.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A screenshot of an Upwork mobile interface showing a 'Select Categories' modal with a list of checkboxes for various job categories and an active keyboard input field.",
+    "ocr": {
+      "full_text": "9:41 Select Categories Done Data Science &amp; Analytics Design &amp; Creative All - Design & Creative Art & Illustration Audio & Music Production Branding & Logo Design NFT, AR/VR & Game Art Graphic, Editorial & Presentation Design q w e r t y u i o p a s d f g h j k l z x c v b n m 123 space search Upwork curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Select Categories"
+        },
+        {
+          "text": "Done"
+        },
+        {
+          "text": "Data Science &amp; Analytics"
+        },
+        {
+          "text": "Design &amp; Creative"
+        },
+        {
+          "text": "All - Design & Creative"
+        },
+        {
+          "text": "Art & Illustration"
+        },
+        {
+          "text": "Audio & Music Production"
+        },
+        {
+          "text": "Branding & Logo Design"
+        },
+        {
+          "text": "NFT, AR/VR & Game Art"
+        },
+        {
+          "text": "Graphic, Editorial & Presentation Design"
+        },
+        {
+          "text": "q w e r t y u i o p"
+        },
+        {
+          "text": "a s d f g h j k l"
+        },
+        {
+          "text": "z x c v b n m"
+        },
+        {
+          "text": "123 space search"
+        },
+        {
+          "text": "Upwork curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Select Categories"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Data Science & Analytics, Design & Creative, All - Design & Creative, Art & Illustration, Audio & Music Production, Branding & Logo Design, NFT, AR/VR & Game Art, Graphic, Editorial & Presentation Design"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "Keyboard with search button"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Footer: Upwork curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app UI, specifically a category selection filter modal.",
+      "intent": "User is selecting job categories to filter results or set preferences, using an on-screen keyboard.",
+      "entities": [
+        {
+          "name": "Upwork",
+          "type": "Company"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Company"
+        },
+        {
+          "name": "Select Categories",
+          "type": "UI Element"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Upwork",
+          "predicate": "platform curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "gray",
+        "blue"
+      ],
+      "style": "Mobile Application User Interface",
+      "notes": [
+        "Standard iOS-style navigation and keyboard layout."
+      ]
+    },
+    "uncertainty": [
+      "The &amp; in the OCR is likely a display artifact representing an ampersand (&) in the original UI."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:54.079Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.017,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 780,
+      "totalTokenCount": 2007,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

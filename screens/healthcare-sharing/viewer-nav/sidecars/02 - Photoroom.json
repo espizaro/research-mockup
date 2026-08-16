@@ -1,0 +1,244 @@
+{
+  "image": "02 - Photoroom.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a mobile design application interface, likely Photoroom, featuring a home dashboard with user profile info, a prominent call-to-action for inviting team members, a folder management section, a recent designs area, and a bottom navigation bar.",
+    "ocr": {
+      "full_text": "9:41 Alex Smith's P... Pro Brand Usage Settings Invite Pe Invite people to your Spa... Space members can access and collaborate on shared designs Sofia Joe Izumi Invite people Folders > + Templates Uploads Product catalog Your Designs > + New design This is Alex Home AI tools Batch Content Products Photoroom curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Alex Smith's P..."
+        },
+        {
+          "text": "Pro"
+        },
+        {
+          "text": "Brand"
+        },
+        {
+          "text": "Usage"
+        },
+        {
+          "text": "Settings"
+        },
+        {
+          "text": "Invite Pe"
+        },
+        {
+          "text": "Invite people to your Spa..."
+        },
+        {
+          "text": "Space members can access and collaborate on shared designs"
+        },
+        {
+          "text": "Sofia"
+        },
+        {
+          "text": "Joe"
+        },
+        {
+          "text": "Izumi"
+        },
+        {
+          "text": "Invite people"
+        },
+        {
+          "text": "Folders >"
+        },
+        {
+          "text": "+"
+        },
+        {
+          "text": "Templates"
+        },
+        {
+          "text": "Uploads"
+        },
+        {
+          "text": "Product catalog"
+        },
+        {
+          "text": "Your Designs >"
+        },
+        {
+          "text": "+"
+        },
+        {
+          "text": "New design"
+        },
+        {
+          "text": "This is Alex"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "AI tools"
+        },
+        {
+          "text": "Batch"
+        },
+        {
+          "text": "Content"
+        },
+        {
+          "text": "Products"
+        },
+        {
+          "text": "Photoroom"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Alex Smith's P..."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Brand Usage Settings Invite Pe"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Invite people to your Spa... Space members can access and collaborate on shared designs"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Sofia Joe Izumi"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Invite people"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Folders > +"
+        },
+        {
+          "type": "table",
+          "reading_order": 7,
+          "text": "Templates Uploads Product catalog"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "Your Designs > +"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 9,
+          "text": "New design"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 10,
+          "text": "This is Alex"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 11,
+          "text": "Home AI tools Batch Content Products"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 12,
+          "text": "Photoroom curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI for a creative design tool",
+      "intent": "Manage user workspace, collaborate with team members, and access design projects",
+      "entities": [
+        {
+          "name": "Alex Smith",
+          "type": "User"
+        },
+        {
+          "name": "Sofia",
+          "type": "Team Member"
+        },
+        {
+          "name": "Joe",
+          "type": "Team Member"
+        },
+        {
+          "name": "Izumi",
+          "type": "Team Member"
+        },
+        {
+          "name": "Photoroom",
+          "type": "Brand"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Brand"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Space",
+          "predicate": "has members",
+          "object": "Sofia, Joe, Izumi"
+        },
+        {
+          "subject": "User",
+          "predicate": "owns",
+          "object": "Folders, Designs"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "lavender",
+        "purple",
+        "gray"
+      ],
+      "style": "clean modern mobile application UI",
+      "notes": [
+        "Uses soft rounded cards and buttons",
+        "High contrast text for readability"
+      ]
+    },
+    "uncertainty": [
+      "The full text 'Invite Pe' is truncated",
+      "The text 'Invite people to your Spa...' is likely 'Invite people to your Space' but truncated"
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:06:22.670Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.903,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1062,
+      "totalTokenCount": 2289,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

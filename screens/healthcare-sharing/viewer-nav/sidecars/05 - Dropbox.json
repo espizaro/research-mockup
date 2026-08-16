@@ -1,0 +1,203 @@
+{
+  "image": "05 - Dropbox.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Dropbox mobile application's home screen, displaying empty state sections for 'Starred', 'Viewed links', and 'Shared' content, with a bottom navigation bar.",
+    "ocr": {
+      "full_text": "9.41 Home Search for anything Starred Anything you star shows up here for quick access. Viewed links Links you've previously viewed show up here. Shared Your shared folders will show up here so they're easy to find. Home Files Photos Account Dropbox curated by Mobbin",
+      "lines": [
+        {
+          "text": "9.41"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Search for anything"
+        },
+        {
+          "text": "Starred"
+        },
+        {
+          "text": "Anything you star"
+        },
+        {
+          "text": "shows up here for quick"
+        },
+        {
+          "text": "access."
+        },
+        {
+          "text": "Viewed links"
+        },
+        {
+          "text": "Links you've previously"
+        },
+        {
+          "text": "viewed show up here."
+        },
+        {
+          "text": "Shared"
+        },
+        {
+          "text": "Your shared folders will"
+        },
+        {
+          "text": "show up here so they're"
+        },
+        {
+          "text": "easy to find."
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Files"
+        },
+        {
+          "text": "Photos"
+        },
+        {
+          "text": "Account"
+        },
+        {
+          "text": "Dropbox"
+        },
+        {
+          "text": "curated by"
+        },
+        {
+          "text": "Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Home"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Search for anything"
+        },
+        {
+          "type": "title",
+          "reading_order": 3,
+          "text": "Starred"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Anything you star shows up here for quick access."
+        },
+        {
+          "type": "image",
+          "reading_order": 5,
+          "text": "Illustration of hands holding a paper with star stickers."
+        },
+        {
+          "type": "title",
+          "reading_order": 6,
+          "text": "Viewed links"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Links you've previously viewed show up here."
+        },
+        {
+          "type": "image",
+          "reading_order": 8,
+          "text": "Illustration of people collaborating on a board."
+        },
+        {
+          "type": "title",
+          "reading_order": 9,
+          "text": "Shared"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 10,
+          "text": "Your shared folders will show up here so they're easy to find."
+        },
+        {
+          "type": "image",
+          "reading_order": 11,
+          "text": "Illustration of people looking at a shared diagram."
+        },
+        {
+          "type": "list",
+          "reading_order": 12,
+          "text": "Home, Files, Photos, Account"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "UI design showcase",
+      "entities": [
+        {
+          "name": "Dropbox",
+          "type": "Application",
+          "evidence": "Dropbox branding at the bottom"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator",
+          "evidence": "curated by Mobbin footer"
+        },
+        {
+          "name": "iOS status bar",
+          "type": "UI element",
+          "evidence": "top of the screen"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Dropbox",
+          "predicate": "is curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "blue"
+      ],
+      "style": "clean mobile interface, minimalist, flat illustrations",
+      "notes": [
+        "Standard iOS status bar",
+        "Bottom tab navigation bar",
+        "Illustrations represent placeholder/empty state content"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:06:45.709Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.624,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 975,
+      "totalTokenCount": 2202,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

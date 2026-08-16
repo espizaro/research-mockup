@@ -1,0 +1,138 @@
+{
+  "image": "08 - NYT Cooking.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for adding a private note within the NYT Cooking application.",
+    "ocr": {
+      "full_text": "9:41 Cancel Add a Note Add more garlic! Notes are always private. Add Note 1 2 3 4 5 6 7 8 9 0 - / : ; ( ) $ & @ \" #+= . , ? ! ' ABC space return NYT Cooking curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Add a Note"
+        },
+        {
+          "text": "Add more garlic!"
+        },
+        {
+          "text": "Notes are always private."
+        },
+        {
+          "text": "Add Note"
+        },
+        {
+          "text": "1 2 3 4 5 6 7 8 9 0"
+        },
+        {
+          "text": "- / : ; ( ) $ & @ \""
+        },
+        {
+          "text": "#+= . , ? ! '"
+        },
+        {
+          "text": "ABC space return"
+        },
+        {
+          "text": "NYT Cooking curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Add a Note"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Add more garlic!"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Notes are always private."
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Add Note"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "On-screen keyboard"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app modal interface",
+      "intent": "User input for adding a private note to a recipe",
+      "entities": [
+        {
+          "name": "NYT Cooking",
+          "type": "Application"
+        },
+        {
+          "name": "Add Note",
+          "type": "Button"
+        },
+        {
+          "name": "Add more garlic!",
+          "type": "User Input"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "is entering note text",
+          "object": "Add more garlic!"
+        },
+        {
+          "subject": "Application",
+          "predicate": "displays",
+          "object": "Add Note modal"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light gray"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Standard iOS-style keyboard layout",
+        "Clean, functional typography"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:58.547Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.551,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 644,
+      "totalTokenCount": 1871,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

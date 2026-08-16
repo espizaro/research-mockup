@@ -1,0 +1,204 @@
+{
+  "image": "08 - Karrot (Daangn).webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a mobile application interface, likely a community-based platform (Daangn), showing a 'Gathering Schedule' page for the 'Banpo-dong' area. It lists various local meetings and activities scheduled for the day, along with a navigation bar and category filters.",
+    "ocr": {
+      "full_text": "9:41 < 반포동 모임 Q (profile icon) 전체 모임 모임 일정 모임 일정 캘린더 오늘 수 목 금 토 일 월 31 01 02 03 04 05 06 (profile icon) 스본스도배우기 • 도곡2동 스본스도N테라피 오늘, 오전 10:00 1/10명 5 (profile icon) 인공지능챗GPT와 유튜브틱톡하기 • 논현동 인공지능챗GPT와 유튜브, 틱톡하기 오늘, 오후 6:30 2/5명 10 (profile icon) 사당동 당구사랑 동호회 • 사당동 사당동 당구사랑 정기모임 오늘, 오후 6:00 1/8명 5 더보기 > + 주제별 모임 일정 가족/육아 반려동물 음식/음료 취미/오락 독서/인문학 (Karrot logo) Karrot (Daangn) curated by (Mobbin logo) Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "< 반포동 모임 Q (profile icon)"
+        },
+        {
+          "text": "전체 모임 모임 일정"
+        },
+        {
+          "text": "모임 일정 캘린더"
+        },
+        {
+          "text": "오늘 수 목 금 토 일 월"
+        },
+        {
+          "text": "31 01 02 03 04 05 06"
+        },
+        {
+          "text": "(profile icon) 스본스도배우기 • 도곡2동"
+        },
+        {
+          "text": "스본스도N테라피"
+        },
+        {
+          "text": "오늘, 오전 10:00"
+        },
+        {
+          "text": "1/10명 5"
+        },
+        {
+          "text": "(profile icon) 인공지능챗GPT와 유튜브틱톡하기 • 논현동"
+        },
+        {
+          "text": "인공지능챗GPT와 유튜브, 틱톡하기"
+        },
+        {
+          "text": "오늘, 오후 6:30"
+        },
+        {
+          "text": "2/5명 10"
+        },
+        {
+          "text": "(profile icon) 사당동 당구사랑 동호회 • 사당동"
+        },
+        {
+          "text": "사당동 당구사랑 정기모임"
+        },
+        {
+          "text": "오늘, 오후 6:00"
+        },
+        {
+          "text": "1/8명 5"
+        },
+        {
+          "text": "더보기 >"
+        },
+        {
+          "text": "+ 주제별 모임 일정"
+        },
+        {
+          "text": "가족/육아 반려동물 음식/음료 취미/오락 독서/인문학"
+        },
+        {
+          "text": "(Karrot logo) Karrot (Daangn) curated by (Mobbin logo) Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "반포동 모임"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "전체 모임 모임 일정"
+        },
+        {
+          "type": "title",
+          "reading_order": 3,
+          "text": "모임 일정 캘린더"
+        },
+        {
+          "type": "table",
+          "reading_order": 4,
+          "text": "오늘 31 수 01 목 02 금 03 토 04 일 05 월 06"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "스본스도N테라피 오늘, 오전 10:00 1/10명 5. 인공지능챗GPT와 유튜브, 틱톡하기 오늘, 오후 6:30 2/5명 10. 사당동 당구사랑 정기모임 오늘, 오후 6:00 1/8명 5."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "더보기 >"
+        },
+        {
+          "type": "title",
+          "reading_order": 7,
+          "text": "주제별 모임 일정"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "가족/육아 반려동물 음식/음료 취미/오락 독서/인문학"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application gathering or community event scheduling interface.",
+      "intent": "To browse and manage community group events in the Banpo-dong area.",
+      "entities": [
+        {
+          "name": "Daangn (Karrot)",
+          "type": "Platform/Application",
+          "evidence": "Karrot logo and text"
+        },
+        {
+          "name": "스본스도N테라피",
+          "type": "Event",
+          "evidence": "Gathering entry 1"
+        },
+        {
+          "name": "인공지능챗GPT와 유튜브, 틱톡하기",
+          "type": "Event",
+          "evidence": "Gathering entry 2"
+        },
+        {
+          "name": "사당동 당구사랑 정기모임",
+          "type": "Event",
+          "evidence": "Gathering entry 3"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "스본스도N테라피",
+          "predicate": "scheduled_for",
+          "object": "오늘, 오전 10:00"
+        },
+        {
+          "subject": "인공지능챗GPT와 유튜브, 틱톡하기",
+          "predicate": "scheduled_for",
+          "object": "오늘, 오후 6:30"
+        },
+        {
+          "subject": "사당동 당구사랑 정기모임",
+          "predicate": "scheduled_for",
+          "object": "오늘, 오후 6:00"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "light gray",
+        "orange"
+      ],
+      "style": "Clean mobile UI, minimalist, white-space heavy.",
+      "notes": [
+        "Includes a prominent floating action button at bottom-right for creating a post.",
+        "Shows tab navigation for 'Gathering Schedule'."
+      ]
+    },
+    "uncertainty": [
+      "The specific category for the Mobbin logo text footer might be external branding.",
+      "The exact nature of the number icons (e.g., '5', '10') likely represent participant comments or likes but not explicitly labeled."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:38.946Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.9,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1577,
+      "totalTokenCount": 2804,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

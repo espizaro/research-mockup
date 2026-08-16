@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Amie",
+    "platform": "ios",
+    "file_path": "screens/productivity-tasks/02 - Amie.webp",
+    "analyzed_timestamp": "2026-08-06T23:57:09.054Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile task management application screen showing an active checklist.",
+    "primary_flow": "productivity-tasks",
+    "ux_intent": "User interaction with a todo list, potentially within a collaborative chat or management context.",
+    "ux_patterns": [
+      "Form",
+      "Profile",
+      "Minimalist",
+      "Card",
+      "Uses a clean, high-contrast typography.",
+      "Bottom section has a distinct red area.",
+      "Includes user profile icons for social/collaborative context."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Todo List",
+      "grocery run tomorrow",
+      "grab some snack",
+      "pick tonight's movie",
+      "Abode",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist modern mobile UI with rounded card aesthetics.",
+      "white",
+      "light blue",
+      "red",
+      "Uses a clean, high-contrast typography.",
+      "Bottom section has a distinct red area.",
+      "Includes user profile icons for social/collaborative context."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist modern mobile UI with rounded card aesthetics."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_productivity_tasks_02"
+}

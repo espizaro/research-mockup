@@ -1,0 +1,46 @@
+{
+  "identification": {
+    "app_name": "Runna",
+    "platform": "ios",
+    "file_path": "screens/subscription/02 - Runna.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:30.196Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App subscription management screen.",
+    "primary_flow": "subscription",
+    "ux_intent": "Display subscription plan options for a user to manage their account.",
+    "ux_patterns": [
+      "Form",
+      "Checkout"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Runna",
+      "Monthly",
+      "Annual",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "clean mobile interface",
+      "white",
+      "light-gray",
+      "black",
+      "coral"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean mobile interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_subscription_02"
+}

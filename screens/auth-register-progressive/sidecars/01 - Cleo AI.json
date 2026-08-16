@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Cleo AI",
+    "platform": "ios",
+    "file_path": "screens/auth-register-progressive/01 - Cleo AI.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:12.724Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding or registration flow of a mobile application.",
+    "primary_flow": "auth-register-progressive",
+    "ux_intent": "To collect the user's date of birth for age verification purposes.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Calendar",
+      "Minimalist",
+      "No hero illustrations or decorative art present; functional, utility-focused design.",
+      "Uses a progress bar at the top with four steps, the first one active.",
+      "The aesthetic is consistent with modern fintech apps.",
+      "Design system cues: soft off-white background, rounded buttons, dark brown text for hierarchy."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Progress Bar",
+      "Design system cues: soft off-white background, rounded buttons, dark brown text for hierarchy."
+    ],
+    "content_blocks": [
+      "Cleo AI",
+      "Date of birth",
+      "Next"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, light-mode interface with high contrast brand-colored elements.",
+      "hex f4f1ed",
+      "hex 4a2c27",
+      "No hero illustrations or decorative art present; functional, utility-focused design.",
+      "Uses a progress bar at the top with four steps, the first one active.",
+      "The aesthetic is consistent with modern fintech apps.",
+      "Design system cues: soft off-white background, rounded buttons, dark brown text for hierarchy."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, light-mode interface with high contrast brand-colored elements."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_progressive_01"
+}

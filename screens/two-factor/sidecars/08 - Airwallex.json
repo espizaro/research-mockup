@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Airwallex",
+    "platform": "ios",
+    "file_path": "screens/two-factor/08 - Airwallex.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:44.981Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile verification code entry screen.",
+    "primary_flow": "two-factor",
+    "ux_intent": "User is authenticating their account by entering a security code sent to their registered email address.",
+    "ux_patterns": [
+      "Form",
+      "Dark Mode",
+      "Minimalist",
+      "Keypad",
+      "No hero illustrations; utility-focused design",
+      "Typography is sans-serif, clean, and legible",
+      "Numeric pad uses standard system-style button layout"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form"
+    ],
+    "interaction_elements": [
+      "Keypad",
+      "Numeric pad uses standard system-style button layout"
+    ],
+    "content_blocks": [
+      "Verification Code Field",
+      "Numeric Keypad",
+      "Resend Code Timer"
+    ],
+    "visual_keywords": [
+      "Minimalist, dark mode, high contrast",
+      "black",
+      "white",
+      "gray",
+      "No hero illustrations; utility-focused design",
+      "Typography is sans-serif, clean, and legible",
+      "Numeric pad uses standard system-style button layout"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, dark mode, high contrast"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_two_factor_08"
+}

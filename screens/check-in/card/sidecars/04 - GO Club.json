@@ -1,0 +1,184 @@
+{
+  "image": "04 - GO Club.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image is a mobile app screen titled 'Reflect on your today's journey' displaying health and activity metrics such as steps, distance, calories, walking speed, standing hours, and heart rate, followed by a mood-rating slider and a submit button.",
+    "ocr": {
+      "full_text": "9:41 Reflect on your today's journey 1,068 Steps 0.46mi Distance 20.3kcal Calories 2.2MPH Walking Speed 0 Standing Hours --- Heart Rate How do you feel about your progress so far? Submit GO Club curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Reflect on your"
+        },
+        {
+          "text": "today's journey"
+        },
+        {
+          "text": "1,068"
+        },
+        {
+          "text": "Steps"
+        },
+        {
+          "text": "0.46mi"
+        },
+        {
+          "text": "Distance"
+        },
+        {
+          "text": "20.3kcal"
+        },
+        {
+          "text": "Calories"
+        },
+        {
+          "text": "2.2MPH"
+        },
+        {
+          "text": "Walking Speed"
+        },
+        {
+          "text": "0"
+        },
+        {
+          "text": "Standing Hours"
+        },
+        {
+          "text": "---"
+        },
+        {
+          "text": "Heart Rate"
+        },
+        {
+          "text": "How do you feel about"
+        },
+        {
+          "text": "your progress so far?"
+        },
+        {
+          "text": "Submit"
+        },
+        {
+          "text": "GO Club"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Reflect on your today's journey"
+        },
+        {
+          "type": "table",
+          "reading_order": 2,
+          "text": "1,068 Steps, 0.46mi Distance, 20.3kcal Calories, 2.2MPH Walking Speed, 0 Standing Hours, --- Heart Rate"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "How do you feel about your progress so far?"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Mood slider and Submit button"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A health and fitness mobile app tracking dashboard.",
+      "intent": "User is prompted to log their daily activity and provide feedback on their progress.",
+      "entities": [
+        {
+          "name": "1,068",
+          "type": "metric",
+          "evidence": "Steps"
+        },
+        {
+          "name": "0.46mi",
+          "type": "metric",
+          "evidence": "Distance"
+        },
+        {
+          "name": "20.3kcal",
+          "type": "metric",
+          "evidence": "Calories"
+        },
+        {
+          "name": "2.2MPH",
+          "type": "metric",
+          "evidence": "Walking Speed"
+        },
+        {
+          "name": "0",
+          "type": "metric",
+          "evidence": "Standing Hours"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "App",
+          "predicate": "displays",
+          "object": "User Activity Metrics"
+        },
+        {
+          "subject": "User",
+          "predicate": "is asked to rate",
+          "object": "Progress"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "dark blue",
+        "black",
+        "purple",
+        "white"
+      ],
+      "style": "Modern mobile application interface with dark mode theme and soft UI elements.",
+      "notes": [
+        "Use of high-contrast icons for health stats",
+        "Gradient background from dark blue to purple",
+        "Neutral-faced emoji on the slider"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T05:41:06.015Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.982,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 894,
+      "totalTokenCount": 2121,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.984
+      }
+    ],
+    "warnings": []
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "image": "02 - How We Feel.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen from 'How We Feel' where a user performs a mood check-in. The user has selected the emotion 'eager', provided a journal entry about watercolor art, and is prompted to select their current activity before completing the check-in.",
+    "ocr": {
+      "full_text": "I'm feeling eager Embarking my new journey on watercolor art Edit Journal Entry What are you doing? + Driving Resting Hobbies Complete check-in How We Feel curated by Mobbin",
+      "lines": [
+        {
+          "text": "I'm feeling",
+          "language": "en"
+        },
+        {
+          "text": "eager",
+          "language": "en"
+        },
+        {
+          "text": "Embarking my new journey on watercolor art",
+          "language": "en"
+        },
+        {
+          "text": "Edit Journal Entry",
+          "language": "en"
+        },
+        {
+          "text": "What are you doing?",
+          "language": "en"
+        },
+        {
+          "text": "+",
+          "language": "en"
+        },
+        {
+          "text": "Driving",
+          "language": "en"
+        },
+        {
+          "text": "Resting",
+          "language": "en"
+        },
+        {
+          "text": "Hobbies",
+          "language": "en"
+        },
+        {
+          "text": "Complete check-in",
+          "language": "en"
+        },
+        {
+          "text": "How We Feel",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "I'm feeling eager"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Embarking my new journey on watercolor art"
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Edit Journal Entry"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "What are you doing?"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "+ Driving Resting Hobbies"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Complete check-in"
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "How We Feel curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface for a mood check-in process.",
+      "intent": "User is logging their emotional state and current activity.",
+      "entities": [
+        {
+          "name": "How We Feel",
+          "type": "Application Name"
+        },
+        {
+          "name": "eager",
+          "type": "Emotion"
+        },
+        {
+          "name": "watercolor art",
+          "type": "Hobby/Activity"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "is feeling",
+          "object": "eager"
+        },
+        {
+          "subject": "User",
+          "predicate": "is starting",
+          "object": "watercolor art"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "yellow",
+        "dark grey/olive"
+      ],
+      "style": "Minimalist mobile UI, dark mode.",
+      "notes": [
+        "Abstract crescent-shaped graphic at the top.",
+        "Rounded rectangular container for the journal entry text."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:09.201Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.194,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 981,
+      "totalTokenCount": 2208,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

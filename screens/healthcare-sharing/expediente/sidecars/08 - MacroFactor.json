@@ -1,0 +1,198 @@
+{
+  "image": "08 - MacroFactor.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen titled 'Body Metrics' showing a log of body measurement and weight data, including user photos from different dates.",
+    "ocr": {
+      "full_text": "9:41 Body Metrics 14 in Sunday, 25 August 0.57 Sunday, 25 August Data Showing All Open Gallery 2024 Sunday, 25 August Front Side Waist +5 MORE 164.0 lbs 165.0 lbs Visual Body Fat: 38.2 % Friday, 23 August Front Side Waist +5 MORE 164.3 lbs 165.2 lbs Visual Body Fat: 38.5 % Wednesday, 21 August Visual Body Fat 165.0 lbs 165.3 lbs Visual Body Fat: 39 % MacroFactor curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Body Metrics"
+        },
+        {
+          "text": "14 in"
+        },
+        {
+          "text": "Sunday, 25 August"
+        },
+        {
+          "text": "0.57"
+        },
+        {
+          "text": "Sunday, 25 August"
+        },
+        {
+          "text": "Data"
+        },
+        {
+          "text": "Showing All"
+        },
+        {
+          "text": "Open Gallery"
+        },
+        {
+          "text": "2024"
+        },
+        {
+          "text": "Sunday, 25 August"
+        },
+        {
+          "text": "Front Side Waist +5 MORE"
+        },
+        {
+          "text": "164.0 lbs 165.0 lbs"
+        },
+        {
+          "text": "Visual Body Fat: 38.2 %"
+        },
+        {
+          "text": "Friday, 23 August"
+        },
+        {
+          "text": "Front Side Waist +5 MORE"
+        },
+        {
+          "text": "164.3 lbs 165.2 lbs"
+        },
+        {
+          "text": "Visual Body Fat: 38.5 %"
+        },
+        {
+          "text": "Wednesday, 21 August"
+        },
+        {
+          "text": "Visual Body Fat"
+        },
+        {
+          "text": "165.0 lbs 165.3 lbs"
+        },
+        {
+          "text": "Visual Body Fat: 39 %"
+        },
+        {
+          "text": "MacroFactor curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Body Metrics"
+        },
+        {
+          "type": "table",
+          "reading_order": 2,
+          "text": "14 in Sunday, 25 August / 0.57 Sunday, 25 August"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 3,
+          "text": "Data"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "2024"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Sunday, 25 August entries"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Friday, 23 August entries"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Wednesday, 21 August entries"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface for body metric tracking",
+      "intent": "Display and organize body measurements, photos, and weights",
+      "entities": [
+        {
+          "name": "MacroFactor",
+          "type": "Application"
+        },
+        {
+          "name": "Body Metrics",
+          "type": "Page Title"
+        },
+        {
+          "name": "Sunday, 25 August",
+          "type": "Date"
+        },
+        {
+          "name": "Friday, 23 August",
+          "type": "Date"
+        },
+        {
+          "name": "Wednesday, 21 August",
+          "type": "Date"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sunday, 25 August",
+          "predicate": "has",
+          "object": "164.0 lbs"
+        },
+        {
+          "subject": "Friday, 23 August",
+          "predicate": "has",
+          "object": "164.3 lbs"
+        },
+        {
+          "subject": "Wednesday, 21 August",
+          "predicate": "has",
+          "object": "165.0 lbs"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "beige"
+      ],
+      "style": "Clean mobile UI, minimalist, white background, cards layout",
+      "notes": [
+        "Includes user photographs in circular frames",
+        "Iconography for weight/graph"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:18.951Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.637,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1109,
+      "totalTokenCount": 2336,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

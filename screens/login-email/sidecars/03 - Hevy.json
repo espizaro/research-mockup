@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Hevy",
+    "platform": "ios",
+    "file_path": "screens/login-email/03 - Hevy.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:55.391Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application authentication screen.",
+    "primary_flow": "login-email",
+    "ux_intent": "To allow the user to log into their account using credentials or social media providers.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustration or decorative art present; functional layout focus.",
+      "Standard iOS top status bar.",
+      "Icons for Apple, Google, and Facebook are used as social proof indicators."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Login Form",
+      "Social Login Buttons",
+      "Forgot Password Link",
+      "Hevy/Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat mobile UI design.",
+      "white",
+      "blue",
+      "black",
+      "gray",
+      "No hero illustration or decorative art present; functional layout focus.",
+      "Standard iOS top status bar.",
+      "Icons for Apple, Google, and Facebook are used as social proof indicators."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_email_03"
+}

@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Wealthsimple",
+    "platform": "ios",
+    "file_path": "screens/two-factor/03 - Wealthsimple.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:45.141Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication screen",
+    "primary_flow": "two-factor",
+    "ux_intent": "Authenticate user via two-step verification code",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Keypad",
+      "No decorative illustrations present",
+      "Design follows standard iOS system UI patterns",
+      "Clear hierarchy through font weight and button styling"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Keypad",
+      "Clear hierarchy through font weight and button styling"
+    ],
+    "content_blocks": [
+      "Wealthsimple",
+      "Verification Code Input",
+      "Numeric Keypad"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, functional, clean typography",
+      "white",
+      "black",
+      "light gray",
+      "No decorative illustrations present",
+      "Design follows standard iOS system UI patterns",
+      "Clear hierarchy through font weight and button styling"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, functional, clean typography"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_two_factor_03"
+}

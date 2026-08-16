@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "AllTrails",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/trend-preview/08 - AllTrails.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:49.495Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App UI for activity tracking.",
+    "primary_flow": "daily-check-in/trend-preview",
+    "ux_intent": "Displaying historical progress data for an outdoor hiking or activity app.",
+    "ux_patterns": [
+      "Progress",
+      "Chart",
+      "Minimalist",
+      "Card",
+      "Chart bars have rounded corners.",
+      "The 2025 bar is significantly taller than previous years.",
+      "Data cards are rectangular with rounded corners."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Table",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "AllTrails",
+      "Mobbin",
+      "Distance",
+      "Elevation Gain",
+      "Completed",
+      "Moving Time"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface, clean typography, soft grey accents.",
+      "white",
+      "grey",
+      "dark grey",
+      "Chart bars have rounded corners.",
+      "The 2025 bar is significantly taller than previous years.",
+      "Data cards are rectangular with rounded corners."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface, clean typography, soft grey accents."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_trend_preview_08"
+}

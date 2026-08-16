@@ -1,0 +1,46 @@
+{
+  "identification": {
+    "app_name": "Premier League",
+    "platform": "ios",
+    "file_path": "screens/password-recovery/03 - Premier League.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:23.222Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile web browser showing a password recovery page.",
+    "primary_flow": "password-recovery",
+    "ux_intent": "User is attempting to reset their account password.",
+    "ux_patterns": [
+      "Form",
+      "The header contains an abstract, geometric purple graphic element. The CTA button uses a solid purple background. The interface follows standard mobile browser conventions with a top navigation bar and bottom browser controls."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The header contains an abstract, geometric purple graphic element. The CTA button uses a solid purple background. The interface follows standard mobile browser conventions with a top navigation bar and bottom browser controls."
+    ],
+    "content_blocks": [
+      "Premier League",
+      "Hotmail/Outlook",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Clean, corporate mobile interface with high-contrast text and a prominent brand color header.",
+      "purple",
+      "white",
+      "black",
+      "The header contains an abstract, geometric purple graphic element. The CTA button uses a solid purple background. The interface follows standard mobile browser conventions with a top navigation bar and bottom browser controls."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, corporate mobile interface with high-contrast text and a prominent brand color header."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_password_recovery_03"
+}

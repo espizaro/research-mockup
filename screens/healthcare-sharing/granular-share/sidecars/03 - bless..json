@@ -1,0 +1,160 @@
+{
+  "image": "03 - bless..webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app interface screen showing a category selection list with a dark theme. 'Traveling' is currently selected.",
+    "ocr": {
+      "full_text": "9:41 Select All CATEGORY Other Eating out Clothes Books Experiences Traveling Hobbies Health Sports Groceries Home decor Home appliances Accessories Jewelry Cosmetics Electronics Games bless. curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Select All"
+        },
+        {
+          "text": "CATEGORY"
+        },
+        {
+          "text": "Other"
+        },
+        {
+          "text": "Eating out"
+        },
+        {
+          "text": "Clothes"
+        },
+        {
+          "text": "Books"
+        },
+        {
+          "text": "Experiences"
+        },
+        {
+          "text": "Traveling"
+        },
+        {
+          "text": "Hobbies"
+        },
+        {
+          "text": "Health"
+        },
+        {
+          "text": "Sports"
+        },
+        {
+          "text": "Groceries"
+        },
+        {
+          "text": "Home decor"
+        },
+        {
+          "text": "Home appliances"
+        },
+        {
+          "text": "Accessories"
+        },
+        {
+          "text": "Jewelry"
+        },
+        {
+          "text": "Cosmetics"
+        },
+        {
+          "text": "Electronics"
+        },
+        {
+          "text": "Games"
+        },
+        {
+          "text": "bless."
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "CATEGORY"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Select All"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Other, Eating out, Clothes, Books, Experiences, Traveling, Hobbies, Health, Sports, Groceries, Home decor, Home appliances, Accessories, Jewelry, Cosmetics, Electronics, Games"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "bless. curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile UI screen for a category filter menu.",
+      "intent": "User is presented with a list of categories to select or deselect, likely for filtering content.",
+      "entities": [
+        {
+          "name": "Traveling",
+          "type": "category",
+          "evidence": "Selected item with a solid circle indicator"
+        },
+        {
+          "name": "Mobbin",
+          "type": "curator",
+          "evidence": "Footer text"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Traveling",
+          "predicate": "is selected",
+          "object": "true"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "white",
+        "red"
+      ],
+      "style": "Minimalist mobile app dark mode design",
+      "notes": [
+        "Icons accompany each text category label.",
+        "Empty circles denote unselected state, a solid red circle denotes the 'Traveling' selection."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:39.424Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.841,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 711,
+      "totalTokenCount": 1938,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "image": "06 - Blinkist.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for the app Blinkist, prompting a user to rate the book 'The Psychology of Money' by Morgan Housel and select reasons for their rating.",
+    "ocr": {
+      "full_text": "9:41 Tell us what you think of The Psychology of Money by Morgan Housel How would you rate it? Awesome Glad to hear, what did you like? Right level of detail Felt trustworthy Interesting/Engaging Easy to follow In line with my views Good narration Blinkist curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Tell us what you think of"
+        },
+        {
+          "text": "The Psychology of Money"
+        },
+        {
+          "text": "by Morgan Housel"
+        },
+        {
+          "text": "How would you rate it?"
+        },
+        {
+          "text": "Awesome"
+        },
+        {
+          "text": "Glad to hear, what did you like?"
+        },
+        {
+          "text": "Right level of detail"
+        },
+        {
+          "text": "Felt trustworthy"
+        },
+        {
+          "text": "Interesting/Engaging"
+        },
+        {
+          "text": "Easy to follow"
+        },
+        {
+          "text": "In line with my views"
+        },
+        {
+          "text": "Good narration"
+        },
+        {
+          "text": "Blinkist"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "image",
+          "reading_order": 1,
+          "text": "Illustration of two people talking with speech bubbles."
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Tell us what you think of The Psychology of Money by Morgan Housel"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "How would you rate it?"
+        },
+        {
+          "type": "icon",
+          "reading_order": 4,
+          "text": "Five blue star rating icons."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Awesome"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Glad to hear, what did you like?"
+        },
+        {
+          "type": "form",
+          "reading_order": 7,
+          "text": "Right level of detail, Felt trustworthy, Interesting/Engaging, Easy to follow, In line with my views, Good narration"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A feedback or survey screen within a book summary mobile application.",
+      "intent": "To collect user feedback/rating for a specific book title.",
+      "entities": [
+        {
+          "name": "The Psychology of Money",
+          "type": "book title"
+        },
+        {
+          "name": "Morgan Housel",
+          "type": "author"
+        },
+        {
+          "name": "Blinkist",
+          "type": "application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "curator"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "The Psychology of Money",
+          "predicate": "written by",
+          "object": "Morgan Housel"
+        },
+        {
+          "subject": "Blinkist",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "light blue",
+        "white",
+        "dark blue"
+      ],
+      "style": "Clean, modern, minimalist mobile UI application design.",
+      "notes": [
+        "Standard iOS status bar at the top.",
+        "Icon-based rating system.",
+        "Grid-like button layout for feedback tags."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:19:23.683Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.066,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 843,
+      "totalTokenCount": 2070,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.069
+      }
+    ],
+    "warnings": []
+  }
+}

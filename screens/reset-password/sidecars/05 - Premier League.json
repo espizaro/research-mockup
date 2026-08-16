@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Premier League",
+    "platform": "ios",
+    "file_path": "screens/reset-password/05 - Premier League.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:32.626Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Password reset confirmation page on the Premier League mobile website.",
+    "primary_flow": "reset-password",
+    "ux_intent": "To inform the user that a password reset email has been initiated and to provide troubleshooting steps if the email is not received.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "The EA Sports FC logo acts as a prominent visual element above the sponsor logos.",
+      "The interface uses a clear hierarchy with the main message at the top.",
+      "The layout follows standard mobile browser conventions with a address bar and system navigation at the bottom."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Table",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The layout follows standard mobile browser conventions with a address bar and system navigation at the bottom."
+    ],
+    "content_blocks": [
+      "Premier League",
+      "EA SPORTS FC",
+      "BARCLAYS",
+      "Budweiser"
+    ],
+    "visual_keywords": [
+      "Corporate, clean, minimalist mobile web design.",
+      "purple",
+      "white",
+      "black",
+      "The EA Sports FC logo acts as a prominent visual element above the sponsor logos.",
+      "The interface uses a clear hierarchy with the main message at the top.",
+      "The layout follows standard mobile browser conventions with a address bar and system navigation at the bottom."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Corporate, clean, minimalist mobile web design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_reset_password_05"
+}

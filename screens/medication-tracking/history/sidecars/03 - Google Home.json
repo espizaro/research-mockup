@@ -1,0 +1,197 @@
+{
+  "image": "03 - Google Home.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Activity feed in the Google Home app, showing a chronological list of home automation and device events. It displays one event for today and shows that there were no events recorded for yesterday, October 14, and October 13.",
+    "ocr": {
+      "full_text": "09:41 Activity A Events Date Today Your phone left home 07:56 Phone location Yesterday No events on this day Mon, Oct 14 No events on this day Sun, Oct 13 No events on this day Favorites Devices Automations Activity Settings Google Home curated by Mobbin",
+      "lines": [
+        {
+          "text": "09:41"
+        },
+        {
+          "text": "Activity"
+        },
+        {
+          "text": "A"
+        },
+        {
+          "text": "Events"
+        },
+        {
+          "text": "Date"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Your phone left home"
+        },
+        {
+          "text": "07:56 - Phone location"
+        },
+        {
+          "text": "Yesterday"
+        },
+        {
+          "text": "No events on this day"
+        },
+        {
+          "text": "Mon, Oct 14"
+        },
+        {
+          "text": "No events on this day"
+        },
+        {
+          "text": "Sun, Oct 13"
+        },
+        {
+          "text": "No events on this day"
+        },
+        {
+          "text": "Favorites"
+        },
+        {
+          "text": "Devices"
+        },
+        {
+          "text": "Automations"
+        },
+        {
+          "text": "Activity"
+        },
+        {
+          "text": "Settings"
+        },
+        {
+          "text": "Google Home"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Activity"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Events Date"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Today"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Your phone left home 07:56 Phone location"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Yesterday"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "No events on this day"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Mon, Oct 14"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "No events on this day"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 9,
+          "text": "Sun, Oct 13"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 10,
+          "text": "No events on this day"
+        },
+        {
+          "type": "list",
+          "reading_order": 11,
+          "text": "Favorites Devices Automations Activity Settings"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface (Google Home app).",
+      "intent": "View event history logs.",
+      "entities": [
+        {
+          "name": "Google Home",
+          "type": "Application"
+        },
+        {
+          "name": "Phone",
+          "type": "Device",
+          "evidence": "Your phone left home"
+        },
+        {
+          "name": "Activity",
+          "type": "Screen name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phone",
+          "predicate": "triggered event",
+          "object": "left home"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light blue",
+        "light grey"
+      ],
+      "style": "Minimalist mobile app interface with rounded cards and sans-serif typography.",
+      "notes": [
+        "Standard iOS status bar at the top.",
+        "Bottom navigation bar shows 'Activity' as the active tab."
+      ]
+    },
+    "uncertainty": [
+      "The content under 'Sun, Oct 13' is partially cropped at the bottom of the screen."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:11.044Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.04,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 965,
+      "totalTokenCount": 2192,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

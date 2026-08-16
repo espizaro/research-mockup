@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "GO Club",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/trend-preview/04 - GO Club.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:22.821Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app dashboard for fitness tracking.",
+    "primary_flow": "daily-check-in/trend-preview",
+    "ux_intent": "Displaying daily step counts and comparative metrics.",
+    "ux_patterns": [
+      "Progress",
+      "Chart",
+      "Minimalist",
+      "Card",
+      "The layout features two white cards on a light grey background.",
+      "Data visualizations include a vertical bar chart and a circular progress ring.",
+      "Icons are simple and iconography usage is consistent."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [],
+    "interaction_elements": [],
+    "content_blocks": [
+      "GD",
+      "Steps",
+      "Bar Chart",
+      "Circular Progress Ring",
+      "GO Club",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI with rounded card components.",
+      "light grey",
+      "white",
+      "teal",
+      "green",
+      "The layout features two white cards on a light grey background.",
+      "Data visualizations include a vertical bar chart and a circular progress ring.",
+      "Icons are simple and iconography usage is consistent."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI with rounded card components."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_trend_preview_04"
+}

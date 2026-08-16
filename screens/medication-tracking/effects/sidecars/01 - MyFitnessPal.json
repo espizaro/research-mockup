@@ -1,0 +1,45 @@
+{
+  "identification": {
+    "app_name": "MyFitnessPal",
+    "platform": "ios",
+    "file_path": "screens/medication-tracking/effects/01 - MyFitnessPal.webp",
+    "analyzed_timestamp": "2026-08-05T19:40:48.579Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile app interface for medication logging.",
+    "primary_flow": "medication-tracking/effects",
+    "ux_intent": "The user intends to confirm and submit a medication log entry.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Ozempic",
+      "1 mg",
+      "Abdomen: lower left",
+      "Mar 6, 2026",
+      "03:32 PM"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile UI application interface.",
+      "white",
+      "blue",
+      "light grey"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile UI application interface."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_medication_effect_01"
+}

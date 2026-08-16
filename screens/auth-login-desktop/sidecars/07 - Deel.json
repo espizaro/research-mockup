@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Deel",
+    "platform": "web",
+    "file_path": "screens/auth-login-desktop/07 - Deel.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:50.943Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login page for a B2B SaaS platform (Deel).",
+    "primary_flow": "auth-login-desktop",
+    "ux_intent": "User authentication, promoting employee perks program.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Card",
+      "Hero illustration depicts a flat-style desk setup with ambient light; reinforces the remote work theme.",
+      "Split layout: messaging/illustration on left, interactive form card on right.",
+      "High contrast text on purple background.",
+      "Visual hierarchy draws eye first to illustration/header, then the functional login card."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Deel",
+      "AVIS",
+      "Uber",
+      "Booking.com",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern minimalist SaaS interface, 2D vector flat illustration.",
+      "purple",
+      "white",
+      "black",
+      "yellow",
+      "Hero illustration depicts a flat-style desk setup with ambient light; reinforces the remote work theme.",
+      "Split layout: messaging/illustration on left, interactive form card on right.",
+      "High contrast text on purple background.",
+      "Visual hierarchy draws eye first to illustration/header, then the functional login card."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist SaaS interface, 2D vector flat illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_desktop_07"
+}

@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Eventbrite",
+    "platform": "ios",
+    "file_path": "screens/password-recovery/06 - Eventbrite.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:27.279Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application password recovery screen.",
+    "primary_flow": "password-recovery",
+    "ux_intent": "User is attempting to recover their account access by submitting an email address.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "There is no hero illustration or decorative art on this screen.",
+      "The design focuses on utility and reducing cognitive load.",
+      "The 'Save' button uses a high-contrast coral/orange color to denote the primary action.",
+      "Accessibility: The placeholder text inside the input field disappears when text is entered, which may be a accessibility concern for some users."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The 'Save' button uses a high-contrast coral/orange color to denote the primary action.",
+      "Accessibility: The placeholder text inside the input field disappears when text is entered, which may be a accessibility concern for some users."
+    ],
+    "content_blocks": [
+      "email address input",
+      "Save button",
+      "Back button"
+    ],
+    "visual_keywords": [
+      "Clean, modern, minimalist mobile UI.",
+      "white",
+      "black",
+      "coral-orange",
+      "There is no hero illustration or decorative art on this screen.",
+      "The design focuses on utility and reducing cognitive load.",
+      "The 'Save' button uses a high-contrast coral/orange color to denote the primary action.",
+      "Accessibility: The placeholder text inside the input field disappears when text is entered, which may be a accessibility concern for some users."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern, minimalist mobile UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_password_recovery_06"
+}

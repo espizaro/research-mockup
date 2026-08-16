@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "pliability",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-goals/04 - pliability.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:56.875Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen for a fitness or health app.",
+    "primary_flow": "auth-onboarding-goals",
+    "ux_intent": "To collect user goals to customize the user experience.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Dark Mode",
+      "Minimalist",
+      "Uses high-contrast text against a dark gradient background.",
+      "Includes subtle iconography within each selection button.",
+      "No hero illustration, focus is purely on user input."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Includes subtle iconography within each selection button.",
+      "No hero illustration, focus is purely on user input."
+    ],
+    "content_blocks": [
+      "Prevent Injury",
+      "Improve Athletic Performance",
+      "Reduce Pain",
+      "Improve Posture",
+      "Mental Well-Being",
+      "Long-Term Health"
+    ],
+    "visual_keywords": [
+      "Minimalist, dark mode, flat UI with button containers.",
+      "black",
+      "dark blue",
+      "white",
+      "Uses high-contrast text against a dark gradient background.",
+      "Includes subtle iconography within each selection button.",
+      "No hero illustration, focus is purely on user input."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, dark mode, flat UI with button containers."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_goals_04"
+}

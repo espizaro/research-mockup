@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Bevel",
+    "platform": "ios",
+    "file_path": "screens/detail-sheets/03 - Bevel.webp",
+    "analyzed_timestamp": "2026-08-05T19:42:34.805Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app interface for health tracking",
+    "primary_flow": "detail-sheets",
+    "ux_intent": "Logging alcohol consumption data",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Minimalist",
+      "The UI uses a modal-style layout to enter data.",
+      "The aesthetic is high-contrast with dark text on light backgrounds."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Bevel",
+      "Mobbin",
+      "Alcohol",
+      "1,5 drinks"
+    ],
+    "visual_keywords": [
+      "Clean, modern minimalist mobile UI design",
+      "white",
+      "black",
+      "gray",
+      "The UI uses a modal-style layout to enter data.",
+      "The aesthetic is high-contrast with dark text on light backgrounds."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern minimalist mobile UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_sheets_03"
+}

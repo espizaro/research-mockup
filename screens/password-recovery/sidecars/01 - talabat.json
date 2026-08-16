@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "talabat",
+    "platform": "ios",
+    "file_path": "screens/password-recovery/01 - talabat.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:22.501Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app interface for password recovery.",
+    "primary_flow": "password-recovery",
+    "ux_intent": "User is attempting to reset their account password via email.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Minimalist",
+      "No hero illustrations present; the screen is purely functional and utilitarian.",
+      "Clear, high-contrast typography.",
+      "Floating back button navigation element at top-left.",
+      "Fixed footer branding for Mobbin/WE AR.",
+      "Design pattern: Progressive disclosure with a clearly defined CTA arrow."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Floating back button navigation element at top-left."
+    ],
+    "content_blocks": [
+      "Reset Password",
+      "alexsmith.mobbin@gmail.com",
+      "Next arrow button"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern mobile UI design.",
+      "white",
+      "light gray",
+      "bright blue",
+      "No hero illustrations present; the screen is purely functional and utilitarian.",
+      "Clear, high-contrast typography.",
+      "Floating back button navigation element at top-left.",
+      "Fixed footer branding for Mobbin/WE AR.",
+      "Design pattern: Progressive disclosure with a clearly defined CTA arrow."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_password_recovery_01"
+}

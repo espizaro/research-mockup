@@ -1,0 +1,194 @@
+{
+  "image": "04 - CVS Health.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application interface for a healthcare app, likely CVS Health, showing a 'Your Health' dashboard for a user named Sam, with sections for personal health records, scheduling services, and bottom navigation.",
+    "ocr": {
+      "full_text": "9:41 Your Health find, Sam? Vaccine history Previous visits Lab results Prescriptions Health services Need care? Schedule an in-person or virtual visit today. Cancel or reschedule easily Life happens. We'll fit to your schedule. Home Your Health Get Care Vaccine Records CVS Health curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Your Health"
+        },
+        {
+          "text": "find, Sam?"
+        },
+        {
+          "text": "Vaccine history"
+        },
+        {
+          "text": "Previous visits"
+        },
+        {
+          "text": "Lab results"
+        },
+        {
+          "text": "Prescriptions"
+        },
+        {
+          "text": "Health services"
+        },
+        {
+          "text": "Need care?"
+        },
+        {
+          "text": "Schedule an in-person or"
+        },
+        {
+          "text": "virtual visit today."
+        },
+        {
+          "text": "Cancel or"
+        },
+        {
+          "text": "reschedule easily"
+        },
+        {
+          "text": "Life happens. We'll fit to"
+        },
+        {
+          "text": "your schedule."
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Your Health"
+        },
+        {
+          "text": "Get Care"
+        },
+        {
+          "text": "Vaccine Records"
+        },
+        {
+          "text": "CVS Health"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Your Health"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "find, Sam?"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Vaccine history, Previous visits, Lab results, Prescriptions"
+        },
+        {
+          "type": "title",
+          "reading_order": 4,
+          "text": "Health services"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Need care? Schedule an in-person or virtual visit today."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Cancel or reschedule easily. Life happens. We'll fit to your schedule."
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "Navigation bar: Home, Your Health, Get Care, Vaccine Records"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app healthcare dashboard",
+      "intent": "View health records and schedule appointments",
+      "entities": [
+        {
+          "name": "Sam",
+          "type": "User"
+        },
+        {
+          "name": "CVS Health",
+          "type": "Organization"
+        },
+        {
+          "name": "Vaccine history",
+          "type": "Feature"
+        },
+        {
+          "name": "Previous visits",
+          "type": "Feature"
+        },
+        {
+          "name": "Lab results",
+          "type": "Feature"
+        },
+        {
+          "name": "Prescriptions",
+          "type": "Feature"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam",
+          "predicate": "has access to",
+          "object": "CVS Health App"
+        },
+        {
+          "subject": "CVS Health App",
+          "predicate": "offers",
+          "object": "Health services"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "teal"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Clear iconography for health categories",
+        "Illustrative graphic for doctor and calendar",
+        "Clean sans-serif typography"
+      ]
+    },
+    "uncertainty": [
+      "The leading text 'find, Sam?' appears to be cut off from a larger header like 'What can we find, Sam?'"
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:26.494Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.233,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 933,
+      "totalTokenCount": 2160,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

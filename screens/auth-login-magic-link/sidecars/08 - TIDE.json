@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "TIDE",
+    "platform": "ios",
+    "file_path": "screens/auth-login-magic-link/08 - TIDE.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:29.052Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login authentication screen on a mobile device.",
+    "primary_flow": "auth-login-magic-link",
+    "ux_intent": "User authentication via email.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "No hero illustration present.",
+      "High-contrast primary CTA button.",
+      "Standard iOS keyboard overlay included."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Primary CTA Button",
+      "High-contrast primary CTA button."
+    ],
+    "content_blocks": [
+      "Email input",
+      "Send code",
+      "Continue with password"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, standard iOS input patterns.",
+      "white",
+      "red",
+      "light gray",
+      "No hero illustration present.",
+      "High-contrast primary CTA button.",
+      "Standard iOS keyboard overlay included."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, standard iOS input patterns."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_magic_link_08"
+}

@@ -1,0 +1,157 @@
+{
+  "image": "02 - Pillow.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen interface, likely from a sleep or wellness tracker called 'Pillow'. The screen shows a user input prompt asking 'How did you feel when you woke up?' with options for 'Good', 'OK', 'Bad', and 'I don't know'. It includes date and time context and a toggle for mood reporting.",
+    "ocr": {
+      "full_text": "9.41\nHow did you feel when you woke up?\nWednesday, 23 October 2024\n7.33 PM -> 7.54 PM\nGood\nOK\nBad\nI don't know\nMood reporting\nPillow\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9.41",
+          "language": "en"
+        },
+        {
+          "text": "How did you feel when you woke up?",
+          "language": "en"
+        },
+        {
+          "text": "Wednesday, 23 October 2024",
+          "language": "en"
+        },
+        {
+          "text": "7.33 PM -> 7.54 PM",
+          "language": "en"
+        },
+        {
+          "text": "Good",
+          "language": "en"
+        },
+        {
+          "text": "OK",
+          "language": "en"
+        },
+        {
+          "text": "Bad",
+          "language": "en"
+        },
+        {
+          "text": "I don't know",
+          "language": "en"
+        },
+        {
+          "text": "Mood reporting",
+          "language": "en"
+        },
+        {
+          "text": "Pillow",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "How did you feel when you woke up?"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Wednesday, 23 October 2024 7.33 PM -> 7.54 PM"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Good, OK, Bad, I don't know"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Mood reporting toggle"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Pillow curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application user interface for a wellness or sleep tracking app.",
+      "intent": "To collect user input regarding their mood upon waking up.",
+      "entities": [
+        {
+          "name": "Pillow",
+          "type": "App Name",
+          "evidence": "Bottom text logo"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Content Curator",
+          "evidence": "Bottom text logo"
+        },
+        {
+          "name": "Mood reporting",
+          "type": "Feature",
+          "evidence": "Toggle switch control"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Pillow",
+          "predicate": "is curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "dark purple",
+        "white",
+        "yellow"
+      ],
+      "style": "Minimalist mobile app UI, dark mode",
+      "notes": [
+        "The screen uses a dark purple background.",
+        "Icons for different moods (smiley, neutral, sad, question mark) are present.",
+        "A toggle switch is present at the bottom."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T05:40:52.205Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.383,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 836,
+      "totalTokenCount": 2063,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.385
+      }
+    ],
+    "warnings": []
+  }
+}

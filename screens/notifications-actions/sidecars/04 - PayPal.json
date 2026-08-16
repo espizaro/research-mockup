@@ -1,0 +1,155 @@
+{
+  "image": "04 - PayPal.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen showing a notification center for PayPal. The screen displays a list of two notifications regarding account features and identity verification, with a bottom sheet overlay providing 'Notification options'.",
+    "ocr": {
+      "full_text": "9:41 Notifications All High APY is waiting for you! Your PayPal Savings is now active. Add money to take advantage of a current 3.50% APY. 2d Finish verifying your identity Pick up where you left off scanning your photo ID and face 2d Notification options Mark all as read PayPal curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Notifications"
+        },
+        {
+          "text": "All"
+        },
+        {
+          "text": "High APY is waiting for you!"
+        },
+        {
+          "text": "Your PayPal Savings is now active. Add money to take advantage of a current 3.50% APY."
+        },
+        {
+          "text": "2d"
+        },
+        {
+          "text": "Finish verifying your identity"
+        },
+        {
+          "text": "Pick up where you left off scanning your photo ID and face"
+        },
+        {
+          "text": "2d"
+        },
+        {
+          "text": "Notification options"
+        },
+        {
+          "text": "Mark all as read"
+        },
+        {
+          "text": "PayPal"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Notifications"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "All"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "High APY is waiting for you! Your PayPal Savings is now active. Add money to take advantage of a current 3.50% APY. 2d"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Finish verifying your identity Pick up where you left off scanning your photo ID and face 2d"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Notification options Mark all as read"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app notification center screen.",
+      "intent": "User interface for managing app notifications and account status updates.",
+      "entities": [
+        {
+          "name": "PayPal",
+          "type": "brand",
+          "evidence": "PayPal logo and text"
+        },
+        {
+          "name": "PayPal Savings",
+          "type": "financial_service",
+          "evidence": "Notification text regarding Savings account"
+        },
+        {
+          "name": "Mobbin",
+          "type": "company",
+          "evidence": "curated by Mobbin"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "PayPal",
+          "predicate": "offers",
+          "object": "Savings account"
+        },
+        {
+          "subject": "User",
+          "predicate": "needs to complete",
+          "object": "Identity verification"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "grey",
+        "white",
+        "blue"
+      ],
+      "style": "Modern mobile application UI, flat design.",
+      "notes": [
+        "Clean, minimalist notification list layout with a bottom sheet overlay."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:20:44.968Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.644,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 775,
+      "totalTokenCount": 2002,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.646
+      }
+    ],
+    "warnings": []
+  }
+}

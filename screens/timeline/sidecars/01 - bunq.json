@@ -1,0 +1,48 @@
+{
+  "identification": {
+    "app_name": "bunq",
+    "platform": "ios",
+    "file_path": "screens/timeline/01 - bunq.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:27.701Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app activity feed",
+    "primary_flow": "timeline",
+    "ux_intent": "Display banking/signup progress notifications",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Profile",
+      "Dark Mode",
+      "Uses iconography to denote task types",
+      "Blurred text in the last two entries indicates sensitive personal data"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "bunq",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern dark mode mobile interface",
+      "black",
+      "blue",
+      "white",
+      "Uses iconography to denote task types",
+      "Blurred text in the last two entries indicates sensitive personal data"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern dark mode mobile interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_timeline_01"
+}

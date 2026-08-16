@@ -1,0 +1,138 @@
+{
+  "image": "07 - Yahoo News.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen interface from Yahoo News showing a user's daily reading streak, which is currently at 3 days with an all-time record of 3 days. The design uses a light purple background with black text and square progress indicators.",
+    "ocr": {
+      "full_text": "9:41\n< \nVisit Yahoo News every \nday to stay in touch with \nthe world.\n03\nday streak\nAll-time record: 3 days\nYahoo News\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "<",
+          "language": "en"
+        },
+        {
+          "text": "Visit Yahoo News every",
+          "language": "en"
+        },
+        {
+          "text": "day to stay in touch with",
+          "language": "en"
+        },
+        {
+          "text": "the world.",
+          "language": "en"
+        },
+        {
+          "text": "03",
+          "language": "en"
+        },
+        {
+          "text": "day streak",
+          "language": "en"
+        },
+        {
+          "text": "All-time record: 3 days",
+          "language": "en"
+        },
+        {
+          "text": "Yahoo News",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Visit Yahoo News every day to stay in touch with the world."
+        },
+        {
+          "type": "other",
+          "reading_order": 2,
+          "text": "03 day streak"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "All-time record: 3 days"
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Progress bar represented by seven squares, three filled in purple, four black."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "Display daily reading streak information to the user.",
+      "entities": [
+        {
+          "name": "Yahoo News",
+          "type": "Brand/Application",
+          "evidence": "Logo and text label at bottom"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Service",
+          "evidence": "curated by Mobbin label at bottom"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has a",
+          "object": "3 day streak"
+        },
+        {
+          "subject": "Yahoo News",
+          "predicate": "is curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "light purple",
+        "black"
+      ],
+      "style": "Minimalist UI",
+      "notes": [
+        "The interface uses a light lavender background.",
+        "The bottom bar is dark grey/black with white text."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:25.968Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 17.641,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 848,
+      "totalTokenCount": 2075,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "CRED",
+    "platform": "ios",
+    "file_path": "screens/auth-register-success/05 - CRED.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:23.058Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A success screen confirming a user's membership activation.",
+    "primary_flow": "auth-register-success",
+    "ux_intent": "To provide feedback to the user that their membership is active and encourage them to explore member benefits.",
+    "ux_patterns": [
+      "Form",
+      "Dark Mode",
+      "Minimalist",
+      "Card",
+      "The 3D illustration is a stylistic geometric isometric render that reinforces the concept of digital verification.",
+      "The layout is centered, prioritizing the message.",
+      "Uses a serif font for the main welcome text, which contrasts with the sans-serif status text.",
+      "Accessibility: High contrast text against dark background improves readability."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "CRED",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, dark mode, high-contrast, professional, tech-focused.",
+      "black",
+      "white",
+      "light grey",
+      "The 3D illustration is a stylistic geometric isometric render that reinforces the concept of digital verification.",
+      "The layout is centered, prioritizing the message.",
+      "Uses a serif font for the main welcome text, which contrasts with the sans-serif status text.",
+      "Accessibility: High contrast text against dark background improves readability."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, dark mode, high-contrast, professional, tech-focused."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_success_05"
+}

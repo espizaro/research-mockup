@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "WHOOP",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/04 - WHOOP.webp",
+    "analyzed_timestamp": "2026-08-05T19:44:22.903Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile UI journal entry form for lifestyle tracking.",
+    "primary_flow": "daily-check-in",
+    "ux_intent": "To capture user health and sleep-related activity data for a specific day.",
+    "ux_patterns": [
+      "Form",
+      "Dark Mode",
+      "Minimalist",
+      "Toggle",
+      "Uses a dark gray background with high-contrast neon green for active elements and buttons."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Toggle Switch",
+      "Uses a dark gray background with high-contrast neon green for active elements and buttons."
+    ],
+    "content_blocks": [
+      "Journal",
+      "WHOOP",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Dark mode mobile UI, clean minimalist design with toggle switches and input fields.",
+      "hex 161c20",
+      "hex 1ed760",
+      "hex ffffff",
+      "Uses a dark gray background with high-contrast neon green for active elements and buttons."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode mobile UI, clean minimalist design with toggle switches and input fields."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_checkin_04"
+}

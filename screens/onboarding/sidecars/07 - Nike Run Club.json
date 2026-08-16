@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Nike Run Club",
+    "platform": "ios",
+    "file_path": "screens/onboarding/07 - Nike Run Club.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:33.953Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application onboarding screen.",
+    "primary_flow": "onboarding",
+    "ux_intent": "To persuade the user to begin a setup/personalization flow by highlighting ease of use.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "The hero illustration is central and serves to visually reinforce the health and lifestyle focus of the app.",
+      "The color palette is cohesive with the Flo brand (pinks and neutrals).",
+      "The CTA button uses a high-contrast pink background to draw attention.",
+      "The typography is sans-serif, clean, and legible."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The CTA button uses a high-contrast pink background to draw attention."
+    ],
+    "content_blocks": [
+      "Flo",
+      "Personalize Flo for me"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat design, vector illustration.",
+      "pink",
+      "white",
+      "beige",
+      "black",
+      "The hero illustration is central and serves to visually reinforce the health and lifestyle focus of the app.",
+      "The color palette is cohesive with the Flo brand (pinks and neutrals).",
+      "The CTA button uses a high-contrast pink background to draw attention.",
+      "The typography is sans-serif, clean, and legible."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat design, vector illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_07"
+}

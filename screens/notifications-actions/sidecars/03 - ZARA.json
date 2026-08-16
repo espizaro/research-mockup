@@ -1,0 +1,125 @@
+{
+  "image": "03 - ZARA.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a mobile application notification screen for the brand Zara. It shows a single unread notification and a 'MARK ALL AS READ' button at the bottom.",
+    "ocr": {
+      "full_text": "9:41\nNOTIFICATIONS [1]\nTemukan berbagai produk baru di minggu ini di Zara\nYesterday\nMARK ALL AS READ\nZARA curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "NOTIFICATIONS [1]",
+          "language": "en"
+        },
+        {
+          "text": "Temukan berbagai produk baru di minggu ini di Zara",
+          "language": "id"
+        },
+        {
+          "text": "Yesterday",
+          "language": "en"
+        },
+        {
+          "text": "MARK ALL AS READ",
+          "language": "en"
+        },
+        {
+          "text": "ZARA",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "NOTIFICATIONS [1]"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Temukan berbagai produk baru di minggu ini di Zara\nYesterday"
+        },
+        {
+          "type": "form",
+          "reading_order": 3,
+          "text": "MARK ALL AS READ"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app notification screen",
+      "intent": "User interface for managing application alerts",
+      "entities": [
+        {
+          "name": "Zara",
+          "type": "Brand",
+          "evidence": "Mentioned in the notification text and at the bottom"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Service",
+          "evidence": "Label at the bottom stating 'curated by Mobbin'"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Notification",
+          "predicate": "promotes",
+          "object": "Zara new products"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "blue"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Blue indicator bar to the left of the notification suggests it is unread.",
+        "Standard iOS status bar at the top."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:20:39.320Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 2.899,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 676,
+      "totalTokenCount": 1903,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 2.901
+      }
+    ],
+    "warnings": []
+  }
+}

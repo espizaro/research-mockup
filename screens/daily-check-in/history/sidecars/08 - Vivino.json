@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Vivino",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/history/08 - Vivino.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:47.827Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile wine tracking app interface displaying recent scan history.",
+    "primary_flow": "daily-check-in/history",
+    "ux_intent": "To display the user's recent wine scans and provide a link to the 'My Wines' section.",
+    "ux_patterns": [
+      "Minimalist",
+      "Card",
+      "Standard iOS status bar header",
+      "Cards contain thumbnails of wine labels",
+      "Icons for ratings and menus are present"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Hawks Shadow",
+      "Lost Draw Vineyards Orange Muscat 2011",
+      "Vivino",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile app interface with cards.",
+      "white",
+      "grey",
+      "black",
+      "Standard iOS status bar header",
+      "Cards contain thumbnails of wine labels",
+      "Icons for ratings and menus are present"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile app interface with cards."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_history_08"
+}

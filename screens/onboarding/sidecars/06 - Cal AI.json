@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Cal AI",
+    "platform": "ios",
+    "file_path": "screens/onboarding/06 - Cal AI.webp",
+    "analyzed_timestamp": "2026-08-06T23:57:29.007Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen of a mobile application.",
+    "primary_flow": "onboarding",
+    "ux_intent": "To welcome the user and explain the value proposition of the app.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Centered content alignment",
+      "Large black primary button for action",
+      "Simple waving hand icon used for friendly tone"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Large black primary button for action"
+    ],
+    "content_blocks": [
+      "Bevel",
+      "Sam"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern UI",
+      "white",
+      "black",
+      "light grey",
+      "Centered content alignment",
+      "Large black primary button for action",
+      "Simple waving hand icon used for friendly tone"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_06"
+}

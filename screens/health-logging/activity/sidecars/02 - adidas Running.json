@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "adidas Running",
+    "platform": "ios",
+    "file_path": "screens/health-logging/activity/02 - adidas Running.webp",
+    "analyzed_timestamp": "2026-08-05T19:41:25.527Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile app interface displaying user activity progress, including records and achievements.",
+    "primary_flow": "health-logging/activity",
+    "ux_intent": "To present the user with their personal fitness achievements and navigation options.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Profile",
+      "Minimalist",
+      "Card",
+      "Navigation bar at the bottom with icons",
+      "Cards represent metrics and achievements",
+      "Clean typography"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Navigation bar at the bottom with icons"
+    ],
+    "content_blocks": [
+      "adidas Running",
+      "Mobbin",
+      "Walking",
+      "Cycling",
+      "Night Owl",
+      "Starting Line"
+    ],
+    "visual_keywords": [
+      "Modern minimalist mobile app UI",
+      "white",
+      "light grey",
+      "black",
+      "blue",
+      "Navigation bar at the bottom with icons",
+      "Cards represent metrics and achievements",
+      "Clean typography"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist mobile app UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_activity_02"
+}

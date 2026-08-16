@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Zocdoc",
+    "platform": "ios",
+    "file_path": "screens/medication-tracking/effects/03 - Zocdoc.webp",
+    "analyzed_timestamp": "2026-08-05T19:41:03.529Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile healthcare application input form",
+    "primary_flow": "medication-tracking/effects",
+    "ux_intent": "User is inputting medication information to save to their health profile.",
+    "ux_patterns": [
+      "Form",
+      "Profile",
+      "Minimalist",
+      "The 'Save' button is a prominent yellow color.",
+      "The bottom navigation bar includes icons for Home, Appointments, Insurance, and My health."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "The 'Save' button is a prominent yellow color.",
+      "The bottom navigation bar includes icons for Home, Appointments, Insurance, and My health."
+    ],
+    "content_blocks": [
+      "Paracetamol",
+      "Zocdoc",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "clean, minimalist mobile interface",
+      "white",
+      "black",
+      "yellow",
+      "The 'Save' button is a prominent yellow color.",
+      "The bottom navigation bar includes icons for Home, Appointments, Insurance, and My health."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean, minimalist mobile interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_medication_effect_03"
+}

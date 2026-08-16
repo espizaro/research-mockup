@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Warby Parker",
+    "platform": "ios",
+    "file_path": "screens/signup-social/04 - Warby Parker.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:10.638Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account creation/Sign-up screen in a mobile browser.",
+    "primary_flow": "signup-social",
+    "ux_intent": "User registration via third-party providers or manual entry.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "No hero illustrations; the design relies on text and input fields for clarity.",
+      "High contrast text for readability.",
+      "Button 'Create account' uses a prominent blue fill for call-to-action emphasis.",
+      "Visual hierarchy is established through clear spacing between social sign-up and standard fields."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form"
+    ],
+    "interaction_elements": [
+      "No hero illustrations; the design relies on text and input fields for clarity.",
+      "Button 'Create account' uses a prominent blue fill for call-to-action emphasis."
+    ],
+    "content_blocks": [
+      "Warby Parker",
+      "Google",
+      "Apple",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, mobile-native UI typical of modern e-commerce applications.",
+      "white",
+      "blue",
+      "black",
+      "No hero illustrations; the design relies on text and input fields for clarity.",
+      "High contrast text for readability.",
+      "Button 'Create account' uses a prominent blue fill for call-to-action emphasis.",
+      "Visual hierarchy is established through clear spacing between social sign-up and standard fields."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, mobile-native UI typical of modern e-commerce applications."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_signup_social_04"
+}

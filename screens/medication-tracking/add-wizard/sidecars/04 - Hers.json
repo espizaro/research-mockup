@@ -1,0 +1,194 @@
+{
+  "image": "04 - Hers.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile app screen modal for setting medication reminders, likely for the 'Hers' skincare brand.",
+    "ocr": {
+      "full_text": "9:41 Skincare Add Treatment Acne RX Cream Set your reminder Turn on reminders to stay on top of your medication schedule. Be sure to take medication at the frequency outlined by the provider. Remind me daily Reminder 1 8:00 AM Reminder 2 10:00 AM + Add another reminder The med reminder is a tool to help you stay on track with your medication. Any information generated will not be shared with your Care Team. Contact your provider if you have any questions about your medication, including when and how often you should take it. Hers curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Skincare",
+          "language": "en"
+        },
+        {
+          "text": "Add Treatment",
+          "language": "en"
+        },
+        {
+          "text": "Acne RX Cream",
+          "language": "en"
+        },
+        {
+          "text": "Set your reminder",
+          "language": "en"
+        },
+        {
+          "text": "Turn on reminders to stay on top of your",
+          "language": "en"
+        },
+        {
+          "text": "medication schedule. Be sure to take medication",
+          "language": "en"
+        },
+        {
+          "text": "at the frequency outlined by the provider.",
+          "language": "en"
+        },
+        {
+          "text": "Remind me daily",
+          "language": "en"
+        },
+        {
+          "text": "Reminder 1",
+          "language": "en"
+        },
+        {
+          "text": "8:00 AM",
+          "language": "en"
+        },
+        {
+          "text": "Reminder 2",
+          "language": "en"
+        },
+        {
+          "text": "10:00 AM",
+          "language": "en"
+        },
+        {
+          "text": "+ Add another reminder",
+          "language": "en"
+        },
+        {
+          "text": "The med reminder is a tool to help you stay on track with your",
+          "language": "en"
+        },
+        {
+          "text": "medication. Any information generated will not be shared with",
+          "language": "en"
+        },
+        {
+          "text": "your Care Team. Contact your provider if you have any questions",
+          "language": "en"
+        },
+        {
+          "text": "about your medication, including when and how often you",
+          "language": "en"
+        },
+        {
+          "text": "should take it.",
+          "language": "en"
+        },
+        {
+          "text": "Hers",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Skincare"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Set your reminder"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Turn on reminders to stay on top of your medication schedule. Be sure to take medication at the frequency outlined by the provider."
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Remind me daily, Reminder 1 8:00 AM, Reminder 2 10:00 AM, + Add another reminder"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "The med reminder is a tool to help you stay on track with your medication. Any information generated will not be shared with your Care Team. Contact your provider if you have any questions about your medication, including when and how often you should take it."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App UI for setting medication reminders.",
+      "intent": "Enable user to configure daily medication alerts.",
+      "entities": [
+        {
+          "name": "Hers",
+          "type": "Brand",
+          "evidence": "Text at the bottom left."
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform",
+          "evidence": "Text 'curated by Mobbin' at the bottom right."
+        },
+        {
+          "name": "Acne RX Cream",
+          "type": "Medication",
+          "evidence": "Heading above the modal."
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "sets",
+          "object": "Reminders"
+        },
+        {
+          "subject": "Hers",
+          "predicate": "provides",
+          "object": "Medication Tracking Tool"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "green"
+      ],
+      "style": "Mobile app UI, modern minimalist design",
+      "notes": [
+        "Rounded modal window",
+        "Toggle switch is green",
+        "Clear hierarchical layout"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:27:49.437Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.227,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1050,
+      "totalTokenCount": 2277,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

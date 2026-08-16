@@ -1,0 +1,162 @@
+{
+  "image": "03 - Life Reset.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile app interface screenshot showing a 'Feeds' page with a social media post from 'Abby' and an overlay modal containing a 'Notifications' panel where a user named 'Alex Smith' has sent a friend request.",
+    "ocr": {
+      "full_text": "09.41 Feeds Public Friends Mine Abby 1h ago Day 1 of No more than 4 hours social media Notifications Alex Smith sent a friend request 3m ago Accept Life Reset curated by Mobbin",
+      "lines": [
+        {
+          "text": "09.41"
+        },
+        {
+          "text": "Feeds"
+        },
+        {
+          "text": "Public"
+        },
+        {
+          "text": "Friends"
+        },
+        {
+          "text": "Mine"
+        },
+        {
+          "text": "Abby 1h ago"
+        },
+        {
+          "text": "Day 1 of No more than 4 hours social media"
+        },
+        {
+          "text": "Notifications"
+        },
+        {
+          "text": "Alex Smith sent a friend request"
+        },
+        {
+          "text": "3m ago"
+        },
+        {
+          "text": "Accept"
+        },
+        {
+          "text": "Life Reset"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Feeds"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Public Friends Mine"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Abby 1h ago Day 1 of No more than 4 hours social media"
+        },
+        {
+          "type": "image",
+          "reading_order": 4,
+          "text": "Post image containing laptop and papers"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Notifications Alex Smith sent a friend request 3m ago Accept"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "Life Reset curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app social media feed with a notification overlay.",
+      "intent": "User interface showcasing an active notification center modal over a social feed.",
+      "entities": [
+        {
+          "name": "Abby",
+          "type": "User",
+          "evidence": "Post author"
+        },
+        {
+          "name": "Alex Smith",
+          "type": "User",
+          "evidence": "Sender of friend request"
+        },
+        {
+          "name": "Life Reset",
+          "type": "App Name",
+          "evidence": "Bottom bar"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Curator",
+          "evidence": "Bottom bar"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Alex Smith",
+          "predicate": "sent request to",
+          "object": "Current User"
+        },
+        {
+          "subject": "Abby",
+          "predicate": "posted",
+          "object": "Day 1 of No more than 4 hours social media"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "orange"
+      ],
+      "style": "Modern mobile application interface",
+      "notes": [
+        "Uses a modal overlay for notifications",
+        "Features avatar placeholders",
+        "Includes a status bar at the top"
+      ]
+    },
+    "uncertainty": [
+      "Blurred content behind the notifications modal is mostly unreadable",
+      "Exact UI framework is inferred as mobile app"
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:49.137Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.735,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 808,
+      "totalTokenCount": 2035,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

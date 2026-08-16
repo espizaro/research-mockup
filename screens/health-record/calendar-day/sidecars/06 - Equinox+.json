@@ -1,0 +1,198 @@
+{
+  "image": "06 - Equinox+.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen showing a workout calendar for June 11th, listing three fitness classes: Recovery Reboot, Pilates Rise: Core to Standing, and Stack Attack. There is a notification at the bottom stating that weekly program classes have been removed from the calendar.",
+    "ocr": {
+      "full_text": "9:41\nJune\nToday\nMon\nTue\nToday\nThu\nFri\nSat\nSun\n9\n10\n11\n12\n13\n14\n15\nToday, June 11th\nAnytime\n45min\nSELF GUIDED\nRecovery Reboot\nStrength . Equinox Coaching . Equinox\nAnytime\n30min\nON DEMAND\nPilates Rise: Core to\nStanding\nPilates . Itsy Rachatasumrit . Equinox\nAnytime\n45min\nON DEMAND\nStack Attack\nRunning . Bryce Wood . Precision Run\nAll weekly program classes have been removed from your\ncalendar.\nEQUINOX+\nEquinox+\ncurated by\nMobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "June"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Mon Tue Today Thu Fri Sat Sun"
+        },
+        {
+          "text": "9 10 11 12 13 14 15"
+        },
+        {
+          "text": "Today, June 11th"
+        },
+        {
+          "text": "Anytime"
+        },
+        {
+          "text": "45min"
+        },
+        {
+          "text": "SELF GUIDED"
+        },
+        {
+          "text": "Recovery Reboot"
+        },
+        {
+          "text": "Strength . Equinox Coaching . Equinox"
+        },
+        {
+          "text": "Anytime"
+        },
+        {
+          "text": "30min"
+        },
+        {
+          "text": "ON DEMAND"
+        },
+        {
+          "text": "Pilates Rise: Core to"
+        },
+        {
+          "text": "Standing"
+        },
+        {
+          "text": "Pilates . Itsy Rachatasumrit . Equinox"
+        },
+        {
+          "text": "Anytime"
+        },
+        {
+          "text": "45min"
+        },
+        {
+          "text": "ON DEMAND"
+        },
+        {
+          "text": "Stack Attack"
+        },
+        {
+          "text": "Running . Bryce Wood . Precision Run"
+        },
+        {
+          "text": "All weekly program classes have been removed from your"
+        },
+        {
+          "text": "calendar."
+        },
+        {
+          "text": "Equinox+"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "June"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Mon 9, Tue 10, Today 11, Thu 12, Fri 13, Sat 14, Sun 15"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 3,
+          "text": "Today, June 11th"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Recovery Reboot (Self Guided, 45min, Strength), Pilates Rise: Core to Standing (On Demand, 30min, Pilates), Stack Attack (On Demand, 45min, Running)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "All weekly program classes have been removed from your calendar."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A workout class scheduling interface.",
+      "intent": "To show the user's daily fitness schedule.",
+      "entities": [
+        {
+          "name": "Recovery Reboot",
+          "type": "Fitness Class"
+        },
+        {
+          "name": "Pilates Rise: Core to Standing",
+          "type": "Fitness Class"
+        },
+        {
+          "name": "Stack Attack",
+          "type": "Fitness Class"
+        },
+        {
+          "name": "Itsy Rachatasumrit",
+          "type": "Instructor"
+        },
+        {
+          "name": "Bryce Wood",
+          "type": "Instructor"
+        },
+        {
+          "name": "Equinox",
+          "type": "Organization"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Recovery Reboot",
+          "predicate": "is categorized as",
+          "object": "Self Guided"
+        },
+        {
+          "subject": "Pilates Rise: Core to Standing",
+          "predicate": "is categorized as",
+          "object": "On Demand"
+        },
+        {
+          "subject": "Stack Attack",
+          "predicate": "is categorized as",
+          "object": "On Demand"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "white",
+        "blue",
+        "light-orange"
+      ],
+      "style": "Dark mode mobile UI, minimal aesthetic, high contrast."
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:18.332Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.777,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1169,
+      "totalTokenCount": 2396,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

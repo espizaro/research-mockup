@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Linktree",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/trend-preview/02 - Linktree.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:10.982Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI showcasing analytics dashboard design variations.",
+    "primary_flow": "daily-check-in/trend-preview",
+    "ux_intent": "To present design options or previews of analytics widgets for a platform called Linktree.",
+    "ux_patterns": [
+      "Form",
+      "Chart",
+      "Minimalist",
+      "Card",
+      "Uses a white card background against a light grey screen background.",
+      "Data visualization uses purple bars.",
+      "The star icon next to Linktree indicates a pro or premium feature."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Chart"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Linktree",
+      "Mobbin",
+      "Views",
+      "Clicks"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist mobile UI",
+      "white",
+      "light grey",
+      "purple",
+      "Uses a white card background against a light grey screen background.",
+      "Data visualization uses purple bars.",
+      "The star icon next to Linktree indicates a pro or premium feature."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_trend_preview_02"
+}

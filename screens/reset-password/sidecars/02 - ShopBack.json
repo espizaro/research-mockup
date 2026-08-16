@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "ShopBack",
+    "platform": "ios",
+    "file_path": "screens/reset-password/02 - ShopBack.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:30.877Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Password Reset Success Modal",
+    "primary_flow": "reset-password",
+    "ux_intent": "Confirm to the user that their password reset was successful and direct them to log in.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Login",
+      "Minimalist",
+      "The UI uses a modal to interrupt the flow upon success.",
+      "Green checkmarks are used to indicate fulfilled password requirements.",
+      "Visual hierarchy is clear with the modal centered on the screen."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Password Reset Screen",
+      "Success Modal",
+      "ShopBack"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile application UI with a focus on form validation and clear status feedback.",
+      "white",
+      "gray",
+      "black",
+      "green",
+      "The UI uses a modal to interrupt the flow upon success.",
+      "Green checkmarks are used to indicate fulfilled password requirements.",
+      "Visual hierarchy is clear with the modal centered on the screen."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile application UI with a focus on form validation and clear status feedback."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_reset_password_02"
+}

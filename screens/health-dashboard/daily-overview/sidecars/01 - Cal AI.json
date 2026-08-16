@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Cal AI",
+    "platform": "ios",
+    "file_path": "screens/health-dashboard/daily-overview/01 - Cal AI.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:50.055Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "fitness app dashboard",
+    "primary_flow": "health-dashboard/daily-overview",
+    "ux_intent": "track daily health and nutrition activity",
+    "ux_patterns": [
+      "Progress",
+      "Settings",
+      "Minimalist",
+      "Uses a bottom navigation bar",
+      "Includes floating action button for adding data"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Floating Action Button",
+      "Uses a bottom navigation bar",
+      "Includes floating action button for adding data"
+    ],
+    "content_blocks": [
+      "Steps counter",
+      "Calories burner",
+      "Water intake",
+      "Meal logger"
+    ],
+    "visual_keywords": [
+      "clean mobile interface, minimalist",
+      "white",
+      "light-gray",
+      "dark-gray",
+      "Uses a bottom navigation bar",
+      "Includes floating action button for adding data"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean mobile interface, minimalist"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_home_dashboard_01"
+}

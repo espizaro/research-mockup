@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Flo",
+    "platform": "ios",
+    "file_path": "screens/onboarding/13 - Flo.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:39.265Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding or setup screen.",
+    "primary_flow": "onboarding",
+    "ux_intent": "Welcome the user and initiate a personalization flow by asking the user to define their growth goals.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Icon is a geometric, abstract flower-like shape representing the brand.",
+      "The layout emphasizes centered text for readability.",
+      "Primary call-to-action is a large, high-contrast black button.",
+      "Typography is clean sans-serif.",
+      "Visual hierarchy is clear: Icon -> Title -> Body Text -> CTA."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Primary call-to-action is a large, high-contrast black button."
+    ],
+    "content_blocks": [
+      "Eve",
+      "Mindvalley",
+      "Alex Smith"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern UI with a soft gradient background.",
+      "hex ffffff",
+      "hex f0f4ff",
+      "hex 000000",
+      "Icon is a geometric, abstract flower-like shape representing the brand.",
+      "The layout emphasizes centered text for readability.",
+      "Primary call-to-action is a large, high-contrast black button.",
+      "Typography is clean sans-serif.",
+      "Visual hierarchy is clear: Icon -> Title -> Body Text -> CTA."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern UI with a soft gradient background."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_13"
+}

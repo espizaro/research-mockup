@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Visible",
+    "platform": "ios",
+    "file_path": "screens/health-vitals/01 - Visible.webp",
+    "analyzed_timestamp": "2026-08-06T23:57:17.337Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app health tracking dashboard for sleep statistics.",
+    "primary_flow": "health-vitals",
+    "ux_intent": "To visualize and inform the user about their nocturnal heart rate metrics.",
+    "ux_patterns": [
+      "Form",
+      "Tabs",
+      "Chart",
+      "Dark Mode",
+      "Minimalist",
+      "Clean typography",
+      "high contrast for readability",
+      "simple navigation icons at bottom"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "simple navigation icons at bottom"
+    ],
+    "content_blocks": [
+      "Eight Sleep",
+      "Resting heart rate",
+      "Today",
+      "7-Day Average"
+    ],
+    "visual_keywords": [
+      "Dark mode mobile application UI, minimalist, data-driven visualization.",
+      "black",
+      "white",
+      "grey",
+      "Clean typography",
+      "high contrast for readability",
+      "simple navigation icons at bottom"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Dark mode mobile application UI, minimalist, data-driven visualization."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_health_vitals_01"
+}

@@ -1,0 +1,134 @@
+{
+  "image": "06 - Finch.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen from the Finch application showing a 5-day progress streak. The screen features a cartoon bird character, a streak counter, a weekly calendar view with checkmarks and hammer icons, and a call-to-action button.",
+    "ocr": {
+      "full_text": "5 DAY STREAK S S M T W T F Open the app and visit Lee every day to maintain your self-care streak! Let's go! Finch curated by Mobbin",
+      "lines": [
+        {
+          "text": "5",
+          "language": "en"
+        },
+        {
+          "text": "DAY STREAK",
+          "language": "en"
+        },
+        {
+          "text": "S S M T W T F",
+          "language": "en"
+        },
+        {
+          "text": "Open the app and visit Lee every day to maintain your self-care streak!",
+          "language": "en"
+        },
+        {
+          "text": "Let's go!",
+          "language": "en"
+        },
+        {
+          "text": "Finch",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "image",
+          "reading_order": 1,
+          "text": "Cartoon character (bird)"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "5 DAY STREAK"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "S S M T W T F"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Open the app and visit Lee every day to maintain your self-care streak!"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Let's go!"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "App interface showing a reward or milestone celebration for a daily habit tracker.",
+      "intent": "To inform the user of their streak progress and encourage continued daily app usage.",
+      "entities": [
+        {
+          "name": "Lee",
+          "type": "Character",
+          "evidence": "Open the app and visit Lee"
+        },
+        {
+          "name": "Finch",
+          "type": "Application",
+          "evidence": "Finch text at the bottom"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "maintains",
+          "object": "self-care streak"
+        },
+        {
+          "subject": "User",
+          "predicate": "visits",
+          "object": "Lee"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "orange",
+        "white",
+        "purple"
+      ],
+      "style": "Cartoon illustration, flat design, mobile app interface.",
+      "notes": [
+        "The background has a radial sunburst pattern.",
+        "The calendar icons alternate between checkmarks and small hammer tools."
+      ]
+    },
+    "uncertainty": [
+      "The meaning of the hammer icons on the Monday and Tuesday positions is ambiguous in context of the streak completion."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:04.004Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 7.516,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 842,
+      "totalTokenCount": 2069,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

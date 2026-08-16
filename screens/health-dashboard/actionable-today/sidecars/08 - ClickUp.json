@@ -1,0 +1,205 @@
+{
+  "image": "08 - ClickUp.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows the 'My Work' view of the ClickUp mobile application, displaying tasks for early November 2024, including calendar navigation and a task list.",
+    "ocr": {
+      "full_text": "9:41 My Work AS Search Lists I'm assigned to Personal List In Personal List Calendar - November 2024 Today Overdue 0 items Thu 07 Fri 08 Sat 09 Tomorrow No tasks - create one Saturday - November 09 No tasks - create one Sunday - November 10 No tasks - create one Monday - November 11 Home Create Inbox My Work ClickUp curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "My Work"
+        },
+        {
+          "text": "AS"
+        },
+        {
+          "text": "Search"
+        },
+        {
+          "text": "Lists I'm assigned to"
+        },
+        {
+          "text": "Personal List"
+        },
+        {
+          "text": "In Personal List"
+        },
+        {
+          "text": "Calendar - November 2024"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Overdue 0 items"
+        },
+        {
+          "text": "Thu 07"
+        },
+        {
+          "text": "Fri 08"
+        },
+        {
+          "text": "Sat 09"
+        },
+        {
+          "text": "Tomorrow"
+        },
+        {
+          "text": "No tasks - create one"
+        },
+        {
+          "text": "Saturday - November 09"
+        },
+        {
+          "text": "No tasks - create one"
+        },
+        {
+          "text": "Sunday - November 10"
+        },
+        {
+          "text": "No tasks - create one"
+        },
+        {
+          "text": "Monday - November 11"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Create"
+        },
+        {
+          "text": "Inbox"
+        },
+        {
+          "text": "My Work"
+        },
+        {
+          "text": "ClickUp"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "My Work"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Lists I'm assigned to"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Personal List In Personal List"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Calendar - November 2024"
+        },
+        {
+          "type": "table",
+          "reading_order": 5,
+          "text": "Overdue 0 items, Thu 07, Fri 08, Sat 09"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Tomorrow No tasks - create one"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Saturday - November 09 No tasks - create one"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "Sunday - November 10 No tasks - create one"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 9,
+          "text": "Monday - November 11"
+        },
+        {
+          "type": "other",
+          "reading_order": 10,
+          "text": "Navigation bar: Home, Create, Inbox, My Work"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application interface for a task management tool (ClickUp).",
+      "intent": "To show the user's current task schedule and navigation options.",
+      "entities": [
+        {
+          "name": "ClickUp",
+          "type": "Application"
+        },
+        {
+          "name": "My Work",
+          "type": "Interface Page"
+        },
+        {
+          "name": "Personal List",
+          "type": "Task Category"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "ClickUp",
+          "predicate": "has feature",
+          "object": "My Work"
+        },
+        {
+          "subject": "My Work",
+          "predicate": "displays",
+          "object": "Personal List"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "purple",
+        "grey"
+      ],
+      "style": "Minimalist mobile app interface"
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:47:07.669Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.412,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1033,
+      "totalTokenCount": 2260,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

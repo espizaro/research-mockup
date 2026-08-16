@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "IMDb",
+    "platform": "ios",
+    "file_path": "screens/auth-login-otp/08 - IMDb.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:36.585Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account registration verification step",
+    "primary_flow": "auth-login-otp",
+    "ux_intent": "Verify phone number via OTP to complete account creation",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "No hero illustration present",
+      "Standard mobile layout",
+      "High contrast button for primary CTA"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "High contrast button for primary CTA"
+    ],
+    "content_blocks": [
+      "Amazon",
+      "IMDb",
+      "OTP"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, functional UI typical of Amazon mobile applications",
+      "white",
+      "black",
+      "yellow",
+      "gray",
+      "No hero illustration present",
+      "Standard mobile layout",
+      "High contrast button for primary CTA"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, functional UI typical of Amazon mobile applications"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_otp_08"
+}

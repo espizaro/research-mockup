@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Withings Health Mate",
+    "platform": "ios",
+    "file_path": "screens/health-dashboard/04 - Withings Health Mate.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:16.480Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile health tracking dashboard application.",
+    "primary_flow": "health-dashboard",
+    "ux_intent": "Display recent biometric and fitness activity data to the user.",
+    "ux_patterns": [
+      "Minimalist",
+      "Card",
+      "The interface uses tab navigation at the bottom.",
+      "Trend graphs are visible in the weight and body composition sections."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The interface uses tab navigation at the bottom."
+    ],
+    "content_blocks": [
+      "Weight",
+      "Body Composition",
+      "Heart Rate",
+      "Walking",
+      "Withings Health Mate"
+    ],
+    "visual_keywords": [
+      "Clean minimalist mobile app interface with cards and icons.",
+      "white",
+      "black",
+      "blue",
+      "grey",
+      "The interface uses tab navigation at the bottom.",
+      "Trend graphs are visible in the weight and body composition sections."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean minimalist mobile app interface with cards and icons."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_home_dashboard_04"
+}

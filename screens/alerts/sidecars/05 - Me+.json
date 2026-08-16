@@ -1,0 +1,48 @@
+{
+  "identification": {
+    "app_name": "Me+",
+    "platform": "ios",
+    "file_path": "screens/alerts/05 - Me+.webp",
+    "analyzed_timestamp": "2026-08-05T19:24:41.936Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A smartphone screen displaying a sleep data dashboard.",
+    "primary_flow": "alerts",
+    "ux_intent": "To present demo sleep analysis metrics such as snoring volume and environmental noise levels.",
+    "ux_patterns": [
+      "Form",
+      "Dark Mode",
+      "Uses a wave-form visualizer for noise level",
+      "Uses icons for alerts and statuses"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Me+",
+      "Mobbin",
+      "Max. Snore Volume",
+      "Avg. Noise",
+      "Max. Noise"
+    ],
+    "visual_keywords": [
+      "Mobile App UI, dark mode",
+      "black",
+      "dark gray",
+      "light green",
+      "Uses a wave-form visualizer for noise level",
+      "Uses icons for alerts and statuses"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile App UI, dark mode"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_alerts_05"
+}

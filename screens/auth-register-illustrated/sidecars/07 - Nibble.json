@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Nibble",
+    "platform": "ios",
+    "file_path": "screens/auth-register-illustrated/07 - Nibble.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:59.181Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account registration screen in a mobile application.",
+    "primary_flow": "auth-register-illustrated",
+    "ux_intent": "Persuade a guest user to create an account through social login or email authentication to secure their data.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Login",
+      "The illustration is a geometric, flat-style vector graphic centered at the top, reinforcing the security theme.",
+      "Primary call-to-action is a dark, high-contrast button.",
+      "The use of '30+ million learners' serves as social proof.",
+      "Layout is vertically centered with logical grouping of information from top to bottom."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Primary call-to-action is a dark, high-contrast button."
+    ],
+    "content_blocks": [
+      "Apple",
+      "Google",
+      "Nibble"
+    ],
+    "visual_keywords": [
+      "Modern, clean mobile UI with vector-based flat illustrations and high-contrast call-to-action buttons.",
+      "white",
+      "yellow",
+      "purple",
+      "black",
+      "The illustration is a geometric, flat-style vector graphic centered at the top, reinforcing the security theme.",
+      "Primary call-to-action is a dark, high-contrast button.",
+      "The use of '30+ million learners' serves as social proof.",
+      "Layout is vertically centered with logical grouping of information from top to bottom."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern, clean mobile UI with vector-based flat illustrations and high-contrast call-to-action buttons."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_illustrated_07"
+}

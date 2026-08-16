@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "bunq",
+    "platform": "ios",
+    "file_path": "screens/register-wizard/03 - bunq.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:01.041Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app registration screen.",
+    "primary_flow": "register-wizard",
+    "ux_intent": "To collect personal information from the user as part of a multi-step signup process.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Dark Mode",
+      "Minimalist",
+      "The progress indicator at the top uses simple icons (envelope, person, location marker) with blue highlighting for the active step.",
+      "The design is highly focused on user input with a clear, large CTA button.",
+      "Typography is sans-serif and clean.",
+      "High contrast between the dark background and the light text/blue accents."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The design is highly focused on user input with a clear, large CTA button."
+    ],
+    "content_blocks": [
+      "bunq",
+      "First Name(s)",
+      "Last Name",
+      "Date of Birth",
+      "Next"
+    ],
+    "visual_keywords": [
+      "Minimalist, dark mode interface.",
+      "black",
+      "blue",
+      "white",
+      "The progress indicator at the top uses simple icons (envelope, person, location marker) with blue highlighting for the active step.",
+      "The design is highly focused on user input with a clear, large CTA button.",
+      "Typography is sans-serif and clean.",
+      "High contrast between the dark background and the light text/blue accents."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, dark mode interface."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_register_wizard_03"
+}

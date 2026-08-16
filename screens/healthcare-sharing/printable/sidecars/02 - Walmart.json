@@ -1,0 +1,198 @@
+{
+  "image": "02 - Walmart.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A screen capture from the Walmart Pharmacy website showing the 'Schedule an Immunization' process. The user has added one patient, Sam Lee, and is prompted to select an appointment.",
+    "ocr": {
+      "full_text": "Pharmacy Schedule an Immunization Exit Patients Appointment Information Review Review and select appointment You can add up to 4 patients per visit. If you're done, you can proceed to select an appointment. Patient 1 Sam Lee Date of Birth: Feb 18, 1995 Vaccines: COVID-19 vaccine, Flu vaccine, Hepatitis B vaccine, Tdap (Tetanus, Diphtheria, Pertussis) vaccine Add another patient Remove Edit Select an appointment Sam Lee has been added to this appointment. Walmart curated by Mobbin",
+      "lines": [
+        {
+          "text": "Pharmacy"
+        },
+        {
+          "text": "Schedule an Immunization"
+        },
+        {
+          "text": "Exit"
+        },
+        {
+          "text": "Patients"
+        },
+        {
+          "text": "Appointment"
+        },
+        {
+          "text": "Information"
+        },
+        {
+          "text": "Review"
+        },
+        {
+          "text": "Review and select appointment"
+        },
+        {
+          "text": "You can add up to 4 patients per visit. If you're done, you can"
+        },
+        {
+          "text": "proceed to select an appointment."
+        },
+        {
+          "text": "Patient 1"
+        },
+        {
+          "text": "Remove"
+        },
+        {
+          "text": "Edit"
+        },
+        {
+          "text": "Sam Lee"
+        },
+        {
+          "text": "Date of Birth: Feb 18, 1995"
+        },
+        {
+          "text": "Vaccines: COVID-19 vaccine, Flu vaccine, Hepatitis B vaccine, Tdap (Tetanus,"
+        },
+        {
+          "text": "Diphtheria, Pertussis) vaccine"
+        },
+        {
+          "text": "Add another patient"
+        },
+        {
+          "text": "Select an appointment"
+        },
+        {
+          "text": "Sam Lee has been added to this appointment."
+        },
+        {
+          "text": "Walmart"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Schedule an Immunization"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Review and select appointment"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "You can add up to 4 patients per visit. If you're done, you can proceed to select an appointment."
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Patient 1 Sam Lee Date of Birth: Feb 18, 1995 Vaccines: COVID-19 vaccine, Flu vaccine, Hepatitis B vaccine, Tdap (Tetanus, Diphtheria, Pertussis) vaccine"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Add another patient"
+        },
+        {
+          "type": "form",
+          "reading_order": 6,
+          "text": "Select an appointment"
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "Sam Lee has been added to this appointment."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Pharmacy immunization scheduling web interface.",
+      "intent": "To schedule a medical appointment for vaccinations.",
+      "entities": [
+        {
+          "name": "Walmart",
+          "type": "Organization"
+        },
+        {
+          "name": "Sam Lee",
+          "type": "Person"
+        },
+        {
+          "name": "Feb 18, 1995",
+          "type": "Date of Birth"
+        },
+        {
+          "name": "COVID-19 vaccine",
+          "type": "Vaccine"
+        },
+        {
+          "name": "Flu vaccine",
+          "type": "Vaccine"
+        },
+        {
+          "name": "Hepatitis B vaccine",
+          "type": "Vaccine"
+        },
+        {
+          "name": "Tdap vaccine",
+          "type": "Vaccine"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam Lee",
+          "predicate": "is registered as",
+          "object": "Patient 1"
+        },
+        {
+          "subject": "Sam Lee",
+          "predicate": "is scheduled for",
+          "object": "Vaccines"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "blue",
+        "white",
+        "black"
+      ],
+      "style": "Clean, minimalist web UI design.",
+      "notes": [
+        "Standard enterprise web form layout.",
+        "Progress tracker shown at the top."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:36.886Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.508,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1079,
+      "totalTokenCount": 2286,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

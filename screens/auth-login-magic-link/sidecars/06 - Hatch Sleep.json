@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Hatch Sleep",
+    "platform": "ios",
+    "file_path": "screens/auth-login-magic-link/06 - Hatch Sleep.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:27.694Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login or authentication screen for a mobile application.",
+    "primary_flow": "auth-login-magic-link",
+    "ux_intent": "To allow a user to sign in via email magic link or password.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Dark Mode",
+      "Minimalist",
+      "Dark mode interface",
+      "No hero illustration present",
+      "Text is centered",
+      "High contrast between text and background"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Email Input",
+      "Send Magic Link",
+      "Use password instead"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, mobile application UI",
+      "dark blue",
+      "Dark mode interface",
+      "No hero illustration present",
+      "Text is centered",
+      "High contrast between text and background"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, mobile application UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_magic_link_06"
+}

@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Angi",
+    "platform": "ios",
+    "file_path": "screens/password-recovery/02 - Angi.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:22.896Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app password reset screen with success confirmation popup",
+    "primary_flow": "password-recovery",
+    "ux_intent": "User successfully changed their account password",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Minimalist",
+      "The modal is centered and provides visual contrast over a dimmed background",
+      "No hero illustration is present, focusing entirely on transactional feedback",
+      "Consistent brand color (orange) used for CTA and confirmation button",
+      "High-contrast text for readability"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "No hero illustration is present, focusing entirely on transactional feedback",
+      "Consistent brand color (orange) used for CTA and confirmation button"
+    ],
+    "content_blocks": [
+      "Talabat",
+      "Password reset modal",
+      "Password input fields"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat mobile UI",
+      "Gray",
+      "White",
+      "Orange",
+      "The modal is centered and provides visual contrast over a dimmed background",
+      "No hero illustration is present, focusing entirely on transactional feedback",
+      "Consistent brand color (orange) used for CTA and confirmation button",
+      "High-contrast text for readability"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_password_recovery_02"
+}

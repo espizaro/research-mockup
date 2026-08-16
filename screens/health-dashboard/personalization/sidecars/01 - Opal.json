@@ -1,0 +1,126 @@
+{
+  "image": "01 - Opal.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "An iOS mobile app interface showing a dashboard with two status cards for app blocking rules, each featuring an abstract, glowing, iridescent crystalline object.",
+    "ocr": {
+      "full_text": "9:41 2 Rules Active 1 App Unblocked 2 Rules Active 1 App Unblocked Opal curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "2 Rules Active",
+          "language": "en"
+        },
+        {
+          "text": "1 App Unblocked",
+          "language": "en"
+        },
+        {
+          "text": "2 Rules Active",
+          "language": "en"
+        },
+        {
+          "text": "1 App Unblocked",
+          "language": "en"
+        },
+        {
+          "text": "Opal",
+          "language": "en"
+        },
+        {
+          "text": "curated by",
+          "language": "en"
+        },
+        {
+          "text": "Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "2 Rules Active"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "1 App Unblocked"
+        },
+        {
+          "type": "title",
+          "reading_order": 3,
+          "text": "2 Rules Active"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 4,
+          "text": "1 App Unblocked"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application interface displaying status cards for productivity or privacy rules.",
+      "intent": "To inform the user about the current state of their app blocking rules.",
+      "entities": [
+        {
+          "name": "Opal",
+          "type": "brand/app name"
+        },
+        {
+          "name": "Mobbin",
+          "type": "platform"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Opal",
+          "predicate": "is displayed by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "grey",
+        "iridescent",
+        "cyan",
+        "green"
+      ],
+      "style": "Modern minimalist UI with glassmorphism or 3D abstract rendering",
+      "notes": [
+        "The UI uses a neutral light grey background.",
+        "The cards contain 3D crystalline shapes with glowing light effects.",
+        "There is a circular outline indicator in the top right of the larger card."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:05.038Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.231,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 560,
+      "totalTokenCount": 1787,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

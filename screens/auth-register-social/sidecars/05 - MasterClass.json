@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "MasterClass",
+    "platform": "ios",
+    "file_path": "screens/auth-register-social/05 - MasterClass.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:10.428Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account onboarding/authentication screen",
+    "primary_flow": "auth-register-social",
+    "ux_intent": "Prompt user to sign up via third-party providers or email registration.",
+    "ux_patterns": [
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "Uses a person-icon placeholder at the top.",
+      "Clear visual hierarchy using button colors for different authentication methods.",
+      "Fixed footer with branding."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View"
+    ],
+    "interaction_elements": [
+      "Clear visual hierarchy using button colors for different authentication methods."
+    ],
+    "content_blocks": [
+      "MasterClass",
+      "Facebook",
+      "Apple",
+      "Google"
+    ],
+    "visual_keywords": [
+      "Minimalist, dark-mode, high-contrast UI",
+      "black",
+      "white",
+      "blue",
+      "pink/red",
+      "Uses a person-icon placeholder at the top.",
+      "Clear visual hierarchy using button colors for different authentication methods.",
+      "Fixed footer with branding."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, dark-mode, high-contrast UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_social_05"
+}

@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "(Not Boring) Vibes",
+    "platform": "ios",
+    "file_path": "screens/subscription/03 - (Not Boring) Vibes.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:37.040Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app subscription purchase screen",
+    "primary_flow": "subscription",
+    "ux_intent": "To persuade the user to subscribe to 'SUPER' or 'VIBES ONLY' plans.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Features a 3D cartoon character at the top.",
+      "A loading indicator is present in the center button."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "A loading indicator is present in the center button."
+    ],
+    "content_blocks": [
+      "SUPER",
+      "VIBES ONLY",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Clean, modern, minimalist mobile UI design with a gradient background",
+      "white",
+      "blue",
+      "magenta",
+      "Features a 3D cartoon character at the top.",
+      "A loading indicator is present in the center button."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, modern, minimalist mobile UI design with a gradient background"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_subscription_03"
+}

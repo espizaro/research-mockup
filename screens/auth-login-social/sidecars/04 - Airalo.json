@@ -1,0 +1,59 @@
+{
+  "identification": {
+    "app_name": "Airalo",
+    "platform": "ios",
+    "file_path": "screens/auth-login-social/04 - Airalo.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:19.598Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen for a mobile application",
+    "primary_flow": "auth-login-social",
+    "ux_intent": "User authentication and onboarding",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "Toggle",
+      "No hero illustrations present; layout is utility-focused.",
+      "Clear visual hierarchy with a top-level tabbed switcher (Log in / Sign up).",
+      "Standard mobile input field patterns with a password visibility toggle icon.",
+      "Primary call-to-action button is centered."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Standard mobile input field patterns with a password visibility toggle icon.",
+      "Primary call-to-action button is centered."
+    ],
+    "content_blocks": [
+      "Apple",
+      "Google",
+      "Facebook",
+      "Airalo"
+    ],
+    "visual_keywords": [
+      "Minimalist, modern mobile UI",
+      "beige",
+      "white",
+      "black",
+      "No hero illustrations present; layout is utility-focused.",
+      "Clear visual hierarchy with a top-level tabbed switcher (Log in / Sign up).",
+      "Standard mobile input field patterns with a password visibility toggle icon.",
+      "Primary call-to-action button is centered."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, modern mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_social_04"
+}

@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Kraken",
+    "platform": "ios",
+    "file_path": "screens/two-factor/02 - Kraken.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:35.316Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login Authentication Screen",
+    "primary_flow": "two-factor",
+    "ux_intent": "To complete the user authentication process by entering a 2FA code.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Uses a gradient on the primary CTA button.",
+      "Uses high-contrast text for readability.",
+      "Icon-based support for 'Authenticator app' clarifies the context."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Primary CTA Button",
+      "Uses a gradient on the primary CTA button."
+    ],
+    "content_blocks": [
+      "2FA code input",
+      "Recover account",
+      "Enter",
+      "Kraken"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, mobile-first, professional",
+      "white",
+      "purple",
+      "Uses a gradient on the primary CTA button.",
+      "Uses high-contrast text for readability.",
+      "Icon-based support for 'Authenticator app' clarifies the context."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, mobile-first, professional"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_two_factor_02"
+}

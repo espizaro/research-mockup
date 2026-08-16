@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Scoot",
+    "platform": "ios",
+    "file_path": "screens/auth-login-illustrated/10 - Scoot.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:15.519Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authentication screen for an airline or travel booking service.",
+    "primary_flow": "auth-login-illustrated",
+    "ux_intent": "To allow the user to select their login method to access account features.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Profile",
+      "Minimalist",
+      "Bright yellow background creates a high-energy brand identity.",
+      "The illustration is character-based (cat) and whimsical, serving as decorative art.",
+      "The illustration is centered between the header and the CTA buttons.",
+      "Clear visual hierarchy using high-contrast black buttons on a yellow field."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "The illustration is centered between the header and the CTA buttons.",
+      "Clear visual hierarchy using high-contrast black buttons on a yellow field."
+    ],
+    "content_blocks": [
+      "Scoot",
+      "KrisFlyer",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat, high-contrast, playful mascot-based illustration.",
+      "yellow",
+      "black",
+      "white",
+      "Bright yellow background creates a high-energy brand identity.",
+      "The illustration is character-based (cat) and whimsical, serving as decorative art.",
+      "The illustration is centered between the header and the CTA buttons.",
+      "Clear visual hierarchy using high-contrast black buttons on a yellow field."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat, high-contrast, playful mascot-based illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_illustrated_10"
+}

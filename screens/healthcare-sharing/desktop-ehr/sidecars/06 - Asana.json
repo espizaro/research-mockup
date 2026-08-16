@@ -1,0 +1,315 @@
+{
+  "image": "06 - Asana.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Asana project management dashboard interface, featuring navigation panels on the left, a central 'My recent projects' list, and a right-hand sidebar for goals and Asana Academy.",
+    "ocr": {
+      "full_text": "Create Search Home My tasks Inbox Insights Reporting Portfolios Goals Starred Product Demo - A Projects 2025 Project Portfolio ASMobbin Campaign Product Demo - A Team Alex's workspace Advanced free trial 3 days left Add billing info Invite teammates Asana Draft a project brief Schedule a meeting to define Demo Scope & Key Features Show more My recent projects Product Demo - A ASMobbin Campaign Duplicate of Product Demo - A Blockers/Issues abc Product Demo - A Project Kickoff ASMo... Proj... Jan 9 Produ... Dec 30, 2025 - Jan 10, 2026 My goals Create goal Done 10 Brands Redesign No status (0%) Q1 FY26 Completing ASMobbin Campaign On track (44%) H2 FY26 Product Demo - A No status (0%) Q1 FY26 Show more Asana Academy Certificates Skills Not started Workflow Specialist 2 courses curated by Mobbin",
+      "lines": [
+        {
+          "text": "Create"
+        },
+        {
+          "text": "Search"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "My tasks"
+        },
+        {
+          "text": "Inbox"
+        },
+        {
+          "text": "Insights"
+        },
+        {
+          "text": "Reporting"
+        },
+        {
+          "text": "Portfolios"
+        },
+        {
+          "text": "Goals"
+        },
+        {
+          "text": "Starred"
+        },
+        {
+          "text": "Product Demo - A"
+        },
+        {
+          "text": "Projects"
+        },
+        {
+          "text": "2025 Project Portfolio"
+        },
+        {
+          "text": "ASMobbin Campaign"
+        },
+        {
+          "text": "Product Demo - A"
+        },
+        {
+          "text": "Team"
+        },
+        {
+          "text": "Alex's workspace"
+        },
+        {
+          "text": "Advanced free trial"
+        },
+        {
+          "text": "3 days left"
+        },
+        {
+          "text": "Add billing info"
+        },
+        {
+          "text": "Invite teammates"
+        },
+        {
+          "text": "Asana"
+        },
+        {
+          "text": "Draft a project brief"
+        },
+        {
+          "text": "Schedule a meeting to define Demo Scope & Key Features"
+        },
+        {
+          "text": "Show more"
+        },
+        {
+          "text": "My recent projects"
+        },
+        {
+          "text": "Product Demo - A"
+        },
+        {
+          "text": "ASMobbin Campaign"
+        },
+        {
+          "text": "Duplicate of Product Demo - A"
+        },
+        {
+          "text": "Blockers/Issues"
+        },
+        {
+          "text": "abc"
+        },
+        {
+          "text": "Product Demo - A"
+        },
+        {
+          "text": "Project Kickoff"
+        },
+        {
+          "text": "ASMo... Proj... Jan 9"
+        },
+        {
+          "text": "Produ... Dec 30, 2025 - Jan 10, 2026"
+        },
+        {
+          "text": "My goals"
+        },
+        {
+          "text": "Create goal"
+        },
+        {
+          "text": "Done 10 Brands Redesign"
+        },
+        {
+          "text": "No status (0%) Q1 FY26"
+        },
+        {
+          "text": "Completing ASMobbin Campaign"
+        },
+        {
+          "text": "On track (44%) H2 FY26"
+        },
+        {
+          "text": "Product Demo - A"
+        },
+        {
+          "text": "No status (0%) Q1 FY26"
+        },
+        {
+          "text": "Show more"
+        },
+        {
+          "text": "Asana Academy"
+        },
+        {
+          "text": "Certificates"
+        },
+        {
+          "text": "Skills"
+        },
+        {
+          "text": "Not started"
+        },
+        {
+          "text": "Workflow Specialist"
+        },
+        {
+          "text": "2 courses"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Create Search"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Home My tasks Inbox"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Reporting Portfolios Goals"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Starred Product Demo - A"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "2025 Project Portfolio ASMobbin Campaign Product Demo - A"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Team Alex's workspace"
+        },
+        {
+          "type": "form",
+          "reading_order": 7,
+          "text": "Advanced free trial 3 days left Add billing info Invite teammates"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "Draft a project brief Schedule a meeting to define Demo Scope & Key Features"
+        },
+        {
+          "type": "title",
+          "reading_order": 9,
+          "text": "My recent projects"
+        },
+        {
+          "type": "list",
+          "reading_order": 10,
+          "text": "Product Demo - A, ASMobbin Campaign, Duplicate of Product Demo - A, Blockers/Issues, abc, Product Demo - A, Project Kickoff"
+        },
+        {
+          "type": "title",
+          "reading_order": 11,
+          "text": "My goals"
+        },
+        {
+          "type": "list",
+          "reading_order": 12,
+          "text": "Done 10 Brands Redesign, Completing ASMobbin Campaign, Product Demo - A"
+        },
+        {
+          "type": "title",
+          "reading_order": 13,
+          "text": "Asana Academy"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 14,
+          "text": "Workflow Specialist 2 courses"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Project management software desktop application user interface.",
+      "intent": "User is viewing their Asana project management dashboard to monitor project status and goals.",
+      "entities": [
+        {
+          "name": "Asana",
+          "type": "Software Platform"
+        },
+        {
+          "name": "Alex",
+          "type": "User/Workspace Owner"
+        },
+        {
+          "name": "Product Demo - A",
+          "type": "Project"
+        },
+        {
+          "name": "ASMobbin Campaign",
+          "type": "Project"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Organization/Curator"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Alex",
+          "predicate": "owns",
+          "object": "workspace"
+        },
+        {
+          "subject": "Mobbin",
+          "predicate": "curates",
+          "object": "dashboard screenshot"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "dark gray",
+        "white",
+        "light blue",
+        "yellow"
+      ],
+      "style": "Professional UI dashboard",
+      "notes": [
+        "Dark sidebar theme",
+        "clean flat UI design",
+        "active project status indicators visible"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:18.104Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 7.627,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1681,
+      "totalTokenCount": 2888,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "image": "05 - Framer.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Framer CMS interface, featuring a project named 'ASMOB'. It shows a list of content entries with status, date, and category columns. On the right, an AI agent panel provides feedback on a landing page design, suggesting responsiveness adjustments for tablet and phone breakpoints. A footer indicates the platform is powered by Framer and curated by Mobbin.",
+    "ocr": {
+      "full_text": "CMS ASMOB main Invite Publish Collections Fields Plugins Search... Title Status Date Image Categories Content Best Practices Live 28/04/2026 Pro Tips Choose Compelling Top Getting Started Live 24/04/2026 CMS Basics Editing Content Importing Content Live 10/05/2026 CMS Pro Tips Prepare your CSV file Styling Elements Live 20/05/2026 Pro Tips New This Month What's New Live 17/06/2026 Updates Reference Fields Recents CMS Export Notion CSV Import Featured Google Sheets Airtable Ashby HubSpot Browse All Agent Build Agency Landing yes! Thought Both breakpoints look great. The Tablet shows the hero stacked with a full-width image and a 2-column services/listings grid, while the Phone collapses everything into clean single-column stacks with scaled-down headlines and a hidden nav menu. Your ASMOB landing page is now fully responsive: 1. Tablet (810px) - hero goes vertical with a full-width image, services and listings drop to two columns, CTA padding tightened. 2. Phone (390px) - single-column stacks throughout, condensed headlines, wrapped hero buttons, stacked gallery/footer, and the nav links hidden to keep the bar clean (logo + consultation button remain). Want me to add color tokens for the navy/tint palette so the brand colors are reusable and theme-ready across the site? Changes Undo Home 54 Layers Out of credits Your workspace has used all of its available credits this month. Buy Add-on Framer curated by Mobbin",
+      "lines": [
+        {
+          "text": "CMS",
+          "language": "en"
+        },
+        {
+          "text": "ASMOB",
+          "language": "en"
+        },
+        {
+          "text": "main",
+          "language": "en"
+        },
+        {
+          "text": "Invite",
+          "language": "en"
+        },
+        {
+          "text": "Publish",
+          "language": "en"
+        },
+        {
+          "text": "Collections",
+          "language": "en"
+        },
+        {
+          "text": "Fields",
+          "language": "en"
+        },
+        {
+          "text": "Plugins",
+          "language": "en"
+        },
+        {
+          "text": "Search...",
+          "language": "en"
+        },
+        {
+          "text": "Title",
+          "language": "en"
+        },
+        {
+          "text": "Status",
+          "language": "en"
+        },
+        {
+          "text": "Date",
+          "language": "en"
+        },
+        {
+          "text": "Image",
+          "language": "en"
+        },
+        {
+          "text": "Categories",
+          "language": "en"
+        },
+        {
+          "text": "Content",
+          "language": "en"
+        },
+        {
+          "text": "Best Practices",
+          "language": "en"
+        },
+        {
+          "text": "Live",
+          "language": "en"
+        },
+        {
+          "text": "28/04/2026",
+          "language": "en"
+        },
+        {
+          "text": "Pro Tips",
+          "language": "en"
+        },
+        {
+          "text": "Choose Compelling Top",
+          "language": "en"
+        },
+        {
+          "text": "Getting Started",
+          "language": "en"
+        },
+        {
+          "text": "Live",
+          "language": "en"
+        },
+        {
+          "text": "24/04/2026",
+          "language": "en"
+        },
+        {
+          "text": "CMS Basics",
+          "language": "en"
+        },
+        {
+          "text": "Editing Content",
+          "language": "en"
+        },
+        {
+          "text": "Importing Content",
+          "language": "en"
+        },
+        {
+          "text": "Live",
+          "language": "en"
+        },
+        {
+          "text": "10/05/2026",
+          "language": "en"
+        },
+        {
+          "text": "CMS Pro Tips",
+          "language": "en"
+        },
+        {
+          "text": "Prepare your CSV file",
+          "language": "en"
+        },
+        {
+          "text": "Styling Elements",
+          "language": "en"
+        },
+        {
+          "text": "Live",
+          "language": "en"
+        },
+        {
+          "text": "20/05/2026",
+          "language": "en"
+        },
+        {
+          "text": "Pro Tips",
+          "language": "en"
+        },
+        {
+          "text": "New This Month",
+          "language": "en"
+        },
+        {
+          "text": "What's New",
+          "language": "en"
+        },
+        {
+          "text": "Live",
+          "language": "en"
+        },
+        {
+          "text": "17/06/2026",
+          "language": "en"
+        },
+        {
+          "text": "Updates",
+          "language": "en"
+        },
+        {
+          "text": "Reference Fields",
+          "language": "en"
+        },
+        {
+          "text": "Recents",
+          "language": "en"
+        },
+        {
+          "text": "CMS Export",
+          "language": "en"
+        },
+        {
+          "text": "Notion",
+          "language": "en"
+        },
+        {
+          "text": "CSV Import",
+          "language": "en"
+        },
+        {
+          "text": "Featured",
+          "language": "en"
+        },
+        {
+          "text": "Google Sheets",
+          "language": "en"
+        },
+        {
+          "text": "Airtable",
+          "language": "en"
+        },
+        {
+          "text": "Ashby",
+          "language": "en"
+        },
+        {
+          "text": "HubSpot",
+          "language": "en"
+        },
+        {
+          "text": "Browse All",
+          "language": "en"
+        },
+        {
+          "text": "Agent",
+          "language": "en"
+        },
+        {
+          "text": "Build Agency Landing",
+          "language": "en"
+        },
+        {
+          "text": "yes!",
+          "language": "en"
+        },
+        {
+          "text": "Thought",
+          "language": "en"
+        },
+        {
+          "text": "Both breakpoints look great. The Tablet shows the hero stacked with a full-width image and a 2-column services/listings grid, while the Phone collapses everything into clean single-column stacks with scaled-down headlines and a hidden nav menu. Your ASMOB landing page is now fully responsive: 1. Tablet (810px) - hero goes vertical with a full-width image, services and listings drop to two columns, CTA padding tightened. 2. Phone (390px) - single-column stacks throughout, condensed headlines, wrapped hero buttons, stacked gallery/footer, and the nav links hidden to keep the bar clean (logo + consultation button remain). Want me to add color tokens for the navy/tint palette so the brand colors are reusable and theme-ready across the site?",
+          "language": "en"
+        },
+        {
+          "text": "Changes",
+          "language": "en"
+        },
+        {
+          "text": "Undo",
+          "language": "en"
+        },
+        {
+          "text": "Home",
+          "language": "en"
+        },
+        {
+          "text": "54 Layers",
+          "language": "en"
+        },
+        {
+          "text": "Out of credits",
+          "language": "en"
+        },
+        {
+          "text": "Your workspace has used all of its available credits this month.",
+          "language": "en"
+        },
+        {
+          "text": "Buy Add-on",
+          "language": "en"
+        },
+        {
+          "text": "Framer",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "CMS"
+        },
+        {
+          "type": "table",
+          "reading_order": 2,
+          "text": "List of CMS entries including Best Practices, Getting Started, Importing Content, Styling Elements, What's New"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Agent panel providing feedback on landing page responsiveness."
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Footer credits"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Software interface (Framer CMS)",
+      "intent": "Content management and design feedback",
+      "entities": [
+        {
+          "name": "Framer",
+          "type": "Platform"
+        },
+        {
+          "name": "ASMOB",
+          "type": "Project"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator"
+        },
+        {
+          "name": "AI Agent",
+          "type": "Service"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "ASMOB",
+          "predicate": "is managed by",
+          "object": "Framer CMS"
+        },
+        {
+          "subject": "AI Agent",
+          "predicate": "provides feedback for",
+          "object": "ASMOB"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "black"
+      ],
+      "style": "Minimalist UI/Software Dashboard",
+      "notes": [
+        "Clean layout with a left sidebar, main table area, and right-hand AI agent sidebar."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:15.094Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 7.566,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 2123,
+      "totalTokenCount": 3330,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

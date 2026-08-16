@@ -1,0 +1,180 @@
+{
+  "image": "06 - Substack.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This image is a screenshot of an 'Activity' feed within a social media application. The feed displays various notifications related to user interactions, such as subscriptions, comments, likes, and follow actions from a user named Sam Lee. It includes profile photos, text descriptions of actions, timestamps, and interactive buttons like 'Message', 'Follow', and 'Follow back'. A bottom navigation bar provides access to home, other sections, notifications, and search. The interface has a light peach-colored background and a clean, mobile app layout.",
+    "ocr": {
+      "full_text": "9:41 Activity Sam Lee subscribed to Alex Smith 37m @samleemobb Message Sam Lee commented on The Hidden Cost of Inconsistency 1m Nice insights! Sam Lee liked your post 1m AS_MOB Sam Lee followed you 37m @samleemobb Follow Follow back Substack curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Activity"
+        },
+        {
+          "text": "Sam Lee subscribed to Alex Smith 37m"
+        },
+        {
+          "text": "@samleemobb"
+        },
+        {
+          "text": "Message"
+        },
+        {
+          "text": "Sam Lee commented on The Hidden Cost of Inconsistency 1m"
+        },
+        {
+          "text": "Nice insights!"
+        },
+        {
+          "text": "Follow"
+        },
+        {
+          "text": "Sam Lee liked your post 1m"
+        },
+        {
+          "text": "AS_MOB"
+        },
+        {
+          "text": "Follow"
+        },
+        {
+          "text": "Sam Lee followed you 37m"
+        },
+        {
+          "text": "@samleemobb"
+        },
+        {
+          "text": "Follow back"
+        },
+        {
+          "text": "Substack"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Activity"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Sam Lee subscribed to Alex Smith 37m @samleemobb Message"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Sam Lee commented on The Hidden Cost of Inconsistency 1m Nice insights!"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Sam Lee liked your post 1m AS_MOB"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Sam Lee followed you 37m @samleemobb Follow back"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app notification activity feed",
+      "intent": "Display user interaction history",
+      "entities": [
+        {
+          "name": "Sam Lee",
+          "type": "User",
+          "evidence": "Sender of notifications"
+        },
+        {
+          "name": "Alex Smith",
+          "type": "User",
+          "evidence": "Subscription target"
+        },
+        {
+          "name": "The Hidden Cost of Inconsistency",
+          "type": "Content",
+          "evidence": "Comment target"
+        },
+        {
+          "name": "Substack",
+          "type": "Platform",
+          "evidence": "Bottom logo"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform",
+          "evidence": "Bottom text curation attribution"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sam Lee",
+          "predicate": "subscribed to",
+          "object": "Alex Smith"
+        },
+        {
+          "subject": "Sam Lee",
+          "predicate": "commented on",
+          "object": "The Hidden Cost of Inconsistency"
+        },
+        {
+          "subject": "Sam Lee",
+          "predicate": "liked",
+          "object": "your post"
+        },
+        {
+          "subject": "Sam Lee",
+          "predicate": "followed",
+          "object": "you"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#f9e1ca",
+        "#ffffff",
+        "#e96f26"
+      ],
+      "style": "Modern mobile application interface",
+      "notes": [
+        "The UI uses a light cream background.",
+        "Orange color accents are used for primary call-to-action buttons.",
+        "The layout is a vertical feed of individual event cards."
+      ]
+    },
+    "uncertainty": [
+      "The exact brand/app name is not clearly defined at the top, though Substack is mentioned at the very bottom."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:20.038Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.389,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1119,
+      "totalTokenCount": 2346,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "image": "01 - Rocket Money.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for selecting transaction categories in a personal finance app, likely Rocket Money, presented in a list format with checkboxes.",
+    "ocr": {
+      "full_text": "9:41 Categories Select All Uncategorized Expenses Auto & Transport Bills & Utilities Business Cash & Checks Charitable Donations Dining & Drinks Education Entertainment & Rec. Family Care Choose Categories Rocket Money curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Categories",
+          "language": "en"
+        },
+        {
+          "text": "Select All",
+          "language": "en"
+        },
+        {
+          "text": "Uncategorized",
+          "language": "en"
+        },
+        {
+          "text": "Expenses",
+          "language": "en"
+        },
+        {
+          "text": "Auto & Transport",
+          "language": "en"
+        },
+        {
+          "text": "Bills & Utilities",
+          "language": "en"
+        },
+        {
+          "text": "Business",
+          "language": "en"
+        },
+        {
+          "text": "Cash & Checks",
+          "language": "en"
+        },
+        {
+          "text": "Charitable Donations",
+          "language": "en"
+        },
+        {
+          "text": "Dining & Drinks",
+          "language": "en"
+        },
+        {
+          "text": "Education",
+          "language": "en"
+        },
+        {
+          "text": "Entertainment & Rec.",
+          "language": "en"
+        },
+        {
+          "text": "Family Care",
+          "language": "en"
+        },
+        {
+          "text": "Choose Categories",
+          "language": "en"
+        },
+        {
+          "text": "Rocket Money",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Categories"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Select All, Uncategorized"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 3,
+          "text": "Expenses"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Auto & Transport, Bills & Utilities, Business, Cash & Checks, Charitable Donations, Dining & Drinks, Education, Entertainment & Rec., Family Care"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Choose Categories"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application screen showing a list of expense categories to be selected.",
+      "intent": "To allow the user to select multiple categories for filtering or grouping financial transactions.",
+      "entities": [
+        {
+          "name": "Rocket Money",
+          "type": "Application Name",
+          "evidence": "Brand name at the bottom"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Source",
+          "evidence": "Curated by text at the bottom"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Rocket Money",
+          "predicate": "features",
+          "object": "Category selection interface"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "gray",
+        "light blue",
+        "light green",
+        "light pink",
+        "light tan"
+      ],
+      "style": "Clean, minimalist mobile UI with vector icons.",
+      "notes": [
+        "The layout includes a navigation bar at the top and a call-to-action button at the bottom.",
+        "Each list item has an icon associated with it."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:26.790Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.48,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1012,
+      "totalTokenCount": 2239,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

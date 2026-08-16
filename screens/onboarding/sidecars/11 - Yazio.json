@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Yazio",
+    "platform": "ios",
+    "file_path": "screens/onboarding/11 - Yazio.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:37.707Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen for a mobile application.",
+    "primary_flow": "onboarding",
+    "ux_intent": "To guide the user through a personalization flow via a questionnaire.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Minimalist",
+      "No hero illustration present; the center is heavily negative space.",
+      "Uses a high-contrast black call-to-action button against a light cream background.",
+      "Progress bar indicates early stage of the onboarding flow.",
+      "Typography is clean, sans-serif, and centered for focus.",
+      "Accessible contrast levels for text."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Progress Bar",
+      "Uses a high-contrast black call-to-action button against a light cream background."
+    ],
+    "content_blocks": [
+      "John",
+      "Ten Percent Happier",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, modern UI.",
+      "hex fdfaf2",
+      "hex 1a1a1a",
+      "hex d9d3c5",
+      "No hero illustration present; the center is heavily negative space.",
+      "Uses a high-contrast black call-to-action button against a light cream background.",
+      "Progress bar indicates early stage of the onboarding flow.",
+      "Typography is clean, sans-serif, and centered for focus.",
+      "Accessible contrast levels for text."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, modern UI."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_11"
+}

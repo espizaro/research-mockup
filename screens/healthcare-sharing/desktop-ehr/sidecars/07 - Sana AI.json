@@ -1,0 +1,377 @@
+{
+  "image": "07 - Sana AI.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Sana AI platform interface, specifically showing a 'Sales agent' chat session about a product called SLMobbin. The interface includes navigation sidebars on the left and right, a chat window with AI-generated content, and a footer branded by Sana AI and Mobbin.",
+    "ocr": {
+      "full_text": "AS Mobbin + New chat Workflows Search Meetings ... More Folders AS Mobbin Demo folder ... View all Today Overview: SLMobbin and Next St... Kickoff Follow-up Tasks 7 meetings and 20 messages left this month Upgrade for unlimited use Upgrade Settings Sales agent Edit Share a brief overview of SLMobbin, ask qualifying questions, and suggest next steps Done > Here's a tight, sales-ready overview of SLMobbin, plus qualifying questions and a clear next step you can use in a conversation or deck. SLMobbin – Brief Overview SLMobbin is a SaaS platform that helps teams capture, organize, and reuse high-performing sales and lifecycle flows – think of it as a pattern library for outreach, follow-ups, and customer communication. Use this angle: • Centralized pattern library for sales & lifecycle flows o Store your best-performing emails, sequences, scripts, and playbooks in one structured, searchable place. • Battle-tested examples instead of guesswork o Reps can pull from real-world, proven flows instead of starting from a blank page every time. • Faster onboarding, consistent messaging o New team members ramp quickly by learning from curated flows that already work, keeping brand and voice aligned. • Design-first experience for flows o Clear visual representation of steps, branches, and triggers so teams can see how the experience unfolds end-to-end. What would you like to do? Create + Sources Default Sana AI curated by Mobbin Overview Q Sales agent knowledge PDF Demo - Acme Confidentiality Agree... PDF Demo - Acme Confidentiality Agree... PDF Demo - Acme Series B Term Sheet ... 10 files Workflows Answer RFP documentation Demo task Conduct a competitor analysis Demo task Provide feedback on",
+      "lines": [
+        {
+          "text": "AS Mobbin",
+          "language": "en"
+        },
+        {
+          "text": "+ New chat",
+          "language": "en"
+        },
+        {
+          "text": "Workflows",
+          "language": "en"
+        },
+        {
+          "text": "Search",
+          "language": "en"
+        },
+        {
+          "text": "Meetings",
+          "language": "en"
+        },
+        {
+          "text": "... More",
+          "language": "en"
+        },
+        {
+          "text": "Folders",
+          "language": "en"
+        },
+        {
+          "text": "AS Mobbin",
+          "language": "en"
+        },
+        {
+          "text": "Demo folder",
+          "language": "en"
+        },
+        {
+          "text": "... View all",
+          "language": "en"
+        },
+        {
+          "text": "Today",
+          "language": "en"
+        },
+        {
+          "text": "Overview: SLMobbin and Next St...",
+          "language": "en"
+        },
+        {
+          "text": "Kickoff Follow-up Tasks",
+          "language": "en"
+        },
+        {
+          "text": "7 meetings and 20 messages left this month",
+          "language": "en"
+        },
+        {
+          "text": "Upgrade for unlimited use",
+          "language": "en"
+        },
+        {
+          "text": "Upgrade",
+          "language": "en"
+        },
+        {
+          "text": "Settings",
+          "language": "en"
+        },
+        {
+          "text": "Sales agent",
+          "language": "en"
+        },
+        {
+          "text": "Edit",
+          "language": "en"
+        },
+        {
+          "text": "Share a brief overview of SLMobbin, ask qualifying questions, and suggest next steps",
+          "language": "en"
+        },
+        {
+          "text": "Done >",
+          "language": "en"
+        },
+        {
+          "text": "Here's a tight, sales-ready overview of SLMobbin, plus qualifying questions and a clear next step you can use in a conversation or deck.",
+          "language": "en"
+        },
+        {
+          "text": "SLMobbin – Brief Overview",
+          "language": "en"
+        },
+        {
+          "text": "SLMobbin is a SaaS platform that helps teams capture, organize, and reuse high-performing sales and lifecycle flows – think of it as a pattern library for outreach, follow-ups, and customer communication.",
+          "language": "en"
+        },
+        {
+          "text": "Use this angle:",
+          "language": "en"
+        },
+        {
+          "text": "• Centralized pattern library for sales & lifecycle flows",
+          "language": "en"
+        },
+        {
+          "text": "o Store your best-performing emails, sequences, scripts, and playbooks in one structured, searchable place.",
+          "language": "en"
+        },
+        {
+          "text": "• Battle-tested examples instead of guesswork",
+          "language": "en"
+        },
+        {
+          "text": "o Reps can pull from real-world, proven flows instead of starting from a blank page every time.",
+          "language": "en"
+        },
+        {
+          "text": "• Faster onboarding, consistent messaging",
+          "language": "en"
+        },
+        {
+          "text": "o New team members ramp quickly by learning from curated flows that already work, keeping brand and voice aligned.",
+          "language": "en"
+        },
+        {
+          "text": "• Design-first experience for flows",
+          "language": "en"
+        },
+        {
+          "text": "o Clear visual representation of steps, branches, and triggers so teams can see how the experience unfolds end-to-end.",
+          "language": "en"
+        },
+        {
+          "text": "What would you like to do?",
+          "language": "en"
+        },
+        {
+          "text": "Create + Sources",
+          "language": "en"
+        },
+        {
+          "text": "Default",
+          "language": "en"
+        },
+        {
+          "text": "Sana AI",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        },
+        {
+          "text": "Overview",
+          "language": "en"
+        },
+        {
+          "text": "Q Sales agent knowledge",
+          "language": "en"
+        },
+        {
+          "text": "PDF Demo - Acme Confidentiality Agree...",
+          "language": "en"
+        },
+        {
+          "text": "PDF Demo - Acme Confidentiality Agree...",
+          "language": "en"
+        },
+        {
+          "text": "PDF Demo - Acme Series B Term Sheet",
+          "language": "en"
+        },
+        {
+          "text": "... 10 files",
+          "language": "en"
+        },
+        {
+          "text": "Workflows",
+          "language": "en"
+        },
+        {
+          "text": "Answer RFP documentation",
+          "language": "en"
+        },
+        {
+          "text": "Demo task",
+          "language": "en"
+        },
+        {
+          "text": "Conduct a competitor analysis",
+          "language": "en"
+        },
+        {
+          "text": "Demo task",
+          "language": "en"
+        },
+        {
+          "text": "Provide feedback on",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "AS Mobbin"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "+ New chat Workflows Search Meetings ... More"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Folders AS Mobbin Demo folder ... View all"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Today Overview: SLMobbin and Next St... Kickoff Follow-up Tasks"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "7 meetings and 20 messages left this month Upgrade for unlimited use Upgrade"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Settings"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 7,
+          "text": "Sales agent"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "Share a brief overview of SLMobbin, ask qualifying questions, and suggest next steps"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 9,
+          "text": "Here's a tight, sales-ready overview of SLMobbin, plus qualifying questions and a clear next step you can use in a conversation or deck."
+        },
+        {
+          "type": "title",
+          "reading_order": 10,
+          "text": "SLMobbin – Brief Overview"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 11,
+          "text": "SLMobbin is a SaaS platform that helps teams capture, organize, and reuse high-performing sales and lifecycle flows – think of it as a pattern library for outreach, follow-ups, and customer communication. Use this angle:"
+        },
+        {
+          "type": "list",
+          "reading_order": 12,
+          "text": "• Centralized pattern library for sales & lifecycle flows. Store your best-performing emails, sequences, scripts, and playbooks in one structured, searchable place. • Battle-tested examples instead of guesswork. Reps can pull from real-world, proven flows instead of starting from a blank page every time. • Faster onboarding, consistent messaging. New team members ramp quickly by learning from curated flows that already work, keeping brand and voice aligned. • Design-first experience for flows. Clear visual representation of steps, branches, and triggers so teams can see how the experience unfolds end-to-end."
+        },
+        {
+          "type": "form",
+          "reading_order": 13,
+          "text": "What would you like to do? Create + Sources Default"
+        },
+        {
+          "type": "title",
+          "reading_order": 14,
+          "text": "Overview"
+        },
+        {
+          "type": "list",
+          "reading_order": 15,
+          "text": "Sales agent knowledge. Demo - Acme Confidentiality Agree... Demo - Acme Confidentiality Agree... Demo - Acme Series B Term Sheet ... 10 files"
+        },
+        {
+          "type": "list",
+          "reading_order": 16,
+          "text": "Workflows. Answer RFP documentation. Conduct a competitor analysis. Provide feedback on"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 17,
+          "text": "Sana AI curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Digital interface of an AI-powered enterprise software platform (Sana AI) displaying a chat interaction about a B2B product called SLMobbin.",
+      "intent": "To provide information about the product SLMobbin through an AI sales agent, showcasing its features and capabilities.",
+      "entities": [
+        {
+          "name": "Sana AI",
+          "type": "Software platform"
+        },
+        {
+          "name": "SLMobbin",
+          "type": "SaaS platform / Product"
+        },
+        {
+          "name": "Acme",
+          "type": "Company (client context)"
+        },
+        {
+          "name": "Sales agent",
+          "type": "AI feature"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Sana AI",
+          "predicate": "hosts",
+          "object": "Sales agent"
+        },
+        {
+          "subject": "SLMobbin",
+          "predicate": "is a",
+          "object": "SaaS platform"
+        },
+        {
+          "subject": "Sales agent",
+          "predicate": "explains",
+          "object": "SLMobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light gray",
+        "dark gray"
+      ],
+      "style": "Clean, minimalist enterprise SaaS UI",
+      "notes": [
+        "Uses a sidebar layout with a central conversation feed and right-hand knowledge/context pane."
+      ]
+    },
+    "uncertainty": [
+      "The full text of some document names in the right-hand panel is truncated with ellipses.",
+      "The full text of the 'Today' menu item is truncated with ellipses."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:08:29.329Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 7.59,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 2489,
+      "totalTokenCount": 3696,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

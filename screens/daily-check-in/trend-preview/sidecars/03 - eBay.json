@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "eBay",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/trend-preview/03 - eBay.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:16.622Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app interface",
+    "primary_flow": "daily-check-in/trend-preview",
+    "ux_intent": "Display data trends for item sales on an e-commerce platform.",
+    "ux_patterns": [
+      "Form",
+      "Chart",
+      "Area chart uses blue color",
+      "Standard navigation bar and header components present"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Chart",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Standard navigation bar and header components present"
+    ],
+    "content_blocks": [
+      "eBay",
+      "Average Sold Price",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "clean minimal mobile interface",
+      "blue",
+      "white",
+      "gray",
+      "black",
+      "Area chart uses blue color",
+      "Standard navigation bar and header components present"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "clean minimal mobile interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_trend_preview_03"
+}

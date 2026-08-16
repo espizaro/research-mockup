@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Life Reset",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-quiz/06 - Life Reset.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:52.560Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding or settings configuration.",
+    "primary_flow": "auth-onboarding-quiz",
+    "ux_intent": "User preference selection to customize app experience.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Settings",
+      "Dark Mode",
+      "Minimalist",
+      "Checkbox",
+      "Clean, high-contrast typography",
+      "Large touch targets for checkboxes",
+      "Primary call-to-action is a white button with black text"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Checkbox",
+      "Primary call-to-action is a white button with black text"
+    ],
+    "content_blocks": [
+      "Life Reset",
+      "Character mode"
+    ],
+    "visual_keywords": [
+      "Minimalist dark mode UI",
+      "black",
+      "white",
+      "orange",
+      "Clean, high-contrast typography",
+      "Large touch targets for checkboxes",
+      "Primary call-to-action is a white button with black text"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist dark mode UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_quiz_06"
+}

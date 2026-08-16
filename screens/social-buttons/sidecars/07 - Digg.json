@@ -1,0 +1,60 @@
+{
+  "identification": {
+    "app_name": "Digg",
+    "platform": "ios",
+    "file_path": "screens/social-buttons/07 - Digg.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:18.732Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login and registration interface for a mobile application.",
+    "primary_flow": "social-buttons",
+    "ux_intent": "To facilitate user onboarding through email registration or third-party identity providers.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "The background at the top features a soft, ethereal purple/pink gradient.",
+      "No hero illustrations present.",
+      "High contrast text for readability.",
+      "The 'Continue' button is disabled/inactive state.",
+      "Consistent use of brand logos for social login."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "The 'Continue' button is disabled/inactive state."
+    ],
+    "content_blocks": [
+      "Digg",
+      "Google",
+      "Apple",
+      "Terms of Service",
+      "Privacy Policy"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, mobile-first UI with a soft gradient backdrop.",
+      "white",
+      "black",
+      "purple/pink gradient (background header)",
+      "The background at the top features a soft, ethereal purple/pink gradient.",
+      "No hero illustrations present.",
+      "High contrast text for readability.",
+      "The 'Continue' button is disabled/inactive state.",
+      "Consistent use of brand logos for social login."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, mobile-first UI with a soft gradient backdrop."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_social_buttons_07"
+}

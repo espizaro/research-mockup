@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research Mockup · Inspiration Catalog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">R</span>
+    <div>
+      <h1>Research Mockup</h1>
+      <p>Inspiration catalog · indexed screens</p>
+    </div>
+  </div>
+  <div class="search-wrap">
+    <input id="search" type="search" placeholder="Search app, flow, pattern, tag…" autocomplete="off">
+    <span id="count" class="count">0 screens</span>
+  </div>
+    <a class="hub-btn" href="../mockups/index.html"><span class="hub-btn-ico">&#8962;</span>Open the hub</a>
+  <button id="theme" class="icon-btn" title="Toggle theme">☾</button>
+</header>
+
+<div class="toolbar">
+  <div class="chips" id="platformChips"></div>
+  <div class="chips" id="statusChips"></div>
+  <select id="flowSelect" class="select"><option value="">All flows</option></select>
+  <select id="appSelect" class="select"><option value="">All apps</option></select>
+  <button id="clearFilters" class="ghost-btn">Clear</button>
+</div>
+
+<main class="layout">
+  <section class="col-list">
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty" hidden>
+      <h2>No results</h2>
+      <p>Try another search or clear the filters.</p>
+      <button class="btn ghost" id="emptyClear">Clear filters</button>
+    </div>
+  </section>
+  <aside id="preview" class="preview">
+    <div class="preview-backdrop" data-close></div>
+    <div class="preview-panel">
+      <header class="preview-head">
+        <div class="grow">
+          <span id="pvApp" class="pv-app"></span>
+          <span id="pvFlow" class="pv-flow"></span>
+        </div>
+        <button class="icon-btn" data-close title="Close">×</button>
+      </header>
+      <div id="pvEmpty" class="pv-empty">
+        <span class="brand-mark sm">R</span>
+        <h2>Select a screen</h2>
+        <p>The preview opens here: full screen on the left, metadata on the right.</p>
+      </div>
+      <div id="pvContent" class="pv-content" hidden>
+        <div class="pv-col-img">
+          <img id="pvImg" class="pv-img" alt="">
+        </div>
+        <div class="pv-col-meta">
+          <div class="pv-row"><span class="pill" id="pvPlatform"></span><span class="pill" id="pvStatus"></span></div>
+          <h2 id="pvType"></h2>
+          <p id="pvIntent"></p>
+          <div class="pv-label">Patterns</div>
+          <div class="chips" id="pvPatterns"></div>
+          <div class="pv-label">Tags</div>
+          <div class="chips" id="pvTags"></div>
+          <div class="pv-label">Registry JSON</div>
+          <pre id="pvJson" class="json"></pre>
+          <div class="pv-actions">
+            <button id="pvCopy" class="btn primary">Copy JSON</button>
+            <a id="pvMobbin" class="btn ghost" target="_blank" rel="noopener">Open on Mobbin</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<footer class="foot">
+  <span>Local archive · works with a double click · enriched JSON lives in data/registry.json</span>
+  <a href="../mockups/index.html">Browse mockups</a>
+  <a href="../README.md">Project README</a>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

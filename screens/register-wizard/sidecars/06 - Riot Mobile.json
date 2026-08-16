@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "Riot Mobile",
+    "platform": "ios",
+    "file_path": "screens/register-wizard/06 - Riot Mobile.webp",
+    "analyzed_timestamp": "2026-08-13T20:58:05.452Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Account registration/creation screen on a mobile application.",
+    "primary_flow": "register-wizard",
+    "ux_intent": "User is completing the account creation process for a gaming service.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Minimalist",
+      "The UI uses a progressive disclosure pattern for the sign-up process.",
+      "Primary call-to-action is a prominent floating button.",
+      "Input fields have clear success states with checkmark icons.",
+      "The design uses a clean sans-serif typeface.",
+      "No illustrative imagery present; strictly functional/data entry focused."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Primary call-to-action is a prominent floating button.",
+      "Input fields have clear success states with checkmark icons."
+    ],
+    "content_blocks": [
+      "Username Field",
+      "Password Field",
+      "Next Button",
+      "Validation Status"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean mobile UI design, high contrast for validation states.",
+      "hex FFFFFF",
+      "hex F2F2F2",
+      "hex D33535",
+      "The UI uses a progressive disclosure pattern for the sign-up process.",
+      "Primary call-to-action is a prominent floating button.",
+      "Input fields have clear success states with checkmark icons.",
+      "The design uses a clean sans-serif typeface.",
+      "No illustrative imagery present; strictly functional/data entry focused."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean mobile UI design, high contrast for validation states."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_register_wizard_06"
+}

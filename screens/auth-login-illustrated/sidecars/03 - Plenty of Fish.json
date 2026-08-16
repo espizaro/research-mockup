@@ -1,0 +1,56 @@
+{
+  "identification": {
+    "app_name": "Plenty of Fish",
+    "platform": "ios",
+    "file_path": "screens/auth-login-illustrated/03 - Plenty of Fish.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:07.571Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile application login screen.",
+    "primary_flow": "auth-login-illustrated",
+    "ux_intent": "Authenticating a user to access their account or directing them to sign up.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "The fish illustration is a mascot/decorative element placed centrally between the header and the form.",
+      "The color scheme uses a soft, warm coral tone which is distinctive for the brand.",
+      "The UI uses high-contrast black text and elements against the background color.",
+      "Accessibility: The password field has a 'hide/show' icon, and the terms text is clearly linked.",
+      "The design uses a clean sans-serif typeface consistent with modern mobile apps."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Plenty of Fish",
+      "Mobbin",
+      "Login"
+    ],
+    "visual_keywords": [
+      "Minimalist, playful, hand-drawn aesthetic.",
+      "hex FF9E8C",
+      "hex 000000",
+      "hex FFFFFF",
+      "The fish illustration is a mascot/decorative element placed centrally between the header and the form.",
+      "The color scheme uses a soft, warm coral tone which is distinctive for the brand.",
+      "The UI uses high-contrast black text and elements against the background color.",
+      "Accessibility: The password field has a 'hide/show' icon, and the terms text is clearly linked.",
+      "The design uses a clean sans-serif typeface consistent with modern mobile apps."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, playful, hand-drawn aesthetic."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_illustrated_03"
+}

@@ -1,0 +1,122 @@
+{
+  "image": "08 - Yazio.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen showing a health screening questionnaire. The current question asks the user if they have any of several listed medical conditions, with 'None of these' being the currently selected option.",
+    "ocr": {
+      "full_text": "9:41\nQuestion 1 of 4\nDo either of the following apply to you?\nNone of these\nI'm currently pregnant or breastfeeding\nI have diabetes (type 1 or type 2 treated with insulin)\nI have type 2 diabetes without insulin treatment\nI have an eating disorder\nI have a renal disease\nI have cancer\nYazio\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Question 1 of 4"
+        },
+        {
+          "text": "Do either of the following apply to you?"
+        },
+        {
+          "text": "None of these"
+        },
+        {
+          "text": "I'm currently pregnant or breastfeeding"
+        },
+        {
+          "text": "I have diabetes (type 1 or type 2 treated with insulin)"
+        },
+        {
+          "text": "I have type 2 diabetes without insulin treatment"
+        },
+        {
+          "text": "I have an eating disorder"
+        },
+        {
+          "text": "I have a renal disease"
+        },
+        {
+          "text": "I have cancer"
+        },
+        {
+          "text": "Yazio"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Question 1 of 4"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Do either of the following apply to you?"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "None of these, I'm currently pregnant or breastfeeding, I have diabetes (type 1 or type 2 treated with insulin), I have type 2 diabetes without insulin treatment, I have an eating disorder, I have a renal disease, I have cancer"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app health questionnaire.",
+      "intent": "To collect health history information from the user.",
+      "entities": [
+        {
+          "name": "Yazio",
+          "type": "Application"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Curator"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Yazio",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "#E3F2F8",
+        "#FFFFFF"
+      ],
+      "style": "Clean, modern UI/UX design, mobile app interface.",
+      "notes": [
+        "Uses medical symbols (caduceus icon) next to health-related options.",
+        "Checkbox icon used for selection."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:29.819Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.645,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 698,
+      "totalTokenCount": 1925,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

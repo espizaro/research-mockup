@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "Attio",
+    "platform": "ios",
+    "file_path": "screens/auth-login-magic-link/03 - Attio.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:24.223Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login verification step on a mobile device.",
+    "primary_flow": "auth-login-magic-link",
+    "ux_intent": "To verify the user's identity via a temporary login code sent to their email.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "Logo is simple geometric abstract mark.",
+      "High contrast text.",
+      "Button uses a muted blue color to indicate a loading/disabled state."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Button uses a muted blue color to indicate a loading/disabled state."
+    ],
+    "content_blocks": [
+      "Attio",
+      "samlee@content-mobbin.com",
+      "BCGVN2PY"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, mobile UI",
+      "white",
+      "blue",
+      "grey",
+      "Logo is simple geometric abstract mark.",
+      "High contrast text.",
+      "Button uses a muted blue color to indicate a loading/disabled state."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_magic_link_03"
+}

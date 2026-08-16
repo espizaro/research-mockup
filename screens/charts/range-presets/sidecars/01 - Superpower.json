@@ -1,0 +1,184 @@
+{
+  "image": "01 - Superpower.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface displaying health data records with a focus on 'Biomarkers'. The screen shows a user's health assessment, a filtering dropdown menu for biomarker ranges, and individual health metric cards including 'Health Score' and 'Triglycerides'.",
+    "ocr": {
+      "full_text": "9:41 Data Records Updated Feb 18, 2026 [Name], you're generally healthy. It seems like you're doing well, but there are some areas that could be improved. Biomarkers 105 54 86 13 out of range ✓ All ranges Optimal Normal Out of range Name Status History • Health Score 83 points • Heart & Vascular Health • Triglycerides 56 mg/dL Home Data Protocol Marketplace Superpower curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Data Records"
+        },
+        {
+          "text": "Updated Feb 18, 2026"
+        },
+        {
+          "text": "[Name], you're generally healthy. It seems like you're doing well, but there are some areas that could be improved."
+        },
+        {
+          "text": "Biomarkers"
+        },
+        {
+          "text": "105 54 86 13"
+        },
+        {
+          "text": "out of range"
+        },
+        {
+          "text": "✓ All ranges"
+        },
+        {
+          "text": "Optimal"
+        },
+        {
+          "text": "Normal"
+        },
+        {
+          "text": "Out of range"
+        },
+        {
+          "text": "Name Status History"
+        },
+        {
+          "text": "• Health Score"
+        },
+        {
+          "text": "83 points"
+        },
+        {
+          "text": "• Heart & Vascular Health"
+        },
+        {
+          "text": "• Triglycerides"
+        },
+        {
+          "text": "56 mg/dL"
+        },
+        {
+          "text": "Home Data Protocol Marketplace"
+        },
+        {
+          "text": "Superpower curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Data Records"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Updated Feb 18, 2026. [Name], you're generally healthy. It seems like you're doing well, but there are some areas that could be improved."
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Biomarkers: 105, 54, 86, 13"
+        },
+        {
+          "type": "form",
+          "reading_order": 4,
+          "text": "Dropdown menu: All ranges (checked), Optimal, Normal, Out of range"
+        },
+        {
+          "type": "table",
+          "reading_order": 5,
+          "text": "Name, Status, History headings. Health Score (83 points), Heart & Vascular Health section, Triglycerides (56 mg/dL)"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "Navigation bar: Home, Data, Protocol, Marketplace"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile health tracking application dashboard.",
+      "intent": "View personal health biomarkers and status.",
+      "entities": [
+        {
+          "name": "Health Score",
+          "type": "Metric"
+        },
+        {
+          "name": "Triglycerides",
+          "type": "Biomarker"
+        },
+        {
+          "name": "56 mg/dL",
+          "type": "Measurement"
+        },
+        {
+          "name": "83 points",
+          "type": "Measurement"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Triglycerides",
+          "predicate": "has_value",
+          "object": "56 mg/dL"
+        },
+        {
+          "subject": "Health Score",
+          "predicate": "has_value",
+          "object": "83 points"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-gray",
+        "green",
+        "pink"
+      ],
+      "style": "Modern minimalist UI design for health application.",
+      "notes": [
+        "Interactive dropdown overlay is present.",
+        "Progress bars indicate status ranges."
+      ]
+    },
+    "uncertainty": [
+      "User name blurred out.",
+      "Specific context of the '105 54 86 13' numbers is not fully labeled aside from being under Biomarkers."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:22:07.647Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.526,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1035,
+      "totalTokenCount": 2262,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.528
+      }
+    ],
+    "warnings": []
+  }
+}

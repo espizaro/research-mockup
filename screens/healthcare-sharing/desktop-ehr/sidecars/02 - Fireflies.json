@@ -1,0 +1,243 @@
+{
+  "image": "02 - Fireflies.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of the Fireflies.ai meeting platform interface, showing a 'User Research Discussion' meeting. It includes a chat thread on the left, a main summary section in the middle with key discussion points, and a live meeting transcript sidebar on the right.",
+    "ocr": {
+      "full_text": "You have 3 days left in your business plan free trial. Subscribe now\n# All Meetings / User Research Discussion\nThread (1/1)\nAlex 01:21 3 days\nMany users open the negotiation pag\nan offer. Kinda weird\nPrivacy\nEdit\nRemove\nReply\nUser Research Discussion\nVideo\nAlex Mar 09 2026, 2:05 PM English (Global)\nGeneral Summary\nAI Apps\nFocus on negotiation and checkout: Team will observe both negotiation feature and checkout process to capture user experience.\nSegmentation by user experience: Target 8 to 10 users from new and experienced segments to identify behavior patterns.\nResearch session structure: Users will share negotiation history and interact with a prototype to test real behaviors.\nSuccess indicators defined: Clear submission, confidence, and completion are key metrics to evaluate negotiation feature success.\nUser expectations outlined: Quick seller responses and system feedback are crucial for enhancing user confidence and satisfaction.\nDocumentation for insights: Key findings, pain points, and user quotes will be documented to support design iterations.\nNotes\nUser Research Planning\nThe team decided to focus primarily on the new negotiation feature while also observing the checkout flow to understand post-negotiation issues.\nFocus on negotiation feature with checkout observation was agreed by Alex and Sam to capture complete user experience around price offers (00:12)\nTranscript AskFred\nFind or Replace\nAlex 00:12\nAll right, so before we start with the research, I want to clarify this. So I'll be focusing only on the negotiation feature or also the checkout flow.\nSam 00:38\nI think we should mainly focus on the negotiation feature since it's a new improvement.\nAlex 00:51\nBut sometimes the problem appears after the negotiation, especially during checkout.\nSam 01:05\nThat's a good point. So let's prioritize negotiation but still observe what happened after the offer is accepted.\nAlex 01:18\nOkay, so from our analytics we see that many users open the negotiation page but\n00:00 / 16:24\nFireflies curated by Mobbin",
+      "lines": [
+        {
+          "text": "You have 3 days left in your business plan free trial. Subscribe now"
+        },
+        {
+          "text": "# All Meetings / User Research Discussion"
+        },
+        {
+          "text": "Thread (1/1)"
+        },
+        {
+          "text": "Alex 01:21 3 days"
+        },
+        {
+          "text": "Many users open the negotiation pag"
+        },
+        {
+          "text": "an offer. Kinda weird"
+        },
+        {
+          "text": "Privacy"
+        },
+        {
+          "text": "Edit"
+        },
+        {
+          "text": "Remove"
+        },
+        {
+          "text": "Reply"
+        },
+        {
+          "text": "User Research Discussion"
+        },
+        {
+          "text": "Video"
+        },
+        {
+          "text": "Alex Mar 09 2026, 2:05 PM English (Global)"
+        },
+        {
+          "text": "General Summary"
+        },
+        {
+          "text": "AI Apps"
+        },
+        {
+          "text": "Focus on negotiation and checkout: Team will observe both negotiation feature and checkout process to capture user experience."
+        },
+        {
+          "text": "Segmentation by user experience: Target 8 to 10 users from new and experienced segments to identify behavior patterns."
+        },
+        {
+          "text": "Research session structure: Users will share negotiation history and interact with a prototype to test real behaviors."
+        },
+        {
+          "text": "Success indicators defined: Clear submission, confidence, and completion are key metrics to evaluate negotiation feature success."
+        },
+        {
+          "text": "User expectations outlined: Quick seller responses and system feedback are crucial for enhancing user confidence and satisfaction."
+        },
+        {
+          "text": "Documentation for insights: Key findings, pain points, and user quotes will be documented to support design iterations."
+        },
+        {
+          "text": "Notes"
+        },
+        {
+          "text": "User Research Planning"
+        },
+        {
+          "text": "The team decided to focus primarily on the new negotiation feature while also observing the checkout flow to understand post-negotiation issues."
+        },
+        {
+          "text": "Focus on negotiation feature with checkout observation was agreed by Alex and Sam to capture complete user experience around price offers (00:12)"
+        },
+        {
+          "text": "Transcript AskFred"
+        },
+        {
+          "text": "Find or Replace"
+        },
+        {
+          "text": "Alex 00:12"
+        },
+        {
+          "text": "All right, so before we start with the research, I want to clarify this. So I'll be focusing only on the negotiation feature or also the checkout flow."
+        },
+        {
+          "text": "Sam 00:38"
+        },
+        {
+          "text": "I think we should mainly focus on the negotiation feature since it's a new improvement."
+        },
+        {
+          "text": "Alex 00:51"
+        },
+        {
+          "text": "But sometimes the problem appears after the negotiation, especially during checkout."
+        },
+        {
+          "text": "Sam 01:05"
+        },
+        {
+          "text": "That's a good point. So let's prioritize negotiation but still observe what happened after the offer is accepted."
+        },
+        {
+          "text": "Alex 01:18"
+        },
+        {
+          "text": "Okay, so from our analytics we see that many users open the negotiation page but"
+        },
+        {
+          "text": "00:00 / 16:24"
+        },
+        {
+          "text": "Fireflies curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "User Research Discussion"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Focus on negotiation and checkout: Team will observe both negotiation feature and checkout process to capture user experience."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Segmentation by user experience: Target 8 to 10 users from new and experienced segments to identify behavior patterns."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Research session structure: Users will share negotiation history and interact with a prototype to test real behaviors."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Success indicators defined: Clear submission, confidence, and completion are key metrics to evaluate negotiation feature success."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "User expectations outlined: Quick seller responses and system feedback are crucial for enhancing user confidence and satisfaction."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Documentation for insights: Key findings, pain points, and user quotes will be documented to support design iterations."
+        },
+        {
+          "type": "other",
+          "reading_order": 8,
+          "text": "The team decided to focus primarily on the new negotiation feature while also observing the checkout flow to understand post-negotiation issues."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A collaborative meeting workspace for design research.",
+      "intent": "To summarize a discussion about research methodology and focus areas for a product feature.",
+      "entities": [
+        {
+          "name": "Alex",
+          "type": "Person"
+        },
+        {
+          "name": "Sam",
+          "type": "Person"
+        },
+        {
+          "name": "Fireflies",
+          "type": "Company/Product"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Company"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Alex",
+          "predicate": "discusses with",
+          "object": "Sam"
+        },
+        {
+          "subject": "Team",
+          "predicate": "defined",
+          "object": "Success indicators"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "purple",
+        "gray"
+      ],
+      "style": "Clean SaaS web interface",
+      "notes": [
+        "Uses a sidebar layout for navigation and transcript, with content centered."
+      ]
+    },
+    "uncertainty": [
+      "The phrase 'negotiation pag' appears truncated at the end of the line."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T15:07:39.472Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.612,
+    "usage": {
+      "promptTokenCount": 1207,
+      "candidatesTokenCount": 1836,
+      "totalTokenCount": 3043,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1080
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

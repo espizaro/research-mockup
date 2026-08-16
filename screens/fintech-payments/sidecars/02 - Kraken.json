@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Kraken",
+    "platform": "ios",
+    "file_path": "screens/fintech-payments/02 - Kraken.webp",
+    "analyzed_timestamp": "2026-08-06T23:56:36.236Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile transaction confirmation screen showing a pending payment.",
+    "primary_flow": "fintech-payments",
+    "ux_intent": "Notify the user that their money transfer request has been initiated and is being processed.",
+    "ux_patterns": [
+      "Minimalist",
+      "Card",
+      "Large green success checkmark icon implies positive status",
+      "Clean, high-contrast typography",
+      "Uses a card-based layout for transaction details"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Table",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Uses a card-based layout for transaction details"
+    ],
+    "content_blocks": [
+      "Send",
+      "Receive",
+      "alexsmith.8425",
+      "4.218007",
+      "World App"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "white",
+      "green",
+      "black",
+      "blue-violet",
+      "Large green success checkmark icon implies positive status",
+      "Clean, high-contrast typography",
+      "Uses a card-based layout for transaction details"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_fintech_payments_02"
+}

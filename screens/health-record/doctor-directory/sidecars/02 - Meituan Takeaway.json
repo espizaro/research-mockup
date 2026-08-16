@@ -1,0 +1,210 @@
+{
+  "image": "02 - Meituan Takeaway.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface showing a list of respiratory medicine doctors on a health consultation platform. It includes search functionality, category filters, and doctor profiles with credentials, hospital affiliations, areas of expertise, ratings, consultation volume, and pricing.",
+    "ocr": {
+      "full_text": "9:41 症状、疾病、医院、科室、医生名 搜索 呼吸内科 皮肤科 妇产科 儿科 泌尿外科 全部 综合排序 医生擅长 筛选 陆欢 主治医师 呼吸内科 三甲 上海市第一人民医院 百强医院 擅长: 流行性感冒、新冠肺炎、呼吸道感染、急慢性支气管炎、支气管哮喘、慢阻肺、支扩、肺部... 好评率 97.96% 接诊量 3069 平均等待 38秒 立即咨询 ¥32.0 刘志娟 主任医师 呼吸内科 三甲 首都医科大学附属北京地坛医院 百强医院 可开方 擅长: 呼吸内科常见病多发病包括: 新冠肺炎、慢阻肺、支气管哮喘、肺心病、肺部感染、心功能... 好评率 98.00% 接诊量 2668 平均等待 27秒 立即咨询 ¥29.9 吴寿全 主治医师 呼吸内科 三甲 四川大学华西医院 呼吸内科全国医院排名前十 百强医院 擅长: 呼吸内科常见症状: 新冠肺炎, 咳嗽, 咳痰, 咽喉痛, 胸痛, 感冒, 咯血, 胸闷, 喘气 首页 商城 问医生 我的 Meituan Takeaway curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "症状、疾病、医院、科室、医生名"
+        },
+        {
+          "text": "搜索"
+        },
+        {
+          "text": "呼吸内科 皮肤科 妇产科 儿科 泌尿外科 全部"
+        },
+        {
+          "text": "综合排序 医生擅长 筛选"
+        },
+        {
+          "text": "陆欢 主治医师 呼吸内科"
+        },
+        {
+          "text": "三甲 上海市第一人民医院"
+        },
+        {
+          "text": "百强医院"
+        },
+        {
+          "text": "擅长: 流行性感冒、新冠肺炎、呼吸道感染、急慢性支气管炎、支气管哮喘、慢阻肺、支扩、肺部..."
+        },
+        {
+          "text": "好评率 97.96% 接诊量 3069 平均等待 38秒"
+        },
+        {
+          "text": "立即咨询 ¥32.0"
+        },
+        {
+          "text": "刘志娟 主任医师 呼吸内科"
+        },
+        {
+          "text": "三甲 首都医科大学附属北京地坛医院"
+        },
+        {
+          "text": "百强医院 可开方"
+        },
+        {
+          "text": "擅长: 呼吸内科常见病多发病包括: 新冠肺炎、慢阻肺、支气管哮喘、肺心病、肺部感染、心功能..."
+        },
+        {
+          "text": "好评率 98.00% 接诊量 2668 平均等待 27秒"
+        },
+        {
+          "text": "立即咨询 ¥29.9"
+        },
+        {
+          "text": "吴寿全 主治医师 呼吸内科"
+        },
+        {
+          "text": "三甲 四川大学华西医院"
+        },
+        {
+          "text": "呼吸内科全国医院排名前十 百强医院"
+        },
+        {
+          "text": "擅长: 呼吸内科常见症状: 新冠肺炎, 咳嗽, 咳痰, 咽喉痛, 胸痛, 感冒, 咯血, 胸闷, 喘气"
+        },
+        {
+          "text": "首页 商城 问医生 我的"
+        },
+        {
+          "text": "Meituan Takeaway curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "9:41"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "症状、疾病、医院、科室、医生名 搜索"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "呼吸内科 皮肤科 妇产科 儿科 泌尿外科 全部"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "综合排序 医生擅长 筛选"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "陆欢 主治医师 呼吸内科 三甲 上海市第一人民医院 百强医院 擅长: 流行性感冒、新冠肺炎、呼吸道感染、急慢性支气管炎、支气管哮喘、慢阻肺、支扩、肺部... 好评率 97.96% 接诊量 3069 平均等待 38秒 立即咨询 ¥32.0"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "刘志娟 主任医师 呼吸内科 三甲 首都医科大学附属北京地坛医院 百强医院 可开方 擅长: 呼吸内科常见病多发病包括: 新冠肺炎、慢阻肺、支气管哮喘、肺心病、肺部感染、心功能... 好评率 98.00% 接诊量 2668 平均等待 27秒 立即咨询 ¥29.9"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "吴寿全 主治医师 呼吸内科 三甲 四川大学华西医院 呼吸内科全国医院排名前十 百强医院 擅长: 呼吸内科常见症状: 新冠肺炎, 咳嗽, 咳痰, 咽喉痛, 胸痛, 感冒, 咯血, 胸闷, 喘气"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "首页 商城 问医生 我的"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile health consultation app doctor search results page.",
+      "intent": "To help users find and consult doctors specializing in respiratory medicine.",
+      "entities": [
+        {
+          "name": "陆欢",
+          "type": "Doctor"
+        },
+        {
+          "name": "刘志娟",
+          "type": "Doctor"
+        },
+        {
+          "name": "吴寿全",
+          "type": "Doctor"
+        },
+        {
+          "name": "上海市第一人民医院",
+          "type": "Hospital"
+        },
+        {
+          "name": "首都医科大学附属北京地坛医院",
+          "type": "Hospital"
+        },
+        {
+          "name": "四川大学华西医院",
+          "type": "Hospital"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "陆欢",
+          "predicate": "works at",
+          "object": "上海市第一人民医院"
+        },
+        {
+          "subject": "刘志娟",
+          "predicate": "works at",
+          "object": "首都医科大学附属北京地坛医院"
+        },
+        {
+          "subject": "吴寿全",
+          "predicate": "works at",
+          "object": "四川大学华西医院"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "green",
+        "grey"
+      ],
+      "style": "Clean, mobile UI for an e-commerce or health services app.",
+      "notes": [
+        "Uses a standard bottom navigation bar pattern.",
+        "Green is used as a call-to-action color for buttons."
+      ]
+    },
+    "uncertainty": [
+      "Cutoff text in the doctor specialty summaries (e.g., '肺部...').",
+      "Some characters in the footer are very small and potentially subject to transcription error."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:41.269Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 6.3,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1824,
+      "totalTokenCount": 3051,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

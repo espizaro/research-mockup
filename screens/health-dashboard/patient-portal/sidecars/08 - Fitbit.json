@@ -1,0 +1,182 @@
+{
+  "image": "08 - Fitbit.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This image is a screenshot of the Fitbit app on a mobile device, showing the 'Today' dashboard. It displays health metrics including 'Stress management score', 'Nutrition' (Food and Water), and navigation tabs at the bottom.",
+    "ocr": {
+      "full_text": "9:41 97% fitbit premium Yesterday Stress management score No score Yesterday Nutrition Food 0 cal Today Water 0 US fl oz Today Today Coach You Fitbit curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "97%"
+        },
+        {
+          "text": "fitbit premium"
+        },
+        {
+          "text": "Yesterday"
+        },
+        {
+          "text": "Stress management score"
+        },
+        {
+          "text": "No score"
+        },
+        {
+          "text": "Yesterday"
+        },
+        {
+          "text": "Nutrition"
+        },
+        {
+          "text": "Food"
+        },
+        {
+          "text": "0 cal"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Water"
+        },
+        {
+          "text": "0 US fl oz"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Coach"
+        },
+        {
+          "text": "You"
+        },
+        {
+          "text": "Fitbit"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "fitbit premium"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 2,
+          "text": "Yesterday"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Stress management score\nNo score\nYesterday"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Nutrition\nFood\n0 cal\nToday\nWater\n0 US fl oz\nToday"
+        },
+        {
+          "type": "other",
+          "reading_order": 5,
+          "text": "Add button"
+        },
+        {
+          "type": "other",
+          "reading_order": 6,
+          "text": "Navigation bar: Today, Coach, You"
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "Footer branding: Fitbit, curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile health tracking application interface",
+      "intent": "To display daily health monitoring data and allow users to add new logs.",
+      "entities": [
+        {
+          "name": "Fitbit",
+          "type": "Application",
+          "evidence": "Logo and text label"
+        },
+        {
+          "name": "Stress management score",
+          "type": "Metric",
+          "evidence": "Card header"
+        },
+        {
+          "name": "Food",
+          "type": "Metric",
+          "evidence": "Card header"
+        },
+        {
+          "name": "Water",
+          "type": "Metric",
+          "evidence": "Card header"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Fitbit app",
+          "predicate": "displays",
+          "object": "health metrics"
+        },
+        {
+          "subject": "Navigation bar",
+          "predicate": "contains",
+          "object": "Today, Coach, You"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light-gray",
+        "blue-gray"
+      ],
+      "style": "Minimalist mobile UI design",
+      "notes": [
+        "Uses a light theme with clean typography and icons for categories like Food and Water."
+      ]
+    },
+    "uncertainty": [
+      "The status icons at the top right are symbols rather than text, so they are excluded from the transcription."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:59.064Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.715,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 863,
+      "totalTokenCount": 2090,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

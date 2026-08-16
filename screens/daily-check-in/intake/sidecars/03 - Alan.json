@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Alan",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/intake/03 - Alan.webp",
+    "analyzed_timestamp": "2026-08-10T18:11:18.641Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app onboarding or profile setup screen.",
+    "primary_flow": "daily-check-in/intake",
+    "ux_intent": "To collect medical history information from the user by asking about specific diagnosed conditions.",
+    "ux_patterns": [
+      "Form",
+      "Progress",
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "Progress bar visible at the top.",
+      "Navigation buttons at the bottom.",
+      "Curated by Mobbin branding at the footer."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Progress Bar",
+      "Navigation buttons at the bottom."
+    ],
+    "content_blocks": [
+      "superpower",
+      "No, I don't have any diagnoses",
+      "Digestive or gut condition",
+      "Heart condition",
+      "Diabetes or blood sugar"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile application UI",
+      "white",
+      "light gray",
+      "black",
+      "Progress bar visible at the top.",
+      "Navigation buttons at the bottom.",
+      "Curated by Mobbin branding at the footer."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile application UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_intake_03"
+}

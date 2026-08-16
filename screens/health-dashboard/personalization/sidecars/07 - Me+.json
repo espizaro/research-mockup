@@ -1,0 +1,142 @@
+{
+  "image": "07 - Me+.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile screenshot displaying a productivity or habit tracker widget setup on a home screen. The left widget shows a progress icon with '7 Awesome!' and a cartoon character, while the right widget displays a list of tasks ('Daily UI...' and 'Buy groc...').",
+    "ocr": {
+      "full_text": "9:41 07 Awesome! Daily UI... Buy groc... Me+ curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "07",
+          "language": "en"
+        },
+        {
+          "text": "Awesome!",
+          "language": "en"
+        },
+        {
+          "text": "Daily UI...",
+          "language": "en"
+        },
+        {
+          "text": "Buy groc...",
+          "language": "en"
+        },
+        {
+          "text": "Me+",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "other",
+          "reading_order": 1,
+          "text": "9:41"
+        },
+        {
+          "type": "other",
+          "reading_order": 2,
+          "text": "07 Awesome! [Cartoon character]"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "Daily UI... Buy groc..."
+        },
+        {
+          "type": "other",
+          "reading_order": 4,
+          "text": "Me+ curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "mobile home screen widgets",
+      "intent": "displaying daily progress and habit tracking",
+      "entities": [
+        {
+          "name": "Progress counter",
+          "type": "widget",
+          "evidence": "07 Awesome!"
+        },
+        {
+          "name": "Task list",
+          "type": "widget",
+          "evidence": "Daily UI... Buy groc..."
+        },
+        {
+          "name": "Me+",
+          "type": "app_brand",
+          "evidence": "Me+ at bottom left"
+        },
+        {
+          "name": "Mobbin",
+          "type": "service",
+          "evidence": "curated by Mobbin at bottom right"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Task list widget",
+          "predicate": "contains",
+          "object": "Daily UI"
+        },
+        {
+          "subject": "Task list widget",
+          "predicate": "contains",
+          "object": "Buy groceries"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "grey",
+        "pink",
+        "white",
+        "light yellow",
+        "light blue"
+      ],
+      "style": "minimalist mobile UI design",
+      "notes": [
+        "The task list entries are truncated.",
+        "The characters in 'Daily UI...' and 'Buy groc...' are cut off by ellipsis."
+      ]
+    },
+    "uncertainty": [
+      "Full text of 'Daily UI...' is likely 'Daily UI challenge'.",
+      "Full text of 'Buy groc...' is likely 'Buy groceries'."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:47.372Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.863,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 850,
+      "totalTokenCount": 2077,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

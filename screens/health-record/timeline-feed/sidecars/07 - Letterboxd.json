@@ -1,0 +1,163 @@
+{
+  "image": "07 - Letterboxd.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows the Activity tab on the Letterboxd mobile app, displaying a feed of user actions like watching, rating, and following, with the 'You' category selected.",
+    "ocr": {
+      "full_text": "9:41 Activity Friends You Incoming You rewatched, liked and rated Parasite ★★★★½ on Monday, October 13, 2025 3m You rewatched and liked One Battle After Another on Monday, October 13, 2025 4m You followed samleereviews 18m You followed Karsten 15h You followed demi adejuyigbe 15h You watched Ratatouille 2007 ★★★★★ ♥ Yes You watched, liked and rated La La Land ★★★★★ on Sunday, October 12, 2025 15h You watched Lady Bird 2017 ★★★★ ♥ Comfort movie! Letterboxd curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Activity"
+        },
+        {
+          "text": "Friends You Incoming"
+        },
+        {
+          "text": "You rewatched, liked and rated Parasite ★★★★½ on Monday, October 13, 2025 3m"
+        },
+        {
+          "text": "You rewatched and liked One Battle After Another on Monday, October 13, 2025 4m"
+        },
+        {
+          "text": "You followed samleereviews 18m"
+        },
+        {
+          "text": "You followed Karsten 15h"
+        },
+        {
+          "text": "You followed demi adejuyigbe 15h"
+        },
+        {
+          "text": "You watched Ratatouille 2007 ★★★★★ ♥ Yes"
+        },
+        {
+          "text": "You watched, liked and rated La La Land ★★★★★ on Sunday, October 12, 2025 15h"
+        },
+        {
+          "text": "You watched Lady Bird 2017 ★★★★ ♥ Comfort movie!"
+        },
+        {
+          "text": "Letterboxd curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Activity"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Friends You Incoming"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "You rewatched, liked and rated Parasite on Monday, October 13, 2025. You rewatched and liked One Battle After Another on Monday, October 13, 2025. You followed samleereviews. You followed Karsten. You followed demi adejuyigbe. You watched Ratatouille (2007). You watched, liked and rated La La Land on Sunday, October 12, 2025. You watched Lady Bird (2017)."
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A social media feed profile activity screen for a movie review application.",
+      "intent": "Displaying personal activity history on the Letterboxd mobile app.",
+      "entities": [
+        {
+          "name": "Parasite",
+          "type": "Movie"
+        },
+        {
+          "name": "One Battle After Another",
+          "type": "Movie"
+        },
+        {
+          "name": "samleereviews",
+          "type": "User"
+        },
+        {
+          "name": "Karsten",
+          "type": "User"
+        },
+        {
+          "name": "demi adejuyigbe",
+          "type": "User"
+        },
+        {
+          "name": "Ratatouille",
+          "type": "Movie"
+        },
+        {
+          "name": "La La Land",
+          "type": "Movie"
+        },
+        {
+          "name": "Lady Bird",
+          "type": "Movie"
+        },
+        {
+          "name": "Letterboxd",
+          "type": "Application"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "watched",
+          "object": "Ratatouille"
+        },
+        {
+          "subject": "User",
+          "predicate": "rated",
+          "object": "Parasite"
+        },
+        {
+          "subject": "User",
+          "predicate": "followed",
+          "object": "samleereviews"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "dark blue-gray",
+        "black",
+        "white",
+        "green",
+        "orange"
+      ],
+      "style": "Mobile app UI, dark mode",
+      "notes": [
+        "Standard iOS status bar header.",
+        "Icon-based navigation bar at the bottom."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:29.263Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.371,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1072,
+      "totalTokenCount": 2299,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

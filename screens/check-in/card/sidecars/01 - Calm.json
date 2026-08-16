@@ -1,0 +1,164 @@
+{
+  "image": "01 - Calm.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen interface prompting a user named Alex to input their current mood by selecting from a grid of twelve emoji-based feeling options.",
+    "ocr": {
+      "full_text": "Good morning, Alex! How are you feeling? Happy Excited Grateful Relaxed Content Tired Unsure Bored Anxious Angry Stressed Sad Calm curated by Mobbin",
+      "lines": [
+        {
+          "text": "Good morning, Alex!",
+          "language": "en"
+        },
+        {
+          "text": "How are you feeling?",
+          "language": "en"
+        },
+        {
+          "text": "Happy",
+          "language": "en"
+        },
+        {
+          "text": "Excited",
+          "language": "en"
+        },
+        {
+          "text": "Grateful",
+          "language": "en"
+        },
+        {
+          "text": "Relaxed",
+          "language": "en"
+        },
+        {
+          "text": "Content",
+          "language": "en"
+        },
+        {
+          "text": "Tired",
+          "language": "en"
+        },
+        {
+          "text": "Unsure",
+          "language": "en"
+        },
+        {
+          "text": "Bored",
+          "language": "en"
+        },
+        {
+          "text": "Anxious",
+          "language": "en"
+        },
+        {
+          "text": "Angry",
+          "language": "en"
+        },
+        {
+          "text": "Stressed",
+          "language": "en"
+        },
+        {
+          "text": "Sad",
+          "language": "en"
+        },
+        {
+          "text": "Calm",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Good morning, Alex! How are you feeling?"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "Happy, Excited, Grateful, Relaxed, Content, Tired, Unsure, Bored, Anxious, Angry, Stressed, Sad"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app onboarding or mood tracking screen.",
+      "intent": "User mood selection",
+      "entities": [
+        {
+          "name": "Alex",
+          "type": "User"
+        },
+        {
+          "name": "Calm",
+          "type": "Application Name"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Curator Platform"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "App",
+          "predicate": "greets",
+          "object": "Alex"
+        },
+        {
+          "subject": "App",
+          "predicate": "prompts",
+          "object": "User to select a feeling"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "Dark teal",
+        "Gradient dark grey",
+        "White"
+      ],
+      "style": "Minimalist UI, dark mode",
+      "notes": [
+        "Twelve grid buttons with icons and labels",
+        "Icon top right indicates date",
+        "Cancel icon top left"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T05:40:45.796Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.66,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 870,
+      "totalTokenCount": 2097,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 3.664
+      }
+    ],
+    "warnings": []
+  }
+}

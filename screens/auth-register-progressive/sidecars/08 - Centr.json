@@ -1,0 +1,57 @@
+{
+  "identification": {
+    "app_name": "Centr",
+    "platform": "ios",
+    "file_path": "screens/auth-register-progressive/08 - Centr.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:18.669Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding screen for a user profile creation flow.",
+    "primary_flow": "auth-register-progressive",
+    "ux_intent": "Collect basic demographic data from a new user.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "Radio",
+      "The UI uses a neutral palette.",
+      "No hero illustrations or decorative art present; functional design.",
+      "Standard iOS top status bar and bottom navigation bar UI elements."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Standard iOS top status bar and bottom navigation bar UI elements."
+    ],
+    "content_blocks": [
+      "Centr",
+      "First Name",
+      "Last Name",
+      "Sex",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, mobile-first UI with high contrast text.",
+      "hex FFFFFF",
+      "hex F5F5F7",
+      "hex BDBDBD",
+      "The UI uses a neutral palette.",
+      "No hero illustrations or decorative art present; functional design.",
+      "Standard iOS top status bar and bottom navigation bar UI elements."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, mobile-first UI with high contrast text."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_register_progressive_08"
+}

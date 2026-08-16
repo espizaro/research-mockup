@@ -1,0 +1,168 @@
+{
+  "image": "06 - Superpower.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "The image shows a mobile app interface for tracking health data, featuring a summary of health biomarkers, a health score, and a navigation bar.",
+    "ocr": {
+      "full_text": "9:41 Data Records Health Categories Updated Feb 18, 2026 , you're generally healthy. It seems like you're doing well, but there are some areas that could be improved. Biomarkers 105 Total 56 Optimal 36 Normal 13 Out of range Search... All ranges Category Name Status History Health Score 83 points Home Data Protocol Marketplace Superpower curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Data Records"
+        },
+        {
+          "text": "Health Categories"
+        },
+        {
+          "text": "Updated Feb 18, 2026"
+        },
+        {
+          "text": ", you're generally healthy. It seems like you're doing well, but there are some areas that could be improved."
+        },
+        {
+          "text": "Biomarkers"
+        },
+        {
+          "text": "105 Total 56 Optimal 36 Normal 13 Out of range"
+        },
+        {
+          "text": "Search..."
+        },
+        {
+          "text": "All ranges Category"
+        },
+        {
+          "text": "Name Status History"
+        },
+        {
+          "text": "Health Score 83 points"
+        },
+        {
+          "text": "Home Data Protocol Marketplace"
+        },
+        {
+          "text": "Superpower curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Data Records"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Health Categories"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Updated Feb 18, 2026 , you're generally healthy. It seems like you're doing well, but there are some areas that could be improved."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Biomarkers 105 Total 56 Optimal 36 Normal 13 Out of range"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Search... All ranges Category"
+        },
+        {
+          "type": "table",
+          "reading_order": 6,
+          "text": "Name Status History"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Health Score 83 points"
+        },
+        {
+          "type": "other",
+          "reading_order": 8,
+          "text": "Home Data Protocol Marketplace"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile health application interface.",
+      "intent": "To provide a user with an overview of their health data, specifically biomarkers and a general health score.",
+      "entities": [
+        {
+          "name": "Health Score",
+          "type": "Metric",
+          "evidence": "Health Score 83 points"
+        },
+        {
+          "name": "Biomarkers",
+          "type": "Category",
+          "evidence": "Biomarkers 105 Total 56 Optimal 36 Normal 13 Out of range"
+        },
+        {
+          "name": "Date",
+          "type": "Time",
+          "evidence": "Updated Feb 18, 2026"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has",
+          "object": "Health Score of 83"
+        },
+        {
+          "subject": "Biomarkers",
+          "predicate": "summarized by",
+          "object": "105 Total, 56 Optimal, 36 Normal, 13 Out of range"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "black",
+        "green"
+      ],
+      "style": "Minimalist mobile app interface design",
+      "notes": [
+        "Uses a bottom navigation bar",
+        "Includes a status bar at the top",
+        "Uses color-coded progress bars for biomarker metrics"
+      ]
+    },
+    "uncertainty": [
+      "The name at the start of the summary text is obscured.",
+      "The specific functionality of the 'Superpower' and 'Mobbin' footer remains unclear without context."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:42.890Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.356,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1004,
+      "totalTokenCount": 2231,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

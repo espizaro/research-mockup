@@ -1,0 +1,209 @@
+{
+  "image": "07 - Angi.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile application screen for 'Jose Handyman Services', an unlicensed contractor, displaying business details, contact information, 'Angi Approved' badge criteria, services offered, and quick facts on the Angi platform.",
+    "ocr": {
+      "full_text": "9:41\n< \nJose Handyman Services -\nUnlicensed Contractor\n4.8 (12)\nCompany info Reviews\nContact info\n721 Grand Ave South San Francisco, CA 94080\n(650) 771-4586\njasmsalgado@yahoo.com\nContact\nMessage\nAngi Approved\n• Owner, principal, or relevant manager passes a\ncriminal background check\n• Required to hold applicable state and local licenses\n• Maintains a minimum 3-star average rating on\nour network\n• Pays to advertise their services\nLearn more\nServices offered\n• Cleaning & Maid Services\n• Organizers\n• Handyman Services\nQuick facts\n• Bilingual\nHome Projects Pros Inbox More\nAngi curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "<"
+        },
+        {
+          "text": "Jose Handyman Services -"
+        },
+        {
+          "text": "Unlicensed Contractor"
+        },
+        {
+          "text": "4.8 (12)"
+        },
+        {
+          "text": "Company info Reviews"
+        },
+        {
+          "text": "Contact info"
+        },
+        {
+          "text": "721 Grand Ave South San Francisco, CA 94080"
+        },
+        {
+          "text": "(650) 771-4586"
+        },
+        {
+          "text": "jasmsalgado@yahoo.com"
+        },
+        {
+          "text": "Contact"
+        },
+        {
+          "text": "Message"
+        },
+        {
+          "text": "Angi Approved"
+        },
+        {
+          "text": "Owner, principal, or relevant manager passes a"
+        },
+        {
+          "text": "criminal background check"
+        },
+        {
+          "text": "Required to hold applicable state and local licenses"
+        },
+        {
+          "text": "Maintains a minimum 3-star average rating on"
+        },
+        {
+          "text": "our network"
+        },
+        {
+          "text": "Pays to advertise their services"
+        },
+        {
+          "text": "Learn more"
+        },
+        {
+          "text": "Services offered"
+        },
+        {
+          "text": "Cleaning & Maid Services"
+        },
+        {
+          "text": "Organizers"
+        },
+        {
+          "text": "Handyman Services"
+        },
+        {
+          "text": "Quick facts"
+        },
+        {
+          "text": "Bilingual"
+        },
+        {
+          "text": "Home Projects Pros Inbox More"
+        },
+        {
+          "text": "Angi curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Jose Handyman Services - Unlicensed Contractor"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "4.8 (12)"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Company info Reviews"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Contact info\n721 Grand Ave South San Francisco, CA 94080\n(650) 771-4586\njasmsalgado@yahoo.com"
+        },
+        {
+          "type": "form",
+          "reading_order": 5,
+          "text": "Contact Message"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Angi Approved\n• Owner, principal, or relevant manager passes a\ncriminal background check\n• Required to hold applicable state and local licenses\n• Maintains a minimum 3-star average rating on\nour network\n• Pays to advertise their services\nLearn more"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Services offered\n• Cleaning & Maid Services\n• Organizers\n• Handyman Services"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Quick facts\n• Bilingual"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A business profile page on a mobile app.",
+      "intent": "Displaying service provider business information.",
+      "entities": [
+        {
+          "name": "Jose Handyman Services",
+          "type": "Business",
+          "evidence": "Header text"
+        },
+        {
+          "name": "Angi",
+          "type": "Platform",
+          "evidence": "Bottom logo and brand name"
+        },
+        {
+          "name": "San Francisco, CA 94080",
+          "type": "Location",
+          "evidence": "Address provided"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Jose Handyman Services",
+          "predicate": "is located in",
+          "object": "San Francisco"
+        },
+        {
+          "subject": "Jose Handyman Services",
+          "predicate": "is displayed on",
+          "object": "Angi"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "red",
+        "blue"
+      ],
+      "style": "Mobile app interface, clean UI/UX.",
+      "notes": [
+        "The UI uses a bottom navigation bar.",
+        "There is a prominent 'Angi Approved' badge."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:51:29.557Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.95,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1277,
+      "totalTokenCount": 2504,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "identification": {
+    "app_name": "Gentler Streak",
+    "platform": "ios",
+    "file_path": "screens/hub-overview/01 - Gentler Streak.webp",
+    "analyzed_timestamp": "2026-08-11T22:27:03.588Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app health dashboard",
+    "primary_flow": "hub-overview",
+    "ux_intent": "Display health metrics and device warnings",
+    "ux_patterns": [
+      "Minimalist",
+      "Card",
+      "Standard iOS status bar",
+      "Rounded card containers for metrics",
+      "Bottom navigation icons"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Bottom navigation icons"
+    ],
+    "content_blocks": [
+      "Wrist Temperature",
+      "Heart Rate Variability",
+      "Respiratory Rate",
+      "Oxygen Saturation",
+      "Sleep",
+      "Gentler Streak"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI",
+      "white",
+      "light gray",
+      "black",
+      "Standard iOS status bar",
+      "Rounded card containers for metrics",
+      "Bottom navigation icons"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_hub_overview_01"
+}

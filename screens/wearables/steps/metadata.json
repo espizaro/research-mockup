@@ -1,0 +1,116 @@
+{
+  "screens": [
+    {
+      "id": "1d196837-3d67-4b03-a1b4-52424684b244",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.Mq2HwFJur_cW5VgC.1YUP7rWaa8HfQJs88Ru0KxM_E35m9Ks72V6_gahPZSKvZg6YP01_mdL8O3-UvtAW4dBXXCqrw4JAZ3MvwhpBMTWLwCGQ89PfhlD8jEszE3GRisCKiTqgPsD5r7bxFYb_xjpyt3y4A82vR3-b6RflLczo2nkUm_rzgwD3izCtYvSOlSGX_yJpMoRrPp4DopSMN2ZEiSVwh1Df26Nx00mdG_UryZBZN1qj7YcV2G2PTipnJcLZJa9ybK4UepUVWRzqxYMJaYflU_LvhCexf4dM5LLtZVoQbGy3QtoXkiVA-KeFoQcHWZbr2oOrXiFYjWRawAvZ2hJJKZVLX9WqOdITwbIS9prD7VqYrtJaWBtdMgtYFtQd3Uawi3u8OD3uN2Kf5sm_B5WsA6nm1v0FWcu59mb6qdD7dz9T-UyZFhQiVboo2VsTynq797pKQ9iO",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.Mq2HwFJur_cW5VgC.1YUP7rWaa8HfQJs88Ru0KxM_E35m9Ks72V6_gahPZSKvZg6YP01_mdL8O3-UvtAW4dBXXCqrw4JAZ3MvwhpBMTWLwCGQ89PfhlD8jEszE3GRisCKiTqgPsD5r7bxFYb_xjpyt3y4A82vR3-b6RflLczo2nkUm_rzgwD3izCtYvSOlSGX_yJpMoRrPp4DopSMN2ZEiSVwh1Df26Nx00mdG_UryZBZN1qj7YcV2G2PTipnJcLZJa9ybK4UepUVWRzqxYMJaYflU_LvhCexf4dM5LLtZVoQbGy3QtoXkiVA-KeFoQcHWZbr2oOrXiFYjWRawAvZ2hJJKZVLX9WqOdITwbIS9prD7VqYrtJaWBtdMgtYFtQd3Uawi3u8OD3uN2Kf5sm_B5WsA6nm1v0FWcu59mb6qdD7dz9T-UyZFhQiVboo2VsTynq797pKQ9iO",
+        "url_expires_at": "2026-09-13T00:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/1d196837-3d67-4b03-a1b4-52424684b244",
+      "app_name": "Withings Health Mate",
+      "platform": "ios",
+      "local_path": "1d196837-3d67-4b03-a1b4-52424684b244.webp"
+    },
+    {
+      "id": "67bb2d75-caa9-4442-afe1-204066a03f63",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.NYIGB_Sq4j99HzzM.lfuVevX9E6hmuVIBZ376dYQL-1XtA64dV-h2S6f2IHfJ3pqkFlN8E6gExBXoSuoeSxo5Ba8aaxN1qd6nkOjaUaPTEvvJn-1htjQzQ-JtPuw53c1OrDcii1r2VoBkUhuskgVeNGr598IabyZuBEzcEB_rDcqLW9IjCjWE7cS14w8CuZjRx9Toni3FALDrTWzinyq7terRPK1U_1jjlqgXAQGHIkcBxlsUEIF2Zv-xxQHZU4NrGyTLTOVyXQZA8ScULe6UT14CJvstoFqt8872uFadzaDxxSs8b1k6mfAoEnN2tH4uQxvjIT_OQCwO84-iwNEEkNzw3BI5aZZW418HwpXXzJy0EDL_tGgdTM5hRyzfCDZe8Ca5pV6xhpFqQtkncFIqA1_U6vjIgm4uUwnxUhEKqUEtm2a06xk3lgFtqyDcHMMxs63NuVMKfG40",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.NYIGB_Sq4j99HzzM.lfuVevX9E6hmuVIBZ376dYQL-1XtA64dV-h2S6f2IHfJ3pqkFlN8E6gExBXoSuoeSxo5Ba8aaxN1qd6nkOjaUaPTEvvJn-1htjQzQ-JtPuw53c1OrDcii1r2VoBkUhuskgVeNGr598IabyZuBEzcEB_rDcqLW9IjCjWE7cS14w8CuZjRx9Toni3FALDrTWzinyq7terRPK1U_1jjlqgXAQGHIkcBxlsUEIF2Zv-xxQHZU4NrGyTLTOVyXQZA8ScULe6UT14CJvstoFqt8872uFadzaDxxSs8b1k6mfAoEnN2tH4uQxvjIT_OQCwO84-iwNEEkNzw3BI5aZZW418HwpXXzJy0EDL_tGgdTM5hRyzfCDZe8Ca5pV6xhpFqQtkncFIqA1_U6vjIgm4uUwnxUhEKqUEtm2a06xk3lgFtqyDcHMMxs63NuVMKfG40",
+        "url_expires_at": "2026-09-13T00:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/67bb2d75-caa9-4442-afe1-204066a03f63",
+      "app_name": "Withings Health Mate",
+      "platform": "ios",
+      "local_path": "67bb2d75-caa9-4442-afe1-204066a03f63.webp"
+    },
+    {
+      "id": "445f153c-d36a-47f0-ac35-c07cb797292a",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.Tdwok-Vn1lLRJANN.CEbs-sTgfhzRnUyZDdzBKrIuMixSD1S4kDPDnf0FZedoKQCq-Sxi-QAb4LC4VIHtcOODRK_Xar_E3CROF32tUXjwY-wXHrcpBig3FgNzfhaXD6ryaCVsqFSp70h50sao-9rgpOw7Bh7lOEN1KV584j4q19ghgq7qZWNriAVZJHH4CHOF9UwKq9GVVkefXWhfB8Ux2VNtw-2k2X89uAuCyU3yPOXY8HHrYZ84AS62habLqSTn0Sb0G31VhWQP0DyL-IshQx8s54d126iAjF_0VaG1h7UUJU8oXauMX1ulXMB4cRdTvtvK8_8qv3mJFCcix3v-QUslEG8hN1ThjCHu77v7u1GnDoiIcSCC3eT3mCPCK6Fc5Nlw8IWNtY755VRrTJ0kNtC1PuXAECXeYYT_Wg1N7pA0l7_dn15HAy6QsNKsgRf0SrAiRMhmhw8N",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.Tdwok-Vn1lLRJANN.CEbs-sTgfhzRnUyZDdzBKrIuMixSD1S4kDPDnf0FZedoKQCq-Sxi-QAb4LC4VIHtcOODRK_Xar_E3CROF32tUXjwY-wXHrcpBig3FgNzfhaXD6ryaCVsqFSp70h50sao-9rgpOw7Bh7lOEN1KV584j4q19ghgq7qZWNriAVZJHH4CHOF9UwKq9GVVkefXWhfB8Ux2VNtw-2k2X89uAuCyU3yPOXY8HHrYZ84AS62habLqSTn0Sb0G31VhWQP0DyL-IshQx8s54d126iAjF_0VaG1h7UUJU8oXauMX1ulXMB4cRdTvtvK8_8qv3mJFCcix3v-QUslEG8hN1ThjCHu77v7u1GnDoiIcSCC3eT3mCPCK6Fc5Nlw8IWNtY755VRrTJ0kNtC1PuXAECXeYYT_Wg1N7pA0l7_dn15HAy6QsNKsgRf0SrAiRMhmhw8N",
+        "url_expires_at": "2026-09-13T00:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/445f153c-d36a-47f0-ac35-c07cb797292a",
+      "app_name": "Withings Health Mate",
+      "platform": "ios",
+      "local_path": "445f153c-d36a-47f0-ac35-c07cb797292a.webp"
+    },
+    {
+      "id": "641dd9fc-7941-41d0-a3f9-84138cd0978a",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.wOH2xTr6UWaj4vOw.65md_56-t8bwW2zIwlmVfFWMUiPYbtlJo0DZsV_T0wp2Sj7hwU-R8LfjDQmnkDY2cUuSlJNbTGqrnILnIPAvrqmLgWXEuglArRO7GYTmDJyw1HkqvBectC-iN2X6iKLj4x_ks3Xvazdg3mivonfYBxQ-wWFW2CJX9mU9e6QyhsEaI73spmS6RzL8hBeTaMI6toMzXrSUDENaR84dEiCWPRM5hKDdEVBy_1fZl5Q0pQmm7DQ3aCuzmkebqW7Q0hqr3Pyg-HcbNLTM6iTY43rTwCD4eiM7GsuDTmXSxKZ8AVOUXhtlPhwDGPnHR1Y41x6Zcyj5ihkvx5cCVufiIOtbH9UBLzJnt7WBDnie0lxi-16SD6J93cpLVIUp1o5b_mqShtqRsksJZyWsRvPCtl6FrLyiqjlwsB1J06Z_vffvO3IpnpJcD-GUVW-uDXnj",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.wOH2xTr6UWaj4vOw.65md_56-t8bwW2zIwlmVfFWMUiPYbtlJo0DZsV_T0wp2Sj7hwU-R8LfjDQmnkDY2cUuSlJNbTGqrnILnIPAvrqmLgWXEuglArRO7GYTmDJyw1HkqvBectC-iN2X6iKLj4x_ks3Xvazdg3mivonfYBxQ-wWFW2CJX9mU9e6QyhsEaI73spmS6RzL8hBeTaMI6toMzXrSUDENaR84dEiCWPRM5hKDdEVBy_1fZl5Q0pQmm7DQ3aCuzmkebqW7Q0hqr3Pyg-HcbNLTM6iTY43rTwCD4eiM7GsuDTmXSxKZ8AVOUXhtlPhwDGPnHR1Y41x6Zcyj5ihkvx5cCVufiIOtbH9UBLzJnt7WBDnie0lxi-16SD6J93cpLVIUp1o5b_mqShtqRsksJZyWsRvPCtl6FrLyiqjlwsB1J06Z_vffvO3IpnpJcD-GUVW-uDXnj",
+        "url_expires_at": "2026-09-13T00:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/641dd9fc-7941-41d0-a3f9-84138cd0978a",
+      "app_name": "Withings Health Mate",
+      "platform": "ios",
+      "local_path": "641dd9fc-7941-41d0-a3f9-84138cd0978a.webp"
+    },
+    {
+      "id": "8d44dbe1-a076-439e-a994-7225da6f879f",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.YFd7SQ6PC8gTnobS.NdBHRPHdk3q1fcVYxfgfaj90PFeBtI4AhNDbBUSyffHZWLTz5UChFIBZV7v8gjDXoHaQfaQw5UzbLUAwG8gvf2DtfYnrVnLH_3iCrTx8znUnS5afJuv4odGxKyz3VJ2vg2miuBDmSus8HUofZsK4RUsxQU7HLizvW7XA06wkZXBwpWuXN_W7hzuK5YAlkd0A4MZa6onOLI7UZLMculj4Tsrmi088YrMAraIWTdbdH7T63jSu4WAkN9ne3MtH_iIzmB0t6CunmBZh0jcXrP6cb-fmOA-RY4ysUCGKDaMxg088UJRw0nQD6X2u3-jqMTUWrk3nWOkk0nZOIkCexNxDe51-0I-QuvqYrAy6E1qqxKzBoy6YJkwneFJRE7wESh6nHR2DRRMuS_OAnEBsOPs8mcSju7ocbcWrP9YtUiC1IVwiBPxUNXnNyt8cu_mo",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.YFd7SQ6PC8gTnobS.NdBHRPHdk3q1fcVYxfgfaj90PFeBtI4AhNDbBUSyffHZWLTz5UChFIBZV7v8gjDXoHaQfaQw5UzbLUAwG8gvf2DtfYnrVnLH_3iCrTx8znUnS5afJuv4odGxKyz3VJ2vg2miuBDmSus8HUofZsK4RUsxQU7HLizvW7XA06wkZXBwpWuXN_W7hzuK5YAlkd0A4MZa6onOLI7UZLMculj4Tsrmi088YrMAraIWTdbdH7T63jSu4WAkN9ne3MtH_iIzmB0t6CunmBZh0jcXrP6cb-fmOA-RY4ysUCGKDaMxg088UJRw0nQD6X2u3-jqMTUWrk3nWOkk0nZOIkCexNxDe51-0I-QuvqYrAy6E1qqxKzBoy6YJkwneFJRE7wESh6nHR2DRRMuS_OAnEBsOPs8mcSju7ocbcWrP9YtUiC1IVwiBPxUNXnNyt8cu_mo",
+        "url_expires_at": "2026-09-13T00:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/8d44dbe1-a076-439e-a994-7225da6f879f",
+      "app_name": "Withings Health Mate",
+      "platform": "ios",
+      "local_path": "8d44dbe1-a076-439e-a994-7225da6f879f.webp"
+    },
+    {
+      "id": "c5eff5ea-5346-4d38-ad39-b14da7cf82b0",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.cYifRaaOmYV70dYF.OVNi1uGuHPPgU90iX8VsMvlCrUoFmNW3ZgwU-2qplAYKHohvAe6RjPBXlUaLIuf7YYS5M2xDMo8g3jnoubVXKQO64YOTtii9ANsWK-2kkKo8tE3yBZc5U8ieK0t0_p4bCEPDuTN9HgYF9NIwhyyvYPWG3C4nf7Fjpfn_wn9iaBTDMOtzJdECObfHxxDe6vSdHShKWAWv6yF69OxhbFT8D370lSuG9yn8DuMYQfbNAXofNgOJNbNrNiDFdOx72OjYVd4hr7p--7BqmSHZLx_q1B2XqmcQtJNpawmu5to-v15SUxxfRrgcDdrp3xctHsIez0Blu4PQXMaQZwBWle-2krAGNcPV_vM_S_XnFV1nIk0ErlhpVG9jGdCRcdaZGeyEFKteubU9-wbonCS4b_rEvNufNTRCWzkR9rvWB4K3XgB5yuv09N2FpbNrvifw",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.cYifRaaOmYV70dYF.OVNi1uGuHPPgU90iX8VsMvlCrUoFmNW3ZgwU-2qplAYKHohvAe6RjPBXlUaLIuf7YYS5M2xDMo8g3jnoubVXKQO64YOTtii9ANsWK-2kkKo8tE3yBZc5U8ieK0t0_p4bCEPDuTN9HgYF9NIwhyyvYPWG3C4nf7Fjpfn_wn9iaBTDMOtzJdECObfHxxDe6vSdHShKWAWv6yF69OxhbFT8D370lSuG9yn8DuMYQfbNAXofNgOJNbNrNiDFdOx72OjYVd4hr7p--7BqmSHZLx_q1B2XqmcQtJNpawmu5to-v15SUxxfRrgcDdrp3xctHsIez0Blu4PQXMaQZwBWle-2krAGNcPV_vM_S_XnFV1nIk0ErlhpVG9jGdCRcdaZGeyEFKteubU9-wbonCS4b_rEvNufNTRCWzkR9rvWB4K3XgB5yuv09N2FpbNrvifw",
+        "url_expires_at": "2026-09-13T00:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/c5eff5ea-5346-4d38-ad39-b14da7cf82b0",
+      "app_name": "Withings Health Mate",
+      "platform": "ios",
+      "local_path": "c5eff5ea-5346-4d38-ad39-b14da7cf82b0.webp"
+    },
+    {
+      "id": "3e0d9ab3-1658-4490-8738-6c7f90940729",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.2WGWQ6z94lFIBQdu.TN7WUpxwyvyQW0xwo3qcgG2afq-UFxopidfjiHf4KXj-zt1Lr3LemqvMcUx5dTWwvyAF-EGNoPVlgr6X7d5qPCRuvfmzjKMA_v87v4KsdzQ665KlZfMA_mRTDMJFpcdfk0CRWmfjGVLhPxfon_qwp-B7cKaAq2ooFfZXGWtX-OHt4ktB4h_3JxIeb-yDRVT32lRHCaZflSCr0Q-hQaCVS2kt0NgytcZ10o2se6Yo8AJPbUGy4FgAY-8M48no_8XDZIgLGGG08xsQyX1ylEbawnHIoLCbbO9X5kdqltrChR_El9kyuznqx1gRhLBe9YHIaB-xL-OThOk_JOCrhR12kwvjxSa-zQCG0AVNMF8IHolIsyf12w3kKE6MOFWPAF8P18JXgxDRvftZAkB9-FtVGsYwSyAq0JABL1KYX9y0yK35o63F9S2uySNvs8S1",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.2WGWQ6z94lFIBQdu.TN7WUpxwyvyQW0xwo3qcgG2afq-UFxopidfjiHf4KXj-zt1Lr3LemqvMcUx5dTWwvyAF-EGNoPVlgr6X7d5qPCRuvfmzjKMA_v87v4KsdzQ665KlZfMA_mRTDMJFpcdfk0CRWmfjGVLhPxfon_qwp-B7cKaAq2ooFfZXGWtX-OHt4ktB4h_3JxIeb-yDRVT32lRHCaZflSCr0Q-hQaCVS2kt0NgytcZ10o2se6Yo8AJPbUGy4FgAY-8M48no_8XDZIgLGGG08xsQyX1ylEbawnHIoLCbbO9X5kdqltrChR_El9kyuznqx1gRhLBe9YHIaB-xL-OThOk_JOCrhR12kwvjxSa-zQCG0AVNMF8IHolIsyf12w3kKE6MOFWPAF8P18JXgxDRvftZAkB9-FtVGsYwSyAq0JABL1KYX9y0yK35o63F9S2uySNvs8S1",
+        "url_expires_at": "2026-09-13T00:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/3e0d9ab3-1658-4490-8738-6c7f90940729",
+      "app_name": "Withings Health Mate",
+      "platform": "ios",
+      "local_path": "3e0d9ab3-1658-4490-8738-6c7f90940729.webp"
+    },
+    {
+      "id": "684616c1-6c2a-4745-94f7-49a844721834",
+      "image_url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.gjzZy3CwU8ZsFdT1.kOAjmeE4jnseXb7zTTdGLZTYOplgdCIOeDN_nvSV3bAlZbVS_dy5flR7SslySPakoFMfoz-ZA1bgY1TKnAeeOM1rv21iTM7BdwD037f5onsHtTTUMkb0Jr48PZCf8AqVInBUiHJ-bgWvgFoK_NnnBcveSuyUL3K8DcD16eVSJRBoBDoiHhfohtIco_BcVrsAgqr5Db8ubOt1d2tTfAMHzXRBHL8iC5-51Ol09L4b845vXJHM0HhQkKhLK_FhVRl6Bpcppu6cTteka9aBhXNIn_g5fOsDGJn1uUre2IB6xv0XuzM4C42GTZVT9m_dJ4hyWNgSFS4PVTr3fk3GCx88EOLfq7MT6ByGNVY45nlEdyzm80WKjFndaOt11mxN7epdhW2Syl69hX6EYGWeZcpIkFhyIy1NFf4GjGTcOzSK4TIo68hqJ16ZysNdsKtq",
+      "image": {
+        "url": "https://bytescale.mobbin.com/FW25bBB/image/mobbin.com/prod/file.webp?enc=1.Pjvjficq.gjzZy3CwU8ZsFdT1.kOAjmeE4jnseXb7zTTdGLZTYOplgdCIOeDN_nvSV3bAlZbVS_dy5flR7SslySPakoFMfoz-ZA1bgY1TKnAeeOM1rv21iTM7BdwD037f5onsHtTTUMkb0Jr48PZCf8AqVInBUiHJ-bgWvgFoK_NnnBcveSuyUL3K8DcD16eVSJRBoBDoiHhfohtIco_BcVrsAgqr5Db8ubOt1d2tTfAMHzXRBHL8iC5-51Ol09L4b845vXJHM0HhQkKhLK_FhVRl6Bpcppu6cTteka9aBhXNIn_g5fOsDGJn1uUre2IB6xv0XuzM4C42GTZVT9m_dJ4hyWNgSFS4PVTr3fk3GCx88EOLfq7MT6ByGNVY45nlEdyzm80WKjFndaOt11mxN7epdhW2Syl69hX6EYGWeZcpIkFhyIy1NFf4GjGTcOzSK4TIo68hqJ16ZysNdsKtq",
+        "url_expires_at": "2026-09-13T00:00:00.000Z",
+        "width": 299,
+        "height": 678
+      },
+      "mobbin_url": "https://mobbin.com/screens/684616c1-6c2a-4745-94f7-49a844721834",
+      "app_name": "Withings Health Mate",
+      "platform": "ios",
+      "local_path": "684616c1-6c2a-4745-94f7-49a844721834.webp"
+    }
+  ]
+}

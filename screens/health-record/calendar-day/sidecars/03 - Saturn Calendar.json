@@ -1,0 +1,230 @@
+{
+  "image": "03 - Saturn Calendar.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile application interface displaying a calendar view focused on July, showing daily events and a chat-based input for creating new events.",
+    "ocr": {
+      "full_text": "9:41\nJuly\n1 To-do\nsun 6\nmon 7\ntue 8\nwed 9\nthu 10\nfri 11\nsat 12\nToday, Jul 10\nSummer Break\nChange\nChess club\n3:00-4:00pm\nStudy\nTomorrow, Jul 11\nSummer Break\nChange\nSummer school\n2:00-3:00pm\nSaturday, Jul 12\n+ Add event\nChat to create...\n+\nSundav. Jul 13\nNow\nFriends\nDirectory\nSaturn Calendar\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "July"
+        },
+        {
+          "text": "1 To-do"
+        },
+        {
+          "text": "sun 6"
+        },
+        {
+          "text": "mon 7"
+        },
+        {
+          "text": "tue 8"
+        },
+        {
+          "text": "wed 9"
+        },
+        {
+          "text": "thu 10"
+        },
+        {
+          "text": "fri 11"
+        },
+        {
+          "text": "sat 12"
+        },
+        {
+          "text": "Today, Jul 10"
+        },
+        {
+          "text": "Summer Break"
+        },
+        {
+          "text": "Change"
+        },
+        {
+          "text": "Chess club"
+        },
+        {
+          "text": "3:00-4:00pm"
+        },
+        {
+          "text": "Study"
+        },
+        {
+          "text": "Tomorrow, Jul 11"
+        },
+        {
+          "text": "Summer Break"
+        },
+        {
+          "text": "Change"
+        },
+        {
+          "text": "Summer school"
+        },
+        {
+          "text": "2:00-3:00pm"
+        },
+        {
+          "text": "Saturday, Jul 12"
+        },
+        {
+          "text": "+ Add event"
+        },
+        {
+          "text": "Chat to create..."
+        },
+        {
+          "text": "Sundav. Jul 13"
+        },
+        {
+          "text": "Now"
+        },
+        {
+          "text": "Friends"
+        },
+        {
+          "text": "Directory"
+        },
+        {
+          "text": "Saturn Calendar"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "July"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "sun 6, mon 7, tue 8, wed 9, thu 10, fri 11, sat 12"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Today, Jul 10"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Summer Break, Chess club, 3:00-4:00pm, Study"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Tomorrow, Jul 11"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Summer Break, Summer school, 2:00-3:00pm"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Saturday, Jul 12"
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "+ Add event"
+        },
+        {
+          "type": "form",
+          "reading_order": 9,
+          "text": "Chat to create..."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 10,
+          "text": "Sundav. Jul 13"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile calendar application",
+      "intent": "View and manage daily schedule",
+      "entities": [
+        {
+          "name": "Saturn Calendar",
+          "type": "Application Name"
+        },
+        {
+          "name": "Jul 10",
+          "type": "Date"
+        },
+        {
+          "name": "Chess club",
+          "type": "Event"
+        },
+        {
+          "name": "Study",
+          "type": "Event"
+        },
+        {
+          "name": "Summer school",
+          "type": "Event"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chess club",
+          "predicate": "scheduled for",
+          "object": "Jul 10"
+        },
+        {
+          "subject": "Summer school",
+          "predicate": "scheduled for",
+          "object": "Jul 11"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "dark navy blue",
+        "white",
+        "purple"
+      ],
+      "style": "Dark mode mobile UI",
+      "notes": [
+        "Uses icons for calendar events (palm tree, chess piece, book, alien)"
+      ]
+    },
+    "uncertainty": [
+      "The word 'Sundav.' in 'Sundav. Jul 13' appears to be a typo for 'Sunday' in the original image."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:48.638Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.705,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1239,
+      "totalTokenCount": 2466,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

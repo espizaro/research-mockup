@@ -1,0 +1,236 @@
+{
+  "image": "01 - Alan.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile application interface displaying a 'Medical team' directory with categorized medical professionals, including general practitioners, therapists, pediatricians, nutritionists, gynecologists, and sexologists.",
+    "ocr": {
+      "full_text": "9:41\nMedical team\nAll\nGeneral Practitioners\nTherapists\nPediatric\nDr. Jullian\nGeneral Practitioner\nJean\nTherapist\nDr. Chargui\nPediatrician\nFanny\nNutritionist\nDr. Besnar\nGynecologist\nChristine\nSexologist\nMargaux\nTherapist\nAlan\ncurated by\nMobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Medical team"
+        },
+        {
+          "text": "All"
+        },
+        {
+          "text": "General Practitioners"
+        },
+        {
+          "text": "Therapists"
+        },
+        {
+          "text": "Pediatric"
+        },
+        {
+          "text": "Dr. Jullian"
+        },
+        {
+          "text": "General Practitioner"
+        },
+        {
+          "text": "Jean"
+        },
+        {
+          "text": "Therapist"
+        },
+        {
+          "text": "Dr. Chargui"
+        },
+        {
+          "text": "Pediatrician"
+        },
+        {
+          "text": "Fanny"
+        },
+        {
+          "text": "Nutritionist"
+        },
+        {
+          "text": "Dr. Besnar"
+        },
+        {
+          "text": "Gynecologist"
+        },
+        {
+          "text": "Christine"
+        },
+        {
+          "text": "Sexologist"
+        },
+        {
+          "text": "Margaux"
+        },
+        {
+          "text": "Therapist"
+        },
+        {
+          "text": "Alan"
+        },
+        {
+          "text": "curated by"
+        },
+        {
+          "text": "Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Medical team"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "All General Practitioners Therapists Pediatric"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Dr. Jullian, General Practitioner"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Jean, Therapist"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Dr. Chargui, Pediatrician"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Fanny, Nutritionist"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "Dr. Besnar, Gynecologist"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "Christine, Sexologist"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 9,
+          "text": "Margaux, Therapist"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Medical mobile application directory",
+      "intent": "To browse and select medical professionals by specialty",
+      "entities": [
+        {
+          "name": "Dr. Jullian",
+          "type": "General Practitioner"
+        },
+        {
+          "name": "Jean",
+          "type": "Therapist"
+        },
+        {
+          "name": "Dr. Chargui",
+          "type": "Pediatrician"
+        },
+        {
+          "name": "Fanny",
+          "type": "Nutritionist"
+        },
+        {
+          "name": "Dr. Besnar",
+          "type": "Gynecologist"
+        },
+        {
+          "name": "Christine",
+          "type": "Sexologist"
+        },
+        {
+          "name": "Margaux",
+          "type": "Therapist"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Dr. Jullian",
+          "predicate": "is",
+          "object": "General Practitioner"
+        },
+        {
+          "subject": "Jean",
+          "predicate": "is",
+          "object": "Therapist"
+        },
+        {
+          "subject": "Dr. Chargui",
+          "predicate": "is",
+          "object": "Pediatrician"
+        },
+        {
+          "subject": "Fanny",
+          "predicate": "is",
+          "object": "Nutritionist"
+        },
+        {
+          "subject": "Dr. Besnar",
+          "predicate": "is",
+          "object": "Gynecologist"
+        },
+        {
+          "subject": "Christine",
+          "predicate": "is",
+          "object": "Sexologist"
+        },
+        {
+          "subject": "Margaux",
+          "predicate": "is",
+          "object": "Therapist"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "grey",
+        "light purple"
+      ],
+      "style": "Mobile app UI, card-based layout",
+      "notes": [
+        "Clean modern aesthetic",
+        "Round portraits used for each professional"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T17:50:30.942Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.251,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1139,
+      "totalTokenCount": 2366,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

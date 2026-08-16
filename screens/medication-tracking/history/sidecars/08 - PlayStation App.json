@@ -1,0 +1,153 @@
+{
+  "image": "08 - PlayStation App.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a mobile application's 'Transaction History' screen, featuring a date picker calendar set to May 2024 and a list of transactions below.",
+    "ocr": {
+      "full_text": "9:41 Done Transaction History May 2024 SUN MON TUE WED THU FRI SAT 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Reset Done 04/27/2024 Product Purchase SGD0.00 04/27/2024 Product Purchase SGD712 PlayStation App curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Done"
+        },
+        {
+          "text": "Transaction History"
+        },
+        {
+          "text": "May 2024"
+        },
+        {
+          "text": "SUN MON TUE WED THU FRI SAT"
+        },
+        {
+          "text": "1 2 3 4"
+        },
+        {
+          "text": "5 6 7 8 9 10 11"
+        },
+        {
+          "text": "12 13 14 15 16 17 18"
+        },
+        {
+          "text": "19 20 21 22 23 24 25"
+        },
+        {
+          "text": "26 27 28 29 30 31"
+        },
+        {
+          "text": "Reset"
+        },
+        {
+          "text": "Done"
+        },
+        {
+          "text": "04/27/2024"
+        },
+        {
+          "text": "Product Purchase SGD0.00"
+        },
+        {
+          "text": "04/27/2024"
+        },
+        {
+          "text": "Product Purchase SGD712"
+        },
+        {
+          "text": "PlayStation App curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Transaction History"
+        },
+        {
+          "type": "form",
+          "reading_order": 2,
+          "text": "May 2024 calendar with days SUN-SAT and selection for May 31"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "04/27/2024 Product Purchase SGD0.00; 04/27/2024 Product Purchase SGD712"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app user interface showing transaction history.",
+      "intent": "View transaction records and adjust date filters.",
+      "entities": [
+        {
+          "name": "Transaction History",
+          "type": "UI Section"
+        },
+        {
+          "name": "May 2024",
+          "type": "Date"
+        },
+        {
+          "name": "Product Purchase",
+          "type": "Transaction Type"
+        },
+        {
+          "name": "PlayStation App",
+          "type": "Application Name"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Product Purchase",
+          "predicate": "has amount",
+          "object": "SGD0.00"
+        },
+        {
+          "subject": "Product Purchase",
+          "predicate": "has amount",
+          "object": "SGD712"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "blue",
+        "light grey"
+      ],
+      "style": "Mobile App UI, flat, minimalist",
+      "notes": [
+        "Calendar includes navigation arrows for month selection",
+        "Date 31 is highlighted with a blue circle"
+      ]
+    },
+    "uncertainty": [
+      "The amount for the second product purchase is cut off, showing only 'SGD712'"
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:30:14.837Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 11.461,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 940,
+      "totalTokenCount": 2167,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

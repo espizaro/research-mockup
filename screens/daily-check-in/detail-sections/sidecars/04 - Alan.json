@@ -1,0 +1,48 @@
+{
+  "identification": {
+    "app_name": "Alan",
+    "platform": "ios",
+    "file_path": "screens/daily-check-in/detail-sections/04 - Alan.webp",
+    "analyzed_timestamp": "2026-08-10T18:10:20.593Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI showing terms and conditions for glasses insurance coverage.",
+    "primary_flow": "daily-check-in/detail-sections",
+    "ux_intent": "To inform the user about the conditions for glasses reimbursement.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Clear hierarchical typography with high contrast",
+      "Expandable menu sections denoted by chevron icons"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Alan",
+      "Social Security",
+      "Glasses"
+    ],
+    "visual_keywords": [
+      "Modern minimalist mobile app UI",
+      "white",
+      "light blue",
+      "dark purple",
+      "black",
+      "Clear hierarchical typography with high contrast",
+      "Expandable menu sections denoted by chevron icons"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist mobile app UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_v2_detail_sections_04"
+}

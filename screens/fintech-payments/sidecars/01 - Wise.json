@@ -1,0 +1,44 @@
+{
+  "identification": {
+    "app_name": "Wise",
+    "platform": "ios",
+    "file_path": "screens/fintech-payments/01 - Wise.webp",
+    "analyzed_timestamp": "2026-08-06T23:56:32.455Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App UI mobile transaction confirmation screen",
+    "primary_flow": "fintech-payments",
+    "ux_intent": "Confirm the completion of a money transfer",
+    "ux_patterns": [
+      "Profile",
+      "Minimalist",
+      "Card",
+      "The screen uses a success color theme",
+      "Centralized layout with a profile placeholder icon"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [],
+    "interaction_elements": [],
+    "content_blocks": [
+      "GoHenry",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile application UI",
+      "light-green-cyan",
+      "green",
+      "grey",
+      "The screen uses a success color theme",
+      "Centralized layout with a profile placeholder icon"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile application UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_fintech_payments_01"
+}

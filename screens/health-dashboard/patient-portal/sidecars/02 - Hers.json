@@ -1,0 +1,197 @@
+{
+  "image": "02 - Hers.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app screen interface for 'Hers' health service, focused on a user's skincare treatment plan. The screen displays current medication, refill information, a message notification from a provider, and navigation tabs.",
+    "ocr": {
+      "full_text": "9:41 Skincare Add Treatment Acne RX Cream Refills on Friday, Dec 19 Med reminders On Get a refill 7 remaining View New Message from Michelle B. NP FROM YOUR PROVIDER TEAM Treatment Plan How to take Medication overview Home Care Programs Shop hers Hers curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Skincare"
+        },
+        {
+          "text": "Add Treatment"
+        },
+        {
+          "text": "Acne RX Cream"
+        },
+        {
+          "text": "Refills on Friday, Dec 19"
+        },
+        {
+          "text": "Med reminders"
+        },
+        {
+          "text": "On"
+        },
+        {
+          "text": "Get a refill"
+        },
+        {
+          "text": "7 remaining"
+        },
+        {
+          "text": "View New Message"
+        },
+        {
+          "text": "from Michelle B. NP"
+        },
+        {
+          "text": "FROM YOUR PROVIDER TEAM"
+        },
+        {
+          "text": "Treatment Plan"
+        },
+        {
+          "text": "How to take"
+        },
+        {
+          "text": "Medication overview"
+        },
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Care"
+        },
+        {
+          "text": "Programs"
+        },
+        {
+          "text": "Shop"
+        },
+        {
+          "text": "hers Hers"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Skincare"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Add Treatment"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Acne RX Cream Refills on Friday, Dec 19"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Med reminders On"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "Get a refill 7 remaining"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "View New Message from Michelle B. NP"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 7,
+          "text": "FROM YOUR PROVIDER TEAM Treatment Plan"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 8,
+          "text": "How to take"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 9,
+          "text": "Medication overview"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile application interface for a healthcare/wellness service called 'Hers' displaying a patient's skincare management dashboard.",
+      "intent": "To inform the user about their current skincare treatment status and provide access to provider messages and medication details.",
+      "entities": [
+        {
+          "name": "Hers",
+          "type": "Service Provider"
+        },
+        {
+          "name": "Acne RX Cream",
+          "type": "Medication"
+        },
+        {
+          "name": "Michelle B.",
+          "type": "Medical Professional"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform/Source"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Michelle B.",
+          "predicate": "sent message to",
+          "object": "User"
+        },
+        {
+          "subject": "User",
+          "predicate": "has treatment",
+          "object": "Acne RX Cream"
+        },
+        {
+          "subject": "Hers",
+          "predicate": "curated by",
+          "object": "Mobbin"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "light blue"
+      ],
+      "style": "Mobile app UI, modern, minimalist",
+      "notes": [
+        "Clear navigational hierarchy with cards for primary actions."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:09.875Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.849,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 955,
+      "totalTokenCount": 2182,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Eventbrite",
+    "platform": "ios",
+    "file_path": "screens/auth-welcome-illustrated/07 - Eventbrite.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:31.239Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Onboarding / Empty state screen for social planning",
+    "primary_flow": "auth-welcome-illustrated",
+    "ux_intent": "Prompt user to invite friends to collaborate",
+    "ux_patterns": [
+      "Form",
+      "Empty State",
+      "Onboarding",
+      "Minimalist",
+      "The illustration is decorative and conceptual, reinforcing the 'Population 0' message.",
+      "The layout is centered and minimalist, typical of modern SaaS mobile apps.",
+      "Primary call-to-action is a high-contrast black pill-shaped button."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Primary call-to-action is a high-contrast black pill-shaped button."
+    ],
+    "content_blocks": [
+      "Eventbrite",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern mobile flat UI with a central stylized hero illustration.",
+      "white",
+      "black",
+      "green",
+      "red/orange",
+      "The illustration is decorative and conceptual, reinforcing the 'Population 0' message.",
+      "The layout is centered and minimalist, typical of modern SaaS mobile apps.",
+      "Primary call-to-action is a high-contrast black pill-shaped button."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern mobile flat UI with a central stylized hero illustration."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_welcome_illustrated_07"
+}

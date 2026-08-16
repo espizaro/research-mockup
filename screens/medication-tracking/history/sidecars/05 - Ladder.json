@@ -1,0 +1,162 @@
+{
+  "image": "05 - Ladder.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a mobile fitness application's 'Profile' tab, specifically the 'Workout Activity' section, displaying a calendar for July 2024. The user has marked activity on July 1st and July 30th. There is a status message indicating 'No workouts for today' (July 30th).",
+    "ocr": {
+      "full_text": "9:41\nWorkouts\nMinutes\nCalories\nCheers\nWorkout Activity\nJuly 2024\nM T W T F S S\n1 2 3 4 5 6 7\n8 9 10 11 12 13 14\n15 16 17 18 19 20 21\n22 23 24 25 26 27 28\n29 30 31 1 2 3 4\nWorkouts\nNo workouts for today\nWorkouts Chat Teams Profile Rewards\nLadder\ncurated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Workouts"
+        },
+        {
+          "text": "Minutes"
+        },
+        {
+          "text": "Calories"
+        },
+        {
+          "text": "Cheers"
+        },
+        {
+          "text": "Workout Activity"
+        },
+        {
+          "text": "July 2024"
+        },
+        {
+          "text": "M T W T F S S"
+        },
+        {
+          "text": "1 2 3 4 5 6 7"
+        },
+        {
+          "text": "8 9 10 11 12 13 14"
+        },
+        {
+          "text": "15 16 17 18 19 20 21"
+        },
+        {
+          "text": "22 23 24 25 26 27 28"
+        },
+        {
+          "text": "29 30 31 1 2 3 4"
+        },
+        {
+          "text": "Workouts"
+        },
+        {
+          "text": "No workouts for today"
+        },
+        {
+          "text": "Workouts Chat Teams Profile Rewards"
+        },
+        {
+          "text": "Ladder curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Workout Activity"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "July 2024"
+        },
+        {
+          "type": "table",
+          "reading_order": 3,
+          "text": "M T W T F S S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1 2 3 4"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 4,
+          "text": "Workouts"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "No workouts for today"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "A mobile fitness app interface, specifically the profile or activity calendar page.",
+      "intent": "To inform the user about their workout schedule and provide navigation to other app sections.",
+      "entities": [
+        {
+          "name": "July 2024",
+          "type": "Date",
+          "evidence": "July 2024 calendar display"
+        },
+        {
+          "name": "Workouts",
+          "type": "Status",
+          "evidence": "No workouts for today message"
+        },
+        {
+          "name": "Ladder",
+          "type": "Application Name",
+          "evidence": "Logo/text at bottom"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Company/Platform",
+          "evidence": "curated by Mobbin text at bottom"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has no workout scheduled for",
+          "object": "July 30 2024"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "black",
+        "white",
+        "yellow"
+      ],
+      "style": "Dark mode mobile UI, minimalist design.",
+      "notes": [
+        "The date '1' and '30' in the calendar are highlighted in yellow.",
+        "The navigation bar at the bottom includes icons for Workouts, Chat, Teams, Profile, and Rewards."
+      ]
+    },
+    "uncertainty": [
+      "The exact functionality behind the 'Cheers' label is inferred as part of an app status bar, though not explicitly defined."
+    ]
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:29:33.965Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 7.993,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1082,
+      "totalTokenCount": 2309,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

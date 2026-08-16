@@ -1,0 +1,47 @@
+{
+  "identification": {
+    "app_name": "Replika",
+    "platform": "ios",
+    "file_path": "screens/health-logging/overview/02 - Replika.webp",
+    "analyzed_timestamp": "2026-08-05T19:41:57.030Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Digital diary mobile app interface displaying a list of chronological entries.",
+    "primary_flow": "health-logging/overview",
+    "ux_intent": "To present a history of journal entries in a mobile UI.",
+    "ux_patterns": [
+      "Minimalist",
+      "Card",
+      "The image contains a stylized illustration of a person wearing a green top."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Diary",
+      "Replika",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI, card-based list",
+      "grey",
+      "dark blue",
+      "white",
+      "green",
+      "The image contains a stylized illustration of a person wearing a green top."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI, card-based list"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_overview_02"
+}

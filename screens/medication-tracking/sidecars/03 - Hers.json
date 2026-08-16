@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "Hers",
+    "platform": "ios",
+    "file_path": "screens/medication-tracking/03 - Hers.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:44.104Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app medication reminder settings",
+    "primary_flow": "medication-tracking",
+    "ux_intent": "User is configuring a daily reminder for their acne medication.",
+    "ux_patterns": [
+      "Bottom Sheet",
+      "Modal",
+      "Form",
+      "Settings",
+      "Minimalist",
+      "Toggle",
+      "The UI uses a modal/bottom sheet overlay for the reminder settings."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Acne RX Cream",
+      "Hers",
+      "Reminder"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile application UI",
+      "white",
+      "dark gray",
+      "teal",
+      "The UI uses a modal/bottom sheet overlay for the reminder settings."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile application UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_medications_03"
+}

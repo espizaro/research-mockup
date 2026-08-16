@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "app_name": "Alan",
+    "platform": "ios",
+    "file_path": "screens/onboarding/02 - Alan.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:27.818Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application onboarding screen encouraging the user to start their health journey.",
+    "primary_flow": "onboarding",
+    "ux_intent": "To initiate the user onboarding or sign-up process for a health-tracking application.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Minimalist",
+      "Floating elements around the bear include a sneaker, a feather, and a small fruit-like object",
+      "Soft gradient background"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Blue Bear",
+      "Let's go!",
+      "Mobbin"
+    ],
+    "visual_keywords": [
+      "Modern minimalist mobile app UI with 3D illustration",
+      "light beige",
+      "blue",
+      "purple",
+      "Floating elements around the bear include a sneaker, a feather, and a small fruit-like object",
+      "Soft gradient background"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist mobile app UI with 3D illustration"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_onboarding_02"
+}

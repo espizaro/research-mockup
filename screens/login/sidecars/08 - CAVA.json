@@ -1,0 +1,58 @@
+{
+  "identification": {
+    "app_name": "CAVA",
+    "platform": "ios",
+    "file_path": "screens/login/08 - CAVA.webp",
+    "analyzed_timestamp": "2026-08-13T20:57:51.640Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Login screen",
+    "primary_flow": "login",
+    "ux_intent": "Authenticate user for account access",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "High contrast usage for button",
+      "Clean typography",
+      "No hero illustrations present",
+      "Standard iOS status bar",
+      "Bottom navigation bar containing curation attribution"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "High contrast usage for button",
+      "Bottom navigation bar containing curation attribution"
+    ],
+    "content_blocks": [
+      "Betterment",
+      "Log in",
+      "Forgot your password?"
+    ],
+    "visual_keywords": [
+      "Minimalist corporate mobile UI",
+      "white",
+      "blue",
+      "black",
+      "High contrast usage for button",
+      "Clean typography",
+      "No hero illustrations present",
+      "Standard iOS status bar",
+      "Bottom navigation bar containing curation attribution"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist corporate mobile UI"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_login_08"
+}

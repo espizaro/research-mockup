@@ -1,0 +1,50 @@
+{
+  "identification": {
+    "app_name": "Apple Health",
+    "platform": "ios",
+    "file_path": "screens/medication-tracking/effects/02 - Apple Health.webp",
+    "analyzed_timestamp": "2026-08-05T19:40:57.193Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A screen capture of the Apple Health mobile app displaying the medications tracking interface.",
+    "primary_flow": "medication-tracking/effects",
+    "ux_intent": "Track, log, and manage medication doses.",
+    "ux_patterns": [
+      "Settings",
+      "Minimalist",
+      "Clear separation between scheduled and logged items.",
+      "Use of blue color for primary interaction and status items."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Bottom Navigation",
+      "Use of blue color for primary interaction and status items."
+    ],
+    "content_blocks": [
+      "Apple Health",
+      "Magnesium",
+      "Medications"
+    ],
+    "visual_keywords": [
+      "Mobile app UI, Apple Design Language, minimalist, flat design.",
+      "white",
+      "light blue",
+      "light grey",
+      "Clear separation between scheduled and logged items.",
+      "Use of blue color for primary interaction and status items."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile app UI, Apple Design Language, minimalist, flat design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_medication_effect_02"
+}

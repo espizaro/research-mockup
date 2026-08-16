@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Alan",
+    "platform": "ios",
+    "file_path": "screens/health-logging/overview/03 - Alan.webp",
+    "analyzed_timestamp": "2026-08-05T19:42:03.581Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile app interface screen representing a digital journal or diary.",
+    "primary_flow": "health-logging/overview",
+    "ux_intent": "To allow the user to view past journal entries and start creating a new one.",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "Uses icons next to list items.",
+      "Prominent rounded button at the bottom."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Prominent rounded button at the bottom."
+    ],
+    "content_blocks": [
+      "Journal",
+      "Long-standing feelings of self-worth",
+      "An unexpected reconnection",
+      "Create a new note"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile UI application",
+      "white",
+      "off-white",
+      "purple",
+      "Uses icons next to list items.",
+      "Prominent rounded button at the bottom."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile UI application"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_overview_03"
+}

@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Rocket Money",
+    "platform": "ios",
+    "file_path": "screens/auth-onboarding-quiz/05 - Rocket Money.webp",
+    "analyzed_timestamp": "2026-08-13T20:55:49.765Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application onboarding or user profile setup screen.",
+    "primary_flow": "auth-onboarding-quiz",
+    "ux_intent": "To collect user demographic and financial status data via multi-selection cards.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Profile",
+      "Minimalist",
+      "Card",
+      "Uses iconic glyphs for each list item to aid visual recognition.",
+      "High whitespace usage for readability.",
+      "Consistent card-based layout.",
+      "The aesthetic is functional and professional."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Rocket Money",
+      "Mobbin",
+      "Continue"
+    ],
+    "visual_keywords": [
+      "Clean, minimalist, high-contrast, modern mobile UI design.",
+      "hex FFFFFF",
+      "hex 000000",
+      "hex F8F8F8",
+      "Uses iconic glyphs for each list item to aid visual recognition.",
+      "High whitespace usage for readability.",
+      "Consistent card-based layout.",
+      "The aesthetic is functional and professional."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Clean, minimalist, high-contrast, modern mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_onboarding_quiz_05"
+}

@@ -1,0 +1,45 @@
+{
+  "identification": {
+    "app_name": "Alan",
+    "platform": "ios",
+    "file_path": "screens/caregiver-sharing/01 - Alan.webp",
+    "analyzed_timestamp": "2026-08-05T19:22:17.423Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "A mobile application UI for an account invitation flow.",
+    "primary_flow": "caregiver-sharing",
+    "ux_intent": "The user intends to invite another person named Sam to share their Alan account data.",
+    "ux_patterns": [
+      "Form",
+      "Profile",
+      "Minimalist",
+      "Includes an envelope/heart icon at the top."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Sam",
+      "Alan",
+      "sam.lee@gmail.com"
+    ],
+    "visual_keywords": [
+      "Mobile app UI, clean, minimalist design.",
+      "white",
+      "blue-grey",
+      "Includes an envelope/heart icon at the top."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile app UI, clean, minimalist design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_caregiver_sharing_01"
+}

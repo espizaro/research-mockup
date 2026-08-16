@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Notion",
+    "platform": "ios",
+    "file_path": "screens/secure-sharing/02 - Notion.webp",
+    "analyzed_timestamp": "2026-08-05T19:24:30.295Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app UI setting modal",
+    "primary_flow": "secure-sharing",
+    "ux_intent": "User is configuring access permissions and link expiration for a shared resource.",
+    "ux_patterns": [
+      "Modal",
+      "Form",
+      "Settings",
+      "Minimalist",
+      "Standard iOS status bar header visible",
+      "The modal background is semi-transparent gray"
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "List View",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Dropdown"
+    ],
+    "content_blocks": [
+      "Notion",
+      "Mobbin",
+      "Change access"
+    ],
+    "visual_keywords": [
+      "Minimalist mobile app interface",
+      "white",
+      "gray",
+      "Standard iOS status bar header visible",
+      "The modal background is semi-transparent gray"
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist mobile app interface"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_secure_sharing_02"
+}

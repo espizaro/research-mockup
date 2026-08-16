@@ -1,0 +1,61 @@
+{
+  "identification": {
+    "app_name": "Deel",
+    "platform": "ios",
+    "file_path": "screens/auth-login-biometric/06 - Deel.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:41.532Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App onboarding / security configuration screen",
+    "primary_flow": "auth-login-biometric",
+    "ux_intent": "Persuade user to activate biometric authentication (Face ID) for the app.",
+    "ux_patterns": [
+      "Form",
+      "Onboarding",
+      "Login",
+      "Minimalist",
+      "The hero illustration is a 3D-style stylized head/person icon in shades of blue.",
+      "The illustration is centered and placed above the text content to create focus.",
+      "The typography is sans-serif and high-legibility.",
+      "Buttons follow standard mobile platform design patterns for primary and secondary actions.",
+      "Clean negative space provides a clear hierarchy."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "Secondary Button",
+      "Buttons follow standard mobile platform design patterns for primary and secondary actions."
+    ],
+    "content_blocks": [
+      "Face ID",
+      "Enable",
+      "Skip",
+      "Deel"
+    ],
+    "visual_keywords": [
+      "Modern, minimalist, mobile-first UI with a clean, high-contrast aesthetic.",
+      "white",
+      "blue",
+      "light-blue",
+      "black",
+      "The hero illustration is a 3D-style stylized head/person icon in shades of blue.",
+      "The illustration is centered and placed above the text content to create focus.",
+      "The typography is sans-serif and high-legibility.",
+      "Buttons follow standard mobile platform design patterns for primary and secondary actions.",
+      "Clean negative space provides a clear hierarchy."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern, minimalist, mobile-first UI with a clean, high-contrast aesthetic."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_biometric_06"
+}

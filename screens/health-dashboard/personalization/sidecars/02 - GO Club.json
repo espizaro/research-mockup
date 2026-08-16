@@ -1,0 +1,167 @@
+{
+  "image": "02 - GO Club.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a screenshot of a mobile fitness application dashboard showing health metrics such as steps, distance, floors climbed, and calories burned.",
+    "ocr": {
+      "full_text": "9:41 138,083 Steps 60.25mi Distance 216 Floors 4240kcal Calories GD 138,083 Steps GO Club curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "138,083"
+        },
+        {
+          "text": "Steps"
+        },
+        {
+          "text": "60.25mi"
+        },
+        {
+          "text": "Distance"
+        },
+        {
+          "text": "216"
+        },
+        {
+          "text": "Floors"
+        },
+        {
+          "text": "4240kcal"
+        },
+        {
+          "text": "Calories"
+        },
+        {
+          "text": "GD"
+        },
+        {
+          "text": "138,083"
+        },
+        {
+          "text": "Steps"
+        },
+        {
+          "text": "GO Club"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "9:41"
+        },
+        {
+          "type": "other",
+          "reading_order": 2,
+          "text": "Large card showing 138,083 Steps, 60.25mi Distance, 216 Floors, 4240kcal Calories and a progress bar with a GD logo."
+        },
+        {
+          "type": "other",
+          "reading_order": 3,
+          "text": "Small square card showing 138,083 Steps, a shoe icon, and a vertical progress bar."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "GO Club curated by Mobbin"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app interface",
+      "intent": "Display fitness data tracking summary",
+      "entities": [
+        {
+          "name": "Steps",
+          "type": "Metric",
+          "evidence": "138,083"
+        },
+        {
+          "name": "Distance",
+          "type": "Metric",
+          "evidence": "60.25mi"
+        },
+        {
+          "name": "Floors",
+          "type": "Metric",
+          "evidence": "216"
+        },
+        {
+          "name": "Calories",
+          "type": "Metric",
+          "evidence": "4240kcal"
+        },
+        {
+          "name": "GO Club",
+          "type": "App Brand"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Steps",
+          "predicate": "value_is",
+          "object": "138,083"
+        },
+        {
+          "subject": "Distance",
+          "predicate": "value_is",
+          "object": "60.25mi"
+        },
+        {
+          "subject": "Floors",
+          "predicate": "value_is",
+          "object": "216"
+        },
+        {
+          "subject": "Calories",
+          "predicate": "value_is",
+          "object": "4240kcal"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "Light Gray (background)",
+        "White (cards)",
+        "Purple (icons/progress bars)",
+        "Black (text)"
+      ],
+      "style": "Minimalist mobile app UI",
+      "notes": [
+        "Features two main dashboard widgets for step tracking.",
+        "Uses clear icons for metrics.",
+        "The UI includes a status bar at the top and a branding footer."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:46:11.904Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 3.848,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1032,
+      "totalTokenCount": 2259,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "identification": {
+    "app_name": "StubHub",
+    "platform": "ios",
+    "file_path": "screens/auth-login-biometric/07 - StubHub.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:42.180Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app authorization onboarding screen.",
+    "primary_flow": "auth-login-biometric",
+    "ux_intent": "To prompt the user to enable biometric authentication (Face ID) for the StubHub application.",
+    "ux_patterns": [
+      "Modal",
+      "Onboarding",
+      "Minimalist",
+      "The Face ID icon is a simple line-art illustration placed above the title to provide visual context.",
+      "The layout follows standard iOS modal design patterns.",
+      "High contrast between the primary button (purple) and text."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "High contrast between the primary button (purple) and text."
+    ],
+    "content_blocks": [
+      "Face ID Icon",
+      "Enable Button",
+      "Cancel Button",
+      "StubHub"
+    ],
+    "visual_keywords": [
+      "Minimalist, flat mobile UI design.",
+      "white",
+      "purple",
+      "grey",
+      "The Face ID icon is a simple line-art illustration placed above the title to provide visual context.",
+      "The layout follows standard iOS modal design patterns.",
+      "High contrast between the primary button (purple) and text."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, flat mobile UI design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_biometric_07"
+}

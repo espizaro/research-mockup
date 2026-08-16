@@ -1,0 +1,201 @@
+{
+  "image": "02 - Klarna.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app notification screen for the Klarna app, displaying a list of notifications organized by time: Today, Most recent, and Previously.",
+    "ocr": {
+      "full_text": "9:41 Notifications Today $43.69 order at FARFETCH 11:24 AM When FARFETCH processes your order, your payment will be charged. Most recent Cashback stores of the week Oct 15 Discover all the stores where you can shop and earn cashback. Previously Shop in the app, get cashback Oct 7 Buy from some of your favorite stores in the Klarna app, and get up to 10% of your money back. It's just a little reward for shopping with us. Mark all as read Klarna curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41",
+          "language": "en"
+        },
+        {
+          "text": "Notifications",
+          "language": "en"
+        },
+        {
+          "text": "Today",
+          "language": "en"
+        },
+        {
+          "text": "$43.69 order at FARFETCH",
+          "language": "en"
+        },
+        {
+          "text": "11:24 AM",
+          "language": "en"
+        },
+        {
+          "text": "When FARFETCH processes your order, your payment will be charged.",
+          "language": "en"
+        },
+        {
+          "text": "Most recent",
+          "language": "en"
+        },
+        {
+          "text": "Cashback stores of the week",
+          "language": "en"
+        },
+        {
+          "text": "Oct 15",
+          "language": "en"
+        },
+        {
+          "text": "Discover all the stores where you can shop and earn cashback.",
+          "language": "en"
+        },
+        {
+          "text": "Previously",
+          "language": "en"
+        },
+        {
+          "text": "Shop in the app, get cashback",
+          "language": "en"
+        },
+        {
+          "text": "Oct 7",
+          "language": "en"
+        },
+        {
+          "text": "Buy from some of your favorite stores in the Klarna app, and get up to 10% of your money back. It's just a little reward for shopping with us.",
+          "language": "en"
+        },
+        {
+          "text": "Mark all as read",
+          "language": "en"
+        },
+        {
+          "text": "Klarna",
+          "language": "en"
+        },
+        {
+          "text": "curated by Mobbin",
+          "language": "en"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Notifications"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "Today"
+        },
+        {
+          "type": "list",
+          "reading_order": 3,
+          "text": "$43.69 order at FARFETCH 11:24 AM When FARFETCH processes your order, your payment will be charged."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Most recent"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Cashback stores of the week Oct 15 Discover all the stores where you can shop and earn cashback."
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 6,
+          "text": "Previously"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Shop in the app, get cashback Oct 7 Buy from some of your favorite stores in the Klarna app, and get up to 10% of your money back. It's just a little reward for shopping with us."
+        },
+        {
+          "type": "form",
+          "reading_order": 8,
+          "text": "Mark all as read"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile app notification inbox screen.",
+      "intent": "To inform the user of updates, transactions, and offers related to their Klarna account.",
+      "entities": [
+        {
+          "name": "Klarna",
+          "type": "Brand",
+          "evidence": "Klarna logo and app name"
+        },
+        {
+          "name": "FARFETCH",
+          "type": "Retailer",
+          "evidence": "Mentioned in notification"
+        },
+        {
+          "name": "Mobbin",
+          "type": "Platform",
+          "evidence": "curated by Mobbin footer"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Klarna app",
+          "predicate": "sends notification about",
+          "object": "$43.69 order at FARFETCH"
+        },
+        {
+          "subject": "Klarna app",
+          "predicate": "promotes",
+          "object": "cashback offers"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "black",
+        "pink"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Clear vertical list structure",
+        "Use of cards for distinct notifications",
+        "High contrast text for readability"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-10T04:20:34.432Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 4.652,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 1138,
+      "totalTokenCount": 2365,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": [
+      {
+        "provider": "gemini-api",
+        "ok": true,
+        "durationSeconds": 4.655
+      }
+    ],
+    "warnings": []
+  }
+}

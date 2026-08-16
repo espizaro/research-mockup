@@ -1,0 +1,181 @@
+{
+  "image": "10 - Cal AI.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "This is a mobile app interface for a fitness/health tracker called 'Cal AI'. The home screen displays daily activity metrics including steps, calories burned, water intake, and a 'Recently uploaded' section for food logs.",
+    "ocr": {
+      "full_text": "9:41 Cal AI 2 T F S S M T W 28 29 30 31 1 2 3 0/10,000 Steps today 0 Calories burned Steps +0 Water 0 ml Recently uploaded Chocolate 9:43 PM 207 calories 1g 24g 14g Home Progress Settings Cal AI curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Cal AI"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "T F S S M T W"
+        },
+        {
+          "text": "28 29 30 31 1 2 3"
+        },
+        {
+          "text": "0/10,000"
+        },
+        {
+          "text": "Steps today"
+        },
+        {
+          "text": "0"
+        },
+        {
+          "text": "Calories burned"
+        },
+        {
+          "text": "Steps"
+        },
+        {
+          "text": "+0"
+        },
+        {
+          "text": "Water"
+        },
+        {
+          "text": "0 ml"
+        },
+        {
+          "text": "Recently uploaded"
+        },
+        {
+          "text": "Chocolate"
+        },
+        {
+          "text": "9:43 PM"
+        },
+        {
+          "text": "207 calories"
+        },
+        {
+          "text": "1g 24g 14g"
+        },
+        {
+          "text": "Home Progress Settings"
+        },
+        {
+          "text": "Cal AI curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "title",
+          "reading_order": 1,
+          "text": "Cal AI"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 2,
+          "text": "0/10,000 Steps today"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "0 Calories burned"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "Water 0 ml"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 5,
+          "text": "Recently uploaded"
+        },
+        {
+          "type": "list",
+          "reading_order": 6,
+          "text": "Chocolate 9:43 PM 207 calories 1g 24g 14g"
+        },
+        {
+          "type": "other",
+          "reading_order": 7,
+          "text": "Navigation bar: Home, Progress, Settings"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application dashboard",
+      "intent": "Health and nutrition tracking",
+      "entities": [
+        {
+          "name": "Cal AI",
+          "type": "Application"
+        },
+        {
+          "name": "Chocolate",
+          "type": "Food item",
+          "evidence": "Recently uploaded section"
+        },
+        {
+          "name": "207 calories",
+          "type": "Nutritional data"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cal AI",
+          "predicate": "tracks",
+          "object": "steps"
+        },
+        {
+          "subject": "Cal AI",
+          "predicate": "tracks",
+          "object": "calories"
+        },
+        {
+          "subject": "Cal AI",
+          "predicate": "tracks",
+          "object": "water"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "black"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Clean, card-based interface with icons for navigation."
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T21:47:08.422Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 5.219,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 901,
+      "totalTokenCount": 2128,
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

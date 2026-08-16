@@ -1,0 +1,51 @@
+{
+  "identification": {
+    "app_name": "Open",
+    "platform": "ios",
+    "file_path": "screens/health-trends/04 - Open.webp",
+    "analyzed_timestamp": "2026-08-05T19:47:08.038Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Mobile app dashboard displaying personal activity metrics in a dark mode UI.",
+    "primary_flow": "health-trends",
+    "ux_intent": "To present fitness or wellness tracking progress.",
+    "ux_patterns": [
+      "Progress",
+      "Dark Mode",
+      "Minimalist",
+      "Card",
+      "Rounded corners on the primary container card.",
+      "High contrast text."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "List View"
+    ],
+    "interaction_elements": [],
+    "content_blocks": [
+      "Day Streak",
+      "Week Streak",
+      "Best Day Streak",
+      "Classes Taken",
+      "Minutes Practiced",
+      "Best Week Streak"
+    ],
+    "visual_keywords": [
+      "Modern minimalist UI design",
+      "black",
+      "dark gray",
+      "white",
+      "Rounded corners on the primary container card.",
+      "High contrast text."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Modern minimalist UI design"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_traces_evolution_04"
+}

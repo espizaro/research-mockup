@@ -1,0 +1,176 @@
+{
+  "image": "06 - Hers.webp",
+  "provider": "gemini-api",
+  "result": {
+    "summary": "A mobile interface for a user to manage their subscription, including options to snooze orders, cancel the subscription, or get help from a care team or customer support.",
+    "ocr": {
+      "full_text": "9:41 Subscriptions > ... > Manage subscription Manage your subscription Update your plan to fit your needs Take a break Snooze your next order Discontinue plan Cancel Subscription Need help instead? Medical questions Message your Care Team Account & order questions Contact customer support Hers curated by Mobbin",
+      "lines": [
+        {
+          "text": "9:41"
+        },
+        {
+          "text": "Subscriptions > ... > Manage subscription"
+        },
+        {
+          "text": "Manage your subscription"
+        },
+        {
+          "text": "Update your plan to fit your needs"
+        },
+        {
+          "text": "Take a break"
+        },
+        {
+          "text": "Snooze your next order"
+        },
+        {
+          "text": "Discontinue plan"
+        },
+        {
+          "text": "Cancel Subscription"
+        },
+        {
+          "text": "Need help instead?"
+        },
+        {
+          "text": "Medical questions"
+        },
+        {
+          "text": "Message your Care Team"
+        },
+        {
+          "text": "Account & order questions"
+        },
+        {
+          "text": "Contact customer support"
+        },
+        {
+          "text": "Hers"
+        },
+        {
+          "text": "curated by Mobbin"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "Subscriptions > ... > Manage subscription"
+        },
+        {
+          "type": "title",
+          "reading_order": 2,
+          "text": "Manage your subscription"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "Update your plan to fit your needs"
+        },
+        {
+          "type": "list",
+          "reading_order": 4,
+          "text": "Take a break: Snooze your next order"
+        },
+        {
+          "type": "list",
+          "reading_order": 5,
+          "text": "Discontinue plan: Cancel Subscription"
+        },
+        {
+          "type": "subtitle",
+          "reading_order": 6,
+          "text": "Need help instead?"
+        },
+        {
+          "type": "list",
+          "reading_order": 7,
+          "text": "Medical questions: Message your Care Team"
+        },
+        {
+          "type": "list",
+          "reading_order": 8,
+          "text": "Account & order questions: Contact customer support"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "Mobile application subscription settings menu.",
+      "intent": "To provide subscription management actions (pause, cancel) and support options.",
+      "entities": [
+        {
+          "name": "Hers",
+          "type": "Brand"
+        },
+        {
+          "name": "Care Team",
+          "type": "Support Service"
+        },
+        {
+          "name": "Customer Support",
+          "type": "Support Service"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "User",
+          "predicate": "has option to",
+          "object": "Snooze your next order"
+        },
+        {
+          "subject": "User",
+          "predicate": "has option to",
+          "object": "Cancel Subscription"
+        },
+        {
+          "subject": "User",
+          "predicate": "can contact",
+          "object": "Care Team"
+        },
+        {
+          "subject": "User",
+          "predicate": "can contact",
+          "object": "Customer Support"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "white",
+        "light grey",
+        "black"
+      ],
+      "style": "Minimalist mobile UI",
+      "notes": [
+        "Clean layout with card-based segments",
+        "Rounded corners on selection cards"
+      ]
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-08-06T20:28:11.165Z",
+    "model": "gemini-3.1-flash-lite",
+    "conversationId": null,
+    "durationSeconds": 7.7,
+    "usage": {
+      "promptTokenCount": 1227,
+      "candidatesTokenCount": 844,
+      "totalTokenCount": 2071,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1100
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  }
+}

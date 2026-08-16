@@ -1,0 +1,53 @@
+{
+  "identification": {
+    "app_name": "Instagram",
+    "platform": "ios",
+    "file_path": "screens/empty-state/04 - Instagram.webp",
+    "analyzed_timestamp": "2026-08-05T19:23:17.550Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "App UI screen for Instagram Favorites",
+    "primary_flow": "empty-state",
+    "ux_intent": "To guide the user to add accounts to their Favorites list",
+    "ux_patterns": [
+      "Form",
+      "Minimalist",
+      "The background is plain white.",
+      "The call-to-action button is blue.",
+      "The illustration uses playful, colorful graphics."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header",
+      "Image Block"
+    ],
+    "interaction_elements": [
+      "The call-to-action button is blue."
+    ],
+    "content_blocks": [
+      "Instagram",
+      "Add favorites",
+      "Favorites"
+    ],
+    "visual_keywords": [
+      "Mobile App UI design, minimalistic",
+      "white",
+      "blue",
+      "pink",
+      "orange",
+      "The background is plain white.",
+      "The call-to-action button is blue.",
+      "The illustration uses playful, colorful graphics."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Mobile App UI design, minimalistic"
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_empty_state_04"
+}

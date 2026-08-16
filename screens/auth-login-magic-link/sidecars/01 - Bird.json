@@ -1,0 +1,54 @@
+{
+  "identification": {
+    "app_name": "Bird",
+    "platform": "ios",
+    "file_path": "screens/auth-login-magic-link/01 - Bird.webp",
+    "analyzed_timestamp": "2026-08-13T20:56:25.256Z",
+    "source": "mobbin"
+  },
+  "context_and_flow": {
+    "screen_type": "Email verification screen for user authentication flow.",
+    "primary_flow": "auth-login-magic-link",
+    "ux_intent": "To guide the user to their email app to complete the login process via a magic link or alternative code entry.",
+    "ux_patterns": [
+      "Form",
+      "Login",
+      "Minimalist",
+      "The screen uses high-contrast dark blue text on a white background for readability.",
+      "The UI lacks a hero illustration; instead, it uses numbered steps for clarity.",
+      "Uses clear, bold typography for headers and actionable buttons.",
+      "The design is highly functional, favoring standard UI components."
+    ]
+  },
+  "taxonomy_tags": {
+    "page_structure": [
+      "Form",
+      "Title Header"
+    ],
+    "interaction_elements": [
+      "Uses clear, bold typography for headers and actionable buttons."
+    ],
+    "content_blocks": [
+      "Bird",
+      "RESEND EMAIL",
+      "ENTER CODE",
+      "hello@bird.co"
+    ],
+    "visual_keywords": [
+      "Minimalist, clean, utility-focused mobile design.",
+      "hex FFFFFF",
+      "hex 002040",
+      "The screen uses high-contrast dark blue text on a white background for readability.",
+      "The UI lacks a hero illustration; instead, it uses numbered steps for clarity.",
+      "Uses clear, bold typography for headers and actionable buttons.",
+      "The design is highly functional, favoring standard UI components."
+    ],
+    "industry_context": "Unknown"
+  },
+  "technical_notes": {
+    "accessibility_audit": "Pending manual audit",
+    "design_system_inference": "Minimalist, clean, utility-focused mobile design."
+  },
+  "analysis_status": "enriched",
+  "rm_id": "rm_auth_login_magic_link_01"
+}
