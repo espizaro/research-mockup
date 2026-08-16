@@ -379,6 +379,8 @@ Write-Host "Registered project: $($choices.appName)"
 
 # ---------------------------------------------------------------- self test
 $issues = @()
+$previousErrorAction = $ErrorActionPreference
+$ErrorActionPreference = 'Continue'
 if (Test-Path -LiteralPath (Join-Path $core 'tools\verify-catalog.mjs')) {
   $null = node (Join-Path $core 'tools\verify-catalog.mjs') 2>&1
   if ($LASTEXITCODE -ne 0) { $issues += 'Catalog verification failed.' }
@@ -387,6 +389,7 @@ if (Test-Path -LiteralPath (Join-Path $core 'tools\check-mockups.mjs')) {
   $null = node (Join-Path $core 'tools\check-mockups.mjs') 2>&1
   if ($LASTEXITCODE -ne 0) { $issues += 'Mockup checks failed.' }
 }
+$ErrorActionPreference = $previousErrorAction
 
 if ($issues.Count -gt 0) {
   Write-Host ''

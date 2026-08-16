@@ -13,9 +13,18 @@ const fileUrl = (rel) => 'file:///' + path.join(mockupsDir, rel).replace(/\\/g, 
 const raw = fs.readFileSync(path.join(mockupsDir, 'assets', 'mockups.js'), 'utf8');
 const match = raw.match(/window\.MOCKUPS\s*=\s*(\[[\s\S]*\])\s*;?/);
 if (!match) { console.error('assets/mockups.js does not define window.MOCKUPS'); process.exit(1); }
-const mockups = JSON.parse(match[1]);
+const mockups = JSON.parse(match[1].replace(/,\s*([\]}])/g, '$1'));
 
-const chromium = await loadChromium();
+let chromium;
+try {
+  chromium = await loadChromium();
+} catch (e) {
+  if (/Playwright/i.test(String((e && e.message) || e))) {
+    console.log('SKIP: Playwright is not installed. Run "npm i -D playwright" in the app repo to enable screenshots.');
+    process.exit(0);
+  }
+  throw e;
+}
 let browser;
 try { browser = await chromium.launch({ headless: true }); }
 catch { browser = await chromium.launch({ headless: true, channel: 'msedge' }); }

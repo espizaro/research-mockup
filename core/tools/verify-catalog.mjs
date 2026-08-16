@@ -6,7 +6,16 @@ import { loadChromium } from './lib/playwright.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const catalogUrl = 'file:///' + path.join(root, 'catalog', 'index.html').replace(/\\/g, '/');
 
-const chromium = await loadChromium();
+let chromium;
+try {
+  chromium = await loadChromium();
+} catch (e) {
+  if (/Playwright/i.test(String((e && e.message) || e))) {
+    console.log('SKIP: Playwright is not installed. Run "npm i -D playwright" in the app repo to enable headless verification.');
+    process.exit(0);
+  }
+  throw e;
+}
 let browser;
 try {
   browser = await chromium.launch({ headless: true });
