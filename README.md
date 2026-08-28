@@ -11,7 +11,7 @@ browse from the first minute. Your project data is never mixed with anyone else'
 
 ## Start here (one command)
 
-1. Install Node.js, Git, and OpenCode (the setup wizard verifies this for you).
+1. Install Node.js and Git (the setup wizard verifies this for you).
 2. Clone this repository.
 3. Open PowerShell in the repository root and run:
 
@@ -19,9 +19,19 @@ browse from the first minute. Your project data is never mixed with anyone else'
 .\setup.ps1
 ```
 
-The wizard explains each choice in plain language (which AI engine, which model, your
-Mobbin key, your app's location) and configures everything automatically. At the end it
-prints the exact command to start working — copy and paste it.
+The wizard explains each choice in plain language — where you want to use the workspace
+(ChatGPT desktop app, Cursor, or both), your Mobbin key, your app's location, and the
+design system — and configures everything automatically. It installs the skills for the
+tools you chose. At the end it prints the exact command to start working — copy and paste
+it.
+
+To update the engine later without touching your data:
+
+```powershell
+.\setup.ps1 -Update
+```
+
+That also re-asks where the skills should be installed.
 
 ## What you get
 
@@ -29,6 +39,9 @@ prints the exact command to start working — copy and paste it.
 - **`research-mockup` skill** — domain research → Mobbin research → UX proposal → mockup
   (HTML/CSS), plan viewer with reference screenshots, handoff; always loaded with your
   project's context.
+- Works with **ChatGPT (Codex) and/or Cursor** — the installer puts the skills wherever
+  you choose, and the repo ships a `.cursor/rules/research-mockup.mdc` so Cursor loads
+  the workflow right after cloning.
 - **`mockup-to-figma` skill** — optional post-approval translation of an approved mockup
   into an editable Figma file (components + variables of the project).
 - **Mockup studio** — navigable HTML/CSS mockups using your app's real design tokens.
@@ -39,8 +52,9 @@ prints the exact command to start working — copy and paste it.
   plus an offline plan viewer (screenshots + findings per phase) for vision-capable
   models and curious humans.
 - **ModLens vision bridge** — lets a text-only model (like DeepSeek) "see" screenshots.
-- **Two tools, one context** — research in ChatGPT/Codex and implement in OpenCode (or
-  the reverse): both read the same instance, and the handoff carries everything across.
+- **Two tools, one context** — research in ChatGPT/Codex or Cursor and implement anywhere
+  (including OpenCode): they all read the same instance, and the handoff carries
+  everything across.
 - **From zero or existing code** — works with an existing repository, or as the blueprint
   for an app that does not exist yet (research → mockup → build spec).
 
@@ -62,7 +76,7 @@ prints the exact command to start working — copy and paste it.
 ```
 
 This pulls newer versions of `core/` without touching your `instance/`, `screens/`,
-`research/`, or `mockups/` data.
+`research/`, or `mockups/` data, and re-asks where the skills should be installed.
 
 ## Multiple projects, zero mixing
 
@@ -70,8 +84,8 @@ The skill is always project-agnostic — it never bakes in an app. Every app get
 instance folder, and the agent loads the context of the folder where you opened the
 session:
 
-- OpenCode and Codex (CLI or ChatGPT desktop app) scope sessions to the folder they were
-  started in; `AGENTS.md` and `.agents/skills` are discovered from that folder upward.
+- ChatGPT/Codex, Cursor, and OpenCode scope sessions to the folder they were started in;
+  `AGENTS.md` and the skills are discovered from that folder upward.
 - The skill resolves the active project by finding `instance/project-context.md` from the
   current folder, or by matching the folder against the registry at
   `~/.config/research-mockup/instances.json`.
