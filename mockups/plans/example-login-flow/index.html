@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flujo de login biométrico — ejemplo · Plan</title>
+<link rel="stylesheet" href="../../assets/tokens.css">
+<link rel="stylesheet" href="../../assets/base.css">
+<style>
+  .plan-shell { max-width: 1180px; margin: 0 auto; padding: 32px 24px 88px; }
+  .plan-head { margin-bottom: 24px; }
+  .plan-head h1 { font-size: var(--text-2xl); font-weight: var(--font-extrabold); letter-spacing: var(--tracking-title); }
+  .plan-head .sub { color: var(--color-text-secondary); font-size: var(--text-sm); margin-top: 6px; }
+  .plan-head .tags { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+  .tag { font-size: 11px; font-weight: var(--font-semibold); letter-spacing: var(--tracking-eyebrow); text-transform: uppercase; color: var(--color-primary-strong, var(--color-primary)); background: var(--color-primary-soft); padding: 4px 10px; border-radius: var(--radius-full); }
+  .plan-nav { display: flex; align-items: center; justify-content: center; gap: 16px; margin: 24px 0; position: sticky; top: 12px; z-index: 5; background: var(--color-bg); padding: 10px; border-radius: var(--radius-2xl); box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .nav-btn { padding: 9px 18px; border-radius: var(--radius-full); background: var(--color-primary-soft); color: var(--color-primary-strong, var(--color-primary)); font-weight: var(--font-semibold); }
+  .nav-btn:disabled { opacity: 0.4; cursor: default; }
+  #phase-counter { font-size: var(--text-sm); color: var(--color-text-secondary); font-variant-numeric: tabular-nums; }
+  .phase { display: none; }
+  .phase.active { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: start; }
+  @media (max-width: 860px) { .phase.active { grid-template-columns: 1fr; } }
+  .phase-head { grid-column: 1 / -1; display: flex; gap: 14px; align-items: flex-start; }
+  .phase-num { font-size: var(--text-xl); font-weight: var(--font-extrabold); color: var(--color-primary); background: var(--color-primary-soft); width: 48px; height: 48px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; flex: none; }
+  .phase-head h3 { font-size: var(--text-lg); font-weight: var(--font-bold); letter-spacing: var(--tracking-title); }
+  .phase-summary { color: var(--color-text-secondary); font-size: var(--text-sm); margin-top: 4px; }
+  .chips { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+  .chip { font-size: 11px; font-weight: var(--font-semibold); color: var(--color-text-secondary); border: 1px solid var(--color-border, rgba(128,128,128,0.35)); padding: 3px 9px; border-radius: var(--radius-full); }
+  .phase-text .block { margin-bottom: 16px; background: var(--color-surface); border-radius: var(--radius-xl); padding: 14px 16px; }
+  .block h4 { font-size: 11px; font-weight: var(--font-extrabold); letter-spacing: var(--tracking-eyebrow); text-transform: uppercase; color: var(--color-text-secondary); margin-bottom: 8px; }
+  .block ul { padding-left: 18px; }
+  .block li { font-size: var(--text-sm); line-height: 1.55; margin-bottom: 4px; }
+  .block p { font-size: var(--text-sm); line-height: 1.55; }
+  .phase-refs { display: flex; flex-direction: column; gap: 16px; }
+  .ref { margin: 0; background: var(--color-surface); border-radius: var(--radius-2xl); padding: 12px; }
+  .ref a img { width: 100%; border-radius: var(--radius-xl); display: block; }
+  .ref figcaption { font-size: var(--text-sm); color: var(--color-text-secondary); margin-top: 8px; line-height: 1.45; }
+  .ref-source { display: inline-block; margin-top: 6px; font-size: 12px; font-weight: var(--font-semibold); color: var(--color-primary); text-decoration: none; }
+  .ref-file { background: var(--color-surface); border-radius: var(--radius-xl); padding: 14px 16px; font-size: var(--text-sm); }
+  .ref-badge { font-size: 10px; font-weight: var(--font-extrabold); letter-spacing: var(--tracking-eyebrow); color: var(--color-primary-strong, var(--color-primary)); background: var(--color-primary-soft); padding: 2px 7px; border-radius: var(--radius-full); margin-right: 8px; }
+</style>
+</head>
+<body>
+<div class="plan-shell">
+  <header class="plan-head">
+    <h1>Flujo de login biométrico — ejemplo</h1>
+    <p class="sub">2026-08-28</p>
+    <p class="sub">Plan de ejemplo generado por build-plan-viewer.mjs. Muestra cómo cada fase referencia screenshots locales de inspiración (Mobbin) junto al texto del plan, 100% offline.</p>
+    <div class="tags"><span class="tag">auth</span><span class="tag">biometric</span><span class="tag">ejemplo</span></div>
+  </header>
+  
+    <div class="plan-nav">
+      <button id="prev" class="nav-btn" disabled>&larr; Anterior</button>
+      <span id="phase-counter">1 / 2</span>
+      <button id="next" class="nav-btn">Siguiente &rarr;</button>
+    </div>
+  <main id="phases">
+    <section class="phase" data-phase="0">
+    <div class="phase-head">
+      <span class="phase-num">01</span>
+      <div>
+        <h3>Pantalla de login con biometría</h3>
+        <div class="chips"><span class="chip">4 files</span><span class="chip">3 cmds</span></div>
+        <p class="phase-summary">Reutiliza el patrón de la pantalla inicial con CTA primario y opción de Face ID.</p>
+      </div>
+    </div>
+    <div class="phase-body">
+      <div class="phase-text">
+        <div class="block"><h4>Objetivo</h4><p>Construir la pantalla de login con la biometría como acción secundaria destacada y el email/password como flujo alterno.</p></div>
+        <div class="block"><h4>Archivos</h4><ul><li>src/features/auth/LoginScreen.tsx</li><li>src/features/auth/LoginScreen.module.css</li><li>src/core/i18n/en.json</li><li>src/core/i18n/es.json</li></ul></div>
+        <div class="block"><h4>Comandos</h4><ul><li>npm run typecheck</li><li>npm run lint</li><li>rg -n &quot;biometric|faceId&quot; src/features/auth</li></ul></div>
+        <div class="block"><h4>Verificación</h4><ul><li>El CTA primario es Continuar con email</li><li>Face ID aparece como botón secundario con icono correcto</li><li>Dark mode sin sombras ni bordes en tarjetas</li></ul></div>
+        <div class="block"><h4>Notas</h4><p>La biometría nunca debe ser el único método: siempre deja el email/password visible.</p></div>
+      </div>
+      <div class="phase-refs"><figure class="ref">
+      <a href="../../../screens/auth-login-biometric/01 - Tolan.webp" target="_blank"><img src="../../../screens/auth-login-biometric/01 - Tolan.webp" alt="Tolan — login con biometría como acción secundaria" loading="lazy"></a>
+      <figcaption>Tolan — login con biometría como acción secundaria</figcaption>
+      <a class="ref-source" href="https://mobbin.com/screens/tolan-login" target="_blank">ver en Mobbin</a>
+    </figure><figure class="ref">
+      <a href="../../../screens/auth-login-social/02 - Dave.webp" target="_blank"><img src="../../../screens/auth-login-social/02 - Dave.webp" alt="Dave — estructura con CTA primario + alternativas" loading="lazy"></a>
+      <figcaption>Dave — estructura con CTA primario + alternativas</figcaption>
+      <a class="ref-source" href="https://mobbin.com/screens/dave-login" target="_blank">ver en Mobbin</a>
+    </figure></div>
+    </div>
+  </section><section class="phase" data-phase="1">
+    <div class="phase-head">
+      <span class="phase-num">02</span>
+      <div>
+        <h3>Validación biométrica (éxito / error)</h3>
+        <div class="chips"><span class="chip">4 files</span><span class="chip">2 cmds</span></div>
+        <p class="phase-summary">Estados de éxito y error con la misma estructura de tarjetas.</p>
+      </div>
+    </div>
+    <div class="phase-body">
+      <div class="phase-text">
+        <div class="block"><h4>Objetivo</h4><p>Mostrar el feedback inmediato tras validar la huella o Face ID, sin pantalla intermedia.</p></div>
+        <div class="block"><h4>Archivos</h4><ul><li>src/features/auth/BiometricPrompt.tsx</li><li>src/features/auth/BiometricPrompt.module.css</li><li>src/core/i18n/en.json</li><li>src/core/i18n/es.json</li></ul></div>
+        <div class="block"><h4>Comandos</h4><ul><li>npm run typecheck</li><li>npm run test:run</li></ul></div>
+        <div class="block"><h4>Verificación</h4><ul><li>Estado de error con mensaje claro y botón de reintento</li><li>Sin spinner infinito: 2s máx de espera</li><li>Accesibilidad: anuncio de resultado al completar</li></ul></div>
+        
+      </div>
+      <div class="phase-refs"><figure class="ref">
+      <a href="../../../screens/auth-login-otp/03 - Dave.webp" target="_blank"><img src="../../../screens/auth-login-otp/03 - Dave.webp" alt="Feedback de validación con estado claro" loading="lazy"></a>
+      <figcaption>Feedback de validación con estado claro</figcaption>
+      <a class="ref-source" href="https://mobbin.com/screens/dave-otp" target="_blank">ver origen</a>
+    </figure></div>
+    </div>
+  </section>
+  </main>
+</div>
+<script>
+(function () {
+  const phases = Array.prototype.slice.call(document.querySelectorAll('.phase'));
+  const counter = document.getElementById('phase-counter');
+  const prev = document.getElementById('prev');
+  const next = document.getElementById('next');
+  let cur = 0;
+  function show(i) {
+    cur = Math.max(0, Math.min(phases.length - 1, i));
+    phases.forEach(function (p, j) { p.classList.toggle('active', j === cur); });
+    if (counter) counter.textContent = (cur + 1) + ' / ' + phases.length;
+    if (prev) prev.disabled = cur === 0;
+    if (next) next.disabled = cur === phases.length - 1;
+    document.querySelector('.plan-shell').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  if (prev) prev.addEventListener('click', function () { show(cur - 1); });
+  if (next) next.addEventListener('click', function () { show(cur + 1); });
+  show(0);
+})();
+</script>
+</body>
+</html>

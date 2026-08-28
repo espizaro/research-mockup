@@ -1,8 +1,10 @@
 # Research Mockup
 
 An offline, project-agnostic workspace that turns a feature idea into a researched,
-decision-backed, navigable HTML mockup — and then hands it to OpenCode with exact files,
-commands, and acceptance checks. No Figma, no server, no guessing.
+decision-backed, navigable HTML mockup — with a plan viewer that shows the reference
+screenshots (Mobbin + findings) next to each implementation phase, and a handoff with
+exact files, commands, and acceptance checks. No server, no guessing, no Figma required.
+Figma is an optional post-approval step via the companion `mockup-to-figma` skill.
 
 It ships with a seed catalog of real Mobbin screenshots so the workspace has content to
 browse from the first minute. Your project data is never mixed with anyone else's.
@@ -24,14 +26,18 @@ prints the exact command to start working — copy and paste it.
 ## What you get
 
 - **Inspiration catalog** — searchable, offline index of real app screenshots with analysis.
-- **`research-mockup` skill** — domain research → Mobbin research → UX proposal → mockup,
-  always loaded with your project's context.
+- **`research-mockup` skill** — domain research → Mobbin research → UX proposal → mockup
+  (HTML/CSS), plan viewer with reference screenshots, handoff; always loaded with your
+  project's context.
+- **`mockup-to-figma` skill** — optional post-approval translation of an approved mockup
+  into an editable Figma file (components + variables of the project).
 - **Mockup studio** — navigable HTML/CSS mockups using your app's real design tokens.
 - **Design Foundation** — if your app has no design system yet, the setup adopts a
   complete, current one for you (M3 Expressive motion, bottom sheets, typography,
   copywriting, accessibility) instead of starting from zero.
 - **Implementation handoffs** — approved plans with exact files, commands, and checks,
-  plus a visual plan viewer for vision-capable models.
+  plus an offline plan viewer (screenshots + findings per phase) for vision-capable
+  models and curious humans.
 - **ModLens vision bridge** — lets a text-only model (like DeepSeek) "see" screenshots.
 - **Two tools, one context** — research in ChatGPT/Codex and implement in OpenCode (or
   the reverse): both read the same instance, and the handoff carries everything across.

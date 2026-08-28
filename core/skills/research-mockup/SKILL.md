@@ -1,15 +1,30 @@
 ---
 name: research-mockup
-description: End-to-end research-to-mockup workflow for the current project: understand a feature's domain, concept, and outcomes; research real UX patterns on Mobbin; propose the UX; and build navigable HTML/CSS mockups that match the project's real design system — no Figma, fully offline. Use when the user asks to research a feature, redesign a screen or flow, create a mockup/prototype, or design UX. This skill is project-agnostic: it resolves the active project instance first and loads that project's context, so it never mixes apps.
+description: End-to-end research-to-mockup workflow for the current project: understand a feature's domain, concept, and outcomes; research real UX patterns on Mobbin; propose the UX; build a navigable HTML/CSS mockup with the project's real design tokens, capturing local PNG references; and deliver an offline plan viewer (screenshots + findings + steps) plus a handoff so any AI implementer (OpenCode, DeepSeek, Command Code, Codex) can implement it offline. Optionally, after user approval, bridge to Figma via the companion skill $mockup-to-figma. Use when the user asks to research a feature, redesign a screen or flow, create a mockup/prototype, or design UX. This skill is project-agnostic: it resolves the active project instance first and loads that project's context, so it never mixes apps.
 ---
 
 # Research Mockup
 
 ## Objective
 
-Build navigable HTML/CSS mockups of the current project's features that look like the
-real app: same tokens, icons, illustrations, typography, and motion. Never use Figma.
-Everything works offline by opening the studio with a double click (`file://`).
+Build navigable mockups of the current project's features that look like the real app:
+same tokens, icons, illustrations, typography, and motion. **The visual layer is built in
+the navigable HTML/CSS studio (offline, `file://`) by default** — same engine, tokens,
+light/dark, no server. After building, **capture light/dark PNGs** and **deliver a plan
+viewer that shows, per phase, the local reference screenshots (Mobbin and others) side by
+side with the text** — files, commands, checks. The plan viewer + exported captures +
+machine-readable `reference.json` are what any offline implementer reads, so the workflow
+never depends on Figma or on the implementer having vision access.
+
+Figma is an **optional final step**, not the build path: once the user approves the plan,
+offer `$mockup-to-figma` (the companion skill) to translate the approved mockup into an
+editable Figma file using the project's real components and variables. If the Figma MCP is
+unavailable or fails, the offline deliverables stand on their own — document that Figma
+was not produced and continue.
+
+The plan viewer with references is **mandatory and central**: it is what made the
+original workflow valuable — the user reads and sees the screenshots, the competition
+analysis, the findings, and gets ideas beyond the specific feature. Never skip it.
 
 If the request is only "research/propose the UX" (no mockup mentioned), still deliver
 research + findings + proposal, and continue to the mockup as the final deliverable —
@@ -71,15 +86,22 @@ switching.
 The instance folder is the shared memory between tools. You can do the research in
 ChatGPT/Codex and the implementation in OpenCode (or the reverse): both resolve the same
 instance from the same folder via Step 0, and nothing lives in chat memory. The concept
-brief, findings, mockup, plan viewer, and handoff are files both tools read. One rule:
-one tool writes at a time, and the handoff is the hand-over point.
+brief, findings, mockup, exported captures + reference JSON, plan viewer, and handoff are
+files both tools read. The mockup is built in the offline HTML/CSS studio and exported as
+local PNG captures + `reference.json` + a plan viewer with the reference screenshots, so
+any implementer — OpenCode, DeepSeek, Command Code, or Codex — reads local files and
+never needs Figma access. One rule: one tool writes at a time, and the handoff is the
+hand-over point.
 
 ## Recommended start phrase (copy / adapt)
 
 > Use $research-mockup to research <feature>: first read the module docs and do
 > domain/concept research on the web (objective, outcomes, competitors, must-have vs
 > nice-to-have), then research the flows on Mobbin, propose the UX, and build the mockup
-> in the studio; update the inspiration center and the project context.
+> in HTML/CSS with the project's design tokens; capture the PNG references, build the plan
+> viewer with the screenshots that inspired each phase, export the local reference
+> (PNG + spec JSON) and update the inspiration center and the project context. After
+> approval, offer the optional $mockup-to-figma step.
 
 ## Mandatory flow (do not skip steps)
 
@@ -94,8 +116,7 @@ one tool writes at a time, and the handoff is the hand-over point.
      web sources with URLs) BEFORE searching Mobbin; the Mobbin queries derive from the
      brief, not from the feature name. Save it to
      `<instance>/research/<feature>/concept-brief.md`.
-   - Follow `<instance>/core/skills/research-mockup/references/domain-research-protocol.md`
-     in this phase.
+   - Follow `<instance>/core/workflows/research-protocol.md` in this phase.
 
 1. **Understand the domain (mandatory, complete).**
    - Read the project docs in `<app-repo>` and the module code: contracts, main views,
@@ -112,6 +133,27 @@ one tool writes at a time, and the handoff is the hand-over point.
    - **Document cross-references:** if a surface or feature lives outside the module
      folder and is not documented, document it as part of the deliverable. New docs are
      written in English (the project standard).
+
+1A. **Pass the project Design Foundation Gate (mandatory, BEFORE Mobbin and building).**
+   - Read the repository's canonical design-system index (`docs/README.md` or the
+     project equivalent), `instance/project-rules.md`, and the design-system documents
+     relevant to the visible controls.
+   - Locate the real source components for the screen's mobile header, navigation,
+     primary action/FAB, buttons, cards, inputs, bottom sheets/overlays, typography,
+     icons, motion, safe-area ownership, and themed/domain illustrations.
+   - Write `<instance>/research/<feature>/design-foundation-audit.md`. For every visible
+     control and surface record the source component, semantic token mapping, light/dark
+     behavior, accessibility target, and evidence classification (`existing`,
+     `inferred`, `inconsistent`, or `proposed`).
+   - Record an illustration rationale: the user problem the illustration solves, the
+     semantic palette/background token, intended asset key, and why the placement is
+     not decorative. If the real asset is unavailable, use a flat project-token
+     placeholder labelled `illustration placeholder` and keep the rationale in the
+     audit.
+   - Do not start canvas construction until every visible control has a mapping or an
+     explicit `proposed` decision. “Looks similar” is not evidence.
+   - If repository code and prose disagree, preserve both facts and choose a documented
+     direction for the mockup; never silently invent a component or token.
 
 2. **Research on Mobbin** (via the `mobbin-ux-research` skill, official API):
    - Design >= 5 abstract queries: objective, structure, interaction, alternative domain,
@@ -138,24 +180,45 @@ one tool writes at a time, and the handoff is the hand-over point.
    `node "<instance>/core/tools/build-catalog.mjs"` after every sync. The studio hub
    links to the catalog, and the catalog links back to the hub.
 
-4. **Design the mockup** in `<instance>/mockups/<feature>/index.html`:
-   - `<link rel="stylesheet" href="../assets/tokens.css">` and `../assets/base.css`.
-   - Icons: `<i class="ph" data-icon="name"></i>` (embedded in `assets/icons.js`).
-   - Illustrations: `<img data-illust="key">`; dark variant with
-     `data-illust-light` / `data-illust-dark` (`assets/illustrations.js`).
-   - Register the mockup in `assets/mockups.js`.
-   - New assets: copy into `assets/`, update `core/tools/build-assets.mjs` if it applies,
-     and run `node "<instance>/core/tools/build-assets.mjs"`.
+4. **Build the mockup in HTML/CSS (default build path — mandatory, offline).**
+   - Build at `<instance>/mockups/<feature>/index.html`: `tokens.css` (exact copy of the
+     product tokens), `base.css` (semantic tokens only), icons/illustrations embedded,
+     screens/sheets/steps in `app.js`, registered in `assets/mockups.js`, assets via
+     `build-assets.mjs`. No server, no fetch, works with double-click (`file://`).
+   - Apply the design rules below plus the `design-foundation-audit.md` mappings from
+     step 1A. Cover the states: happy path, empty, new user, success, error, light/dark.
+   - Capture light/dark PNGs under `mockups/<feature>/captures/` (headless
+     `shot-mockups.mjs`).
+   - **Figma is not the build path.** Do not require the Figma MCP to deliver. If the
+     team later wants an editable Figma version, that is a **post-approval optional
+     step** handled by the companion skill `$mockup-to-figma` (see "Approved plan ->
+     viewer + handoff" below).
 
-5. **Verify before delivering:**
-   - `node "<instance>/core/tools/check-mockups.mjs"` — 0 broken images, icons injected,
-     no errors.
-   - `node "<instance>/core/tools/shot-mockups.mjs"` — light/dark captures; visually
-     review the key screens with modlens.
+5. **Export the local reference (mandatory).** Write into
+   `<instance>/mockups/<feature>/reference.json` a machine-readable spec that any offline
+   implementer can read, covering:
+   - `screens`: paths to each light/dark PNG capture (local screenshots are the shared
+     visual reference).
+   - `tokens`: the resolved token values used (colors, spacing, radius, type roles) pulled
+     from the project's `tokens.css` — not invented values.
+   - `nodes`: a per-screen mapping of component/block -> key properties (layout, fill
+     token, radius, text style) so an implementer does not have to reverse-engineer the
+     image.
+   - `states`: which states are covered (happy, empty, new user, success, error, light/dark).
+   Save the PNG captures under `mockups/<feature>/captures/`. The reference JSON + PNGs are
+   what the handoff and plan viewer point at, so the implementer never needs Figma access.
 
-6. **Update project context.** After delivering, update
-   `instance/project-context.md` (surfaces, decision log) and, if reusable evidence was
-   produced, the `ux-knowledge-base` (date + source + tags).
+6. **Verify before delivering:**
+   - `node "<instance>/core/tools/check-mockups.mjs"` (0 broken images, icons injected,
+     no errors) and `node "<instance>/core/tools/shot-mockups.mjs"`.
+   - Visually review the captures with modlens (or the model's own vision) and confirm
+     the reference JSON lists every screen and resolves to real tokens.
+   - Confirm the plan viewer and handoff reference the **local captures** (relative
+     paths), not only a Figma URL.
+
+7. **Update project context.** After delivering, update
+   `instance/project-context.md` (surfaces, decision log, and the `figma: <fileUrl>`) and,
+   if reusable evidence was produced, the `ux-knowledge-base` (date + source + tags).
 
 ## Design rules (summary)
 
@@ -171,12 +234,23 @@ one tool writes at a time, and the handoff is the hand-over point.
 - One primary CTA per screen; cancel left / CTA right; sheet CTA sticky.
 - Never `100vh`; respect safe areas and the mobile navigation height.
 - **`instance/project-rules.md` wins over this summary wherever they differ.**
+- **The Design Foundation Audit is a hard prerequisite.** If it is missing or a
+  visible control has no mapping, stop before building and finish the audit.
+- Illustrations are semantic communication assets, not decoration. Prefer the project's
+  themed/domain catalog; placeholders must use a semantic token and include rationale.
 
 ## References
 
-- `references/mockup-studio-rules.md` — full design rules and Mobbin protocol.
-- `references/domain-research-protocol.md` — concept brief and web research protocol.
-- `references/implementation-verification.md` — post-implementation verification.
+- `core/workflows/research-protocol.md` — concept brief and web research protocol.
+- `core/workflows/mockup-studio-protocol.md` — full design rules and Mobbin protocol.
+- `core/workflows/handoff-and-opencode.md` — handoff, plan viewer, and implementer bridge.
+- `ux-knowledge-base/references/spec-for-ai-agents.md` — spec quality for AI implementers.
+- `ux-knowledge-base/references/design-foundation.md` — pre-mockup component/token/asset
+  audit and illustration rationale.
+- `core/tools/build-plan-viewer.mjs` — genera el plan viewer offline con las referencias
+  visuales por fase (screenshots locales de inspiración + capturas del mockup).
+- Figma optional: `core/skills/mockup-to-figma/SKILL.md` — traslado post-aprobación del
+  mockup aprobado a Figma (carga `figma-generate-design` / `figma-use` para la mecánica).
 
 ## Approved plan -> viewer + handoff (mandatory before implementing)
 
@@ -184,17 +258,29 @@ When the user approves a research + mockup:
 
 1. Write the **reference map** in the handoff
    (`<app-repo>/docs/implementation/<feature>-handoff.md`): a table of
-   component/decision -> local capture (path in `<instance>/screens/`) + canonical
-   Mobbin URL -> what is taken from that capture (graphic, order, margins/gaps, layout,
-   states, copy). Base it on `findings.md` and the modlens JSONs.
-2. Create the **plan viewer**: `<instance>/mockups/plans/<id>/index.html`, half text /
-   half references, navigable by phase (chips + previous/next), local images, Mobbin
-   links, no fetch (file://). Each phase includes the fields `files` (exact paths to
-   read/edit/create/delete, including i18n and stores), `commands` (exact npm/rg
-   commands), and `checks` (verifiable criteria for that phase).
+   component/decision -> local capture (the exported PNG under `mockups/<feature>/captures/`
+   and the `reference.json` node entry) + canonical Mobbin URL -> what is taken from that
+   capture (graphic, order, margins/gaps, layout, states, copy). Base it on `findings.md`,
+   the modlens JSONs, and `mockups/<feature>/reference.json`. The local captures and
+   reference JSON are the source of truth.
+2. Create the **plan viewer** with `node "<instance>/core/tools/build-plan-viewer.mjs"
+   <plan.json>`: `<instance>/mockups/plans/<id>/index.html`, half text / half references,
+   navigable by phase (chips + previous/next), **local reference images (the Mobbin
+   screenshots and the mockup PNG captures, never a Figma URL dependency)**, Mobbin links,
+   no fetch (file://). Each phase includes the fields `files` (exact paths to read/edit/
+   create/delete, including i18n and stores), `commands` (exact npm/rg commands), `checks`
+   (verifiable criteria), and `refs` (the screenshots that inspired the phase, with
+   caption + canonical Mobbin URL). The `refs` are **mandatory per phase** — the plan
+   viewer is the place where the user sees the screenshots and findings that drive the
+   creative process.
 3. Register the plan in the hub ("Approved plans" section in `mockups/index.html` and
-   `mockups/plans/index.html`).
-4. The handoff must also include: the **Step -> Files -> Commands -> Acceptance check**
+   `mockups/plans/index.html`), linking to the features' local captures.
+4. **Offer the optional Figma step (after approval).** Tell the user:
+   "¿Quieres trasladar este mockup aprobado a Figma (componentes editables con los tokens
+   del proyecto)? Puedo hacerlo con $mockup-to-figma." Only if the user says yes — and
+   only if the Figma MCP is available — run the companion skill. The offline deliverables
+   (plan viewer, captures, handoff) are complete without this step.
+5. The handoff must also include: the **Step -> Files -> Commands -> Acceptance check**
    table (one row per step, with exact i18n/store files and commands), the
    "Spec quality checklist" (see `ux-knowledge-base/references/spec-for-ai-agents.md`),
    and a note on cross-module surfaces if another module consumes the contracts being
@@ -209,15 +295,16 @@ freeze there during the handoff (Scope + Acceptance criteria) so implementers re
 ## Implementation verification (mandatory)
 
 When an approved plan moves to implementation (this workspace, OpenCode, or another
-agent), the implementer must follow `references/implementation-verification.md` and, at
+agent), the implementer must follow `core/workflows/handoff-and-opencode.md` and, at
 minimum:
 
 1. **Walk the flow map of the handoff:** every tap, button, and CTA must lead exactly to
    the specified destination. Honor the hard navigation rules from
    `instance/project-rules.md`.
 2. **Compare visually against the mockup** (not just "it works"): app captures in
-   light/dark compared with the studio shots using modlens; fix layout, typography,
-   weights, containers, and copy differences before delivering.
+   light/dark compared against the exported studio captures
+   (`mockups/<feature>/captures/`) using modlens; fix layout, typography, weights,
+   containers, and copy differences before delivering.
 3. **Run the suite:** typecheck, lint of touched files, module tests, and the studio
    verification scripts (`check-mockups.mjs`, `shot-*.mjs`).
 4. **Document deviations:** if the code contradicts the plan, the plan wins; document and

@@ -9,6 +9,7 @@ project-specific instance generated from the Research Mockup template.
 2. `instance/project-rules.md` — design constraints, frozen surfaces, navigation rules.
 3. `core/skills/ux-knowledge-base/references/INDEX.md`, then only the relevant topic files.
 4. `core/skills/research-mockup/SKILL.md` for the full research-to-mockup protocol.
+5. `core/skills/mockup-to-figma/SKILL.md` only for the optional post-approval Figma step.
 
 ## Rules
 
@@ -16,5 +17,7 @@ project-specific instance generated from the Research Mockup template.
   and be recorded in `instance/project-context.md` (decision log).
 - Update the inspiration center after every research cycle
   (`node core/tools/build-catalog.mjs`).
+- Approved plans always generate the offline plan viewer with local reference screenshots
+  (`node core/tools/build-plan-viewer.mjs <plan.json>`).
 - Everything written into this repository is in English.
 - Never commit secrets; the Mobbin key lives in `instance/.env` (git-ignored).

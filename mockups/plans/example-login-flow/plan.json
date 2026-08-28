@@ -1,0 +1,78 @@
+{
+  "id": "example-login-flow",
+  "title": "Flujo de login biométrico — ejemplo",
+  "summary": "Plan de ejemplo generado por build-plan-viewer.mjs. Muestra cómo cada fase referencia screenshots locales de inspiración (Mobbin) junto al texto del plan, 100% offline.",
+  "meta": {
+    "date": "2026-08-28"
+  },
+  "tags": [
+    "auth",
+    "biometric",
+    "ejemplo"
+  ],
+  "phases": [
+    {
+      "title": "Pantalla de login con biometría",
+      "summary": "Reutiliza el patrón de la pantalla inicial con CTA primario y opción de Face ID.",
+      "goal": "Construir la pantalla de login con la biometría como acción secundaria destacada y el email/password como flujo alterno.",
+      "files": [
+        "src/features/auth/LoginScreen.tsx",
+        "src/features/auth/LoginScreen.module.css",
+        "src/core/i18n/en.json",
+        "src/core/i18n/es.json"
+      ],
+      "commands": [
+        "npm run typecheck",
+        "npm run lint",
+        "rg -n \"biometric|faceId\" src/features/auth"
+      ],
+      "checks": [
+        "El CTA primario es Continuar con email",
+        "Face ID aparece como botón secundario con icono correcto",
+        "Dark mode sin sombras ni bordes en tarjetas"
+      ],
+      "notes": "La biometría nunca debe ser el único método: siempre deja el email/password visible.",
+      "refs": [
+        {
+          "path": "screens/auth-login-biometric/01 - Tolan.webp",
+          "caption": "Tolan — login con biometría como acción secundaria",
+          "url": "https://mobbin.com/screens/tolan-login",
+          "sourceLabel": "ver en Mobbin"
+        },
+        {
+          "path": "screens/auth-login-social/02 - Dave.webp",
+          "caption": "Dave — estructura con CTA primario + alternativas",
+          "url": "https://mobbin.com/screens/dave-login",
+          "sourceLabel": "ver en Mobbin"
+        }
+      ]
+    },
+    {
+      "title": "Validación biométrica (éxito / error)",
+      "summary": "Estados de éxito y error con la misma estructura de tarjetas.",
+      "goal": "Mostrar el feedback inmediato tras validar la huella o Face ID, sin pantalla intermedia.",
+      "files": [
+        "src/features/auth/BiometricPrompt.tsx",
+        "src/features/auth/BiometricPrompt.module.css",
+        "src/core/i18n/en.json",
+        "src/core/i18n/es.json"
+      ],
+      "commands": [
+        "npm run typecheck",
+        "npm run test:run"
+      ],
+      "checks": [
+        "Estado de error con mensaje claro y botón de reintento",
+        "Sin spinner infinito: 2s máx de espera",
+        "Accesibilidad: anuncio de resultado al completar"
+      ],
+      "refs": [
+        {
+          "path": "screens/auth-login-otp/03 - Dave.webp",
+          "caption": "Feedback de validación con estado claro",
+          "url": "https://mobbin.com/screens/dave-otp"
+        }
+      ]
+    }
+  ]
+}
