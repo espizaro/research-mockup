@@ -51,8 +51,9 @@ function Write-Utf8NoBom([string]$path, [string]$content) {
 
 Write-Host ''
 Write-Host '  Research Mockup - project setup' -ForegroundColor Cyan
-Write-Host '  Turns a feature idea into researched, decision-backed, navigable mockups,'
-Write-Host '  then hands the work to OpenCode with exact files, commands and checks.'
+Write-Host '  One command, guided step by step: turns this folder into your research +'
+Write-Host '  mockup workspace, installs the skills for ChatGPT/Codex and/or Cursor,'
+Write-Host '  and sets everything up for you.'
 Write-Host ''
 
 $choices = $null
@@ -62,6 +63,17 @@ if ($Update) {
     throw 'No previous setup found. Run .\setup.ps1 (full setup) at least once before updating.'
   }
   $choices = Get-Content -Raw -LiteralPath $choicesFile -Encoding UTF8 | ConvertFrom-Json
+  # Cargar preferencias guardadas (default: conservar instalación previa de Codex).
+  if ($null -eq $choices.useCodex) { $choices | Add-Member -NotePropertyName useCodex -NotePropertyValue $true }
+  if ($null -eq $choices.useCursor) { $choices | Add-Member -NotePropertyName useCursor -NotePropertyValue $false }
+  Write-Host ''
+  $destChoice = AskChoice -prompt 'Where do you want the skills installed for this update?' -options @(
+    "Both ChatGPT desktop app and Cursor (currently: $($choices.useCodex) / $($choices.useCursor))",
+    'Only the ChatGPT desktop app',
+    'Only Cursor'
+  ) -defaultIndex 1
+  $choices.useCodex = ($destChoice -ne 3)
+  $choices.useCursor = ($destChoice -ne 2)
   Write-Host 'Re-rendering skills and context from the updated template using your saved choices.'
   Write-Host 'Your screens/, research/ and mockup data are not touched.'
 } else {
@@ -69,6 +81,10 @@ if ($Update) {
   Write-Host 'Each question is explained in plain language. Press Enter to accept the'
   Write-Host 'recommended answer.'
 }
+
+# Definir siempre antes de la sección de instalación (también sirve en -Update).
+$useCodex = $choices.useCodex
+$useCursor = $choices.useCursor
 
 if (-not $Update) {
   # ---------------------------------------------------------------- environment
@@ -86,16 +102,29 @@ if (-not $Update) {
   Write-Host "OK: Node.js $(node --version), Git $(git --version)."
 
   # ---------------------------------------------------------------- agent
-  Write-Section 'Step 2 of 5 - Choose the AI agent'
+  Write-Section 'Step 2 of 5 - Choose where you will use this workspace'
 
   Write-Host ''
   Write-Host 'OpenCode is a coding agent you run from a terminal (or its desktop app).'
   Write-Host 'It reads this workspace, can see files, and writes code for you.'
-  $engineChoice = AskChoice -prompt 'Which agent do you want to use?' -options @(
-    'OpenCode (recommended - works with cheap models and is guided by this repo)',
-    'Codex inside the ChatGPT desktop app (needs a ChatGPT account; simpler chat, less automation)'
+  Write-Host 'Cursor is the coding editor used at many companies - it can also read this'
+  Write-Host 'workspace, use the skills, and follow the handoffs.'
+  $agentsChoice = AskChoice -prompt 'Where do you want to use this workspace?' -options @(
+    'Both ChatGPT desktop app and Cursor (recommended)',
+    'Only the ChatGPT desktop app',
+    'Only Cursor'
   ) -defaultIndex 1
-  $useOpenCode = ($engineChoice -eq 1)
+  $useCodex = ($agentsChoice -ne 3)
+  $useCursor = ($agentsChoice -ne 2)
+
+  $useOpenCode = $false
+  if ($useCodex) {
+    $engineChoice = AskChoice -prompt 'Inside ChatGPT, which agent do you prefer?' -options @(
+      'Codex (recommended - reads this workspace and its skills)',
+      'OpenCode (terminal agent, also guided by this repo)'
+    ) -defaultIndex 1
+    $useOpenCode = ($engineChoice -eq 2)
+  }
 
   $useVisionModel = $true
   if ($useOpenCode) {
@@ -119,7 +148,11 @@ if (-not $Update) {
     ) -defaultIndex 1
     $useVisionModel = ($modelChoice -eq 1)
   } else {
-    Write-Host 'Codex in the ChatGPT app can see images by default. No extra vision setup needed.'
+    if ($useCodex) {
+      Write-Host 'Codex in the ChatGPT app can see images by default. No extra vision setup needed.'
+    } else {
+      Write-Host 'Cursor models can see images by default. No extra vision setup needed.'
+    }
   }
 
   $modlensProvider = ''
@@ -246,6 +279,8 @@ if (-not $Update) {
     lang = $lang
     designOwnership = $designOwnership
     tokensSource = $tokensSource
+    useCodex = $useCodex
+    useCursor = $useCursor
     useOpenCode = $useOpenCode
     useVisionModel = $useVisionModel
     modlensProvider = $modlensProvider
@@ -338,24 +373,64 @@ if ($choices.designOwnership -ne 'foundation' -and $choices.tokensSource -and (T
 
 # ---------------------------------------------------------------- render + install skills
 $skillSource = Join-Path $core 'skills'
-$skillTargets = @(
-  (Join-Path $env:USERPROFILE '.codex\skills'),
-  (Join-Path $env:USERPROFILE '.config\opencode\skills'),
-  (Join-Path $repo '.agents\skills')
-)
+$skillTargets = @()
+if ($useCodex) {
+  $skillTargets += (Join-Path $env:USERPROFILE '.codex\skills')
+  $skillTargets += (Join-Path $env:USERPROFILE '.config\opencode\skills')
+  $skillTargets += (Join-Path $repo '.agents\skills')
+}
+if ($useCursor) {
+  # Cursor descubre skills por proyecto (.cursor/skills dentro del repo) y globales.
+  $skillTargets += (Join-Path $repo '.cursor\skills')
+  $skillTargets += (Join-Path $env:USERPROFILE '.cursor\skills')
+}
 
-Get-ChildItem -LiteralPath $skillSource -Directory | ForEach-Object {
-  $skillDir = $_.FullName
-  Get-ChildItem -LiteralPath $skillDir -Recurse -File | ForEach-Object {
-    $rel = $_.FullName.Substring($skillSource.Length + 1)
-    $content = Get-Content -Raw -LiteralPath $_.FullName -Encoding UTF8
-    foreach ($target in $skillTargets) {
-      $dest = Join-Path $target $rel
-      New-Item -ItemType Directory -Force -Path (Split-Path $dest) | Out-Null
-      Write-Utf8NoBom $dest $content
+if ($skillTargets.Count -gt 0) {
+  Get-ChildItem -LiteralPath $skillSource -Directory | ForEach-Object {
+    $skillDir = $_.FullName
+    Get-ChildItem -LiteralPath $skillDir -Recurse -File | ForEach-Object {
+      $rel = $_.FullName.Substring($skillSource.Length + 1)
+      $content = Get-Content -Raw -LiteralPath $_.FullName -Encoding UTF8
+      foreach ($target in $skillTargets) {
+        $dest = Join-Path $target $rel
+        New-Item -ItemType Directory -Force -Path (Split-Path $dest) | Out-Null
+        Write-Utf8NoBom $dest $content
+      }
     }
+    Write-Host "Installed skill: $($_.Name)"
   }
-  Write-Host "Installed skill: $($_.Name)"
+} else {
+  Write-Host 'No skills installed (no target selected).' -ForegroundColor Yellow
+}
+
+# ---------------------------------------------------------------- cursor rules (optional)
+if ($useCursor) {
+  $cursorRulesDir = Join-Path $repo '.cursor\rules'
+  New-Item -ItemType Directory -Force -Path $cursorRulesDir | Out-Null
+  $cursorRules = @'
+---
+description: Research Mockup workspace - use these skills for UX research, mockups, plans and handoffs.
+globs: **/*
+---
+
+This workspace includes the Research Mockup skills. When the user asks to research a feature,
+redesign a screen/flow, create a mockup/prototype, or plan UX work, use the `research-mockup`
+skill instructions in this repository:
+
+1. `.cursor/skills/research-mockup/SKILL.md` (also at `core/skills/research-mockup/SKILL.md`) -
+   read it fully before starting. It resolves the active project instance, runs the domain +
+   Mobbin research, builds the HTML/CSS mockup, and produces the plan viewer + handoff.
+2. `core/skills/mockup-to-figma/SKILL.md` - only for the optional post-approval Figma step.
+3. `core/skills/ux-knowledge-base/references/INDEX.md` - load only the relevant topic files.
+4. `instance/project-context.md` and `instance/project-rules.md` - project identity, tokens,
+   frozen surfaces and decision log.
+
+Deliverables to always produce: the offline plan viewer (`mockups/plans/<id>/index.html`)
+with the reference screenshots per phase, the `reference.json`, and the implementation
+handoff. Never depend on Figma to complete the workflow; Figma is optional post-approval.
+'@
+  Write-Utf8NoBom (Join-Path $cursorRulesDir 'research-mockup.mdc') $cursorRules
+  Write-Host 'Installed Cursor rule: .cursor/rules/research-mockup.mdc'
 }
 
 # ---------------------------------------------------------------- registry (multi-project)
@@ -421,18 +496,26 @@ Write-Host "Registered projects: $(($instances | ForEach-Object { $_.name }) -jo
 Write-Host 'To switch apps, open a session in that app folder instead.'
 Write-Host ''
 
-if ($choices.useOpenCode) {
+if ($choices.useCodex -and $choices.useOpenCode) {
   Write-Host 'Open the OpenCode desktop app (Windows), open this folder as your project, and paste:'
   Write-Host ''
   Write-Host "  Use the `$research-mockup skill to research a feature in $($choices.appName):"
   Write-Host '  domain and concept first, Mobbin research, proposal, then a mockup in the studio.'
   Write-Host ''
   Write-Host 'No @ or $ prefix is needed - OpenCode discovers the skill automatically in this folder.'
-} else {
+} elseif ($choices.useCodex) {
   Write-Host 'Open the ChatGPT desktop app, open this folder, and paste:'
   Write-Host ''
-  Write-Host "  Use the `$research-mockup skill to research a feature in $($choices.appName):"
+  Write-Host "  Use the $research-mockup skill to research a feature in $($choices.appName):"
   Write-Host '  domain and concept first, Mobbin research, proposal, then a mockup in the studio.'
+}
+
+if ($choices.useCursor) {
+  Write-Host ''
+  Write-Host 'Open this folder in Cursor and the Research Mockup skills are loaded automatically:'
+  Write-Host '  - Skills: ~/.cursor/skills/ (research-mockup, mockup-to-figma, mobbin-ux-research, ux-knowledge-base)'
+  Write-Host '  - Rule:   .cursor/rules/research-mockup.mdc in this repository'
+  Write-Host 'Just ask Cursor to research a feature and build the mockup; it will follow the skill.'
 }
 
 if ($choices.greenfield) {

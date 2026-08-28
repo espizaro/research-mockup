@@ -1,0 +1,20 @@
+---
+description: Research Mockup workspace - use these skills for UX research, mockups, plans and handoffs.
+globs: **/*
+---
+
+This workspace includes the Research Mockup skills. When the user asks to research a feature,
+redesign a screen/flow, create a mockup/prototype, or plan UX work, use the `research-mockup`
+skill instructions in this repository:
+
+1. `core/skills/research-mockup/SKILL.md` - read it fully before starting. It resolves the
+   active project instance, runs the domain + Mobbin research, builds the HTML/CSS mockup,
+   and produces the plan viewer + handoff.
+2. `core/skills/mockup-to-figma/SKILL.md` - only for the optional post-approval Figma step.
+3. `core/skills/ux-knowledge-base/references/INDEX.md` - load only the relevant topic files.
+4. `instance/project-context.md` and `instance/project-rules.md` - project identity, tokens,
+   frozen surfaces and decision log.
+
+Deliverables to always produce: the offline plan viewer (`mockups/plans/<id>/index.html`)
+with the reference screenshots per phase, the `reference.json`, and the implementation
+handoff. Never depend on Figma to complete the workflow; Figma is optional post-approval.
